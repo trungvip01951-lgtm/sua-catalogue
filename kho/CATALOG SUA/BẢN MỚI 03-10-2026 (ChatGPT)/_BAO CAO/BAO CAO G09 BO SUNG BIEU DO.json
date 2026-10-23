@@ -1,0 +1,322 @@
+[
+ {
+  "stt": "KTZ415 / 50 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 3,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Q cuối: +3.690 m³/h, giới hạn 1.680",
+  "new": "H đầu 56; Q/H định mức 60/42; Q cuối 84",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "KTZ411 / 50 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 3,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Q cuối: +3.690 m³/h, giới hạn 1.680",
+  "new": "H đầu 48.5; Q/H định mức 60/35; Q cuối 84",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "KTZ47.5 / 50 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 3,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +1.410 m, giới hạn 1.000; Q cuối: +3.690 m³/h, giới hạn 1.680",
+  "new": "H đầu 40; Q/H định mức 48/30; Q cuối 84",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "KTZ22.2 / 60 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 4,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Q cuối: +2.526 m³/h, giới hạn 1.000",
+  "new": "H đầu 28; Q/H định mức 18/20; Q cuối 31",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "KTZ67.5 / 60 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 4,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "H đầu: -1.811 m, giới hạn 1.000",
+  "new": "H đầu 31; Q/H định mức 90/15; Q cuối 127",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH6110 / 50 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +3.036 m, giới hạn 3.000",
+  "new": "H đầu 200; Q/H định mức 120/150; Q cuối 192",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH655 / 50 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +3.314 m, giới hạn 1.800",
+  "new": "H đầu 102; Q/H định mức 90/90; Q cuối 180",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH645 / 50 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: -2.395 m, giới hạn 1.500",
+  "new": "H đầu 90; Q/H định mức 120/75; Q cuối 220",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH430 / 50 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Q cuối: +4.804 m³/h, giới hạn 3.400",
+  "new": "H đầu 78; Q/H định mức 72/70; Q cuối 170",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH855 / 50 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +1.040 m, giới hạn 1.000",
+  "new": "H đầu 65; Q/H định mức 240/50; Q cuối 390",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH655 / 60 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +3.304 m, giới hạn 1.800",
+  "new": "H đầu 102; Q/H định mức 90/90; Q cuối 180",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH645 / 60 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +2.598 m, giới hạn 1.500",
+  "new": "H đầu 90; Q/H định mức 100/75; Q cuối 198",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH422 / 60 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Q cuối: -3.554 m³/h, giới hạn 2.760",
+  "new": "H đầu 68; Q/H định mức 66/60; Q cuối 138",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH622 / 60 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: -1.465 m, giới hạn 1.000",
+  "new": "H đầu 52; Q/H định mức 120/40; Q cuối 210",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH855 / 60 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +1.038 m, giới hạn 1.000",
+  "new": "H đầu 65; Q/H định mức 240/50; Q cuối 390",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH845 / 60 Hz",
+  "file": "KTZ - LH Perotac (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: -1.117 m, giới hạn 1.000",
+  "new": "H đầu 56; Q/H định mức 270/35; Q cuối 305",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "KTZ415 / 50 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 3,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Q cuối: +3.690 m³/h, giới hạn 1.680",
+  "new": "H đầu 56; Q/H định mức 60/42; Q cuối 84",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "KTZ411 / 50 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 3,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Q cuối: +3.690 m³/h, giới hạn 1.680",
+  "new": "H đầu 48.5; Q/H định mức 60/35; Q cuối 84",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "KTZ47.5 / 50 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 3,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +1.410 m, giới hạn 1.000; Q cuối: +3.690 m³/h, giới hạn 1.680",
+  "new": "H đầu 40; Q/H định mức 48/30; Q cuối 84",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "KTZ22.2 / 60 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 4,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Q cuối: +2.526 m³/h, giới hạn 1.000",
+  "new": "H đầu 28; Q/H định mức 18/20; Q cuối 31",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "KTZ67.5 / 60 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 4,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "H đầu: -1.811 m, giới hạn 1.000",
+  "new": "H đầu 31; Q/H định mức 90/15; Q cuối 127",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH6110 / 50 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +3.036 m, giới hạn 3.000",
+  "new": "H đầu 200; Q/H định mức 120/150; Q cuối 192",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH655 / 50 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +3.314 m, giới hạn 1.800",
+  "new": "H đầu 102; Q/H định mức 90/90; Q cuối 180",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH645 / 50 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: -2.395 m, giới hạn 1.500",
+  "new": "H đầu 90; Q/H định mức 120/75; Q cuối 220",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH430 / 50 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Q cuối: +4.804 m³/h, giới hạn 3.400",
+  "new": "H đầu 78; Q/H định mức 72/70; Q cuối 170",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH855 / 50 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +1.040 m, giới hạn 1.000",
+  "new": "H đầu 65; Q/H định mức 240/50; Q cuối 390",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH655 / 60 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +3.305 m, giới hạn 1.800",
+  "new": "H đầu 102; Q/H định mức 90/90; Q cuối 180",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH645 / 60 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +2.597 m, giới hạn 1.500",
+  "new": "H đầu 90; Q/H định mức 100/75; Q cuối 198",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH422 / 60 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Q cuối: -3.554 m³/h, giới hạn 2.760",
+  "new": "H đầu 68; Q/H định mức 66/60; Q cuối 138",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH622 / 60 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: -1.466 m, giới hạn 1.000",
+  "new": "H đầu 52; Q/H định mức 120/40; Q cuối 210",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH855 / 60 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: +1.038 m, giới hạn 1.000",
+  "new": "H đầu 65; Q/H định mức 240/50; Q cuối 390",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ },
+ {
+  "stt": "LH845 / 60 Hz",
+  "file": "KTZ - LH Redpump (bản mới).pdf",
+  "page": 7,
+  "item": "Chỉnh nét gốc theo các neo bảng, giữ H cuối nguồn",
+  "old": "Điểm định mức: -1.117 m, giới hạn 1.000",
+  "new": "H đầu 56; Q/H định mức 270/35; Q cuối 305",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09 Bieu do.png; G09/DO DUONG/DOI CHIEU MAU1.json"
+ }
+]

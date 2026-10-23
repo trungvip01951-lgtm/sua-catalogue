@@ -1,0 +1,64 @@
+﻿PROMPT NHÓM G01 – Aquaris SP – chữ, số trong bảng, tên model
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf')   (thư mục Giếng)
+  Ra:  S.dst('Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf')   → job = S.job('Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1: ÍT NỘI DUNG / HÌNH; trang 2–32: CHỮ NÉT VẼ
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 1 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 15, 17, 19, 21, 23, 25, 27, 29, 31 | Mục "Warranty" (Bảo hành) | Warranty: 1 year | Warranty: 2 years (bảo hành 2 năm) | Anh Trung chốt 02/10 |
+| 2 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 15, 17, 19, 21, 23, 25, 27, 29, 31 | Bảng vật liệu – hàng 1 | Components (trùng tiêu đề) | Delivery casing (đầu xả) | NV trả lời (file câu hỏi 02/10) |
+| 3 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 15, 17, 19, 21, 23, 25, 27, 29, 31 | Bảng vật liệu – hàng 13 | Shaft | Motor shaft (trục động cơ) | Anh Trung chốt 02/10 |
+| 4 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 15, 17, 19, 21, 23, 25, 27, 29, 31 | Bảng vật liệu – hàng 6 Shaft, hàng 7 Shaft coupling | ①AISI 316 ②AISI 304ss | AISI 316ss (inox 316) | Anh Trung chốt 02/10 |
+| 5 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 3, 4 | Dòng "Outlet" (cửa xả) trên bảng thông số | G2¼ | G1¼" (ghi cùng kiểu trang bơm 4") | Anh Trung chốt 02/10 |
+| 6 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 16 | Dòng chữ trên bảng thông số | Diffuser height: 56mm | Diffuser height: 45mm | Anh Trung chốt 02/10 |
+| 7 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 24, 26 | Dòng chữ trên bảng thông số | Diffuser height: 104mm | Xoá dòng này | Anh Trung chốt 02/10 |
+| 8 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 5 | Bảng thông số – cột áp (m), 4SP2-18, cột 2.5 m³/h | 66 | 60 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt) | Anh Trung chốt 02/10 |
+| 9 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 16 | Bảng thông số – cột áp (m), 6SP20-8, cột 30 m³/h | 29 | 25–26 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt) | Anh Trung chốt 02/10 |
+| 10 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 22 | Bảng thông số – cột áp (m), 6SP60-13, cột 40 m³/h | 163 | 134 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt) | Anh Trung chốt 02/10 |
+| 11 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 22 | Bảng thông số – cột áp (m), 6SP60-12, cột 45 m³/h | 112 | 116 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt) | Anh Trung chốt 02/10 |
+| 12 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 26 | Bảng thông số – cột áp (m), 8SP95-08, cột 95 m³/h | 93 | 96 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt) | Anh Trung chốt 02/10 |
+| 13 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 28 | Bảng thông số – cột áp (m), 8SP120-02, cột 150 m³/h | 9 | 6–7 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt) | Anh Trung chốt 02/10 |
+| 14 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 30 | Bảng thông số – cột áp (m), 10SP125-05, cột 140 m³/h | 95 | 84 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt) | Anh Trung chốt 02/10 |
+| 15 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 32 | Bảng thông số – cột áp (m), 10SP160-03, cột 180 m³/h | 52 | 54 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt) | Anh Trung chốt 02/10 |
+| 16 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 3–14, 16–32 | Sơ đồ ký hiệu model: dòng "Motor power (Kw)" | (Kw) | (kW) | Quy tắc chung (anh chốt: áp tất cả catalogue) |
+| 17 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 3–14, 16–32 | Đầu cột công suất trong bảng thông số | KW, Hp | kW, HP | Quy tắc chung (anh chốt: áp tất cả catalogue) |
+| 18 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | Cả file | Chân trang góc dưới trái | Aquaris S.r.l | Aquaris S.r.l. | Quy tắc chung (anh chốt: áp tất cả catalogue) |
+| 19 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 6–11, 20–32 | Tên model trong bảng (69 tên có số 0 ở đầu) | vd 4SP3-06, 5SP10-08, 8SP77-03, 10SP160-09 | 4SP3-6, 5SP10-8, 8SP77-3, 10SP160-9 | Quy tắc chung (anh chốt: áp tất cả catalogue) |
+
+Số việc phải SỬA: 19. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- File vào: bản mới Aquaris SP (đã có sẵn 52 chỗ sửa ngày 01/10 – KHÔNG làm lại, vd "818→815" đã xong).
+- Cả file là CHỮ NÉT VẼ (không có lớp chữ). Dùng OutlineText/Job.outline_*. Học (learn) đúng các trang cần sửa.
+- #1 Bảo hành ở 9 trang giới thiệu (PDF 15,17,…,31): dòng "Warranty: 1 year" → "Warranty: 2 years", align='left'
+  (giữ đầu dòng; chép chữ '2' và 's' cùng kiểu chữ của dòng đó).
+- #2 Bảng vật liệu: có 2 chữ "Components" – cái trên là TIÊU ĐỀ cột (giữ), cái dưới là hàng 1 → "Delivery casing" (align left).
+- #3 Bảng vật liệu: có 2 chữ "Shaft" đứng riêng – hàng 6 (phía trên, giữ) và hàng 13 (phía dưới, gần "Thrust bearing") → "Motor shaft".
+- #4 Ô vật liệu của hàng 6 "Shaft" và hàng 7 "Shaft coupling": đang "①AISI 316 ②AISI 304ss" → "AISI 316ss".
+  Ký hiệu ① ② có thể được đọc là '1' '2' hoặc '?'. Xoá cả ô (từ ① tới "ss") rồi viết "AISI 316ss" bắt đầu
+  đúng mép trái như các ô chỉ có một vật liệu (vd ô "AISI 304ss" của hàng "Motorr external casing").
+- #5 Trang 3, 4: "Outlet: G2¼"" → chỉ đổi chữ số '2' thành '1' (giữ ¼ và dấu ").
+- #6 Trang 16: "Diffuser height: 56mm" → "45mm" (chỉ đổi 2 chữ số).
+- #7 Trang 24, 26: có 2 dòng Diffuser height (128mm và 104mm) → chỉ xoá dòng "Diffuser height: 104mm".
+- #8–#15 (8 ô cột áp): số mới chốt theo cách: (1) tính cột áp/tầng của các model khác CÙNG cột lưu lượng
+  (trung vị), nhân số tầng của model đó, làm tròn; (2) thử khớp đường cong của hàng đó (charts.Chart.fit_poly
+  trên các điểm của hàng) – chọn số nguyên gần đường cong nhất và nằm trong khoảng đề xuất (vd "25–26",
+  "6–7"). Ghi rõ cách tính. Số đề xuất trong bảng phương án là số đã tính sẵn theo tỉ lệ.
+- #16 Sơ đồ ký hiệu model: "Motor power (Kw)" → "(kW)" ở mọi trang có sơ đồ (3–14, 16–32). Cần chữ 'k'
+  thường và 'W' hoa cùng kiểu chữ của sơ đồ; catfix tự tìm cỡ khác nếu thiếu.
+- #17 Đầu cột bảng (chữ trắng trên nền xanh): "KW" → "kW", "Hp" → "HP".
+- #18 Chân trang mọi trang: "Aquaris S.r.l" → "Aquaris S.r.l." (chỉ thêm dấu chấm cuối, align left).
+  Bộ đọc có thể đọc nhầm chữ trắng nhỏ ở chân trang (vd "Acuatis S.t.l") → dùng
+  T.teach(trang, rect_chân_trang, '<số trang> Aquaris S.r.l') rồi mới find.
+- #19 Tên model có số 0 ở đầu trong cột TYPE (trang 6–11, 20–32): tổng phải đúng 69 tên. Dùng regex
+  r'(\d+SP\d+)-0(\d)' → r'\1-\2', align='center' (cột TYPE căn giữa – kiểm bằng T.guess_align).
+  Nhãn đường cong trên biểu đồ để nhóm G02 làm.
+- Ở mỗi trang: số chỗ sửa phải bằng số dự kiến; in danh sách chỗ đã sửa (trang, chữ cũ → mới).
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G01.png") và báo cáo S.report("BAO CAO G01.md"); ghi S.progress("G01", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

@@ -1,0 +1,7 @@
+# SL trang2 bảng23 và3đường đã lưu
+
+Đã nhận đúng byte CATFIX bản SL4f510b5e: trang2 sửa23 ô số nguyên và3 đường theo bảng mới;148 ô/12 đường giữ,171 mốc đã kiểm,156 cặp giảm và30 đầu/cuối giữ. Chữ cùng nguồn/cỡ/màu,đường mượt đồng nét;ROOT và Sol xem ảnh PDF thật.192 đối tượng cũ giữ toàn graph/luồng thô/giải mã và25 ảnh mới đúng mẫu;11 luồng trang,8ảnh khớp. Nghiệm thu ảnh quét đúng PROMPT CHUNG thr48/min2,pad0,dpi200: ngoài11trang rỗng. Chẩn đoán thr0 vẫn FAIL290/max14,không sửa số báo cáo;600 ngoài hai bảng0. Không nhận toànSL/G04,135/149 việc gốc giữ. Rà tiếp3SL4/4SL2/4SL10 còn26 ô đề xuất và đồ họa/phông khác;SP12 ô/40 nhãn đang làm,Excel/CDX/SA còn.25nguồn/24bản khác giữ;bản cũ vàsổ/danhmục/checkpoint sao lưu.
+
+Hồ sơ: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G04\SL PAGE2 TABLE23 THREECURVE DA NGHIEM THU DA LUU 20261004T125043Z-f5c2d7\04 ROOT DA NHAN EXACT SL23 THREECURVE.json
+
+Hướng dẫn gốc 01_PROMPT_CHUNG mục nghiệmthu2 ghi "(file ảnh quét: thr=48, min_size=2)". Đọc đúng nguồn ảnhquét/chữnét để dùng tham số tươngứng;không tự dùng chẩnđoán ngưỡng0 thành tiêu chuẩn anh giao. Giữ FAIL0 và tách kết quả48 rõ,không xóa lịch sử lỗi. Trườnghợp này290điểm max14 ở chínhôsố đang sửa,cáchlưới≥4,084pixel200;2bảng600 ngoài0;ROOT vàSol đánhgiá hình thức độclập trướcSave vàtệp đãlưu. Không dùng ngưỡng48 để bỏqua lệch dữliệu/sai chữ/nét hoặc chấtlượng nhìnthấy.

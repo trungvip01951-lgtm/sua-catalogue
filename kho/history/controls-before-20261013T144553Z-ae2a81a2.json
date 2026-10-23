@@ -1,0 +1,292 @@
+{
+  "sealed_utc": "20261010T034548Z",
+  "files": [
+    {
+      "relative_path": "README.md",
+      "sha256": "ab9d874e55af2dcf5286467900d9732de69fde9847d167d241e6bff4129cf65b",
+      "bytes": 2512
+    },
+    {
+      "relative_path": "START_HERE.md",
+      "sha256": "4475afb2c6f7deb124a6d48f87eab6887281bf109be9da419002c6a5f5861acf",
+      "bytes": 7616
+    },
+    {
+      "relative_path": "AGENTS.md",
+      "sha256": "bbc00457963bbdc069c9fd34ec6560e099104244fbe87700bc207df431a0a9d2",
+      "bytes": 7229
+    },
+    {
+      "relative_path": "CLAUDE.md",
+      "sha256": "5d899f30a7fefcf30abb13ecaa338930d053ff3688f9a13ca15e51ce3d5d8697",
+      "bytes": 2766
+    },
+    {
+      "relative_path": "manifest.json",
+      "sha256": "3f06b6841c4ce598707d490eecfe6e6fc5eebfdb0c5fb8ec2a556b861bee59e7",
+      "bytes": 5037
+    },
+    {
+      "relative_path": "rules/QUY_TAC_ANH_TRUNG.md",
+      "sha256": "e4d7eff53c32dba38095ec2361af3eb7908cf7fe6280193959276a550390279e",
+      "bytes": 7628
+    },
+    {
+      "relative_path": "rules/PHOI_HOP_CHATGPT_CLAUDE.md",
+      "sha256": "103f1e9c8754b892cc98ebbff071b1ecdf7b165b2216eef25eb4878eec551719",
+      "bytes": 4139
+    },
+    {
+      "relative_path": "procedures/QUY_TRINH_SUA_VA_NGHIEM_THU.md",
+      "sha256": "2905b21300d58c0296fbfc31fedfc2d5f88f63c129246901be572754ae663013",
+      "bytes": 7317
+    },
+    {
+      "relative_path": "procedures/DUONG_DAC_TINH.md",
+      "sha256": "4b7edd6447d1ff266754dbba271d1b7bac1829144e4e0180bc6592731c791a43",
+      "bytes": 8581
+    },
+    {
+      "relative_path": "procedures/EXCEL.md",
+      "sha256": "59004177f911257e005d1533367f60478e4faba6dc66879e0612273496495bb3",
+      "bytes": 3959
+    },
+    {
+      "relative_path": "procedures/ANH_SAN_PHAM.md",
+      "sha256": "5b18ef105f88e159ed4ddc37f7c4b7786179ea6a0ed9276c15dc532d3df73ad5",
+      "bytes": 2557
+    },
+    {
+      "relative_path": "knowledge/CACH_DA_NGHIEM_THU.md",
+      "sha256": "24fefeb6f892c6948b1756b6b8ea0c57be7762f4986237900277fb025059980d",
+      "bytes": 3797
+    },
+    {
+      "relative_path": "knowledge/LOI_VA_CACH_TRANH.md",
+      "sha256": "fb1dbad4704ef20e93ca109e599ca7d801a292e8200035be632b649c53a6f45c",
+      "bytes": 18068
+    },
+    {
+      "relative_path": "knowledge/BAN_DO_MA_NGUON_VA_BANG_CHUNG.md",
+      "sha256": "91ffdf320c51a35e7a708077e2c244f6dbda8a8b16e79d2ae6b026f613538ee0",
+      "bytes": 4871
+    },
+    {
+      "relative_path": "knowledge/THAY_DOI_QUY_TAC_20261003.md",
+      "sha256": "c0f3861d4551d51514c6e7bd084c3e1413e5af13fe3bf266d636fc1e25131fbb",
+      "bytes": 2706
+    },
+    {
+      "relative_path": "templates/BAO_CAO8_COT.md",
+      "sha256": "ca342bf6e2b701172045ce8c0394ae7eb70d7cba284146c6d1d94197bfe8faf3",
+      "bytes": 844
+    },
+    {
+      "relative_path": "templates/BAN_GIAO.md",
+      "sha256": "09a172c8306eea01577f3f93b28ef683ec5d866d2ace320201c585f7fca9c1f2",
+      "bytes": 931
+    },
+    {
+      "relative_path": "templates/PHIEU_VIEC.json",
+      "sha256": "11292bd01d9ffc8034160101c51c8b2dd425a484ffc0ecde1cd4cf984c53aba8",
+      "bytes": 1186
+    },
+    {
+      "relative_path": "templates/NGHIEM_THU.json",
+      "sha256": "c2041cedf40afa4ce9941aa6fcd4bc65ae9a0543e0190bdf3f7cdcf18bb37bed",
+      "bytes": 2448
+    },
+    {
+      "relative_path": "tools/catalogue.py",
+      "sha256": "f33fc66ac652e70a11943f06b410396aed1aadfb3cfd442bccf18a755d5ab25d",
+      "bytes": 13862
+    },
+    {
+      "relative_path": "tools/bootstrap_legacy.py",
+      "sha256": "228ec9755da8a0cfb56a6d49e2da18252c093f8eaafa7b101c976355b2a7eccc",
+      "bytes": 1893
+    },
+    {
+      "relative_path": "tools/refresh_index.py",
+      "sha256": "721bceaad37748388a02fdbe4e6e6b3c9081bef0afdf3f0a4b3c8460367b15f9",
+      "bytes": 5745
+    },
+    {
+      "relative_path": "tools/test_coordination.py",
+      "sha256": "f71fcaebdaa93e4732bd1ee72a86e430c2c076bdc5954270cb360dca4169bbf6",
+      "bytes": 4254
+    },
+    {
+      "relative_path": "tools/test_project_index.py",
+      "sha256": "56dd350bef68a4dd65d43954eac7f0c2606405d235a75f9253b2d3f764e533cd",
+      "bytes": 1747
+    },
+    {
+      "relative_path": "vendor/GOI_SUA_CATALOGUE_CHATGPT.zip",
+      "sha256": "93711e512477fc86b53c921c3eb54a6248de8c12a75b27a7c6f6fac54e295732",
+      "bytes": 1815115
+    },
+    {
+      "relative_path": "vendor/legacy/batdau.py",
+      "sha256": "2bd1967bb945a3293fb5e24c09374ebafc5decd1b4729d0535bb6a0bb07c4044",
+      "bytes": 1782
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/README_KY_THUAT.md",
+      "sha256": "736b52843f8bc3fb287ac2c060c98b5773c299630264122ea5e2c6b40b2b07a5",
+      "bytes": 15077
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/tasks/tasks.json",
+      "sha256": "458a83a33eec7191244ffc94000fa088468a6ceb91affa127cef10381bb78683",
+      "bytes": 84556
+    },
+    {
+      "relative_path": "rules/QUY_TAC_CUNG_HIEN_HANH.md",
+      "sha256": "e6209d09101dad1c06460520d2311f0de6f4b118c46b79e67da63028c80f2150",
+      "bytes": 23960
+    },
+    {
+      "relative_path": "knowledge/QUYET_DINH_MOI_PHONG_GAN_NHAT_DWO_MINMAX_20261006.md",
+      "sha256": "9f273b13a188edcfd89cd08929fa6c12d5f38b806a4f2edb5fd73c3f78d8913a",
+      "bytes": 4155
+    },
+    {
+      "relative_path": "knowledge/BAI_HOC_SP6_VE_LAI_20261006.md",
+      "sha256": "cc070f23ca9d42e706f82237ccf0e546ccf3fbd84d8e04eda203fcf916e75315",
+      "bytes": 4350
+    },
+    {
+      "relative_path": "procedures/SUA_THONG_SO_TU_MAU.md",
+      "sha256": "b7af55fc212a4962d2585d8732bece5e483c2d3a9e090638bee5aa935c48d64d",
+      "bytes": 4260
+    },
+    {
+      "relative_path": "templates/catalogue/README.md",
+      "sha256": "755b5c11a174ed04f067fb4c698c53b7879d33c48739dca4f58f6182707e076a",
+      "bytes": 5136
+    },
+    {
+      "relative_path": "templates/catalogue/PHIEU_DOI_THONG_SO.json",
+      "sha256": "73621715eb8b7d4c3e5c6d29c481af08580665e5893ac188d2cf38b4c414254a",
+      "bytes": 3107
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_VECTOR_V1/README.md",
+      "sha256": "87022cad3f6fea5da5c49a5308da77dcaaa45af03e139572538c7d1243868754",
+      "bytes": 1511
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_VECTOR_V1/status.json",
+      "sha256": "90bbac33cc4e4bfb6cc04bcd3a335ed3b649d8d79c38048bd13883dd192173ac",
+      "bytes": 982
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_VECTOR_V1/inventory.json",
+      "sha256": "1bb802ab7126c3afccce9920cd6ff7c09a41ce2be07eb709f5c3b0c8514b51ba",
+      "bytes": 7021
+    },
+    {
+      "relative_path": "rules/BO_SUNG_LOGO_BANG_QH_CONG_SUAT_20261006.md",
+      "sha256": "8eba6aebfbad8c2f345314429b9336eb99d5db6151daed82b4c920204f4e82fd",
+      "bytes": 3795
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_VECTOR_V1/data.json",
+      "sha256": "8414f1f359f69f41b2f5b26821d84912e50ac43263e2fea2cf226dbfda344227",
+      "bytes": 157318
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_VECTOR_V1/layout_reference.json",
+      "sha256": "f21a6bfccc4e08a50b95abccee0751f10c12a90f7e5b3c61446c556afcbbc264",
+      "bytes": 192196
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_LOGO_TABLE_V2/README.md",
+      "sha256": "22cfc4f1d654ad51789b946c356b065d782f22254813b8cfeeec08537da603f2",
+      "bytes": 1220
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_LOGO_TABLE_V2/status.json",
+      "sha256": "815debe622c8792e1ebc89487e833568c57808ae560b37a378f8754c8c98d9c8",
+      "bytes": 865
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_LOGO_TABLE_V2/inventory.json",
+      "sha256": "e521d006fa3896306d45a5d81669099cdf46fb0b01913163fd39974b37502473",
+      "bytes": 4333
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_LOGO_TABLE_V2/data.json",
+      "sha256": "8414f1f359f69f41b2f5b26821d84912e50ac43263e2fea2cf226dbfda344227",
+      "bytes": 157318
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_LOGO_TABLE_V2/layout_and_field_map.json",
+      "sha256": "46ad5151e04e51fd2138b9ecfc51dec1f128169985c1e0e730abd705c8d942f0",
+      "bytes": 191804
+    },
+    {
+      "relative_path": "rules/QUY_TAC_DIEN_HONG_XA_SA_20261006.md",
+      "sha256": "792af38b56b84ffa082bbeaf35eee2e398b39e059a6afa95de26a41baffc9670",
+      "bytes": 4457
+    },
+    {
+      "relative_path": "rules/QUY_TAC_DIEN_HONG_XA_SA_20261006.json",
+      "sha256": "0801d0ffc4f479881ba8b8bd2275c8a32ce8902799b578f2729a69f3abe88cc6",
+      "bytes": 2316
+    },
+    {
+      "relative_path": "knowledge/XUNG_DOT_DIEN_SP6_20261006.json",
+      "sha256": "1f10609d31afc56445e35ebb09559c330a4dbb0306a30a198b60885f23a3a3b8",
+      "bytes": 2199
+    },
+    {
+      "relative_path": "rules/BO_SUNG_FULL_MODEL_NET_BANG_TRUC_20261006.md",
+      "sha256": "caac297085dfa1abc96213713abb4e65c17630f29a7c10730d47a612577e5f69",
+      "bytes": 2317
+    },
+    {
+      "relative_path": "rules/QUY_TAC_BA_THUONG_HIEU_20261006.md",
+      "sha256": "2e32daab5cc1eb70663b9e7d4234c50501960f02a063183ee4ada39d858f377d",
+      "bytes": 2413
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_FULL_MODEL_V3/README.md",
+      "sha256": "b1799e4f71be80e55f71b908f65c4cd94f6d7abf2df3b743dd029fec0a5ff6c1",
+      "bytes": 1490
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_FULL_MODEL_V3/status.json",
+      "sha256": "a162c05ee15a68222780607329c48af7cba9d4d9e3bf71c5c388a3611e323676",
+      "bytes": 600
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_FULL_MODEL_V3/inventory.json",
+      "sha256": "b2f391b893c517370df9ea6a7687abf749490cf2df62c2044df3cc44fea43d12",
+      "bytes": 3195
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_FULL_MODEL_V3/data_current.json",
+      "sha256": "28474e5810a21ee5895729cda873fedf0965e5443d29e3a8c21190484811e33b",
+      "bytes": 160528
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_FULL_MODEL_V3/label_plan.json",
+      "sha256": "ebb00faedf56a43e47874fa5f86660edc06c20c82647fdb33876ffa2750fe71c",
+      "bytes": 61792
+    },
+    {
+      "relative_path": "templates/catalogue/SP6_FULL_MODEL_V3/build_plan.json",
+      "sha256": "ab68927e84217810abe2bfb174d85a6cea9b0bf282775fafdec3e190641647e3",
+      "bytes": 57998
+    },
+    {
+      "relative_path": "rules/CHOT_PHAM_VI_VA_QUY_TAC_20261006_SP_BA_HANG.md",
+      "sha256": "c7fa87ee58a6dec8620ce46bcdf92dcbfe2c1ff1685e0a7a7819051243fb74af",
+      "bytes": 8637
+    }
+  ],
+  "scope": "Khóa phiên bản quy tắc và công cụ dự án, không phải QA catalogue",
+  "ghi_chu_niem_phong_lai_20261010": "Niêm phong lại manifest.json + README.md sau khi dời Catalog Sua sang D:\\ChatGPT\\Sửa catalogue\\CATALOG SUA; không phiên nào giữ khóa."
+}

@@ -1,0 +1,436 @@
+{
+ "src": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\CDX Perotac (bản mới).pdf",
+ "dst": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\CDX Perotac (bản mới).pdf",
+ "edits": [
+  {
+   "page": 1,
+   "rect": [
+    130.5,
+    619.8,
+    160.5,
+    629.0
+   ],
+   "label": "housring → housing",
+   "kind": "raster-render"
+  },
+  {
+   "page": 1,
+   "rect": [
+    131.2,
+    253.6,
+    161.5,
+    262.8
+   ],
+   "label": "housring → housing",
+   "kind": "raster-render"
+  },
+  {
+   "page": 1,
+   "rect": [
+    108.8,
+    604.5,
+    136.2,
+    613.2
+   ],
+   "label": "O-Rring → O-Ring",
+   "kind": "raster-render"
+  },
+  {
+   "page": 1,
+   "rect": [
+    109.2,
+    314.5,
+    137.0,
+    323.2
+   ],
+   "label": "O-Rring → O-Ring",
+   "kind": "raster-render"
+  },
+  {
+   "page": 1,
+   "rect": [
+    109.2,
+    238.7,
+    137.0,
+    247.4
+   ],
+   "label": "O-Rring → O-Ring",
+   "kind": "raster-render"
+  },
+  {
+   "page": 1,
+   "rect": [
+    109.2,
+    208.8,
+    137.0,
+    218.0
+   ],
+   "label": "O-Rring → O-Ring",
+   "kind": "raster-render"
+  },
+  {
+   "page": 1,
+   "rect": [
+    150.24,
+    578.16,
+    154.08,
+    582.96
+   ],
+   "label": "washar → washer",
+   "kind": "raster-render"
+  },
+  {
+   "page": 1,
+   "rect": [
+    150.96,
+    180.48,
+    154.8,
+    185.04
+   ],
+   "label": "washar → washer",
+   "kind": "raster-render"
+  },
+  {
+   "page": 1,
+   "rect": [
+    122.64,
+    516.0,
+    126.96,
+    522.48
+   ],
+   "label": "Flanqe → Flange",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    58.6,
+    369.1,
+    168.5,
+    379.4
+   ],
+   "label": "Technicalparameterlist: → Technical parameter list:",
+   "kind": "raster-render"
+  },
+  {
+   "page": 3,
+   "rect": [
+    50.8,
+    394.7,
+    147.0,
+    404.2
+   ],
+   "label": "Technicalparameterlist: → Technical parameter list:",
+   "kind": "raster-render"
+  },
+  {
+   "page": 4,
+   "rect": [
+    51.8,
+    327.3,
+    160.4,
+    337.5
+   ],
+   "label": "Technicalparameterlist: → Technical parameter list:",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    265.68,
+    343.44,
+    270.0,
+    349.68
+   ],
+   "label": "Reted → Rated",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    292.56,
+    340.08,
+    297.36,
+    346.8
+   ],
+   "label": "Reted → Rated",
+   "kind": "raster-render"
+  },
+  {
+   "page": 3,
+   "rect": [
+    279.6,
+    373.44,
+    283.92,
+    378.48
+   ],
+   "label": "Reted → Rated",
+   "kind": "raster-render"
+  },
+  {
+   "page": 3,
+   "rect": [
+    312.24,
+    370.56,
+    316.32,
+    375.6
+   ],
+   "label": "Reted → Rated",
+   "kind": "raster-render"
+  },
+  {
+   "page": 4,
+   "rect": [
+    294.96,
+    297.36,
+    299.28,
+    302.64
+   ],
+   "label": "Reted → Rated",
+   "kind": "raster-render"
+  },
+  {
+   "page": 4,
+   "rect": [
+    329.28,
+    294.24,
+    333.6,
+    299.52
+   ],
+   "label": "Reted → Rated",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    138.5,
+    324.2,
+    151.1,
+    334.4
+   ],
+   "label": "kw → kW",
+   "kind": "raster-render"
+  },
+  {
+   "page": 3,
+   "rect": [
+    108.7,
+    356.3,
+    125.5,
+    365.5
+   ],
+   "label": "(Kw) → (kW)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 4,
+   "rect": [
+    114.0,
+    279.0,
+    131.8,
+    289.3
+   ],
+   "label": "(Kw) → (kW)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 3,
+   "rect": [
+    145.2,
+    356.88,
+    149.52,
+    363.6
+   ],
+   "label": "(Hp) → (HP)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 4,
+   "rect": [
+    152.88,
+    279.84,
+    157.44,
+    286.8
+   ],
+   "label": "(Hp) → (HP)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 3,
+   "rect": [
+    236.5,
+    328.5,
+    246.1,
+    335.8
+   ],
+   "label": "18 → 1.8",
+   "kind": "raster-render"
+  },
+  {
+   "page": 4,
+   "rect": [
+    50.5,
+    205.6,
+    101.6,
+    213.0
+   ],
+   "label": "CDX200/185 → CDX200/185-B",
+   "kind": "raster-render"
+  },
+  {
+   "page": 4,
+   "rect": [
+    261.3,
+    48.1,
+    312.9,
+    55.9
+   ],
+   "label": "CDX200/185 → CDX200/185-B",
+   "kind": "raster-render"
+  },
+  {
+   "page": 1,
+   "rect": [
+    270.5,
+    358.2,
+    367.2,
+    371.4
+   ],
+   "label": "CDX90/120/200 → CDX 90 / 120 / 200",
+   "kind": "raster-render"
+  },
+  {
+   "page": 0,
+   "rect": [
+    35.0,
+    42.0,
+    355.0,
+    181.0
+   ],
+   "label": "Definition of model: + CDX90/10 + arrows + 3 lines → (đã bỏ toàn bộ mục định nghĩa model)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 0,
+   "rect": [
+    220.0,
+    52.0,
+    335.0,
+    61.0
+   ],
+   "label": "steelhorizontal → (đã bỏ theo mục#159)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    53.5,
+    298.2,
+    122.2,
+    310.2
+   ],
+   "label": "CDX50/025(T) → CDX50/25(T)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    53.5,
+    278.6,
+    122.2,
+    290.8
+   ],
+   "label": "CDX50/037(T) → CDX50/37(T)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    53.5,
+    258.2,
+    122.2,
+    270.3
+   ],
+   "label": "CDX90/037(T) → CDX90/37(T)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    53.5,
+    238.6,
+    125.8,
+    250.8
+   ],
+   "label": "CDX100/055(T) → CDX100/55(T)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 3,
+   "rect": [
+    55.9,
+    341.5,
+    90.6,
+    350.3
+   ],
+   "label": "CDX90/05 → CDX90/5",
+   "kind": "raster-render"
+  },
+  {
+   "page": 3,
+   "rect": [
+    257.5,
+    177.9,
+    292.2,
+    185.7
+   ],
+   "label": "CDX90/05 → CDX90/5",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    211.0,
+    575.1,
+    224.2,
+    582.4
+   ],
+   "label": "50/037 → 50/37 (chỉ đuôi, giữ lưới/đường đỏ)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    343.1,
+    569.7,
+    356.0,
+    577.2
+   ],
+   "label": "90/037 → 90/37 (chỉ đuôi, giữ lưới/đường đỏ)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    412.4,
+    580.9,
+    425.7,
+    588.4
+   ],
+   "label": "100/055 → 100/55 (chỉ đuôi, giữ lưới/đường đỏ)",
+   "kind": "raster-render"
+  },
+  {
+   "page": 2,
+   "rect": [
+    320.7,
+    526.1,
+    333.5,
+    533.5
+   ],
+   "label": "50/025 → 50/25 (chỉ đuôi, giữ lưới/đường đỏ)",
+   "kind": "raster-render"
+  }
+ ],
+ "log": []
+}

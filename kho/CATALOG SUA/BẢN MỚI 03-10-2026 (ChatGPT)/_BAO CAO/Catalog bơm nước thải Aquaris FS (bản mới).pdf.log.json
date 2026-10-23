@@ -1,0 +1,1584 @@
+{
+ "src": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+ "dst": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+ "edits": [
+  {
+   "page": 0,
+   "rect": [
+    495.63,
+    554.31,
+    519.46,
+    560.81
+   ],
+   "label": "#55: trlphasé → triphasé",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    116.4,
+    77.69,
+    559.27,
+    84.69
+   ],
+   "label": "#55: IPB8. Dans les moteurs monophasés sont placés des micro thermostats de sécurité pour éviter de regrettables dommages au moteur en cas de blocage  → IP68. Dans les moteurs monophasés sont placés des micro thermostats de sécurité pour éviter de regrettables dommages au moteur en cas de blocage ",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    427.74,
+    147.02,
+    569.8,
+    154.02
+   ],
+   "label": "#56: Kg³/m. Les électropompes peuvent pomper des  → kg/dm³. Les électropompes peuvent pomper des ",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    207.42,
+    212.16,
+    284.77,
+    219.26
+   ],
+   "label": "#55: threephase electropumps. → three-phase electropumps.",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    370.43,
+    220.94,
+    557.67,
+    228.04
+   ],
+   "label": "#55: anda Schuko plug, while three-phase versions are supplied with  → and a Schuko plug, while three-phase versions are supplied with ",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    285.12,
+    302.24,
+    567.06,
+    309.1
+   ],
+   "label": "#55,56: nothigherthan 1.100 Kg³/m The electropumps can pump fluids containing solids with a diameter  → not higher than 1.100 kg/dm³ The electropumps can pump fluids containing solids with a diameter ",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    420.05,
+    336.18,
+    561.01,
+    343.04
+   ],
+   "label": "#55: dean or slightly dirty water or other liquids. They  → clean or slightly dirty water or other liquids. They ",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    157.3,
+    371.1,
+    557.66,
+    378.55
+   ],
+   "label": "#55: spiacevolidanni al motore in caso di blocco della girante.II motore viene raffreddato dallo stesso liquido dove l'elettropompa è immersa. La  → spiacevoli danni al motore in caso di blocco della girante.II motore viene raffreddato dallo stesso liquido dove l'elettropompa è immersa. La ",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    520.51,
+    380.32,
+    569.3,
+    387.77
+   ],
+   "label": "#55: inseritidei micro  → inseriti dei micro ",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    232.56,
+    389.54,
+    568.19,
+    397.0
+   ],
+   "label": "#55: 50 FHz e tensione trifase 230/400 V. 50 Hz. I motori sono stati progettati per dare la massima potenza nominale con  → 50 Hz e tensione trifase 230/400 V. 50 Hz. I motori sono stati progettati per dare la massima potenza nominale con ",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    82.36,
+    459.64,
+    104.5,
+    466.79
+   ],
+   "label": "#56: Kg³/m. → kg/dm³.",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    411.84,
+    486.17,
+    563.21,
+    493.32
+   ],
+   "label": "#55: utllizzare l'elettro- pompa peril sollevamentodl  → utilizzare l'elettro- pompa per il sollevamento di ",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    373.46,
+    495.01,
+    567.55,
+    502.16
+   ],
+   "label": "#55: industrian per la movimentazionee il pompag- gio di acque pulite,  → industriali per la movimentazione e il pompag- gio di acque pulite, ",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1080.48,
+    343.2,
+    1096.44,
+    349.99
+   ],
+   "label": "#56 FESI → PESI",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1111.23,
+    330.26,
+    1132.82,
+    336.76
+   ],
+   "label": "#56 Imballa → Imballo",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    932.74,
+    462.17,
+    988.67,
+    467.99
+   ],
+   "label": "#56 CLOSEDIMPELLER → CLOSED IMPELLER",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    158.95,
+    570.39,
+    184.28,
+    576.89
+   ],
+   "label": "#56 PotenZa → Potenza",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    787.19,
+    517.24,
+    797.45,
+    524.03
+   ],
+   "label": "#57 3,5 → 3.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    787.19,
+    508.46,
+    797.45,
+    515.25
+   ],
+   "label": "#57 5,5 → 5.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    735.89,
+    508.46,
+    750.25,
+    515.25
+   ],
+   "label": "#57 10,5 → 10.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    735.89,
+    498.24,
+    750.26,
+    505.03
+   ],
+   "label": "#57 12,5 → 12.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    914.19,
+    490.46,
+    924.45,
+    497.25
+   ],
+   "label": "#57 2,2 → 2.2",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    889.19,
+    490.46,
+    899.46,
+    497.25
+   ],
+   "label": "#57 4,5 → 4.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    811.14,
+    490.46,
+    825.5,
+    497.25
+   ],
+   "label": "#57 10,5 → 10.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    760.39,
+    490.46,
+    774.75,
+    497.25
+   ],
+   "label": "#57 13,5 → 13.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    735.89,
+    490.46,
+    750.25,
+    497.25
+   ],
+   "label": "#57 14,5 → 14.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    709.64,
+    490.46,
+    724.0,
+    497.25
+   ],
+   "label": "#57 15,5 → 15.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    709.64,
+    508.46,
+    724.0,
+    515.25
+   ],
+   "label": "#57 12,5 → 12.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    711.69,
+    525.96,
+    721.95,
+    532.75
+   ],
+   "label": "#57 9,5 → 9.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1125.12,
+    249.72,
+    1136.85,
+    257.48
+   ],
+   "label": "#57 0,5 → 0.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1125.12,
+    267.42,
+    1136.85,
+    275.18
+   ],
+   "label": "#57 0,5 → 0.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1125.12,
+    283.76,
+    1136.85,
+    291.52
+   ],
+   "label": "#57 0,5 → 0.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1125.12,
+    299.73,
+    1136.85,
+    307.49
+   ],
+   "label": "#57 0,5 → 0.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1125.12,
+    314.39,
+    1136.85,
+    322.15
+   ],
+   "label": "#57 0,5 → 0.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1013.93,
+    623.19,
+    1025.66,
+    630.95
+   ],
+   "label": "#57 1,5 → 1.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    946.13,
+    623.21,
+    957.86,
+    630.97
+   ],
+   "label": "#57 4,7 → 4.7",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    946.13,
+    642.77,
+    957.86,
+    650.53
+   ],
+   "label": "#57 3,2 → 3.2",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    946.13,
+    660.77,
+    957.86,
+    668.53
+   ],
+   "label": "#57 2,5 → 2.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    946.13,
+    679.27,
+    957.86,
+    687.03
+   ],
+   "label": "#57 1,7 → 1.7",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    946.13,
+    699.77,
+    957.86,
+    707.53
+   ],
+   "label": "#57 1,3 → 1.3",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    911.79,
+    699.77,
+    923.52,
+    707.53
+   ],
+   "label": "#57 2,4 → 2.4",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    911.79,
+    679.27,
+    923.52,
+    687.03
+   ],
+   "label": "#57 3,2 → 3.2",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    911.79,
+    660.77,
+    923.52,
+    668.53
+   ],
+   "label": "#57 4,2 → 4.2",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    911.79,
+    623.21,
+    923.52,
+    630.97
+   ],
+   "label": "#57 6,0 → 6.0",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    847.74,
+    660.77,
+    859.47,
+    668.53
+   ],
+   "label": "#57 6,0 → 6.0",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    847.74,
+    679.27,
+    859.47,
+    687.03
+   ],
+   "label": "#57 4,7 → 4.7",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    847.74,
+    699.77,
+    859.47,
+    707.53
+   ],
+   "label": "#57 3,6 → 3.6",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    814.11,
+    699.77,
+    830.53,
+    707.53
+   ],
+   "label": "#57 0,55 → 0.55",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    814.11,
+    679.27,
+    830.53,
+    687.03
+   ],
+   "label": "#57 0,75 → 0.75",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    816.46,
+    660.77,
+    828.19,
+    668.53
+   ],
+   "label": "#57 1,1 → 1.1",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    784.66,
+    660.77,
+    796.39,
+    668.53
+   ],
+   "label": "#57 1,5 → 1.5",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    782.31,
+    699.78,
+    798.73,
+    707.54
+   ],
+   "label": "#57 0,75 → 0.75",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    729.67,
+    717.07,
+    750.31,
+    724.83
+   ],
+   "label": "#57 50HZ → 50 Hz",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    712.13,
+    517.24,
+    721.51,
+    525.0
+   ],
+   "label": "#57 cỡ chữ 10 8 → 7 pt",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    712.13,
+    498.24,
+    721.51,
+    506.0
+   ],
+   "label": "#57 cỡ chữ 14 8 → 7 pt",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    789.97,
+    498.24,
+    794.66,
+    506.0
+   ],
+   "label": "#57 cỡ chữ 9 8 → 7 pt",
+   "kind": "text"
+  },
+  {
+   "page": 0,
+   "rect": [
+    915.22,
+    577.47,
+    923.42,
+    584.26
+   ],
+   "label": "#54 thêm 48 dưới cột 800 l/min",
+   "kind": "text"
+  }
+ ],
+ "log": [
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "trlphasé",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    495.63,
+    554.31,
+    519.46,
+    560.81
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "triphasé",
+   "at": [
+    495.63,
+    555.79
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "IPB8. Dans les moteurs monophasés sont placés des micro thermostats de sécurité pour éviter de regrettables dommages au moteur en cas de blocage ",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    116.4,
+    77.69,
+    559.27,
+    84.69
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "IP68. Dans les moteurs monophasés sont placés des micro thermostats de sécurité pour éviter de regrettables dommages au moteur en cas de blocage ",
+   "at": [
+    116.4,
+    79.28
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "Kg³/m. Les électropompes peuvent pomper des ",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    427.74,
+    147.02,
+    565.08,
+    154.02
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "kg/dm³. Les électropompes peuvent pomper des ",
+   "at": [
+    427.74,
+    148.61
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "threephase electropumps.",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    207.42,
+    212.16,
+    282.6,
+    219.26
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "three-phase electropumps.",
+   "at": [
+    207.42,
+    213.77
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "anda Schuko plug, while three-phase versions are supplied with ",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    370.43,
+    220.94,
+    555.86,
+    228.04
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "and a Schuko plug, while three-phase versions are supplied with ",
+   "at": [
+    370.43,
+    222.55
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "nothigherthan 1.100 Kg³/m The electropumps can pump fluids containing solids with a diameter ",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    285.12,
+    302.24,
+    558.64,
+    309.1
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "not higher than 1.100 kg/dm³ The electropumps can pump fluids containing solids with a diameter ",
+   "at": [
+    285.12,
+    303.79
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "dean or slightly dirty water or other liquids. They ",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    420.05,
+    336.18,
+    560.17,
+    343.04
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "clean or slightly dirty water or other liquids. They ",
+   "at": [
+    420.05,
+    337.74
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "spiacevolidanni al motore in caso di blocco della girante.II motore viene raffreddato dallo stesso liquido dove l'elettropompa è immersa. La ",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    157.3,
+    371.1,
+    555.76,
+    378.55
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "spiacevoli danni al motore in caso di blocco della girante.II motore viene raffreddato dallo stesso liquido dove l'elettropompa è immersa. La ",
+   "at": [
+    157.3,
+    372.79
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "inseritidei micro ",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    520.51,
+    380.32,
+    567.49,
+    387.77
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "inseriti dei micro ",
+   "at": [
+    520.51,
+    382.01
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "50 FHz e tensione trifase 230/400 V. 50 Hz. I motori sono stati progettati per dare la massima potenza nominale con ",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    232.56,
+    389.54,
+    568.19,
+    397.0
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "50 Hz e tensione trifase 230/400 V. 50 Hz. I motori sono stati progettati per dare la massima potenza nominale con ",
+   "at": [
+    232.56,
+    391.23
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "Kg³/m.",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    82.36,
+    459.64,
+    101.92,
+    466.79
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "kg/dm³.",
+   "at": [
+    82.36,
+    461.26
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "utllizzare l'elettro- pompa peril sollevamentodl ",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    411.84,
+    486.17,
+    559.52,
+    493.32
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "utilizzare l'elettro- pompa per il sollevamento di ",
+   "at": [
+    411.84,
+    487.79
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "industrian per la movimentazionee il pompag- gio di acque pulite, ",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    373.46,
+    495.01,
+    566.81,
+    502.16
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "industriali per la movimentazione e il pompag- gio di acque pulite, ",
+   "at": [
+    373.46,
+    496.63
+   ],
+   "method": "same embedded font; preserved original codes for existing glyphs"
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "FESI",
+   "new": "PESI",
+   "align": "left",
+   "bbox": [
+    1080.48,
+    343.2,
+    1096.05,
+    349.99
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "Imballa",
+   "new": "Imballo",
+   "align": "left",
+   "bbox": [
+    1111.23,
+    330.26,
+    1132.82,
+    336.76
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "CLOSEDIMPELLER",
+   "new": "CLOSED IMPELLER",
+   "align": "center",
+   "bbox": [
+    933.45,
+    462.16,
+    987.96,
+    467.98
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "PotenZa",
+   "new": "Potenza",
+   "align": "left",
+   "bbox": [
+    158.95,
+    570.39,
+    184.28,
+    576.89
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "3,5",
+   "new": "3.5",
+   "align": "center",
+   "bbox": [
+    787.19,
+    517.24,
+    797.45,
+    524.03
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "5,5",
+   "new": "5.5",
+   "align": "center",
+   "bbox": [
+    787.19,
+    508.46,
+    797.45,
+    515.25
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "10,5",
+   "new": "10.5",
+   "align": "center",
+   "bbox": [
+    735.89,
+    508.46,
+    750.25,
+    515.25
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "12,5",
+   "new": "12.5",
+   "align": "center",
+   "bbox": [
+    735.89,
+    498.24,
+    750.26,
+    505.03
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "2,2",
+   "new": "2.2",
+   "align": "center",
+   "bbox": [
+    914.19,
+    490.46,
+    924.45,
+    497.25
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "4,5",
+   "new": "4.5",
+   "align": "center",
+   "bbox": [
+    889.19,
+    490.46,
+    899.46,
+    497.25
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "10,5",
+   "new": "10.5",
+   "align": "center",
+   "bbox": [
+    811.14,
+    490.46,
+    825.5,
+    497.25
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "13,5",
+   "new": "13.5",
+   "align": "center",
+   "bbox": [
+    760.39,
+    490.46,
+    774.75,
+    497.25
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "14,5",
+   "new": "14.5",
+   "align": "center",
+   "bbox": [
+    735.89,
+    490.46,
+    750.25,
+    497.25
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "15,5",
+   "new": "15.5",
+   "align": "center",
+   "bbox": [
+    709.64,
+    490.46,
+    724.0,
+    497.25
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "12,5",
+   "new": "12.5",
+   "align": "center",
+   "bbox": [
+    709.64,
+    508.46,
+    724.0,
+    515.25
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "9,5",
+   "new": "9.5",
+   "align": "center",
+   "bbox": [
+    711.69,
+    525.96,
+    721.95,
+    532.75
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "0,5",
+   "new": "0.5",
+   "align": "center",
+   "bbox": [
+    1125.12,
+    249.72,
+    1136.85,
+    257.48
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "0,5",
+   "new": "0.5",
+   "align": "center",
+   "bbox": [
+    1125.12,
+    267.42,
+    1136.85,
+    275.18
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "0,5",
+   "new": "0.5",
+   "align": "center",
+   "bbox": [
+    1125.12,
+    283.76,
+    1136.85,
+    291.52
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "0,5",
+   "new": "0.5",
+   "align": "center",
+   "bbox": [
+    1125.12,
+    299.73,
+    1136.85,
+    307.49
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "0,5",
+   "new": "0.5",
+   "align": "center",
+   "bbox": [
+    1125.12,
+    314.39,
+    1136.85,
+    322.15
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "1,5",
+   "new": "1.5",
+   "align": "center",
+   "bbox": [
+    1013.93,
+    623.19,
+    1025.66,
+    630.95
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "4,7",
+   "new": "4.7",
+   "align": "center",
+   "bbox": [
+    946.13,
+    623.21,
+    957.86,
+    630.97
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "3,2",
+   "new": "3.2",
+   "align": "center",
+   "bbox": [
+    946.13,
+    642.77,
+    957.86,
+    650.53
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "2,5",
+   "new": "2.5",
+   "align": "center",
+   "bbox": [
+    946.13,
+    660.77,
+    957.86,
+    668.53
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "1,7",
+   "new": "1.7",
+   "align": "center",
+   "bbox": [
+    946.13,
+    679.27,
+    957.86,
+    687.03
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "1,3",
+   "new": "1.3",
+   "align": "center",
+   "bbox": [
+    946.13,
+    699.77,
+    957.86,
+    707.53
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "2,4",
+   "new": "2.4",
+   "align": "center",
+   "bbox": [
+    911.79,
+    699.77,
+    923.52,
+    707.53
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "3,2",
+   "new": "3.2",
+   "align": "center",
+   "bbox": [
+    911.79,
+    679.27,
+    923.52,
+    687.03
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "4,2",
+   "new": "4.2",
+   "align": "center",
+   "bbox": [
+    911.79,
+    660.77,
+    923.52,
+    668.53
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "6,0",
+   "new": "6.0",
+   "align": "center",
+   "bbox": [
+    911.79,
+    623.21,
+    923.52,
+    630.97
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "6,0",
+   "new": "6.0",
+   "align": "center",
+   "bbox": [
+    847.74,
+    660.77,
+    859.47,
+    668.53
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "4,7",
+   "new": "4.7",
+   "align": "center",
+   "bbox": [
+    847.74,
+    679.27,
+    859.47,
+    687.03
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "3,6",
+   "new": "3.6",
+   "align": "center",
+   "bbox": [
+    847.74,
+    699.77,
+    859.47,
+    707.53
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "0,55",
+   "new": "0.55",
+   "align": "center",
+   "bbox": [
+    814.11,
+    699.77,
+    830.53,
+    707.53
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "0,75",
+   "new": "0.75",
+   "align": "center",
+   "bbox": [
+    814.11,
+    679.27,
+    830.53,
+    687.03
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "1,1",
+   "new": "1.1",
+   "align": "center",
+   "bbox": [
+    816.46,
+    660.77,
+    828.19,
+    668.53
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "1,5",
+   "new": "1.5",
+   "align": "center",
+   "bbox": [
+    784.66,
+    660.77,
+    796.39,
+    668.53
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "0,75",
+   "new": "0.75",
+   "align": "center",
+   "bbox": [
+    782.31,
+    699.78,
+    798.73,
+    707.54
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "50HZ",
+   "new": "50 Hz",
+   "align": "center",
+   "bbox": [
+    729.67,
+    717.07,
+    750.31,
+    724.83
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "10",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    712.13,
+    517.24,
+    721.51,
+    525.0
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "10",
+   "at": [
+    712.72,
+    519.0
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "14",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    712.13,
+    498.24,
+    721.51,
+    506.0
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "14",
+   "at": [
+    712.72,
+    500.0
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "9",
+   "new": "",
+   "align": "left",
+   "bbox": [
+    789.97,
+    498.24,
+    794.66,
+    506.0
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "9",
+   "at": [
+    790.27,
+    500.0
+   ]
+  },
+  {
+   "page": 1,
+   "kind": "text",
+   "old": "",
+   "new": "48",
+   "at": [
+    915.22,
+    579.01
+   ]
+  },
+  {
+   "task": 137,
+   "result": "CHƯA ĐẠT",
+   "reason": [
+    {
+     "task": 137,
+     "old": "50",
+     "new": "80",
+     "rect": [
+      1120.8428,
+      623.462,
+      1129.0508,
+      631.222
+     ],
+     "font": "TKCCNC+MyriadPro-Regular",
+     "reason": "\"Font TKCCNC+MyriadPro-Regular không có ký tự: '8'\"",
+     "action": "Giữ nguyên 50; thiếu nét 8 đúng phông MyriadPro-Regular trong chính file"
+    },
+    {
+     "task": 137,
+     "old": "G 2”",
+     "new": "G 3”",
+     "rect": [
+      761.7441,
+      249.95039999999995,
+      778.2401,
+      257.71039999999994
+     ],
+     "font": "BBDDVM+UTM-Helve",
+     "reason": "\"Font BBDDVM+UTM-Helve không có ký tự: '”'\"",
+     "action": "Giữ nguyên 50; thiếu nét 8 đúng phông MyriadPro-Regular trong chính file"
+    }
+   ]
+  },
+  {
+   "task": 136,
+   "result": "GIỮ NGUYÊN"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+﻿PROMPT NHÓM G16 – CDLF (Aquaris, Perotac)
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('Bơm trục đứng CDLF Aquaris (bản mới).pdf')   (thư mục Trục đứng)
+  Ra:  S.dst('Bơm trục đứng CDLF Aquaris (bản mới).pdf')   → job = S.job('Bơm trục đứng CDLF Aquaris (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–11: CHỮ NÉT VẼ; trang 12: ẢNH CẢ TRANG ~300dpi
+- Vào: S.src('Bơm trục đứng Perotac CDLF (bản mới).pdf')   (thư mục Trục đứng)
+  Ra:  S.dst('Bơm trục đứng Perotac CDLF (bản mới).pdf')   → job = S.job('Bơm trục đứng Perotac CDLF (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–11: CHỮ NÉT VẼ; trang 12: ÍT NỘI DUNG / HÌNH
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 95 | SỬA | Bơm trục đứng CDLF Aquaris.pdf; Bơm trục đứng Perotac CDLF.pdf | 11 | Bảng Size CDLF32 (9 dòng CDLF32-8 … -16) | Cột B2 chép bằng B1 (1100/1100, 1170/1170 … 1660/1660) nên B1+B2 không khớp | B2 = 500, 550, 550, 575, 575, 650, 650, 650, 650 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 96 | SỬA | Bơm trục đứng CDLF Aquaris.pdf; Bơm trục đứng Perotac CDLF.pdf | 8 | Bảng Size CDLF12-5 | B1 400 + B2 350 = 750 nhưng ghi 740 | Sửa ô tổng thành 750 (= 400 + 350) | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 97 | SỬA | Bơm trục đứng CDLF Aquaris.pdf; Bơm trục đứng Perotac CDLF.pdf | 7 | Bảng hiệu suất CDLF8, dòng CDLF8-12, cột 10 m³/h | 92 | ≈97 (theo tỉ lệ tầng; chốt số cho đường cong mượt – xem PROMPT CHUNG mục CHỐT SỐ) | Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý) |
+| 98 | SỬA | Bơm trục đứng CDLF Aquaris.pdf; Bơm trục đứng Perotac CDLF.pdf | 11 | Bảng hiệu suất CDLF32 – tên model | 16 dòng đầu ghi theo số tầng (32-8-2, 32-8) nhưng từ dòng 17 ghi ×10 ("32-90-2" … "32-160") | 32-9-2 … 32-16 như bảng Size | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 99 | SỬA | Bơm trục đứng CDLF Aquaris.pdf; Bơm trục đứng Perotac CDLF.pdf | 2 | Bảng Max. Working pressure | Ký hiệu "3(*)" nhưng chú thích "*: For curve 4", "**: For curve 3" | Sửa chú thích cho khớp ký hiệu | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 100 | SỬA | Bơm trục đứng CDLF Aquaris.pdf; Bơm trục đứng Perotac CDLF.pdf | 2–3 | Chính tả | "parallcl", "shown bellow", "intergrate impeller", "flow is effected", "pres-sure-resistant", "CDLF is a kind of multinational products" | parallel, below, integral impeller, affected, pressure-resistant, viết lại câu | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 101 | SỬA | Bơm trục đứng CDLF Aquaris.pdf; Bơm trục đứng Perotac CDLF.pdf | 1 | Biểu đồ phạm vi / bảng | Nhãn CDL2…CDL42 (thiếu F); "Dn25/Dn32/Dn40" lẫn với "DN50" | CDLF2…CDLF42; DN25… | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 149 | SỬA | Bơm trục đứng Perotac CDLF.pdf; Bơm trục đứng CDLF Aquaris.pdf | 3 (bảng vật liệu) | Dòng "Base plate" (đế bơm) | Cast iron ASTM25B (gang) | Stainless steel AISI304 (inox 304) – cả 2 hãng | Anh Trung chốt 02/10 |
+| 150 | SỬA | Bơm trục đứng Perotac CDLF.pdf | 1 (bìa) | Ảnh bìa – bơm đế gang ngoài cùng bên phải | Bơm đế gang màu đen | Xoá bơm đế gang, vẽ lại nền; đặt bản sao bơm ngoài cùng bên trái vào đúng chỗ (giữ cỡ, chân ngang mặt đất) | NV trả lời (file câu hỏi 02/10) + Anh Trung chốt 02/10 |
+| 151 | SỬA | Bơm trục đứng CDLF Aquaris.pdf | 1 (bìa) | Ảnh bìa | Giống hệt ảnh Perotac | Lật ngang ảnh, xoá bơm đế gang, đặt bản sao bơm cao ở giữa vào chỗ đó (để khác bản Perotac) | Anh Trung chốt 02/10 |
+
+Số việc phải SỬA: 10. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- 2 file giống nội dung (khác logo), CHỮ NÉT VẼ; trang 1 có bìa ảnh ghép (nền + nhiều ảnh bơm cắt nền).
+- #95 trang 11 bảng Size CDLF32 (9 dòng CDLF32-8…-16): cột B2 → 500, 550, 550, 575, 575, 650, 650, 650, 650.
+- #96 trang 8 CDLF12-5: tổng "740" → "750". #97 trang 7 CDLF8-12 cột 10 m³/h: 92 → chốt theo tỉ lệ (≈97).
+- #98 trang 11 bảng hiệu suất CDLF32 từ dòng 17: "32-90-2" → "32-9-2", "32-100-2" → "32-10-2" … "32-160" → "32-16".
+- #99 trang 2 chú thích Max. Working pressure: sửa cho khớp ký hiệu "3(*)" (đề xuất câu, gửi duyệt).
+- #100 trang 2–3 chính tả: parallcl→parallel, bellow→below, intergrate impeller→integral impeller, effected→affected,
+  pres-sure-resistant→pressure-resistant, câu "CDLF is a kind of multinational products" → đề xuất viết lại, gửi duyệt.
+- #101 trang 1 (biểu đồ phạm vi/bảng): CDL2…CDL42 → CDLF2…CDLF42; "Dn25/Dn32/Dn40" → "DN25/DN32/DN40".
+- #149 trang 3 bảng vật liệu: "Base plate: Cast iron ASTM25B" → "Stainless steel AISI304" (cả 2 file).
+- #150 bìa PEROTAC: ảnh X14 (bơm màu đen, ngoài cùng bên phải) = bơm đế gang → images.delete_image; đặt bản sao
+  bơm ngoài cùng bên trái (X12) vào đúng chỗ đó: fit_bbox(..., keep_aspect='height', anchor='bottom-center') để
+  chân ngang mặt đất như bơm cũ. Kiểm tên ảnh bằng cách xem từng ảnh trước khi xoá.
+- #151 bìa AQUARIS: lật ngang cả cụm ảnh bìa (R13 nền + R16, R18, R20, R22, R25) quanh trục giữa ảnh nền
+  (images.mirror_images – chữ trên bìa KHÔNG lật); xoá R25 (bơm đế gang, sau khi lật nằm bên trái); đặt bản sao bơm
+  cao ở giữa (R16) vào chỗ đó (fit chiều cao, chân ngang mặt đất, flip_h=True).
+  Đã thử trên bản sao: chạy đúng, chỉ vùng ảnh bìa thay đổi. Gửi ảnh mẫu 2 bìa cho anh duyệt.
+
+ĐÃ DÒ THỬ BẰNG catfix (để bạn đối chiếu – toạ độ pt, gốc dưới trái; n = số chỗ tìm thấy):
+- Bơm trục đứng CDLF Aquaris.pdf, trang 3, tìm 'ASTM25B' → n=2 "ASTM25B" tại [854.6, 278.8, 890.3, 285.6]; "ASTM25B" tại [1109.6, 108.6, 1145.3, 115.4]
+- Bơm trục đứng CDLF Aquaris.pdf, trang 3, tìm 'Base plate' → n=1 "Base plate" tại [953.7, 106.8, 990.6, 115.2]
+- Bơm trục đứng CDLF Aquaris.pdf, trang 11, tìm '1100' → n=3 "CCDDLLFF//CCDDLL3322--11 1100-2 2222" tại [730.1, 450.5, 738.0, 466.3]; "1100 1100" tại [993.1, 182.9, 1008.0, 188.8]
+- Bơm trục đứng CDLF Aquaris.pdf, trang 11, tìm '32-90-2' → n=0 (chưa thấy – thử dump/teach/regex, hoặc chữ nằm ở dạng khác: chữ thật/nét vẽ/ảnh)
+- Bơm trục đứng CDLF Aquaris.pdf, trang 11, tìm '32-160' → n=2 "CDLF/CDL32-160-2 30" tại [712.7, 360.5, 737.9, 366.2]; "CDLF/CDL32-160" tại [712.7, 350.4, 737.9, 356.2]
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G16.png") và báo cáo S.report("BAO CAO G16.md"); ghi S.progress("G16", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

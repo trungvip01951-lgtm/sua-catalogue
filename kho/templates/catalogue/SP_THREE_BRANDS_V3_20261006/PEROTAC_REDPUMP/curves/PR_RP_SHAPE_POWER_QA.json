@@ -1,0 +1,2061 @@
+{
+  "curve_H_max_error_percent": 4.9990000000000725,
+  "all_H_held": true,
+  "all_shape_proof": true,
+  "C2_error_max": 1.1368683772161603e-13,
+  "all220_brand_source_curves_QH_max_difference": 0.0,
+  "adjacent_order_checks": [
+    {
+      "family": "10SP135",
+      "lower": "10SP135-1",
+      "higher": "10SP135-2A",
+      "lower_kw": 11.0,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 7.00000000001906,
+      "global_min_H_gap_lower_bound": 6.990340368472221,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP135",
+      "lower": "10SP135-2A",
+      "higher": "10SP135-2",
+      "lower_kw": 18.5,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 6.999999999987416,
+      "global_min_H_gap_lower_bound": 6.987298646216269,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP135",
+      "lower": "10SP135-2",
+      "higher": "10SP135-3",
+      "lower_kw": 22.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 13.000000000033978,
+      "global_min_H_gap_lower_bound": 12.98155640094223,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP135",
+      "lower": "10SP135-3",
+      "higher": "10SP135-4A",
+      "lower_kw": 30.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 6.99999999997636,
+      "global_min_H_gap_lower_bound": 6.976413568833611,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP135",
+      "lower": "10SP135-4A",
+      "higher": "10SP135-4",
+      "lower_kw": 37.0,
+      "higher_kw": 45.0,
+      "grid_min_H_gap": 6.000000000038142,
+      "global_min_H_gap_lower_bound": 5.972519508382677,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP135",
+      "lower": "10SP135-4",
+      "higher": "10SP135-5",
+      "lower_kw": 45.0,
+      "higher_kw": 55.0,
+      "grid_min_H_gap": 13.000000000014786,
+      "global_min_H_gap_lower_bound": 12.965700289996144,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP135",
+      "lower": "10SP135-5",
+      "higher": "10SP135-6",
+      "lower_kw": 55.0,
+      "higher_kw": 63.0,
+      "grid_min_H_gap": 13.999999999945658,
+      "global_min_H_gap_lower_bound": 13.958140552723851,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP135",
+      "lower": "10SP135-6",
+      "higher": "10SP135-7",
+      "lower_kw": 63.0,
+      "higher_kw": 75.0,
+      "grid_min_H_gap": 12.999999999993207,
+      "global_min_H_gap_lower_bound": 12.950031067181323,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP135",
+      "lower": "10SP135-7",
+      "higher": "10SP135-8",
+      "lower_kw": 75.0,
+      "higher_kw": 92.0,
+      "grid_min_H_gap": 13.000000000102844,
+      "global_min_H_gap_lower_bound": 12.942424912686889,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP135",
+      "lower": "10SP135-8",
+      "higher": "10SP135-9",
+      "lower_kw": 92.0,
+      "higher_kw": 110.0,
+      "grid_min_H_gap": 13.99999999991239,
+      "global_min_H_gap_lower_bound": 13.935579772782308,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP135",
+      "lower": "10SP135-9",
+      "higher": "10SP135-10",
+      "lower_kw": 110.0,
+      "higher_kw": 110.0,
+      "grid_min_H_gap": 13.000000000115108,
+      "global_min_H_gap_lower_bound": 12.928201228250193,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP160",
+      "lower": "10SP160-1",
+      "higher": "10SP160-2",
+      "lower_kw": 15.0,
+      "higher_kw": 26.0,
+      "grid_min_H_gap": 13.000000000029772,
+      "global_min_H_gap_lower_bound": 12.987125181243151,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP160",
+      "lower": "10SP160-2",
+      "higher": "10SP160-3",
+      "lower_kw": 26.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 12.000000000022474,
+      "global_min_H_gap_lower_bound": 11.977005986782554,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP160",
+      "lower": "10SP160-3",
+      "higher": "10SP160-4",
+      "lower_kw": 37.0,
+      "higher_kw": 55.0,
+      "grid_min_H_gap": 13.00000000001743,
+      "global_min_H_gap_lower_bound": 12.966294741128445,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP160",
+      "lower": "10SP160-4",
+      "higher": "10SP160-5",
+      "lower_kw": 55.0,
+      "higher_kw": 63.0,
+      "grid_min_H_gap": 13.000000000008669,
+      "global_min_H_gap_lower_bound": 12.9592906528407,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP160",
+      "lower": "10SP160-5",
+      "higher": "10SP160-6",
+      "lower_kw": 63.0,
+      "higher_kw": 75.0,
+      "grid_min_H_gap": 13.000000000015675,
+      "global_min_H_gap_lower_bound": 12.952756826087139,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP160",
+      "lower": "10SP160-6",
+      "higher": "10SP160-7",
+      "lower_kw": 75.0,
+      "higher_kw": 92.0,
+      "grid_min_H_gap": 12.000000000029758,
+      "global_min_H_gap_lower_bound": 11.940561039784923,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP160",
+      "lower": "10SP160-7",
+      "higher": "10SP160-8",
+      "lower_kw": 92.0,
+      "higher_kw": 92.0,
+      "grid_min_H_gap": 13.000000000017394,
+      "global_min_H_gap_lower_bound": 12.92790333334744,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "10SP160",
+      "lower": "10SP160-8",
+      "higher": "10SP160-9",
+      "lower_kw": 92.0,
+      "higher_kw": 110.0,
+      "grid_min_H_gap": 13.00000000001792,
+      "global_min_H_gap_lower_bound": 12.918422797808555,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP10",
+      "lower": "4SP10-5",
+      "higher": "4SP10-7",
+      "lower_kw": 1.1,
+      "higher_kw": 1.5,
+      "grid_min_H_gap": 6.0000000000055085,
+      "global_min_H_gap_lower_bound": 5.991629162905129,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP10",
+      "lower": "4SP10-7",
+      "higher": "4SP10-9",
+      "lower_kw": 1.5,
+      "higher_kw": 1.8,
+      "grid_min_H_gap": 6.000000000005684,
+      "global_min_H_gap_lower_bound": 5.988624381485827,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP10",
+      "lower": "4SP10-9",
+      "higher": "4SP10-11",
+      "lower_kw": 1.8,
+      "higher_kw": 2.2,
+      "grid_min_H_gap": 6.000000000005194,
+      "global_min_H_gap_lower_bound": 5.98570445643568,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP10",
+      "lower": "4SP10-11",
+      "higher": "4SP10-13",
+      "lower_kw": 2.2,
+      "higher_kw": 2.6,
+      "grid_min_H_gap": 6.000000000005535,
+      "global_min_H_gap_lower_bound": 5.982825083969383,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP10",
+      "lower": "4SP10-13",
+      "higher": "4SP10-15",
+      "lower_kw": 2.6,
+      "higher_kw": 3.0,
+      "grid_min_H_gap": 6.000000000005365,
+      "global_min_H_gap_lower_bound": 5.9798990908272,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP10",
+      "lower": "4SP10-15",
+      "higher": "4SP10-18",
+      "lower_kw": 3.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 9.000000000007773,
+      "global_min_H_gap_lower_bound": 8.97637241220843,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP10",
+      "lower": "4SP10-18",
+      "higher": "4SP10-20",
+      "lower_kw": 4.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 5.999999999965198,
+      "global_min_H_gap_lower_bound": 5.973085251670404,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP10",
+      "lower": "4SP10-20",
+      "higher": "4SP10-23",
+      "lower_kw": 4.0,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 9.000000000001812,
+      "global_min_H_gap_lower_bound": 8.969929741607876,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP10",
+      "lower": "4SP10-23",
+      "higher": "4SP10-26",
+      "lower_kw": 5.5,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 9.000000000054769,
+      "global_min_H_gap_lower_bound": 8.96528345838312,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP10",
+      "lower": "4SP10-26",
+      "higher": "4SP10-30",
+      "lower_kw": 5.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 12.000000000010346,
+      "global_min_H_gap_lower_bound": 11.959814086187576,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP10",
+      "lower": "4SP10-30",
+      "higher": "4SP10-33",
+      "lower_kw": 7.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 9.000000000008015,
+      "global_min_H_gap_lower_bound": 8.954887595571492,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP14",
+      "lower": "4SP14-4",
+      "higher": "4SP14-6",
+      "lower_kw": 1.1,
+      "higher_kw": 1.5,
+      "grid_min_H_gap": 6.00000000000135,
+      "global_min_H_gap_lower_bound": 5.990690022279126,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP14",
+      "lower": "4SP14-6",
+      "higher": "4SP14-8",
+      "lower_kw": 1.5,
+      "higher_kw": 2.2,
+      "grid_min_H_gap": 6.846863121417314,
+      "global_min_H_gap_lower_bound": 6.834599659622768,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP14",
+      "lower": "4SP14-8",
+      "higher": "4SP14-11",
+      "lower_kw": 2.2,
+      "higher_kw": 3.0,
+      "grid_min_H_gap": 9.000000000006331,
+      "global_min_H_gap_lower_bound": 8.98666976625953,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP14",
+      "lower": "4SP14-11",
+      "higher": "4SP14-13",
+      "lower_kw": 3.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 6.000000000008583,
+      "global_min_H_gap_lower_bound": 5.982666873695078,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP14",
+      "lower": "4SP14-13",
+      "higher": "4SP14-15",
+      "lower_kw": 4.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 6.000000000007965,
+      "global_min_H_gap_lower_bound": 5.978223541446196,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP14",
+      "lower": "4SP14-15",
+      "higher": "4SP14-18",
+      "lower_kw": 4.0,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 9.000000000006942,
+      "global_min_H_gap_lower_bound": 8.97422064887847,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP14",
+      "lower": "4SP14-18",
+      "higher": "4SP14-20",
+      "lower_kw": 5.5,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 7.0000000000027285,
+      "global_min_H_gap_lower_bound": 6.971624777277948,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP14",
+      "lower": "4SP14-20",
+      "higher": "4SP14-23",
+      "lower_kw": 5.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 9.000000000008413,
+      "global_min_H_gap_lower_bound": 8.968633026179514,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP14",
+      "lower": "4SP14-23",
+      "higher": "4SP14-26",
+      "lower_kw": 7.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 9.00000000001053,
+      "global_min_H_gap_lower_bound": 8.963550004091902,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-6",
+      "higher": "4SP3-9",
+      "lower_kw": 0.37,
+      "higher_kw": 0.55,
+      "grid_min_H_gap": 8.000000000009285,
+      "global_min_H_gap_lower_bound": 7.987578644661273,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-9",
+      "higher": "4SP3-12",
+      "lower_kw": 0.55,
+      "higher_kw": 0.75,
+      "grid_min_H_gap": 8.00000000000917,
+      "global_min_H_gap_lower_bound": 7.9826247101097785,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-12",
+      "higher": "4SP3-15",
+      "lower_kw": 0.75,
+      "higher_kw": 0.92,
+      "grid_min_H_gap": 8.000000000007887,
+      "global_min_H_gap_lower_bound": 7.978046275151255,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-15",
+      "higher": "4SP3-18",
+      "lower_kw": 0.92,
+      "higher_kw": 1.1,
+      "grid_min_H_gap": 7.000000000010559,
+      "global_min_H_gap_lower_bound": 6.9730946530703966,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-18",
+      "higher": "4SP3-22",
+      "lower_kw": 1.1,
+      "higher_kw": 1.3,
+      "grid_min_H_gap": 11.000000000011376,
+      "global_min_H_gap_lower_bound": 10.96720727486346,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-22",
+      "higher": "4SP3-25",
+      "lower_kw": 1.3,
+      "higher_kw": 1.5,
+      "grid_min_H_gap": 8.00000000000832,
+      "global_min_H_gap_lower_bound": 7.961919779047237,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-25",
+      "higher": "4SP3-29",
+      "lower_kw": 1.5,
+      "higher_kw": 1.8,
+      "grid_min_H_gap": 10.000000000012776,
+      "global_min_H_gap_lower_bound": 9.956257090955827,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-29",
+      "higher": "4SP3-33",
+      "lower_kw": 1.8,
+      "higher_kw": 2.2,
+      "grid_min_H_gap": 10.000000000012847,
+      "global_min_H_gap_lower_bound": 9.949378034565685,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-33",
+      "higher": "4SP3-39",
+      "lower_kw": 2.2,
+      "higher_kw": 2.6,
+      "grid_min_H_gap": 16.000000000017238,
+      "global_min_H_gap_lower_bound": 15.941301535535684,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-39",
+      "higher": "4SP3-45",
+      "lower_kw": 2.6,
+      "higher_kw": 3.0,
+      "grid_min_H_gap": 15.000000000018986,
+      "global_min_H_gap_lower_bound": 14.931579437559327,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-45",
+      "higher": "4SP3-52",
+      "lower_kw": 3.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 18.00000000002177,
+      "global_min_H_gap_lower_bound": 17.92064139686447,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP3",
+      "lower": "4SP3-52",
+      "higher": "4SP3-60",
+      "lower_kw": 4.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 21.000000000023988,
+      "global_min_H_gap_lower_bound": 20.908361652318163,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-4",
+      "higher": "4SP5-6",
+      "lower_kw": 0.37,
+      "higher_kw": 0.55,
+      "grid_min_H_gap": 5.000000000004871,
+      "global_min_H_gap_lower_bound": 4.9925311764478435,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-6",
+      "higher": "4SP5-8",
+      "lower_kw": 0.55,
+      "higher_kw": 0.75,
+      "grid_min_H_gap": 5.000000000005544,
+      "global_min_H_gap_lower_bound": 4.98973504885887,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-8",
+      "higher": "4SP5-12",
+      "lower_kw": 0.75,
+      "higher_kw": 1.1,
+      "grid_min_H_gap": 11.000000000009067,
+      "global_min_H_gap_lower_bound": 10.985812501469631,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-12",
+      "higher": "4SP5-15",
+      "lower_kw": 1.1,
+      "higher_kw": 1.3,
+      "grid_min_H_gap": 7.000000000009749,
+      "global_min_H_gap_lower_bound": 6.980761765916529,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-15",
+      "higher": "4SP5-18",
+      "lower_kw": 1.3,
+      "higher_kw": 1.5,
+      "grid_min_H_gap": 8.000000000006807,
+      "global_min_H_gap_lower_bound": 7.976318768564673,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-18",
+      "higher": "4SP5-21",
+      "lower_kw": 1.5,
+      "higher_kw": 1.8,
+      "grid_min_H_gap": 8.000000000007468,
+      "global_min_H_gap_lower_bound": 7.972486353065862,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-21",
+      "higher": "4SP5-25",
+      "lower_kw": 1.8,
+      "higher_kw": 2.2,
+      "grid_min_H_gap": 10.000000000010886,
+      "global_min_H_gap_lower_bound": 9.967560468820757,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-25",
+      "higher": "4SP5-29",
+      "lower_kw": 2.2,
+      "higher_kw": 2.6,
+      "grid_min_H_gap": 10.000000000010857,
+      "global_min_H_gap_lower_bound": 9.961723333213785,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-29",
+      "higher": "4SP5-33",
+      "lower_kw": 2.6,
+      "higher_kw": 3.0,
+      "grid_min_H_gap": 10.000000000011028,
+      "global_min_H_gap_lower_bound": 9.95584566065826,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-33",
+      "higher": "4SP5-38",
+      "lower_kw": 3.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 13.000000000013003,
+      "global_min_H_gap_lower_bound": 12.94939821714045,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-38",
+      "higher": "4SP5-44",
+      "lower_kw": 4.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 15.0000000000164,
+      "global_min_H_gap_lower_bound": 14.941505976872342,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-44",
+      "higher": "4SP5-52",
+      "lower_kw": 4.0,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 21.00000000002015,
+      "global_min_H_gap_lower_bound": 20.931692026641947,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP5",
+      "lower": "4SP5-52",
+      "higher": "4SP5-58",
+      "lower_kw": 5.5,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 15.000000000016314,
+      "global_min_H_gap_lower_bound": 14.921904601195681,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP8",
+      "lower": "4SP8-5",
+      "higher": "4SP8-8",
+      "lower_kw": 0.75,
+      "higher_kw": 1.1,
+      "grid_min_H_gap": 7.000000000010985,
+      "global_min_H_gap_lower_bound": 6.9887565353084184,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP8",
+      "lower": "4SP8-8",
+      "higher": "4SP8-11",
+      "lower_kw": 1.1,
+      "higher_kw": 1.5,
+      "grid_min_H_gap": 8.000000000004935,
+      "global_min_H_gap_lower_bound": 7.984482428976634,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP8",
+      "lower": "4SP8-11",
+      "higher": "4SP8-13",
+      "lower_kw": 1.5,
+      "higher_kw": 1.8,
+      "grid_min_H_gap": 5.000000000010722,
+      "global_min_H_gap_lower_bound": 4.9802796263993265,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP8",
+      "lower": "4SP8-13",
+      "higher": "4SP8-16",
+      "lower_kw": 1.8,
+      "higher_kw": 2.2,
+      "grid_min_H_gap": 7.000000000010779,
+      "global_min_H_gap_lower_bound": 6.974508739713873,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP8",
+      "lower": "4SP8-16",
+      "higher": "4SP8-18",
+      "lower_kw": 2.2,
+      "higher_kw": 2.6,
+      "grid_min_H_gap": 5.9433659600365445,
+      "global_min_H_gap_lower_bound": 5.915333942217002,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP8",
+      "lower": "4SP8-18",
+      "higher": "4SP8-21",
+      "lower_kw": 2.6,
+      "higher_kw": 3.0,
+      "grid_min_H_gap": 7.000000000017629,
+      "global_min_H_gap_lower_bound": 6.967588366685079,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP8",
+      "lower": "4SP8-21",
+      "higher": "4SP8-25",
+      "lower_kw": 3.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 10.000000000012747,
+      "global_min_H_gap_lower_bound": 9.959433611942375,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP8",
+      "lower": "4SP8-25",
+      "higher": "4SP8-28",
+      "lower_kw": 4.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 7.00000000001112,
+      "global_min_H_gap_lower_bound": 6.953028295256041,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP8",
+      "lower": "4SP8-28",
+      "higher": "4SP8-32",
+      "lower_kw": 4.0,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 10.00000000001269,
+      "global_min_H_gap_lower_bound": 9.946638152387354,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "4SP8",
+      "lower": "4SP8-32",
+      "higher": "4SP8-36",
+      "lower_kw": 5.5,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 11.000000000001918,
+      "global_min_H_gap_lower_bound": 10.942715261237833,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-6",
+      "higher": "6SP10-8",
+      "lower_kw": 2.2,
+      "higher_kw": 3.0,
+      "grid_min_H_gap": 7.000000000010836,
+      "global_min_H_gap_lower_bound": 6.981401394744666,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-8",
+      "higher": "6SP10-10",
+      "lower_kw": 3.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 8.000000000009521,
+      "global_min_H_gap_lower_bound": 7.975935892851322,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-10",
+      "higher": "6SP10-14",
+      "lower_kw": 4.0,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 15.000000000020727,
+      "global_min_H_gap_lower_bound": 14.96781657475622,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-14",
+      "higher": "6SP10-18",
+      "lower_kw": 5.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 15.000000000019817,
+      "global_min_H_gap_lower_bound": 14.95693351365412,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-18",
+      "higher": "6SP10-20",
+      "lower_kw": 7.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 7.000000000011298,
+      "global_min_H_gap_lower_bound": 6.948582250471281,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-20",
+      "higher": "6SP10-24",
+      "lower_kw": 7.5,
+      "higher_kw": 9.2,
+      "grid_min_H_gap": 15.000000000020208,
+      "global_min_H_gap_lower_bound": 14.940126328748434,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-24",
+      "higher": "6SP10-26",
+      "lower_kw": 9.2,
+      "higher_kw": 9.2,
+      "grid_min_H_gap": 8.000000000009507,
+      "global_min_H_gap_lower_bound": 7.932150088170687,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-26",
+      "higher": "6SP10-28",
+      "lower_kw": 9.2,
+      "higher_kw": 11.0,
+      "grid_min_H_gap": 7.000000000010772,
+      "global_min_H_gap_lower_bound": 6.926705948989441,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-28",
+      "higher": "6SP10-30",
+      "lower_kw": 11.0,
+      "higher_kw": 11.0,
+      "grid_min_H_gap": 8.000000000009095,
+      "global_min_H_gap_lower_bound": 7.921371986479883,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-30",
+      "higher": "6SP10-34",
+      "lower_kw": 11.0,
+      "higher_kw": 13.0,
+      "grid_min_H_gap": 15.00000000001998,
+      "global_min_H_gap_lower_bound": 14.913565290664089,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-34",
+      "higher": "6SP10-36",
+      "lower_kw": 13.0,
+      "higher_kw": 13.0,
+      "grid_min_H_gap": 7.000000000011312,
+      "global_min_H_gap_lower_bound": 6.905168827111664,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-36",
+      "higher": "6SP10-38",
+      "lower_kw": 13.0,
+      "higher_kw": 15.0,
+      "grid_min_H_gap": 8.000000000009038,
+      "global_min_H_gap_lower_bound": 7.8997098349392605,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-38",
+      "higher": "6SP10-40",
+      "lower_kw": 15.0,
+      "higher_kw": 15.0,
+      "grid_min_H_gap": 7.000000000011141,
+      "global_min_H_gap_lower_bound": 6.894285992030527,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-40",
+      "higher": "6SP10-43",
+      "lower_kw": 15.0,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 12.000000000014069,
+      "global_min_H_gap_lower_bound": 11.887513841298452,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-43",
+      "higher": "6SP10-46",
+      "lower_kw": 18.5,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 11.00000000001495,
+      "global_min_H_gap_lower_bound": 10.879730038397511,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-46",
+      "higher": "6SP10-49",
+      "lower_kw": 18.5,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 11.000000000016087,
+      "global_min_H_gap_lower_bound": 10.871403895928855,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-49",
+      "higher": "6SP10-52",
+      "lower_kw": 18.5,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 11.00000000001603,
+      "global_min_H_gap_lower_bound": 10.862777529613908,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-52",
+      "higher": "6SP10-55",
+      "lower_kw": 22.0,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 12.000000000013102,
+      "global_min_H_gap_lower_bound": 11.8549583642742,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP10",
+      "lower": "6SP10-55",
+      "higher": "6SP10-58",
+      "lower_kw": 22.0,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 11.000000000015916,
+      "global_min_H_gap_lower_bound": 10.847174198476216,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-3",
+      "higher": "6SP18-4",
+      "lower_kw": 2.2,
+      "higher_kw": 2.2,
+      "grid_min_H_gap": 3.0000000000128058,
+      "global_min_H_gap_lower_bound": 2.984844614027707,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-4",
+      "higher": "6SP18-5",
+      "lower_kw": 2.2,
+      "higher_kw": 3.0,
+      "grid_min_H_gap": 4.000000000007116,
+      "global_min_H_gap_lower_bound": 3.979497063160887,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-5",
+      "higher": "6SP18-7",
+      "lower_kw": 3.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 8.000000000013557,
+      "global_min_H_gap_lower_bound": 7.973947391461302,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-7",
+      "higher": "6SP18-8",
+      "lower_kw": 4.0,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 4.000000000007823,
+      "global_min_H_gap_lower_bound": 3.9682096071165227,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-8",
+      "higher": "6SP18-10",
+      "lower_kw": 5.5,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 7.000000000019465,
+      "global_min_H_gap_lower_bound": 6.960885641160187,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-10",
+      "higher": "6SP18-12",
+      "lower_kw": 5.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 8.000000000013465,
+      "global_min_H_gap_lower_bound": 7.952043872724116,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-12",
+      "higher": "6SP18-14",
+      "lower_kw": 7.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 8.000000000016641,
+      "global_min_H_gap_lower_bound": 7.943958490940277,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-14",
+      "higher": "6SP18-16",
+      "lower_kw": 7.5,
+      "higher_kw": 9.2,
+      "grid_min_H_gap": 7.000000000017046,
+      "global_min_H_gap_lower_bound": 6.934915951966566,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-16",
+      "higher": "6SP18-18",
+      "lower_kw": 9.2,
+      "higher_kw": 11.0,
+      "grid_min_H_gap": 8.000000000016655,
+      "global_min_H_gap_lower_bound": 7.925870768065891,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-18",
+      "higher": "6SP18-20",
+      "lower_kw": 11.0,
+      "higher_kw": 11.0,
+      "grid_min_H_gap": 8.000000000013472,
+      "global_min_H_gap_lower_bound": 7.9177841335639565,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-20",
+      "higher": "6SP18-22",
+      "lower_kw": 11.0,
+      "higher_kw": 13.0,
+      "grid_min_H_gap": 8.000000000015149,
+      "global_min_H_gap_lower_bound": 7.910102021043715,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-22",
+      "higher": "6SP18-24",
+      "lower_kw": 13.0,
+      "higher_kw": 13.0,
+      "grid_min_H_gap": 7.000000000018261,
+      "global_min_H_gap_lower_bound": 6.901134331288721,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-24",
+      "higher": "6SP18-28",
+      "lower_kw": 13.0,
+      "higher_kw": 15.0,
+      "grid_min_H_gap": 16.000000000031278,
+      "global_min_H_gap_lower_bound": 15.8878360818252,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-28",
+      "higher": "6SP18-31",
+      "lower_kw": 15.0,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 11.000000000028578,
+      "global_min_H_gap_lower_bound": 10.8717663565145,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-31",
+      "higher": "6SP18-35",
+      "lower_kw": 18.5,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 16.000000000030084,
+      "global_min_H_gap_lower_bound": 15.856020742892921,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-35",
+      "higher": "6SP18-38",
+      "lower_kw": 18.5,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 11.000000000024727,
+      "global_min_H_gap_lower_bound": 10.841304938329351,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-38",
+      "higher": "6SP18-44",
+      "lower_kw": 22.0,
+      "higher_kw": 26.0,
+      "grid_min_H_gap": 23.000000000049624,
+      "global_min_H_gap_lower_bound": 22.82134574378862,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-44",
+      "higher": "6SP18-50",
+      "lower_kw": 26.0,
+      "higher_kw": 26.0,
+      "grid_min_H_gap": 23.000000000045674,
+      "global_min_H_gap_lower_bound": 22.79575627833445,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-50",
+      "higher": "6SP18-53",
+      "lower_kw": 26.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 12.000000000023192,
+      "global_min_H_gap_lower_bound": 11.77726821617237,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP18",
+      "lower": "6SP18-53",
+      "higher": "6SP18-58",
+      "lower_kw": 30.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 19.00000000003749,
+      "global_min_H_gap_lower_bound": 18.760988522632605,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-2",
+      "higher": "6SP30-3",
+      "lower_kw": 2.2,
+      "higher_kw": 3.0,
+      "grid_min_H_gap": 4.000000000006878,
+      "global_min_H_gap_lower_bound": 3.9906960137835927,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-3",
+      "higher": "6SP30-4",
+      "lower_kw": 3.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 3.0000000000083347,
+      "global_min_H_gap_lower_bound": 2.9866124163247347,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-4",
+      "higher": "6SP30-5",
+      "lower_kw": 4.0,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 4.000000000009283,
+      "global_min_H_gap_lower_bound": 3.981884960799185,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-5",
+      "higher": "6SP30-6",
+      "lower_kw": 5.5,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 3.000000000004359,
+      "global_min_H_gap_lower_bound": 2.978222851419261,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-6",
+      "higher": "6SP30-7",
+      "lower_kw": 5.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 4.000000000007265,
+      "global_min_H_gap_lower_bound": 3.975100732644629,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-7",
+      "higher": "6SP30-8",
+      "lower_kw": 7.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 3.0000000000072866,
+      "global_min_H_gap_lower_bound": 2.97119448264465,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-8",
+      "higher": "6SP30-10",
+      "lower_kw": 7.5,
+      "higher_kw": 9.2,
+      "grid_min_H_gap": 7.000000000014431,
+      "global_min_H_gap_lower_bound": 6.965365343084628,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-10",
+      "higher": "6SP30-13",
+      "lower_kw": 9.2,
+      "higher_kw": 11.0,
+      "grid_min_H_gap": 11.00000000002104,
+      "global_min_H_gap_lower_bound": 10.955843858716236,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-13",
+      "higher": "6SP30-15",
+      "lower_kw": 11.0,
+      "higher_kw": 13.0,
+      "grid_min_H_gap": 7.000000000014552,
+      "global_min_H_gap_lower_bound": 6.946289062538966,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-15",
+      "higher": "6SP30-17",
+      "lower_kw": 13.0,
+      "higher_kw": 15.0,
+      "grid_min_H_gap": 7.000000000014424,
+      "global_min_H_gap_lower_bound": 6.938510799392762,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-17",
+      "higher": "6SP30-20",
+      "lower_kw": 15.0,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 11.000000000021046,
+      "global_min_H_gap_lower_bound": 10.928989315024383,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-20",
+      "higher": "6SP30-24",
+      "lower_kw": 18.5,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 14.000000000028194,
+      "global_min_H_gap_lower_bound": 13.915771484427609,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-24",
+      "higher": "6SP30-26",
+      "lower_kw": 22.0,
+      "higher_kw": 26.0,
+      "grid_min_H_gap": 7.000000000014552,
+      "global_min_H_gap_lower_bound": 6.904296875038966,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-26",
+      "higher": "6SP30-30",
+      "lower_kw": 26.0,
+      "higher_kw": 26.0,
+      "grid_min_H_gap": 14.000000000058137,
+      "global_min_H_gap_lower_bound": 13.884793430307573,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-30",
+      "higher": "6SP30-32",
+      "lower_kw": 26.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 5.438401508759455,
+      "global_min_H_gap_lower_bound": 5.311720329633891,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-32",
+      "higher": "6SP30-35",
+      "lower_kw": 30.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 11.000000000057284,
+      "global_min_H_gap_lower_bound": 10.8620642863663,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-35",
+      "higher": "6SP30-38",
+      "lower_kw": 30.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 8.973239765654029,
+      "global_min_H_gap_lower_bound": 8.823585301963044,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP30",
+      "lower": "6SP30-38",
+      "higher": "6SP30-42",
+      "lower_kw": 37.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 14.000000000028194,
+      "global_min_H_gap_lower_bound": 13.846435546927609,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-2",
+      "higher": "6SP36-3",
+      "lower_kw": 3.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 5.000000000006105,
+      "global_min_H_gap_lower_bound": 4.990722067072645,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-3",
+      "higher": "6SP36-4",
+      "lower_kw": 4.0,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 5.000000000007125,
+      "global_min_H_gap_lower_bound": 4.987170132730847,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-4",
+      "higher": "6SP36-5",
+      "lower_kw": 5.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 5.000000000007272,
+      "global_min_H_gap_lower_bound": 4.983305146935946,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-5",
+      "higher": "6SP36-6",
+      "lower_kw": 7.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 5.0000000000071125,
+      "global_min_H_gap_lower_bound": 4.979444571200161,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-6",
+      "higher": "6SP36-7",
+      "lower_kw": 7.5,
+      "higher_kw": 9.2,
+      "grid_min_H_gap": 4.99999999996394,
+      "global_min_H_gap_lower_bound": 4.974786376662047,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-7",
+      "higher": "6SP36-8",
+      "lower_kw": 9.2,
+      "higher_kw": 11.0,
+      "grid_min_H_gap": 5.000000000006516,
+      "global_min_H_gap_lower_bound": 4.971158676846029,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-8",
+      "higher": "6SP36-9",
+      "lower_kw": 11.0,
+      "higher_kw": 11.0,
+      "grid_min_H_gap": 5.000000000050946,
+      "global_min_H_gap_lower_bound": 4.96816393413773,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-9",
+      "higher": "6SP36-10",
+      "lower_kw": 11.0,
+      "higher_kw": 13.0,
+      "grid_min_H_gap": 5.0000000000071765,
+      "global_min_H_gap_lower_bound": 4.96412058833995,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-10",
+      "higher": "6SP36-11",
+      "lower_kw": 13.0,
+      "higher_kw": 15.0,
+      "grid_min_H_gap": 5.000000000006729,
+      "global_min_H_gap_lower_bound": 4.960386284203845,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-11",
+      "higher": "6SP36-12",
+      "lower_kw": 15.0,
+      "higher_kw": 15.0,
+      "grid_min_H_gap": 5.000000000007468,
+      "global_min_H_gap_lower_bound": 4.9565743556643325,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-12",
+      "higher": "6SP36-14",
+      "lower_kw": 15.0,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 10.000000000013962,
+      "global_min_H_gap_lower_bound": 9.950821234456624,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-14",
+      "higher": "6SP36-15",
+      "lower_kw": 18.5,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 5.000000000006267,
+      "global_min_H_gap_lower_bound": 4.945392407455861,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-15",
+      "higher": "6SP36-17",
+      "lower_kw": 18.5,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 10.000000000014936,
+      "global_min_H_gap_lower_bound": 9.939702134345735,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-17",
+      "higher": "6SP36-18",
+      "lower_kw": 22.0,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 5.00000000000685,
+      "global_min_H_gap_lower_bound": 4.933853935798479,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-18",
+      "higher": "6SP36-20",
+      "lower_kw": 22.0,
+      "higher_kw": 26.0,
+      "grid_min_H_gap": 10.000000000014197,
+      "global_min_H_gap_lower_bound": 9.928203443499957,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-20",
+      "higher": "6SP36-22",
+      "lower_kw": 26.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 10.00000000001421,
+      "global_min_H_gap_lower_bound": 9.92057646343916,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-22",
+      "higher": "6SP36-24",
+      "lower_kw": 30.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 10.000000000014367,
+      "global_min_H_gap_lower_bound": 9.912906749474839,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-24",
+      "higher": "6SP36-26",
+      "lower_kw": 30.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 9.999999999851795,
+      "global_min_H_gap_lower_bound": 9.903312814454901,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-26",
+      "higher": "6SP36-28",
+      "lower_kw": 37.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 10.00000000017593,
+      "global_min_H_gap_lower_bound": 9.895868848018031,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP36",
+      "lower": "6SP36-28",
+      "higher": "6SP36-30",
+      "lower_kw": 37.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 10.000000000014126,
+      "global_min_H_gap_lower_bound": 9.890373374657015,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-2",
+      "higher": "6SP46-3A",
+      "lower_kw": 3.0,
+      "higher_kw": 4.0,
+      "grid_min_H_gap": 2.000000000016893,
+      "global_min_H_gap_lower_bound": 1.9901939472970833,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-3A",
+      "higher": "6SP46-3",
+      "lower_kw": 4.0,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 2.0000000000059277,
+      "global_min_H_gap_lower_bound": 1.9884608204237852,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-3",
+      "higher": "6SP46-4",
+      "lower_kw": 5.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 3.0000000000135287,
+      "global_min_H_gap_lower_bound": 2.983238159244358,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-4",
+      "higher": "6SP46-5",
+      "lower_kw": 7.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 3.9999999999695284,
+      "global_min_H_gap_lower_bound": 3.9787111849514347,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-5",
+      "higher": "6SP46-6",
+      "lower_kw": 7.5,
+      "higher_kw": 9.2,
+      "grid_min_H_gap": 4.00000000004216,
+      "global_min_H_gap_lower_bound": 3.9755738404736736,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-6",
+      "higher": "6SP46-7",
+      "lower_kw": 9.2,
+      "higher_kw": 11.0,
+      "grid_min_H_gap": 3.0000000000092513,
+      "global_min_H_gap_lower_bound": 2.9708485671580056,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-7",
+      "higher": "6SP46-8",
+      "lower_kw": 11.0,
+      "higher_kw": 13.0,
+      "grid_min_H_gap": 3.999999999947459,
+      "global_min_H_gap_lower_bound": 3.965327937972957,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-8",
+      "higher": "6SP46-9",
+      "lower_kw": 13.0,
+      "higher_kw": 15.0,
+      "grid_min_H_gap": 3.0000000000696296,
+      "global_min_H_gap_lower_bound": 2.9607399484917587,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-9",
+      "higher": "6SP46-10",
+      "lower_kw": 15.0,
+      "higher_kw": 15.0,
+      "grid_min_H_gap": 4.0000000000073825,
+      "global_min_H_gap_lower_bound": 3.957207752778303,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-10",
+      "higher": "6SP46-11",
+      "lower_kw": 15.0,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 4.0000000000077165,
+      "global_min_H_gap_lower_bound": 3.9531553929707433,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-11",
+      "higher": "6SP46-12",
+      "lower_kw": 18.5,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 2.999999999918586,
+      "global_min_H_gap_lower_bound": 2.9469117393602864,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-12",
+      "higher": "6SP46-14",
+      "lower_kw": 18.5,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 7.0000000001073985,
+      "global_min_H_gap_lower_bound": 6.93993568826706,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-14",
+      "higher": "6SP46-16",
+      "lower_kw": 22.0,
+      "higher_kw": 26.0,
+      "grid_min_H_gap": 7.999999999907246,
+      "global_min_H_gap_lower_bound": 7.9326270919816455,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-16",
+      "higher": "6SP46-18",
+      "lower_kw": 26.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 7.00000000012534,
+      "global_min_H_gap_lower_bound": 6.923881834922129,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-18",
+      "higher": "6SP46-20",
+      "lower_kw": 30.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 7.00000000001711,
+      "global_min_H_gap_lower_bound": 6.91504722403223,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-20",
+      "higher": "6SP46-22",
+      "lower_kw": 30.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 7.000000000016598,
+      "global_min_H_gap_lower_bound": 6.905998660299192,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP46",
+      "lower": "6SP46-22",
+      "higher": "6SP46-24",
+      "lower_kw": 37.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 7.00000000001711,
+      "global_min_H_gap_lower_bound": 6.89695099785658,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-2",
+      "higher": "6SP60-3",
+      "lower_kw": 4.0,
+      "higher_kw": 5.5,
+      "grid_min_H_gap": 3.000000000024505,
+      "global_min_H_gap_lower_bound": 2.988479197505168,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-3",
+      "higher": "6SP60-4",
+      "lower_kw": 5.5,
+      "higher_kw": 7.5,
+      "grid_min_H_gap": 4.000000000007956,
+      "global_min_H_gap_lower_bound": 3.9840026712358836,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-4",
+      "higher": "6SP60-5",
+      "lower_kw": 7.5,
+      "higher_kw": 9.2,
+      "grid_min_H_gap": 3.0000000000105977,
+      "global_min_H_gap_lower_bound": 2.9790226586004214,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-5",
+      "higher": "6SP60-6",
+      "lower_kw": 9.2,
+      "higher_kw": 11.0,
+      "grid_min_H_gap": 4.000000000008374,
+      "global_min_H_gap_lower_bound": 3.973929871416683,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-6",
+      "higher": "6SP60-7",
+      "lower_kw": 11.0,
+      "higher_kw": 13.0,
+      "grid_min_H_gap": 3.0000000000097558,
+      "global_min_H_gap_lower_bound": 2.969062806488612,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-7",
+      "higher": "6SP60-8",
+      "lower_kw": 13.0,
+      "higher_kw": 15.0,
+      "grid_min_H_gap": 4.000000000009134,
+      "global_min_H_gap_lower_bound": 3.9639920493987497,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-8",
+      "higher": "6SP60-10",
+      "lower_kw": 15.0,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 7.00000000001733,
+      "global_min_H_gap_lower_bound": 6.956888802100235,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-10",
+      "higher": "6SP60-12",
+      "lower_kw": 18.5,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 8.000000000017003,
+      "global_min_H_gap_lower_bound": 7.94767235323592,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-12",
+      "higher": "6SP60-14",
+      "lower_kw": 22.0,
+      "higher_kw": 26.0,
+      "grid_min_H_gap": 7.000000000017721,
+      "global_min_H_gap_lower_bound": 6.938350565161603,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-14",
+      "higher": "6SP60-16",
+      "lower_kw": 26.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 7.000000000018304,
+      "global_min_H_gap_lower_bound": 6.928681234294383,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-16",
+      "higher": "6SP60-18",
+      "lower_kw": 30.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 7.000000000018289,
+      "global_min_H_gap_lower_bound": 6.918857495825372,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "6SP60",
+      "lower": "6SP60-18",
+      "higher": "6SP60-20",
+      "lower_kw": 37.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 7.00000000001954,
+      "global_min_H_gap_lower_bound": 6.908702211473149,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-2",
+      "higher": "8SP77-3",
+      "lower_kw": 7.5,
+      "higher_kw": 11.0,
+      "grid_min_H_gap": 8.000000000010324,
+      "global_min_H_gap_lower_bound": 7.987030674762665,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-3",
+      "higher": "8SP77-4",
+      "lower_kw": 11.0,
+      "higher_kw": 15.0,
+      "grid_min_H_gap": 9.00000000000863,
+      "global_min_H_gap_lower_bound": 8.981942818523725,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-4",
+      "higher": "8SP77-5",
+      "lower_kw": 15.0,
+      "higher_kw": 18.5,
+      "grid_min_H_gap": 8.000000000009805,
+      "global_min_H_gap_lower_bound": 7.976994785731399,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-5",
+      "higher": "8SP77-6",
+      "lower_kw": 18.5,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 8.000000000011184,
+      "global_min_H_gap_lower_bound": 7.971360164639381,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-6",
+      "higher": "8SP77-7",
+      "lower_kw": 22.0,
+      "higher_kw": 26.0,
+      "grid_min_H_gap": 9.000000000008875,
+      "global_min_H_gap_lower_bound": 8.965975090220091,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-7",
+      "higher": "8SP77-8",
+      "lower_kw": 26.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 7.999999999941977,
+      "global_min_H_gap_lower_bound": 7.960765101132776,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-8",
+      "higher": "8SP77-9",
+      "lower_kw": 30.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 9.00000000007681,
+      "global_min_H_gap_lower_bound": 8.955722245061086,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-9",
+      "higher": "8SP77-10",
+      "lower_kw": 37.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 8.000000000010857,
+      "global_min_H_gap_lower_bound": 7.9505935953096065,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-10",
+      "higher": "8SP77-12",
+      "lower_kw": 37.0,
+      "higher_kw": 45.0,
+      "grid_min_H_gap": 17.000000000019043,
+      "global_min_H_gap_lower_bound": 16.942565257950147,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-12",
+      "higher": "8SP77-14",
+      "lower_kw": 45.0,
+      "higher_kw": 55.0,
+      "grid_min_H_gap": 17.000000000018815,
+      "global_min_H_gap_lower_bound": 16.932400536833267,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-14",
+      "higher": "8SP77-16",
+      "lower_kw": 55.0,
+      "higher_kw": 63.0,
+      "grid_min_H_gap": 16.000000000021004,
+      "global_min_H_gap_lower_bound": 15.92171570538492,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-16",
+      "higher": "8SP77-18",
+      "lower_kw": 63.0,
+      "higher_kw": 63.0,
+      "grid_min_H_gap": 17.000000000018815,
+      "global_min_H_gap_lower_bound": 16.911031111817618,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-18",
+      "higher": "8SP77-20",
+      "lower_kw": 63.0,
+      "higher_kw": 75.0,
+      "grid_min_H_gap": 17.00000000001924,
+      "global_min_H_gap_lower_bound": 16.90081237893044,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP77",
+      "lower": "8SP77-20",
+      "higher": "8SP77-22",
+      "lower_kw": 75.0,
+      "higher_kw": 75.0,
+      "grid_min_H_gap": 17.00000000001924,
+      "global_min_H_gap_lower_bound": 16.890475785325876,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP95",
+      "lower": "8SP95-2",
+      "higher": "8SP95-3",
+      "lower_kw": 11.0,
+      "higher_kw": 15.0,
+      "grid_min_H_gap": 7.000000000035207,
+      "global_min_H_gap_lower_bound": 6.9816547724864435,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP95",
+      "lower": "8SP95-3",
+      "higher": "8SP95-4",
+      "lower_kw": 15.0,
+      "higher_kw": 22.0,
+      "grid_min_H_gap": 7.000000000012996,
+      "global_min_H_gap_lower_bound": 6.975991725839753,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP95",
+      "lower": "8SP95-4",
+      "higher": "8SP95-5",
+      "lower_kw": 22.0,
+      "higher_kw": 26.0,
+      "grid_min_H_gap": 7.00000000000594,
+      "global_min_H_gap_lower_bound": 6.970908294172933,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP95",
+      "lower": "8SP95-5",
+      "higher": "8SP95-6",
+      "lower_kw": 26.0,
+      "higher_kw": 30.0,
+      "grid_min_H_gap": 7.000000000019092,
+      "global_min_H_gap_lower_bound": 6.964189934851573,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP95",
+      "lower": "8SP95-6",
+      "higher": "8SP95-7",
+      "lower_kw": 30.0,
+      "higher_kw": 37.0,
+      "grid_min_H_gap": 7.000000000013031,
+      "global_min_H_gap_lower_bound": 6.955566780170678,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP95",
+      "lower": "8SP95-7",
+      "higher": "8SP95-8",
+      "lower_kw": 37.0,
+      "higher_kw": 45.0,
+      "grid_min_H_gap": 7.0000000000032045,
+      "global_min_H_gap_lower_bound": 6.951206870047608,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP95",
+      "lower": "8SP95-8",
+      "higher": "8SP95-10",
+      "lower_kw": 45.0,
+      "higher_kw": 55.0,
+      "grid_min_H_gap": 13.000000000037303,
+      "global_min_H_gap_lower_bound": 12.940334698882316,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP95",
+      "lower": "8SP95-10",
+      "higher": "8SP95-12",
+      "lower_kw": 55.0,
+      "higher_kw": 63.0,
+      "grid_min_H_gap": 14.000000000025878,
+      "global_min_H_gap_lower_bound": 13.923374321648813,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP95",
+      "lower": "8SP95-12",
+      "higher": "8SP95-14",
+      "lower_kw": 63.0,
+      "higher_kw": 75.0,
+      "grid_min_H_gap": 14.000000000024826,
+      "global_min_H_gap_lower_bound": 13.909763858254724,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP95",
+      "lower": "8SP95-14",
+      "higher": "8SP95-16",
+      "lower_kw": 75.0,
+      "higher_kw": 92.0,
+      "grid_min_H_gap": 14.000000000007205,
+      "global_min_H_gap_lower_bound": 13.901165016098828,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    },
+    {
+      "family": "8SP95",
+      "lower": "8SP95-16",
+      "higher": "8SP95-18",
+      "lower_kw": 92.0,
+      "higher_kw": 92.0,
+      "grid_min_H_gap": 14.000000000044096,
+      "global_min_H_gap_lower_bound": 13.887390904806754,
+      "proof": "4097 Q grid; two concave monotone curves have endpoint-bounded derivatives, Lipschitz error bound applies on all intervals"
+    }
+  ],
+  "order_failures": [],
+  "minimum_all_range_certified_H_gap": 1.9884608204237852
+}

@@ -1,0 +1,1171 @@
+[
+  {
+    "model": "4SP3-9",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.6444860927622216
+  },
+  {
+    "model": "4SP3-12",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.7291983355768363
+  },
+  {
+    "model": "4SP3-15",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.2619731510298036
+  },
+  {
+    "model": "4SP3-18",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.714352049775015
+  },
+  {
+    "model": "4SP3-22",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 1.8163294354099093
+  },
+  {
+    "model": "4SP3-25",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.1836983735870503
+  },
+  {
+    "model": "4SP3-29",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.4407365198124036
+  },
+  {
+    "model": "4SP3-33",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.907500975101864
+  },
+  {
+    "model": "4SP3-39",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.4187544769084828
+  },
+  {
+    "model": "4SP3-45",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.3756523795987583
+  },
+  {
+    "model": "4SP3-52",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.3950887043777067
+  },
+  {
+    "model": "4SP3-60",
+    "family": "4SP3",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.5145636325705563
+  },
+  {
+    "model": "4SP5-4",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.999000000000025
+  },
+  {
+    "model": "4SP5-6",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.459554965323046
+  },
+  {
+    "model": "4SP5-8",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.1262820962547835
+  },
+  {
+    "model": "4SP5-12",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.2971854851208833
+  },
+  {
+    "model": "4SP5-15",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.451011244512304
+  },
+  {
+    "model": "4SP5-18",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.207477793456579
+  },
+  {
+    "model": "4SP5-21",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.1019571641487205
+  },
+  {
+    "model": "4SP5-25",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.7249509617324104
+  },
+  {
+    "model": "4SP5-29",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.2343011880134607
+  },
+  {
+    "model": "4SP5-33",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.79852800291818
+  },
+  {
+    "model": "4SP5-38",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.545917108163812
+  },
+  {
+    "model": "4SP5-44",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.761302089611597
+  },
+  {
+    "model": "4SP5-52",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.5929922296322054
+  },
+  {
+    "model": "4SP5-58",
+    "family": "4SP5",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.7667285986066905
+  },
+  {
+    "model": "4SP10-7",
+    "family": "4SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.5309905273433193
+  },
+  {
+    "model": "4SP10-9",
+    "family": "4SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.7918343246574078
+  },
+  {
+    "model": "4SP10-11",
+    "family": "4SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.6001470676405347
+  },
+  {
+    "model": "4SP10-13",
+    "family": "4SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.1076436295794463
+  },
+  {
+    "model": "4SP10-15",
+    "family": "4SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.4180954536857193
+  },
+  {
+    "model": "4SP10-18",
+    "family": "4SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.0921368432880505
+  },
+  {
+    "model": "4SP10-26",
+    "family": "4SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.4521675398973866
+  },
+  {
+    "model": "4SP10-30",
+    "family": "4SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.734246951553115
+  },
+  {
+    "model": "4SP10-33",
+    "family": "4SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.6797182077276926
+  },
+  {
+    "model": "8SP95-3",
+    "family": "8SP95",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.575979300732384
+  },
+  {
+    "model": "8SP95-4",
+    "family": "8SP95",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.859527465046675
+  },
+  {
+    "model": "8SP95-5",
+    "family": "8SP95",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.998999999999818
+  },
+  {
+    "model": "8SP95-6",
+    "family": "8SP95",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.108482763873545
+  },
+  {
+    "model": "8SP95-7",
+    "family": "8SP95",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.6373998071405227
+  },
+  {
+    "model": "8SP95-8",
+    "family": "8SP95",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.998999999999804
+  },
+  {
+    "model": "8SP95-10",
+    "family": "8SP95",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.9340071732692605
+  },
+  {
+    "model": "8SP95-12",
+    "family": "8SP95",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.574793995160299
+  },
+  {
+    "model": "8SP95-14",
+    "family": "8SP95",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.8321354084017996
+  },
+  {
+    "model": "8SP95-16",
+    "family": "8SP95",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.998999999999804
+  },
+  {
+    "model": "8SP95-18",
+    "family": "8SP95",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.688085982560302
+  },
+  {
+    "model": "4SP8-5",
+    "family": "4SP8",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.7598848520428163
+  },
+  {
+    "model": "4SP8-8",
+    "family": "4SP8",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.9935255461993844
+  },
+  {
+    "model": "4SP8-11",
+    "family": "4SP8",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.998999999999866
+  },
+  {
+    "model": "4SP8-13",
+    "family": "4SP8",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.5748757445594648
+  },
+  {
+    "model": "4SP8-16",
+    "family": "4SP8",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.9935255461993844
+  },
+  {
+    "model": "4SP8-18",
+    "family": "4SP8",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.998999999999771
+  },
+  {
+    "model": "4SP8-21",
+    "family": "4SP8",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.55571044128201
+  },
+  {
+    "model": "4SP8-25",
+    "family": "4SP8",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.305414281881146
+  },
+  {
+    "model": "4SP8-28",
+    "family": "4SP8",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.385647355695216
+  },
+  {
+    "model": "4SP8-32",
+    "family": "4SP8",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 3.9935255461993844
+  },
+  {
+    "model": "4SP8-36",
+    "family": "4SP8",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.998999999999759
+  },
+  {
+    "model": "4SP14-4",
+    "family": "4SP14",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.9990000000000725
+  },
+  {
+    "model": "4SP14-6",
+    "family": "4SP14",
+    "method": "concave_C2_spline",
+    "segments": 2,
+    "max_error_percent": 1.969881879071646
+  },
+  {
+    "model": "4SP14-8",
+    "family": "4SP14",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.999000000000051
+  },
+  {
+    "model": "4SP14-11",
+    "family": "4SP14",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.999000000000041
+  },
+  {
+    "model": "4SP14-13",
+    "family": "4SP14",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.999000000000052
+  },
+  {
+    "model": "4SP14-15",
+    "family": "4SP14",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.99900000000006
+  },
+  {
+    "model": "4SP14-18",
+    "family": "4SP14",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.999000000000057
+  },
+  {
+    "model": "4SP14-20",
+    "family": "4SP14",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.999000000000044
+  },
+  {
+    "model": "4SP14-23",
+    "family": "4SP14",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.683908703020637
+  },
+  {
+    "model": "4SP14-26",
+    "family": "4SP14",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.999000000000052
+  },
+  {
+    "model": "6SP10-10",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.0241686710164997
+  },
+  {
+    "model": "6SP10-14",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.0508897186111854
+  },
+  {
+    "model": "6SP10-18",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 1.5940155889669079
+  },
+  {
+    "model": "6SP10-20",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 1.8745906531010155
+  },
+  {
+    "model": "6SP10-24",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.1452892901796448
+  },
+  {
+    "model": "6SP10-26",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.0918524432246217
+  },
+  {
+    "model": "6SP10-28",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.3316678811773297
+  },
+  {
+    "model": "6SP10-30",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.525396536620385
+  },
+  {
+    "model": "6SP10-34",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.0488439446806135
+  },
+  {
+    "model": "6SP10-36",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.1712247550070907
+  },
+  {
+    "model": "6SP10-38",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.1879849384781287
+  },
+  {
+    "model": "6SP10-40",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.310366813532723
+  },
+  {
+    "model": "6SP10-43",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 1.8923514567684225
+  },
+  {
+    "model": "6SP10-46",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.115140885513904
+  },
+  {
+    "model": "6SP10-49",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.1839073248915204
+  },
+  {
+    "model": "6SP10-52",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.235854659852078
+  },
+  {
+    "model": "6SP10-55",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.019875339064863
+  },
+  {
+    "model": "6SP10-58",
+    "family": "6SP10",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.088504534671054
+  },
+  {
+    "model": "6SP30-2",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.712785613451711
+  },
+  {
+    "model": "6SP30-3",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.486170686735335
+  },
+  {
+    "model": "6SP30-4",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.279131073074274
+  },
+  {
+    "model": "6SP30-6",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.303460559006088
+  },
+  {
+    "model": "6SP30-7",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.826606827393117
+  },
+  {
+    "model": "6SP30-8",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.512880595516765
+  },
+  {
+    "model": "6SP30-10",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.5655892012620574
+  },
+  {
+    "model": "6SP30-13",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.4122448783673236
+  },
+  {
+    "model": "6SP30-15",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.655723176574853
+  },
+  {
+    "model": "6SP30-17",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.403527222502174
+  },
+  {
+    "model": "6SP30-20",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.334667213551953
+  },
+  {
+    "model": "6SP30-24",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.759982264862347
+  },
+  {
+    "model": "6SP30-26",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.5586093836528434
+  },
+  {
+    "model": "6SP30-32",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.6984589837566415
+  },
+  {
+    "model": "6SP30-38",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.6257802160038217
+  },
+  {
+    "model": "6SP30-42",
+    "family": "6SP30",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.541229582300074
+  },
+  {
+    "model": "6SP36-2",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.998999999999728
+  },
+  {
+    "model": "6SP36-5",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.722477059128975
+  },
+  {
+    "model": "6SP36-6",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.128647982510436
+  },
+  {
+    "model": "6SP36-9",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.1541008448723384
+  },
+  {
+    "model": "6SP36-10",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.4359614058004593
+  },
+  {
+    "model": "6SP36-11",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.7770002783652785
+  },
+  {
+    "model": "6SP36-12",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.8809726801802453
+  },
+  {
+    "model": "6SP36-14",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.2308799872221274
+  },
+  {
+    "model": "6SP36-15",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.5970781844564614
+  },
+  {
+    "model": "6SP36-17",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.753815196928365
+  },
+  {
+    "model": "6SP36-18",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.1382620940777612
+  },
+  {
+    "model": "6SP36-20",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.436799311419607
+  },
+  {
+    "model": "6SP36-22",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.678693784949966
+  },
+  {
+    "model": "6SP36-24",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.2630874632278726
+  },
+  {
+    "model": "6SP36-28",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.2348774016940127
+  },
+  {
+    "model": "6SP36-30",
+    "family": "6SP36",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.436225178380499
+  },
+  {
+    "model": "6SP46-3",
+    "family": "6SP46",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.955894725941114
+  },
+  {
+    "model": "6SP46-4",
+    "family": "6SP46",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.225169779742672
+  },
+  {
+    "model": "6SP46-6",
+    "family": "6SP46",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.0816651381868008
+  },
+  {
+    "model": "6SP46-7",
+    "family": "6SP46",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.528899919703863
+  },
+  {
+    "model": "6SP46-9",
+    "family": "6SP46",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.998999999999761
+  },
+  {
+    "model": "6SP46-10",
+    "family": "6SP46",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.7659687326876625
+  },
+  {
+    "model": "6SP46-11",
+    "family": "6SP46",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.4967215111702457
+  },
+  {
+    "model": "6SP46-14",
+    "family": "6SP46",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.70795208256547
+  },
+  {
+    "model": "6SP46-18",
+    "family": "6SP46",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.4466371077015894
+  },
+  {
+    "model": "6SP46-20",
+    "family": "6SP46",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.7659687326876625
+  },
+  {
+    "model": "6SP46-22",
+    "family": "6SP46",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.106350832435361
+  },
+  {
+    "model": "6SP46-24",
+    "family": "6SP46",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.316289171309113
+  },
+  {
+    "model": "6SP60-3",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.906029184139116
+  },
+  {
+    "model": "6SP60-4",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.0582507883453403
+  },
+  {
+    "model": "6SP60-5",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.229547781920476
+  },
+  {
+    "model": "6SP60-6",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.246514769966818
+  },
+  {
+    "model": "6SP60-7",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.3165933621514645
+  },
+  {
+    "model": "6SP60-8",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.6122679648594915
+  },
+  {
+    "model": "6SP60-10",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.663411130883787
+  },
+  {
+    "model": "6SP60-12",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.6587155160094484
+  },
+  {
+    "model": "6SP60-14",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.80909626808806
+  },
+  {
+    "model": "6SP60-16",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.801819082784083
+  },
+  {
+    "model": "6SP60-18",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.927853529180727
+  },
+  {
+    "model": "6SP60-20",
+    "family": "6SP60",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.888937963058163
+  },
+  {
+    "model": "10SP135-3",
+    "family": "10SP135",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.299008446349589
+  },
+  {
+    "model": "10SP135-4",
+    "family": "10SP135",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.132076549790358
+  },
+  {
+    "model": "10SP135-5",
+    "family": "10SP135",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.389178926622113
+  },
+  {
+    "model": "10SP135-8",
+    "family": "10SP135",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.132076549790358
+  },
+  {
+    "model": "10SP135-10",
+    "family": "10SP135",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.6328916854021043
+  },
+  {
+    "model": "8SP77-3",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.3477359685349697
+  },
+  {
+    "model": "8SP77-4",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 3.1770157693735985
+  },
+  {
+    "model": "8SP77-5",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.471738982292651
+  },
+  {
+    "model": "8SP77-6",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.559149266737414
+  },
+  {
+    "model": "8SP77-7",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.4392464751171548
+  },
+  {
+    "model": "8SP77-9",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.4177812174604663
+  },
+  {
+    "model": "8SP77-10",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.56699756324256
+  },
+  {
+    "model": "8SP77-12",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.2369488986489805
+  },
+  {
+    "model": "8SP77-14",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.3961888283622765
+  },
+  {
+    "model": "8SP77-16",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.273210816945466
+  },
+  {
+    "model": "8SP77-18",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.397680137825584
+  },
+  {
+    "model": "8SP77-20",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.3725491286550793
+  },
+  {
+    "model": "8SP77-22",
+    "family": "8SP77",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 2.4191799347006486
+  },
+  {
+    "model": "10SP160-2",
+    "family": "10SP160",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.999000000000008
+  },
+  {
+    "model": "10SP160-3",
+    "family": "10SP160",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.652841778094743
+  },
+  {
+    "model": "10SP160-4",
+    "family": "10SP160",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.998999999999993
+  },
+  {
+    "model": "10SP160-5",
+    "family": "10SP160",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.998999999999845
+  },
+  {
+    "model": "10SP160-6",
+    "family": "10SP160",
+    "method": "global_degree2",
+    "segments": 1,
+    "max_error_percent": 4.978944936543399
+  },
+  {
+    "model": "10SP160-7",
+    "family": "10SP160",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.739252488625022
+  },
+  {
+    "model": "10SP160-8",
+    "family": "10SP160",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.998999999999993
+  },
+  {
+    "model": "10SP160-9",
+    "family": "10SP160",
+    "method": "global_degree3",
+    "segments": 1,
+    "max_error_percent": 4.826850461411624
+  }
+]

@@ -1,0 +1,32 @@
+[
+ {
+  "stt": 51,
+  "file": "Aquaris FS_300dpi_75% (bản mới).pdf",
+  "page": 1,
+  "item": "Chép nét số/dấu nối cùng kiểu từ model thật đầu bảng; giữ từng nhóm số và lời giải thích",
+  "old": "FS 15 15 1.5",
+  "new": "FS-35-7-2.2",
+  "result": "ĐẠT",
+  "evidence": "So sanh G06.png; G06/acceptance-v2.json; G06/font-probe.json"
+ },
+ {
+  "stt": 52,
+  "file": "Aquaris FS_300dpi_75% (bản mới).pdf",
+  "page": "2–3",
+  "item": "Không dùng chữ thường khác nét đậm của tiêu đề",
+  "old": "(KW)",
+  "new": "Còn nguyên (KW); chưa sửa được (kW) đúng kiểu chữ",
+  "result": "CHƯA ĐẠT",
+  "evidence": "G06/probe.json; G06/font-probe.json; So sanh G06.png"
+ },
+ {
+  "stt": 53,
+  "file": "Aquaris FS_300dpi_75% (bản mới).pdf",
+  "page": 4,
+  "item": "Thử hai mẫu bằng nét chữ trong bảng; mẫu chưa đúng nét nên giữ nguyên theo điều kiện prompt",
+  "old": "Hàng 5, 13 nhỏ; 15, 18 lớn; 28 sát viền",
+  "new": "Giữ nguyên bảng gốc; chưa đạt mục tiêu đồng cỡ",
+  "result": "CHƯA ĐẠT",
+  "evidence": "G06/review/mau-sua.png; G06/review/mau-sua-2.png; G06/acceptance-v2.json"
+ }
+]

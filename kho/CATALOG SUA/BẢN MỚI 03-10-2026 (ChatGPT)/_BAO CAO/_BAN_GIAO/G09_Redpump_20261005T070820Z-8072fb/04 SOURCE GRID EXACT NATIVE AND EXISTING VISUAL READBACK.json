@@ -1,0 +1,100 @@
+{
+  "brand": "Redpump",
+  "handoff_SHA256": "1abfe7fbece6fed2eeceddd8244f24d9500dc11de638906c0c2c45959e33c263",
+  "source_grid_path_style_exact_current": true,
+  "source_grid_matches": [
+    {
+      "object": 1232,
+      "i0": 53662,
+      "i1": 53664,
+      "bbox_page_bottom_left": [
+        335.6112,
+        387.4824,
+        523.3127999999999,
+        387.4824
+      ],
+      "pagepath": [
+        [
+          "m",
+          [
+            [
+              335.6112,
+              387.4824
+            ]
+          ]
+        ],
+        [
+          "l",
+          [
+            [
+              523.3127999999999,
+              387.4824
+            ]
+          ]
+        ]
+      ],
+      "pagepath_SHA256": "7064dc5fe8f8f59c3c0afff6af09ba0f4fe3e4557fb703bc946ae10c5477ef69",
+      "style": {
+        "op": "S",
+        "fill": [
+          "rg",
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "stroke": [
+          "RG",
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lw": 2.91667,
+        "dash": null,
+        "gs": "R15",
+        "fill_cs": null,
+        "stroke_cs": null,
+        "ctm": [
+          [
+            0.24,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.24,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "operator_slice_SHA256": "35283251a37f319dc56609e78d357dcd5c21d9f80a28c109671b7881cc822dad"
+    }
+  ],
+  "existing_M3_region600_images_directly_opened": [
+    "Perotac-M3-LH845-60-region-600.png",
+    "Redpump-M3-LH845-60-region-600.png"
+  ],
+  "visual_observation": "Original white label field visibly interrupts black horizontal grid at845. Black845 glyph and red pump curves are visible and must remain. No new candidate, no aesthetic acceptance.",
+  "prior_accepted_length_approx_pt": 14.27512168353752,
+  "direct_centerline_intersection_length_pt": 14.303262446350516,
+  "difference_retained_UNRESOLVED": true,
+  "preparation_failures_retained": [
+    "Initial code SyntaxError before execution; no output/PDF edit.",
+    "Read-only page_count nonexistent; partial handoff folder retained, no PDF edit.",
+    "Direct gap assertion against historic approximate metric failed; direct coordinate metric disclosed instead, no PDF edit.",
+    "table_locks dict contains5 fields;96 refers3 anchor pairs per32 curves, whole dictionaries retained."
+  ],
+  "Editor": 0,
+  "RAM": 0,
+  "PDF_render": 0,
+  "PDF_Save": 0,
+  "control_write": 0
+}

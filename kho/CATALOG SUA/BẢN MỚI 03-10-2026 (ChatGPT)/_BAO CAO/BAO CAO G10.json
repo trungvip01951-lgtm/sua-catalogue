@@ -1,0 +1,90 @@
+[
+ {
+  "stt": 77,
+  "file": "May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+  "page": "2",
+  "item": "Tiêu đề",
+  "old": "\"PERATING PRINCIPLE\"",
+  "new": "(ĐÃ SỬA ngày 01/10 – bản mới đã gửi)",
+  "result": "GIỮ NGUYÊN",
+  "evidence": "So sanh G10.png; G10/ANH CHI TIET1–4; G10/NGHIEM THU CHU SO DOC LAP.json",
+  "method": "Vùng tiêu đề #77 và toàn trang19 #145 giống điểm ảnh nguồn."
+ },
+ {
+  "stt": 78,
+  "file": "May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+  "page": "2",
+  "item": "Đoạn mô tả nguyên lý",
+  "old": "\"Intolet\", \"Maximun\", \"The gas it taken in though the inlet1\", \"dischargring it though\"",
+  "new": "Inlet; sáu dòng mô tả nguyên lý đã viết đúng nghĩa và chính tả.",
+  "result": "ĐẠT",
+  "evidence": "So sanh G10.png; G10/ANH CHI TIET1–4; G10/NGHIEM THU CHU SO DOC LAP.json",
+  "method": "catfix xoá đúng chữ/lớp nét cũ rồi chép phông/nét cùng kiểu từ chính PDF; đọc lại và soi ảnh."
+ },
+ {
+  "stt": 79,
+  "file": "May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+  "page": "3",
+  "item": "Tiêu đề",
+  "old": "\"EXPLOSIVE VIEW\"",
+  "new": "EXPLODED VIEW",
+  "result": "ĐẠT",
+  "evidence": "So sanh G10.png; G10/ANH CHI TIET1–4; G10/NGHIEM THU CHU SO DOC LAP.json",
+  "method": "catfix xoá đúng chữ/lớp nét cũ rồi chép phông/nét cùng kiểu từ chính PDF; đọc lại và soi ảnh."
+ },
+ {
+  "stt": 80,
+  "file": "May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+  "page": "10, 12",
+  "item": "Bảng GB-2200, GB-3000S",
+  "old": "Một số ô (\"14.8(17.7)\", \"50(60)\", \"390(435)\") khác font/độ đậm – lộ dấu vết sửa",
+  "new": "Sáu ô đồng bộ đúng phông/cỡ/đậm; bốn ô sửa, hai ô nguồn đã đúng giữ nguyên.",
+  "result": "ĐẠT",
+  "evidence": "So sanh G10.png; G10/ANH CHI TIET1–4; G10/NGHIEM THU CHU SO DOC LAP.json",
+  "method": "catfix xoá đúng chữ/lớp nét cũ rồi chép phông/nét cùng kiểu từ chính PDF; đọc lại và soi ảnh."
+ },
+ {
+  "stt": 81,
+  "file": "May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+  "page": "22–25",
+  "item": "Tiêu đề biểu đồ",
+  "old": "\"Performance Curve of gb Series\"",
+  "new": "GB Series, đủ bốn trang22–25.",
+  "result": "ĐẠT",
+  "evidence": "So sanh G10.png; G10/ANH CHI TIET1–4; G10/NGHIEM THU CHU SO DOC LAP.json",
+  "method": "catfix xoá đúng chữ/lớp nét cũ rồi chép phông/nét cùng kiểu từ chính PDF; đọc lại và soi ảnh."
+ },
+ {
+  "stt": 82,
+  "file": "May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+  "page": "28–29",
+  "item": "Ô ứng dụng",
+  "old": "Chữ dịch máy sai: \"Wash the battle machine\", \"Subpoena transport\", \"entwork edition\", \"cottom\", \"Ox milk\"…; trang 29 lặp phụ đề của trang 28",
+  "new": "30 tên +30 mô tả ứng dụng, nhãn hình, bỏ phụ đề lặp trang29.",
+  "result": "ĐẠT",
+  "evidence": "So sanh G10.png; G10/ANH CHI TIET1–4; G10/NGHIEM THU CHU SO DOC LAP.json",
+  "method": "catfix xoá đúng chữ/lớp nét cũ rồi chép phông/nét cùng kiểu từ chính PDF; đọc lại và soi ảnh."
+ },
+ {
+  "stt": 83,
+  "file": "May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+  "page": "cả file",
+  "item": "Đơn vị",
+  "old": "Kpa, HZ, KW, KG",
+  "new": "kPa, Hz, kW, kg; đủ214 vị trí gồm160 chữ thật và54 nhãn nét vẽ.",
+  "result": "ĐẠT",
+  "evidence": "So sanh G10.png; G10/ANH CHI TIET1–4; G10/NGHIEM THU CHU SO DOC LAP.json",
+  "method": "catfix xoá đúng chữ/lớp nét cũ rồi chép phông/nét cùng kiểu từ chính PDF; đọc lại và soi ảnh."
+ },
+ {
+  "stt": 145,
+  "file": "May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+  "page": "19",
+  "item": "Bảng kích thước GB-1100, GB-1500, cột L1",
+  "old": "30",
+  "new": "Giữ nguyên",
+  "result": "GIỮ NGUYÊN",
+  "evidence": "So sanh G10.png; G10/ANH CHI TIET1–4; G10/NGHIEM THU CHU SO DOC LAP.json",
+  "method": "Vùng tiêu đề #77 và toàn trang19 #145 giống điểm ảnh nguồn."
+ }
+]

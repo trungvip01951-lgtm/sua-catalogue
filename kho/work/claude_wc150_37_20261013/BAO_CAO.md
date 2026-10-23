@@ -1,0 +1,6 @@
+# PEROTAC 150WC300-30-37 — catalogue riêng 2 trang (13/10/2026, phiên CLAUDE_WQX_20261013)
+Nguồn: báo giá 12/10/2026 anh gửi 13/10 13:47 (150WC300-30-37, 37 kW/50 HP, 3 pha 380 V 50 Hz, "lưu lượng 280-300 m³/h, cột áp max 25-30 m", Đài Loan) + bản đã duyệt CATALOGUE DA DUYET/PEROTAC/PEROTAC - Bơm cắt rác WC.pdf (SHA 50032fe5…): trang 1 (cấu tạo) giữ nguyên, chỉ đổi số trang; trang 6 (150WC) xóa phần số cũ bằng redaction rồi ghi lại.
+Ứng viên 01 SHA 71352da881862457…, A3 ngang 2 trang; mã build_wc150_37.py.
+SỐ MÂU THUẪN: báo giá ghi cột áp max 25–30 m nhưng tên model là 300 m³/h – 30 m định mức; nếu Hmax chỉ 30 m thì bơm 37 kW yếu hơn 150WC200-25-22 (22 kW, Hmax 44) → trái quy tắc anh 06/10 (công suất lớn hơn phải trội hơn). Em lấy theo tên model.
+SUY RA (chờ anh xác nhận): đường = dáng 150WC200-25-22 quy đổi Q×1,5, H×1,2 (công suất quy đổi ≈ 22×1,8 = 39,6 kW ≈ 37); khóa 0/53, 300/30, 540/8 (min 8 = nấc tiếp sau 22 kW = 7); tốc độ 2900, 2 cực theo trang 150WC.
+Bảng Q 0…540 (bước 60) → H 53/49/45/40/35/30/25/19/14/8. Đo lại trên PDF: lệch ≤2,7%, Q tăng H giảm, không đổi chiều cong, trội hơn 22 kW mọi điểm: ĐẠT. Chữ cũ (5.5–22 kW, 360 m³/h, 44 m, 1 pha, 06/09) không còn: ĐẠT. Ảnh bơm dùng ảnh 150WC của catalogue đã duyệt (anh chưa gửi ảnh riêng). Bản in: chưa kiểm.

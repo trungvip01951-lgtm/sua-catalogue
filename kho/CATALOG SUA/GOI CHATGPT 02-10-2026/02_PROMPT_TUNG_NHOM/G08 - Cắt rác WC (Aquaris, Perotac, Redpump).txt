@@ -1,0 +1,58 @@
+﻿PROMPT NHÓM G08 – Cắt rác WC (Aquaris, Perotac, Redpump)
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('Catalog cắt rác Aquaris WC (bản mới).pdf')   (thư mục Nước thải)
+  Ra:  S.dst('Catalog cắt rác Aquaris WC (bản mới).pdf')   → job = S.job('Catalog cắt rác Aquaris WC (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–8: CHỮ THẬT
+- Vào: S.src('Catalog cắt rác perotac (bản mới).pdf')   (thư mục Nước thải)
+  Ra:  S.dst('Catalog cắt rác perotac (bản mới).pdf')   → job = S.job('Catalog cắt rác perotac (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–8: CHỮ THẬT
+- Vào: S.src('Catalog cắt rác redpump (bản mới).pdf')   (thư mục Nước thải)
+  Ra:  S.dst('Catalog cắt rác redpump (bản mới).pdf')   → job = S.job('Catalog cắt rác redpump (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–8: CHỮ THẬT
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 58 | SỬA | Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf | 1 | Chú thích biểu đồ 50WC | "50WC15-80-7.5" | 50WC15-40-7.5 (như bảng) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 59 | SỬA | Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf | 1–8 (24 chỗ) | Mục Applications | "Agriculture irrugation" | Agriculture irrigation | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 60 | SỬA | Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf | 2 | Range 65WC | Power "1.5-7.5kW"; Max head "36 m" | 1.5-5.5kW; 40 m | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 61 | SỬA | Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf | 3 | Range 80WC | Discharge "DN50"; ví dụ ký hiệu "80 WC 49 9 2.2" | DN80; 80WC45-9-2.2 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 62 | SỬA | Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf | 4 | Range 100WC | Max flow rate "250 m³/h" | 240 m³/h | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 63 | SỬA | Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf | 8 | Range 300WC | Discharge "DN350" | DN300 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 64 | SỬA | Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf | 1 | Bảng 50WC, dòng 50WC15-25-3 (lệch giữa 3 file) | Aquaris: 30-29-27-25-21-16-8-4; Perotac & Redpump: 28-27-26-25-21-16-8-1 | Chọn bộ số khớp đường cong trên biểu đồ (đo khi làm), ghi giống nhau ở cả 3 file | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 65 | SỬA | Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf | cả file | Tiêu đề bảng | "(KW)" | (kW) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 138 | SỬA | Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf | 5 | Bảng 150WC, hàng 150WC200-20-18.5, cột 120 m³/h | 27 | Số đo trên biểu đồ cùng trang (≈29) | NV trả lời (file câu hỏi 02/10) |
+| 139 | SỬA | Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf | 1–8 | Dòng "Speed" (tốc độ) ở phần thông số chung | Trang 6–8: 1450 (Redpump trang 7–8: 980); trang 1–5: không có | Trang 6–8 (200WC–300WC): "Speed 1450 r.p.m"; trang 1–5 (50WC–150WC): thêm dòng "Speed 2900 r.p.m" | NV trả lời (file câu hỏi 02/10) + Anh Trung chốt 02/10 |
+| 140 | SỬA | Catalog cắt rác redpump.pdf | 8 | Bảng 300WC, model lớn nhất | 300WC950-20-90, 90 kW / 120 HP | 300WC950-20-95, 95 kW / 130 HP (giống Aquaris, Perotac) | NV trả lời (file câu hỏi 02/10) |
+| 141 | SỬA | Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf | 1–8 | Dòng "WARRANTY" | 1 years | Aquaris: 2 years; Perotac, Redpump: 1 year | NV trả lời (file câu hỏi 02/10) |
+| 162 | GIỮ NGUYÊN (không đụng) | Catalog cắt rác redpump.pdf | Logo | Logo Redpump | Italy Standard | Giữ nguyên | NV trả lời (file câu hỏi 02/10) |
+
+Số việc phải SỬA: 12. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- 3 file cùng nội dung, CHỮ THẬT (ArialMT, Arial-BoldMT). Làm cùng việc trên cả 3 file.
+- #59 "Agriculture irrugation" → "irrigation" ở cả 8 trang mỗi file (24 chỗ).
+- #58 trang 1 chú thích biểu đồ "50WC15-80-7.5" → "50WC15-40-7.5". #60 trang 2: "1.5-7.5kW" → "1.5-5.5kW", "36 m" → "40 m".
+  #61 trang 3: "DN50" → "DN80", ví dụ "80 WC 49 9 2.2" → "80WC45-9-2.2". #62 trang 4: "250 m³/h" → "240 m³/h".
+  #63 trang 8: "DN350" → "DN300". #65 cả file "(KW)" → "(kW)".
+- #64 trang 1 hàng 50WC15-25-3: chọn bộ 8 số khớp đường cong trên biểu đồ (biểu đồ là ẢNH trong trang):
+  số hoá đường đó (màu đường + trục đọc từ nhãn) tại 8 lưu lượng của bảng, làm tròn; ghi CÙNG bộ số vào 3 file.
+- #138 trang 5 hàng 150WC200-20-18.5 cột 120 m³/h: "27" → số đo trên biểu đồ cùng trang (≈29), làm tròn, cả 3 file.
+- #139 dòng tốc độ: trang 6–8 ghi "Speed 1450 r.p.m" (Redpump đang 980 → 1450); trang 1–5 THÊM dòng
+  "Speed 2900 r.p.m" trong khối RANGE CHARACTERISTICS, ngay dưới dòng "Max head", cùng khoảng cách dòng,
+  cùng font/cỡ/căn (TL.insert_like với ref = dòng "Max head" của chính trang đó; cột giá trị thẳng với các dòng trên).
+- #140 (Redpump) trang 8: "300WC950-20-90" → "300WC950-20-95", "90" kW → "95", "120" HP → "130".
+- #141 "WARRANTY: 1 years": Aquaris → "2 years"; Perotac, Redpump → "1 year".
+- #162 logo Redpump giữ.
+
+ĐÃ DÒ THỬ BẰNG catfix (để bạn đối chiếu – toạ độ pt, gốc dưới trái; n = số chỗ tìm thấy):
+- Catalog cắt rác Aquaris WC.pdf, trang 6, tìm 'Speed' → n=1 "Speed                        1450 r.p.m" tại [41.5, 517.5, 75.0, 526.0]
+- Catalog cắt rác Aquaris WC.pdf, trang 6, tìm '1450' → n=1 "Speed                        1450 r.p.m" tại [149.4, 517.5, 174.1, 526.0]
+- Catalog cắt rác Aquaris WC.pdf, trang 1, tìm 'WARRANTY' → n=1 "WARRANTY: 1 years " tại [48.8, 91.1, 131.9, 105.1]
+- Catalog cắt rác Aquaris WC.pdf, trang 1, tìm 'years' → n=1 "WARRANTY: 1 years " tại [151.6, 91.1, 189.2, 105.1]
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G08.png") và báo cáo S.report("BAO CAO G08.md"); ghi S.progress("G08", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

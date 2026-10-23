@@ -1,0 +1,34 @@
+{
+  "time": "2026-10-03T08:04:28.666174+07:00",
+  "source_policy": "Giữ nguyên mọi file nguồn; mỗi catalogue có một người sửa; ROOT nghiệm thu trước khi cập nhật bản giao.",
+  "workers": [
+    {
+      "actor": "/root/g01_chu_so",
+      "file": "Catalog cắt rác Aquaris WC (bản mới).pdf",
+      "scope": "Phương án sửa riêng6đường/7mốc lệch chắc; SP30 đã dừng sau2mẫu không đạt, nguồn/bản giaoSP giữ."
+    },
+    {
+      "actor": "/root/g03_aquaris_sa",
+      "file": "Perotac gieng SA (bản mới).pdf",
+      "scope": "Kiểm riêng196đường/1931mốc; loại2đường đã nghiệmthu khỏi sửa."
+    },
+    {
+      "actor": "/root/g18_nghiem_thu",
+      "file": "Redpump gieng SL_compressed (bản mới).pdf",
+      "scope": "Kiểm riêng196đường/1931mốc, khóa bảngV2; không dùng số Perotac."
+    },
+    {
+      "threadId": "01a0ff2d-8148-79a2-a9b2-7abf7a219c18",
+      "title": "Kiểm riêng catalogue cắt rác Perotac",
+      "file": "Catalog cắt rác perotac (bản mới).pdf",
+      "scope": "Đo riêng38đường theo bảng/chúgiải nguồn; chỉ đọc và tạo chứng cứ trước."
+    },
+    {
+      "threadId": "01a0ff2d-87fb-7db2-aaed-87499c6270bd",
+      "title": "Kiểm riêng catalogue cắt rác Redpump",
+      "file": "Catalog cắt rác redpump (bản mới).pdf",
+      "scope": "Kiểm riêngWC Redpump; ROOT đã chạy khảo sát đầu để tránh chờ lệnh, nguồn/bản giao giữ mã; tác vụ có trạng thái chờ xét quyền công cụ ở lần đọc gần nhất."
+    }
+  ],
+  "root": "Đọc độc lập, kiểm mẫu/bản giao và ghi tiến độ chung; ưu tiên xử lý điểm chắc, không tính thiếu chứng cứ là ĐẠT."
+}

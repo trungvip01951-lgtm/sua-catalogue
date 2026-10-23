@@ -1,0 +1,241 @@
+{
+  "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "edits": [
+    {
+      "page": 4,
+      "rect": [
+        632.0,
+        143.3,
+        640.0,
+        149.1
+      ],
+      "label": "57 → 67",
+      "kind": "raster-render"
+    },
+    {
+      "page": 7,
+      "rect": [
+        713.2,
+        401.1,
+        727.0,
+        406.9
+      ],
+      "label": "1767 → 1827",
+      "kind": "raster-render"
+    },
+    {
+      "page": 8,
+      "rect": [
+        638.0,
+        90.55,
+        652.0,
+        96.65
+      ],
+      "label": "1750 → 175",
+      "kind": "raster-render"
+    },
+    {
+      "page": 6,
+      "rect": [
+        365.0,
+        33.4,
+        375.0,
+        39.4
+      ],
+      "label": "110 → 103",
+      "kind": "raster-render"
+    },
+    {
+      "page": 6,
+      "rect": [
+        378.7,
+        33.4,
+        386.0,
+        39.4
+      ],
+      "label": "80 → 72",
+      "kind": "raster-render"
+    },
+    {
+      "page": 0,
+      "rect": [
+        106.0,
+        87.5,
+        115.8,
+        93.2
+      ],
+      "label": "431 → 316",
+      "kind": "raster-render"
+    },
+    {
+      "page": 0,
+      "rect": [
+        106.0,
+        79.0,
+        115.8,
+        84.7
+      ],
+      "label": "304 → 316",
+      "kind": "raster-render"
+    },
+    {
+      "page": 3,
+      "rect": [
+        99.5,
+        87.2,
+        108.8,
+        93.0
+      ],
+      "label": "431 → 316",
+      "kind": "raster-render"
+    },
+    {
+      "page": 3,
+      "rect": [
+        99.5,
+        79.5,
+        109.0,
+        85.5
+      ],
+      "label": "304 → 316",
+      "kind": "raster-render"
+    },
+    {
+      "page": 8,
+      "rect": [
+        87.0,
+        88.3,
+        152.4,
+        94.4
+      ],
+      "label": "#135 AISI316SS duy nhất, chép mẫu gốc cùng dòng",
+      "kind": "raster-render"
+    },
+    {
+      "page": 8,
+      "rect": [
+        87.0,
+        80.6,
+        152.4,
+        86.7
+      ],
+      "label": "#135 AISI316SS duy nhất, chép mẫu gốc cùng dòng",
+      "kind": "raster-render"
+    },
+    {
+      "page": 10,
+      "rect": [
+        82.0,
+        90.9,
+        147.1,
+        97.0
+      ],
+      "label": "#135 AISI316SS duy nhất, chép mẫu gốc cùng dòng",
+      "kind": "raster-render"
+    },
+    {
+      "page": 10,
+      "rect": [
+        82.0,
+        83.2,
+        147.1,
+        89.3
+      ],
+      "label": "#135 AISI316SS duy nhất, chép mẫu gốc cùng dòng",
+      "kind": "raster-render"
+    },
+    {
+      "page": 0,
+      "rect": [
+        80.0,
+        172.0,
+        87.0,
+        180.5
+      ],
+      "label": "2 → 1",
+      "kind": "raster-render"
+    },
+    {
+      "page": 0,
+      "rect": [
+        88.5,
+        171.5,
+        115.2,
+        180.3
+      ],
+      "label": "years → year, giữ nguyên bốn chữ đầu",
+      "kind": "raster-render"
+    },
+    {
+      "page": 3,
+      "rect": [
+        72.0,
+        213.4,
+        80.6,
+        222.0
+      ],
+      "label": "2 → 1",
+      "kind": "raster-render"
+    },
+    {
+      "page": 3,
+      "rect": [
+        82.0,
+        213.5,
+        107.3,
+        222.0
+      ],
+      "label": "years → year, giữ nguyên bốn chữ đầu",
+      "kind": "raster-render"
+    },
+    {
+      "page": 8,
+      "rect": [
+        71.0,
+        211.5,
+        80.0,
+        220.0
+      ],
+      "label": "2 → 1",
+      "kind": "raster-render"
+    },
+    {
+      "page": 8,
+      "rect": [
+        81.0,
+        211.3,
+        104.8,
+        220.0
+      ],
+      "label": "years → year, giữ nguyên bốn chữ đầu",
+      "kind": "raster-render"
+    },
+    {
+      "page": 10,
+      "rect": [
+        66.0,
+        214.4,
+        74.5,
+        223.8
+      ],
+      "label": "2 → 1",
+      "kind": "raster-render"
+    },
+    {
+      "page": 10,
+      "rect": [
+        75.5,
+        214.0,
+        99.5,
+        223.0
+      ],
+      "label": "years → year, giữ nguyên bốn chữ đầu",
+      "kind": "raster-render"
+    }
+  ],
+  "accepted_trial": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G05/HOAN THIEN/Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "final_pixel_identical": true,
+  "source_sha256": "e1b94dc6f23c35d18d61cee71d9d88c844b1070d14ff662bbabe2256cdd690c9",
+  "final_sha256": "10d7d99e2873693fa3913b95185422a038d761903193bd544937b1dce45c8c0c"
+}

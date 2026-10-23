@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "instruction": "AI điền theo yêu cầu trực tiếp của anh; null là chưa có dữ liệu, không phải 0.",
+  "catalogue": null,
+  "brand": null,
+  "source_path": null,
+  "source_sha256": null,
+  "current_path": null,
+  "current_sha256": null,
+  "template_id": null,
+  "template_status": null,
+  "user_instruction_verbatim": null,
+  "requested_at": null,
+  "changes": [
+    {
+      "model": null,
+      "electrical_variant": null,
+      "field": null,
+      "old_value": null,
+      "new_value": null,
+      "unit": null,
+      "authority_or_evidence": null,
+      "pages_affected": [],
+      "preserved_locks": [],
+      "table_curve_dependencies": []
+    }
+  ],
+  "technical_symbols_to_preserve": [
+    "P1/P2 theo nguồn",
+    "≈/=/≤/≥ theo nguồn",
+    "Hz/điện áp/pha",
+    "Q/H/đơn vị"
+  ],
+  "missing_information": [],
+  "numeric_tolerance_source": null,
+  "output_candidate_path": null,
+  "qa": {
+    "numbers": "NOT_RUN",
+    "visual": "NOT_RUN",
+    "preservation": "NOT_RUN",
+    "independent_review": "NOT_RUN",
+    "print": "NOT_RUN",
+    "phase_vs_power": "NOT_RUN",
+    "sa_outlet_vs_exact_series": "NOT_RUN",
+    "three_brand_coverage": "NOT_RUN",
+    "simple_readable_information_first": "NOT_RUN",
+    "voltage_vs_phase": "NOT_RUN",
+    "English_or_existing_Aquaris_Italian": "NOT_RUN",
+    "50Hz_only": "NOT_RUN",
+    "source_speed_per_min": "NOT_RUN",
+    "six_inch_no_single_phase": "NOT_RUN",
+    "Q_max_one_decimal_source_faithful": "NOT_RUN",
+    "H_integer_preserving_locks": "NOT_RUN",
+    "explicit_scope_and_family_exclusions": "NOT_RUN",
+    "single_phase_requires_three_phase_model": "NOT_RUN"
+  },
+  "adopted": false,
+  "rule_references": [
+    "rules/QUY_TAC_DIEN_HONG_XA_SA_20261006.json",
+    "rules/QUY_TAC_BA_THUONG_HIEU_20261006.md",
+    "rules/QUY_TAC_CUNG_HIEN_HANH.md",
+    "rules/CHOT_PHAM_VI_VA_QUY_TAC_20261006_SP_BA_HANG.md"
+  ],
+  "brand_coverage": {
+    "required": [
+      "Redpump",
+      "Perotac",
+      "Aquaris"
+    ],
+    "representation": "Separate PDF per brand; exceptions per scope rule",
+    "verified_files_by_brand": {},
+    "missing_brands": [],
+    "verification_status": "NOT_RUN",
+    "ask_user_if_request_incomplete": true,
+    "user_scope_confirmation": null
+  },
+  "design_principles": [
+    "Dễ nhìn, dễ đọc, dễ hiểu ở cỡ sử dụng bình thường",
+    "Bố cục đơn giản, ưu tiên thông tin kỹ thuật và tra cứu",
+    "Màu tiết chế, tương phản rõ; không lòe loẹt hoặc trang trí gây rối",
+    "Giữ đủ thông số và đơn vị; không thu nhỏ chữ để nhồi nội dung"
+  ],
+  "required_voltage_display_by_phase": {
+    "1": "220–240 V",
+    "3": "380–415 V"
+  },
+  "output_format": "PDF",
+  "source_fallback_by_brand_if_missing": {
+    "Redpump": "Perotac",
+    "Aquaris": "Perotac"
+  },
+  "preserve_existing_brand_source": true,
+  "explicit_family_exclusions": {
+    "SP": [
+      "4SP2",
+      "4SPM2"
+    ]
+  }
+}

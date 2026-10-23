@@ -1,0 +1,32 @@
+﻿PROMPT NHÓM G06 – Aquaris FS (4 trang)
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('Aquaris FS_300dpi_75% (bản mới).pdf')   (thư mục Nước thải)
+  Ra:  S.dst('Aquaris FS_300dpi_75% (bản mới).pdf')   → job = S.job('Aquaris FS_300dpi_75% (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–4: ẢNH CẢ TRANG ~300dpi
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 51 | SỬA | Aquaris FS_300dpi_75%.pdf | 1 | Ví dụ ký hiệu model | "FS 15 15 1.5" – không có trong bảng (model dạng FS-35-7-2.2 … FS-150-20-15) | Lấy model có thật đầu bảng làm ví dụ: FS-35-7-2.2 | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 52 | SỬA | Aquaris FS_300dpi_75%.pdf | 2–3 | Tiêu đề bảng | "(KW)" | (kW) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 53 | SỬA | Aquaris FS_300dpi_75%.pdf | 4 | Bảng chi tiết | Cỡ chữ không đều (dòng 5, 13 rất nhỏ; dòng 15, 18 to hơn); dòng 28 chạm viền ô | Chỉnh cỡ chữ cho đều nếu ra đẹp; không đẹp thì giữ nguyên | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 136 | GIỮ NGUYÊN (không đụng) | Aquaris FS_300dpi_75%.pdf | Cả 2 file | 2 catalogue cùng tên FS | 2 dòng bơm khác nhau | Giữ cả 2, không đổi | NV trả lời (file câu hỏi 02/10) |
+
+Số việc phải SỬA: 3. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- ẢNH QUÉT 300 dpi (4 trang, ICC). #51 trang 1 sơ đồ ký hiệu: ví dụ "FS 15 15 1.5" → model thật đầu bảng
+  "FS-35-7-2.2" – chép chữ số/dấu '-' từ chính sơ đồ/bảng cùng cỡ; nếu các mũi tên chú thích chỉ vào từng
+  nhóm số thì giữ bố cục (mỗi nhóm số vào đúng chỗ cũ).
+- #52 trang 2–3: "(KW)" → "(kW)" (cần 'k' thường cùng font – tìm trong cùng trang, vd "kg").
+- #53 trang 4: cỡ chữ không đều → chỉ làm nếu ra đẹp (chép lại cả dòng chữ bằng chữ cỡ chuẩn của bảng);
+  không đẹp thì giữ nguyên và ghi lý do.
+
+ĐÃ DÒ THỬ BẰNG catfix (để bạn đối chiếu – toạ độ pt, gốc dưới trái; n = số chỗ tìm thấy):
+- Aquaris FS_300dpi_75%.pdf, trang 2, tìm '(KW)' → n=1 "(KW) (HP) Q(I/min)" tại [165.6, 229.9, 191.0, 240.7]
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G06.png") và báo cáo S.report("BAO CAO G06.md"); ghi S.progress("G06", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

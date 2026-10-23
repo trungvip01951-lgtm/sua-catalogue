@@ -1,0 +1,672 @@
+{
+  "status": "USER_REQUESTED_SESSION_HANDOFF_ONLY",
+  "time_utc": "2026-10-06T00:39:31.107520+00:00",
+  "time_vietnam": "06/10/2026 07:39:31",
+  "handoff": "D:\\ChatGPT\\Sửa catalogue\\BAN_GIAO_PHIEN_20261006T003931Z.md",
+  "handoff_sha256": "23f239d5c2fd1c9d443950974b22e59c065b73e3833e4210479eb0d21570b3a0",
+  "handoff_report_copy": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\BAN GIAO PHIEN 20261006T003931Z\\BAN_GIAO_PHIEN_20261006T003931Z.md",
+  "handoff_report_copy_sha256": "23f239d5c2fd1c9d443950974b22e59c065b73e3833e4210479eb0d21570b3a0",
+  "original149_accepted_inherited_not_new_QA": 137,
+  "remaining_original_ids": [
+    34,
+    52,
+    101,
+    105,
+    106,
+    107,
+    110,
+    123,
+    128,
+    137,
+    154,
+    155
+  ],
+  "whole_project_complete": false,
+  "goal_state_inherited": "blocked",
+  "25_sources_25_canonicals_exact_vs_index": true,
+  "catalogues": [
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+      "source_sha256": "d5244aa6c2e2772a636a2040fe6853fbcb53fdb417ff7e8ee316528339087c1f",
+      "canonical_sha256": "1f800916d3129d4ed4d36290fc4227ee2363c2d4e9d99171aa802e4b2df1fa26",
+      "source_bytes": 1754777,
+      "canonical_bytes": 1883048,
+      "groups": [
+        "G03"
+      ],
+      "task_ids": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        130
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\G02 (gồm cả G01)\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+      "source_sha256": "c56abd03329bbe9469156196e2da7782d07a66f60b685c4c9f4b3d74b45ed785",
+      "canonical_sha256": "0245d277dd48d7860f682141acbcac0d48aa79f7148615c347852a9ce0bd9a4a",
+      "source_bytes": 7138690,
+      "canonical_bytes": 7227965,
+      "groups": [
+        "G01",
+        "G02"
+      ],
+      "task_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+      "source_sha256": "3925ae2a4beaf22a6514837949e631b2777e83dcd87e4990d7fbd01f3c5d2bcd",
+      "canonical_sha256": "d32472fe56a723452203578857c5d7d58d5c5f7979618e282c499ac44fa594cc",
+      "source_bytes": 2206481,
+      "canonical_bytes": 7516962,
+      "groups": [
+        "G04"
+      ],
+      "task_ids": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        131,
+        132
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf",
+      "source_sha256": "e1b94dc6f23c35d18d61cee71d9d88c844b1070d14ff662bbabe2256cdd690c9",
+      "canonical_sha256": "48c8535c4c8a025991be53caf414242cbb500eb43ac59f804a2008204691a6a2",
+      "source_bytes": 2634146,
+      "canonical_bytes": 4359049,
+      "groups": [
+        "G05"
+      ],
+      "task_ids": [
+        47,
+        48,
+        49,
+        50,
+        132,
+        133,
+        134,
+        135
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Redpump gieng SL_compressed (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Redpump gieng SL_compressed (bản mới).pdf",
+      "source_sha256": "a01b7f84c0ebb4960a6b9601d98a04420c4c00f8bf1d48a23e1bde4e8b084038",
+      "canonical_sha256": "5b762e846fc91ebc5cc535a800746b0f61f8c896a9f56274d5a14a052a4f2b59",
+      "source_bytes": 2182937,
+      "canonical_bytes": 3791455,
+      "groups": [
+        "G04"
+      ],
+      "task_ids": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        131,
+        132,
+        162
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Aquaris FS_300dpi_75% (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Aquaris FS_300dpi_75% (bản mới).pdf",
+      "source_sha256": "a297ed5b1dec97c33b6d2327d25d30bd3f317690548b9d5895c59e1376a63b31",
+      "canonical_sha256": "97db44101b00605e71ce8996e8d4d08d672a8475cdcfa51ae1b1d5aa9597e033",
+      "source_bytes": 2237886,
+      "canonical_bytes": 2128765,
+      "groups": [
+        "G06"
+      ],
+      "task_ids": [
+        51,
+        52,
+        53,
+        136
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+      "source_sha256": "4ae76b0cc2a5d1060763b332093ce952ac964902bd9aaa705f4a36b4ef9ce8fa",
+      "canonical_sha256": "928bbda4fdd4aab698bfa49f2af6eb0b1c794f31e1b6b4d6348b956108e49a02",
+      "source_bytes": 2015699,
+      "canonical_bytes": 2009252,
+      "groups": [
+        "G07"
+      ],
+      "task_ids": [
+        54,
+        55,
+        56,
+        57,
+        136,
+        137
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog cắt rác Aquaris WC (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalog cắt rác Aquaris WC (bản mới).pdf",
+      "source_sha256": "b44ed64480e649bbcb2e50ddff8f591d85177c8fe88b07e93ebb154a0a5a3d40",
+      "canonical_sha256": "6d2ae0251ee8e45445bc4f025b168c86967d38f5adaf8b1842f5cb095500a4b3",
+      "source_bytes": 400859,
+      "canonical_bytes": 409146,
+      "groups": [
+        "G08"
+      ],
+      "task_ids": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        138,
+        139,
+        141
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog cắt rác perotac (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalog cắt rác perotac (bản mới).pdf",
+      "source_sha256": "622bcc5a8bb0562bea11474bda8801f30fe91839db3b84980dcb4ead056131d4",
+      "canonical_sha256": "4366d54e6e66f58c5c7e1aa4d6aa96a5b73235bc1a3839c1ef37289f4d364034",
+      "source_bytes": 373253,
+      "canonical_bytes": 1645359,
+      "groups": [
+        "G08"
+      ],
+      "task_ids": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        138,
+        139,
+        141
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog cắt rác redpump (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalog cắt rác redpump (bản mới).pdf",
+      "source_sha256": "21d3cd13c787fdf1e3133325aac1e87c87802e8a4dc0a9a509accb2c76390ad0",
+      "canonical_sha256": "b5c94ffffbcf14177636ba3912675f5b71fd3cc52098d25d19769d4fe800bdf6",
+      "source_bytes": 377309,
+      "canonical_bytes": 389111,
+      "groups": [
+        "G08"
+      ],
+      "task_ids": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        138,
+        139,
+        140,
+        141,
+        162
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalogue perotac (bản mới).xlsx",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalogue perotac (bản mới).xlsx",
+      "source_sha256": "526393f3bc8361fdfe7f4936cb8d0495b71e5337f88ae947613c88e0268ffe22",
+      "canonical_sha256": "c1a85b110bae5a3cdc81c27f9efbd45c3ea7e8c21c51a5fb61176cf304780d7b",
+      "source_bytes": 309297,
+      "canonical_bytes": 306010,
+      "groups": [
+        "G18"
+      ],
+      "task_ids": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        142,
+        143
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\KTZ - LH Perotac (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\KTZ - LH Perotac (bản mới).pdf",
+      "source_sha256": "6419937911edac5440b83ee95b907a1c76ad8eb2c21ce6e3f38b40044a788eb9",
+      "canonical_sha256": "0c0da53a168839b19141ca81c4e50387ab24daf16b723ad9038140f96e9915c4",
+      "source_bytes": 2582792,
+      "canonical_bytes": 2574598,
+      "groups": [
+        "G09"
+      ],
+      "task_ids": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        144
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\KTZ - LH Redpump (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\KTZ - LH Redpump (bản mới).pdf",
+      "source_sha256": "396487b4b47f836601d97bfa708fb242007c462951f7a3109b24c6f446975858",
+      "canonical_sha256": "f20b82e880ee756e101a41fdddea87c249d2fc65e48f1532a76022ae81248ed4",
+      "source_bytes": 2528286,
+      "canonical_bytes": 2519661,
+      "groups": [
+        "G09"
+      ],
+      "task_ids": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        144,
+        162
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Thổi khí\\May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Thổi khí\\May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+      "source_sha256": "6cd3434df5334b9bb57c366fc1ee4ed8f6559637ac08322375419d4469c4519d",
+      "canonical_sha256": "f8b8b6ec86876628a1ec5cc8e71224229c88abfcf8095e946cb1f2d62a330cc2",
+      "source_bytes": 4319708,
+      "canonical_bytes": 3938896,
+      "groups": [
+        "G10"
+      ],
+      "task_ids": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        145
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Thổi khí\\Perotac Root_300dpi_75% (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Thổi khí\\Perotac Root_300dpi_75% (bản mới).pdf",
+      "source_sha256": "96d5a624e92accf52e18ca84cc9d66a482449cf3cdb41c947ba63a878ebd7e3d",
+      "canonical_sha256": "826f7388e18bd08b0650f8d6b67f2649b6b8d0910ee2d30a7179dab3ea146eb1",
+      "source_bytes": 5436233,
+      "canonical_bytes": 5437669,
+      "groups": [
+        "G11"
+      ],
+      "task_ids": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        146,
+        147,
+        148
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\3M Aquaris (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\3M Aquaris (bản mới).pdf",
+      "source_sha256": "bb909625d3b89e62e8dfad36e35ff6042ab247c4be91d35ca927c4d70ee77329",
+      "canonical_sha256": "0ed360281687a17e6868082415072d29bfbefc2ebc9bd4e3a77ccae41627768b",
+      "source_bytes": 3094993,
+      "canonical_bytes": 3126358,
+      "groups": [
+        "G12"
+      ],
+      "task_ids": [
+        105,
+        106,
+        107
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\3M Perotac (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\3M Perotac (bản mới).pdf",
+      "source_sha256": "9483051deb70cfb7267d98376adaf3841129c8def208591d89121c48318eb615",
+      "canonical_sha256": "7e6bba2237c09bae4dcaf71c9ac0dc26ce4feddaf925745a20813e32829c3639",
+      "source_bytes": 3054467,
+      "canonical_bytes": 3083304,
+      "groups": [
+        "G12"
+      ],
+      "task_ids": [
+        105,
+        106,
+        107
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\Aquaris truc ngang CM (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\Aquaris truc ngang CM (bản mới).pdf",
+      "source_sha256": "1ab4ef2f230651eba98dd36018f04fcbc39f4ecb9cdb7e89a89a634f8b78c26a",
+      "canonical_sha256": "e33fe57d4674ea0701751435a16223cdc78acebcb2d20b3a843bdfacd39a4a09",
+      "source_bytes": 626109,
+      "canonical_bytes": 599791,
+      "groups": [
+        "G13"
+      ],
+      "task_ids": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        153,
+        154,
+        155,
+        156
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag perotac model CM (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\bơm trục ngang perotac model CM (bản mới).pdf",
+      "source_sha256": "466c54500ecbe7ba67e556ae92dce3a7c5e07776b03113c279f0468b60217a3d",
+      "canonical_sha256": "8c39f96488f7a1e4524605080b6b4511b57dd29f44d3269babf3528fdd335a8c",
+      "source_bytes": 1339158,
+      "canonical_bytes": 2444842,
+      "groups": [
+        "G14"
+      ],
+      "task_ids": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        157
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf",
+      "source_sha256": "5c18b0cb942e8f243591aae00908998d35c773e70336811bc2283275aeda6fa7",
+      "canonical_sha256": "e968a794b348b5924dd7300ac873ba1aff73c0527d64a233d6b2ee217a1b2bdc",
+      "source_bytes": 5295651,
+      "canonical_bytes": 7523204,
+      "groups": [
+        "G14"
+      ],
+      "task_ids": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        157,
+        158,
+        162
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\Catalogue DWO (bản mới).xlsx",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\Catalogue DWO (bản mới).xlsx",
+      "source_sha256": "bd2187c92e1522e4fcf449bd1ba1483cb2426f0c953a62968c02900d1226dd7b",
+      "canonical_sha256": "e56968e717a2808d064d47c7dbd816f536a801e07a1be2b84f26e856eebc0d7b",
+      "source_bytes": 370455,
+      "canonical_bytes": 352057,
+      "groups": [
+        "G18"
+      ],
+      "task_ids": [
+        120,
+        121,
+        122,
+        123,
+        161
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\CDX Perotac (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\CDX Perotac (bản mới).pdf",
+      "source_sha256": "ef57c37be06a3f954baac6b7549d0dda8788bf089925b6b23e68d62ed23216da",
+      "canonical_sha256": "29b916d2295d2a54309a1668e154a6af3d442b6dfad420e87571d33d0a5a23ba",
+      "source_bytes": 614609,
+      "canonical_bytes": 1359082,
+      "groups": [
+        "G15"
+      ],
+      "task_ids": [
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        159,
+        160
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục đứng\\Bơm trục đứng CDLF Aquaris (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục đứng\\Bơm trục đứng CDLF Aquaris (bản mới).pdf",
+      "source_sha256": "4683a5bd0aa350d4ec823a147ca7839edf72f473b7b3721ca25cf3c25baf4f34",
+      "canonical_sha256": "119b261852942d50454f8cd7748382460d68b989ec329b3cfcc2869b0cd9207b",
+      "source_bytes": 6803763,
+      "canonical_bytes": 7016201,
+      "groups": [
+        "G16"
+      ],
+      "task_ids": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        149,
+        151
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục đứng\\Bơm trục đứng Perotac CDLF (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục đứng\\Bơm trục đứng Perotac CDLF (bản mới).pdf",
+      "source_sha256": "49267867caf900038e302feb67224c90a4f06765a6eef93d16fb0c7b3801ab8e",
+      "canonical_sha256": "72f4523772db6488de7142a66e208cf97b87129f757545b8a20081c478acf510",
+      "source_bytes": 2733395,
+      "canonical_bytes": 2841633,
+      "groups": [
+        "G16"
+      ],
+      "task_ids": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        149,
+        150
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục đứng\\Inline IRG Perotac (bản mới).pdf",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục đứng\\Inline IRG Perotac (bản mới).pdf",
+      "source_sha256": "e9902d3bffdb563161443c255edfc122c46f9f855030b11f0ca28fd6e24228c0",
+      "canonical_sha256": "93c8d6f031953979bdb3ee1f4f76d359d913ec0582473a4f0d2d73c516e2981c",
+      "source_bytes": 3027993,
+      "canonical_bytes": 3029838,
+      "groups": [
+        "G17"
+      ],
+      "task_ids": [
+        102,
+        103,
+        104,
+        152
+      ],
+      "acceptance_scope": "Inherited from evidenced ledger; hashes alone do not prove acceptance"
+    }
+  ],
+  "source_evidence_fresh_hash_verified": [
+    {
+      "scope": "SP P6 closed2 no adoption",
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G05\\ROOT P6 SOURCE BANK RIGHTFAN STOP2 NO ADOPT 20261005T210602Z\\01 CLOSED2 NO ADOPT RECEIPT.json",
+      "sha256": "1c675f053189b06c9d6fe6d47e9035f17b84f8f4b08968be2c2203db348ad31a"
+    },
+    {
+      "scope": "SL P11 preparation only",
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G04\\ROOT SL11 FINITE PREPARATION NO AUTHOR 20261005T213051Z\\01 FINITE PREPARATION NO AUTHOR.json",
+      "sha256": "8d7514a299463895d1d8601935c885f9bd7e6be1e63f35cf0e7720ffecbf71af"
+    },
+    {
+      "scope": "SL P11 normal strip geometry only",
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G04\\INDEPENDENT SL11 218 NORMALSTRIP22 FIXED16 READONLY 20261005T212620Z\\01 OWN FIRST22 NORMAL STRIP BUTT CAP FIXED16 NO PDF.json",
+      "sha256": "ce4638e3427283ecbc05de9d0af129d426734af9d4642659e15feb2549cd5582"
+    },
+    {
+      "scope": "SL P11 exact margin certificate",
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G04\\INDEPENDENT SL11 218 NORMALSTRIP22 FIXED16 READONLY 20261005T212620Z\\03 EXACT LEFT MARGIN THREE OVER TWENTY PT CERTIFICATE352.json",
+      "sha256": "9a38bfc2f0a7364851f91ed9570a773d4dee71c450b4b1d2f33f4c21ed6df696"
+    },
+    {
+      "scope": "DWO failed UI route no print",
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G18\\ROOT DWO EXPLORER ROUTE UI LIMITED 20261005T195717Z\\01 ACTUAL NEW ROUTE GEOMETRY CAPTURE FAILURE NO PRINT.json",
+      "sha256": "3a04f81a8e991cda6e4932e21267fb890ff50019f82ecce68748f3e40a90550f"
+    },
+    {
+      "scope": "Remaining dependency checkpoint",
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\ROOT PHAN CON LAI CHO DIEU KIEN 20261005T213308Z\\01 REPEATED DEPENDENCIES CHECKPOINT.json",
+      "sha256": "245f96104a92878f7b28f9ed87d6cad8dabd7592ce8fd26874121a272e9872d0"
+    }
+  ],
+  "independent_readonly_review": {
+    "agent": "/root/g03_k_source_readonly",
+    "result": "137/149, 12 pending, 3 hashes and STOP2 boundaries match"
+  },
+  "agents_before_handoff": "3 completed; no active subagent writers",
+  "active_locks_before": [],
+  "health": {
+    "project": "Sửa catalogue",
+    "version": "1.0",
+    "root": "D:\\ChatGPT\\Sửa catalogue",
+    "missing_paths": [],
+    "controls": {
+      "seal_sha256": "aace6ee9695bbbd5afa11ec5dd9918720ec9097b62cc9f7e4231048d05b34c3f",
+      "changed": []
+    },
+    "coordination_integrity": "ok",
+    "result": "ĐẠT CẤU TRÚC DỰ ÁN",
+    "this_is_not_BUOC0_43_tests_or_catalogue_acceptance": true,
+    "read_shared_ledger_first": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\TIEN DO.md"
+  },
+  "before_shared_sha256": {
+    "D:\\ChatGPT\\Sửa catalogue\\state\\catalogues.json": "d394752c9c9edffb23edaa968ce1f66096f7d5629d6c4b90421defdcf3af7cce",
+    "D:\\ChatGPT\\Sửa catalogue\\state\\CURRENT_CHECKPOINT.md": "f2a268197c65d5c8f58e2c770e8ec997541bdbcbcfebfe7e03303b44e03f68cd",
+    "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\TIEN DO.md": "cb5688cf25f4b4b14ddd2e24ed71c2f7c3b4ff30d228c578d8040e2a03ccedb5",
+    "D:\\ChatGPT\\Sửa catalogue\\state\\control_manifest.json": "aace6ee9695bbbd5afa11ec5dd9918720ec9097b62cc9f7e4231048d05b34c3f"
+  },
+  "operations": {
+    "catalogue_edit": 0,
+    "candidate": 0,
+    "PDF_Save": 0,
+    "canonical_copy": 0,
+    "office_UI": 0,
+    "install": 0,
+    "new_thread": 0,
+    "global_memory_write": 0
+  },
+  "receiver_read_applied": "NOT_VERIFIED; receiving session must acknowledge itself"
+}

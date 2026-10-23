@@ -1,0 +1,258 @@
+{
+  "original": "C:\\Users\\H2\\Desktop\\Catalog Sua\\GOI CHATGPT 02-10-2026\\GOI_SUA_CATALOGUE_CHATGPT.zip",
+  "zip_sha256": "93711e512477fc86b53c921c3eb54a6248de8c12a75b27a7c6f6fac54e295732",
+  "bootstrap_original_sha256": "2bd1967bb945a3293fb5e24c09374ebafc5decd1b4729d0535bb6a0bb07c4044",
+  "files": [
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/00_HUONG_DAN_ANH_TRUNG.txt",
+      "sha256": "36b0e6a5882de9146ddf421a45b7f52876091886403459963cea9e0c7f717747",
+      "bytes": 10325
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/01_PROMPT_CHUNG (dán vào ChatGPT).txt",
+      "sha256": "d81e6c8503d75f9d0be6aeeea9c9eb9977d057baea6a1667ce9bc38e9b98136d",
+      "bytes": 11917
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/03_TIN NHAN DAN VAO CHATGPT.txt",
+      "sha256": "3f8924653715d704e78d80295091a4adc8d782c3155cd7054e32dbdd0458f3e0",
+      "bytes": 2475
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/PHUONG AN SUA CATALOGUE 02-10-2026.xlsx",
+      "sha256": "2137f245407bb2fb057a879af32221e617f81d7801f4d27274f2420ecb98511c",
+      "bytes": 28311
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/README_KY_THUAT.md",
+      "sha256": "736b52843f8bc3fb287ac2c060c98b5773c299630264122ea5e2c6b40b2b07a5",
+      "bytes": 15077
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G01 - Aquaris SP - chữ, số trong bảng, tên model.txt",
+      "sha256": "f40939d8a4154bbe72005ac263a38a6d11a9d15509e61abe1c9048f4b8a4e759",
+      "bytes": 8839
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G02 - Aquaris SP - vẽ lại 21 biểu đồ.txt",
+      "sha256": "12be69e8865f17f261198a19be079c106d5eb1cf0592d3fe2952881cc6a7f929",
+      "bytes": 4717
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G03 - Aquaris SA.txt",
+      "sha256": "4f220da3627617659a3dacc433d20488e2ea672ba7cf7511115b0a01984dbcee",
+      "bytes": 7590
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G04 - Perotac SA + Redpump SL.txt",
+      "sha256": "cf70c6eca93f574c0ede78bf7777e87ec2840808f5daf34e5ab72c73ab96e047",
+      "bytes": 8344
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G05 - Perotac SP.txt",
+      "sha256": "c40a1cd2cd1d133dc72f3aeef6b9ca4a702fb5402991934d31ea510df22d80e0",
+      "bytes": 4516
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G06 - Aquaris FS (4 trang).txt",
+      "sha256": "70b118b8e04a359bf369eaf18afbd75ac614d1ac5cde7375aa0f6cfbb8b345df",
+      "bytes": 3241
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G07 - Aquaris FS khổ A3.txt",
+      "sha256": "fd9c459730254a2c480f6a673d87ee7786d3f04dc5bbba5353039869634c0349",
+      "bytes": 6745
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G08 - Cắt rác WC (Aquaris, Perotac, Redpump).txt",
+      "sha256": "292f19400da2fd81b3c84b46fdf88fb97d7c07fb1d59854737e6c12068b2cc71",
+      "bytes": 7701
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G09 - KTZ - LH (Perotac, Redpump).txt",
+      "sha256": "bde3422e11463760ab70423e711bb076c43687937ac8b2a99fe1596fc38e2532",
+      "bytes": 4364
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G10 - Máy thổi khí Perotac GB.txt",
+      "sha256": "8f889ae24417d652806d7f016ff920c321be2a66908532b53f8a01fc784f42ef",
+      "bytes": 6748
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G11 - Perotac Root.txt",
+      "sha256": "1f04fdb0c9622402a6acb516e8beeec732ec3edc7dc8ca6d6ca0ade66b593a7d",
+      "bytes": 5946
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G12 - 3M (Aquaris, Perotac).txt",
+      "sha256": "1645d8a6bf967cfd4e4b7a139c52c5f5a3eebacd127ef3470716e8cbfe9a1754",
+      "bytes": 2935
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G13 - Aquaris trục ngang CM.txt",
+      "sha256": "3c09d925da3ab122632ac85cf49103fba159033377b2eb15a928e216edc129be",
+      "bytes": 9384
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G14 - CM Perotac + Redpump.txt",
+      "sha256": "54af3eaa455d2eacb54c4b009bfb85e84fb7c97ae8920a2c79ca934916f350fa",
+      "bytes": 6420
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G15 - CDX Perotac.txt",
+      "sha256": "97b77fd505a7cccb21cfb015a63052eddfa4c63ecba81ce0c9a1a2ff755955cd",
+      "bytes": 4429
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G16 - CDLF (Aquaris, Perotac).txt",
+      "sha256": "0e911f650da5a9b00b27951cd8d16b765f47425a12263a67ce8823b6295d97c6",
+      "bytes": 7963
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G17 - Inline IRG Perotac.txt",
+      "sha256": "9dc03996a7f20b789a8786257358edce54c3ab7cccae88242f1118050ca3e48d",
+      "bytes": 2680
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/02_PROMPT_TUNG_NHOM/G18 - Excel Catalogue perotac + Catalogue DWO.txt",
+      "sha256": "7f41f3a26b5c294977f1f2b18032cf2cd850a064ce5bff4f9b8168cfc48c372e",
+      "bytes": 6268
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/__init__.py",
+      "sha256": "7ed315294698775c90a3b5eb1b503a4ebf8e7011e36b1e3bf87ba718282369c5",
+      "bytes": 1406
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/_compat.py",
+      "sha256": "5e004f62953a7d95df49dcca5a582c78c07fd09af5ca7c8423e98035176cf348",
+      "bytes": 1957
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/charts.py",
+      "sha256": "15bdfe877d70de936478abd8f6690d68e2efc8cc7d037b0cfe189ee54a835b46",
+      "bytes": 13872
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/cs.py",
+      "sha256": "bffa523f484a32495b214517548e3d1cc82058ed23b4093b05799db9714e207c",
+      "bytes": 12635
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/env.py",
+      "sha256": "76089c31243c0e8ed0ea49bf96a1f123d0ed059e9432014ba909fdc83a26ebd0",
+      "bytes": 4365
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/fonts.py",
+      "sha256": "260e5ef57e02a956902ca59ee3f3c805df7537d651caa220480bef97d9a1ad8b",
+      "bytes": 17643
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/images.py",
+      "sha256": "98b4677956d3fd857666542af351f99ce6bd87f3fd28822d1e7219f353036fd9",
+      "bytes": 4636
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/inspect_pdf.py",
+      "sha256": "412ea23f080f173ff65e9edce2a729e3c862c18f93e1f132bccd30cc749061d6",
+      "bytes": 3548
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/ocr.py",
+      "sha256": "768e8b6e8322ec6a9ba91d44b10f7f59515b901f6399892041d970f79e770fb5",
+      "bytes": 7014
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/otext.py",
+      "sha256": "b42a1858d01b5b14c5535b8915ec0078e5a2b32bbb80dbc22451217cc775f0d5",
+      "bytes": 42641
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/pdfdoc.py",
+      "sha256": "b63ff57761f41174e9c493b3ddc51a0e73da02a5b55892e3568503407cf43853",
+      "bytes": 22286
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/raster.py",
+      "sha256": "7b9f4134ec31f3907b56aabe6f891eda3f402a714cfaa72cb7945f6f3fc64989",
+      "bytes": 50326
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/recipes.py",
+      "sha256": "7f81eb66cdc73e32095f69d8bc4069d067cab4bd362353a75403440991292ff3",
+      "bytes": 9032
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/session.py",
+      "sha256": "9abbed571e19137740f71e4fb31b42fbe5912499c8102d644c08b0b6ba2d6e43",
+      "bytes": 7768
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/textlayer.py",
+      "sha256": "73493b68d5c0c947db73a54a691502a313daadd313ea30999cd422c982653edb",
+      "bytes": 23285
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/vector.py",
+      "sha256": "978708d059b791d02e01ac8921636d83d973533d9ebab139f03f52da51c07ff1",
+      "bytes": 20651
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/verify.py",
+      "sha256": "c43b4a8e4a855e91fa9f8468d209c0f17fbb4fa366d34f1b3cac3d05701d58c8",
+      "bytes": 14281
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/catfix/xlsx.py",
+      "sha256": "a132d78b4127ae9149b46e506994f0d3ec3d088641b26645cdeb5f2bb1ebb3c9",
+      "bytes": 12014
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/tasks/dry_run.json",
+      "sha256": "ccf18cc1c2a7599843235db91c84ba3ec5c0e75dfd20cbb6d604c319d4b36f06",
+      "bytes": 17099
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/tasks/page_types.json",
+      "sha256": "125f9d9b518807bb1c0e1f474443192ec1cbcd30d27f97c6bfb34d6972ac1b01",
+      "bytes": 2089
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/tasks/tasks.json",
+      "sha256": "458a83a33eec7191244ffc94000fa088468a6ceb91affa127cef10381bb78683",
+      "bytes": 84556
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/tests/run_tests.py",
+      "sha256": "2901ba0ef1a1ca42ce4c908cee983110779b488cff7c7558161f93dd0bea11cd",
+      "bytes": 17545
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/tests/fixtures/fx_cover_cdlf_aquaris_p1.pdf",
+      "sha256": "71b45f0f8aa7ed1a8db082d37168517f4409636c5aa252a93d2a17bdb4a7f4a2",
+      "bytes": 760836
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/tests/fixtures/fx_dwo.xlsx",
+      "sha256": "bd2187c92e1522e4fcf449bd1ba1483cb2426f0c953a62968c02900d1226dd7b",
+      "bytes": 370455
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/tests/fixtures/fx_raster_perotac_sp_p9.pdf",
+      "sha256": "75d00abda7319ef984c98010cb0ea097dcdc269c3bc5053ff57d140631f455b8",
+      "bytes": 174727
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/tests/fixtures/fx_text_wc_p1.pdf",
+      "sha256": "8337e35816c9afd1afd3fc0640031f8e40844f0519be19e741dbd56ba4493bea",
+      "bytes": 185640
+    },
+    {
+      "relative_path": "vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT/tests/fixtures/fx_vector_aquaris_sp_p9_goc.pdf",
+      "sha256": "c5a683b5719c48dd93e89a182e524864a2ec0cfd48cd014ec7a1d286ccaf1944",
+      "bytes": 245417
+    }
+  ],
+  "catfix_source_not_modified": true
+}

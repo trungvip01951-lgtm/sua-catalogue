@@ -1,0 +1,23 @@
+from pathlib import Path
+import json
+R=Path(r'D:\ChatGPT\Sửa catalogue'); W=R/'work/sp6_redesign_pilot'
+P=Path(r'C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G05\SOL P6 SHIFT8 LAST SAMPLE2 STATIC 20261005T204538Z-bb47a3\02 FULL P6 SHIFT8 LAST2 PLAN NO PDF.json')
+d=json.loads(P.read_text(encoding='utf-8-sig'))
+def sketch(v,level=0):
+    if isinstance(v,dict):return {k:sketch(x,level+1) if level<2 else (list(x)[:18] if isinstance(x,dict) else f'list[{len(x)}]' if isinstance(x,list) else x) for k,x in v.items()}
+    if isinstance(v,list):return {'count':len(v),'first':sketch(v[0],level+1) if v else None}
+    return v
+print('PLAN',json.dumps(sketch(d),ensure_ascii=False)[:13000])
+L=Path(r'C:\Users\H2\.codex\sessions\2026\10\06\rollout-2026-10-06T07-52-13-01a10eb2-5f0e-7a22-830b-b9094790417c.jsonl')
+last_usage=None; start=None; tokens=[]
+for line in L.open(encoding='utf-8'):
+    try:x=json.loads(line)
+    except:continue
+    p=x.get('payload',{})
+    if x.get('type')=='event_msg' and p.get('type')=='token_count':
+        if p.get('info'):last_usage={'timestamp':x.get('timestamp'),'info':p['info']};tokens.append(last_usage)
+    if x.get('type')=='event_msg' and p.get('type')=='user_message' and 'làm thử 1 trang' in p.get('message',''):
+        start={'timestamp':x.get('timestamp'),'before':last_usage}
+if not (W/'token_start.json').exists():(W/'token_start.json').write_text(json.dumps({'log_path':str(L),'start':start,'last_at_observation':last_usage},ensure_ascii=False,indent=2),encoding='utf-8')
+print('TOKENS',json.dumps({'start':start,'last':last_usage},ensure_ascii=False))
+print('LATEST_BOOTSTRAP',sorted((R/'history').glob('bootstrap*'),key=lambda p:p.stat().st_mtime)[-1].read_text(encoding='utf-8-sig')[-3300:])

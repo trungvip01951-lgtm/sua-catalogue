@@ -1,0 +1,51 @@
+from pathlib import Path
+import json,hashlib,sys,itertools
+import fitz,pikepdf
+R=Path(r'D:\ChatGPT\Sửa catalogue');W=R/'work/sp6_logo_table_v2';D=R/'deliverables/SP6 LOGO BANG RO QH 20261006';read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+receipt=read(W/'candidate.json');P=read(W/'draw_plan.json');data=read(R/'templates/catalogue/SP6_VECTOR_V1/data.json');out=Path(receipt['candidate'])
+a=fitz.open(P['base']);b=fitz.open(out);c=fitz.open(data['current']);assert len(a)==len(b)==len(c)==12
+words=b[5].get_text('words');fail=[]
+for row in P['cells426']:
+ x0,y0,x1,y1=row['box'];found=[w[4] for w in words if x0<(w[0]+w[2])/2<x1 and y0<(w[1]+w[3])/2<y1]
+ if found!=[str(row['H'])]:fail.append({'row':row,'found':found})
+assert not fail,fail[:5]
+clip=fitz.Rect(0,47,831.5599975585938,354)
+graph_same=a[5].get_pixmap(dpi=180,clip=clip,alpha=False).samples==b[5].get_pixmap(dpi=180,clip=clip,alpha=False).samples
+assert graph_same
+held=[]
+for i in range(12):
+ if i!=5:held.append(c[i].get_pixmap(dpi=100,alpha=False).samples==b[i].get_pixmap(dpi=100,alpha=False).samples)
+assert all(held)
+meta=c.metadata==b.metadata and c.get_toc()==b.get_toc() and all(x.get_links()==y.get_links() for x,y in zip(c,b)) and all(x.rect==y.rect for x,y in zip(c,b));assert meta
+with pikepdf.open(out) as d,pikepdf.open(P['logo_source']) as source:
+ dstlogo=d.pages[5].Resources.XObject.RefreshPerotacLogo;srclogo=source.get_object((P['logo_info']['xref'],0));raw_logo_equal=dstlogo.read_raw_bytes()==srclogo.read_raw_bytes();assert raw_logo_equal
+ a_xmp=bytes(d.Root.Metadata.read_bytes()) if '/Metadata' in d.Root else None
+with pikepdf.open(data['current']) as canonical:
+ assert a_xmp==(bytes(canonical.Root.Metadata.read_bytes()) if '/Metadata' in canonical.Root else None)
+text=b[5].get_text();assert 'n ≈ 2850' in text and text.count('H (m)')>=4 and text.count('Q\n')>=2
+percent=[dict(t,relative_error_percent=t['error_m']/abs(t['H_table'])*100) for t in data['checks426'] if t['H_table']!=0]
+over5=[t for t in percent if t['relative_error_percent']>5+1e-8]
+# Flag only. Comparisons are observations within the printed family, not permission to change ratings.
+power_flags=[]
+for family in ['6SP36','6SP46']:
+ rs=[r for r in data['records'] if r['family']==family]
+ for low,high in itertools.permutations(rs,2):
+  kl=float(low['metadata']['kW_literal']);kh=float(high['metadata']['kW_literal'])
+  if kh<=kl:continue
+  shared=sorted(set(low['Q'])&set(high['Q']));lm=dict(zip(low['Q'],low['H']));hm=dict(zip(high['Q'],high['H']))
+  bad=[{'Q':q,'H_lower_kW':lm[q],'H_higher_kW':hm[q]} for q in shared if hm[q]<=lm[q]]
+  if bad:power_flags.append({'family':family,'lower_power_model':low['model'],'lower_kW':kl,'higher_power_model':high['model'],'higher_kW':kh,'flagged_Q_count':len(bad),'observed_points':bad,'status':'REVIEW_LATER_NO_NUMERIC_EDIT','comparability':'Same printed family/50Hz/n≈2850; exact hydraulic configuration/rating requires verification before correction.'})
+qa={'candidate_sha256':sha(out),'actual_table_cells':426,'actual_table_failures':fail,'plot_47_354pt_pixels_180dpi_identical':graph_same,'other11pages_pixels100dpi_identical':all(held),'metadata_toc_links_boxes_held':meta,'logo_raw_bytes_from_original_held':raw_logo_equal,'logo_effective_ppi':1041/101*72,'source_held':sha(Path(data['source']))==data['source_sha256'],'canonical_held':sha(Path(data['current']))==data['current_sha256'],'numeric_changes_from_previous_candidate':0,'new_threshold_interpretation':'abs(Hcurve-Htable)/abs(Htable)<=0.05 for every nonzero table H, endpoints/workpoint locks independent.','points_over_5_percent':over5,'maximum_relative_error_percent':max(t['relative_error_percent'] for t in percent),'power_flag_pairs':len(power_flags),'power_review_scope':'Table samples only, family-level screening; defer changes; not whole-catalogue or continuous inverse-H proof.','whole_page_status':'NOT_ACCEPTED_PRIOR_LABEL_ERRORS_PERSIST'}
+(D/'KIEM TRA LOGO BANG.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2),encoding='utf8');(D/'CONG SUAT CAN RA SOAT SAU.json').write_text(json.dumps(power_flags,ensure_ascii=False,indent=2),encoding='utf8')
+report=['# Công suất cần rà soát sau — chưa sửa số','', 'Chỉ sàng lọc các điểm bảng của trang SP6, trong cùng dòng in trên catalogue. Cần xác minh cấu hình và cách ghi công suất trước kết luận số nào sai. Không áp kết luận chung cho hai loại bơm khác nhau.','', '| Công suất thấp hơn | Công suất cao hơn | Ví dụ tại Q (m³/h) | H tương ứng (m) | Trạng thái |','|---|---|---:|---|---|']
+for f in power_flags:
+ ex=next((x for x in f['observed_points'] if x['Q']>0),f['observed_points'][0]);report.append(f"| {f['lower_power_model']} / {f['lower_kW']:g}kW | {f['higher_power_model']} / {f['higher_kW']:g}kW | {ex['Q']:g} | {ex['H_lower_kW']} / {ex['H_higher_kW']} | GHI NHẬN, SỬA SAU |");
+(D/'CONG SUAT CAN RA SOAT SAU.md').write_text('\n'.join(report)+'\n',encoding='utf8')
+a.close();b.close();c.close()
+sys.path.insert(0,str(R/'vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT'));from catfix.vector import Editor
+e=Editor(str(out))
+for i in reversed(range(12)):
+ if i!=5:del e.doc.pdf.pages[i]
+single=D/'SP6 - LOGO VA BANG MOI.pdf';assert not single.exists();e.save(str(single));e.close()
+with fitz.open(single) as s,fitz.open(out) as full:assert s[0].get_pixmap(dpi=180,alpha=False).samples==full[5].get_pixmap(dpi=180,alpha=False).samples
+print(json.dumps({'qa':'PASS changed scope','max_relative_error_percent':qa['maximum_relative_error_percent'],'over5_count':len(over5),'power_flag_pairs':len(power_flags),'single_pdf':str(single)},ensure_ascii=False))

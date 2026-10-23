@@ -1,0 +1,44 @@
+{
+  "gap_direct_pt": 14.303262446350516,
+  "historic_approx_gap_pt": 14.27512168353752,
+  "not_forced_to_historic_value": true,
+  "ROI": [
+    401.58033150000006,
+    386.77239959999997,
+    416.6035939463506,
+    388.1924004
+  ],
+  "source_segment_centerline": [
+    [
+      401.94033150000007,
+      387.4824
+    ],
+    [
+      406.59119999999996,
+      387.4824
+    ]
+  ],
+  "physical_width_pt": 0.7000008,
+  "source_cap_join": [
+    1,
+    1
+  ],
+  "segment_length_pt": 4.650868499999888,
+  "right_round_cap_end_x": 406.94120039999996,
+  "remaining_centerline_gap_to_original_right_end_pt": 9.302393546350629,
+  "glyph_bbox_min_x": 407.3112,
+  "glyph_clearance_pt": 0.3699996000000283,
+  "insert_index": 59313,
+  "inserted_native_ascii": "\nq\n/R15 gs\n0 0 0 RG\n2.9167 w\n1 J\n1 j\n[] 0 d\n1674.7514 1614.51 m\n1694.13 1614.51 l\nS\nQ",
+  "original_native_exact_subsequence": true,
+  "method": "one source-style black grid fragment over blank white margin, under both untouched 845 layers",
+  "scope": "partial grid gap improvement; does not join through glyphs",
+  "inserted_object_index": 1396,
+  "shifted_original_glyph_object_indices": [
+    1397,
+    1398
+  ],
+  "original_grid_native_object": 1232,
+  "PDF_written_by": "catfix PdfDoc.set_stream + Job.save",
+  "candidate": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\staging\\candidate-v1\\KTZ - LH Redpump (bản mới).pdf"
+}

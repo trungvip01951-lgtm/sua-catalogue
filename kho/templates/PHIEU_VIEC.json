@@ -1,0 +1,32 @@
+{
+  "id": "DIEN-MA-VIEC-MOI",
+  "status": "CHUA_NHAN",
+  "actor": "",
+  "session": "",
+  "source_relative": "",
+  "current_relative": "",
+  "source_sha256": "",
+  "current_sha256_before": "",
+  "group_and_task_ids": [],
+  "user_authority": {"direct_instruction": "", "scope": "", "missing_decision": ""},
+  "work": {"old": "", "new": "", "page": "", "allowed_regions": [], "locked_numeric_points": []},
+  "selected_method": "",
+  "qh_policy": {
+    "requirement": "Một mã bơm: Q tăng thì H giảm; kiểm bảng và toàn đường ở cùng điều kiện",
+    "status": "CHUA_CHAY",
+    "source_values_evidence": [],
+    "locked_extrema_and_working_points": [],
+    "intermediate_integer_before_after": [],
+    "conflicting_locks_or_missing_data": []
+  },
+  "failed_methods_do_not_retry": [],
+  "filesystem_PDF_attempts_same_method": 0,
+  "required_read_sources": [],
+  "candidate_path": "",
+  "candidate_sha256": "",
+  "independent_acceptance_report": "",
+  "shared_progress_ledger": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\TIEN DO.md",
+  "lock_token": "",
+  "next_action": "",
+  "template_is_not_authorization_or_acceptance": true
+}

@@ -1,0 +1,3 @@
+Công cụ chuẩn node_repl/@oai/sky có thể list và đọc accessibility Excel. Screenshot/input vẫn lỗi: FrameArrived timed out; coordinate input geometry unavailable; failed to activate captured window. Chưa vào Catalogue DWO hoặc preview, #123 chưa thể xác minh. Không tự dùng COM/automation khác hoặc lặp đường input lỗi; không kích hoạt Office. Quyền đóng hộp đã có, không hỏi lại quyền. Hai nguồn/hai bản giao Excel khớp danh mục sau lượt thử.
+
+Biên nhận: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G18\CUA DOC DUOC NHUNG INPUT LOI 20261004T005017Z-3ca40d\01 CUA EXCEL DOC DUOC INPUT LOI CHUA KIEM IN.json

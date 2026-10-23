@@ -1,0 +1,100 @@
+CATALOGUE ĐÃ DUYỆT — cập nhật 09/10/2026 09:40 UTC
+Mỗi hãng một thư mục con. Tệp ở đây là bản sao đúng từng byte của bản anh Trung đã duyệt; bản bị thay nằm trong thư mục con _BAN CU.
+
+AQUARIS
+  - AQUARIS - Bơm định lượng JLM-JBB.pdf  | mã kiểm 4f1ebc262e3a |  0.5 MB  | Bản 09/10: JBB201/7, JBB321/6 = 0.25 kW (anh chốt 09/10).  Đã duyệt.
+  - AQUARIS - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 5cba92b30fda  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản 2 trang. Anh chọn một trong hai bản. Chưa đưa vào BẢN MỚI 03-10, chờ anh chọn bản.
+  - AQUARIS - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 859c7d02deb4  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản gọn 1 trang. Anh chọn một trong hai bản. Chưa đưa vào BẢN MỚI 03-10, chờ anh chọn bản.
+  - AQUARIS - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 5cba92b30fda  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 859c7d02deb4  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang MHI.pdf  |  mã kiểm 653f20fae4bb  |  0.3 MB  |  Catalogue MỚI (08/10): bơm đa tầng trục ngang MHI (17 model) và cụm biến tần IVT-MHI (14 mã). Đường Q–H vẽ theo bảng. Chưa đưa vào BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 5cba92b30fda  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 859c7d02deb4  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 105d3981a7dd  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 78c31d04d5b6  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 105d3981a7dd  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 78c31d04d5b6  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang CM.pdf  |  mã kiểm 24ef59e17cb7  |  0.6 MB  |  Bản 09/10 (lượt 20: thêm CM32-160/3, 32-250/9.2, 40-250/9.2, 40-250/18.5, 80-250/37, 80-250/45 số PEROTAC; dải 40-250 số PEROTAC; 72 model, 12 trang).  Bản 08/10. 66 model (bỏ CM 32-125/0.7 và /1.1 theo anh), chỉ 3 pha; IP55, 120 °C theo anh chốt 08/10. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang 3M.pdf  |  mã kiểm 26d21ab75962  |  0.6 MB  |  Bản 08/10. 35 model, chỉ 3 pha; ô trống giữa dãy đã điền theo đường. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm chìm nước thải SS.pdf  |  mã kiểm 5a77a1e84133  |  0.2 MB  |  Bản 08/10. 10 mã 3 pha + 10 mã 1 pha có phao; có dòng phớt cơ khí đặc biệt theo yêu cầu. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm giếng SA.pdf  | mã kiểm 427a70820ce0 |  0.1 MB  | Bản 09/10 chiều: xoá dải 4SA2; thêm 28 mã 4 inch số PEROTAC (kW mới), 152 mã, 17 trang.  Bản 09/10 (lượt 19: thêm 2 / 2.5 / 3 / 6 inch lấy số PEROTAC, 18 trang; ảnh 2/3/6 inch đã xoá tem đỏ).  Bản 08/10. Đã bỏ ba mã 1 pha và 4SA8/5 (anh chốt). Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm chìm nước thải FS inox.pdf  |  mã kiểm 0127ab81d50e  |  0.8 MB  |  Bản 08/10. 7 model, 3 pha. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm chìm nước thải FS.pdf  |  mã kiểm c0a49a5fc7b6  |  0.8 MB  |  Bản 08/10. 5 model, 1 pha và 3 pha. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục đứng IRG.pdf  |  mã kiểm 206435a352a2  |  0.2 MB  |  Bản 08/10. Dạng bảng, không đường đặc tính; 206 model. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Máy thổi khí con sò GB.pdf  |  mã kiểm 94284e2fee6d  |  1.2 MB  |  Bản 08/10. 37 mã; có cột HP; GB-9500S. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm chìm nước thải KTZ-LH.pdf  |  mã kiểm 8a4e107d364a  |  1.0 MB  |  Bản 08/10. 31 model, chỉ 3 pha. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục đứng CDLF.pdf  |  mã kiểm da8b69ed84c1  |  1.7 MB  |  Bản 08/10. Mã 3 pha CDLF…T, mã 1 pha CDLFM… (đến 3 kW). Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang CDX.pdf  | mã kiểm 61fd76110067 |  0.2 MB  | Bản 09/10: thêm CDX120/15, CDX200/15, CDXM120/15, CDXM200/15; CDX200/25 = 2,2 kW.  Bản 08/10. 9 model, CDX… 3 pha và CDXM… 1 pha. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 105d3981a7dd  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 78c31d04d5b6  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm giếng SP.pdf  | mã kiểm cfe9b2636314 |  14.7 MB  | Bản 09/10: hợp mã 3 hãng, 325 mã, 42 trang, bỏ 3SP; tên 1 pha 4 inch ≤2,2 kW.  Bản 08/10. Ảnh bơm mới dải 6/8/10 inch, mỗi model một màu đường, không ghi bảo hành. Lượt 15: sửa câu tiếng Anh, ISO 9906, khổ tr.26–27. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Máy khuấy chìm MIX.pdf  |  mã kiểm 0cb11a3eef7b  |  0.4 MB  |  Bản 08/10. Đã duyệt. Lượt 15: cáp "UL STOW".
+  - AQUARIS - Máy khuấy chìm 4MIX.pdf  |  mã kiểm e41ae95ea30b  |  0.3 MB  |  Bản 08/10. Toàn thân inox SUS304. Lượt 15: cáp "UL STOW".
+  - AQUARIS - Bơm cắt rác WC.pdf  | mã kiểm 627874543daf |  0.5 MB  | Bản 09/10: thêm 100WC100-40-18.5 (18,5 kW); 100WC100-50-22 Q240 = 8 m.  Bản 08/10. Họng 250 theo số anh chốt 07/10 (1100 m³/h; 17/20/24 m). Lượt 16: xoá tem trên nắp động cơ tr.4–5. Đã là bản chính trong BẢN MỚI 03-10.
+  - AQUARIS - Bơm trục ngang 2CDX.pdf  |  mã kiểm 9537165202cc  |  0.1 MB  |  Bản 08/10. Catalogue MỚI (08/10): bơm hai tầng cánh 2CDX, 11 model, 2CDX… 3 pha và 2CDXM… 1 pha (2CDX200/50 chỉ 3 pha). Chưa đưa vào BẢN MỚI 03-10. 08/10 lượt 17: bỏ khối lượng.
+
+PEROTAC
+  - PEROTAC - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 6ea8aef742cc  |  0.2 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản 2 trang. Anh chọn một trong hai bản. Chưa đưa vào BẢN MỚI 03-10, chờ anh chọn bản.
+  - PEROTAC - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm b8b22a5ba0b1  |  0.2 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản gọn 1 trang. Anh chọn một trong hai bản. Chưa đưa vào BẢN MỚI 03-10, chờ anh chọn bản.
+  - PEROTAC - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 6ea8aef742cc  |  0.2 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm b8b22a5ba0b1  |  0.2 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang MHI.pdf  |  mã kiểm 81e072ac170d  |  0.3 MB  |  Catalogue MỚI (08/10): bơm đa tầng trục ngang MHI (17 model) và cụm biến tần IVT-MHI (14 mã). Đường Q–H vẽ theo bảng. Chưa đưa vào BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 6ea8aef742cc  |  0.2 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm b8b22a5ba0b1  |  0.2 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 5cb08ed9a2e5  |  0.2 MB  |  Bản 08/10. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 7649b56d2d49  |  0.2 MB  |  Bản 08/10. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 5cb08ed9a2e5  |  0.2 MB  |  Bản 08/10. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 7649b56d2d49  |  0.2 MB  |  Bản 08/10. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang CM.pdf  |  mã kiểm 464491a7b94b  |  0.6 MB  |  Bản 08/10. 87 model, chỉ 3 pha; trục AISI 316; ô trống giữa dãy đã điền theo đường; có trang cấu tạo và kích thước. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang 3M.pdf  |  mã kiểm 6ff13790c663  |  0.6 MB  |  Bản 08/10. 35 model, chỉ 3 pha; ô trống giữa dãy đã điền theo đường. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm chìm nước thải SS.pdf  |  mã kiểm b617cdf9d4e7  |  0.2 MB  |  Bản 08/10 (lượt 18: 3 ảnh đại diện mới theo dải công suất, không ghi chú dưới ảnh). 10 mã 3 pha + 10 mã 1 pha có phao; SS-1500 Q36 = 4,2 (anh duyệt); có dòng phớt cơ khí đặc biệt theo yêu cầu. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm giếng SA.pdf  | mã kiểm e91bedd73896 |  0.4 MB  | Bản 09/10: xoá dải 4SA2; thêm 1 pha 4SAM6/26, 4SAM10/17; 160 mã.  Bản 08/10. Đã bỏ model bé hơn trong cặp cùng công suất. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục đứng IRG.pdf  |  mã kiểm a47d7216ccb7  |  0.2 MB  |  Bản 08/10. Dạng bảng, không đường đặc tính; 206 model. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Máy thổi khí con sò GB.pdf  |  mã kiểm 6eeb13b8f820  |  1.5 MB  |  Bản 08/10. 37 mã; có cột HP; GB-9500S. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Máy thổi khí Root RL.pdf  |  mã kiểm 4b23aae2b7b3  |  0.8 MB  |  Catalogue MỚI (09/10): máy thổi khí Root 3 cánh dòng RL (RL-40…RL-300; RLC/RLV), 20 trang, làm theo catalogue mẫu anh gửi 09/10; 7 ô bảng hiệu suất sửa theo đề xuất anh duyệt (QUYET_DINH 111–112). Anh duyệt giao diện 09/10.
+  - PEROTAC - Bơm chìm nước thải KTZ-LH.pdf  |  mã kiểm 3e8c7af0097b  |  0.9 MB  |  Bản 08/10. 31 model, chỉ 3 pha. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục đứng CDLF.pdf  |  mã kiểm 6a95e493aa77  |  1.5 MB  |  Bản 08/10. Mã 3 pha CDLF…T, mã 1 pha CDLFM… (đến 3 kW). Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang CDX.pdf  | mã kiểm de4c5e6aff60 |  0.2 MB  | Bản 09/10: thêm CDX120/15, CDX200/15, CDXM120/15, CDXM200/15; CDX200/25 = 2,2 kW.  Bản 08/10. 9 model, CDX… 3 pha và CDXM… 1 pha. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 5cb08ed9a2e5  |  0.2 MB  |  Bản 08/10. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 7649b56d2d49  |  0.2 MB  |  Bản 08/10. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm giếng SP.pdf  | mã kiểm 00debe7acb61 |  5.0 MB  | Bản 09/10: hợp mã 3 hãng, 326 mã, 23 trang; 1 pha chỉ 4 inch ≤2,2 kW.  Bản 08/10. Không ghi bảo hành. Lượt 15: sửa câu tiếng Anh, nhãn đường tr.5–7 không chồng. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm cắt rác WC.pdf  | mã kiểm 50032fe5237a |  0.8 MB  | Bản 09/10: thêm 100WC100-40-18.5 (18,5 kW); 100WC100-50-22 Q240 = 8 m.  Bản 08/10. 9 trang (trang 1 cấu tạo + tính năng; phớt Silicon carbide). Họng 250 theo số anh chốt 07/10. Lượt 15: ảnh bơm tr.2–6 nền trắng sạch. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Máy khuấy chìm MIX.pdf  |  mã kiểm 8bdf64ca31e7  |  0.3 MB  |  Bản 08/10. Đã duyệt. Lượt 15: cáp "UL STOW".
+  - PEROTAC - Máy khuấy chìm 4MIX.pdf  |  mã kiểm 4d03d3b37f4c  |  0.3 MB  |  Bản 08/10. Toàn thân inox SUS304. Lượt 15: cáp "UL STOW".
+  - PEROTAC - Đĩa phân phối khí DN270-DN128.pdf  |  mã kiểm ccc66a421ed4  |  0.3 MB  |  Bản 08/10. Đĩa bọt mịn DN270 (10 inch) + đĩa bọt thô DN128 (5 inch), số theo mẫu Heywel. Lượt 16: bỏ khối lượng. Đã là bản chính trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm trục ngang 2CDX.pdf  |  mã kiểm 5ab141cdf63d  |  0.1 MB  |  Bản 08/10. Catalogue MỚI (08/10): bơm hai tầng cánh 2CDX, 11 model, 2CDX… 3 pha và 2CDXM… 1 pha (2CDX200/50 chỉ 3 pha). Chưa đưa vào BẢN MỚI 03-10. 08/10 lượt 17: bỏ khối lượng.
+  - PEROTAC - Bơm chìm nước thải FC.pdf  | mã kiểm bfdebd99876b |  0.7 MB  | Bản 09/10: catalogue MỚI từ AQUARIS FS (bơm inox), mã FS → FC, số giữ nguyên AQUARIS, A4 dọc. Chưa có trong BẢN MỚI 03-10.
+  - PEROTAC - Bơm chìm nước thải FC inox.pdf  | mã kiểm b3e1bb621dda |  0.7 MB  | Bản 09/10: catalogue MỚI từ AQUARIS FS (bơm inox), mã FS → FC, số giữ nguyên AQUARIS, A4 dọc. Chưa có trong BẢN MỚI 03-10.
+
+REDPUMP
+  - REDPUMP - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 36d646b2b559  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản 2 trang. Anh chọn một trong hai bản. Chưa đưa vào BẢN MỚI 03-10, chờ anh chọn bản.
+  - REDPUMP - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm d404fc43e706  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản gọn 1 trang. Anh chọn một trong hai bản. Chưa đưa vào BẢN MỚI 03-10, chờ anh chọn bản.
+  - REDPUMP - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 36d646b2b559  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm d404fc43e706  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang MHI.pdf  |  mã kiểm b24fa9b9ef52  |  0.3 MB  |  Catalogue MỚI (08/10): bơm đa tầng trục ngang MHI (17 model) và cụm biến tần IVT-MHI (14 mã). Đường Q–H vẽ theo bảng. Chưa đưa vào BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 36d646b2b559  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm d404fc43e706  |  0.3 MB  |  Bản lượt 11 (08/10): tiếng Anh viết lại đúng ngữ pháp. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 997f4f324b30  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 146572b527f2  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 997f4f324b30  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 146572b527f2  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang CM.pdf  |  mã kiểm 606898d554f5  |  0.2 MB  |  Bản 08/10. 87 model, chỉ 3 pha. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang 3M.pdf  |  mã kiểm d0886dfa9fbe  |  0.4 MB  |  Bản 08/10. 35 model, chỉ 3 pha; ô trống giữa dãy đã điền theo đường; không hình cấu tạo (anh chốt). Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm chìm nước thải SS.pdf  |  mã kiểm 5e931a0a7f50  |  0.2 MB  |  Bản 08/10. 10 mã 3 pha + 10 mã 1 pha có phao; có dòng phớt cơ khí đặc biệt theo yêu cầu. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm giếng SA.pdf  | mã kiểm dc58fb98a435 |  0.4 MB  | Bản 09/10: xoá dải 4SA2; thêm 1 pha 4SAM6/26, 4SAM10/17; 160 mã.  Bản 08/10. Đã bỏ model bé hơn trong cặp cùng công suất. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục đứng IRG.pdf  |  mã kiểm 136f9d51380e  |  0.2 MB  |  Bản 08/10. Dạng bảng, không đường đặc tính; 206 model. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Máy thổi khí con sò GB.pdf  |  mã kiểm a0a42271a99f  |  1.2 MB  |  Bản 08/10. 37 mã; có cột HP; GB-9500S. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Máy thổi khí Root RL.pdf  |  mã kiểm 42eebb8e3e88  |  0.8 MB  |  Catalogue MỚI (09/10): máy thổi khí Root 3 cánh dòng RL (RL-40…RL-300; RLC/RLV), 21 trang, làm theo catalogue mẫu anh gửi 09/10; 7 ô bảng hiệu suất sửa theo đề xuất anh duyệt (QUYET_DINH 111–112). Anh duyệt giao diện 09/10.
+  - REDPUMP - Bơm chìm nước thải KTZ-LH.pdf  |  mã kiểm 93f1dc011a53  |  0.9 MB  |  Bản 08/10. 31 model, chỉ 3 pha. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục đứng CDLF.pdf  |  mã kiểm 97afb7203452  |  1.6 MB  |  Bản 08/10. Mã 3 pha CDLF…T, mã 1 pha CDLFM… (đến 3 kW). Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang CDX.pdf  | mã kiểm 11b2b3d9a724 |  0.2 MB  | Bản 09/10: thêm CDX120/15, CDX200/15, CDXM120/15, CDXM200/15; CDX200/25 = 2,2 kW.  Bản 08/10. 9 model, CDX… 3 pha và CDXM… 1 pha. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang DWO (bản 2 trang).pdf  |  mã kiểm 997f4f324b30  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản 2 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang DWO (bản 1 trang).pdf  |  mã kiểm 146572b527f2  |  0.3 MB  |  Bản 08/10. 7 cỡ; bản gọn 1 trang. Anh tự chọn một trong hai bản. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm giếng SP.pdf  | mã kiểm 4d452705a0b4 |  14.2 MB  | Bản 09/10: hợp mã 3 hãng, 326 mã, 21 trang; 1 pha chỉ 4 inch ≤2,2 kW.  Bản 08/10. Không ghi bảo hành, không ghi khối lượng. Dải 6SP30: giữ số catalogue (bản sửa riêng không áp), đã căn biểu đồ tr.6 và bỏ khối lượng tr.9. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm cắt rác WC.pdf  | mã kiểm d25e5a9a99ac |  0.7 MB  | Bản 09/10: thêm 100WC100-40-18.5 (18,5 kW); 100WC100-50-22 Q240 = 8 m.  Bản 08/10. Họng 250 theo số anh chốt 07/10 (1100 m³/h; 17/20/24 m). Lượt 15: xoá vết chữ trong ảnh tr.1–3. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Máy khuấy chìm MIX.pdf  |  mã kiểm ebba51f60a0b  |  0.5 MB  |  Bản 08/10. Đã duyệt. Lượt 15: cáp "UL STOW".
+  - REDPUMP - Máy khuấy chìm 4MIX.pdf  |  mã kiểm a35d1f395eae  |  0.5 MB  |  Bản 08/10. Toàn thân inox SUS304. Lượt 15: cáp "UL STOW".
+  - REDPUMP - Đĩa phân phối khí DN270-DN128.pdf  |  mã kiểm 6ac2834bfcd8  |  0.3 MB  |  Bản 08/10. Đĩa bọt mịn DN270 (10 inch) + đĩa bọt thô DN128 (5 inch), số theo mẫu Heywel. Lượt 16: bỏ khối lượng. Đã là bản chính trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm trục ngang 2CDX.pdf  |  mã kiểm 9f9cc7a3af04  |  0.1 MB  |  Bản 08/10. Catalogue MỚI (08/10): bơm hai tầng cánh 2CDX, 11 model, 2CDX… 3 pha và 2CDXM… 1 pha (2CDX200/50 chỉ 3 pha). Chưa đưa vào BẢN MỚI 03-10. 08/10 lượt 17: bỏ khối lượng.
+  - REDPUMP - Bơm chìm nước thải FC.pdf  | mã kiểm 50c62091820f |  0.7 MB  | Bản 09/10: catalogue MỚI từ AQUARIS FS (bơm inox), mã FS → FC, số giữ nguyên AQUARIS, A4 dọc. Chưa có trong BẢN MỚI 03-10.
+  - REDPUMP - Bơm chìm nước thải FC inox.pdf  | mã kiểm 65a7a53537a4 |  0.7 MB  | Bản 09/10: catalogue MỚI từ AQUARIS FS (bơm inox), mã FS → FC, số giữ nguyên AQUARIS, A4 dọc. Chưa có trong BẢN MỚI 03-10.

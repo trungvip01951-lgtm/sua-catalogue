@@ -1,0 +1,28 @@
+﻿Bạn hãy sửa catalogue cho anh Trung theo bộ hướng dẫn em Claude đã soạn sẵn trên máy anh. Trả lời anh
+bằng tiếng Việt, ngắn gọn; chữ/thuật ngữ tiếng Anh phải giải thích.
+
+1) TÀI LIỆU (trên máy anh):
+- Thư mục gói: C:\Users\H2\Desktop\Catalog Sua\GOI CHATGPT 02-10-2026
+    + GOI_SUA_CATALOGUE_CHATGPT.zip : bộ công cụ "catfix" (đã kiểm thử), README_KY_THUAT.md, danh sách việc
+    + 01_PROMPT_CHUNG (dán vào ChatGPT).txt : QUY TẮC CHUNG – đọc hết, làm đúng từng điều
+    + 02_PROMPT_TUNG_NHOM\G01 ... G18 .txt : 18 nhóm việc (danh sách việc + lưu ý riêng từng nhóm)
+- File cần sửa (KHÔNG được ghi đè, xoá, đổi tên): C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 01-10-2026\...
+- File đã sửa lưu vào: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\ (cùng thư mục con,
+  cùng tên file)
+- Báo cáo, ảnh so sánh, tiến độ: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\
+
+2) CÁCH LÀM:
+a. Đọc file 01_PROMPT_CHUNG và làm BƯỚC 0 (đoạn code khởi động trong đó tự nhận bạn chạy code thẳng trên
+   máy anh hay trên máy chủ của bạn). Báo anh kết quả kiểm môi trường và dòng "TỔNG KẾT: 43/43 ĐẠT".
+   Nếu bạn không chạy code được trên máy anh: lấy file zip và file catalogue cần dùng vào môi trường chạy
+   code của bạn (/mnt/data), làm như PROMPT CHUNG, xong gửi anh link tải file.
+b. Làm lần lượt từng nhóm theo thứ tự: G18, G08, G01, G02, G03, G04, G05, G06, G07, G09, G10, G11, G12,
+   G13, G14, G15, G16, G17. Mỗi nhóm: đọc file 02_PROMPT_TUNG_NHOM\<mã nhóm> ... .txt → làm đủ các việc
+   → nghiệm thu → lưu file + báo cáo → ghi tiến độ → báo anh kết quả nhóm đó theo MẪU BÁO CÁO, rồi mới
+   sang nhóm sau.
+c. Việc cần anh duyệt (biểu đồ vẽ lại, ảnh bìa, câu dịch lại, số chốt theo tỉ lệ, xoá dòng bảng): gửi ảnh
+   mẫu trước | sau, DỪNG chờ anh trả lời.
+d. Bị ngắt giữa chừng: chạy lại BƯỚC 0, đọc tiến độ (TIEN DO.md), làm tiếp – không làm lại việc đã ĐẠT.
+e. Không tự cài phần mềm, không xoá / đổi tên / ghi đè bất kỳ file nào của anh khi anh chưa đồng ý.
+
+Bắt đầu: làm bước a.

@@ -1,0 +1,100 @@
+{
+  "created_utc": "20261006T034834Z",
+  "files": [
+    {
+      "path": "assets\\PEROTAC ORIGINAL.jpg",
+      "sha256": "f05538b98e092b7453d4bfbbaba9064d34ed51a9eff9f247f4dca458c82dc4ba",
+      "bytes": 42090
+    },
+    {
+      "path": "build_plan.json",
+      "sha256": "ab68927e84217810abe2bfb174d85a6cea9b0bf282775fafdec3e190641647e3",
+      "bytes": 57998
+    },
+    {
+      "path": "candidate.json",
+      "sha256": "e9305972013a73c48c1390c85a631af4a4c2264f317e1dfe99aaacf1966fa692",
+      "bytes": 327
+    },
+    {
+      "path": "code\\build.py.txt",
+      "sha256": "c84a356a11afb9e3bc4887bc29b775a26f61fe1b436b6b5ce662523c7e3ac867",
+      "bytes": 10192
+    },
+    {
+      "path": "code\\prepare.py.txt",
+      "sha256": "8e379fb3ffc2066e7b4e65609f4f16bebdaa7f04943269302ce6e66149504de6",
+      "bytes": 5668
+    },
+    {
+      "path": "code\\qa.py.txt",
+      "sha256": "49eb44943a233bdab13c2a02835212971b28a005f4497eacaeed0da01ff90555",
+      "bytes": 6539
+    },
+    {
+      "path": "data_current.json",
+      "sha256": "28474e5810a21ee5895729cda873fedf0965e5443d29e3a8c21190484811e33b",
+      "bytes": 160528
+    },
+    {
+      "path": "independent_pdf_facts.json",
+      "sha256": "836aa00da229ad88c14aa9f6c23a8b3f87c84fd9dfdfe09a01d3f73cd13177c8",
+      "bytes": 7724
+    },
+    {
+      "path": "label_plan.json",
+      "sha256": "ebb00faedf56a43e47874fa5f86660edc06c20c82647fdb33876ffa2750fe71c",
+      "bytes": 61792
+    },
+    {
+      "path": "label_plan_note.md",
+      "sha256": "260a60ad335fd35db630c3f9fa576cffaec46fe34ff9e59a84b1023e24a0483f",
+      "bytes": 547
+    },
+    {
+      "path": "README.md",
+      "sha256": "b1799e4f71be80e55f71b908f65c4cd94f6d7abf2df3b743dd029fec0a5ff6c1",
+      "bytes": 1490
+    },
+    {
+      "path": "reference\\426 DIEM DOC TU PDF.json",
+      "sha256": "340e24bf2064b048d8da644115ac863adc10ffa6921e9476e36795246e24a10b",
+      "bytes": 68391
+    },
+    {
+      "path": "reference\\BAO CAO 8 COT.md",
+      "sha256": "13bf9ab7d667baaed9cd22ace53ee068cf49159a1668af6fc3b6f823556c2d47",
+      "bytes": 2427
+    },
+    {
+      "path": "reference\\KIEM HINH THUC DOC LAP.md",
+      "sha256": "d2bce6847bbaa09e5358e01467d42e3142b70240eab8abc78f34c25fe19ace76",
+      "bytes": 3672
+    },
+    {
+      "path": "reference\\KIEM TRA SO VA CAU TRUC.json",
+      "sha256": "f3fd4b0f61b520e41a597db072f8c517c0d12f94f0d575566ab4ac25ad361e32",
+      "bytes": 6357
+    },
+    {
+      "path": "reference\\SP DU 12 TRANG - FULL MODEL NET LIEN.pdf",
+      "sha256": "f6701fbd513b8860fe8dc8d735c4c448bb45f5c642bfeaa36b2009abea51d7f1",
+      "bytes": 7044943
+    },
+    {
+      "path": "reference\\SP6 - MAU DA SUA.pdf",
+      "sha256": "4ca32ffeee6806fbec730409a56218ef65f9500966940109cf52ca0e1526bcf5",
+      "bytes": 2938437
+    },
+    {
+      "path": "reference\\SP6 FULL MODEL NET LIEN.png",
+      "sha256": "8966275ff5ff166cd3daba9d2b34c8fb5c7db3e0fb327f04996cff6cb6c664d5",
+      "bytes": 499545
+    },
+    {
+      "path": "status.json",
+      "sha256": "a162c05ee15a68222780607329c48af7cba9d4d9e3bf71c5c388a3611e323676",
+      "bytes": 600
+    }
+  ]
+}

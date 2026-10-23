@@ -1,0 +1,118 @@
+{
+  "created_utc": "20261006T053136Z",
+  "scope": "SP stainless only, three separate brands",
+  "Aquaris": {
+    "utc": "20261006T052919Z",
+    "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+    "source_sha256_unchanged": "c56abd03329bbe9469156196e2da7782d07a66f60b685c4c9f4b3d74b45ed785",
+    "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\G02 (gồm cả G01)\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+    "canonical_before": "0245d277dd48d7860f682141acbcac0d48aa79f7148615c347852a9ce0bd9a4a",
+    "canonical_after": "9b2ca1ba4c429fc098f0f354884b0ce2eeb1f20c4b4994dd9e4f0aefd8ba214e",
+    "candidate": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\aquaris_writer\\Aquaris SP - HEADER20 CANDIDATE 1.pdf",
+    "deliverable": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG 20261006\\AQUARIS SP - 31 TRANG.pdf",
+    "backup": "D:\\ChatGPT\\Sửa catalogue\\history\\sp-aquaris-accepted-20261006T052919Z\\Aquaris SP BEFORE 32 pages.pdf",
+    "independent_report": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\aquaris_independent\\header_final\\INDEPENDENT_FINAL_8COL.md",
+    "independent_report_sha256": "e2218ca70bcc198d55134d5d95f5e1d42305ee8d5f8d4cfc808dfe6e6fc25cee",
+    "page_count": 31,
+    "models": 197,
+    "QH_points": 1179,
+    "numbers": "PASS",
+    "visual": "PASS_WITH_ORIGINAL_PHOTO_RESOLUTION_LIMIT",
+    "preservation": "PASS",
+    "paper_print": "NOT_RUN",
+    "canonical_adopted": true,
+    "scope": "SP stainless Aquaris only; 4SP2 removed; 3SP2 retained; no 60Hz or 6-inch single phase",
+    "original_149_tasks_progress": "137/149 unchanged; this is extension scope"
+  },
+  "Perotac_Redpump": {
+    "status": "CONDITIONAL_PLANS_NO_PDF",
+    "data": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\audit\\perotac_dataset.json",
+    "models": 220,
+    "H_cells": 2218,
+    "dimensions_active": 219,
+    "layout": "13-page conditional, NOT approved yet",
+    "pending": [
+      "4SP14 or 4SP15",
+      "two H cells 23->24 and22->23 for4SP14-4",
+      "12-to13page split"
+    ],
+    "writer": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\build_perotac_redpump.py",
+    "QA_reader": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\qa_perotac_redpump.py",
+    "preview_folder": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\perotac_writer\\PEROTAC-conditional-preview",
+    "claims_released": true
+  },
+  "do_not_rerun_historical_scripts": true,
+  "old_region_method": "STOP2",
+  "reusable_files": {
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\user_decisions.json": {
+      "sha256": "bc2c81bd9cc15a929f2b109267f654c8507cb16f4edced6b72fc05dee8b7ef9e",
+      "bytes": 618
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\build_perotac_redpump.py": {
+      "sha256": "ab663c9df254fef7606f3db924b4b8677c1d7a470ad612d34f277daa4cc98825",
+      "bytes": 26523
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\qa_perotac_redpump.py": {
+      "sha256": "8012233bde90e0ac5c5544b1520e87d5a8ef1683c83b1edf9e419e619517ce30",
+      "bytes": 4961
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\audit\\perotac_dataset.json": {
+      "sha256": "afd7abdc83130bd33e0109f391ddb15e96874e77ae5d51fb569849b001e6869b",
+      "bytes": 838092
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\audit\\sp30_six_new_table_curves.json": {
+      "sha256": "e6d9714e75b6104ba0cea413587c9444ac02f71e4434ac505e0568d61dc1e72f",
+      "bytes": 40150
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\perotac_labels.json": {
+      "sha256": "40a677fc3f94b45df3f5564e5b8ccf7347c5a3dcb9a5b54a9c15e90e23620b2e",
+      "bytes": 467308
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\geometry_alternatives_pass.json": {
+      "sha256": "957fdb83d9a0b39f26cce45ece63604c61ab92688cf7b9574aaca35db6d533f2",
+      "bytes": 164098
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\right_panels_conditional.json": {
+      "sha256": "77b86a70219a31b5e8cef9935e46de36612cd050be269fe64eb4a4b5981086fd",
+      "bytes": 63085
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\4sp14_4_conditional_refit.json": {
+      "sha256": "b041002152e48cb63463a7de9b75e418113a1d7e69c112622e2b5bfef809ec22",
+      "bytes": 6194
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\4sp14_refit_geometry.json": {
+      "sha256": "0d1e8091bf35546421188293eed626a79063624972e52d90a546ba6893c7b6f5",
+      "bytes": 29307
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\assets_audit\\perotac_intro_content.json": {
+      "sha256": "a5ac4def9d3d1bd44acc1cc47dbc16cc3378dcff7f185be760ed75910950bab0",
+      "bytes": 11690
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\assets_audit\\perotac_dimensions_4inch.json": {
+      "sha256": "c81d39c502904c597ed64a8fd69460925813a285e0b0e1cc642311f344c2ccd9",
+      "bytes": 40353
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\assets_audit\\perotac_dimensions_6inch.json": {
+      "sha256": "77e8347278681f285eb4fad17f30eacb44e204300bc797661fc8fa54524c250f",
+      "bytes": 33855
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\assets_audit\\perotac_dimensions_8_10inch.json": {
+      "sha256": "d9a0453fd99b3ae5e415e9da6e645cd2554c29095c792a3d042895bcb213e264",
+      "bytes": 14269
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\assets_audit\\eta\\eta_traces.json": {
+      "sha256": "d0035b66472aee790c90dfbb3e4e872c1b21dc0baaac302a109cc965b5a2dcfe",
+      "bytes": 144126
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\dimensions_independent\\independent_readback.json": {
+      "sha256": "624e454a9c759d2a2e49841c9916a57b4003dab79f38a63446689f58ef36afc0",
+      "bytes": 199459
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\aquaris_independent\\header_final\\INDEPENDENT_FINAL_8COL.md": {
+      "sha256": "e2218ca70bcc198d55134d5d95f5e1d42305ee8d5f8d4cfc808dfe6e6fc25cee",
+      "bytes": 4380
+    }
+  },
+  "superseded_by": "D:\\ChatGPT\\Sửa catalogue\\templates\\catalogue\\SP_THREE_BRANDS_V2_20261006\\manifest.json",
+  "status": "HISTORICAL_CHECKPOINT_DO_NOT_USE_PENDING_STATUS_AS_CURRENT"
+}

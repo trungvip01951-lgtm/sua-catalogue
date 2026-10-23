@@ -1,0 +1,152 @@
+{
+  "group": "G13",
+  "status": "CHƯA XONG",
+  "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\Aquaris truc ngang CM (bản mới).pdf",
+  "output": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\Aquaris truc ngang CM (bản mới).pdf",
+  "source_sha256": "1ab4ef2f230651eba98dd36018f04fcbc39f4ecb9cdb7e89a89a634f8b78c26a",
+  "output_sha256": "0338206b4e3f5be3d4376adc8877ac36b0eedbbf37a762e4e0ecc85414dfa3ae",
+  "tasks": [
+    {
+      "stt": 108,
+      "file": "Aquaris truc ngang CM (bản mới).pdf",
+      "page": 1,
+      "item": "Chép chữ thật cùng phông/cỡ/màu; thay cả cuối câu để khoảng cách đúng.",
+      "old": "thaCM 80°C.",
+      "new": "than 80°C.",
+      "result": "ĐẠT",
+      "evidence": "G13/so-sanh-1-01.png; đọc lại đúng 1 chỗ."
+    },
+    {
+      "stt": 109,
+      "file": "Aquaris truc ngang CM (bản mới).pdf",
+      "page": 1,
+      "item": "Chép lại đúng hai dòng đang có, không đổi từ/cỡ; tách chữ ghép sai vị trí.",
+      "old": "supporto inh gisa G20; suppo ertn fonte G20",
+      "new": "supporto in ghisa G20; support en fonte G20",
+      "result": "ĐẠT",
+      "evidence": "G13/so-sanh-1-02.png; G13/so-sanh-1-04.png; 3 câu đọc lại khớp."
+    },
+    {
+      "stt": 110,
+      "file": "Aquaris truc ngang CM (bản mới).pdf",
+      "page": 4,
+      "item": "Đã kiểm nét tô, nét viền và phông nhúng; giữ nguyên vì chưa có mẫu C/M đúng kiểu đã xác minh.",
+      "old": "N trắng trong ô biểu đồ",
+      "new": "CM - CHƯA SỬA",
+      "result": "CHƯA THỂ XÁC MINH",
+      "evidence": "G13/so-sanh-4-11.png; G13/kiem-du-lop-chu-va-font.json; G13/doi-chieu-font-net-day-du.json."
+    },
+    {
+      "stt": 111,
+      "file": "Aquaris truc ngang CM (bản mới).pdf",
+      "page": 4,
+      "item": "Thay cả cặp ngoặc bằng chữ thật cùng phông/cỡ/màu.",
+      "old": "N 32/160 A-B; N 32/200 A-B...; N 40-160 A B - N 50-125 A B",
+      "new": "CM 32-200/3 - /4; CM 32-250/5.5 - /7.5; CM 40 - 50 - 65 - 80; CM 40-160/3 - /4; CM 50-125/3 - /4",
+      "result": "ĐẠT",
+      "evidence": "G13/so-sanh-4-08.png; G13/so-sanh-4-09.png; 3 dòng đọc lại khớp."
+    },
+    {
+      "stt": 113,
+      "file": "Aquaris truc ngang CM (bản mới).pdf",
+      "page": 2,
+      "item": "Chữ thật, bỏ số 0 dư và căn giữa theo chỗ cũ.",
+      "old": "724,50 ở hai ô T",
+      "new": "724.5 ở hai ô T",
+      "result": "ĐẠT",
+      "evidence": "G13/so-sanh-2-05.png; G13/nghiem-thu-so-khac-va-bao-toan_accepted.json."
+    },
+    {
+      "stt": 154,
+      "file": "Aquaris truc ngang CM (bản mới).pdf",
+      "page": "1–4",
+      "item": "Đã đổi đủ hai bảng, ba tham chiếu mô tả, các dòng linh kiện và 3 ô kW. Nhãn nét vẽ chưa có dấu chấm/gạch ngang đúng kiểu đậm nghiêng.",
+      "old": "36 model cũ, ba ô 9.5 kW",
+      "new": "72 tên ở hai bảng + 3 mô tả + linh kiện; ba ô 9.2 kW. 36 nhãn biểu đồ vẫn tên cũ.",
+      "result": "CHƯA THỂ XÁC MINH",
+      "evidence": "G13/nghiem-thu-ban-mau_accepted.json; G13/so-sanh-bang-QH-doc-ngang.png; G13/nghiem-thu-net-chu-trong-o_accepted.json."
+    },
+    {
+      "stt": 155,
+      "file": "Aquaris truc ngang CM (bản mới).pdf",
+      "page": 1,
+      "item": "Giữ nguyên sơ đồ; thiếu P/k/W trong Univers thường, dấu . và / trong Univers Bold. Không đổi sang phông khác.",
+      "old": "CM 80 160 B; N° curva / curve",
+      "new": "CHƯA SỬA thành công suất (kW)",
+      "result": "CHƯA THỂ XÁC MINH",
+      "evidence": "G13/so-sanh-1-12.png; G13/ky-tu-phong-nhung-va-truc.json; G13/kiem-du-lop-chu-va-font.json."
+    },
+    {
+      "stt": 156,
+      "file": "Aquaris truc ngang CM (bản mới).pdf",
+      "page": "1–4",
+      "item": "Thay số thập phân trong chữ thật cùng phông; kiểm tất cả ô bảng.",
+      "old": "348 số dùng dấu phẩy: 3 + 68 + 277 + 0",
+      "new": "348 số dùng dấu chấm; còn 0 dấu phẩy thập phân.",
+      "result": "ĐẠT",
+      "evidence": "G13/nghiem-thu-ban-mau_accepted.json; 684 ô số trang 2 và 1188 ô Q-H đọc lại; G13/so-sanh-bang-QH-doc-ngang.png."
+    }
+  ],
+  "can_sua": 8,
+  "passed": 5,
+  "unverified": 3,
+  "kept": [
+    112,
+    153
+  ],
+  "curve_count": 36,
+  "point_count": 420,
+  "max_deviation": 4.964758808512215e-06,
+  "model_table_occurrences": 72,
+  "paragraph_references": 3,
+  "decimal_source": 348,
+  "decimal_remaining": 0,
+  "numeric_cells_page2": 684,
+  "qh_cells": 1188,
+  "source_point_pass": 375,
+  "source_curve_point_pass": 25,
+  "structure": {
+    "ok": true,
+    "problems": [],
+    "changed_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "size_before": 626109,
+    "size_after": 635835
+  },
+  "outside": {},
+  "preservation": {
+    "metadata": true,
+    "xmp": true,
+    "bookmarks": true,
+    "links": true,
+    "images": true,
+    "fonts": true,
+    "page_sizes": true
+  },
+  "xmp_property_values_identical": true,
+  "evidence_files": {
+    "report": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\BAO CAO G13.md",
+    "comparison": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\So sanh G13.png",
+    "log": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G13/Aquaris CM da-nghiem-thu.log.json",
+    "final_audit": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G13/nghiem-thu-ban-mau_accepted.json",
+    "numbers": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G13/nghiem-thu-so-khac-va-bao-toan_accepted.json",
+    "glyphs": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G13/kiem-du-lop-chu-va-font.json",
+    "native_styles": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G13/nghiem-thu-kieu-chu-moi-cho-sua_accepted.json"
+  },
+  "archive": {
+    "original": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\Aquaris truc ngang CM (bản mới).pdf",
+    "archive": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G13\\PHIEN TRUOC\\1413a157c72e067bf2b093bce17d9fca93f059e34e4cfe6b4ae99a43fce83ef5\\Aquaris truc ngang CM (bản mới).pdf",
+    "sha256": "1413a157c72e067bf2b093bce17d9fca93f059e34e4cfe6b4ae99a43fce83ef5",
+    "reason": "Giữ bản sơ bộ do phiên G13 tạo; bản mới giữ chính xác màu/cỡ chữ nguồn",
+    "authority": "Chỉ dẫn của root cho phép lưu bản phiên này theo hàm băm",
+    "time": "2026-10-03T03:41:13.8210591+07:00"
+  },
+  "all_native_styles": true,
+  "native_edit_count": 427,
+  "paragraph_run_count": 8,
+  "accepted_manifest": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G13/nhat-ky-chi-tiet-ban-mau_accepted.json"
+}

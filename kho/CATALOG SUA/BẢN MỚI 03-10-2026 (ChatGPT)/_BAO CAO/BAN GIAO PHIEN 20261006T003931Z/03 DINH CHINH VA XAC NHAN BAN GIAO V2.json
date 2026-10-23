@@ -1,0 +1,38 @@
+{
+  "status": "HANDOFF_V2_CORRECTS_SL11_AXES_ONLY_NO_CATALOGUE_EDIT",
+  "time_utc": "2026-10-06T00:41:28.202801+00:00",
+  "handoff": "D:\\ChatGPT\\Sửa catalogue\\BAN_GIAO_PHIEN_20261006T003931Z_V2.md",
+  "handoff_sha256": "f31681585903b1b84dab584f2f58faa0773bc206d4066041f22a898bed763ea1",
+  "old_handoff_kept": "D:\\ChatGPT\\Sửa catalogue\\BAN_GIAO_PHIEN_20261006T003931Z.md",
+  "old_sha256": "23f239d5c2fd1c9d443950974b22e59c065b73e3833e4210479eb0d21570b3a0",
+  "inherits_25_source_and_canonical_full_hashes_from": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\BAN GIAO PHIEN 20261006T003931Z\\01 XAC NHAN BAN GIAO KHONG SUA CATALOGUE.json",
+  "inherited_full_proof_sha256": "f84a4e8f44f1e218aaedf57a727a83eb59bf3257e3068276ef4626de82650ffe",
+  "correction": "Source core212 kept; old affine212 FAIL2/41; ROOT-selected mapping b3c638 has independent axes PASS5886db. Neither proves font/layout/PDF acceptance.",
+  "mapping": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G04\\ROOT SL11 AXES41 SAME CORES SELECTED 20261005T131403Z-26a9af\\01 ROOT SELECTED AXES41 SAME CORE ZERO PADDING NO PDF.json",
+  "mapping_sha256": "b3c638f1ac0a49a5e86b38b089ceb8b92aa43d14186686d31e437e88e04e65c3",
+  "axes_proof": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G04\\INDEPENDENT SL11 AXES212 CTM BANDS READONLY\\02 OWN ROOT SELECTED41 SAMECORE CTM PASS NO LAYOUT.json",
+  "axes_proof_sha256": "5886db2869b582d023392d17bc7b1c5b8e746a3ef403122b0ac9b442fa0a52b4",
+  "all25_sources_all25_canonicals_rehashed_held": true,
+  "catalogue_edit": 0,
+  "original149_accepted": 137,
+  "remaining_original": [
+    34,
+    52,
+    101,
+    105,
+    106,
+    107,
+    110,
+    123,
+    128,
+    137,
+    154,
+    155
+  ],
+  "before_shared_sha256": {
+    "D:\\ChatGPT\\Sửa catalogue\\state\\CURRENT_CHECKPOINT.md": "274896bb620db522ed4ccfc9bcb6a26dd36d2050c9afa2ad5994947ebef96677",
+    "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\TIEN DO.md": "761ec4fd7b445e2931f60ebbc9b6c3fa71505b846df31c769fa7623354d68932",
+    "D:\\ChatGPT\\Sửa catalogue\\state\\catalogues.json": "d394752c9c9edffb23edaa968ce1f66096f7d5629d6c4b90421defdcf3af7cce",
+    "D:\\ChatGPT\\Sửa catalogue\\state\\control_manifest.json": "aace6ee9695bbbd5afa11ec5dd9918720ec9097b62cc9f7e4231048d05b34c3f"
+  }
+}

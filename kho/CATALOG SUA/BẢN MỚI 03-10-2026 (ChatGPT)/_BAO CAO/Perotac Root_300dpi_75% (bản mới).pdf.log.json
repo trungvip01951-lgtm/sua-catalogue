@@ -1,0 +1,306 @@
+{
+ "src": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Thổi khí\\Perotac Root_300dpi_75% (bản mới).pdf",
+ "dst": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Thổi khí\\Perotac Root_300dpi_75% (bản mới).pdf",
+ "edits": [
+  {
+   "page": 1,
+   "rect": [
+    108.36,
+    257.61,
+    283.2,
+    265.89
+   ],
+   "label": "#84 SHOWFOU → PEROTAC",
+   "kind": "outline"
+  },
+  {
+   "page": 2,
+   "rect": [
+    416.44,
+    296.97,
+    511.08,
+    307.05
+   ],
+   "label": "#85 For Pressure Operation → For Vacuum Operation",
+   "kind": "outline"
+  },
+  {
+   "page": 2,
+   "rect": [
+    455.28,
+    142.17,
+    493.68,
+    149.49
+   ],
+   "label": "#86 RWC-50 → RWV-50",
+   "kind": "outline"
+  },
+  {
+   "page": 3,
+   "rect": [
+    162.44,
+    358.44,
+    220.45,
+    368.64
+   ],
+   "label": "#87 NOAME → NAME",
+   "kind": "outline"
+  },
+  {
+   "page": 8,
+   "rect": [
+    383.4,
+    510.45,
+    522.6,
+    520.89
+   ],
+   "label": "#88 moldel → model",
+   "kind": "outline"
+  },
+  {
+   "page": 8,
+   "rect": [
+    119.99,
+    228.09,
+    150.61,
+    235.58
+   ],
+   "label": "#89 0.013 → 0.00132",
+   "kind": "outline"
+  },
+  {
+   "page": 8,
+   "rect": [
+    171.0,
+    227.97,
+    197.04,
+    235.41
+   ],
+   "label": "#89 0.1338 → 0.1333",
+   "kind": "outline"
+  },
+  {
+   "page": 8,
+   "rect": [
+    168.24,
+    71.97,
+    194.16,
+    79.53
+   ],
+   "label": "#90 3.4785 → 3.785",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    134.04,
+    509.01,
+    191.88,
+    516.21
+   ],
+   "label": "#91 Static Pressurs → Static Pressure",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    393.48,
+    509.01,
+    451.56,
+    516.21
+   ],
+   "label": "#91 Static Pressurs → Static Pressure",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    138.72,
+    393.81,
+    196.8,
+    401.01
+   ],
+   "label": "#91 Static Pressurs → Static Pressure",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    396.6,
+    393.81,
+    454.68,
+    401.01
+   ],
+   "label": "#91 Static Pressurs → Static Pressure",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    133.8,
+    279.69,
+    191.88,
+    286.89
+   ],
+   "label": "#91 Static Pressurs → Static Pressure",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    384.24,
+    279.69,
+    442.32,
+    286.89
+   ],
+   "label": "#91 Static Pressurs → Static Pressure",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    139.32,
+    165.81,
+    197.16,
+    173.01
+   ],
+   "label": "#91 Static Pressurs → Static Pressure",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    395.4,
+    165.81,
+    453.36,
+    173.01
+   ],
+   "label": "#91 Static Pressurs → Static Pressure",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    136.8,
+    52.65,
+    194.64,
+    59.85
+   ],
+   "label": "#91 Static Pressurs → Static Pressure",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    392.76,
+    52.65,
+    450.84,
+    59.85
+   ],
+   "label": "#91 Static Pressurs → Static Pressure",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    142.68,
+    260.49,
+    221.04,
+    269.97
+   ],
+   "label": "#91 RLC-80 (RWC-80) → RL-80 (RW-80)",
+   "kind": "outline"
+  },
+  {
+   "page": 14,
+   "rect": [
+    309.45,
+    667.65,
+    343.11,
+    675.57
+   ],
+   "label": "#92 NDE00 → NDE100",
+   "kind": "outline"
+  },
+  {
+   "page": 16,
+   "rect": [
+    217.2,
+    479.01,
+    273.84,
+    485.61
+   ],
+   "label": "#93 Tanadem Type Motor → Tandem Type Motor",
+   "kind": "outline"
+  },
+  {
+   "page": 17,
+   "rect": [
+    451.08,
+    226.41,
+    471.36,
+    234.93
+   ],
+   "label": "#94 liguid → liquid",
+   "kind": "outline+raster"
+  },
+  {
+   "page": 17,
+   "rect": [
+    483.96,
+    363.12,
+    528.48,
+    401.13
+   ],
+   "label": "#94 Raint, etc → Paint, etc",
+   "kind": "outline+raster"
+  },
+  {
+   "page": 17,
+   "rect": [
+    415.8,
+    353.25,
+    525.96,
+    361.77
+   ],
+   "label": "#94 Used to supply high-pressure → Used to supply high-pressure",
+   "kind": "outline+raster"
+  },
+  {
+   "page": 17,
+   "rect": [
+    415.8,
+    343.77,
+    517.8,
+    352.29
+   ],
+   "label": "#94 discharge air containing no → discharge air containing no",
+   "kind": "outline+raster"
+  },
+  {
+   "page": 17,
+   "rect": [
+    415.8,
+    334.41,
+    482.88,
+    342.81
+   ],
+   "label": "#94 oil to the sprayer. → oil to the sprayer.",
+   "kind": "outline+raster"
+  }
+ ],
+ "log": [
+  {
+   "task": 146,
+   "result": "GIỮ NGUYÊN"
+  },
+  {
+   "task": 147,
+   "result": "GIỮ NGUYÊN"
+  },
+  {
+   "task": 148,
+   "result": "GIỮ NGUYÊN"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+from pathlib import Path
+import json
+G=Path(r'C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G05')
+paths=[G/'ROOT6SP36 SOURCE210 CORRECT156270 PURE21 NO PDF 20261005T144000Z-283c9b/02 PURE21 CORRECT SOURCE210 HELD C2 NO PDF.json',G/'INDEPENDENT P6 PAGE C2 FIXED28 STEP1P5 PURE REVISION 20261005T195004Z/01 PURE39 REVISION ONLY28 C2 SUP01 CONTROL792 NO PDF.json',G/'SOL P6 SHIFT8 LAST SAMPLE2 STATIC 20261005T204538Z-bb47a3/02 FULL P6 SHIFT8 LAST2 PLAN NO PDF.json']
+for p in paths:
+ d=json.loads(p.read_text(encoding='utf-8-sig'));print('\nFILE',p.name)
+ print('KEYS',list(d))
+ for k,v in d.items():
+  if isinstance(v,list) and v and isinstance(v[0],dict):
+   print(k,'COUNT',len(v),'FIRST',json.dumps({a:b for a,b in v[0].items() if a not in ['controls','parts','joins','points','glyphs']},ensure_ascii=False)[:5200])
+L=Path(r'C:\Users\H2\.codex\sessions\2026\10\06\rollout-2026-10-06T07-52-13-01a10eb2-5f0e-7a22-830b-b9094790417c.jsonl')
+last=None;baseline=None
+for line in L.open(encoding='utf-8'):
+ try:x=json.loads(line)
+ except:continue
+ p=x.get('payload',{})
+ if p.get('type')=='token_count' and p.get('info'):last={'timestamp':x['timestamp'],'info':p['info']}
+ if p.get('role')=='user':
+  s=''.join(c.get('text','') for c in p.get('content',[]) if isinstance(c,dict))
+  if 'làm thử 1 trang' in s and len(s)<3000:baseline={'timestamp':x['timestamp'],'before':last,'message':s}
+print('BASELINE',json.dumps(baseline,ensure_ascii=False))
+if baseline:Path(r'D:\ChatGPT\Sửa catalogue\work\sp6_redesign_pilot\token_start.json').write_text(json.dumps({'log_path':str(L),'start':baseline},ensure_ascii=False,indent=2),encoding='utf-8')

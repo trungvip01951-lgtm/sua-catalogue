@@ -1,0 +1,25 @@
+{
+  "captured_at_local": "2026-10-03",
+  "scope": "Phân công bàn giao trong phiên tạo kho, không phải bằng chứng trạng thái tác nhân trực tiếp",
+  "coordinator": "ChatGPT ROOT",
+  "shared_ledger_writer": "Chỉ người điều phối; hiện là ChatGPT ROOT",
+  "desktop_controller": "Chỉ ChatGPT ROOT trong phiên hiện tại",
+  "writers": [
+    {"catalogue": "Giếng/Perotac bơm giếng SA_compressed (bản mới).pdf", "actor": "/root/g03_aquaris_sa", "scope": "RAM p8/chữ nguồn/giới hạn; M1 chưa cho phép"},
+    {"catalogue": "Giếng/Redpump gieng SL_compressed (bản mới).pdf", "actor": "/root/g18_nghiem_thu", "scope": "13 đảo nguồn dừng; chưa PDF2; đang QA tài liệu dự án"},
+    {"catalogue": "Giếng/Perotac bơm giếng SP_compressed (bản mới).pdf", "actor": "01a0ffa9-e245-7b82-87b9-3871ab5ad89d", "scope": "Chưa PDF M1; p5 FAIL dáng chữ; đọc p7/p11"},
+    {"catalogue": "Trục ngang/CDX Perotac (bản mới).pdf", "actor": "01a0ffaa-aecb-78b3-abd5-6112c4cba5a4", "scope": "RAM p4/p5 theo nét số nguồn; p3 bản chính194a đã khóa"},
+    {"catalogue": "Trục ngang/Catalogue DWO (bản mới).xlsx", "actor": "01a0ff67-d6aa-7a22-944f-590cc3a456be", "scope": "Chuẩn bị khung/7series; chưa điểm vì chờ Qmin/Hmin"}
+  ],
+  "readers": [
+    {"actor": "/root/g01_chu_so", "scope": "183model/1827mốc SA đã chốt chỉ đọc; QA độc lập kho dự án"},
+    {"actor": "01a0ff98-7071-7ae2-afd1-219b37dbf9eb", "scope": "SP hình thức độc lập; đã thấy4/chữtrục chưa đạt"},
+    {"actor": "01a0fff7-9fe0-7412-8d53-458c73bc19ca", "scope": "SA9đảo và giới hạn toànhalo/nhómEta+60"},
+    {"actor": "01a0ff66-fa4a-7122-9b78-433f9a864962", "scope": "ExcelPerotac9đường chỉ đọc; UI đểROOT"},
+    {"actor": "01a0fffd-7313-7462-a558-664bdd89e9fc", "scope": "GBM2 đã lưu; nhiệm vụ mớiExcel bị kẹt lượt ứng dụng cũ, không tính tiến triển mới"}
+  ],
+  "coordination_lock_rows_not_imported_on_behalf_of_workers": true,
+  "each_writer_must_read_and_claim_before_next_catalogue_save": true,
+  "claude_has_read_project": false,
+  "catalogue_work_not_cancelled_or_declared_complete": true
+}

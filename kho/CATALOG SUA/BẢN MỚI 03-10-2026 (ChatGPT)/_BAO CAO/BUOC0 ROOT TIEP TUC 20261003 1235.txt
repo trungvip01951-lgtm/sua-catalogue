@@ -1,0 +1,199 @@
+Python 3.12.14 · Windows-10-10.0.19045-SP0
+  [CÓ ]  numpy        2.3.5      tính toán
+  [CÓ ]  Pillow       12.3.0     xử lý ảnh
+  [CÓ ]  pikepdf      10.16.0    đọc/ghi PDF (ưu tiên)
+  [CÓ ]  PyMuPDF      1.28.2     đọc/ghi + vẽ trang PDF (dự phòng; tên cũ "fitz")
+  [CÓ ]  scipy        1.18.1     tách chữ trên ảnh, đường cong
+  [CÓ ]  opencv-python 5.0.0      xoá nền ảnh đẹp hơn (inpaint)
+  [CÓ ]  fonttools    4.66.1     kiểm tra font có chữ hay không (chữ thật)
+  [CÓ ]  pytesseract  0.3.13     gọi OCR
+  [CÓ ]  openpyxl     3.1.5      không bắt buộc (catfix sửa Excel trực tiếp XML)
+  [CÓ ] tesseract    OCR đọc chữ (bắt buộc cho file nét vẽ/ảnh)   (C:\Users\H2\AppData\Local\Programs\Tesseract-OCR\tesseract.exe)
+  [CÓ ] pdftoppm     vẽ trang (dự phòng nếu thiếu PyMuPDF)
+  [THIẾU] qpdf         kiểm tra cấu trúc PDF (không bắt buộc)
+KẾT LUẬN:
+  Mở/ghi PDF                         ĐƯỢC
+  Vẽ trang để so sánh                ĐƯỢC
+  OCR (chữ nét vẽ, chữ trên ảnh)     ĐƯỢC
+  Tách chữ trên ảnh                  ĐƯỢC
+ 
+Session – MÁY ANH TRUNG (code chạy thẳng trên máy anh, đọc/ghi file trong thư mục của anh)
+  file vào : C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 01-10-2026
+  file ra  : C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)
+  báo cáo  : C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO
+# TIẾN ĐỘ SỬA CATALOGUE (ChatGPT)
+
+| Thời điểm | Nhóm | Trạng thái | Ghi chú |
+|---|---|---|---|
+| 2026-10-02 22:50 | BƯỚC 0 | XONG | TỔNG KẾT: 43/43 ĐẠT; chưa sửa catalogue; chưa thực hiện nhóm G01–G18 |
+| 2026-10-02 22:55 | BƯỚC 0 | XONG | 43/43 ĐẠT; 27 file nguồn giữ nguyên; chưa thực hiện nhóm nào; Python dùng khi làm tiếp: C:\Users\H2\Documents\Codex\2026-10-02\b-n-h-y-s-a\.catfix-venv\Scripts\python.exe; khởi động: C:\Users\H2\Documents\Codex\2026-10-02\b-n-h-y-s-a\batdau.py |
+| 2026-10-02 23:31 | G18 | CHƯA XONG | 11/12 ĐẠT theo dữ liệu và ảnh; #123 chưa xác minh bản in; 2 bản sửa đã lưu; cần nghiệm thu toàn trang khi Excel đọc/in được |
+| 2026-10-03 00:15 | G08 | XONG | 12/12 ĐẠT;3 PDF/24 trang, đường #64 khớp bảng; sửa thêm hàng đổi lít/phút trang5; logo #162 giữ nguyên. |
+| 2026-10-03 00:40 | G03 | CHƯA XONG | 14/15 ĐẠT; #34 còn KW/Kw do thiếu chữ k cùng kiểu trong PDF, không có phông nhúng/lớp chữ; 69 đường/414 điểm đạt; xem BAO CAO G03.md |
+| 2026-10-03 00:44 | G01 | CHƯA XONG | Đã định vị và tính số; lỗi tiền kiểm ở G01/kiem-dinh-vi.json, chưa ghi catalogue |
+| 2026-10-03 00:54 | G01 | XONG | 19/19 việc ĐẠT; 220/220 chỗ đọc lại đúng, 69 model; ngoài vùng sửa rỗng; cấu trúc và thông tin tệp giữ nguyên. Báo cáo BAO CAO G01.md; dữ liệu G02 ở G01/bang-so-da-nghiem-thu-cho-G02.json. |
+| 2026-10-03 01:02 | G06 | CHƯA XONG | 1/3 ĐẠT; #52 thiếu k đúng nét đậm; #53 hai mẫu chưa đẹp nên giữ nguyên bảng; #136 giữ cả 2 dòng FS; kiểm bản cuối acceptance-v2.json đạt |
+| 2026-10-03 01:08 | G05 | CHƯA XONG | 6/6 việc chữ/số ĐẠT, 17 vị trí đã xem; còn đồng bộ2 đường đặc tính 6SP30-6/6SP60-20 phát hiện thêm. |
+| 2026-10-03 01:24 | G02 | ĐANG LÀM | Mẫu trang 9 đã vẽ 8/8 đường đi qua đúng mọi số bảng, có ảnh trước/sau; anh đã cấp quyền vẽ nên tiếp tục 20 biểu đồ còn lại. |
+| 2026-10-03 01:27 | G02 | ĐANG LÀM | Mẫu trang 9 lần 2: đã dùng đúng hình viền trắng mở rộng của nguồn và vẽ 8/8 đường đi qua mọi số bảng; mẫu lần 1 chưa đạt viền đã giữ làm chẩn đoán. Tiếp tục 20 biểu đồ còn lại theo toàn quyền anh cấp. |
+| 2026-10-03 01:28 | G07 | CHƯA XONG | 4/5 ĐẠT (#54–57); #137 ren G3 đạt, cửa xả 50→80 chưa đạt do thiếu 8 đúng phông; #136 giữ nguyên. Đọc lại và soi ảnh đủ; ngoài vùng rỗng; nguồn/ảnh/phông/nét vẽ giữ nguyên. |
+| 2026-10-03 01:29 | G04 | CHƯA XONG | 14/14 chữ/số ĐẠT, 84 chỗ/2 PDF; 2 điểm đường 4SA16/23 và /18 chưa đạt; 2 mẫu đường hình thức chưa đạt, chưa đưa vào bản giao; AI điều phối tiếp tục. |
+| 2026-10-03 01:32 | G02 | ĐANG LÀM | Mẫu trang 9 lần 3: chép nguyên mẫu viền trắng gốc theo đúng phép biến đổi hình chữ xanh; đã bỏ cách ghép hộp viền sau 2 lần không đạt trên các trang 4/28. 8/8 đường đi qua mọi số bảng, tiếp tục 20 biểu đồ còn lại. |
+| 2026-10-03 01:34 | G02 | ĐANG LÀM | Mẫu trang 9 nghiệm thu: chép nguyên mẫu viền trắng gốc theo phép biến đổi của chữ xanh, đã kiểm đủ bộ chữ/viền cho 21 trang; 8/8 đường đi qua mọi số bảng. Tiếp tục 20 biểu đồ còn lại. |
+| 2026-10-03 01:42 | G02 | XONG | 1/1 việc ĐẠT; 21/21 biểu đồ, 207/207 đường, 1219/1219 điểm; lệch lớn nhất <0,00003 m; đúng đầu/cuối, màu/nét/nhãn; G01 220/220 giữ nguyên; ngoài vùng sửa rỗng; file hợp nhất trong Giếng/G02 (gồm cả G01); báo cáo BAO CAO G02.md. |
+| 2026-10-03 02:08 | G09 | XONG | 6/6 việc ĐẠT, 18 vùng/2 PDF; 16 tự động đọc khớp, 2 đọc ảnh trực tiếp; #144/#162 giữ nguyên; cấu trúc/vùng ngoài/ảnh/XMP đạt. Chưa đo đủ toàn bộ đường đặc tính KTZ/LH. |
+| 2026-10-03 02:12 | G09 | CHƯA XONG | 6/6 chữ/số đã đạt; tiếp tục nghiệm thu đủ các đường KTZ/LH theo bảng. Giữ nguyên nét là kiểm bảo toàn, chưa chứng minh độ đúng. |
+| 2026-10-03 02:13 | G09 | CHƯA XONG | 6/6 chữ/số đã đạt; tiếp tục nghiệm thu đủ các đường KTZ/LH theo bảng. Giữ nguyên nét là kiểm bảo toàn, chưa chứng minh độ đúng. |
+| 2026-10-03 02:16 | G09 | CHƯA XONG | 6/6 chữ/số đã đạt; tiếp tục nghiệm thu đủ các đường KTZ/LH theo bảng. Giữ nguyên nét là kiểm bảo toàn, chưa chứng minh độ đúng. |
+| 2026-10-03 02:32 | G12 | CHƯA XONG | 0/3 mã hoàn tất; 24 phần chữ/ô và 10 đường sửa đạt; 72 đường/500 điểm đã đọc lại; thiếu Ó hoa, nháy đơn đậm nghiêng, W thường đứng. Báo cáo BAO CAO G12.md; 2 bản sửa từng phần giữ nguyên tên. |
+| 2026-10-03 02:33 | G11 | XONG | 11/11 ĐẠT (#84–94); #146–148 giữ nguyên. Đọc lại26/26 vị trí; ngoài từng hộp +1pt ở200dpi rỗng; đúng cộtVACUUM,10 biểu đồ giữ đường,ảnh/phông/thông tin/chữ thật nguyên. #94 xử lý cả ảnh và nét, giữ cỡ, mô tả/nhãn trong khung; đã lưuPDF,nhật ký,ảnh,báo cáo. |
+| 2026-10-03 02:38 | G11 | CHƯA XONG | 11/11 việc #84–94 ĐẠT; #146–148 giữ nguyên. Đang kiểm bổ sung biểu đồ theo neo số thật trong tài liệu; chưa kết thúc nghiệm thu cả nhóm. |
+| 2026-10-03 02:40 | G09 | XONG | 6/6 chữ/số ĐẠT; đã nghiệm thu 124 đường tại đủ 372 mốc bảng có số, sửa 32 đường, 372/372 đạt; nét/ảnh/nhãn/bảng/XMP và ngoài vùng đạt. Bảng thiếu H ở Q tối đa và dãy Q-H trung gian: chưa xác minh những số không có nguồn. |
+| 2026-10-03 03:08 | G14 | CHƯA XONG | 7/8 ĐẠT; #128 còn 4 (kw) kiểu nghiêng thiếu W đúng kiểu trong chính tệp. Mẫu 2 hết chữ cũ, ngoài vùng/metadata/ảnh nguồn đạt; 18 tên .0 + 2 CM100-160/22 đọc đúng; 34 dòng dồn mỗi tệp giữ mọi điểm ảnh số đến cột cuối. Hai PDF không có biểu đồ; nguồn không đổi. Hồ sơ BAO CAO G14.md, G14/NGHIEM THU CUOI.json. |
+| 2026-10-03 03:09 | G11 | XONG | 11/11 CAN_SUA ĐẠT; #146–148 giữ nguyên. Bổ sungđãđo110 đường/880neo,đầu-cuốiđủ;3ô mâu thuẫn #146 giữ bảng/đường,chưa chốt dữliệuđúng. 50đường độồn thiếu bảngdB:CHƯA THỂ XÁC MINH;RL300/1400 ngoài miền vẽ;đã lưu báo cáo bổ sung/csv/json/ảnhneo. PDF cuốiđọc26/26,vùngngoài rỗng,nguồn nguyênSHA. |
+| 2026-10-03 03:10 | G15 | CHƯA XONG | Đang định vị 8 việc #114–119,#159–160 trên CDX Perotac; chưa ghi PDF ra. File nguồn giữ nguyên; đọc đầy đủ prompt riêng và quy tắc chung. |
+| 2026-10-03 03:14 | G14 | CHƯA XONG | 7/8 ĐẠT + bổ sung 4/4 kw đứng trang 2 → kW ĐẠT (đọc đúng chữ hoa); còn 4 (kw) nghiêng trang1 thiếu W cùng kiểu. Bản cuối cập nhật, bản trước giữ G14/PHIEN TRUOC KW theo đúng hash. Ảnh/mặt nạ/bảng/metadata/link/ngoài vùng đạt. Hồ sơ mới BAO CAO G14 BO SUNG.md; G14/NGHIEM THU BO SUNG KW.json. |
+| 2026-10-03 03:16 | G16 | ĐANG LÀM | Đọc đủ PROMPT CHUNG/README/G16; BƯỚC 0 môi trường đạt, tiến độ 43/43 đã đạt; kiểm hai nguồn và lưu ảnh 24 trang, chưa sửa catalogue. Phân riêng model đơn/biến thể -2 để nghiệm thu đường theo đúng bảng. |
+| 2026-10-03 03:18 | G13 | CHƯA XONG | Đã lưu bản sửa từng phần: 72 tên bảng + 3 mô tả + 3 ô kW + 348 dấu thập phân và 36 đường/420 điểm; đang nghiệm thu tệp đích. #110/#155 và nhãn biểu đồ #154 chưa có ký tự đúng kiểu đã xác minh. |
+| 2026-10-03 03:28 | G10 | XONG | 6/6 CAN_SUA ĐẠT,329 vị trí/214 đơn vị; #77/#145 giữ. Sửa27/60 đường một cấp,120/120 mốc bảng đạt;48 đường hai cấp giữ nguyên nhưng thiếu bảng tương ứng: CHƯA THỂ XÁC MINH số. Ngoài vùng/phông/ảnh/XMP/nguồn27file đạt, đã lưuPDF/ảnh/báo cáo. |
+| 2026-10-03 03:48 | G13 | CHƯA XONG | 5/8 mã ĐẠT; #110/#155 và nhãn biểu đồ #154 chưa có ký tự đúng kiểu đã xác minh. 72 tên bảng + 3 mô tả, 3 dòng linh kiện, 3 ô kW, 348 dấu thập phân; 36/36 đường và 420/420 điểm đạt; ngoài vùng rỗng, nguồn/ảnh/phông/thông tin bảo toàn. BAO CAO G13.md. |
+| 2026-10-03 03:53 | G17 | XONG | 3/3 CAN_SUA ĐẠT, đủ5 chỗ nét+OCR, cỡ/màu/đường cơ sở đạt; trang2–3/#152/ảnh/XMP/nguồn27tệp giữ, ngoài vùng rỗng. Đã lưuPDF/nhật ký/ảnh/báo cáo. Bổ sung8kw chưa sửa: thiếuW cùng kiểu sau khi tìm3trang, CHƯA THỂ, không tính đạt. |
+| 2026-10-03 04:19 | G04 | CHƯA XONG | 14/14 việc chữ/số ĐẠT; 2đường bổ sung chưa đạt. Dừng hai phương pháp ảnh sau2mẫu/phương pháp, giữ nguyên đường bản giao; BAO CAO G04 BO SUNG DOI NET.md. |
+| 2026-10-03 04:27 | G15 | CHƯA XONG | 7/8 ĐẠT; 39 vị trí chữ đã sửa, bản cuối đọc lại+soi; #118 CHƯA ĐẠT: 2 neo p3 lệch +1.1565/+1.6692m, chưa thể dựng lại thiếu chuỗi Q-H; p4/p5 chưa thể khóa nhãn–model, không thêm đường p5. Nguồn giữ SHA; ngoài vùng 200dpi rỗng. |
+| 2026-10-03 04:38 | G05 – kiểm toán độc lập | CHƯA XONG | Đã đọc đủ15 biểu đồ/220 đường/2218 mốc; số1109 đạt,83 lệch chắc,1026chưa thể (90chưa tách nét);83 lệch thuộc29đường. Hồ sơ G05/KIEM TOAN TOAN BO/NGHIEM THU QH.json. Chưa sửa PDF trong lượt đo; tiếp theo tạo mẫu và sửa đường. |
+| 2026-10-03 05:02 | G16 | CHƯA XONG | Đã lưu an toàn 2 bản phần đã đạt; 212/212 đường nét vẽ, 1706 mốc bảng đã đọc từ PDF sửa đều ĐẠT; trang12 giữ nguyên gốc sau 2 mẫu ảnh chưa đạt. #101 còn8 nhãn thiếu F đúng phông mỗi tệp. Tiếp theo đổi phương pháp dựng toàn vùng CDLF42; không tính phần chưa nghiệm thu là ĐẠT. |
+| 2026-10-03 05:23 | G06 | CHƯA XONG | 1/3 ĐẠT; bổ sung #53 đã thử hai cách mới, mỗi cách hai mẫu; mẫu cuối còn mực C ở cột ảnh gốc 1297 nên không dùng; giữ PDF final-state-v2; #52 thiếu k đúng kiểu; BAO CAO BO SUNG G06.md/json |
+| 2026-10-03 05:29 | G14 | CHƯA XONG 7/8 | ROOT đọc lại4kW đúng hoa, số của34dòng dồn mỗiPDF trùng từng pixel nguồn đến cột cuối, nguồn/ảnh+transform/mặt nạ/metadata/ngoài vùng150dpi đạt. 4(kw)nghiêng thiếu W giữ CHƯA THỂ. |
+| 2026-10-03 05:31 | G11 | ĐẠT 11/11 CAN SUA | ROOT đọc actual final 26/26 vị trí, ngoài vùng200dpi/ngưỡng0 rỗng, nét vẽ/nativeglyph/ảnh/phông/info/giá trịXMP/liên kết/khổ trang bảo toàn. rawXMP khác cách biểu diễn dấu nháy như đã ghi; giá trị không đổi. Biểu đồ bổ sung còn mâu thuẫn nguồn theo báo cáo, không nâng thành ĐẠT. |
+| 2026-10-03 05:40 | G03 | CHƯA XONG 14/15 | ROOT nguồn/final69paths và414số bảng actual đọc đúng;5head đã sửa cònmọisốkhác giữ,414mốc actualpaths ĐẠT max0.00002950522m; nét/style/miềntính/ngoàivùng bảo toàn. #34 thiếu kbold giữCHƯA THỂ; xem NGHIEM THU DOC LAP ROOT.json. |
+| 2026-10-03 05:40 | G09 | ĐẠT 6/6 CAN SUA | ROOT124paths/372neo từcácbảngQHactualp3/4/7cả2PDF ĐẠT, kết nối actualtraces/đầucuối/lw/dash/numericnhãn giữ. Hcuốivàfullseries khôngbảng vẫn CHƯA THỂ; xem NGHIEM THU DOC LAP ROOT.json. |
+| 2026-10-03 05:40 | G15 | CHƯA XONG 7/8 | ROOT #159 trắngđúng 300/450/500/600dpi,200dpi 1px254/255khôngmực; ảnh/font/meta/nétđỏpixelgiữ, ngoàiunionhộpcũ-mới200dpi/ngưỡng0rỗng. #118 haiđiểm rated FAIL và thiếufullQH giữCHƯA THỂ; xem NGHIEM THU DOC LAP ROOT.json. |
+| 2026-10-03 05:49 | G05 | CHƯA XONG | 6/6 CAN SUA chữ/số đãĐẠT; giao bản bổsung26đuôi52mốcĐẠT+modelrow20→28, ROOTkiểmđộclập. Toàn220đường/2218mốc:1113ĐẠT/31CHƯAĐẠT/1074CHƯATHỂ;sourceSHAkhôngđổi;rawXMP/ảnh/font/12trang/ngoàivùnggiữ. XemG05/GIAO BAN SAU SUA DUONG/NGHIEM THU PDF GIAO.json vàkiểmtoánPDFmẫu. |
+| 2026-10-03 05:54 | G17 | XONG 3/3 GỐC; BỔ SUNG CHƯA XONG | Điều tra W cùng kiểu: quét 3 trang, 18.490 nét tô +49 nét viền; không phông nhúng/chữ ẩn. Đích19 chỉ nối chính19; Wt chỉ t/W riêng lẻ không đủ >=2 ký tự. 8kw bổ sung CHƯA THỂ XÁC MINH, 0/8 đạt, PDF nguồn/cuối giữ SHA256. Hồ sơ G17/BAO CAO DIEU TRA W.md/json và 4 ảnh; không sửa PDF. |
+| 2026-10-03 05:56 | G16 | CHƯA XONG | Mẫu cuối MAU CUOI DOI CHIEU: 9/10 việcĐẠT, #101 đãDNhoa nhưng8nhãn xoay/tệp chưa tìmF đúngkiểu. 262đường/2106mốc bảngđãkiểm (CDLF42 mới50/50 đường,400/400mốc). Chữ/số đọc26ảnh+2ảnh dấu cách; bìađúng, ngoài vùng/ảnh/mặt nạ/metadatađạt. Bản giao S.dst vẫn giữ p12gốc chờ ROOT kiểm mẫu trước cậpnhật; không coi bản giao hiện tại đã xong toàn bộ đường. |
+| 2026-10-03 05:57 | G05 | CHƯA XONG | Đã đọc chính PDF giao26 nét/52mốc mới ĐẠT, lệch lớn nhất0,00000613m. 6/6 CAN SUA chữ/số giữ ĐẠT; toàn220đường/2218mốc:1113ĐẠT/31CHƯA ĐẠT/1074CHƯA THỂ. Nguồn không đổi; bản trước lưu theoSHA. Báo cáo chính: BAO CAO BO SUNG G05 - DA NGHIEM THU.md; chi tiết G05/GIAO BAN SAU SUA DUONG. Giới hạn độdàyJPEG150dpi và danh tính4SP14/15,6SP30-8/9 ghi đầyđủ. |
+| 2026-10-03 05:58 | G17 | XONG 3/3 GỐC; BỔ SUNG CHƯA XONG | Hồ sơ điều tra W V2: 8kw bổ sung CHƯA THỂ XÁC MINH, 0/8 đạt; quét 18.490 nét tô +49 nét viền; hai vòng tròn chú thích và một chấm cực nhỏ đã định vị/soi, không phải W. Nguồn/cuối giữ SHA256, không ghi PDF. Dùng G17/BAO CAO DIEU TRA W V2.md/json và năm ảnh; bản báo cáo điều tra cũ được thay bằng V2. |
+| 2026-10-03 06:17 | G04 | CHƯA XONG | 14/14 CAN_SUA ĐẠT và bổ sung2đường4SA16/23,/18 đạt16/16mốc; ROOT đọc actualPDF,9234pixelchữ không đổi, ngoài vùng/metadata/đầu-cuối đạt; bản cuối cập nhật qua catfix. Còn các đường khác chưa đo hết; báo cáo BAO CAO G04 BO SUNG NET PDF.md. |
+| 2026-10-03 06:17 | G16 | CHƯA XONG | ROOT đọc lại400 ô nguồn phát hiện CDLF42-2-2/Q40=33 trong cả2tệp, mẫu trước nhập nhầm34. Đã giữ mẫu cũ, lưu mẫu mới MAU CUOI SUA NEO33 sửa đúng1neo/tệp, chưa chốt bản giao. Chờ kiểm lại50đường/400mốc và ROOT chốt; #101 còn8nhãn thiếuF cùng kiểu/tệp. |
+| 2026-10-03 06:18 | G05 | CHƯA XONG – MẪU | Mẫu2điểm cuối10SP135-5/-7 tạiQ180 đã đọc actualpath66/93 đạt, nhưng S.dst vẫnSHA bc015… chờ ROOTkiểm độc lập. Full2218trongmẫu1115ĐẠT/29CHƯA ĐẠT/1074CHƯA THỂ;132mốc SP135đọc mới,10nétkhác/toàn bảng/ảnh/phông/ngoài vùng giữ. G05/10SP135 HAI MOC CUOI/MAU 1/BAO CAO MAU HAI DIEM CUOI.md |
+| 2026-10-03 06:20 | G16 | CHƯA XONG | Mẫu mới MAU CUOI SUA NEO33 sửa đúng CDLF42-2-2/Q40=33 từ 400 ô nguồn ROOT đọc độc lập; nghiệm thu 50 đường/400 mốc ĐẠT, ngoài vùng200 điểm ảnh/inch/ngưỡng0 rỗng. 9/10 việc ĐẠT, #101 đã DN hoa nhưng 8 nhãn xoay/tệp chưa tìm F đúng kiểu. 262 đường/2106 mốc bảng đã kiểm. Chữ/số đọc26ảnh+2ảnh dấu cách; bìa đúng, ảnh/mặt nạ/nội dung XMP đạt. Bản giao S.dst vẫn giữ p12 gốc chờ ROOT kiểm mẫu trước cập nhật; không coi bản giao hiện tại đã xong toàn bộ đường. |
+| 2026-10-03 06:28 | G16 | CHƯA XONG | Đã lưu 2 bản giao cuối sau ROOT kiểm mẫu; 9/10 mã ĐẠT, #101 còn 8 nhãn xoay/tệp chưa có F đúng phông. 262/262 đường thuộc bảng, 2106/2106 mốc QH ĐẠT; 158 đường vẽ lại, 104 đường đúng giữ. Đã sửa neo CDLF42-2-2/Q40=33 từ 400 ô nguồn đọc độc lập, giữ mẫu cũ làm chứng. Đọc chữ/số/phông/bìa, ngoài vùng 200 điểm ảnh/inch/ngưỡng0, ảnh/mặt nạ/nội dung XMP/liên kết/khổ đạt; nguồn giữ mã kiểm. BAO CAO G16.md + So sanh G16.png; chưa tính phần thiếu dữ liệu là ĐẠT. |
+| 2026-10-03 06:35 | G18 | CHƯA XONG | Lần mới chỉ #123: Excel2013 PID24504/window788580 vẫn hộp chưa kích hoạt, nút Đóng được chọn, bảng vô hiệu. Một thử mới bằng Enter trên nút Đóng báo không thể kích hoạt cửa sổ; đọc lại chưa đổi, đã dừng. Chưa mở bản in thật/không có ảnh bản in, giữ 11/12 ĐẠT; nguồn/đích DWO nguyên SHA256. G18/KIEM BAN IN THUC TE LAN MOI/KET QUA.json + BAO CAO KIEM BAN IN.md; không ghi/in/xuất/cài/đụng cửa sổ khác. |
+| 2026-10-03 06:36 | G05 | CHƯA XONG – MẪU | Mẫu2điểm cuối10SP135-5/-7 tạiQ180 đã đọc actualpath66/93 đạt, nhưng S.dst vẫnSHA bc015… chờ ROOTkiểm độc lập. Full2218trongmẫu1115ĐẠT/29CHƯA ĐẠT/1074CHƯA THỂ;132mốc SP135đọc mới,10nétkhác/toàn bảng/ảnh/phông/ngoài vùng giữ. G05/10SP135 HAI MOC CUOI/MAU 1/BAO CAO MAU HAI DIEM CUOI.md |
+| 2026-10-03 06:37 | G05 | CHƯA XONG – MẪU 2 | Mẫu1 bị từ chối độ dày; mẫu2 dùng lượng mực vuông góc nguồn0,820389/0,786665pt, actualarea mean+0,8%/+2,5%, số66/93 vàbảo toàn đạt. S.dst vẫnSHA bc015… chờROOT. Fullmẫu1115/29/1074; hồsơG05/10SP135 HAI MOC CUOI/MAU 2/BAO CAO MAU HAI DIEM CUOI.md |
+| 2026-10-03 06:41 | G15 | CHƯA XONG | Giữ7/8 gốc ĐẠT, #118 CHƯA ĐẠT. Cách chép cột ảnh sửa2neo đã dừng sau2mẫu CHƯA ĐẠT: mẫu1 chạm chữ; mẫu2 neo đúng nhưng nét dày/gai/ngắt, chưapromote. Source/finalgiữSHA. G15/two-anchors-raster-method-close.md/json. Xem phương pháp khác đườngPDF thật theo ROOT, không font/filekhác. |
+| 2026-10-03 06:45 | G06 | CHƯA XONG | ROOT chốt#53 GIỮ NGUYÊN theo nguyênvăn điều kiện khôngđẹp thìgiữ, p4content/pixel400dpi giốngnguồn; cácmẫuchỉnh vẫnFAIL khôngdùng. #51sửaĐẠT; #52thiếuk đúngkiểu CHƯATHỂ. Tổng1sửaĐẠT+1giữnguồn theođiềukiện+1CHƯATHỂ; báo cáo BAO CAO G06 QUYET DINH GIU NGUON.md. |
+| 2026-10-03 06:46 | G05 | CHƯA XONG | Hai điểmQ180 của10SP135-5/-7 đã ROOTduyệt vàgiao,actual66/93 đạt;10nét khác/bảng/chữ/ảnh/phông/ngoài vùng giữ. Toàn220đường/2218mốc1115ĐẠT/29CHƯA ĐẠT/1074CHƯA THỂ;6/6chữ/số+28đuôi54mốcmớiĐẠT. Báo cáo BAO CAO BO SUNG G05 - HAI DIEM CUOI 10SP135.md; nguồn không đổi;phiênbc015…lưuSHA. |
+| 2026-10-03 07:04 | G15 | CHƯA XONG | Bản cuối giữ7/8 việc gốc ĐẠT; #118 CHƯA ĐẠT,2neo p3 đã đo sai. Đã xác minh danh tính bằng nhãn nguồn. Cách chép cột ảnh dừng2mẫu; cách đườngPDF thật+dọnpixelmực cũ cũng dừng2mẫu CHƯA ĐẠT: mẫu1 nét tối/đậm, mẫu2 còn chấm mực cũ khi bảo vệxám. Hai neo mẫu đo đúng, chữ/2đường khác/ảnhbytes/thôngtin giữ nhưng khôngpromote. G15/two-anchors-truepdf-method-close.md/json và old-ink-proof.png. Nguồn/bản cuối giữSHA; không sửa tiếp. |
+| 2026-10-03 07:11 | G05 | CHƯA XONG – KHẢO SÁT 29 MỐC SP30 | Bản giao7335… giữ nguyên; đọc13model/29mốc lệch chắc và8QH mỗi hàng,1748? tiết diện nguồn trong hồ sơ tính tự động. Chưa vẽ/chưa ghiPDF; phương án G05/6SP30 HAI MUOI CHIN MOC/DOC NGUON V2/PHUONG AN TRUOC KHI VE.md chờ ROOT; -9/-8 và4SP14/15 giữ chưa thể. Tổng2218vẫn1115/29/1074. |
+| 2026-10-03 07:12 | G05 | ĐÍNH CHÍNH KHẢO SÁT 29 MỐC SP30 | Tổng tiết diện nguồn thật là 1648, lấy tự động từ13hồsơ DO MUC JPEG NGUON 13 MAY.json; dòng1748? trước là lỗi diễn đạt, không dùng. Chưa vẽ/PDF nguồn và bản giao7335… không đổi. Tổng2218vẫn1115/29/1074. |
+| 2026-10-03 07:19 | G04 | CHƯA XONG | 14/14 CAN_SUA ĐẠT; hai đường Redpump4SL16/23,/18 đã lưu mẫu2 được ROOT chốt, đủ16/16mốc và chữ/ảnh/metadata/vùng ngoài đạt. Cộng hai tệp4đường/32mốc ĐẠT, chưa tính toàn bộ đường G04. Báo cáo BAO CAO G04 BO SUNG REDPUMP NET PDF.md; tiếp tục đọc riêng Redpump các đường còn lại, chưa ghi PDF. |
+| 2026-10-03 07:24 | G18 | CHƯA XONG | ROOT thử đưa riêng hộp Office lên bằng sky sau khi anh cấp quyền điều khiển, công cụ vẫn không kích hoạt được cửa sổ. Đọc lại hộp vẫn còn; nguồn/đích nguyên SHA. Quyền đã đủ, #123 bản in chưa xác minh; chờ hộp được đóng trực tiếp, không cài/đổi giấy phép hay ghi Excel. |
+| 2026-10-03 07:25 | G06 | CHƯA XONG | Bổ sung7đường: 36/37mốcQH ĐẠT, 1mốcQ0 củaFS-50-7-3.0 bịnétxanhche CHƯA THỂ, khôngngoạisuy. ROOTđọc37ô/tên/chúgiải vànguồn300dpi, loại3nhiễumàubằngnétliênthông. Không sửaPDF; nguồn/bản giao nguyênSHA. #52vẫnthiếuk, #53giữnguồn theođiềukiện. BAO CAO G06 BO SUNG DUONG DOC LAP ROOT.md. |
+| 2026-10-03 07:58 | G05 | CHƯA XONG | 29 mốc trái SP30 / 13 mã máy: hai ảnh mẫu chưa đạt, đã dừng phương pháp xóa mực ảnh + giữ RGB chữ + đường trơn. Mẫu 1 mất phần nhãn -15/nối gập; mẫu 2 nền có sọc mờ và viền -24/-30 chưa thể nghiệm thu. Không ghi PDF mẫu 2, không đổi bản giao SHA256 7335c3a4… hoặc nguồn. Toàn 220 đường / 2218 mốc vẫn 1115 ĐẠT / 29 CHƯA ĐẠT / 1074 CHƯA THỂ; 6/6 chữ/số gốc + 28 đuôi/54 mốc mới đã đạt giữ nguyên. Báo cáo: BAO CAO BO SUNG G05 - 29 MOC TRAI SP30 CHUA DAT.md; hồ sơ MAU 2/NGHIEM THU PNG MAU 2 - CHUA DAT.json. Không thử lần ba cùng phương pháp. |
+| 2026-10-03 08:04 | G08 | CHƯA XONG PHẦN BỔ SUNG | 12/12 CAN SUA giữ ĐẠT. ROOT kiểm riêng Aquaris38đường/372mốc:319ĐẠT/7CHƯAĐẠT/46CHƯATHỂ;7mốc trên6đường giao lập phươngán, chưa ghiPDF. Trục trunggian khôngđều cóghi giớihạn; khôngtựsuy ôtrống. BAO CAO G08 BO SUNG AQUARIS DOC LAP ROOT.md vàV2 JSON/CSV. |
+| 2026-10-03 09:35 | G08 | CHƯA XONG PHẦN BỔ SUNG | ROOT đã đọc bản giao Aquaris WC f850…: sáu đường/46 mốc ĐẠT; 32 đường còn lại và chữ/bảng/phông/ảnh/vùng ngoài giữ. Toàn 372 mốc: 358 ĐẠT/14 CHƯA THỂ theo vạch thật; giữ bản đo hai cách cũ làm chẩn đoán. Theo yêu cầu mới, kiểm đồ hoạ đủ 38 đường/8 trang và hai đuôi cần sửa; Perotac/Redpump WC đang kiểm riêng. Hồ sơ ROOT/09 và phân công đồ hoạ V2. |
+| 2026-10-03 09:35 | G04 | CHƯA XONG PHẦN BỔ SUNG | 14/14 việc gốc và 4 đường/32 mốc đã nghiệm thu giữ hồ sơ. Theo yêu cầu mới, dừng chốt các mẫu vá 5 đuôi Perotac và /25 Redpump; lập phương án dựng toàn biểu đồ trang 8, mỗi tệp 13 QH/104 số + η riêng, rồi toàn 17 biểu đồ. Đồ hoạ độc lập kiểm trước mẫu; nguồn/bản giao hiện hành giữ nguyên. Độ đúng số η thiếu bảng vẫn CHƯA THỂ. |
+| 2026-10-03 09:35 | DO HOA | ĐANG LÀM | Thêm tác nhân đồ hoạ độc lập 01a0ff98…; sáu tác nhân chuyên môn + ROOT điều phối đang chia việc theo catalogue. Chỉ catfix ghi catalogue, số lấy đúng nguồn riêng; phải đạt cả số và hình thức, không trộn nét mờ/đậm. Xem DIEU PHOI DO HOA 03-10-2026/PHAN CONG VA TIEU CHI V2. |
+| 2026-10-03 09:42 | G08 | CHƯA XONG – ĐÍNH CHÍNH VẠCH PHỤ | ROOT đọc đủ vạch phụ thật: Aquaris bản f850 có356 ĐẠT/16 CHƯA THỂ/0mốc đo vượt ngưỡng; riêng6đường45/46ĐẠT, Q70/H1 đường80WC50-15-4 hụt0,555511pt nênCHƯATHỂ. Báo cáo46/46/358trước chỉ theo vạch lớn, giữ lịch sử, không dùng tổng cuối. HaiQ55 thêmCHƯATHỂ;Q35/50WC9 cógiao. Perotac vàRedpump WC mỗi tệp346/7/19, ROOT đọc riêng xác nhận. Đang lập sửa đúngvạch và kiểm đồhoạ; nguồn/bảng/bản giao giữ nguyên. Hồ sơ ROOT BA WC VACH CHIA PHU THUC. |
+| 2026-10-03 09:51 | DO HOA | ĐANG LÀM | Đã có quy chuẩn và ảnh độc lập: hai bản giếngp8/mẫuváCHƯAĐẠT hìnhthức, cần dựngtoàn13QH+η vàđồngbộchữ/lưới. Thêm tác nhân riêngPerotacSP01a0ffa9… vàCDX01a0ffaa… nghiêncứu dựngtoànbằngphươngpháp mới; chưaPDFmẫu. Tám tácnhân chuyênmôn+ROOT điềuphối; nguồn/bảngiao giữ. HồsơDO HOA DOC LAP PHIEN SOM vàPHAN CONG V3 TAM TAC NHAN. |
+| 2026-10-03 10:33 | G08 | ĐANG LÀM – DỰNG TRƠN TOÀN ĐƯỜNG VÀ ĐỒNG BỘ ẢNH | Phạm vi mới anh cho phép: WC giữQmax/Hmax/điểm làm việc, Htrung gian đọc theo đường trơn và làm tròn nguyên; Perotac đổi ảnh cả8trang,3nhóm đồng bộ. ROOT đã kiểm độc lập phương án Aquaris38đường/114khóa/372số,154giá trị/174ô đổi hợp phạm vi, chưaPDFmẫu mới. Cho mẫu toànp4; Perotac/Redpump đang lập phương án từ riêng nguồn. 3ảnhPerotac mẫu1đã lưu, chờ kiểm chi tiết sản phẩm trước tích hợp. Trạng thái bản giao cũ theo vạch thật: Aquaris356/16; Perotac/Redpump346/7/19 mỗifile, giữ lịch sử đính chính. Chưa tính hoàn thành phạm vi mới. |
+| 2026-10-03 10:51 | G10 | CHƯA XONG – LỖI ĐỒ HỌA PHÁT HIỆN MỚI | Danh sách6việc/số cũ giữ hồ sơ, nhưng đồ họa độc lập xác nhận chữ in chồng mới p22–25 ởtiêu đề/Hz/kW. Đã phân tác nhân riêng GB sửa lớp chồng, giữ GBSeries/Hz/kW đã sửa,48đường hai cấp/source/bảng vàcác phần đã đạt. Không suy số hai cấp từbảng một cấp;48đường vẫnCHƯA THỂvềsố. Chưa mẫu hoặc bản giao mới, e5925… giữ. Chỉ tính hoànthành lại sau ROOT vàđồhọa đọcPDF thực. |
+| 2026-10-03 10:51 | DOHOA | ĐANG LÀM – 9 TÁC NHÂN VÀ ROOT | Đã lưu rà23PDF/210trang, lỗi đồng bộ SA/SLp8,SPp5/7/11,GB chữp22–25;CDXp3chờdựng. Mẫu1 toàn6đường WCp4 SHAa6a16… ROOT42/42mốc/18khóa/17ô số/ngoài vùng200dpi0ĐẠT, chờđồhọa. WCHtrung gian đượcphépđổi,3khóagiữ. Perotac3ảnhđồngbộ8trangmẫu1 đangkiểmthiếtbị.9chuyêntrách+ROOT,mỗifile1ngườighi;nguyênnguồn vàbảngnhómkhác. V4/DOHOA DOC LAP RA23FILE ghi rõphạmvi vàgiớihạn; không nâng hìnhthức từsố. |
+| 2026-10-03 11:48 | G08 | ĐANG LÀM – AQUARIS WC ĐỦ8TRANG ĐÃ NGHIỆM THU VÀ LƯU | Aquaris WC đã lưu bản ed6e0a3b…aa5ce: 38/38 đường, 372/372 mốc, 114/114 khóa, 174/174 ô H/font/baseline/ngoài vùng/metadata ĐẠT; đồ họa độc lập đủ8trang ĐẠT. Nguồn b44e giữ, bản f850 sao lưu trong AQUARIS WC TOAN8TRANG DA NGHIEM THU VA LUU BAN TRUOC. Perotac/Redpump đã tạo full8trang đang nghiệm thu; ảnh Perotac cả8trang chưa áp, ưu tiên giữ pixel sản phẩm nguồn và đổi nền. Chỉ ROOT chốt/ghi tiến độ; G08 chưa hoàn tất toàn nhóm. |
+| 2026-10-03 12:12 | G08 | ĐANG LÀM – CẢ BA WC ĐỦ8TRANG ĐÃ NGHIỆM THU VÀ LƯU | Aquaris ed6e…, Redpump fa4714…, Perotac5418… đã lưu đúng bản catfix đạt; mỗi tệp 38/38 đường,372/372 mốc,114/114 khóa,174/174 ô H/phông/tâm/baseline/vùng ngoài/metadata ĐẠT; kiểm đồ họa độc lập đủ8trang ĐẠT. Nguồn giữ, bản cũ sao lưu riêng. Ảnh Perotac trên cả8trang đang dựng từ JPEG sản phẩm gốc + đường cắt nguồn + nền mới;3 alpha AI đã loại do lệch cấu tạo. G08 chưa hoàn tất phần ảnh. |
+
+== Môi trường
+Python 3.12.14 · Windows-10-10.0.19045-SP0
+  [CÓ ]  numpy        2.3.5      tính toán
+  [CÓ ]  Pillow       12.3.0     xử lý ảnh
+  [CÓ ]  pikepdf      10.16.0    đọc/ghi PDF (ưu tiên)
+  [CÓ ]  PyMuPDF      1.28.2     đọc/ghi + vẽ trang PDF (dự phòng; tên cũ "fitz")
+  [CÓ ]  scipy        1.18.1     tách chữ trên ảnh, đường cong
+  [CÓ ]  opencv-python 5.0.0      xoá nền ảnh đẹp hơn (inpaint)
+  [CÓ ]  fonttools    4.66.1     kiểm tra font có chữ hay không (chữ thật)
+  [CÓ ]  pytesseract  0.3.13     gọi OCR
+  [CÓ ]  openpyxl     3.1.5      không bắt buộc (catfix sửa Excel trực tiếp XML)
+  [CÓ ] tesseract    OCR đọc chữ (bắt buộc cho file nét vẽ/ảnh)   (C:\Users\H2\AppData\Local\Programs\Tesseract-OCR\tesseract.exe)
+  [CÓ ] pdftoppm     vẽ trang (dự phòng nếu thiếu PyMuPDF)
+  [THIẾU] qpdf         kiểm tra cấu trúc PDF (không bắt buộc)
+KẾT LUẬN:
+  Mở/ghi PDF                         ĐƯỢC
+  Vẽ trang để so sánh                ĐƯỢC
+  OCR (chữ nét vẽ, chữ trên ảnh)     ĐƯỢC
+  Tách chữ trên ảnh                  ĐƯỢC
+  [ĐẠT] Môi trường: Mở/ghi PDF 
+  [ĐẠT] Môi trường: Vẽ trang để so sánh 
+  [ĐẠT] Môi trường: OCR (chữ nét vẽ, chữ trên ảnh) 
+  [ĐẠT] Môi trường: Tách chữ trên ảnh 
+   (1.0s)
+== Bộ đọc luồng PDF
+  [ĐẠT] Đọc/ghi lại luồng nội dung không mất byte: fx_cover_cdlf_aquaris_p1.pdf (31012 lệnh, 0.31s)
+  [ĐẠT] Đọc/ghi lại luồng nội dung không mất byte: fx_raster_perotac_sp_p9.pdf (22 lệnh, 0.00s)
+  [ĐẠT] Đọc/ghi lại luồng nội dung không mất byte: fx_text_wc_p1.pdf (850 lệnh, 0.01s)
+  [ĐẠT] Đọc/ghi lại luồng nội dung không mất byte: fx_vector_aquaris_sp_p9_goc.pdf (18480 lệnh, 0.17s)
+   (0.5s)
+== Chữ nét vẽ (Aquaris SP)
+  [ĐẠT] Chữ nét vẽ: tìm thấy đúng 1 chỗ "818" [Match('818' page=1 bbox=(515.5,509.3,528.7,515.1) objs=[155])]
+  [ĐẠT] Chữ nét vẽ: đọc lại thấy "815", hết "818" 
+  [ĐẠT] Chữ nét vẽ: vị trí chữ mới trùng bản đã kiểm duyệt (sai lệch <= 0.01pt) sai lệch 0.0027 pt
+  [ĐẠT] Chữ nét vẽ: chỉ ô sửa thay đổi điểm ảnh vùng đổi={1: [(np.float64(524.6), np.float64(509.3), np.float64(529.0), np.float64(515.6))]} ngoài vùng={}
+   (2.3s)
+== Chữ thật (WC)
+  [ĐẠT] Chữ thật: tìm thấy "irrugation" và "(KW)" 
+  [ĐẠT] Chữ thật: đọc lại lớp chữ đúng ({'found': True, 'absent_ok': True, 'ok': True}, {'found': True, 'absent_ok': True, 'ok': True})
+  [ĐẠT] Chữ thật: chỉ chỗ sửa thay đổi vùng đổi={1: [(np.float64(124.3), np.float64(345.1), np.float64(163.7), np.float64(357.1)), (np.float64(806.4), np.float64(178.1), np.float64(826.6), np.float64(186.7))]} ngoài={}
+   (0.5s)
+== Ảnh quét (Perotac SP)
+  [ĐẠT] Ảnh: chọn đúng ảnh đang hiển thị (không chọn lớp ảnh chỉ hiện trong nét chữ) PageImage(X11 1732x1240 page=(0.0,0.0,831.6,595.0) ~150dpi #4)
+  [ĐẠT] Ảnh: OCR tìm thấy "1750" [(1330, np.int64(1039), 1357, np.int64(1051))]
+  [ĐẠT] Ảnh: học được mẫu chữ số 1, 5, 7 
+  [ĐẠT] Ảnh: OCR đọc lại "175" '175'
+  [ĐẠT] Ảnh: thay đổi rõ rệt (>48 mức, >2pt) chỉ nằm ở ô sửa vùng={1: [(np.float64(639.4), np.float64(91.0), np.float64(650.9), np.float64(95.3))]} ngoài={}
+  [ĐẠT] Ảnh: ghi lại ảnh không sửa gì -> sai khác trung bình < 1 mức màu {'kind': 'image', 'image': 'X11', 'max_diff': 0, 'mean_diff': 0.0, 'p99': 0.0, 'rect': (np.float64(384.1), np.float64(264.9), np.float64(453.2), np.float64(334.0))}
+   (4.1s)
+== Biểu đồ
+  [ĐẠT] Biểu đồ: đường cong mượt đi sát điểm bảng (đơn giản) lệch tối đa 0.272
+  [ĐẠT] Biểu đồ: hiệu chỉnh trục tuyến tính (0.000914285714259222, 0.5721240000000023)
+  [ĐẠT] Biểu đồ: tìm đủ 8 đường cong [308, 309, 310, 311, 312, 313, 314, 315]
+  [ĐẠT] Biểu đồ: đường vẽ lại khớp bảng trong dung sai [(0, 170, 170.34), (5, 157, 155.56), (10, 133, 135.45), (14, 110, 108.42), (16, 90, 89.31), (18, 65, 65.76)] {'method': 'poly3', 'max_dev': 2.488, 'tol': 3.4}
+  [ĐẠT] Biểu đồ: giữ nguyên màu và độ dày nét 
+   (1.4s)
+== Ảnh bìa (CDLF)
+  [ĐẠT] Ảnh bìa: xoá bơm đế gang (R25 không còn) ['R13', 'R16', 'R18', 'R20', 'R22', 'R16', 'R26']
+  [ĐẠT] Ảnh bìa: bản sao bơm đặt đúng ô (sai lệch < 0.01pt) [(np.float64(238.30848), np.float64(212.0904), np.float64(376.36512), np.float64(520.6199999999999)), (np.float64(80.874565187544), np.float64(163.45199999999997), np.float64(189.607834812456), np.float64(406.4496))]
+  [ĐẠT] Ảnh bìa: chỉ vùng ảnh bìa thay đổi (chữ trên bìa giữ nguyên vị trí) {}
+   (1.2s)
+== Excel (DWO)
+  [ĐẠT] Excel: chỉ đúng các ô cần sửa thay đổi ['C15', 'C21', 'C22', 'D16', 'D17', 'D18', 'D20', 'D21', 'D22']
+  [ĐẠT] Excel: ảnh/định dạng/in ấn không bị đụng tới ['xl/calcChain.xml', 'xl/sharedStrings.xml', 'xl/worksheets/sheet2.xml']
+  [ĐẠT] Excel: mở lại bằng openpyxl được, giá trị đúng 
+   (0.1s)
+== Cấu trúc file
+  [ĐẠT] Cấu trúc file sau sửa hợp lệ: vec_815.pdf [] 245417->245270 bytes
+  [ĐẠT] Cấu trúc file sau sửa hợp lệ: text.pdf [] 185640->185659 bytes
+  [ĐẠT] Cấu trúc file sau sửa hợp lệ: raster.pdf [] 174727->172313 bytes
+  [ĐẠT] Cấu trúc file sau sửa hợp lệ: cover.pdf [] 760836->760890 bytes
+   (0.1s)
+== Đường dẫn (máy anh / máy chủ)
+  [ĐẠT] Đường dẫn máy anh: tìm đúng file vào, file ra cùng tên khác thư mục, đổi tên #129 Session – MÁY ANH TRUNG (code chạy thẳng trên máy anh, đọc/ghi file trong thư mục của anh)
+  file vào : D:\TempSystem\catfix_ses_aoh53f9l\Catalog Sua\BẢN MỚI 01-10-2026
+  file ra  : D:\TempSystem\catfix_ses_aoh53f9l\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)
+  báo cáo  : D:\TempSystem\catfix_ses_aoh53f9l\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO
+  [ĐẠT] Đường dẫn máy anh: sửa + lưu + kiểm qua S.job (nhật ký vào _BAO CAO) {}{}
+  [ĐẠT] Đường dẫn máy anh: G02 lấy đúng file đã sửa của G01, ghi ra thư mục riêng, nhật ký riêng D:\TempSystem\catfix_ses_aoh53f9l\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\Nước thải\G02 (gồm cả G01)\Catalog cắt rác Aquaris WC (bản mới).pdf
+  [ĐẠT] Đường dẫn máy anh: ghi tiến độ được, không cho ghi đè file vào 
+  [ĐẠT] Đường dẫn máy chủ ChatGPT: file tải lên trong /mnt/data, ra /mnt/data/out Session – MÁY CHỦ CHATGPT (file anh tải lên trong D:\TempSystem\catfix_ses_aoh53f9l\data)
+  file vào : D:\TempSystem\catfix_ses_aoh53f9l\data
+  file ra  : D:\TempSystem\catfix_ses_aoh53f9l\data\out
+  báo cáo  : D:\TempSystem\catfix_ses_aoh53f9l\data\out\_BAO CAO
+   (0.4s)
+== Windows
+  [ĐẠT] Windows: in tiếng Việt khi đầu ra dùng bảng mã cp1252 không lỗi 
+  [ĐẠT] Windows: tìm được tesseract khi không có trong PATH (biến CATFIX_TESSERACT / chỗ cài mặc định) và OCR chạy C:\Users\H2\AppData\Local\Programs\Tesseract-OCR\tesseract.exe True 775
+
+
+   (2.8s)
+
+TỔNG KẾT: 43/43 ĐẠT  (14s)  - file thử nghiệm ở D:\TempSystem\catfix_work\catfix_cache\test_out
+ 

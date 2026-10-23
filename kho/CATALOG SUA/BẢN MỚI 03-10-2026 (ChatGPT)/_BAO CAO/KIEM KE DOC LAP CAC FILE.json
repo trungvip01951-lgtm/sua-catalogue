@@ -1,0 +1,841 @@
+{
+  "source_count": 27,
+  "source_pass": 27,
+  "catalogue_count": 25,
+  "existing_outputs": 22,
+  "source_checks": [
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+      "expected": "d5244aa6c2e2772a636a2040fe6853fbcb53fdb417ff7e8ee316528339087c1f",
+      "actual": "d5244aa6c2e2772a636a2040fe6853fbcb53fdb417ff7e8ee316528339087c1f",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+      "expected": "c56abd03329bbe9469156196e2da7782d07a66f60b685c4c9f4b3d74b45ed785",
+      "actual": "c56abd03329bbe9469156196e2da7782d07a66f60b685c4c9f4b3d74b45ed785",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+      "expected": "3925ae2a4beaf22a6514837949e631b2777e83dcd87e4990d7fbd01f3c5d2bcd",
+      "actual": "3925ae2a4beaf22a6514837949e631b2777e83dcd87e4990d7fbd01f3c5d2bcd",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf",
+      "expected": "e1b94dc6f23c35d18d61cee71d9d88c844b1070d14ff662bbabe2256cdd690c9",
+      "actual": "e1b94dc6f23c35d18d61cee71d9d88c844b1070d14ff662bbabe2256cdd690c9",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Redpump gieng SL_compressed (bản mới).pdf",
+      "expected": "a01b7f84c0ebb4960a6b9601d98a04420c4c00f8bf1d48a23e1bde4e8b084038",
+      "actual": "a01b7f84c0ebb4960a6b9601d98a04420c4c00f8bf1d48a23e1bde4e8b084038",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\So sanh 1 - Aquaris SP so lieu.png",
+      "expected": "7f655610b6d1f7e693bb45f0bd0d72b9e275919d9b2aacf3c1e364fb15088c25",
+      "actual": "7f655610b6d1f7e693bb45f0bd0d72b9e275919d9b2aacf3c1e364fb15088c25",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\So sanh 2 - Aquaris SP trang gioi thieu va muc luc.png",
+      "expected": "0dc8e97d17eef7356640e02e014b5f121454b930d1857e850255a0ebaf2c18d1",
+      "actual": "0dc8e97d17eef7356640e02e014b5f121454b930d1857e850255a0ebaf2c18d1",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Aquaris FS_300dpi_75% (bản mới).pdf",
+      "expected": "a297ed5b1dec97c33b6d2327d25d30bd3f317690548b9d5895c59e1376a63b31",
+      "actual": "a297ed5b1dec97c33b6d2327d25d30bd3f317690548b9d5895c59e1376a63b31",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+      "expected": "4ae76b0cc2a5d1060763b332093ce952ac964902bd9aaa705f4a36b4ef9ce8fa",
+      "actual": "4ae76b0cc2a5d1060763b332093ce952ac964902bd9aaa705f4a36b4ef9ce8fa",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog cắt rác Aquaris WC (bản mới).pdf",
+      "expected": "b44ed64480e649bbcb2e50ddff8f591d85177c8fe88b07e93ebb154a0a5a3d40",
+      "actual": "b44ed64480e649bbcb2e50ddff8f591d85177c8fe88b07e93ebb154a0a5a3d40",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog cắt rác perotac (bản mới).pdf",
+      "expected": "622bcc5a8bb0562bea11474bda8801f30fe91839db3b84980dcb4ead056131d4",
+      "actual": "622bcc5a8bb0562bea11474bda8801f30fe91839db3b84980dcb4ead056131d4",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog cắt rác redpump (bản mới).pdf",
+      "expected": "21d3cd13c787fdf1e3133325aac1e87c87802e8a4dc0a9a509accb2c76390ad0",
+      "actual": "21d3cd13c787fdf1e3133325aac1e87c87802e8a4dc0a9a509accb2c76390ad0",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalogue perotac (bản mới).xlsx",
+      "expected": "526393f3bc8361fdfe7f4936cb8d0495b71e5337f88ae947613c88e0268ffe22",
+      "actual": "526393f3bc8361fdfe7f4936cb8d0495b71e5337f88ae947613c88e0268ffe22",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\KTZ - LH Perotac (bản mới).pdf",
+      "expected": "6419937911edac5440b83ee95b907a1c76ad8eb2c21ce6e3f38b40044a788eb9",
+      "actual": "6419937911edac5440b83ee95b907a1c76ad8eb2c21ce6e3f38b40044a788eb9",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\KTZ - LH Redpump (bản mới).pdf",
+      "expected": "396487b4b47f836601d97bfa708fb242007c462951f7a3109b24c6f446975858",
+      "actual": "396487b4b47f836601d97bfa708fb242007c462951f7a3109b24c6f446975858",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Thổi khí\\May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+      "expected": "6cd3434df5334b9bb57c366fc1ee4ed8f6559637ac08322375419d4469c4519d",
+      "actual": "6cd3434df5334b9bb57c366fc1ee4ed8f6559637ac08322375419d4469c4519d",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Thổi khí\\Perotac Root_300dpi_75% (bản mới).pdf",
+      "expected": "96d5a624e92accf52e18ca84cc9d66a482449cf3cdb41c947ba63a878ebd7e3d",
+      "actual": "96d5a624e92accf52e18ca84cc9d66a482449cf3cdb41c947ba63a878ebd7e3d",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\3M Aquaris (bản mới).pdf",
+      "expected": "bb909625d3b89e62e8dfad36e35ff6042ab247c4be91d35ca927c4d70ee77329",
+      "actual": "bb909625d3b89e62e8dfad36e35ff6042ab247c4be91d35ca927c4d70ee77329",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\3M Perotac (bản mới).pdf",
+      "expected": "9483051deb70cfb7267d98376adaf3841129c8def208591d89121c48318eb615",
+      "actual": "9483051deb70cfb7267d98376adaf3841129c8def208591d89121c48318eb615",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\Aquaris truc ngang CM (bản mới).pdf",
+      "expected": "1ab4ef2f230651eba98dd36018f04fcbc39f4ecb9cdb7e89a89a634f8b78c26a",
+      "actual": "1ab4ef2f230651eba98dd36018f04fcbc39f4ecb9cdb7e89a89a634f8b78c26a",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag perotac model CM (bản mới).pdf",
+      "expected": "466c54500ecbe7ba67e556ae92dce3a7c5e07776b03113c279f0468b60217a3d",
+      "actual": "466c54500ecbe7ba67e556ae92dce3a7c5e07776b03113c279f0468b60217a3d",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf",
+      "expected": "5c18b0cb942e8f243591aae00908998d35c773e70336811bc2283275aeda6fa7",
+      "actual": "5c18b0cb942e8f243591aae00908998d35c773e70336811bc2283275aeda6fa7",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\Catalogue DWO (bản mới).xlsx",
+      "expected": "bd2187c92e1522e4fcf449bd1ba1483cb2426f0c953a62968c02900d1226dd7b",
+      "actual": "bd2187c92e1522e4fcf449bd1ba1483cb2426f0c953a62968c02900d1226dd7b",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\CDX Perotac (bản mới).pdf",
+      "expected": "ef57c37be06a3f954baac6b7549d0dda8788bf089925b6b23e68d62ed23216da",
+      "actual": "ef57c37be06a3f954baac6b7549d0dda8788bf089925b6b23e68d62ed23216da",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục đứng\\Bơm trục đứng CDLF Aquaris (bản mới).pdf",
+      "expected": "4683a5bd0aa350d4ec823a147ca7839edf72f473b7b3721ca25cf3c25baf4f34",
+      "actual": "4683a5bd0aa350d4ec823a147ca7839edf72f473b7b3721ca25cf3c25baf4f34",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục đứng\\Bơm trục đứng Perotac CDLF (bản mới).pdf",
+      "expected": "49267867caf900038e302feb67224c90a4f06765a6eef93d16fb0c7b3801ab8e",
+      "actual": "49267867caf900038e302feb67224c90a4f06765a6eef93d16fb0c7b3801ab8e",
+      "unchanged": true
+    },
+    {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục đứng\\Inline IRG Perotac (bản mới).pdf",
+      "expected": "e9902d3bffdb563161443c255edfc122c46f9f855030b11f0ca28fd6e24228c0",
+      "actual": "e9902d3bffdb563161443c255edfc122c46f9f855030b11f0ca28fd6e24228c0",
+      "unchanged": true
+    }
+  ],
+  "outputs": [
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+      "exists": true,
+      "sha256": "fbc99ed3b402bb373832cd5153e35474a10f2c97c195be4b34f6320f20cf257e",
+      "bytes": 1869996,
+      "pages_source": 10,
+      "pages_output": 10,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": false,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "size_before": 1754777,
+        "size_after": 1869996
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+      "exists": true,
+      "sha256": "d1ba36df84342b3949f445dee82abc557240bf099ef98002319614a080108dae",
+      "bytes": 7151071,
+      "pages_source": 32,
+      "pages_output": 32,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "size_before": 7138690,
+        "size_after": 7151071
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+      "exists": true,
+      "sha256": "412c00d917c85d6dbdc6e73181ad337743f945f1a48d47dfbbfb0864444b1c74",
+      "bytes": 2236192,
+      "pages_source": 11,
+      "pages_output": 11,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "size_before": 2206481,
+        "size_after": 2236192
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf",
+      "exists": true,
+      "sha256": "10d7d99e2873693fa3913b95185422a038d761903193bd544937b1dce45c8c0c",
+      "bytes": 2672986,
+      "pages_source": 12,
+      "pages_output": 12,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          4,
+          5,
+          7,
+          8,
+          9,
+          11
+        ],
+        "size_before": 2634146,
+        "size_after": 2672986
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Redpump gieng SL_compressed (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Redpump gieng SL_compressed (bản mới).pdf",
+      "exists": true,
+      "sha256": "0e342d55e57e38e8b97b369d257cf4afe13829f4b03a36258f79136cc387e14f",
+      "bytes": 2222811,
+      "pages_source": 11,
+      "pages_output": 11,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "size_before": 2182937,
+        "size_after": 2222811
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Aquaris FS_300dpi_75% (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Aquaris FS_300dpi_75% (bản mới).pdf",
+      "exists": true,
+      "sha256": "97db44101b00605e71ce8996e8d4d08d672a8475cdcfa51ae1b1d5aa9597e033",
+      "bytes": 2128765,
+      "pages_source": 4,
+      "pages_output": 4,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": false,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [],
+        "size_before": 2237886,
+        "size_after": 2128765
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+      "exists": true,
+      "sha256": "5785252969ffb1f9cc78bda04f57bf573b555b26acf0a2deef68b61e96988c4e",
+      "bytes": 2009243,
+      "pages_source": 1,
+      "pages_output": 1,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": false,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1
+        ],
+        "size_before": 2015699,
+        "size_after": 2009243
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog cắt rác Aquaris WC (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalog cắt rác Aquaris WC (bản mới).pdf",
+      "exists": true,
+      "sha256": "02b96af83347f54311f2213ea56a3d3d35632888f03ea9967152dad0d87bf0ac",
+      "bytes": 401498,
+      "pages_source": 8,
+      "pages_output": 8,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": false,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "size_before": 400859,
+        "size_after": 401498
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog cắt rác perotac (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalog cắt rác perotac (bản mới).pdf",
+      "exists": true,
+      "sha256": "38a22d2a2b66c7bd488c8a6e8a49ad4fc3d412edb073c953eb59b9e84218c58a",
+      "bytes": 373925,
+      "pages_source": 8,
+      "pages_output": 8,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": false,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "size_before": 373253,
+        "size_after": 373925
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog cắt rác redpump (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalog cắt rác redpump (bản mới).pdf",
+      "exists": true,
+      "sha256": "c4605e7ebb74cc1087feb7dca146b2a9bfe6dc1f2c913d9d4bca88858e616130",
+      "bytes": 377988,
+      "pages_source": 8,
+      "pages_output": 8,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": false,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "size_before": 377309,
+        "size_after": 377988
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalogue perotac (bản mới).xlsx",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalogue perotac (bản mới).xlsx",
+      "exists": true,
+      "sha256": "c1a85b110bae5a3cdc81c27f9efbd45c3ea7e8c21c51a5fb61176cf304780d7b",
+      "bytes": 306010,
+      "status": "CÓ FILE; nội dung và bản in nghiệm thu riêng G18"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\KTZ - LH Perotac (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\KTZ - LH Perotac (bản mới).pdf",
+      "exists": true,
+      "sha256": "571a82e2b40f38f2608b51f72c9c06691fa8ac99848121130cbd83e1649991eb",
+      "bytes": 2584808,
+      "pages_source": 7,
+      "pages_output": 7,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        "size_before": 2582792,
+        "size_after": 2584808
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\KTZ - LH Redpump (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\KTZ - LH Redpump (bản mới).pdf",
+      "exists": true,
+      "sha256": "891c128d86e41957b3c48cbb55ca1aaa1450b8ee4130f068a91ed9e9fb96b61a",
+      "bytes": 2529780,
+      "pages_source": 7,
+      "pages_output": 7,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        "size_before": 2528286,
+        "size_after": 2529780
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Thổi khí\\May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Thổi khí\\May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+      "exists": true,
+      "sha256": "e5925ee6037f255259ed58fec083839a1b82c75078862a83843a94e471f08100",
+      "bytes": 3859504,
+      "pages_source": 29,
+      "pages_output": 29,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          28,
+          29
+        ],
+        "size_before": 4319708,
+        "size_after": 3859504
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Thổi khí\\Perotac Root_300dpi_75% (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Thổi khí\\Perotac Root_300dpi_75% (bản mới).pdf",
+      "exists": true,
+      "sha256": "826f7388e18bd08b0650f8d6b67f2649b6b8d0910ee2d30a7179dab3ea146eb1",
+      "bytes": 5437669,
+      "pages_source": 18,
+      "pages_output": 18,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": false,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          2,
+          3,
+          4,
+          9,
+          10,
+          15,
+          17,
+          18
+        ],
+        "size_before": 5436233,
+        "size_after": 5437669
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\3M Aquaris (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\3M Aquaris (bản mới).pdf",
+      "exists": true,
+      "sha256": "974abda757d400c3f078eea7371d26fa25c78ec089417c6c802db33dbef2ffb9",
+      "bytes": 3124972,
+      "pages_source": 2,
+      "pages_output": 2,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2
+        ],
+        "size_before": 3094993,
+        "size_after": 3124972
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\3M Perotac (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\3M Perotac (bản mới).pdf",
+      "exists": true,
+      "sha256": "f0255328f1e532a63a901e605ee827ab69e28350b7e27ea2beb78222dadb6335",
+      "bytes": 3082048,
+      "pages_source": 2,
+      "pages_output": 2,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2
+        ],
+        "size_before": 3054467,
+        "size_after": 3082048
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\Aquaris truc ngang CM (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\Aquaris truc ngang CM (bản mới).pdf",
+      "exists": true,
+      "sha256": "0338206b4e3f5be3d4376adc8877ac36b0eedbbf37a762e4e0ecc85414dfa3ae",
+      "bytes": 635835,
+      "pages_source": 4,
+      "pages_output": 4,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "size_before": 626109,
+        "size_after": 635835
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag perotac model CM (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\bơm trục ngang perotac model CM (bản mới).pdf",
+      "exists": true,
+      "sha256": "8c39f96488f7a1e4524605080b6b4511b57dd29f44d3269babf3528fdd335a8c",
+      "bytes": 2444842,
+      "pages_source": 2,
+      "pages_output": 2,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2
+        ],
+        "size_before": 1339158,
+        "size_after": 2444842
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf",
+      "exists": true,
+      "sha256": "e968a794b348b5924dd7300ac873ba1aff73c0527d64a233d6b2ee217a1b2bdc",
+      "bytes": 7523204,
+      "pages_source": 2,
+      "pages_output": 2,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1,
+          2
+        ],
+        "size_before": 5295651,
+        "size_after": 7523204
+      },
+      "status": "ĐẠT phần bảo toàn"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\Catalogue DWO (bản mới).xlsx",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\Catalogue DWO (bản mới).xlsx",
+      "exists": true,
+      "sha256": "e56968e717a2808d064d47c7dbd816f536a801e07a1be2b84f26e856eebc0d7b",
+      "bytes": 352057,
+      "status": "CÓ FILE; nội dung và bản in nghiệm thu riêng G18"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\CDX Perotac (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\CDX Perotac (bản mới).pdf",
+      "exists": false,
+      "status": "ĐANG XỬ LÝ"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục đứng\\Bơm trục đứng CDLF Aquaris (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục đứng\\Bơm trục đứng CDLF Aquaris (bản mới).pdf",
+      "exists": false,
+      "status": "ĐANG XỬ LÝ"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục đứng\\Bơm trục đứng Perotac CDLF (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục đứng\\Bơm trục đứng Perotac CDLF (bản mới).pdf",
+      "exists": false,
+      "status": "ĐANG XỬ LÝ"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục đứng\\Inline IRG Perotac (bản mới).pdf",
+      "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục đứng\\Inline IRG Perotac (bản mới).pdf",
+      "exists": true,
+      "sha256": "93c8d6f031953979bdb3ee1f4f76d359d913ec0582473a4f0d2d73c516e2981c",
+      "bytes": 3029838,
+      "pages_source": 3,
+      "pages_output": 3,
+      "page_sizes_identical": true,
+      "info_identical": true,
+      "xmp_raw_identical": true,
+      "xmp_values_identical": true,
+      "bookmarks_identical": true,
+      "links_identical": true,
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          1
+        ],
+        "size_before": 3027993,
+        "size_after": 3029838
+      },
+      "status": "ĐẠT phần bảo toàn"
+    }
+  ],
+  "G02_additional": {
+    "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\G02 (gồm cả G01)\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+    "sha256": "0245d277dd48d7860f682141acbcac0d48aa79f7148615c347852a9ce0bd9a4a"
+  },
+  "scope": "Đây là kiểm bảo toàn/hiện diện, không phải nghiệm thu nội dung toàn bộ nhóm. Các lỗi/việc chưa đủ căn cứ vẫn theo báo cáo nhóm."
+}

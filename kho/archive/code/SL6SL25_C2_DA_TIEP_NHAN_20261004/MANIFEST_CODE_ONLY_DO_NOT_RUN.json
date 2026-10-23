@@ -1,0 +1,66 @@
+{
+  "time": "2026-10-04T04:52:36.140555+00:00",
+  "scope": "Accepted exact method source archive; do not replay one-shot scripts or treat filenames as authorisation",
+  "code": [
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_sl6sl25_C2_native_exact_plan1.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\SL6SL25_C2_DA_TIEP_NHAN_20261004\\root_sl6sl25_C2_native_exact_plan1.py",
+      "SHA256": "8646781060e9b1f05ccdfc3bc87e876e238e423f0da41596bbf5c2bffe332d23",
+      "already_executed_not_safe_generic_replay": true
+    },
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_sl6sl25_C2_head_RAM_builder2_queuefix.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\SL6SL25_C2_DA_TIEP_NHAN_20261004\\root_sl6sl25_C2_head_RAM_builder2_queuefix.py",
+      "SHA256": "99e0b425548d30bc66755a9929e6332d9dec9c02c1d27d52d4701287da225ee0",
+      "already_executed_not_safe_generic_replay": true
+    },
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_sl6sl25_C2_head_actual_RAM2_queuefix.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\SL6SL25_C2_DA_TIEP_NHAN_20261004\\root_sl6sl25_C2_head_actual_RAM2_queuefix.py",
+      "SHA256": "9ede6dfa93a9abcd3ba5ec447d96ca065b0957bf71daa33ff0ee31e13d5a4295",
+      "already_executed_not_safe_generic_replay": true
+    },
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\next_work_sl_current_base_graft_prepared_caller2_actualfreeze.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\SL6SL25_C2_DA_TIEP_NHAN_20261004\\next_work_sl_current_base_graft_prepared_caller2_actualfreeze.py",
+      "SHA256": "27256a4b6fde44ff803b2b1088f8b40d2cf43a4b45a26ace2d59ebc7eaa32305",
+      "already_executed_not_safe_generic_replay": true
+    },
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\next_work_sl_graft_existing_pure1.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\SL6SL25_C2_DA_TIEP_NHAN_20261004\\next_work_sl_graft_existing_pure1.py",
+      "SHA256": "ec2812866822ff6f919d86b00fd471c946642f9aac26bc9f5d9aacff15596178",
+      "already_executed_not_safe_generic_replay": true
+    },
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_sl_C2_actual_current_base_CATFIX_sample1.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\SL6SL25_C2_DA_TIEP_NHAN_20261004\\root_sl_C2_actual_current_base_CATFIX_sample1.py",
+      "SHA256": "fea64f562a4210af64639a576855c134e00aef75faedfe6ab9c16aa0620aa2a1",
+      "already_executed_not_safe_generic_replay": true
+    },
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_sl_saved_actual_render_outside2_keep_metadata_delta.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\SL6SL25_C2_DA_TIEP_NHAN_20261004\\root_sl_saved_actual_render_outside2_keep_metadata_delta.py",
+      "SHA256": "d2af29af0dfeb771ebdea6a2482a7dcdff201348bc8c6883ccfb152f13544216",
+      "already_executed_not_safe_generic_replay": true
+    },
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\sl_saved_independent_bijective_resource_read1.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\SL6SL25_C2_DA_TIEP_NHAN_20261004\\sl_saved_independent_bijective_resource_read1.py",
+      "SHA256": "57d2accb616c18756a42fe87d10788b58111556a2bdcc2e6779f557485080536",
+      "already_executed_not_safe_generic_replay": true
+    },
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\next_work_sl_saved_native20_table120_readonly1.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\SL6SL25_C2_DA_TIEP_NHAN_20261004\\next_work_sl_saved_native20_table120_readonly1.py",
+      "SHA256": "d0a9a90e132f45dc145d02d0ad32a275f50d67d59061ee69508f48de5de889a0",
+      "already_executed_not_safe_generic_replay": true
+    },
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_SL_actual_acceptance_and_adopt1.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\SL6SL25_C2_DA_TIEP_NHAN_20261004\\root_SL_actual_acceptance_and_adopt1.py",
+      "SHA256": "889475550316843f67de4cd60c2d8bf68533448fb58a1879918feb824f06f1b7",
+      "already_executed_not_safe_generic_replay": true
+    }
+  ]
+}

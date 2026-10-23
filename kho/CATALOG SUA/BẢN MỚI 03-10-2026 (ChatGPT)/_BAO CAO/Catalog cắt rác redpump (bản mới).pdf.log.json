@@ -1,0 +1,669 @@
+{
+  "group": "G08",
+  "src": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog cắt rác redpump (bản mới).pdf",
+  "dst": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Catalog cắt rác redpump (bản mới).pdf",
+  "edits": [
+    {
+      "page": 0,
+      "rect": [
+        816.77,
+        236.74,
+        873.24,
+        244.5
+      ],
+      "label": "50WC15-80-7.5 -> 50WC15-40-7.5",
+      "kind": "text"
+    },
+    {
+      "page": 0,
+      "rect": [
+        112.57,
+        345.11,
+        164.23,
+        357.13
+      ],
+      "label": "irrugation -> irrigation",
+      "kind": "text"
+    },
+    {
+      "page": 0,
+      "rect": [
+        806.24,
+        178.16,
+        826.76,
+        186.7
+      ],
+      "label": "(KW) -> (kW)",
+      "kind": "text"
+    },
+    {
+      "page": 0,
+      "rect": [
+        139.64,
+        91.12,
+        189.22,
+        105.07
+      ],
+      "label": "1 years -> 1 year",
+      "kind": "text"
+    },
+    {
+      "page": 1,
+      "rect": [
+        113.37,
+        345.11,
+        165.03,
+        357.13
+      ],
+      "label": "irrugation -> irrigation",
+      "kind": "text"
+    },
+    {
+      "page": 1,
+      "rect": [
+        798.04,
+        209.16,
+        818.56,
+        217.7
+      ],
+      "label": "(KW) -> (kW)",
+      "kind": "text"
+    },
+    {
+      "page": 1,
+      "rect": [
+        140.45,
+        91.12,
+        190.02,
+        105.07
+      ],
+      "label": "1 years -> 1 year",
+      "kind": "text"
+    },
+    {
+      "page": 2,
+      "rect": [
+        112.57,
+        330.93,
+        164.23,
+        342.95
+      ],
+      "label": "irrugation -> irrigation",
+      "kind": "text"
+    },
+    {
+      "page": 2,
+      "rect": [
+        791.1,
+        163.98,
+        811.62,
+        172.52
+      ],
+      "label": "(KW) -> (kW)",
+      "kind": "text"
+    },
+    {
+      "page": 2,
+      "rect": [
+        139.64,
+        76.94,
+        189.22,
+        90.89
+      ],
+      "label": "1 years -> 1 year",
+      "kind": "text"
+    },
+    {
+      "page": 3,
+      "rect": [
+        113.37,
+        330.93,
+        165.03,
+        342.95
+      ],
+      "label": "irrugation -> irrigation",
+      "kind": "text"
+    },
+    {
+      "page": 3,
+      "rect": [
+        823.3,
+        154.46,
+        845.63,
+        162.99
+      ],
+      "label": "(KW) -> (kW)",
+      "kind": "text"
+    },
+    {
+      "page": 3,
+      "rect": [
+        140.45,
+        76.94,
+        190.02,
+        90.89
+      ],
+      "label": "1 years -> 1 year",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        112.57,
+        341.97,
+        164.23,
+        353.99
+      ],
+      "label": "irrugation -> irrigation",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        797.76,
+        170.03,
+        818.28,
+        178.57
+      ],
+      "label": "(KW) -> (kW)",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        139.64,
+        87.98,
+        189.22,
+        101.93
+      ],
+      "label": "1 years -> 1 year",
+      "kind": "text"
+    },
+    {
+      "page": 5,
+      "rect": [
+        104.18,
+        339.38,
+        155.84,
+        351.4
+      ],
+      "label": "irrugation -> irrigation",
+      "kind": "text"
+    },
+    {
+      "page": 5,
+      "rect": [
+        775.1,
+        178.4,
+        795.62,
+        186.94
+      ],
+      "label": "(KW) -> (kW)",
+      "kind": "text"
+    },
+    {
+      "page": 5,
+      "rect": [
+        131.26,
+        85.39,
+        180.83,
+        99.34
+      ],
+      "label": "1 years -> 1 year",
+      "kind": "text"
+    },
+    {
+      "page": 6,
+      "rect": [
+        108.79,
+        313.2,
+        160.45,
+        325.22
+      ],
+      "label": "irrugation -> irrigation",
+      "kind": "text"
+    },
+    {
+      "page": 6,
+      "rect": [
+        797.76,
+        190.65,
+        818.28,
+        199.19
+      ],
+      "label": "(KW) -> (kW)",
+      "kind": "text"
+    },
+    {
+      "page": 6,
+      "rect": [
+        135.86,
+        59.21,
+        185.44,
+        73.16
+      ],
+      "label": "1 years -> 1 year",
+      "kind": "text"
+    },
+    {
+      "page": 7,
+      "rect": [
+        98.16,
+        313.2,
+        149.82,
+        325.22
+      ],
+      "label": "irrugation -> irrigation",
+      "kind": "text"
+    },
+    {
+      "page": 7,
+      "rect": [
+        781.76,
+        186.93,
+        802.28,
+        195.47
+      ],
+      "label": "(KW) -> (kW)",
+      "kind": "text"
+    },
+    {
+      "page": 7,
+      "rect": [
+        125.24,
+        59.21,
+        174.81,
+        73.16
+      ],
+      "label": "1 years -> 1 year",
+      "kind": "text"
+    },
+    {
+      "page": 1,
+      "rect": [
+        157.29,
+        527.99,
+        208.71,
+        536.49
+      ],
+      "label": "1.5-7.5kW -> 1.5-5.5kW",
+      "kind": "text"
+    },
+    {
+      "page": 1,
+      "rect": [
+        156.04,
+        449.98,
+        181.44,
+        458.48
+      ],
+      "label": "36 m -> 40 m",
+      "kind": "text"
+    },
+    {
+      "page": 2,
+      "rect": [
+        155.24,
+        477.48,
+        183.73,
+        485.97
+      ],
+      "label": "DN50 -> DN80",
+      "kind": "text"
+    },
+    {
+      "page": 2,
+      "rect": [
+        143.66,
+        619.88,
+        157.44,
+        631.9
+      ],
+      "label": "49 -> 45",
+      "kind": "text"
+    },
+    {
+      "page": 3,
+      "rect": [
+        157.27,
+        458.47,
+        202.49,
+        466.96
+      ],
+      "label": "250 m³/h -> 240 m³/h",
+      "kind": "text"
+    },
+    {
+      "page": 7,
+      "rect": [
+        142.08,
+        472.97,
+        176.77,
+        481.46
+      ],
+      "label": "DN350 -> DN300",
+      "kind": "text"
+    },
+    {
+      "page": 0,
+      "rect": [
+        1072.08,
+        110.98,
+        1076.53,
+        118.74
+      ],
+      "label": "1 -> 4",
+      "kind": "text"
+    },
+    {
+      "page": 0,
+      "rect": [
+        1049.55,
+        110.98,
+        1054.0,
+        118.74
+      ],
+      "label": "8 -> 10",
+      "kind": "text"
+    },
+    {
+      "page": 0,
+      "rect": [
+        956.68,
+        110.98,
+        965.58,
+        118.74
+      ],
+      "label": "26 -> 28",
+      "kind": "text"
+    },
+    {
+      "page": 0,
+      "rect": [
+        935.0,
+        110.98,
+        943.9,
+        118.74
+      ],
+      "label": "27 -> 29",
+      "kind": "text"
+    },
+    {
+      "page": 0,
+      "rect": [
+        913.26,
+        110.98,
+        922.16,
+        118.74
+      ],
+      "label": "28 -> 30",
+      "kind": "text"
+    },
+    {
+      "page": 0,
+      "rect": [
+        693.0,
+        296.0,
+        1028.0,
+        530.0
+      ],
+      "label": "#64 đồng bộ đường 50WC15-25-3 với bảng đã chốt",
+      "kind": "curve"
+    },
+    {
+      "page": 4,
+      "rect": [
+        994.08,
+        102.85,
+        1002.98,
+        110.61
+      ],
+      "label": "27 -> 29",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        1165.75,
+        170.03,
+        1184.57,
+        178.56
+      ],
+      "label": "2000 -> 6000",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        1143.72,
+        170.03,
+        1162.54,
+        178.56
+      ],
+      "label": "1833 -> 5500",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        1122.32,
+        170.03,
+        1141.14,
+        178.56
+      ],
+      "label": "1667 -> 5000",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        1099.09,
+        170.03,
+        1117.9,
+        178.56
+      ],
+      "label": "1500 -> 4500",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        1077.39,
+        170.03,
+        1096.21,
+        178.56
+      ],
+      "label": "1333 -> 4000",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        1056.01,
+        170.03,
+        1074.36,
+        178.56
+      ],
+      "label": "1167 -> 3500",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        1032.82,
+        170.03,
+        1051.64,
+        178.56
+      ],
+      "label": "1000 -> 3000",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        1012.68,
+        170.03,
+        1027.36,
+        178.57
+      ],
+      "label": "833 -> 2500",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        990.28,
+        170.03,
+        1004.96,
+        178.57
+      ],
+      "label": "667 -> 2000",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        967.5,
+        170.03,
+        982.18,
+        178.57
+      ],
+      "label": "500 -> 1500",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        946.56,
+        170.03,
+        961.24,
+        178.57
+      ],
+      "label": "333 -> 1000",
+      "kind": "text"
+    },
+    {
+      "page": 4,
+      "rect": [
+        922.67,
+        170.03,
+        937.35,
+        178.57
+      ],
+      "label": "167 -> 500",
+      "kind": "text"
+    },
+    {
+      "page": 0,
+      "rect": [
+        47.67,
+        421.24,
+        241.0,
+        437.24
+      ],
+      "label": "#139 thêm Speed 2900 r.p.m và kẻ bảng cùng kiểu",
+      "kind": "text-insert"
+    },
+    {
+      "page": 1,
+      "rect": [
+        48.47,
+        421.24,
+        241.0,
+        437.24
+      ],
+      "label": "#139 thêm Speed 2900 r.p.m và kẻ bảng cùng kiểu",
+      "kind": "text-insert"
+    },
+    {
+      "page": 2,
+      "rect": [
+        47.67,
+        407.06,
+        241.0,
+        423.06
+      ],
+      "label": "#139 thêm Speed 2900 r.p.m và kẻ bảng cùng kiểu",
+      "kind": "text-insert"
+    },
+    {
+      "page": 3,
+      "rect": [
+        48.47,
+        407.06,
+        241.0,
+        423.06
+      ],
+      "label": "#139 thêm Speed 2900 r.p.m và kẻ bảng cùng kiểu",
+      "kind": "text-insert"
+    },
+    {
+      "page": 4,
+      "rect": [
+        47.67,
+        426.24,
+        241.0,
+        442.24
+      ],
+      "label": "#139 thêm Speed 2900 r.p.m và kẻ bảng cùng kiểu",
+      "kind": "text-insert"
+    },
+    {
+      "page": 6,
+      "rect": [
+        153.96,
+        491.3,
+        202.29,
+        499.8
+      ],
+      "label": "980 r.p.m -> 1450 r.p.m",
+      "kind": "text"
+    },
+    {
+      "page": 7,
+      "rect": [
+        140.23,
+        491.3,
+        188.56,
+        499.8
+      ],
+      "label": "980 r.p.m -> 1450 r.p.m",
+      "kind": "text"
+    },
+    {
+      "page": 7,
+      "rect": [
+        653.81,
+        134.09,
+        716.94,
+        141.85
+      ],
+      "label": "300WC950-20-90 -> 300WC950-20-95",
+      "kind": "text"
+    },
+    {
+      "page": 7,
+      "rect": [
+        788.56,
+        134.75,
+        797.46,
+        142.51
+      ],
+      "label": "90 -> 95",
+      "kind": "text"
+    },
+    {
+      "page": 7,
+      "rect": [
+        811.91,
+        134.75,
+        825.26,
+        142.51
+      ],
+      "label": "120 -> 130",
+      "kind": "text"
+    }
+  ],
+  "accepted_trial": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G08\\THU LAN 1\\Catalog cắt rác redpump (bản mới).pdf",
+  "final_pixel_identical_to_trial": true
+}

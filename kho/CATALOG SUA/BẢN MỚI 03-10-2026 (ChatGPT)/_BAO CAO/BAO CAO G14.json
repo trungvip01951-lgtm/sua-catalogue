@@ -1,0 +1,948 @@
+{
+  "time": "2026-10-03T03:08:28.003630+07:00",
+  "group": "G14",
+  "status": "CHƯA XONG",
+  "pass_tasks": 7,
+  "total_tasks": 8,
+  "unknown_tasks": [
+    128
+  ],
+  "reason": "Thiếu glyph W nghiêng đúng kiểu trong chính hai tệp; còn 2 (kw) nghiêng mỗi tệp. Không dùng phông thay thế hoặc nghiêng W đứng.",
+  "finals": [
+    {
+      "short": "Perotac",
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag perotac model CM (bản mới).pdf",
+      "source_sha256": "466c54500ecbe7ba67e556ae92dce3a7c5e07776b03113c279f0468b60217a3d",
+      "final": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\bơm trục ngang perotac model CM (bản mới).pdf",
+      "final_sha256": "64ef858f01db9c2e92ad03cf46f5cd5babf632030533aad26764557c253daba7",
+      "canonical_name": "bơm trục ngang perotac model CM (bản mới).pdf",
+      "source_unchanged": true,
+      "final_matches_sample_pixels_exact": true,
+      "final_content_streams_exact": true
+    },
+    {
+      "short": "Redpump",
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf",
+      "source_sha256": "5c18b0cb942e8f243591aae00908998d35c773e70336811bc2283275aeda6fa7",
+      "final": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf",
+      "final_sha256": "1b49fa419a93905ab17701c59e84d9b708cce42f2af6c56e9950d882f1fc5019",
+      "canonical_name": "bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf",
+      "source_unchanged": true,
+      "final_matches_sample_pixels_exact": true,
+      "final_content_streams_exact": true
+    }
+  ],
+  "independent": {
+    "time": "2026-10-03T03:04:20.687301+07:00",
+    "checks": [
+      {
+        "short": "Perotac",
+        "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag perotac model CM (bản mới).pdf",
+        "sample": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G14\\MAU 2\\bơm trục ngang perotac model CM (bản mới).pdf",
+        "source_sha256": "466c54500ecbe7ba67e556ae92dce3a7c5e07776b03113c279f0468b60217a3d",
+        "sample_sha256": "43e2843ff37322b279b7e79a7ef31e2f30f3b1bffb6b292488a9561e0e09ead4",
+        "source_unchanged": true,
+        "structure": {
+          "ok": true,
+          "problems": [],
+          "changed_pages": [
+            1,
+            2
+          ],
+          "size_before": 1339158,
+          "size_after": 2442633
+        },
+        "outside": {},
+        "outside_parameters": {
+          "dpi": 150,
+          "thr": 12,
+          "min_size": 1,
+          "pad": 0.4
+        },
+        "original_images": [
+          {
+            "page": 1,
+            "name": "Im6",
+            "sha256": "fc227d89691e2720c47917d0ab611929e30b0daeb3c386022dfdabbab052204b",
+            "bytes_and_position_same": true,
+            "masks": [
+              {
+                "key": "Mask",
+                "sha256": "b5b1b707b4a2f07ea1c45b3fc65578864811d8c429bd578a56ea77c8b63ee0ff",
+                "raw_same": true
+              }
+            ]
+          },
+          {
+            "page": 1,
+            "name": "Im8",
+            "sha256": "1cc85b34efd2054c5be7429be0359563b0aa808191acaffaf3b0c29bf9b22997",
+            "bytes_and_position_same": true,
+            "masks": [
+              {
+                "key": "Mask",
+                "sha256": "3f892b3de942c95695cd5f4cde5eb5100ec29a2ba9af75e780aa78b5826410bc",
+                "raw_same": true
+              }
+            ]
+          },
+          {
+            "page": 1,
+            "name": "Im10",
+            "sha256": "dc71ae9cdabc38413566fd57ce14e4aa36a055fb15d504ba1401e9e49bc1563c",
+            "bytes_and_position_same": true,
+            "masks": [
+              {
+                "key": "Mask",
+                "sha256": "97df104cf6a7d8df24bdad687ef3a660eb8f07557dfb23d00f81c1bd7d22f210",
+                "raw_same": true
+              }
+            ]
+          },
+          {
+            "page": 2,
+            "name": "Im14",
+            "sha256": "8b459c2244a5d1f91bcb898b8fcf5ff443fb65a90f20eaef1dbb9c0299276a3b",
+            "bytes_and_position_same": true,
+            "masks": [
+              {
+                "key": "Mask",
+                "sha256": "8ff3ae93473aacceddf8b4cd69917fc62366c1eea1dc6fdd5b0e7c6f46606613",
+                "raw_same": true
+              }
+            ]
+          },
+          {
+            "page": 2,
+            "name": "Im16",
+            "sha256": "69929af571c725e5f06e739df8f3ae631d94f328f282c9d1fb6fe08e1bbe1c39",
+            "bytes_and_position_same": true,
+            "masks": [
+              {
+                "key": "Mask",
+                "sha256": "159d0b8d62c5f585e0e3d0817150bed8ebc09445a432c1a9894aa7f603ff509d",
+                "raw_same": true
+              }
+            ]
+          },
+          {
+            "page": 2,
+            "name": "Im18",
+            "sha256": "42825e21ad1c83d673a9b7e18e779e8bd58f5fe635f19f307245398407e8fb2d",
+            "bytes_and_position_same": true,
+            "masks": [
+              {
+                "key": "Mask",
+                "sha256": "6c644f40cae0f882419ceb5d2bc731265eb53e635eba3e5853d10f82d7b1f8a5",
+                "raw_same": true
+              }
+            ]
+          },
+          {
+            "page": 2,
+            "name": "Im20",
+            "sha256": "cc11f54f317779a73a19a19f063e06d6620de2ccf1eab3fdc9406adecb565c48",
+            "bytes_and_position_same": true,
+            "masks": [
+              {
+                "key": "Mask",
+                "sha256": "c5933ea229699e251a05eb0cf0a51dca48d37bb60843890237b0cf94dbafc7f4",
+                "raw_same": true
+              }
+            ]
+          },
+          {
+            "page": 2,
+            "name": "Im22",
+            "sha256": "9848408a5e5d7be3d9dabeae3dfad79a9937bb5a396281a2be0379b04e64b985",
+            "bytes_and_position_same": true,
+            "masks": [
+              {
+                "key": "Mask",
+                "sha256": "3e2cab77d526c4b28f69dc4feec82abeb614e33d923b501cf56f156b6b230937",
+                "raw_same": true
+              }
+            ]
+          }
+        ],
+        "metadata_exact": true,
+        "XMP_exact": true,
+        "bookmarks_exact": true,
+        "links_exact": true,
+        "native_text_same": true,
+        "no_outline_paths": true,
+        "table": {
+          "compacted_rows": 34,
+          "output_left_rows": 46,
+          "output_right_rows": 41,
+          "number_region_shape": [
+            1781,
+            1836,
+            3
+          ],
+          "all_number_pixels_identical": true,
+          "number_source_sha256": "8d2e9f80e09f3e589736caae7ffb65f40dd0876f3237580853a50947c8f6491d",
+          "number_saved_patch_sha256": "8d2e9f80e09f3e589736caae7ffb65f40dd0876f3237580853a50947c8f6491d",
+          "all_DN_kW_hp_H_and_last_column_preserved": true,
+          "saved_patch_opaque": true
+        }
+      },
+      {
+        "short": "Redpump",
+        "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf",
+        "sample": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G14\\MAU 2\\bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf",
+        "source_sha256": "5c18b0cb942e8f243591aae00908998d35c773e70336811bc2283275aeda6fa7",
+        "sample_sha256": "108ee628211331da94ecd1167f22d53ccd03419519b40e72b0d87105fd277a06",
+        "source_unchanged": true,
+        "structure": {
+          "ok": true,
+          "problems": [],
+          "changed_pages": [
+            1,
+            2
+          ],
+          "size_before": 5295651,
+          "size_after": 7520152
+        },
+        "outside": {},
+        "outside_parameters": {
+          "dpi": 150,
+          "thr": 12,
+          "min_size": 1,
+          "pad": 0.4
+        },
+        "original_images": [
+          {
+            "page": 1,
+            "name": "R12",
+            "sha256": "5d3a214930e120493f4ca40da46ddd94ed414702b4a1696f97860bcac2bed5ad",
+            "bytes_and_position_same": true,
+            "masks": [
+              {
+                "key": "SMask",
+                "sha256": "90359488e3a8bab0067c29d2883b526165775fda40ba6f93fe42bec14a90d3cb",
+                "raw_same": true
+              }
+            ]
+          },
+          {
+            "page": 2,
+            "name": "R19",
+            "sha256": "23af7c995f29bf8f518b11e1fadc7adf483ef05811e8108e8e8f39e4b1897d31",
+            "bytes_and_position_same": true,
+            "masks": [
+              {
+                "key": "SMask",
+                "sha256": "4975581878bc132e43a974e0cc96b6620ac23c221b595897112303556fc3bb95",
+                "raw_same": true
+              }
+            ]
+          }
+        ],
+        "metadata_exact": true,
+        "XMP_exact": true,
+        "bookmarks_exact": true,
+        "links_exact": true,
+        "native_text_same": true,
+        "no_outline_paths": true,
+        "table": {
+          "compacted_rows": 34,
+          "output_left_rows": 46,
+          "output_right_rows": 41,
+          "number_region_shape": [
+            1781,
+            1835,
+            3
+          ],
+          "all_number_pixels_identical": true,
+          "number_source_sha256": "660cf0907f88bc1d119116950ab7b05f17f4d1fc3bf3efff6d3b8e9f84ca16a9",
+          "number_saved_patch_sha256": "660cf0907f88bc1d119116950ab7b05f17f4d1fc3bf3efff6d3b8e9f84ca16a9",
+          "all_DN_kW_hp_H_and_last_column_preserved": true,
+          "saved_patch_opaque": true
+        }
+      }
+    ],
+    "reads": [
+      {
+        "short": "Perotac",
+        "page": 1,
+        "task": 128,
+        "new": "diseñadas",
+        "rect": [
+          468,
+          290,
+          505,
+          301
+        ],
+        "reads": [
+          "disefladas",
+          "disefiadas"
+        ],
+        "ocr_exact": false,
+        "visual": "ĐẠT; đã soi dấu ñ trong ảnh MAU CHU, sao đúng glyph ñ của Diseño cùng tệp/cùng kiểu nghiêng; OCR tiếng Anh đọc sai dấu"
+      },
+      {
+        "short": "Perotac",
+        "page": 1,
+        "task": 128,
+        "new": "power(kW)x10",
+        "rect": [
+          784.76,
+          266.12,
+          840.5600000000001,
+          276.78
+        ],
+        "reads": [
+          "power(kW)x10"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 1,
+        "task": 124,
+        "new": "",
+        "rect": [
+          68.32000000000001,
+          324.40000000000003,
+          283.04,
+          334.64000000000004
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 1,
+        "task": 124,
+        "new": "",
+        "rect": [
+          68.32000000000001,
+          98.08,
+          275.84,
+          108.31999999999998
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 1,
+        "task": 124,
+        "new": "",
+        "rect": [
+          68.32000000000001,
+          211.35999999999996,
+          281.12,
+          221.60000000000008
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 157,
+        "new": "CM 32-160/3",
+        "rect": [
+          48.339999999999996,
+          570.4000000000001,
+          103.72,
+          578.24
+        ],
+        "reads": [
+          "CM 32-160/3"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 157,
+        "new": "CM 32-200/3",
+        "rect": [
+          48.099999999999994,
+          557.9200000000001,
+          103.47999999999999,
+          565.76
+        ],
+        "reads": [
+          "CM 32-200/3"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 157,
+        "new": "CM 80-125/4",
+        "rect": [
+          654.5799999999999,
+          560.32,
+          710.4399999999999,
+          568.16
+        ],
+        "reads": [
+          "CM 80-125/4"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 157,
+        "new": "CM 32-200/4",
+        "rect": [
+          48.339999999999996,
+          544.96,
+          103.72,
+          553.28
+        ],
+        "reads": [
+          "CM 32-200/4"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 157,
+        "new": "CM 40-160/3",
+        "rect": [
+          47.86,
+          432.4,
+          103.47999999999999,
+          440.24
+        ],
+        "reads": [
+          "CM 40-160/3"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 157,
+        "new": "CM 40-160/4",
+        "rect": [
+          47.86,
+          419.44,
+          103.72,
+          427.76
+        ],
+        "reads": [
+          "CM 40-160/4"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 157,
+        "new": "CM 50-125/3",
+        "rect": [
+          48.339999999999996,
+          319.12,
+          103.72,
+          327.44
+        ],
+        "reads": [
+          "CM 50-125/3"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 157,
+        "new": "CM 50-125/4",
+        "rect": [
+          48.339999999999996,
+          307.12,
+          103.47999999999999,
+          314.96000000000004
+        ],
+        "reads": [
+          "CM 50-125/4"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 157,
+        "new": "CM 65-125/4",
+        "rect": [
+          47.86,
+          194.08000000000004,
+          103.72,
+          201.91999999999996
+        ],
+        "reads": [
+          "CM 65-125/4"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 126,
+        "new": "CM 100-160/22",
+        "rect": [
+          667,
+          294.5,
+          719,
+          305.5
+        ],
+        "reads": [
+          "| 100-160/22",
+          "| 100-160/22"
+        ],
+        "ocr_exact": false,
+        "visual": "ĐẠT; chữ CM bị cắt trong phép OCR hẹp cũ, lần đọc hộp đầy đủ đã ĐẠT"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 128,
+        "new": "",
+        "rect": [
+          30.560000000000002,
+          18.240000000000002,
+          201.95999999999998,
+          26.64
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 127,
+        "new": "",
+        "rect": [
+          350.76,
+          18.240000000000002,
+          568.26,
+          26.64
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 128,
+        "new": "",
+        "rect": [
+          646.56,
+          18.240000000000002,
+          818.26,
+          26.64
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Perotac",
+        "page": 2,
+        "task": 127,
+        "new": "",
+        "rect": [
+          968.26,
+          18.240000000000002,
+          1184.66,
+          26.64
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 1,
+        "task": 128,
+        "new": "diseñadas",
+        "rect": [
+          438,
+          288.5,
+          474.5,
+          299.5
+        ],
+        "reads": [
+          "disefiadas",
+          "disefiadas"
+        ],
+        "ocr_exact": false,
+        "visual": "ĐẠT; đã soi dấu ñ trong ảnh MAU CHU, sao đúng glyph ñ của Diseño cùng tệp/cùng kiểu nghiêng; OCR tiếng Anh đọc sai dấu"
+      },
+      {
+        "short": "Redpump",
+        "page": 1,
+        "task": 128,
+        "new": "power(kW)x10",
+        "rect": [
+          754.9157946815089,
+          264.7608337494817,
+          810.7264811379098,
+          275.42331625632687
+        ],
+        "reads": [
+          "power(kW)x10"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 1,
+        "task": 124,
+        "new": "",
+        "rect": [
+          38.56811379097093,
+          322.81843034211937,
+          253.33204700061845,
+          333.06105887877897
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 1,
+        "task": 124,
+        "new": "",
+        "rect": [
+          38.56811379097093,
+          95.46928522499132,
+          246.1305627705628,
+          107.8725708958158
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 1,
+        "task": 124,
+        "new": "",
+        "rect": [
+          38.56811379097093,
+          209.98411333573057,
+          251.41165120593695,
+          220.46681488729732
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 157,
+        "new": "CM 32-160/3",
+        "rect": [
+          18.587025355596786,
+          568.6550709601536,
+          73.97504019789734,
+          576.9771373808177
+        ],
+        "reads": [
+          "CM 32-160/3"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 157,
+        "new": "CM 32-200/3",
+        "rect": [
+          18.3469758812616,
+          556.1712333217772,
+          73.73499072356215,
+          564.0131521409653
+        ],
+        "reads": [
+          "CM 32-200/3"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 157,
+        "new": "CM 80-125/4",
+        "rect": [
+          624.7119480519481,
+          558.3318975284193,
+          680.5800618429189,
+          566.4138901483453
+        ],
+        "reads": [
+          "CM 80-125/4"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 157,
+        "new": "CM 32-200/4",
+        "rect": [
+          18.587025355596786,
+          543.4473218826629,
+          73.97504019789734,
+          551.5293145025889
+        ],
+        "reads": [
+          "CM 32-200/4"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 157,
+        "new": "CM 40-160/3",
+        "rect": [
+          18.106926406926405,
+          430.37256173506125,
+          73.73499072356215,
+          438.2144805542495
+        ],
+        "reads": [
+          "CM 40-160/3"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 157,
+        "new": "CM 40-160/4",
+        "rect": [
+          18.106926406926405,
+          417.8887240966849,
+          73.97504019789734,
+          425.9707167166111
+        ],
+        "reads": [
+          "CM 40-160/4"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 157,
+        "new": "CM 50-125/3",
+        "rect": [
+          18.587025355596786,
+          317.5378753881978,
+          73.97504019789734,
+          325.61986800812406
+        ],
+        "reads": [
+          "CM 50-125/3"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 157,
+        "new": "CM 50-125/4",
+        "rect": [
+          18.587025355596786,
+          305.2941115505594,
+          73.73499072356215,
+          313.13603036974763
+        ],
+        "reads": [
+          "CM 50-125/4"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 157,
+        "new": "CM 65-125/4",
+        "rect": [
+          18.106926406926405,
+          192.45942520369596,
+          73.97504019789734,
+          200.54141782362223
+        ],
+        "reads": [
+          "CM 65-125/4"
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 126,
+        "new": "CM 100-160/22",
+        "rect": [
+          638,
+          293,
+          689,
+          304
+        ],
+        "reads": [
+          "100-160/22",
+          "100-160/22 —"
+        ],
+        "ocr_exact": false,
+        "visual": "ĐẠT; chữ CM bị cắt trong phép OCR hẹp cũ, lần đọc hộp đầy đủ đã ĐẠT"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 128,
+        "new": "",
+        "rect": [
+          0.8,
+          16.8,
+          172.2,
+          25.2
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 127,
+        "new": "",
+        "rect": [
+          321.0,
+          16.8,
+          538.5,
+          25.2
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 128,
+        "new": "",
+        "rect": [
+          616.8,
+          16.8,
+          788.5,
+          25.2
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      },
+      {
+        "short": "Redpump",
+        "page": 2,
+        "task": 127,
+        "new": "",
+        "rect": [
+          938.5,
+          16.8,
+          1154.9,
+          25.2
+        ],
+        "reads": [
+          ""
+        ],
+        "ocr_exact": true,
+        "visual": "ĐẠT; đã soi trực tiếp ảnh từng vị trí và toàn trang"
+      }
+    ]
+  },
+  "readback_full_CM": [
+    {
+      "short": "Perotac",
+      "task": 126,
+      "rect": [
+        654.0,
+        295.5,
+        719.0,
+        305.0
+      ],
+      "read": "CM 100-160/22",
+      "ocr_exact": true
+    },
+    {
+      "short": "Redpump",
+      "task": 126,
+      "rect": [
+        624.5,
+        294.0,
+        688.8,
+        303.0
+      ],
+      "read": "CM 100-160/22",
+      "ocr_exact": true
+    }
+  ],
+  "visual_reviewed_all_source_and_saved_pages": true,
+  "no_curves_present": "Mỗi tệp chỉ 2 trang mô tả và bảng thông số; không có biểu đồ để đối chiếu các điểm. Không dựng thêm hay suy diễn biểu đồ từ tham chiếu trang cũ.",
+  "keep_162": "Logo Redpump Italy Standard giữ nguyên: ảnh/lớp mặt nạ gốc cùng byte và ngoài vùng sửa không đổi.",
+  "both_samples_retained": true
+}

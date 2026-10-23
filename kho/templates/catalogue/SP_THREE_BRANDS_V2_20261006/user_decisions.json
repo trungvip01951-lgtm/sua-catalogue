@@ -1,0 +1,22 @@
+{
+  "active": "SP stainless only,3separatePDFs",
+  "Aquaris_source": "Own32pageSP, noSAfound",
+  "Perotac_source": "Own12pageSP+latestSP6V3",
+  "Redpump_source": "Perotac per directuser",
+  "Q_max_decimal_places": 1,
+  "H_integer": true,
+  "family_4SP14_or15": "4SP14",
+  "all_catalogue_missing_source_fallback": {
+    "Aquaris": "Perotac",
+    "Redpump": "Perotac"
+  },
+  "excluded_SP_families_all_brands": [
+    "4SP2"
+  ],
+  "exclusion_authority": "Anh Trung: Xoá dải 2 này đi cho a ko cần làm cả 3 hãng; reply to the 11 listed 4SPM2 models. Applies 4SP2 only, keeps 3SP2.",
+  "4SP14_two_H_cells_approved": true,
+  "split_perotac_page2": true,
+  "final_decision_authority": "Anh Trung 06/10/2026: Tên dải 4sp14; Hai ô h của 4sp14-4 24 và 23; Ok tách",
+  "single_phase_requires_three_phase_model": true,
+  "phase_rule_authority": "Model nào có 1 pha thì phải có 3 pha nhé em không để trống 3 pha khi có 1 pha lưu quy tắc cho a"
+}

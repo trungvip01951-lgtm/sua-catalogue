@@ -1,0 +1,1557 @@
+{
+  "source_pdf": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG 20261006\\AQUARIS SP - 31 TRANG.pdf",
+  "source_sha256": "9b2ca1ba4c429fc098f0f354884b0ce2eeb1f20c4b4994dd9e4f0aefd8ba214e",
+  "method": "Direct visual reading of each current-family intro; text is raster in source, no unverified OCR. Small intro crops rendered from delivered PDF. Large intro renders match same retained source body.",
+  "small_families": [
+    {
+      "page": 3,
+      "family": "3SP1",
+      "header": "3SP1 - SUBMERSIBLE PUMP",
+      "subtitle": "STAINLESS STEEL SUBMERSIBLE PUMPS",
+      "applications": [
+        "Water supply system",
+        "Booster",
+        "Garden and farm irrigation",
+        "Lowering underground water level",
+        "Various industrial applications"
+      ],
+      "pump_motor": [
+        "Adopted the NEMA standard",
+        "Insulation class: B",
+        "Protection grade: IP68",
+        "Maximum diameter Ø70mm",
+        "Highest temperature of liquid: 35°C"
+      ],
+      "max_diameter_mm": 70,
+      "well_diameter_mm": 80,
+      "well_diameter_in": 3,
+      "liquid_temp_C": 35,
+      "insulation_class": "B",
+      "model_code": {
+        "example_source_literal": "3 SP 1 22-0.55",
+        "parts": [
+          "Well diameter",
+          "3SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 80mm (3 in)"
+      },
+      "materials": null,
+      "evidence": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-p03-intro-top.png"
+    },
+    {
+      "page": 4,
+      "family": "3SP2",
+      "header": "3SP2 - SUBMERSIBLE PUMP",
+      "subtitle": "STAINLESS STEEL SUBMERSIBLE PUMPS",
+      "applications": [
+        "Water supply system",
+        "Booster",
+        "Garden and farm irrigation",
+        "Lowering underground water level",
+        "Various industrial applications"
+      ],
+      "pump_motor": [
+        "Adopted the NEMA standard",
+        "Insulation class: B",
+        "Protection grade: IP68",
+        "Maximum diameter Ø70mm",
+        "Highest temperature of liquid: 35°C"
+      ],
+      "max_diameter_mm": 70,
+      "well_diameter_mm": 80,
+      "well_diameter_in": 3,
+      "liquid_temp_C": 35,
+      "insulation_class": "B",
+      "model_code": {
+        "example_source_literal": "3 SP 2 17-0.55",
+        "parts": [
+          "Well diameter",
+          "3SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 80mm (3 in)"
+      },
+      "materials": null,
+      "evidence": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-p04-intro-top.png"
+    },
+    {
+      "page": 5,
+      "family": "4SP3",
+      "header": "4SP3 - SUBMERSIBLE PUMP",
+      "subtitle": "STAINLESS STEEL SUBMERSIBLE PUMPS",
+      "applications": [
+        "Water supply system",
+        "Booster",
+        "Garden and farm irrigation",
+        "Lowering underground water level",
+        "Various industrial applications"
+      ],
+      "pump_motor": [
+        "Adopted the NEMA standard",
+        "Insulation class: B",
+        "Protection grade: IP68",
+        "Maximum diameter Ø95mm",
+        "Highest temperature of liquid: 35°C"
+      ],
+      "max_diameter_mm": 95,
+      "well_diameter_mm": 100,
+      "well_diameter_in": 4,
+      "liquid_temp_C": 35,
+      "insulation_class": "B",
+      "model_code": {
+        "example_source_literal": "4 SP 3 18-1.1",
+        "parts": [
+          "Well diameter",
+          "4SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 100mm (4 in)"
+      },
+      "materials": null,
+      "evidence": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-p05-intro-top.png"
+    },
+    {
+      "page": 6,
+      "family": "4SP5",
+      "header": "4SP5 - SUBMERSIBLE PUMP",
+      "subtitle": "STAINLESS STEEL SUBMERSIBLE PUMPS",
+      "applications": [
+        "Water supply system",
+        "Booster",
+        "Garden and farm irrigation",
+        "Lowering underground water level",
+        "Various industrial applications"
+      ],
+      "pump_motor": [
+        "Adopted the NEMA standard",
+        "Insulation class: B",
+        "Protection grade: IP68",
+        "Maximum diameter Ø95mm",
+        "Highest temperature of liquid: 35°C"
+      ],
+      "max_diameter_mm": 95,
+      "well_diameter_mm": 100,
+      "well_diameter_in": 4,
+      "liquid_temp_C": 35,
+      "insulation_class": "B",
+      "model_code": {
+        "example_source_literal": "4 SP 5 12-1.1",
+        "parts": [
+          "Well diameter",
+          "4SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 100mm (4 in)"
+      },
+      "materials": null,
+      "evidence": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-p06-intro-top.png"
+    },
+    {
+      "page": 7,
+      "family": "4SP8",
+      "header": "4SP8 - SUBMERSIBLE PUMP",
+      "subtitle": "STAINLESS STEEL SUBMERSIBLE PUMPS",
+      "applications": [
+        "Water supply system",
+        "Booster",
+        "Garden and farm irrigation",
+        "Lowering underground water level",
+        "Various industrial applications"
+      ],
+      "pump_motor": [
+        "Adopted the NEMA standard",
+        "Insulation class: B",
+        "Protection grade: IP68",
+        "Maximum diameter Ø95mm",
+        "Highest temperature of liquid: 35°C"
+      ],
+      "max_diameter_mm": 95,
+      "well_diameter_mm": 100,
+      "well_diameter_in": 4,
+      "liquid_temp_C": 35,
+      "insulation_class": "B",
+      "model_code": {
+        "example_source_literal": "4 SP 8 07-1.1",
+        "parts": [
+          "Well diameter",
+          "4SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 100mm (4 in)"
+      },
+      "materials": null,
+      "evidence": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-p07-intro-top.png"
+    },
+    {
+      "page": 8,
+      "family": "4SP14",
+      "header": "4SP14 - SUBMERSIBLE PUMP",
+      "subtitle": "STAINLESS STEEL SUBMERSIBLE PUMPS",
+      "applications": [
+        "Water supply system",
+        "Booster",
+        "Garden and farm irrigation",
+        "Lowering underground water level",
+        "Various industrial applications"
+      ],
+      "pump_motor": [
+        "Adopted the NEMA standard",
+        "Insulation class: B",
+        "Protection grade: IP68",
+        "Maximum diameter Ø95mm",
+        "Highest temperature of liquid: 35°C"
+      ],
+      "max_diameter_mm": 95,
+      "well_diameter_mm": 100,
+      "well_diameter_in": 4,
+      "liquid_temp_C": 35,
+      "insulation_class": "B",
+      "model_code": {
+        "example_source_literal": "4 SP 14 07-2.2",
+        "parts": [
+          "Well diameter",
+          "4SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 100mm (4 in)"
+      },
+      "materials": null,
+      "evidence": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-p08-intro-top.png"
+    },
+    {
+      "page": 9,
+      "family": "5SP10",
+      "header": "5SP10 - SUBMERSIBLE PUMP",
+      "subtitle": "STAINLESS STEEL SUBMERSIBLE PUMPS",
+      "applications": [
+        "Water supply system",
+        "Booster",
+        "Garden and farm irrigation",
+        "Lowering underground water level",
+        "Various industrial applications"
+      ],
+      "pump_motor": [
+        "Adopted the NEMA standard",
+        "Insulation class: F",
+        "Protection grade: IP68",
+        "Maximum diameter Ø125mm",
+        "Highest temperature of liquid: 35°C"
+      ],
+      "max_diameter_mm": 125,
+      "well_diameter_mm": 130,
+      "well_diameter_in": 5,
+      "liquid_temp_C": 35,
+      "insulation_class": "F",
+      "model_code": {
+        "example_source_literal": "5 SP 10 8-04",
+        "parts": [
+          "Well diameter",
+          "5SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 130mm (5 in)"
+      },
+      "materials": null,
+      "evidence": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-p09-intro-top.png"
+    },
+    {
+      "page": 10,
+      "family": "5SP15",
+      "header": "5SP15 - SUBMERSIBLE PUMP",
+      "subtitle": "STAINLESS STEEL SUBMERSIBLE PUMPS",
+      "applications": [
+        "Water supply system",
+        "Booster",
+        "Garden and farm irrigation",
+        "Lowering underground water level",
+        "Various industrial applications"
+      ],
+      "pump_motor": [
+        "Adopted the NEMA standard",
+        "Insulation class: F",
+        "Protection grade: IP68",
+        "Maximum diameter Ø125mm",
+        "Highest temperature of liquid: 35°C"
+      ],
+      "max_diameter_mm": 125,
+      "well_diameter_mm": 130,
+      "well_diameter_in": 5,
+      "liquid_temp_C": 35,
+      "insulation_class": "F",
+      "model_code": {
+        "example_source_literal": "5 SP 15 7-4",
+        "parts": [
+          "Well diameter",
+          "5SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 130mm (5 in)"
+      },
+      "materials": null,
+      "evidence": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-p10-intro-top.png"
+    },
+    {
+      "page": 11,
+      "family": "5SP20",
+      "header": "5SP20 - SUBMERSIBLE PUMP",
+      "subtitle": "STAINLESS STEEL SUBMERSIBLE PUMPS",
+      "applications": [
+        "Water supply system",
+        "Booster",
+        "Garden and farm irrigation",
+        "Lowering underground water level",
+        "Various industrial applications"
+      ],
+      "pump_motor": [
+        "Adopted the NEMA standard",
+        "Insulation class: F",
+        "Protection grade: IP68",
+        "Maximum diameter Ø125mm",
+        "Highest temperature of liquid: 35°C"
+      ],
+      "max_diameter_mm": 125,
+      "well_diameter_mm": 130,
+      "well_diameter_in": 5,
+      "liquid_temp_C": 35,
+      "insulation_class": "F",
+      "model_code": {
+        "example_source_literal": "5 SP 20 6-4",
+        "parts": [
+          "Well diameter",
+          "5SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 130mm (5 in)"
+      },
+      "materials": null,
+      "evidence": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-p11-intro-top.png"
+    },
+    {
+      "page": 12,
+      "family": "5SP25",
+      "header": "5SP25 - SUBMERSIBLE PUMP",
+      "subtitle": "STAINLESS STEEL SUBMERSIBLE PUMPS",
+      "applications": [
+        "Water supply system",
+        "Booster",
+        "Garden and farm irrigation",
+        "Lowering underground water level",
+        "Various industrial applications"
+      ],
+      "pump_motor": [
+        "Adopted the NEMA standard",
+        "Insulation class: F",
+        "Protection grade: IP68",
+        "Maximum diameter Ø125mm",
+        "Highest temperature of liquid: 35°C"
+      ],
+      "max_diameter_mm": 125,
+      "well_diameter_mm": 130,
+      "well_diameter_in": 5,
+      "liquid_temp_C": 35,
+      "insulation_class": "F",
+      "model_code": {
+        "example_source_literal": "5 SP 25 7-5.5",
+        "parts": [
+          "Well diameter",
+          "5SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 130mm (5 in)"
+      },
+      "materials": null,
+      "evidence": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-p12-intro-top.png"
+    },
+    {
+      "page": 13,
+      "family": "5SP30",
+      "header": "5SP30 - SUBMERSIBLE PUMP",
+      "subtitle": "STAINLESS STEEL SUBMERSIBLE PUMPS",
+      "applications": [
+        "Water supply system",
+        "Booster",
+        "Garden and farm irrigation",
+        "Lowering underground water level",
+        "Various industrial applications"
+      ],
+      "pump_motor": [
+        "Adopted the NEMA standard",
+        "Insulation class: F",
+        "Protection grade: IP68",
+        "Maximum diameter Ø125mm",
+        "Highest temperature of liquid: 35°C"
+      ],
+      "max_diameter_mm": 125,
+      "well_diameter_mm": 130,
+      "well_diameter_in": 5,
+      "liquid_temp_C": 35,
+      "insulation_class": "F",
+      "model_code": {
+        "example_source_literal": "5 SP 30 8-7.5",
+        "parts": [
+          "Well diameter",
+          "5SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 130mm (5 in)"
+      },
+      "materials": null,
+      "evidence": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-p13-intro-top.png"
+    }
+  ],
+  "large_families": [
+    {
+      "page": 14,
+      "performance_page": 15,
+      "family": "6SP20",
+      "header": "6SP20 - SUBMERSIBLE PUMPS",
+      "applications": [
+        "For water supply from wells or reservoirs",
+        "For domestic use, for civil and industrial applications",
+        "For garden use and irrigation"
+      ],
+      "operating_conditions": [
+        "Maximum fluid temperature up to +50°C",
+        "Maximum sand content: 0.25%",
+        "Minimum well diameter: 6 in"
+      ],
+      "motor_and_pump": [
+        "Rewindable motor or Full obturated screen motor",
+        "Direct start (1 cable)",
+        "Star-delta start (2 cables)",
+        "Equip with start control box or digital auto-control box",
+        "NEMA dimension standards",
+        "Curve tolerance according to ISO2548",
+        "Maximum diameter Ø130mm"
+      ],
+      "max_diameter_mm": [
+        130
+      ],
+      "well_diameter_mm": 150,
+      "well_diameter_in": 6,
+      "liquid_temp_C": 50,
+      "sand_percent": 0.25,
+      "warranty": {
+        "years": 2,
+        "condition": "according to our general sales conditions"
+      },
+      "model_code": {
+        "example_source_literal": "6 SP 20 8-5.5",
+        "parts": [
+          "Well diameter",
+          "6SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 150mm (6 in)"
+      },
+      "materials": [
+        [
+          "Delivery casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Check valve",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Suction lantern",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Stage casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Impeller",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Shaft",
+          "AISI 316ss"
+        ],
+        [
+          "Shaft coupling",
+          "AISI 316ss"
+        ],
+        [
+          "Wear ring",
+          "Rubber"
+        ],
+        [
+          "Motor external casing",
+          "AISI 304ss"
+        ],
+        [
+          "Top cover",
+          "Cast iron G20 UNI5007 / AISI 304ss"
+        ],
+        [
+          "Seal",
+          "NBR / Carbon-SIC/TC"
+        ],
+        [
+          "Motor shaft",
+          "AISI 304ss-C1045"
+        ],
+        [
+          "Thrust bearing",
+          "Ceramic/Carbon / NSK"
+        ],
+        [
+          "Radial bearing",
+          "Ceramic/TC / NSK"
+        ]
+      ],
+      "evidence": "work/sp_three_brands/aquaris_independent/final/page-14.png"
+    },
+    {
+      "page": 16,
+      "performance_page": 17,
+      "family": "6SP30",
+      "header": "6SP30 - SUBMERSIBLE PUMPS",
+      "applications": [
+        "For water supply from wells or reservoirs",
+        "For domestic use, for civil and industrial applications",
+        "For garden use and irrigation"
+      ],
+      "operating_conditions": [
+        "Maximum fluid temperature up to +50°C",
+        "Maximum sand content: 0.25%",
+        "Minimum well diameter: 6 in"
+      ],
+      "motor_and_pump": [
+        "Rewindable motor or Full obturated screen motor",
+        "Direct start (1 cable)",
+        "Star-delta start (2 cables)",
+        "Equip with start control box or digital auto-control box",
+        "NEMA dimension standards",
+        "Curve tolerance according to ISO2548",
+        "Maximum diameter Ø130mm or Ø135mm"
+      ],
+      "max_diameter_mm": [
+        130,
+        135
+      ],
+      "well_diameter_mm": 150,
+      "well_diameter_in": 6,
+      "liquid_temp_C": 50,
+      "sand_percent": 0.25,
+      "warranty": {
+        "years": 2,
+        "condition": "according to our general sales conditions"
+      },
+      "model_code": {
+        "example_source_literal": "6 SP 30 12-11",
+        "parts": [
+          "Well diameter",
+          "6SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 150mm (6 in)"
+      },
+      "materials": [
+        [
+          "Delivery casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Check valve",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Suction lantern",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Stage casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Impeller",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Shaft",
+          "AISI 316ss"
+        ],
+        [
+          "Shaft coupling",
+          "AISI 316ss"
+        ],
+        [
+          "Wear ring",
+          "Rubber"
+        ],
+        [
+          "Motor external casing",
+          "AISI 304ss"
+        ],
+        [
+          "Top cover",
+          "Cast iron G20 UNI5007 / AISI 304ss"
+        ],
+        [
+          "Seal",
+          "NBR / Carbon-SIC/TC"
+        ],
+        [
+          "Motor shaft",
+          "AISI 304ss-C1045"
+        ],
+        [
+          "Thrust bearing",
+          "Ceramic/Carbon / NSK"
+        ],
+        [
+          "Radial bearing",
+          "Ceramic/TC / NSK"
+        ]
+      ],
+      "evidence": "work/sp_three_brands/aquaris_independent/final/page-16.png"
+    },
+    {
+      "page": 18,
+      "performance_page": 19,
+      "family": "6SP46",
+      "header": "6SP46 - SUBMERSIBLE PUMPS",
+      "applications": [
+        "For water supply from wells or reservoirs",
+        "For domestic use, for civil and industrial applications",
+        "For garden use and irrigation"
+      ],
+      "operating_conditions": [
+        "Maximum fluid temperature up to +50°C",
+        "Maximum sand content: 0.25%",
+        "Minimum well diameter: 6 in"
+      ],
+      "motor_and_pump": [
+        "Rewindable motor or Full obturated screen motor",
+        "Direct start (1 cable)",
+        "Star-delta start (2 cables)",
+        "Equip with start control box or digital auto-control box",
+        "NEMA dimension standards",
+        "Curve tolerance according to ISO2548",
+        "Maximum diameter Ø142mm"
+      ],
+      "max_diameter_mm": [
+        142
+      ],
+      "well_diameter_mm": 150,
+      "well_diameter_in": 6,
+      "liquid_temp_C": 50,
+      "sand_percent": 0.25,
+      "warranty": {
+        "years": 2,
+        "condition": "according to our general sales conditions"
+      },
+      "model_code": {
+        "example_source_literal": "6 SP 46 7-11",
+        "parts": [
+          "Well diameter",
+          "6SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 150mm (6 in)"
+      },
+      "materials": [
+        [
+          "Delivery casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Check valve",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Suction lantern",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Stage casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Impeller",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Shaft",
+          "AISI 316ss"
+        ],
+        [
+          "Shaft coupling",
+          "AISI 316ss"
+        ],
+        [
+          "Wear ring",
+          "Rubber"
+        ],
+        [
+          "Motor external casing",
+          "AISI 304ss"
+        ],
+        [
+          "Top cover",
+          "Cast iron G20 UNI5007 / AISI 304ss"
+        ],
+        [
+          "Seal",
+          "NBR / Carbon-SIC/TC"
+        ],
+        [
+          "Motor shaft",
+          "AISI 304ss-C1045"
+        ],
+        [
+          "Thrust bearing",
+          "Ceramic/Carbon / NSK"
+        ],
+        [
+          "Radial bearing",
+          "Ceramic/TC / NSK"
+        ]
+      ],
+      "evidence": "work/sp_three_brands/aquaris_independent/final/page-18.png"
+    },
+    {
+      "page": 20,
+      "performance_page": 21,
+      "family": "6SP60",
+      "header": "6SP60 - SUBMERSIBLE PUMPS",
+      "applications": [
+        "For water supply from wells or reservoirs",
+        "For domestic use, for civil and industrial applications",
+        "For garden use and irrigation"
+      ],
+      "operating_conditions": [
+        "Maximum fluid temperature up to +50°C",
+        "Maximum sand content: 0.25%",
+        "Minimum well diameter: 6 in"
+      ],
+      "motor_and_pump": [
+        "Rewindable motor or Full obturated screen motor",
+        "Direct start (1 cable)",
+        "Star-delta start (2 cables)",
+        "Equip with start control box or digital auto-control box",
+        "NEMA dimension standards",
+        "Curve tolerance according to ISO2548",
+        "Maximum diameter Ø142mm"
+      ],
+      "max_diameter_mm": [
+        142
+      ],
+      "well_diameter_mm": 150,
+      "well_diameter_in": 6,
+      "liquid_temp_C": 50,
+      "sand_percent": 0.25,
+      "warranty": {
+        "years": 2,
+        "condition": "according to our general sales conditions"
+      },
+      "model_code": {
+        "example_source_literal": "6 SP 60 6-11",
+        "parts": [
+          "Well diameter",
+          "6SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 150mm (6 in)"
+      },
+      "materials": [
+        [
+          "Delivery casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Check valve",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Suction lantern",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Stage casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Impeller",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Shaft",
+          "AISI 316ss"
+        ],
+        [
+          "Shaft coupling",
+          "AISI 316ss"
+        ],
+        [
+          "Wear ring",
+          "Rubber"
+        ],
+        [
+          "Motor external casing",
+          "AISI 304ss"
+        ],
+        [
+          "Top cover",
+          "Cast iron G20 UNI5007 / AISI 304ss"
+        ],
+        [
+          "Seal",
+          "NBR / Carbon-SIC/TC"
+        ],
+        [
+          "Motor shaft",
+          "AISI 304ss-C1045"
+        ],
+        [
+          "Thrust bearing",
+          "Ceramic/Carbon / NSK"
+        ],
+        [
+          "Radial bearing",
+          "Ceramic/TC / NSK"
+        ]
+      ],
+      "evidence": "work/sp_three_brands/aquaris_independent/final/page-20.png"
+    },
+    {
+      "page": 22,
+      "performance_page": 23,
+      "family": "8SP77",
+      "header": "8SP77 - SUBMERSIBLE PUMPS",
+      "applications": [
+        "For water supply from wells or reservoirs",
+        "For domestic use, for civil and industrial applications",
+        "For garden use and irrigation"
+      ],
+      "operating_conditions": [
+        "Maximum fluid temperature up to +50°C",
+        "Maximum sand content: 0.25%",
+        "Minimum well diameter: 8 in"
+      ],
+      "motor_and_pump": [
+        "Rewindable motor or Full obturated screen motor",
+        "Direct start (1 cable)",
+        "Star-delta start (2 cables)",
+        "Equip with start control box or digital auto-control box",
+        "NEMA dimension standards",
+        "Curve tolerance according to ISO2548",
+        "Maximum diameter Ø175mm"
+      ],
+      "max_diameter_mm": [
+        175
+      ],
+      "well_diameter_mm": 200,
+      "well_diameter_in": 8,
+      "liquid_temp_C": 50,
+      "sand_percent": 0.25,
+      "warranty": {
+        "years": 2,
+        "condition": "according to our general sales conditions"
+      },
+      "model_code": {
+        "example_source_literal": "8 SP 77 3-11",
+        "parts": [
+          "Well diameter",
+          "8SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 200mm (8 in)"
+      },
+      "materials": [
+        [
+          "Delivery casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Check valve",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Suction lantern",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Stage casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Impeller",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Shaft",
+          "AISI 316ss"
+        ],
+        [
+          "Shaft coupling",
+          "AISI 316ss"
+        ],
+        [
+          "Wear ring",
+          "Rubber"
+        ],
+        [
+          "Motor external casing",
+          "AISI 304ss"
+        ],
+        [
+          "Top cover",
+          "Cast iron G20 UNI5007 / AISI 304ss"
+        ],
+        [
+          "Seal",
+          "NBR / Carbon-SIC/TC"
+        ],
+        [
+          "Motor shaft",
+          "AISI 304ss-C1045"
+        ],
+        [
+          "Thrust bearing",
+          "Ceramic/Carbon / NSK"
+        ],
+        [
+          "Radial bearing",
+          "Ceramic/TC / NSK"
+        ]
+      ],
+      "evidence": "work/sp_three_brands/aquaris_independent/final/page-22.png"
+    },
+    {
+      "page": 24,
+      "performance_page": 25,
+      "family": "8SP95",
+      "header": "8SP95 - SUBMERSIBLE PUMPS",
+      "applications": [
+        "For water supply from wells or reservoirs",
+        "For domestic use, for civil and industrial applications",
+        "For garden use and irrigation"
+      ],
+      "operating_conditions": [
+        "Maximum fluid temperature up to +50°C",
+        "Maximum sand content: 0.25%",
+        "Minimum well diameter: 8 in"
+      ],
+      "motor_and_pump": [
+        "Rewindable motor or Full obturated screen motor",
+        "Direct start (1 cable)",
+        "Star-delta start (2 cables)",
+        "Equip with start control box or digital auto-control box",
+        "NEMA dimension standards",
+        "Curve tolerance according to ISO2548",
+        "Maximum diameter Ø175mm"
+      ],
+      "max_diameter_mm": [
+        175
+      ],
+      "well_diameter_mm": 200,
+      "well_diameter_in": 8,
+      "liquid_temp_C": 50,
+      "sand_percent": 0.25,
+      "warranty": {
+        "years": 2,
+        "condition": "according to our general sales conditions"
+      },
+      "model_code": {
+        "example_source_literal": "8 SP 95 5-22",
+        "parts": [
+          "Well diameter",
+          "8SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 200mm (8 in)"
+      },
+      "materials": [
+        [
+          "Delivery casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Check valve",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Suction lantern",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Stage casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Impeller",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Shaft",
+          "AISI 316ss"
+        ],
+        [
+          "Shaft coupling",
+          "AISI 316ss"
+        ],
+        [
+          "Wear ring",
+          "Rubber"
+        ],
+        [
+          "Motor external casing",
+          "AISI 304ss"
+        ],
+        [
+          "Top cover",
+          "Cast iron G20 UNI5007 / AISI 304ss"
+        ],
+        [
+          "Seal",
+          "NBR / Carbon-SIC/TC"
+        ],
+        [
+          "Motor shaft",
+          "AISI 304ss-C1045"
+        ],
+        [
+          "Thrust bearing",
+          "Ceramic/Carbon / NSK"
+        ],
+        [
+          "Radial bearing",
+          "Ceramic/TC / NSK"
+        ]
+      ],
+      "evidence": "work/sp_three_brands/aquaris_independent/final/page-24.png"
+    },
+    {
+      "page": 26,
+      "performance_page": 27,
+      "family": "8SP120",
+      "header": "8SP120 - SUBMERSIBLE PUMPS",
+      "applications": [
+        "For water supply from wells or reservoirs",
+        "For domestic use, for civil and industrial applications",
+        "For garden use and irrigation"
+      ],
+      "operating_conditions": [
+        "Maximum fluid temperature up to +50°C",
+        "Maximum sand content: 0.25%",
+        "Minimum well diameter: 8 in"
+      ],
+      "motor_and_pump": [
+        "Rewindable motor or Full obturated screen motor",
+        "Direct start (1 cable)",
+        "Star-delta start (2 cables)",
+        "Equip with start control box or digital auto-control box",
+        "NEMA dimension standards",
+        "Curve tolerance according to ISO2548",
+        "Maximum diameter Ø175mm"
+      ],
+      "max_diameter_mm": [
+        175
+      ],
+      "well_diameter_mm": 200,
+      "well_diameter_in": 8,
+      "liquid_temp_C": 50,
+      "sand_percent": 0.25,
+      "warranty": {
+        "years": 2,
+        "condition": "according to our general sales conditions"
+      },
+      "model_code": {
+        "example_source_literal": "8 SP 120 5-30",
+        "parts": [
+          "Well diameter",
+          "8SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 200mm (8 in)"
+      },
+      "materials": [
+        [
+          "Delivery casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Check valve",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Suction lantern",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Stage casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Impeller",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Shaft",
+          "AISI 316ss"
+        ],
+        [
+          "Shaft coupling",
+          "AISI 316ss"
+        ],
+        [
+          "Wear ring",
+          "Rubber"
+        ],
+        [
+          "Motor external casing",
+          "AISI 304ss"
+        ],
+        [
+          "Top cover",
+          "Cast iron G20 UNI5007 / AISI 304ss"
+        ],
+        [
+          "Seal",
+          "NBR / Carbon-SIC/TC"
+        ],
+        [
+          "Motor shaft",
+          "AISI 304ss-C1045"
+        ],
+        [
+          "Thrust bearing",
+          "Ceramic/Carbon / NSK"
+        ],
+        [
+          "Radial bearing",
+          "Ceramic/TC / NSK"
+        ]
+      ],
+      "evidence": "work/sp_three_brands/aquaris_independent/final/page-26.png"
+    },
+    {
+      "page": 28,
+      "performance_page": 29,
+      "family": "10SP125",
+      "header": "10SP125 - SUBMERSIBLE PUMPS",
+      "applications": [
+        "For water supply from wells or reservoirs",
+        "For domestic use, for civil and industrial applications",
+        "For garden use and irrigation"
+      ],
+      "operating_conditions": [
+        "Maximum fluid temperature up to +50°C",
+        "Maximum sand content: 0.25%",
+        "Minimum well diameter: 10 in"
+      ],
+      "motor_and_pump": [
+        "Rewindable motor or Full obturated screen motor",
+        "Direct start (1 cable)",
+        "Star-delta start (2 cables)",
+        "Equip with start control box or digital auto-control box",
+        "NEMA dimension standards",
+        "Curve tolerance according to ISO2548",
+        "Maximum diameter Ø210mm"
+      ],
+      "max_diameter_mm": [
+        210
+      ],
+      "well_diameter_mm": 250,
+      "well_diameter_in": 10,
+      "liquid_temp_C": 50,
+      "sand_percent": 0.25,
+      "warranty": {
+        "years": 2,
+        "condition": "according to our general sales conditions"
+      },
+      "model_code": {
+        "example_source_literal": "10 SP 125 5-55",
+        "parts": [
+          "Well diameter",
+          "10SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 250mm (10 in)"
+      },
+      "materials": [
+        [
+          "Delivery casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Check valve",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Suction lantern",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Stage casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Impeller",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Shaft",
+          "AISI 316ss"
+        ],
+        [
+          "Shaft coupling",
+          "AISI 316ss"
+        ],
+        [
+          "Wear ring",
+          "Rubber"
+        ],
+        [
+          "Motor external casing",
+          "AISI 304ss"
+        ],
+        [
+          "Top cover",
+          "Cast iron G20 UNI5007 / AISI 304ss"
+        ],
+        [
+          "Seal",
+          "NBR / Carbon-SIC/TC"
+        ],
+        [
+          "Motor shaft",
+          "AISI 304ss-C1045"
+        ],
+        [
+          "Thrust bearing",
+          "Ceramic/Carbon / NSK"
+        ],
+        [
+          "Radial bearing",
+          "Ceramic/TC / NSK"
+        ]
+      ],
+      "evidence": "work/sp_three_brands/aquaris_independent/final/page-28.png"
+    },
+    {
+      "page": 30,
+      "performance_page": 31,
+      "family": "10SP160",
+      "header": "10SP160 - SUBMERSIBLE PUMPS",
+      "applications": [
+        "For water supply from wells or reservoirs",
+        "For domestic use, for civil and industrial applications",
+        "For garden use and irrigation"
+      ],
+      "operating_conditions": [
+        "Maximum fluid temperature up to +50°C",
+        "Maximum sand content: 0.25%",
+        "Minimum well diameter: 10 in"
+      ],
+      "motor_and_pump": [
+        "Rewindable motor or Full obturated screen motor",
+        "Direct start (1 cable)",
+        "Star-delta start (2 cables)",
+        "Equip with start control box or digital auto-control box",
+        "NEMA dimension standards",
+        "Curve tolerance according to ISO2548",
+        "Maximum diameter Ø210mm"
+      ],
+      "max_diameter_mm": [
+        210
+      ],
+      "well_diameter_mm": 250,
+      "well_diameter_in": 10,
+      "liquid_temp_C": 50,
+      "sand_percent": 0.25,
+      "warranty": {
+        "years": 2,
+        "condition": "according to our general sales conditions"
+      },
+      "model_code": {
+        "example_source_literal": "10 SP 160 5-63",
+        "parts": [
+          "Well diameter",
+          "10SP Series stainless steel submersible pump",
+          "Capacity (m³/h)",
+          "Stage",
+          "Motor power (kW)"
+        ],
+        "well_label_source": "Well diameter: 250mm (10 in)"
+      },
+      "materials": [
+        [
+          "Delivery casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Check valve",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Suction lantern",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Stage casing",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Impeller",
+          "AISI 304 / AISI 316ss"
+        ],
+        [
+          "Shaft",
+          "AISI 316ss"
+        ],
+        [
+          "Shaft coupling",
+          "AISI 316ss"
+        ],
+        [
+          "Wear ring",
+          "Rubber"
+        ],
+        [
+          "Motor external casing",
+          "AISI 304ss"
+        ],
+        [
+          "Top cover",
+          "Cast iron G20 UNI5007 / AISI 304ss"
+        ],
+        [
+          "Seal",
+          "NBR / Carbon-SIC/TC"
+        ],
+        [
+          "Motor shaft",
+          "AISI 304ss-C1045"
+        ],
+        [
+          "Thrust bearing",
+          "Ceramic/Carbon / NSK"
+        ],
+        [
+          "Radial bearing",
+          "Ceramic/TC / NSK"
+        ]
+      ],
+      "evidence": "work/sp_three_brands/aquaris_independent/final/page-30.png"
+    }
+  ],
+  "page_map": [
+    {
+      "page": 1,
+      "type": "cover",
+      "title": "AQUARIS SUBMERSIBLE PUMP"
+    },
+    {
+      "page": 2,
+      "type": "contents"
+    },
+    {
+      "page": 3,
+      "type": "intro_performance",
+      "family": "3SP1"
+    },
+    {
+      "page": 4,
+      "type": "intro_performance",
+      "family": "3SP2"
+    },
+    {
+      "page": 5,
+      "type": "intro_performance",
+      "family": "4SP3"
+    },
+    {
+      "page": 6,
+      "type": "intro_performance",
+      "family": "4SP5"
+    },
+    {
+      "page": 7,
+      "type": "intro_performance",
+      "family": "4SP8"
+    },
+    {
+      "page": 8,
+      "type": "intro_performance",
+      "family": "4SP14"
+    },
+    {
+      "page": 9,
+      "type": "intro_performance",
+      "family": "5SP10"
+    },
+    {
+      "page": 10,
+      "type": "intro_performance",
+      "family": "5SP15"
+    },
+    {
+      "page": 11,
+      "type": "intro_performance",
+      "family": "5SP20"
+    },
+    {
+      "page": 12,
+      "type": "intro_performance",
+      "family": "5SP25"
+    },
+    {
+      "page": 13,
+      "type": "intro_performance",
+      "family": "5SP30"
+    },
+    {
+      "page": 14,
+      "type": "intro_materials",
+      "family": "6SP20"
+    },
+    {
+      "page": 15,
+      "type": "performance",
+      "family": "6SP20"
+    },
+    {
+      "page": 16,
+      "type": "intro_materials",
+      "family": "6SP30"
+    },
+    {
+      "page": 17,
+      "type": "performance",
+      "family": "6SP30"
+    },
+    {
+      "page": 18,
+      "type": "intro_materials",
+      "family": "6SP46"
+    },
+    {
+      "page": 19,
+      "type": "performance",
+      "family": "6SP46"
+    },
+    {
+      "page": 20,
+      "type": "intro_materials",
+      "family": "6SP60"
+    },
+    {
+      "page": 21,
+      "type": "performance",
+      "family": "6SP60"
+    },
+    {
+      "page": 22,
+      "type": "intro_materials",
+      "family": "8SP77"
+    },
+    {
+      "page": 23,
+      "type": "performance",
+      "family": "8SP77"
+    },
+    {
+      "page": 24,
+      "type": "intro_materials",
+      "family": "8SP95"
+    },
+    {
+      "page": 25,
+      "type": "performance",
+      "family": "8SP95"
+    },
+    {
+      "page": 26,
+      "type": "intro_materials",
+      "family": "8SP120"
+    },
+    {
+      "page": 27,
+      "type": "performance",
+      "family": "8SP120"
+    },
+    {
+      "page": 28,
+      "type": "intro_materials",
+      "family": "10SP125"
+    },
+    {
+      "page": 29,
+      "type": "performance",
+      "family": "10SP125"
+    },
+    {
+      "page": 30,
+      "type": "intro_materials",
+      "family": "10SP160"
+    },
+    {
+      "page": 31,
+      "type": "performance",
+      "family": "10SP160"
+    }
+  ],
+  "dimension_tables": {
+    "separate_tables": 0,
+    "note": "Length/weight are embedded in performance tables; assigned to dataset agent. Do not substitute Perotac dimensions."
+  },
+  "retained_source_terms": [
+    "Full obturated screen motor",
+    "ISO2548",
+    "Top cover is not Top chock; retain Top cover",
+    "AISI 304ss-C1045",
+    "Well 3in=80mm,4in=100mm,5in=130mm as literal source labels"
+  ],
+  "uncertainties": [
+    {
+      "family": "5SP10",
+      "field": "model_code.example_source_literal",
+      "literal": "8-04",
+      "note": "Source literally shows 04 for power example. Preserve as source example unless coordinator normalizes 04 to 4; no change in magnitude."
+    }
+  ]
+}

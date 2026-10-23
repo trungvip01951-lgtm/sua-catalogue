@@ -1,0 +1,95 @@
+﻿PROMPT NHÓM G13 – Aquaris trục ngang CM
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('Aquaris truc ngang CM (bản mới).pdf')   (thư mục Trục ngang)
+  Ra:  S.dst('Aquaris truc ngang CM (bản mới).pdf')   → job = S.job('Aquaris truc ngang CM (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–3: CHỮ THẬT; trang 4: CHỮ THẬT + CHỮ NÉT VẼ
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 108 | SỬA | Aquaris truc ngang CM.pdf | 1 | Đoạn tiếng Anh | "temperatures not higher thaCM 80°C" (lỗi thay chữ N→CM) | than 80°C | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 109 | SỬA | Aquaris truc ngang CM.pdf | 1 | Đoạn tiếng Ý/Pháp | Chữ đè lên nhau: "supporto in ghisa G20", "support en fonte G20" | Tách chữ | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 110 | SỬA | Aquaris truc ngang CM.pdf | 4 | Ô tiêu đề biểu đồ | "N" (tên dòng gốc) | CM | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 111 | SỬA | Aquaris truc ngang CM.pdf | 4 | Bảng linh kiện | "Girante - Impeller (N 32/200 A-B - N 40 - N 50 - N 65 - N 80)", "Piedino - Foot (N 40-160 A B - N 50-125 A B)" | Đổi "N" → "CM" theo tên mới, bỏ A/B (vd "N 32/160 A-B" → "CM 32-200/3 – /4") | Anh Trung chốt 02/10 (đổi tên CM) |
+| 112 | GIỮ NGUYÊN (không đụng) | Aquaris truc ngang CM.pdf | 4 | Bảng linh kiện | Số 46 dùng cho 2 chi tiết (Piedino Plastica / Piedino FE) | Giữ số 46 cho cả 2 chân đế, ghi rõ: chân nhựa cho CM 40-160 và CM 50-125, chân sắt cho các model khác | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 113 | SỬA | Aquaris truc ngang CM.pdf | 2 | Bảng kích thước | T = "724,50" (các ô khác số nguyên) | 724.5 | Quy tắc chung (anh chốt: áp tất cả catalogue) |
+| 153 | GIỮ NGUYÊN (không đụng) | Aquaris truc ngang CM.pdf | 2 | Bảng đóng gói CM 80-160 B, CM 80-160 F | 810x530x360; 660x530x350 | Giữ kích thước; chỉ đổi tên model (xem sheet "Tên CM mới") | NV trả lời (file câu hỏi 02/10) |
+| 154 | SỬA | Aquaris truc ngang CM.pdf | 1, 2, 3, 4 | Tên model ở mọi bảng, phần mô tả 3 thứ tiếng, bảng linh kiện | CM 32-160 B … CM 80-200 A (36 model) | Tên mới dạng "CM cỡ/công suất kW" (xem sheet "Tên CM mới"); 9,5 kW → 9.2; trang 1 bỏ hết A, B, C | Anh Trung chốt 02/10 |
+| 155 | SỬA | Aquaris truc ngang CM.pdf | 1 | Sơ đồ giải thích ký hiệu model | CM 80 160 B (B = loại cánh) | Bỏ chữ B và chú thích của nó, thay bằng công suất (kW) | Anh Trung chốt 02/10 |
+| 156 | SỬA | Aquaris truc ngang CM.pdf | 1–4 | Dấu thập phân (khoảng 350 số) | Dấu phẩy (43,5) | Dấu chấm (43.5) | Anh Trung chốt 02/10 |
+
+Số việc phải SỬA: 8. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+BẢNG ĐỔI TÊN MODEL CM (áp dụng ở mọi chỗ trong file):
+
+| Tên hiện tại | kW | Tên mới | Ghi chú |
+|---|---|---|---|
+| CM 32-160 B | 3 | CM 32-200/3 | Đổi cỡ theo anh chốt |
+| CM 32-160 A | 4 | CM 32-200/4 | Đổi cỡ theo anh chốt |
+| CM 32-200 B | 5,5 | CM 32-250/5.5 | Đổi cỡ theo anh chốt |
+| CM 32-200 A | 7,5 | CM 32-250/7.5 | Đổi cỡ theo anh chốt |
+| CM 40-160 B | 3 | CM 40-160/3 |  |
+| CM 40-160 A | 4 | CM 40-160/4 |  |
+| CM 40-200 B | 5,5 | CM 40-200/5.5 |  |
+| CM 40-200 A | 7,5 | CM 40-200/7.5 |  |
+| CM 40-250 B | 11 | CM 40-250/11 |  |
+| CM 40-250 A | 15 | CM 40-250/15 |  |
+| CM 50-125 B | 3 | CM 50-125/3 |  |
+| CM 50-125 A | 4 | CM 50-125/4 |  |
+| CM 50-160 B | 5,5 | CM 50-160/5.5 |  |
+| CM 50-160 A | 7,5 | CM 50-160/7.5 |  |
+| CM 50-200 C | 9,5 | CM 50-200/9.2 | 9,5 kW → 9.2 (cỡ chuẩn) |
+| CM 50-200 B | 11 | CM 50-200/11 |  |
+| CM 50-200 A | 15 | CM 50-200/15 |  |
+| CM 50-250 B | 18,5 | CM 50-250/18.5 |  |
+| CM 50-250 A | 22 | CM 50-250/22 |  |
+| CM 65-125 B | 5,5 | CM 65-125/5.5 |  |
+| CM 65-125 A | 7,5 | CM 65-125/7.5 |  |
+| CM 65-160 C | 9,5 | CM 65-160/9.2 | 9,5 kW → 9.2 (cỡ chuẩn) |
+| CM 65-160 B | 11 | CM 65-160/11 |  |
+| CM 65-160 A | 15 | CM 65-160/15 |  |
+| CM 65-200 B | 18,5 | CM 65-200/18.5 |  |
+| CM 65-200 A | 22 | CM 65-200/22 |  |
+| CM 65-250 B | 30 | CM 65-250/30 |  |
+| CM 65-250 A | 37 | CM 65-250/37 |  |
+| CM 80-160 F | 7,5 | CM 80-160/7.5 |  |
+| CM 80-160 E | 9,5 | CM 80-160/9.2 | 9,5 kW → 9.2 (cỡ chuẩn) |
+| CM 80-160 D | 11 | CM 80-160/11 |  |
+| CM 80-160 C | 15 | CM 80-160/15 |  |
+| CM 80-160 B | 18,5 | CM 80-160/18.5 |  |
+| CM 80-160 A | 22 | CM 80-160/22 |  |
+| CM 80-200 B | 30 | CM 80-200/30 |  |
+| CM 80-200 A | 37 | CM 80-200/37 |  |
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- 4 trang, CHỮ THẬT (font Univers… rút gọn). Việc lớn nhất: ĐỔI TÊN 36 MODEL theo bảng "Tên CM mới" (in bên dưới)
+  ở MỌI chỗ: bảng thông số, bảng kích thước, bảng đóng gói, phần mô tả 3 thứ tiếng, bảng linh kiện.
+  Đổi theo bảng tra, KHÔNG suy diễn. Ô bảng căn giữa → align='center'.
+- #156 dấu thập phân: mọi số dạng "43,5" → "43.5" (khoảng 350 số; regex r'(\d),(\d)'); đếm số chỗ trước/sau.
+- #108 trang 1 tiếng Anh: "thaCM 80°C" → "than 80°C". #109 trang 1: tách chữ chồng nhau "supporto in ghisa G20",
+  "support en fonte G20" (dời chữ cho đúng khoảng cách, không đổi chữ).
+- #110 trang 4 ô tiêu đề biểu đồ "N" → "CM". #111 trang 4 bảng linh kiện: đổi "N" → "CM" và tên theo bảng mới, bỏ A/B
+  (vd "N 32/160 A-B" → "CM 32-200/3 – /4"). #112: giữ số 46, ghi rõ chân nhựa cho CM 40-160 và CM 50-125, chân sắt cho
+  các model khác (đề xuất câu, gửi duyệt). #113 trang 2: "724,50" → "724.5".
+- #154 trang 1: bỏ hết chữ A, B, C trong tên model. #155 sơ đồ ký hiệu model "CM 80 160 B": bỏ chữ B và chú thích
+  của nó, thay bằng công suất (kW) – làm mẫu gửi duyệt. #153: chỉ đổi tên, giữ kích thước.
+- Font rút gọn có thể thiếu ký tự (vd '/', '.', số) ở một font → dùng ref cùng font khác cỡ/đoạn khác; báo nếu thiếu.
+
+ĐÃ DÒ THỬ BẰNG catfix (để bạn đối chiếu – toạ độ pt, gốc dưới trái; n = số chỗ tìm thấy):
+- Aquaris truc ngang CM.pdf, trang 1, tìm 'thaCM' → n=1 "these pumps are used to carry only chemically pure liquids a" tại [390.5, 163.3, 409.7, 171.3]
+- Aquaris truc ngang CM.pdf, trang 1, tìm 'CM 32-160 B' → n=0 (chưa thấy – thử dump/teach/regex, hoặc chữ nằm ở dạng khác: chữ thật/nét vẽ/ảnh)
+- Aquaris truc ngang CM.pdf, trang 1, tìm 'CM 80 160 B' → n=0 (chưa thấy – thử dump/teach/regex, hoặc chữ nằm ở dạng khác: chữ thật/nét vẽ/ảnh)
+- Aquaris truc ngang CM.pdf, trang 1, tìm 'ghisa' → n=1 "POMPA: Pompa ad asse orizzontale con girante in ottone per l" tại [300.0, 226.4, 315.2, 234.1]
+- Aquaris truc ngang CM.pdf, trang 1, tìm 'fonte' → n=2 "POMPE : Pompe à axe horizontal avec couronne en laiton pour " tại [301.2, 73.3, 316.0, 81.3]; "POMPE : Pompe à axe horizontal avec couronne en laiton pour " tại [461.5, 73.3, 476.3, 81.3]
+- Aquaris truc ngang CM.pdf, trang 2, tìm '724,50' → n=2 "CM 50-250 B 100 405 180 225 332 125 95 320 250 65 15 724,50 " tại [296.8, 392.7, 312.6, 400.4]; "CM 50-250 A 100 405 180 225 332 125 95 320 250 65 15 724,50 " tại [296.8, 379.6, 312.6, 387.4]
+- Aquaris truc ngang CM.pdf, trang 2, tìm 'CM 80-160 F' → n=1 "CM 80-160 F 125 405 180 225 328 125 95 320 250 65 15 595 100" tại [33.9, 249.2, 72.5, 257.0]
+- Aquaris truc ngang CM.pdf, trang 2, tìm '810x530x360' → n=0 (chưa thấy – thử dump/teach/regex, hoặc chữ nằm ở dạng khác: chữ thật/nét vẽ/ảnh)
+- Aquaris truc ngang CM.pdf, trang 4, tìm 'Girante' → n=2 "10 Girante - Impeller (N 32/160 A-B)" tại [47.0, 162.7, 63.0, 168.5]; "10 Girante - Impeller (N 32/200 A-B - N 40 - N 50 - N 65 - N" tại [47.0, 152.8, 63.0, 158.6]
+- Aquaris truc ngang CM.pdf, trang 4, tìm 'Piedino' → n=2 "46 Piedino - Foot (N 40-160 A B - N 50-125 A B)" tại [319.1, 73.4, 335.1, 79.2]; "46 Piedino - Foot" tại [319.1, 63.5, 335.1, 69.3]
+- Aquaris truc ngang CM.pdf, trang 4, tìm 'N 32/200' → n=1 "10 Girante - Impeller (N 32/200 A-B - N 40 - N 50 - N 65 - N" tại [87.7, 152.8, 108.0, 158.6]
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G13.png") và báo cáo S.report("BAO CAO G13.md"); ghi S.progress("G13", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

@@ -1,0 +1,48 @@
+{
+  "rule": "rules/QUY_TAC_DIEN_HONG_XA_SA_20261006.json",
+  "checked_scope": "Existing locked SP6 template data only; not whole-catalogue inspection",
+  "source_data_sha256": "8414f1f359f69f41b2f5b26821d84912e50ac43263e2fea2cf226dbfda344227",
+  "flags": [
+    {
+      "catalogue": "SP Perotac",
+      "page": 6,
+      "single_phase_model": "6SPM36-3",
+      "three_phase_model_to_preserve": "6SP36-3",
+      "power_kw": 4.0,
+      "status": "CONFLICT_WITH_NEW_USER_RULE_PENDING_CORRECTION",
+      "source": "templates/catalogue/SP6_LOGO_TABLE_V2/data.json",
+      "action": "Correct single-phase entry/variant in next authorized candidate; preserve three-phase row and Q/H/kW; do not fabricate replacement model."
+    },
+    {
+      "catalogue": "SP Perotac",
+      "page": 6,
+      "single_phase_model": "6SPM36-4",
+      "three_phase_model_to_preserve": "6SP36-4",
+      "power_kw": 5.5,
+      "status": "CONFLICT_WITH_NEW_USER_RULE_PENDING_CORRECTION",
+      "source": "templates/catalogue/SP6_LOGO_TABLE_V2/data.json",
+      "action": "Correct single-phase entry/variant in next authorized candidate; preserve three-phase row and Q/H/kW; do not fabricate replacement model."
+    },
+    {
+      "catalogue": "SP Perotac",
+      "page": 6,
+      "single_phase_model": "6SPM46-3A",
+      "three_phase_model_to_preserve": "6SP46-3A",
+      "power_kw": 4.0,
+      "status": "CONFLICT_WITH_NEW_USER_RULE_PENDING_CORRECTION",
+      "source": "templates/catalogue/SP6_LOGO_TABLE_V2/data.json",
+      "action": "Correct single-phase entry/variant in next authorized candidate; preserve three-phase row and Q/H/kW; do not fabricate replacement model."
+    },
+    {
+      "catalogue": "SP Perotac",
+      "page": 6,
+      "single_phase_model": "6SPM46-3",
+      "three_phase_model_to_preserve": "6SP46-3",
+      "power_kw": 5.5,
+      "status": "CONFLICT_WITH_NEW_USER_RULE_PENDING_CORRECTION",
+      "source": "templates/catalogue/SP6_LOGO_TABLE_V2/data.json",
+      "action": "Correct single-phase entry/variant in next authorized candidate; preserve three-phase row and Q/H/kW; do not fabricate replacement model."
+    }
+  ],
+  "changed_catalogues": 0
+}

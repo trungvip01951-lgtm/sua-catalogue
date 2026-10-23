@@ -1,0 +1,18 @@
+Python 3.12.14 · Windows-10-10.0.19045-SP0
+  [CÓ ]  numpy        2.3.5      tính toán
+  [CÓ ]  Pillow       12.3.0     xử lý ảnh
+  [CÓ ]  pikepdf      10.16.0    đọc/ghi PDF (ưu tiên)
+  [CÓ ]  PyMuPDF      1.28.2     đọc/ghi + vẽ trang PDF (dự phòng; tên cũ "fitz")
+  [CÓ ]  scipy        1.18.1     tách chữ trên ảnh, đường cong
+  [CÓ ]  opencv-python 5.0.0      xoá nền ảnh đẹp hơn (inpaint)
+  [CÓ ]  fonttools    4.66.1     kiểm tra font có chữ hay không (chữ thật)
+  [CÓ ]  pytesseract  0.3.13     gọi OCR
+  [CÓ ]  openpyxl     3.1.5      không bắt buộc (catfix sửa Excel trực tiếp XML)
+  [CÓ ] tesseract    OCR đọc chữ (bắt buộc cho file nét vẽ/ảnh)   (C:\Users\H2\AppData\Local\Programs\Tesseract-OCR\tesseract.exe)
+  [CÓ ] pdftoppm     vẽ trang (dự phòng nếu thiếu PyMuPDF)
+  [THIẾU] qpdf         kiểm tra cấu trúc PDF (không bắt buộc)
+KẾT LUẬN:
+  Mở/ghi PDF                         ĐƯỢC
+  Vẽ trang để so sánh                ĐƯỢC
+  OCR (chữ nét vẽ, chữ trên ảnh)     ĐƯỢC
+  Tách chữ trên ảnh                  ĐƯỢC

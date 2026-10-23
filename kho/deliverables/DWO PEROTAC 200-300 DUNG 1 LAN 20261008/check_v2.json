@@ -1,0 +1,207 @@
+{
+ "sha256": "dd92a0f09d1c1834b49a4079968e0988bf08076ede843023b5efd1526e74f6fd",
+ "bytes": 183247,
+ "pages": 1,
+ "page_size": [
+  595.0,
+  842.0
+ ],
+ "curves": {
+  "DWO200T/M": {
+   "segments": 1,
+   "points_table_vs_pdf": [
+    [
+     0,
+     18.5,
+     18.5,
+     0.0
+    ],
+    [
+     10,
+     17.0,
+     16.854,
+     0.86
+    ],
+    [
+     20,
+     15.0,
+     14.7,
+     2.0
+    ],
+    [
+     30,
+     12.0,
+     11.888,
+     0.93
+    ],
+    [
+     40,
+     8.0,
+     8.16,
+     2.0
+    ],
+    [
+     50,
+     3.0,
+     3.0,
+     0.0
+    ]
+   ],
+   "max_err_pct": 2.0,
+   "Q_increasing": true,
+   "H_decreasing": true,
+   "spline": "Bezier bậc ba một cung (fit_curve + even_curve của thư viện mẫu)",
+   "curvature_sign_changes": 0
+  },
+  "DWO300T/M": {
+   "segments": 1,
+   "points_table_vs_pdf": [
+    [
+     0,
+     23.0,
+     23.0,
+     0.0
+    ],
+    [
+     10,
+     21.0,
+     21.08,
+     0.38
+    ],
+    [
+     20,
+     19.0,
+     18.678,
+     1.69
+    ],
+    [
+     30,
+     16.0,
+     15.68,
+     2.0
+    ],
+    [
+     40,
+     12.0,
+     11.918,
+     0.68
+    ],
+    [
+     50,
+     7.0,
+     7.14,
+     2.0
+    ],
+    [
+     60,
+     1.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "max_err_pct": 2.0,
+   "Q_increasing": true,
+   "H_decreasing": true,
+   "spline": "Bezier bậc ba một cung (fit_curve + even_curve của thư viện mẫu)",
+   "curvature_sign_changes": 0
+  }
+ },
+ "table_rows": {
+  "DWO200T": {
+   "pdf": [
+    "DWO200T",
+    "DWO200M",
+    "1.5",
+    "2",
+    "3.5",
+    "9.0",
+    "18.5",
+    "17",
+    "15",
+    "12",
+    "8",
+    "3",
+    "–"
+   ],
+   "equal_expected": true
+  },
+  "DWO300T": {
+   "pdf": [
+    "DWO300T",
+    "DWO300M",
+    "2.2",
+    "3",
+    "4.8",
+    "12.9",
+    "23",
+    "21",
+    "19",
+    "16",
+    "12",
+    "7",
+    "1"
+   ],
+   "equal_expected": true
+  }
+ },
+ "table_head_Q": [
+  "MODEL",
+  "I",
+  "(A)",
+  "m³/h",
+  "0",
+  "10",
+  "20",
+  "30",
+  "40",
+  "50",
+  "60"
+ ],
+ "table_head_lmin": [
+  "3~",
+  "380–415",
+  "V",
+  "1~",
+  "220–240",
+  "V",
+  "kW",
+  "HP",
+  "3~",
+  "400",
+  "V",
+  "1~",
+  "230",
+  "V",
+  "l/min",
+  "0",
+  "167",
+  "333",
+  "500",
+  "667",
+  "833",
+  "1000"
+ ],
+ "below_7pt": [],
+ "other_models_found": [],
+ "forbidden": [],
+ "out_of_margin": [],
+ "text_overlaps": [],
+ "need_text_missing": [],
+ "images": [
+  [
+   535,
+   198,
+   356
+  ],
+  [
+   500,
+   404,
+   238
+  ],
+  [
+   726,
+   564,
+   237
+  ]
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "role": "Sua catalogue phan ba",
+  "pid": 7012,
+  "created": "2026-10-05T07:47:45.331446+00:00",
+  "scope": "Redpump staging only",
+  "source_hash": "396487b4b47f836601d97bfa708fb242007c462951f7a3109b24c6f446975858",
+  "current_hash": "f20b82e880ee756e101a41fdddea87c249d2fc65e48f1532a76022ae81248ed4",
+  "authority_hash": "1f99e858579d24fb1ab30bc16a6649de3927240438f760b4d63bf985baa04196",
+  "status": "DELIVERED_ROOT_REVIEW_PENDING",
+  "coordinator_thread": "01a10a18-ec94-72d9-9756-c388bf6cd0db",
+  "owner": "Sua catalogue phan ba (Redpump sole writer)",
+  "revision": "v4 SOURCE GRID REVEAL FITZ BALANCED",
+  "candidate": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\staging\\candidate-v4\\KTZ - LH Redpump (bản mới).pdf",
+  "candidate_SHA256": "2dcdb269de340c72e607ce18d63fa0a1f34a7f0b8f529c71a9ca17a6950c75e5"
+}

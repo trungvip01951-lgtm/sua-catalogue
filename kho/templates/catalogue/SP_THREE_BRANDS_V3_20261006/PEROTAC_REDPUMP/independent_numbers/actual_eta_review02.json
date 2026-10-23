@@ -1,0 +1,622 @@
+{
+  "PEROTAC": {
+    "status": "PASS_ACTUAL_ETA_CONTROLS_AND_VIEWPORTS",
+    "pdf": "D:\\ChatGPT\\S\u1eeda catalogue\\deliverables\\SP BA HANG THIET KE RIENG 20261006\\PEROTAC SP - REVIEW 02.pdf",
+    "sha256": "07c0ca71af6a323b4fb142bc77d3e11685f521d79eed5a95c29bdf4c5e1da98a",
+    "traces": 15,
+    "failures": [],
+    "checks": [
+      {
+        "page": 1,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.00000044
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 2,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          246.99999989
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 504,
+        "samples": 505,
+        "pass": true
+      },
+      {
+        "page": 2,
+        "trace_on_page": 2,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.00000215
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 505,
+        "samples": 505,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.00000055
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 505,
+        "samples": 505,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "trace_on_page": 2,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.00000038
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 502,
+        "samples": 505,
+        "pass": true
+      },
+      {
+        "page": 5,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.00000054
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1111,
+        "samples": 1111,
+        "pass": true
+      },
+      {
+        "page": 6,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.00000146
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 6,
+        "trace_on_page": 2,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          457.0,
+          209.0,
+          326.0,
+          27.0
+        ],
+        "curve_start": [
+          457.0,
+          209.00000079
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 7,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.00000019
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 7,
+        "trace_on_page": 2,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.00000104
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 8,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.00000151
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 10,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.00000119
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 11,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          246.99999999
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1009,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 12,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.0000005
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 13,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 0.0,
+        "expected_translation_x": 0,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.00000054
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      }
+    ],
+    "scope": "Actual graphics-state clip and full cubic controls read from PDF. Physical pump efficiency measurements are not inferred."
+  },
+  "REDPUMP": {
+    "status": "PASS_ACTUAL_ETA_CONTROLS_AND_VIEWPORTS",
+    "pdf": "D:\\ChatGPT\\S\u1eeda catalogue\\deliverables\\SP BA HANG THIET KE RIENG 20261006\\REDPUMP SP - REVIEW 02.pdf",
+    "sha256": "2face7a1b50125c174b361877ea27e6dd01d4b4cf956faaeccb1b76b0f461ca6",
+    "traces": 15,
+    "failures": [],
+    "checks": [
+      {
+        "page": 1,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 5.684341886080802e-14,
+        "expected_translation_x": -404,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.00000044
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 2,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 1.1368683772161603e-13,
+        "expected_translation_x": 404,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          246.99999989
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 504,
+        "samples": 505,
+        "pass": true
+      },
+      {
+        "page": 2,
+        "trace_on_page": 2,
+        "controls_held_max_error_pt": 5.684341886080802e-14,
+        "expected_translation_x": -404,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.00000215
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 505,
+        "samples": 505,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 1.1368683772161603e-13,
+        "expected_translation_x": 404,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.00000055
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 505,
+        "samples": 505,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "trace_on_page": 2,
+        "controls_held_max_error_pt": 5.684341886080802e-14,
+        "expected_translation_x": -404,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.00000038
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 502,
+        "samples": 505,
+        "pass": true
+      },
+      {
+        "page": 5,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 5.684341886080802e-14,
+        "expected_translation_x": -404,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.00000054
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1111,
+        "samples": 1111,
+        "pass": true
+      },
+      {
+        "page": 6,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 1.1368683772161603e-13,
+        "expected_translation_x": 404,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.00000146
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 6,
+        "trace_on_page": 2,
+        "controls_held_max_error_pt": 5.684341886080802e-14,
+        "expected_translation_x": -404,
+        "actual_active_clip": [
+          53.0,
+          209.0,
+          326.0,
+          27.0
+        ],
+        "curve_start": [
+          53.0,
+          209.00000079
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 7,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 1.1368683772161603e-13,
+        "expected_translation_x": 404,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.00000019
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 7,
+        "trace_on_page": 2,
+        "controls_held_max_error_pt": 5.684341886080802e-14,
+        "expected_translation_x": -404,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.00000104
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 8,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 1.1368683772161603e-13,
+        "expected_translation_x": 404,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.00000151
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 10,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 5.684341886080802e-14,
+        "expected_translation_x": -404,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.00000119
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 11,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 1.1368683772161603e-13,
+        "expected_translation_x": 404,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          246.99999999
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1009,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 12,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 5.684341886080802e-14,
+        "expected_translation_x": -404,
+        "actual_active_clip": [
+          53.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          53.0,
+          247.0000005
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      },
+      {
+        "page": 13,
+        "trace_on_page": 1,
+        "controls_held_max_error_pt": 1.1368683772161603e-13,
+        "expected_translation_x": 404,
+        "actual_active_clip": [
+          457.0,
+          247.0,
+          326.0,
+          29.0
+        ],
+        "curve_start": [
+          457.0,
+          247.00000054
+        ],
+        "clip_aligned": true,
+        "sample_points_inside_viewport": 1010,
+        "samples": 1010,
+        "pass": true
+      }
+    ],
+    "scope": "Actual graphics-state clip and full cubic controls read from PDF. Physical pump efficiency measurements are not inferred."
+  }
+}

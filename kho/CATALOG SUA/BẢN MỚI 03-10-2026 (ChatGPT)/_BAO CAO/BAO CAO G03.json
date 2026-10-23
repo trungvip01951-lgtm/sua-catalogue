@@ -1,0 +1,167 @@
+[
+ {
+  "stt": 21,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 3,
+  "item": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh",
+  "old": "4SA2/65: 4,0 kW = 5,0 HP",
+  "new": "4,0 kW = 5,5 HP",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png",
+  "method": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh"
+ },
+ {
+  "stt": 22,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 4,
+  "item": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh",
+  "old": "20 lít/phút ↔ 1,1 m³/giờ",
+  "new": "20 lít/phút ↔ 1,2 m³/giờ",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png",
+  "method": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh"
+ },
+ {
+  "stt": 23,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 5,
+  "item": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh",
+  "old": "90 lít/phút ↔ 5,0 m³/giờ",
+  "new": "90 lít/phút ↔ 5,4 m³/giờ",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png",
+  "method": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh"
+ },
+ {
+  "stt": 24,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 5,
+  "item": "Trung vị cột áp/tầng; kiểm đa thức; chép số cùng kiểu; đồng bộ đường theo bảng",
+  "old": "4SA4/22, 50 lít/phút: 103 m",
+  "new": "130 m",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png; G03/ratio-calculation.json; G03/BAO CAO BIEU DO.md",
+  "method": "Trung vị cột áp/tầng; kiểm đa thức; chép số cùng kiểu; đồng bộ đường theo bảng"
+ },
+ {
+  "stt": 25,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 6,
+  "item": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh",
+  "old": "4SA6/11: 1,0 kW / 1,5 HP",
+  "new": "1,1 kW / 1,5 HP",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png",
+  "method": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh"
+ },
+ {
+  "stt": 26,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 6,
+  "item": "Trung vị cột áp/tầng; kiểm đa thức; chép số cùng kiểu; đồng bộ đường theo bảng",
+  "old": "4SA6/36, 20 lít/phút: 281 m",
+  "new": "217 m",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png; G03/ratio-calculation.json; G03/BAO CAO BIEU DO.md",
+  "method": "Trung vị cột áp/tầng; kiểm đa thức; chép số cùng kiểu; đồng bộ đường theo bảng"
+ },
+ {
+  "stt": 27,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 7,
+  "item": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh",
+  "old": "40 lít/phút ↔ 2,2 m³/giờ",
+  "new": "40 lít/phút ↔ 2,4 m³/giờ",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png",
+  "method": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh"
+ },
+ {
+  "stt": 28,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 7,
+  "item": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh",
+  "old": "4SA8/8: 1,0 kW / 1,5 HP",
+  "new": "1,1 kW / 1,5 HP",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png",
+  "method": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh"
+ },
+ {
+  "stt": 29,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 7,
+  "item": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh",
+  "old": "Tên hàng 4SA8/24",
+  "new": "4SA8/28; giữ 162–153–137–114–72–14",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png",
+  "method": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh"
+ },
+ {
+  "stt": 30,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 7,
+  "item": "Trung vị cột áp/tầng; kiểm đa thức; chép số cùng kiểu; đồng bộ đường theo bảng",
+  "old": "4SA8/44, 80 lít/phút: 316 m",
+  "new": "216 m",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png; G03/ratio-calculation.json; G03/BAO CAO BIEU DO.md",
+  "method": "Trung vị cột áp/tầng; kiểm đa thức; chép số cùng kiểu; đồng bộ đường theo bảng"
+ },
+ {
+  "stt": 31,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 8,
+  "item": "Trung vị cột áp/tầng; kiểm đa thức; chép số cùng kiểu; đồng bộ đường theo bảng",
+  "old": "4SA10/28, 30 lít/phút: 116 m",
+  "new": "166 m",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png; G03/ratio-calculation.json; G03/BAO CAO BIEU DO.md",
+  "method": "Trung vị cột áp/tầng; kiểm đa thức; chép số cùng kiểu; đồng bộ đường theo bảng"
+ },
+ {
+  "stt": 32,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 10,
+  "item": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh",
+  "old": "230 / 265 / 360 lít/phút",
+  "new": "233 / 267 / 367 lít/phút",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png",
+  "method": "Chép nét chữ cùng kiểu từ chính file, căn giữa ô; đọc lại và xem ảnh"
+ },
+ {
+  "stt": 33,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 2,
+  "item": "Dời nguyên nét chữ; kiểm tọa độ thật của 8 tên",
+  "old": "8 tên dòng sản phẩm trong 6 ô lệch hàng/cột",
+  "new": "Căn trái theo hai cột, cùng cao độ từng hàng",
+  "result": "ĐẠT",
+  "evidence": "G03/muc-luc.png; G03/acceptance-final.json",
+  "method": "Dời nguyên nét chữ; kiểm tọa độ thật của 8 tên"
+ },
+ {
+  "stt": 34,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": "3–10",
+  "item": "Chép P hoa và dấu chấm cùng kiểu; dời nét để thêm khoảng trắng; thiếu mẫu k",
+  "old": "KW/Kw; Hp; S.r.l; diameterϕ95mm",
+  "new": "Đã sửa HP, S.r.l., diameter ϕ95 mm ở 8 trang; KW/Kw còn nguyên",
+  "result": "CHƯA ĐẠT",
+  "evidence": "G03/chu-chung.png; G03/font-resources.json; G03/acceptance-final.json",
+  "method": "Chép P hoa và dấu chấm cùng kiểu; dời nét để thêm khoảng trắng; thiếu mẫu k"
+ },
+ {
+  "stt": 130,
+  "file": "Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+  "page": 5,
+  "item": "Trung vị cột áp/tầng; kiểm đa thức; chép số cùng kiểu; đồng bộ đường theo bảng",
+  "old": "4SA4/40, 100 lít/phút: 98 m",
+  "new": "87 m; ước ban đầu 89 m, kiểm đường chọn 87 m trong ±2",
+  "result": "ĐẠT",
+  "evidence": "G03/acceptance-final.json; G03/so-lieu.png; So sanh G03.png; G03/ratio-calculation.json; G03/BAO CAO BIEU DO.md",
+  "method": "Trung vị cột áp/tầng; kiểm đa thức; chép số cùng kiểu; đồng bộ đường theo bảng"
+ }
+]

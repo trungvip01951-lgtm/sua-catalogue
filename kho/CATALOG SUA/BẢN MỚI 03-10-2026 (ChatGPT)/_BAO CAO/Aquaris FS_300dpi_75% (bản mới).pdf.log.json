@@ -1,0 +1,44 @@
+{
+ "src": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Aquaris FS_300dpi_75% (bản mới).pdf",
+ "dst": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Aquaris FS_300dpi_75% (bản mới).pdf",
+ "edits": [
+  {
+   "page": 0,
+   "rect": [
+    50,
+    657,
+    286,
+    681
+   ],
+   "label": "#51: FS-35-7-2.2, đúng từng nhóm số",
+   "kind": "raster"
+  }
+ ],
+ "log": [
+  {
+   "page": 1,
+   "task": 51,
+   "kind": "raster-native-copy",
+   "old": "FS 15 15 1.5",
+   "new": "FS-35-7-2.2",
+   "source_page": 2,
+   "source_model": "FS-35-7-2.2",
+   "font5_iou": 0.8706099815157117
+  },
+  {
+   "task": 52,
+   "result": "CHƯA THỂ XÁC MINH",
+   "reason": "Trong 4 trang chỉ có k thường kiểu không đậm ở Power (kW) và socket; không có k thường cùng kiểu chữ đậm của tiêu đề KW."
+  },
+  {
+   "task": 53,
+   "result": "CHƯA ĐẠT",
+   "reason": "Giữ nguyên trang 4 sau hai mẫu không đạt nét chữ; không đưa mẫu sửa vào file cuối"
+  },
+  {
+   "task": 136,
+   "result": "GIỮ NGUYÊN",
+   "reason": "Giữ cả hai dòng FS, không đổi hay ghi G07"
+  }
+ ]
+}

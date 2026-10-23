@@ -1,0 +1,234 @@
+{
+  "status": "ACCEPTED_PDF_NUMERIC_VISUAL_WITH_DISCLOSED_SOURCE_LIMITS",
+  "utc": "20261006T093634Z",
+  "deliverables": [
+    {
+      "brand": "AQUARIS",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\G02 (gồm cả G01)\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+      "before_sha256": "9b2ca1ba4c429fc098f0f354884b0ce2eeb1f20c4b4994dd9e4f0aefd8ba214e",
+      "candidate": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG THIET KE RIENG 20261006\\AQUARIS SP - 31 TRANG.pdf",
+      "expected_sha256": "8170fe4d6b745c1a9e6c900b95282f7c4f8dbfe54251e2c235c76890d6774baf",
+      "pages": 31,
+      "models": 197,
+      "H_cells": 1179,
+      "backup": "D:\\ChatGPT\\Sửa catalogue\\history\\sp-three-brand-redesign-accepted-20261006T093634Z\\AQUARIS BEFORE.pdf",
+      "deliverable": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG THIET KE RIENG 20261006\\AQUARIS SP - 31 TRANG.pdf",
+      "canonical_after_sha256": "8170fe4d6b745c1a9e6c900b95282f7c4f8dbfe54251e2c235c76890d6774baf"
+    },
+    {
+      "brand": "PEROTAC",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf",
+      "before_sha256": "5c452fc9e01dded447622ebf302690ec2a347b6c114a97946f4f562e93fc48f8",
+      "candidate": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG THIET KE RIENG 20261006\\PEROTAC SP - REVIEW 02.pdf",
+      "expected_sha256": "07c0ca71af6a323b4fb142bc77d3e11685f521d79eed5a95c29bdf4c5e1da98a",
+      "pages": 13,
+      "models": 220,
+      "H_cells": 2218,
+      "backup": "D:\\ChatGPT\\Sửa catalogue\\history\\sp-three-brand-redesign-accepted-20261006T093634Z\\PEROTAC BEFORE.pdf",
+      "deliverable": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG THIET KE RIENG 20261006\\PEROTAC SP - 13 TRANG.pdf",
+      "canonical_after_sha256": "07c0ca71af6a323b4fb142bc77d3e11685f521d79eed5a95c29bdf4c5e1da98a"
+    },
+    {
+      "brand": "REDPUMP",
+      "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Redpump bơm giếng SP (bản mới).pdf",
+      "before_sha256": "b067902b0ae5e41f19f0095db221942ddd231364694cedfd80edc7418dfc1b28",
+      "candidate": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG THIET KE RIENG 20261006\\REDPUMP SP - REVIEW 02.pdf",
+      "expected_sha256": "2face7a1b50125c174b361877ea27e6dd01d4b4cf956faaeccb1b76b0f461ca6",
+      "pages": 13,
+      "models": 220,
+      "H_cells": 2218,
+      "backup": "D:\\ChatGPT\\Sửa catalogue\\history\\sp-three-brand-redesign-accepted-20261006T093634Z\\REDPUMP BEFORE.pdf",
+      "deliverable": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG THIET KE RIENG 20261006\\REDPUMP SP - 13 TRANG.pdf",
+      "canonical_after_sha256": "2face7a1b50125c174b361877ea27e6dd01d4b4cf956faaeccb1b76b0f461ca6"
+    }
+  ],
+  "data_changes_H": 0,
+  "shared_data": "REDPUMP follows PEROTAC. AQUARIS own verified source retained.",
+  "gates": [
+    "DIFFERENT_BRAND_DESIGN",
+    "EVEN_CURVES_ACTUAL_PDF"
+  ],
+  "limits": [
+    "Original photo resolution retained. AQUARIS identified SUMOTO removed; PR/RP indistinct marks UNKNOWN.",
+    "Missing original dimensions/weights remain missing; no fabrication.",
+    "Eta reproduces source graphics, not independent pump test data.",
+    "Paper printing not performed."
+  ],
+  "files": [
+    {
+      "path": "AQUARIS\\build_aquaris.py",
+      "sha256": "c5b2fe7ba3f1e7918a7678fb38e7c29cad7e8f6f35aeec38726e38cceb67fcc8",
+      "bytes": 15550
+    },
+    {
+      "path": "AQUARIS\\vector_layout.py",
+      "sha256": "8e28d4eb8973e3bd09e6ef7eda9ddfb529f51fd32b60d9bca34c82297d6aba97",
+      "bytes": 5099
+    },
+    {
+      "path": "AQUARIS\\layout_plan.json",
+      "sha256": "27de1a6caf9a64af06eb52903b9f829dba59b24d1e956cd61f0c49a9c09a84d9",
+      "bytes": 1050936
+    },
+    {
+      "path": "AQUARIS\\curves\\AQUARIS_CONCAVE_197_NO_H_DELTA.json",
+      "sha256": "2ac7a4c5b3fe1e6322979ca40f99c3122d3f28215949a4cd919fea5f754e0247",
+      "bytes": 601589
+    },
+    {
+      "path": "AQUARIS\\tables\\complete_table_metadata.json",
+      "sha256": "7a6425e3658866ec27b645503f15ca6373dc212497593d41c7aa6ebbb4d7f070",
+      "bytes": 726758
+    },
+    {
+      "path": "AQUARIS\\assets\\aquaris_nonqh_content.json",
+      "sha256": "e4708bd345d97495bf49e7de3ceb005883e09e65cd72da8de032a3b72bd85856",
+      "bytes": 42415
+    },
+    {
+      "path": "AQUARIS\\assets\\SUMOTO_ASSET_AUDIT.json",
+      "sha256": "064ca7b3bd0059b60f461c1597a39c11798adc1d01e1d87dd25811878c2e4cf7",
+      "bytes": 21127
+    },
+    {
+      "path": "AQUARIS\\assets\\clean-head-450.png",
+      "sha256": "ad1136cf14af6a4d4c70b1bec89e5c8f4604c6bf207a4dd3f15ef44645a3b72f",
+      "bytes": 1119155
+    },
+    {
+      "path": "AQUARIS\\assets\\clean-head-458.png",
+      "sha256": "4b6ad6dd875e25c6479709e44a6e5aa0d14f13eb5a9972ba20fa8f83d97c7a52",
+      "bytes": 1120555
+    },
+    {
+      "path": "AQUARIS\\assets\\clean-head-468.png",
+      "sha256": "1005a931b7f6581811b9c92d440e4ac344f2c22e8c4da88d869bcb21bcb1fd5f",
+      "bytes": 1103943
+    },
+    {
+      "path": "AQUARIS\\assets\\AQ-x450-head-native.png",
+      "sha256": "32c97595681aff485fc7b3b69f8703577e1eba3e70711c42cc500aadd22ebad9",
+      "bytes": 13305
+    },
+    {
+      "path": "AQUARIS\\assets\\AQ-x458-head-native.png",
+      "sha256": "cec2d4923dfc4b3060f642248f82860b73990d239feffc3ed7529e5291420fff",
+      "bytes": 12774
+    },
+    {
+      "path": "AQUARIS\\assets\\AQ-x468-head-native.png",
+      "sha256": "6b303c84df667549ad5f527053448c14de44539d1f9237ce3dc05c0103d04afd",
+      "bytes": 19674
+    },
+    {
+      "path": "AQUARIS\\qa_numeric_actual_final.json",
+      "sha256": "8160d2dfc857143343270c975d325fe06359b7c88829d3f23160a0532262224a",
+      "bytes": 27561
+    },
+    {
+      "path": "AQUARIS\\lossless_final_receipt.json",
+      "sha256": "2dff6a8e6bed5044aaa9fff3026439725dbf46bd4b2ea3fcac7e21dbe7bde48c",
+      "bytes": 914
+    },
+    {
+      "path": "AQUARIS\\qa_visual\\INDEPENDENT_FINAL_QA.json",
+      "sha256": "728d85bd25b066afa8ad53939d335cdad92debe35575d4025f1bf093b63efc5f",
+      "bytes": 1880
+    },
+    {
+      "path": "AQUARIS\\qa_visual\\INDEPENDENT_FINAL_8COL.md",
+      "sha256": "6eddd0af5801d7c6b5efc47a12be81792e1e83270289562301168fa98cf41fa6",
+      "bytes": 6405
+    },
+    {
+      "path": "AQUARIS\\independent_curve_qa\\AQ_FINAL_8COL.md",
+      "sha256": "c6a0ff9b14eb97b95c6e6ac216a613c30779f70e27c03e233a53c356a0f04b71",
+      "bytes": 2459
+    },
+    {
+      "path": "AQUARIS\\independent_curve_qa\\AQ_FINAL_NUMERIC_SHAPE.json",
+      "sha256": "7d628e5b838e962792bde998a5220cfd16caec39a25b631b2c8dc5cc21258ee7",
+      "bytes": 488536
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\design_preview.py",
+      "sha256": "d52e0ccb9b4cce3c62a34a8fb18b46c19598c7d37ac83db78601bd0ffc541223",
+      "bytes": 30674
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\save_candidates.py",
+      "sha256": "5230bba260e55c25cd9b94019eace2857242a5fa3cbc5e344281b3052f431595",
+      "bytes": 3379
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\README_TEMPLATE.md",
+      "sha256": "6d16d286f1c8a8ada7473971091ff9ddeb3dd432243bab13151956c8e9b57738",
+      "bytes": 3627
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\design\\resource_map_ready.json",
+      "sha256": "83b1a52c6838a7ca5ab8131120a482be5a1dc3fd01bb6ce9fa9ec36fda2d9158",
+      "bytes": 110386
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\curves\\PR_RP_CONCAVE_220.json",
+      "sha256": "77848eb1118d2b3574ec1f110a26e3042741aeab95d060f982e5c97e87313ab3",
+      "bytes": 758949
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\curves\\CHANGED_MODELS.json",
+      "sha256": "6b136a17f6883a0c2c31415571e38d899ecf8d01c3def19409665ed684dbbfd5",
+      "bytes": 26386
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\curves\\PR_RP_SHAPE_POWER_QA.json",
+      "sha256": "31569aa03dec3b0655097506fe5e079ce9f7ab4a4988c98b5eb1084b886f036f",
+      "bytes": 80482
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\geometry\\new_concave_label_plan.json",
+      "sha256": "a9aa21121d642680357c93b0e60b794441549602af9c7b76a158a5f44b884bb5",
+      "bytes": 508546
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\geometry\\leader_ownership.json",
+      "sha256": "4727e2fa3cce6a8c72f2a4c7c66bdd5b928560694d3523a2a0e4be214f818b59",
+      "bytes": 2077
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\design\\PEROTAC-design-plan.json",
+      "sha256": "1a1a80f255d8ad840504387f15a45daf8e9acb019298d85b994d35a319c0c875",
+      "bytes": 3207079
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\design\\REDPUMP-design-plan.json",
+      "sha256": "8c26eab0844404e6dbc5bb0c08bccef1b58e9c3f39aea14766f2042641e5ea8e",
+      "bytes": 3209257
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\qa_actual_root_02.json",
+      "sha256": "6b3afdb9ad087b8597451a6cff1e1a09fac1c774ecce6b3b3e3672b4c8805315",
+      "bytes": 1221
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\qa_visual\\INDEPENDENT_FINAL_QA.json",
+      "sha256": "2deb062d62ef7013c0e6d928ba3f27d696440ecaadbaac392da01c38fe77de89",
+      "bytes": 2162
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\independent_numbers\\BAO_CAO_8_COT_REVIEW02.md",
+      "sha256": "cf4ea09a19b0713574296e486e2d8c4e11d61ea40da76856b5c7e1cfc7fd20f3",
+      "bytes": 3738
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\independent_numbers\\actual_eta_review02.json",
+      "sha256": "a9da604129fbcf318130dfd5b18ed9e9a6a1d7d3c766eb8449ac0df11a851163",
+      "bytes": 15416
+    },
+    {
+      "path": "PEROTAC_REDPUMP\\perotac_dataset_approved_v2.json",
+      "sha256": "134156b7ff3e1d2c8deecd518d769ac05641ae984e6f345480dee43f752d0663"
+    }
+  ],
+  "historical_code_warning": "Saved reproducibility reference with frozen guards, not safe to rerun unchanged. For next change read actual current source/hash; use data+style+page map and edit affected pages only."
+}

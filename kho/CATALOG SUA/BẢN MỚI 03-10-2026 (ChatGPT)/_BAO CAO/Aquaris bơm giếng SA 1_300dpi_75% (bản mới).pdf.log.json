@@ -1,0 +1,3264 @@
+{
+ "src": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+ "dst": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+ "edits": [
+  {
+   "page": 2,
+   "rect": [
+    296.07,
+    456.23,
+    307.01,
+    462.02
+   ],
+   "label": "#21: 5.0 → 5.5",
+   "kind": "outline"
+  },
+  {
+   "page": 3,
+   "rect": [
+    383.4,
+    583.57,
+    392.51,
+    589.2
+   ],
+   "label": "#22: 1.1 → 1.2",
+   "kind": "outline"
+  },
+  {
+   "page": 4,
+   "rect": [
+    473.52,
+    582.41,
+    484.46,
+    588.2
+   ],
+   "label": "#23: 5.0 → 5.4",
+   "kind": "outline"
+  },
+  {
+   "page": 5,
+   "rect": [
+    258.68,
+    525.48,
+    269.06,
+    531.27
+   ],
+   "label": "#25: 1.0 → 1.1",
+   "kind": "outline"
+  },
+  {
+   "page": 6,
+   "rect": [
+    380.8,
+    582.57,
+    391.69,
+    588.2
+   ],
+   "label": "#27: 2.2 → 2.4",
+   "kind": "outline"
+  },
+  {
+   "page": 6,
+   "rect": [
+    258.68,
+    525.48,
+    269.06,
+    531.27
+   ],
+   "label": "#28: 1.0 → 1.1",
+   "kind": "outline"
+  },
+  {
+   "page": 6,
+   "rect": [
+    196.27,
+    469.48,
+    228.03,
+    475.54
+   ],
+   "label": "#29: 4SA8/24 → 4SA8/28",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    443.49,
+    569.21,
+    456.82,
+    575.0
+   ],
+   "label": "#32: 230 → 233",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    473.83,
+    569.21,
+    487.1,
+    575.0
+   ],
+   "label": "#32: 265 → 267",
+   "kind": "outline"
+  },
+  {
+   "page": 9,
+   "rect": [
+    505.04,
+    569.22,
+    518.3,
+    575.02
+   ],
+   "label": "#32: 360 → 367",
+   "kind": "outline"
+  },
+  {
+   "page": 4,
+   "rect": [
+    411.03,
+    497.21,
+    423.77,
+    503.0
+   ],
+   "label": "#24: 103 → 130",
+   "kind": "outline"
+  },
+  {
+   "page": 5,
+   "rect": [
+    378.63,
+    468.81,
+    390.68,
+    474.6
+   ],
+   "label": "#26: 281 → 217",
+   "kind": "outline"
+  },
+  {
+   "page": 6,
+   "rect": [
+    411.14,
+    440.41,
+    424.39,
+    446.2
+   ],
+   "label": "#30: 316 → 216",
+   "kind": "outline"
+  },
+  {
+   "page": 7,
+   "rect": [
+    379.03,
+    468.81,
+    391.74,
+    474.6
+   ],
+   "label": "#31: 116 → 166",
+   "kind": "outline"
+  },
+  {
+   "page": 4,
+   "rect": [
+    506.23,
+    468.81,
+    514.72,
+    474.6
+   ],
+   "label": "#130: 98 → 87",
+   "kind": "outline"
+  },
+  {
+   "page": 1,
+   "rect": [
+    139.19,
+    611.79,
+    185.99,
+    625.62
+   ],
+   "label": "#33: căn 4SA2",
+   "kind": "move"
+  },
+  {
+   "page": 1,
+   "rect": [
+    401.62,
+    611.79,
+    465.77,
+    627.61
+   ],
+   "label": "#33: căn 4SA3",
+   "kind": "move"
+  },
+  {
+   "page": 1,
+   "rect": [
+    139.53,
+    404.45,
+    197.55,
+    418.27
+   ],
+   "label": "#33: căn 4SA4",
+   "kind": "move"
+  },
+  {
+   "page": 1,
+   "rect": [
+    139.53,
+    376.46,
+    196.82,
+    390.28
+   ],
+   "label": "#33: căn 4SA6",
+   "kind": "move"
+  },
+  {
+   "page": 1,
+   "rect": [
+    401.62,
+    404.45,
+    483.1,
+    421.6
+   ],
+   "label": "#33: căn 4SA8",
+   "kind": "move"
+  },
+  {
+   "page": 1,
+   "rect": [
+    139.53,
+    209.11,
+    216.77,
+    222.94
+   ],
+   "label": "#33: căn 4SA10",
+   "kind": "move"
+  },
+  {
+   "page": 1,
+   "rect": [
+    401.62,
+    209.11,
+    477.23,
+    226.95
+   ],
+   "label": "#33: căn 4SA12",
+   "kind": "move"
+  },
+  {
+   "page": 1,
+   "rect": [
+    401.62,
+    181.12,
+    478.39,
+    198.94
+   ],
+   "label": "#33: căn 4SA16",
+   "kind": "move"
+  },
+  {
+   "page": 2,
+   "rect": [
+    295.06,
+    567.33,
+    305.31,
+    574.73
+   ],
+   "label": "#34: Hp → HP",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 2,
+   "rect": [
+    82.09,
+    20.4,
+    98.64,
+    27.03
+   ],
+   "label": "#34: S.r.l → S.r.l.",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 2,
+   "rect": [
+    255.85,
+    659.01,
+    328.58,
+    667.25
+   ],
+   "label": "#34: diameterϕ95mm → diameter ϕ95 mm",
+   "kind": "move"
+  },
+  {
+   "page": 3,
+   "rect": [
+    295.23,
+    567.57,
+    305.48,
+    574.98
+   ],
+   "label": "#34: Hp → HP",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 3,
+   "rect": [
+    81.42,
+    20.4,
+    97.98,
+    27.03
+   ],
+   "label": "#34: S.r.l → S.r.l.",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 3,
+   "rect": [
+    256.01,
+    659.26,
+    328.74,
+    667.5
+   ],
+   "label": "#34: diameterϕ95mm → diameter ϕ95 mm",
+   "kind": "move"
+  },
+  {
+   "page": 4,
+   "rect": [
+    293.23,
+    566.57,
+    303.48,
+    573.98
+   ],
+   "label": "#34: Hp → HP",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 4,
+   "rect": [
+    82.09,
+    25.89,
+    98.64,
+    32.52
+   ],
+   "label": "#34: S.r.l → S.r.l.",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 4,
+   "rect": [
+    254.01,
+    658.26,
+    326.74,
+    666.5
+   ],
+   "label": "#34: diameterϕ95mm → diameter ϕ95 mm",
+   "kind": "move"
+  },
+  {
+   "page": 5,
+   "rect": [
+    293.23,
+    566.57,
+    303.48,
+    573.98
+   ],
+   "label": "#34: Hp → HP",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 5,
+   "rect": [
+    81.42,
+    25.89,
+    97.98,
+    32.52
+   ],
+   "label": "#34: S.r.l → S.r.l.",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 5,
+   "rect": [
+    254.01,
+    658.26,
+    326.74,
+    666.5
+   ],
+   "label": "#34: diameterϕ95mm → diameter ϕ95 mm",
+   "kind": "move"
+  },
+  {
+   "page": 6,
+   "rect": [
+    293.23,
+    566.57,
+    303.48,
+    573.98
+   ],
+   "label": "#34: Hp → HP",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 6,
+   "rect": [
+    82.09,
+    22.02,
+    98.64,
+    28.65
+   ],
+   "label": "#34: S.r.l → S.r.l.",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 6,
+   "rect": [
+    254.01,
+    658.26,
+    326.74,
+    666.5
+   ],
+   "label": "#34: diameterϕ95mm → diameter ϕ95 mm",
+   "kind": "move"
+  },
+  {
+   "page": 7,
+   "rect": [
+    293.23,
+    566.57,
+    303.48,
+    573.98
+   ],
+   "label": "#34: Hp → HP",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 7,
+   "rect": [
+    81.42,
+    22.02,
+    97.98,
+    28.65
+   ],
+   "label": "#34: S.r.l → S.r.l.",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 7,
+   "rect": [
+    254.01,
+    658.26,
+    326.74,
+    666.5
+   ],
+   "label": "#34: diameterϕ95mm → diameter ϕ95 mm",
+   "kind": "move"
+  },
+  {
+   "page": 8,
+   "rect": [
+    293.05,
+    567.08,
+    303.31,
+    574.48
+   ],
+   "label": "#34: Hp → HP",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 8,
+   "rect": [
+    82.09,
+    25.93,
+    98.64,
+    32.56
+   ],
+   "label": "#34: S.r.l → S.r.l.",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 8,
+   "rect": [
+    253.84,
+    658.76,
+    326.57,
+    667.0
+   ],
+   "label": "#34: diameterϕ95mm → diameter ϕ95 mm",
+   "kind": "move"
+  },
+  {
+   "page": 9,
+   "rect": [
+    293.71,
+    567.58,
+    303.96,
+    574.99
+   ],
+   "label": "#34: Hp → HP",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 9,
+   "rect": [
+    81.42,
+    25.93,
+    97.98,
+    32.56
+   ],
+   "label": "#34: S.r.l → S.r.l.",
+   "kind": "outline-copy"
+  },
+  {
+   "page": 9,
+   "rect": [
+    254.49,
+    659.26,
+    327.23,
+    667.5
+   ],
+   "label": "#34: diameterϕ95mm → diameter ϕ95 mm",
+   "kind": "move"
+  },
+  {
+   "page": 2,
+   "rect": [
+    211.28,
+    187.65,
+    528.67,
+    431.15
+   ],
+   "label": "Biểu đồ: 4SA2/8, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 2,
+   "rect": [
+    211.28,
+    187.65,
+    528.67,
+    431.15
+   ],
+   "label": "Biểu đồ: 4SA2/11, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 2,
+   "rect": [
+    211.28,
+    187.65,
+    528.67,
+    431.15
+   ],
+   "label": "Biểu đồ: 4SA2/14, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 2,
+   "rect": [
+    211.28,
+    187.65,
+    528.67,
+    431.15
+   ],
+   "label": "Biểu đồ: 4SA2/19, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 2,
+   "rect": [
+    211.28,
+    187.65,
+    528.67,
+    431.15
+   ],
+   "label": "Biểu đồ: 4SA2/25, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 2,
+   "rect": [
+    211.28,
+    187.65,
+    528.67,
+    431.15
+   ],
+   "label": "Biểu đồ: 4SA2/38, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 2,
+   "rect": [
+    211.28,
+    187.65,
+    528.67,
+    431.15
+   ],
+   "label": "Biểu đồ: 4SA2/52, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 2,
+   "rect": [
+    211.28,
+    187.65,
+    528.67,
+    431.15
+   ],
+   "label": "Biểu đồ: 4SA2/65, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 3,
+   "rect": [
+    209.67,
+    177.06,
+    529.33,
+    416.14
+   ],
+   "label": "Biểu đồ: 4SA3/6, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 3,
+   "rect": [
+    209.67,
+    177.06,
+    529.33,
+    416.14
+   ],
+   "label": "Biểu đồ: 4SA3/9, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 3,
+   "rect": [
+    209.67,
+    177.06,
+    529.33,
+    416.14
+   ],
+   "label": "Biểu đồ: 4SA3/11, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 3,
+   "rect": [
+    212.56,
+    208.22,
+    246.49,
+    217.53
+   ],
+   "label": "Nhãn 4SA3/11: dời theo đầu đường -2.49 pt",
+   "kind": "move"
+  },
+  {
+   "page": 3,
+   "rect": [
+    209.67,
+    177.06,
+    529.33,
+    416.14
+   ],
+   "label": "Biểu đồ: 4SA3/15, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 3,
+   "rect": [
+    209.67,
+    177.06,
+    529.33,
+    416.14
+   ],
+   "label": "Biểu đồ: 4SA3/20, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 3,
+   "rect": [
+    211.91,
+    233.67,
+    247.32,
+    248.04
+   ],
+   "label": "Nhãn 4SA3/20: dời theo đầu đường -4.11 pt",
+   "kind": "move"
+  },
+  {
+   "page": 3,
+   "rect": [
+    209.67,
+    177.06,
+    529.33,
+    416.14
+   ],
+   "label": "Biểu đồ: 4SA3/27, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 3,
+   "rect": [
+    209.67,
+    177.06,
+    529.33,
+    416.14
+   ],
+   "label": "Biểu đồ: 4SA3/40, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 3,
+   "rect": [
+    212.08,
+    296.88,
+    247.5,
+    317.37
+   ],
+   "label": "Nhãn 4SA3/40: dời theo đầu đường 10.45 pt",
+   "kind": "move"
+  },
+  {
+   "page": 3,
+   "rect": [
+    209.67,
+    177.06,
+    529.33,
+    416.14
+   ],
+   "label": "Biểu đồ: 4SA3/50, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 3,
+   "rect": [
+    212.26,
+    331.66,
+    247.44,
+    348.57
+   ],
+   "label": "Nhãn 4SA3/50: dời theo đầu đường -4.59 pt",
+   "kind": "move"
+  },
+  {
+   "page": 3,
+   "rect": [
+    209.67,
+    177.06,
+    529.33,
+    416.14
+   ],
+   "label": "Biểu đồ: 4SA3/62, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 4,
+   "rect": [
+    196.44,
+    130.4,
+    526.82,
+    399.54
+   ],
+   "label": "Biểu đồ: 4SA4/7, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 4,
+   "rect": [
+    196.44,
+    130.4,
+    526.82,
+    399.54
+   ],
+   "label": "Biểu đồ: 4SA4/9, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 4,
+   "rect": [
+    196.44,
+    130.4,
+    526.82,
+    399.54
+   ],
+   "label": "Biểu đồ: 4SA4/12, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 4,
+   "rect": [
+    202.77,
+    169.14,
+    238.07,
+    179.65
+   ],
+   "label": "Nhãn 4SA4/12: dời theo đầu đường -3.52 pt",
+   "kind": "move"
+  },
+  {
+   "page": 4,
+   "rect": [
+    196.44,
+    130.4,
+    526.82,
+    399.54
+   ],
+   "label": "Biểu đồ: 4SA4/16, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 4,
+   "rect": [
+    196.44,
+    130.4,
+    526.82,
+    399.54
+   ],
+   "label": "Biểu đồ: 4SA4/22, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 4,
+   "rect": [
+    201.63,
+    210.7,
+    236.93,
+    220.32
+   ],
+   "label": "Nhãn 4SA4/22: dời theo đầu đường -2.63 pt",
+   "kind": "move"
+  },
+  {
+   "page": 4,
+   "rect": [
+    196.44,
+    130.4,
+    526.82,
+    399.54
+   ],
+   "label": "Biểu đồ: 4SA4/32, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 4,
+   "rect": [
+    196.44,
+    130.4,
+    526.82,
+    399.54
+   ],
+   "label": "Biểu đồ: 4SA4/40, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 4,
+   "rect": [
+    196.44,
+    130.4,
+    526.82,
+    399.54
+   ],
+   "label": "Biểu đồ: 4SA4/50, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 4,
+   "rect": [
+    196.44,
+    130.4,
+    526.82,
+    399.54
+   ],
+   "label": "Biểu đồ: 4SA4/62, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 5,
+   "rect": [
+    203.63,
+    167.25,
+    525.24,
+    398.18
+   ],
+   "label": "Biểu đồ: 4SA6/6, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 5,
+   "rect": [
+    209.81,
+    178.31,
+    233.21,
+    187.56
+   ],
+   "label": "Nhãn 4SA6/6: dời theo đầu đường 3.94 pt",
+   "kind": "move"
+  },
+  {
+   "page": 5,
+   "rect": [
+    203.63,
+    167.25,
+    525.24,
+    398.18
+   ],
+   "label": "Biểu đồ: 4SA6/8, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 5,
+   "rect": [
+    210.28,
+    188.42,
+    233.68,
+    195.95
+   ],
+   "label": "Nhãn 4SA6/8: dời theo đầu đường 2.22 pt",
+   "kind": "move"
+  },
+  {
+   "page": 5,
+   "rect": [
+    203.63,
+    167.25,
+    525.24,
+    398.18
+   ],
+   "label": "Biểu đồ: 4SA6/11, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 5,
+   "rect": [
+    203.63,
+    167.25,
+    525.24,
+    398.18
+   ],
+   "label": "Biểu đồ: 4SA6/14, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 5,
+   "rect": [
+    210.88,
+    207.6,
+    238.43,
+    216.08
+   ],
+   "label": "Nhãn 4SA6/14: dời theo đầu đường 3.17 pt",
+   "kind": "move"
+  },
+  {
+   "page": 5,
+   "rect": [
+    203.63,
+    167.25,
+    525.24,
+    398.18
+   ],
+   "label": "Biểu đồ: 4SA6/20, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 5,
+   "rect": [
+    203.63,
+    167.25,
+    525.24,
+    398.18
+   ],
+   "label": "Biểu đồ: 4SA6/28, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 5,
+   "rect": [
+    203.63,
+    167.25,
+    525.24,
+    398.18
+   ],
+   "label": "Biểu đồ: 4SA6/36, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 5,
+   "rect": [
+    203.63,
+    167.25,
+    525.24,
+    398.18
+   ],
+   "label": "Biểu đồ: 4SA6/46, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 5,
+   "rect": [
+    210.41,
+    320.34,
+    237.93,
+    332.24
+   ],
+   "label": "Nhãn 4SA6/46: dời theo đầu đường -3.38 pt",
+   "kind": "move"
+  },
+  {
+   "page": 5,
+   "rect": [
+    203.63,
+    167.25,
+    525.24,
+    398.18
+   ],
+   "label": "Biểu đồ: 4SA6/52, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 6,
+   "rect": [
+    202.84,
+    185.4,
+    526.84,
+    408.73
+   ],
+   "label": "Biểu đồ: 4SA8/5, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 6,
+   "rect": [
+    202.84,
+    185.4,
+    526.84,
+    408.73
+   ],
+   "label": "Biểu đồ: 4SA8/6, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 6,
+   "rect": [
+    202.84,
+    185.4,
+    526.84,
+    408.73
+   ],
+   "label": "Biểu đồ: 4SA8/8, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 6,
+   "rect": [
+    206.3,
+    210.92,
+    233.04,
+    219.21
+   ],
+   "label": "Nhãn 4SA8/8: dời theo đầu đường -2.23 pt",
+   "kind": "move"
+  },
+  {
+   "page": 6,
+   "rect": [
+    202.84,
+    185.4,
+    526.84,
+    408.73
+   ],
+   "label": "Biểu đồ: 4SA8/11, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 6,
+   "rect": [
+    202.84,
+    185.4,
+    526.84,
+    408.73
+   ],
+   "label": "Biểu đồ: 4SA8/15, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 6,
+   "rect": [
+    202.84,
+    185.4,
+    526.84,
+    408.73
+   ],
+   "label": "Biểu đồ: 4SA8/20, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 6,
+   "rect": [
+    202.84,
+    185.4,
+    526.84,
+    408.73
+   ],
+   "label": "Biểu đồ: 4SA8/28, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 6,
+   "rect": [
+    202.84,
+    185.4,
+    526.84,
+    408.73
+   ],
+   "label": "Biểu đồ: 4SA8/36, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 6,
+   "rect": [
+    202.84,
+    185.4,
+    526.84,
+    408.73
+   ],
+   "label": "Biểu đồ: 4SA8/44, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 7,
+   "rect": [
+    204.02,
+    186.06,
+    525.5,
+    423.06
+   ],
+   "label": "Biểu đồ: 4SA10/5, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 7,
+   "rect": [
+    206.13,
+    199.07,
+    241.46,
+    210.88
+   ],
+   "label": "Nhãn 4SA10/5: dời theo đầu đường 3.79 pt",
+   "kind": "move"
+  },
+  {
+   "page": 7,
+   "rect": [
+    204.02,
+    186.06,
+    525.5,
+    423.06
+   ],
+   "label": "Biểu đồ: 4SA10/7, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 7,
+   "rect": [
+    210.2,
+    216.03,
+    245.61,
+    226.04
+   ],
+   "label": "Nhãn 4SA10/7: dời theo đầu đường -3.19 pt",
+   "kind": "move"
+  },
+  {
+   "page": 7,
+   "rect": [
+    204.02,
+    186.06,
+    525.5,
+    423.06
+   ],
+   "label": "Biểu đồ: 4SA10/9, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 7,
+   "rect": [
+    204.02,
+    186.06,
+    525.5,
+    423.06
+   ],
+   "label": "Biểu đồ: 4SA10/13, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 7,
+   "rect": [
+    206.25,
+    248.55,
+    246.92,
+    261.39
+   ],
+   "label": "Nhãn 4SA10/13: dời theo đầu đường 6.02 pt",
+   "kind": "move"
+  },
+  {
+   "page": 7,
+   "rect": [
+    204.02,
+    186.06,
+    525.5,
+    423.06
+   ],
+   "label": "Biểu đồ: 4SA10/18, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 7,
+   "rect": [
+    209.41,
+    271.55,
+    249.86,
+    288.14
+   ],
+   "label": "Nhãn 4SA10/18: dời theo đầu đường 4.31 pt",
+   "kind": "move"
+  },
+  {
+   "page": 7,
+   "rect": [
+    204.02,
+    186.06,
+    525.5,
+    423.06
+   ],
+   "label": "Biểu đồ: 4SA10/23, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 7,
+   "rect": [
+    209.9,
+    295.73,
+    249.56,
+    316.24
+   ],
+   "label": "Nhãn 4SA10/23: dời theo đầu đường 3.43 pt",
+   "kind": "move"
+  },
+  {
+   "page": 7,
+   "rect": [
+    204.02,
+    186.06,
+    525.5,
+    423.06
+   ],
+   "label": "Biểu đồ: 4SA10/28, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 7,
+   "rect": [
+    208.82,
+    330.86,
+    249.35,
+    344.94
+   ],
+   "label": "Nhãn 4SA10/28: dời theo đầu đường 3.04 pt",
+   "kind": "move"
+  },
+  {
+   "page": 7,
+   "rect": [
+    204.02,
+    186.06,
+    525.5,
+    423.06
+   ],
+   "label": "Biểu đồ: 4SA10/36, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 7,
+   "rect": [
+    210.39,
+    372.75,
+    249.91,
+    394.54
+   ],
+   "label": "Nhãn 4SA10/36: dời theo đầu đường 3.94 pt",
+   "kind": "move"
+  },
+  {
+   "page": 8,
+   "rect": [
+    207.04,
+    192.56,
+    525.0,
+    413.9
+   ],
+   "label": "Biểu đồ: 4SA12/4, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 8,
+   "rect": [
+    207.04,
+    192.56,
+    525.0,
+    413.9
+   ],
+   "label": "Biểu đồ: 4SA12/6, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 8,
+   "rect": [
+    207.04,
+    192.56,
+    525.0,
+    413.9
+   ],
+   "label": "Biểu đồ: 4SA12/8, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 8,
+   "rect": [
+    207.04,
+    192.56,
+    525.0,
+    413.9
+   ],
+   "label": "Biểu đồ: 4SA12/10, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 8,
+   "rect": [
+    207.04,
+    192.56,
+    525.0,
+    413.9
+   ],
+   "label": "Biểu đồ: 4SA12/12, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 8,
+   "rect": [
+    207.04,
+    192.56,
+    525.0,
+    413.9
+   ],
+   "label": "Biểu đồ: 4SA12/16, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 8,
+   "rect": [
+    207.04,
+    192.56,
+    525.0,
+    413.9
+   ],
+   "label": "Biểu đồ: 4SA12/20, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 8,
+   "rect": [
+    207.04,
+    192.56,
+    525.0,
+    413.9
+   ],
+   "label": "Biểu đồ: 4SA12/26, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 8,
+   "rect": [
+    207.04,
+    192.56,
+    525.0,
+    413.9
+   ],
+   "label": "Biểu đồ: 4SA12/32, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 9,
+   "rect": [
+    210.75,
+    185.39,
+    526.19,
+    433.4
+   ],
+   "label": "Biểu đồ: 4SA16/4, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 9,
+   "rect": [
+    210.75,
+    185.39,
+    526.19,
+    433.4
+   ],
+   "label": "Biểu đồ: 4SA16/6, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 9,
+   "rect": [
+    210.75,
+    185.39,
+    526.19,
+    433.4
+   ],
+   "label": "Biểu đồ: 4SA16/8, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 9,
+   "rect": [
+    210.75,
+    185.39,
+    526.19,
+    433.4
+   ],
+   "label": "Biểu đồ: 4SA16/9, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 9,
+   "rect": [
+    210.75,
+    185.39,
+    526.19,
+    433.4
+   ],
+   "label": "Biểu đồ: 4SA16/12, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 9,
+   "rect": [
+    210.75,
+    185.39,
+    526.19,
+    433.4
+   ],
+   "label": "Biểu đồ: 4SA16/16, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 9,
+   "rect": [
+    210.75,
+    185.39,
+    526.19,
+    433.4
+   ],
+   "label": "Biểu đồ: 4SA16/20, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 9,
+   "rect": [
+    210.75,
+    185.39,
+    526.19,
+    433.4
+   ],
+   "label": "Biểu đồ: 4SA16/25, đúng 6 điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 2,
+   "rect": [
+    211.28,
+    187.65,
+    528.67,
+    431.15
+   ],
+   "label": "Làm rõ nhãn bằng viền theo nét chữ gốc; giãn 4SA8/8 trang 7",
+   "kind": "outline-label"
+  },
+  {
+   "page": 3,
+   "rect": [
+    209.67,
+    177.06,
+    529.33,
+    416.14
+   ],
+   "label": "Làm rõ nhãn bằng viền theo nét chữ gốc; giãn 4SA8/8 trang 7",
+   "kind": "outline-label"
+  },
+  {
+   "page": 4,
+   "rect": [
+    196.44,
+    130.4,
+    526.82,
+    399.54
+   ],
+   "label": "Làm rõ nhãn bằng viền theo nét chữ gốc; giãn 4SA8/8 trang 7",
+   "kind": "outline-label"
+  },
+  {
+   "page": 5,
+   "rect": [
+    203.63,
+    167.25,
+    525.24,
+    398.18
+   ],
+   "label": "Làm rõ nhãn bằng viền theo nét chữ gốc; giãn 4SA8/8 trang 7",
+   "kind": "outline-label"
+  },
+  {
+   "page": 6,
+   "rect": [
+    202.84,
+    185.4,
+    526.84,
+    408.73
+   ],
+   "label": "Làm rõ nhãn bằng viền theo nét chữ gốc; giãn 4SA8/8 trang 7",
+   "kind": "outline-label"
+  },
+  {
+   "page": 7,
+   "rect": [
+    204.02,
+    186.06,
+    525.5,
+    423.06
+   ],
+   "label": "Làm rõ nhãn bằng viền theo nét chữ gốc; giãn 4SA8/8 trang 7",
+   "kind": "outline-label"
+  },
+  {
+   "page": 8,
+   "rect": [
+    207.04,
+    192.56,
+    525.0,
+    413.9
+   ],
+   "label": "Làm rõ nhãn bằng viền theo nét chữ gốc; giãn 4SA8/8 trang 7",
+   "kind": "outline-label"
+  },
+  {
+   "page": 9,
+   "rect": [
+    210.75,
+    185.39,
+    526.19,
+    433.4
+   ],
+   "label": "Làm rõ nhãn bằng viền theo nét chữ gốc; giãn 4SA8/8 trang 7",
+   "kind": "outline-label"
+  }
+ ],
+ "log": [
+  {
+   "page": 3,
+   "old": "5.0",
+   "new": "5.5",
+   "align": "center",
+   "bbox": [
+    296.07,
+    456.23,
+    307.01,
+    462.02
+   ],
+   "objects": [
+    193
+   ],
+   "twins": []
+  },
+  {
+   "page": 4,
+   "old": "1.1",
+   "new": "1.2",
+   "align": "center",
+   "bbox": [
+    383.4,
+    583.57,
+    392.51,
+    589.2
+   ],
+   "objects": [
+    138
+   ],
+   "twins": []
+  },
+  {
+   "page": 5,
+   "old": "5.0",
+   "new": "5.4",
+   "align": "center",
+   "bbox": [
+    473.52,
+    582.41,
+    484.46,
+    588.2
+   ],
+   "objects": [
+    126
+   ],
+   "twins": []
+  },
+  {
+   "page": 6,
+   "old": "1.0",
+   "new": "1.1",
+   "align": "center",
+   "bbox": [
+    258.68,
+    525.48,
+    269.06,
+    531.27
+   ],
+   "objects": [
+    197
+   ],
+   "twins": []
+  },
+  {
+   "page": 7,
+   "old": "2.2",
+   "new": "2.4",
+   "align": "center",
+   "bbox": [
+    380.8,
+    582.57,
+    391.69,
+    588.2
+   ],
+   "objects": [
+    137
+   ],
+   "twins": []
+  },
+  {
+   "page": 7,
+   "old": "1.0",
+   "new": "1.1",
+   "align": "center",
+   "bbox": [
+    258.68,
+    525.48,
+    269.06,
+    531.27
+   ],
+   "objects": [
+    194
+   ],
+   "twins": []
+  },
+  {
+   "page": 7,
+   "old": "4SA8/24",
+   "new": "4SA8/28",
+   "align": "center",
+   "bbox": [
+    196.27,
+    469.48,
+    228.03,
+    475.54
+   ],
+   "objects": [
+    189
+   ],
+   "twins": []
+  },
+  {
+   "page": 10,
+   "old": "230",
+   "new": "233",
+   "align": "center",
+   "bbox": [
+    443.49,
+    569.21,
+    456.82,
+    575.0
+   ],
+   "objects": [
+    114
+   ],
+   "twins": []
+  },
+  {
+   "page": 10,
+   "old": "265",
+   "new": "267",
+   "align": "center",
+   "bbox": [
+    473.83,
+    569.21,
+    487.1,
+    575.0
+   ],
+   "objects": [
+    124
+   ],
+   "twins": []
+  },
+  {
+   "page": 10,
+   "old": "360",
+   "new": "367",
+   "align": "center",
+   "bbox": [
+    505.04,
+    569.22,
+    518.3,
+    575.02
+   ],
+   "objects": [
+    165
+   ],
+   "twins": []
+  },
+  {
+   "page": 5,
+   "old": "103",
+   "new": "130",
+   "align": "center",
+   "bbox": [
+    411.03,
+    497.21,
+    423.77,
+    503.0
+   ],
+   "objects": [
+    165
+   ],
+   "twins": []
+  },
+  {
+   "page": 6,
+   "old": "281",
+   "new": "217",
+   "align": "center",
+   "bbox": [
+    378.63,
+    468.81,
+    390.68,
+    474.6
+   ],
+   "objects": [
+    146
+   ],
+   "twins": []
+  },
+  {
+   "page": 7,
+   "old": "316",
+   "new": "216",
+   "align": "center",
+   "bbox": [
+    411.14,
+    440.41,
+    424.39,
+    446.2
+   ],
+   "objects": [
+    158
+   ],
+   "twins": []
+  },
+  {
+   "page": 8,
+   "old": "116",
+   "new": "166",
+   "align": "center",
+   "bbox": [
+    379.03,
+    468.81,
+    391.74,
+    474.6
+   ],
+   "objects": [
+    143
+   ],
+   "twins": []
+  },
+  {
+   "page": 5,
+   "old": "98",
+   "new": "87",
+   "align": "center",
+   "bbox": [
+    506.23,
+    468.81,
+    514.72,
+    474.6
+   ],
+   "objects": [
+    180
+   ],
+   "twins": []
+  },
+  {
+   "op": "lam_ro_nhan",
+   "details": [
+    {
+     "page": 3,
+     "model": "4SA2/8",
+     "label_objects": [
+      305,
+      306,
+      307
+     ],
+     "template": 293,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 3,
+     "model": "4SA2/11",
+     "label_objects": [
+      302,
+      303,
+      304
+     ],
+     "template": 293,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 3,
+     "model": "4SA2/14",
+     "label_objects": [
+      323,
+      324,
+      325
+     ],
+     "template": 293,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 3,
+     "model": "4SA2/19",
+     "label_objects": [
+      320,
+      321,
+      322
+     ],
+     "template": 293,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 3,
+     "model": "4SA2/25",
+     "label_objects": [
+      317,
+      318,
+      319
+     ],
+     "template": 293,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 3,
+     "model": "4SA2/38",
+     "label_objects": [
+      314,
+      315,
+      316
+     ],
+     "template": 293,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 3,
+     "model": "4SA2/52",
+     "label_objects": [
+      308,
+      309,
+      310
+     ],
+     "template": 293,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 3,
+     "model": "4SA2/65",
+     "label_objects": [
+      311,
+      312,
+      313
+     ],
+     "template": 293,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 4,
+     "model": "4SA3/6",
+     "label_objects": [
+      335,
+      336,
+      337
+     ],
+     "template": 345,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 4,
+     "model": "4SA3/9",
+     "label_objects": [
+      338,
+      339,
+      340
+     ],
+     "template": 345,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 4,
+     "model": "4SA3/11",
+     "label_objects": [
+      323,
+      324,
+      325
+     ],
+     "template": 345,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 4,
+     "model": "4SA3/15",
+     "label_objects": [
+      320,
+      321,
+      322
+     ],
+     "template": 345,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 4,
+     "model": "4SA3/20",
+     "label_objects": [
+      332,
+      333,
+      334
+     ],
+     "template": 345,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 4,
+     "model": "4SA3/27",
+     "label_objects": [
+      329,
+      330,
+      331
+     ],
+     "template": 345,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 4,
+     "model": "4SA3/40",
+     "label_objects": [
+      326,
+      327,
+      328
+     ],
+     "template": 345,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 4,
+     "model": "4SA3/50",
+     "label_objects": [
+      317,
+      318,
+      319
+     ],
+     "template": 345,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 4,
+     "model": "4SA3/62",
+     "label_objects": [
+      314,
+      315,
+      316
+     ],
+     "template": 345,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 5,
+     "model": "4SA4/7",
+     "label_objects": [
+      344,
+      345,
+      346
+     ],
+     "template": 356,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 5,
+     "model": "4SA4/9",
+     "label_objects": [
+      347,
+      348,
+      349
+     ],
+     "template": 356,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 5,
+     "model": "4SA4/12",
+     "label_objects": [
+      341,
+      342,
+      343
+     ],
+     "template": 356,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 5,
+     "model": "4SA4/16",
+     "label_objects": [
+      338,
+      339,
+      340
+     ],
+     "template": 356,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 5,
+     "model": "4SA4/22",
+     "label_objects": [
+      335,
+      336,
+      337
+     ],
+     "template": 356,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 5,
+     "model": "4SA4/32",
+     "label_objects": [
+      332,
+      333,
+      334
+     ],
+     "template": 356,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 5,
+     "model": "4SA4/40",
+     "label_objects": [
+      329,
+      330,
+      331
+     ],
+     "template": 356,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 5,
+     "model": "4SA4/50",
+     "label_objects": [
+      326,
+      327,
+      328
+     ],
+     "template": 356,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 5,
+     "model": "4SA4/62",
+     "label_objects": [
+      323,
+      324,
+      325
+     ],
+     "template": 356,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 6,
+     "model": "4SA6/6",
+     "label_objects": [
+      334,
+      335,
+      336
+     ],
+     "template": 350,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 6,
+     "model": "4SA6/8",
+     "label_objects": [
+      337,
+      338,
+      339
+     ],
+     "template": 350,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 6,
+     "model": "4SA6/11",
+     "label_objects": [
+      331,
+      332,
+      333
+     ],
+     "template": 350,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 6,
+     "model": "4SA6/14",
+     "label_objects": [
+      328,
+      329,
+      330
+     ],
+     "template": 350,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 6,
+     "model": "4SA6/20",
+     "label_objects": [
+      325,
+      326,
+      327
+     ],
+     "template": 350,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 6,
+     "model": "4SA6/28",
+     "label_objects": [
+      322,
+      323,
+      324
+     ],
+     "template": 350,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 6,
+     "model": "4SA6/36",
+     "label_objects": [
+      319,
+      320,
+      321
+     ],
+     "template": 350,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 6,
+     "model": "4SA6/46",
+     "label_objects": [
+      316,
+      317,
+      318
+     ],
+     "template": 350,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 6,
+     "model": "4SA6/52",
+     "label_objects": [
+      313,
+      314,
+      315
+     ],
+     "template": 350,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 7,
+     "model": "4SA8/5",
+     "label_objects": [
+      328,
+      329,
+      330
+     ],
+     "template": 294,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 7,
+     "model": "4SA8/6",
+     "label_objects": [
+      325,
+      326,
+      327
+     ],
+     "template": 294,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 7,
+     "model": "4SA8/8",
+     "label_objects": [
+      322,
+      323,
+      324
+     ],
+     "template": 294,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 45.0,
+     "dy": 0
+    },
+    {
+     "page": 7,
+     "model": "4SA8/11",
+     "label_objects": [
+      319,
+      320,
+      321
+     ],
+     "template": 294,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 7,
+     "model": "4SA8/15",
+     "label_objects": [
+      316,
+      317,
+      318
+     ],
+     "template": 294,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 7,
+     "model": "4SA8/20",
+     "label_objects": [
+      313,
+      314,
+      315
+     ],
+     "template": 294,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 7,
+     "model": "4SA8/28",
+     "label_objects": [
+      310,
+      311,
+      312
+     ],
+     "template": 294,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 7,
+     "model": "4SA8/36",
+     "label_objects": [
+      307,
+      308,
+      309
+     ],
+     "template": 294,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 7,
+     "model": "4SA8/44",
+     "label_objects": [
+      304,
+      305,
+      306
+     ],
+     "template": 294,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 8,
+     "model": "4SA10/5",
+     "label_objects": [
+      331,
+      332,
+      333
+     ],
+     "template": 334,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 8,
+     "model": "4SA10/7",
+     "label_objects": [
+      328,
+      329,
+      330
+     ],
+     "template": 334,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 8,
+     "model": "4SA10/9",
+     "label_objects": [
+      325,
+      326,
+      327
+     ],
+     "template": 334,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 8,
+     "model": "4SA10/13",
+     "label_objects": [
+      322,
+      323,
+      324
+     ],
+     "template": 334,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 8,
+     "model": "4SA10/18",
+     "label_objects": [
+      319,
+      320,
+      321
+     ],
+     "template": 334,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 8,
+     "model": "4SA10/23",
+     "label_objects": [
+      316,
+      317,
+      318
+     ],
+     "template": 334,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 8,
+     "model": "4SA10/28",
+     "label_objects": [
+      313,
+      314,
+      315
+     ],
+     "template": 334,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 8,
+     "model": "4SA10/36",
+     "label_objects": [
+      310,
+      311,
+      312
+     ],
+     "template": 334,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 9,
+     "model": "4SA12/4",
+     "label_objects": [
+      289,
+      290,
+      291
+     ],
+     "template": 359,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 9,
+     "model": "4SA12/6",
+     "label_objects": [
+      292,
+      293,
+      294
+     ],
+     "template": 359,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 9,
+     "model": "4SA12/8",
+     "label_objects": [
+      295,
+      296,
+      297
+     ],
+     "template": 359,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 9,
+     "model": "4SA12/10",
+     "label_objects": [
+      298,
+      299,
+      300
+     ],
+     "template": 359,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 9,
+     "model": "4SA12/12",
+     "label_objects": [
+      307,
+      308,
+      309
+     ],
+     "template": 359,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 9,
+     "model": "4SA12/16",
+     "label_objects": [
+      310,
+      311,
+      312
+     ],
+     "template": 359,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 9,
+     "model": "4SA12/20",
+     "label_objects": [
+      313,
+      314,
+      315
+     ],
+     "template": 359,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 9,
+     "model": "4SA12/26",
+     "label_objects": [
+      301,
+      302,
+      303
+     ],
+     "template": 359,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 9,
+     "model": "4SA12/32",
+     "label_objects": [
+      304,
+      305,
+      306
+     ],
+     "template": 359,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 10,
+     "model": "4SA16/4",
+     "label_objects": [
+      280,
+      281,
+      282
+     ],
+     "template": 346,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 10,
+     "model": "4SA16/6",
+     "label_objects": [
+      277,
+      278,
+      279
+     ],
+     "template": 346,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 10,
+     "model": "4SA16/8",
+     "label_objects": [
+      274,
+      275,
+      276
+     ],
+     "template": 346,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 10,
+     "model": "4SA16/9",
+     "label_objects": [
+      292,
+      293,
+      294
+     ],
+     "template": 346,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 10,
+     "model": "4SA16/12",
+     "label_objects": [
+      295,
+      296,
+      297
+     ],
+     "template": 346,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 10,
+     "model": "4SA16/16",
+     "label_objects": [
+      283,
+      284,
+      285
+     ],
+     "template": 346,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 10,
+     "model": "4SA16/20",
+     "label_objects": [
+      286,
+      287,
+      288
+     ],
+     "template": 346,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    },
+    {
+     "page": 10,
+     "model": "4SA16/25",
+     "label_objects": [
+      289,
+      290,
+      291
+     ],
+     "template": 346,
+     "width_page": 0.75,
+     "fill": [
+      "rg",
+      [
+       0.24292,
+       0.250977,
+       0.583984
+      ]
+     ],
+     "dx": 0.0,
+     "dy": 0
+    }
+   ]
+  }
+ ]
+}

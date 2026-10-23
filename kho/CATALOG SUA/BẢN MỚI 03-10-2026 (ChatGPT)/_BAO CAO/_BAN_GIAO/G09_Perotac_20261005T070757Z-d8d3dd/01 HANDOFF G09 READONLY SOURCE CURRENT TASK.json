@@ -1,0 +1,337 @@
+{
+  "status": "READONLY_HANDOFF_DRAFT_FOR_ROOT_REVIEW_NOT_AUTHORIZED_TO_EDIT",
+  "brand": "Perotac",
+  "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\KTZ - LH Perotac (bản mới).pdf",
+  "source_SHA256": "6419937911edac5440b83ee95b907a1c76ad8eb2c21ce6e3f38b40044a788eb9",
+  "current": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\KTZ - LH Perotac (bản mới).pdf",
+  "current_SHA256": "0c0da53a168839b19141ca81c4e50387ab24daf16b723ad9038140f96e9915c4",
+  "pages7": 7,
+  "prior_accepted_M3": {
+    "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G09\\LH HAI HANG NHAN NGUON M3 DA NGHIEM THU VA LUU BAN TRUOC\\Perotac\\ROOT BIEN NHAN LH M3 DA LUU.json",
+    "SHA256": "9d187be79bf3525e3ed504d75cfe52dc999eb561f4ccadb6eb34c54476ea1b3c",
+    "scope62curves96tablelocks": true,
+    "original14pt_grid_gap_previously_accepted_as_limit_not_missing_evidence": true
+  },
+  "task": "One aesthetic SOURCE VECTOR H50 grid-gap repair near LH845 on P7; full7page zoom QA after candidate under new ROOT authorization. Do not reopen historical G09 fixes.",
+  "ROI_native_file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Perotac_20261005T070757Z-d8d3dd\\02 P7 GRID H50 GAP SOURCE VECTOR ROI NATIVE.json",
+  "ROI_native_SHA256": "435f55ff7282e0fc8ebcb62b215e3e080ea3322526fb1a6f21bd6a145eb38a78",
+  "baseline_file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Perotac_20261005T070757Z-d8d3dd\\03 CURRENT62 PATH STYLE AND96 TABLE LOCKS BASELINE.json",
+  "baseline_SHA256": "473a8e56013e46f571afbfcb5fe41af8c315bf698e84867b0cf2ddae1326ffb8",
+  "source_native7_hashes": [
+    {
+      "page": 1,
+      "SHA256": "c77b097bdfb5ffaa7da7de07f80be6e052f95eb638cc257a0926199c93ebd408",
+      "Contents_refs": [
+        [
+          54,
+          0
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "SHA256": "cd126092ab581b98c76290c7dc41a2d13724244dba1b1da8739f8f9ac36fb338",
+      "Contents_refs": [
+        [
+          61,
+          0
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "SHA256": "01c9832719adfecc71686cc6a4df7826b57a691faa843d83606b0f0d4235791a",
+      "Contents_refs": [
+        [
+          65,
+          0
+        ]
+      ]
+    },
+    {
+      "page": 4,
+      "SHA256": "7e5b263a39a6ff23a0a15c0ca36cfcd9c53de52cdb2d03531e71de94a09e19e3",
+      "Contents_refs": [
+        [
+          67,
+          0
+        ]
+      ]
+    },
+    {
+      "page": 5,
+      "SHA256": "5f347869c142a1738627bd260ae0e9e24d566bd7c2b9e60f919d9fff1d7849a2",
+      "Contents_refs": [
+        [
+          69,
+          0
+        ]
+      ]
+    },
+    {
+      "page": 6,
+      "SHA256": "7021460ea373752b6d7cfccb1b222f2c7edbd53880baf3c4e031bed0acf792b7",
+      "Contents_refs": [
+        [
+          73,
+          0
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "SHA256": "15748ee907d04177111e2707e629f4f419e05ad4925cae03a1f665a5b2ea9195",
+      "Contents_refs": [
+        [
+          75,
+          0
+        ]
+      ]
+    }
+  ],
+  "current_native7": [
+    {
+      "page": 1,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Perotac_20261005T070757Z-d8d3dd\\CURRENT P01 NATIVE HELD.bin",
+      "SHA256": "3862ceb9c85c58669dd673d4759f866d7fa563775ec46933347aff302911d366",
+      "Contents_refs": [
+        [
+          54,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        5,
+        0
+      ]
+    },
+    {
+      "page": 2,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Perotac_20261005T070757Z-d8d3dd\\CURRENT P02 NATIVE HELD.bin",
+      "SHA256": "08cf647b7436401101ebec0b98847c23d2f32ad46f9e4c4ec266920e1a525ae8",
+      "Contents_refs": [
+        [
+          61,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        15,
+        0
+      ]
+    },
+    {
+      "page": 3,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Perotac_20261005T070757Z-d8d3dd\\CURRENT P03 NATIVE HELD.bin",
+      "SHA256": "041d6d5f83ee52977ba368b5182b5730d023576f64821a1b1041413f029fa09c",
+      "Contents_refs": [
+        [
+          77,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        21,
+        0
+      ]
+    },
+    {
+      "page": 4,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Perotac_20261005T070757Z-d8d3dd\\CURRENT P04 NATIVE HELD.bin",
+      "SHA256": "3bc549e88358ba37622bf9b5ced8f32c6bd39e78b9175db417819c3be7fe0d71",
+      "Contents_refs": [
+        [
+          78,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        27,
+        0
+      ]
+    },
+    {
+      "page": 5,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Perotac_20261005T070757Z-d8d3dd\\CURRENT P05 NATIVE HELD.bin",
+      "SHA256": "a898c9bc91c4a27dd224eec8b13e08dbb959d45a7d8a8e782b3bd1933754c81e",
+      "Contents_refs": [
+        [
+          69,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        31,
+        0
+      ]
+    },
+    {
+      "page": 6,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Perotac_20261005T070757Z-d8d3dd\\CURRENT P06 NATIVE HELD.bin",
+      "SHA256": "7021460ea373752b6d7cfccb1b222f2c7edbd53880baf3c4e031bed0acf792b7",
+      "Contents_refs": [
+        [
+          73,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        35,
+        0
+      ]
+    },
+    {
+      "page": 7,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Perotac_20261005T070757Z-d8d3dd\\CURRENT P07 NATIVE HELD.bin",
+      "SHA256": "493f18a8bf9997a2554a9a70458efe07eb9ecc34f7b13bcb55f23564f63a7467",
+      "Contents_refs": [
+        [
+          81,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        41,
+        0
+      ]
+    }
+  ],
+  "runtime": {
+    "python": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\.catfix-venv\\Scripts\\python.exe",
+    "python_SHA256": "5fc3c5244b5eef01a82fbefd1932d1382b79c72fe6e64ffe8df1e3ce3643f02f",
+    "working_directory": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a",
+    "install_allowed": false,
+    "PdfDoc_file": "D:\\ChatGPT\\Sửa catalogue\\vendor\\catfix_original\\GOI_SUA_CATALOGUE_CHATGPT\\catfix\\pdfdoc.py",
+    "PdfDoc_SHA256": "b63ff57761f41174e9c493b3ddc51a0e73da02a5b55892e3568503407cf43853",
+    "recipes_file": "D:\\ChatGPT\\Sửa catalogue\\vendor\\catfix_original\\GOI_SUA_CATALOGUE_CHATGPT\\catfix\\recipes.py",
+    "recipes_SHA256": "7f81eb66cdc73e32095f69d8bc4069d067cab4bd362353a75403440991292ff3",
+    "PdfDoc_set_stream_signature": "(self, ref, data)",
+    "Job_save_signature": "(self)"
+  },
+  "evidence": [
+    {
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G09\\LH HAI HANG NHAN NGUON M3 DA NGHIEM THU VA LUU BAN TRUOC\\Perotac\\PHUONG AN NHAN NGUON VA UNG VIEN3.json",
+      "SHA256": "fc69ea4d617ee06daff9f18f43bf15aca7999dd2ae8603066462cf5661e27495"
+    },
+    {
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G09\\LH HAI HANG NHAN NGUON M3 DA NGHIEM THU VA LUU BAN TRUOC\\Perotac\\ROOT DOC THAT32 DUONG6 LOP NHAN VA BAO TOAN MAU3.json",
+      "SHA256": "2d20fbf2548baa18799b79213a02c4ca29850bc8b81ae1471bc48f4f0f97aee6"
+    },
+    {
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G09\\LH HAI HANG NHAN NGUON M3 DA NGHIEM THU VA LUU BAN TRUOC\\Perotac\\ROOT BIEN NHAN LH M3 DA LUU.json",
+      "SHA256": "9d187be79bf3525e3ed504d75cfe52dc999eb561f4ccadb6eb34c54476ea1b3c"
+    },
+    {
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G09\\LH HAI HANG NHAN NGUON M3 DA NGHIEM THU VA LUU BAN TRUOC\\QH MOI M3 DOC TOAN124 DUONG THUC VA MOI NGHIEM DAO HAM.json",
+      "SHA256": "5745e627d56d5c45b64fd93a1d003b0d53cba187dbeea103e01cb5200e4c3ee4"
+    },
+    {
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G09\\LH HAI HANG NHAN NGUON M3 DA NGHIEM THU VA LUU BAN TRUOC\\ROOT BIEN NHAN HAI LH M3 VA PHAM VI.json",
+      "SHA256": "414b81d8fff05ddcdbe2917187d45bbd8891792ec2cb9e24140345be68a0db72"
+    },
+    {
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G09\\LH HAI HANG NHAN NGUON M3 DA NGHIEM THU VA LUU BAN TRUOC\\DO HOA\\34-LH-HAI-HANG-MAU3-FINAL-DOC-LAI-VA-HASH.json",
+      "SHA256": "a072f40ff0ade67cb395744958d31c7e9b7fdae10f4e27a8abdd545a6597d425"
+    },
+    {
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G09\\LH HAI HANG NHAN NGUON M3 DA NGHIEM THU VA LUU BAN TRUOC\\DO HOA\\33-NGHIEM-THU-LH-HAI-HANG-MAU3-FINAL-TRANG7.md",
+      "SHA256": "d2b4f9dc9eb649ad98a93d5eae783f9b5fb44434d80be0e4c6fa23a3f49efd33"
+    },
+    {
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G09\\LH HAI HANG NHAN NGUON M3 DA NGHIEM THU VA LUU BAN TRUOC\\DO HOA\\Perotac-M3-LH845-60-region-600.png",
+      "SHA256": "63513e0a8ffeebdbded243f49224e9316d70c86d8fe863319c2009850d78b1bc"
+    },
+    {
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G09\\LH HAI HANG NHAN NGUON M3 DA NGHIEM THU VA LUU BAN TRUOC\\DO HOA\\Perotac-M3-LH60-right-full600.png",
+      "SHA256": "1e76840d811c4c9c74ca62361f48acab53e4c4cf03bd7474b1fd068953d78400"
+    },
+    {
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G09\\LH HAI HANG NHAN NGUON M3 DA NGHIEM THU VA LUU BAN TRUOC\\DO HOA\\Perotac-M3-page7-full150.png",
+      "SHA256": "e0d7c808e725a81722e052d6a28e4c8ac5267e1253150c182aab633f1c26eaae"
+    }
+  ],
+  "G09_prompt": {
+    "path": "D:\\ChatGPT\\Sửa catalogue\\vendor\\prompts_on_desktop\\02_PROMPT_TUNG_NHOM\\G09 - KTZ - LH (Perotac, Redpump).txt",
+    "SHA256": "bde3422e11463760ab70423e711bb076c43687937ac8b2a99fe1596fc38e2532",
+    "read": true,
+    "historical_repairs_are_held_not_new_authorization": true
+  },
+  "control_baseline_read_only": {
+    "D:\\ChatGPT\\Sửa catalogue\\state\\catalogues.json": "7724704195d1edb3018e1c45fc4217a635fe285a1a4a171bef957362317a35c8",
+    "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\TIEN DO.md": "afe8f915f9d6262157da46c612b15e62186a83c48c7429ed977ff82066a7d55c",
+    "D:\\ChatGPT\\Sửa catalogue\\state\\CURRENT_CHECKPOINT.md": "42cfdaa82a7f76b24442d0920c565c21545e76174c82ad7e120cb5472824c7e5"
+  },
+  "staging": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Perotac_20261005T070757Z-d8d3dd\\staging",
+  "publisher": "ROOT ONLY; external task returns candidate/evidence here, never replaces source/current/controls/ledger.",
+  "required_candidate_QA": [
+    "Source and current prechange hashes exact; no source/current writes.",
+    "All62 pump curve native paths/style unchanged; all96 LH table locks unchanged; no parameter/refit/duty inference.",
+    "No crop glyphs, replace font, erase halo, raster flatten, paintwhite new rectangle, install package or cross-brand copy.",
+    "All7 saved pages visually review whole200 and zoom600, check fonts logos images links metadata + source/current differences; affected P7 grid/glyph/redcurve at600/1200 and phone200.",
+    "Render source/current/candidate exact same geometry; outside selectedROI strict0 diagnostics and official48/min2/pad2/merge4 must be disclosed and pass original requirements.",
+    "Use real CATFIX API after read-only full code review and new ROOT gate; existingnative mode preferred. No editing or Save authority in this handoff.",
+    "Keep all historical M1/M2 FAIL and previously accepted grid-gap limit; this new task is scoped aesthetic improvement, not catalogue completion."
+  ],
+  "counts": {
+    "curves_held": 62,
+    "LH_table_locks_held": 96,
+    "pages_full_visual_QA_required": 7,
+    "scope_P7_gap_only": 1
+  },
+  "operations": {
+    "PdfDoc_readonly": 2,
+    "Editor": 0,
+    "RAM": 0,
+    "PDF_render": 0,
+    "PDF_Save": 0,
+    "claim": 0,
+    "marker": 0,
+    "catalogue": 0,
+    "controls": 0,
+    "ledger": 0,
+    "handoff_folder_created": 1
+  },
+  "ROOT_review_pending": true
+}

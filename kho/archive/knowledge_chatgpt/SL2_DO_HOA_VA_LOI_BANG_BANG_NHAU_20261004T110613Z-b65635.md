@@ -1,0 +1,7 @@
+# SL2 đồ họa đã lưu; bảng SL2/SL3 phải sửa cùng đường
+
+Đã tiếp nhận ff00260bdf57 đúng byte CATFIX: đồ họa 8 đường/16 lớp bút/16 đoạn cong và nhãn nguồn đủ8, nhãn15 rõ;80 mốc khớp bảng cũ trong dung sai,16 đầu/cuối giữ. ROOT và tác nhân độc lập xem7 ảnh PDF thật,6 ảnh khớp mẫu;11 luồng trang và10 ảnh/mặt nạ đúng;182 đối tượng cũ phân loại đủ,128 luồng thô/giải mã giữ+1Contents53 sửa có phép,thêm10. Ngoài11 trang200/ngưỡng0/đệm0=0,bảo vệ8=0. BẢNG GIẢM NGHIÊM CHƯA ĐẠT: SL2 có6 ô đề xuất,/8 phải sửa đường theo3 mốc vượt dung sai;SL3 có17 ô đề xuất,11 mốc đường cũ vượt dung sai. Chưa áp dụng các23 ô;không nhận toàn SL2/SL3/SL/G04.128 số định danh và khung trái572/1762,bottom4/24 vẫn giữ thất bại phép so nguyên.25 nguồn/24 bản khác giữ,bản cũ/sổ/danh mục sao lưu;135/149 gốc giữ.
+
+Hồ sơ: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G04\SL3SL2 M2 DA LUU DO HOA BANG QH CON SUA 20261004T110613Z-b65635\04 ROOT DA TIEP NHAN SL2 GRAPHICS ONLY.json
+
+Kinh nghiệm: đường giảm trên toàn miền và khớp số bảng cũ chưa chứng bảng giảm nghiêm. Phải đọc toàn trang bảng thật. Khi số nguyên bằng nhau ở Q tăng, giữ đầu/cuối và các điểm làm việc thật đã khóa; lập số mới theo yêu cầu rồi kiểm lại đường với mọi mốc mới. Không chỉ hạ số rồi tái dùng kiểm80/91. SL2/8 cần sửa theo3 mốc,SL3 có11 mốc vượt. Phần đồ họa đã đạt có thể tiếp nhận với giới hạn rõ trong khi sửa kỹ thuật tiếp; không nâng thành toàn catalogue hoàn tất. Số15 chỉ ghép hai glyph nguyên RGB cùng catalogue,cùng thang CTM; không suy phông từ ngưỡng điểm ảnh.

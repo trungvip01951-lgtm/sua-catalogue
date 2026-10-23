@@ -1,0 +1,418 @@
+{
+  "captured_utc": "2026-10-03T10:33:41.795699+00:00",
+  "initial_index": "D:\\ChatGPT\\Sửa catalogue\\archive\\CODE_INDEX.json",
+  "zip": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\catalogue-code-addendum-20261003T103339Z-0323f229.zip",
+  "zip_sha256": "a933c05d5099240569a135497f162605f876653c976d4cb08bbc7171f802bf87",
+  "scripts": [
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g04_integer_descending_tools83.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g04_integer_descending_tools83.py",
+      "sha256": "6a43d4712efd441f0e3e7bed8276ec875800b92e7b0df90e6b38cdc4df64f364",
+      "bytes": 3343,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g04_perotac_axis_all_fields80.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g04_perotac_axis_all_fields80.py",
+      "sha256": "3004c830b649bec3be35581bea402f90d9a0869c6336eb9785079dd745d3c96b",
+      "bytes": 4124,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g04_perotac_eta_union_setup76.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g04_perotac_eta_union_setup76.py",
+      "sha256": "f380cba15811fb276be7fc4802d00ac22206d80887a68d73780bce116224f353",
+      "bytes": 6552,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g04_perotac_font_v4_handoff81.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g04_perotac_font_v4_handoff81.py",
+      "sha256": "5b93b87414c95e56709bd0cec6dc280f00e3e5be691ba9501415dd8fe425071b",
+      "bytes": 10189,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g04_perotac_source9_eta_union_actual78.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g04_perotac_source9_eta_union_actual78.py",
+      "sha256": "0d16066daed6a2695eaa3f0b1213acb439114a2c0a3a7c1839a3b06f46dfa5f4",
+      "bytes": 12227,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g04_perotac_source9_eta_union_builder77.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g04_perotac_source9_eta_union_builder77.py",
+      "sha256": "cd1f1734b341af3ee0bd71d85516f549348292981779e0ab749c11e8cdecd7c4",
+      "bytes": 17649,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g04_perotac_source9_eta_union_halo79.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g04_perotac_source9_eta_union_halo79.py",
+      "sha256": "d5eedb72fdc6ee1a0145e13152f1c7d3d2857b43709de3fccff58e1f7a72ff71",
+      "bytes": 8485,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g04_perotac_strictH_handoff86.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g04_perotac_strictH_handoff86.py",
+      "sha256": "c4e0722211dc81dc37336cbe90490d7215cecf7c48e7c2042c9db6c4a9021874",
+      "bytes": 4985,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g04_perotac_strictH_integer_plan84.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g04_perotac_strictH_integer_plan84.py",
+      "sha256": "63e79753465485ca6bed5ed50b24c3e731e813aa489c29b9682681c0ae80636e",
+      "bytes": 17321,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g04_perotac_strictH_plan_QA85.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g04_perotac_strictH_plan_QA85.py",
+      "sha256": "652b6a1f9d0aa78c3dac2f12d893f12d2506fb4f8c2cf12b4be39aadba9b269b",
+      "bytes": 7206,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g04_perotac_strictH_source_probe82.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g04_perotac_strictH_source_probe82.py",
+      "sha256": "c5dc4d7f436e8295ea4379ddc106a42094941f430913a5eda08ad95d736cd891",
+      "bytes": 6927,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g18_6sl25_don_dieu_source_probe_lan1.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g18_6sl25_don_dieu_source_probe_lan1.py",
+      "sha256": "62ff4d62d2f950eea979db2d03f6d042afe3bc9fda0a76588433f7741c81c830",
+      "bytes": 5929,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g18_6sl25_monotonic_plan_and17stats_lan1.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g18_6sl25_monotonic_plan_and17stats_lan1.py",
+      "sha256": "25d6114982940e02682f8042643574c79b1fc8e7c4c017445672c913ccbdca3d",
+      "bytes": 20124,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\g18_project_qa_write.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/g18_project_qa_write.py",
+      "sha256": "8f1f77c4886542bb255c97330b7e1d94b3247fde8d9986ee38691c1942f0caa7",
+      "bytes": 20770,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_project_docs_readability_v1.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/root_project_docs_readability_v1.py",
+      "sha256": "d76f014ee5dec5a465398d9b96b1361a5412573a7b20e8734562b692ed0ccc9b",
+      "bytes": 21853,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_project_final_readback_v1.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/root_project_final_readback_v1.py",
+      "sha256": "1e5a9b001cefb995e7b381c42f27baba03808bad0590eed3a647b55503d646b7",
+      "bytes": 4949,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_project_v1_handoff.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/root_project_v1_handoff.py",
+      "sha256": "d790d5e60f5b8a622988cd218cb87f30bcb05fc616c57b8c962cba268515c759",
+      "bytes": 12086,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_qh_6sl25_plan_readback.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/root_qh_6sl25_plan_readback.py",
+      "sha256": "4f408c79a64e379c04f40af69dbc30b74153e778077da20a07167ebe2b85abcb",
+      "bytes": 3583,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\wc_alpha_kiem_doc_lap_20261003\\kiem_alpha_doc.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/wc_alpha_kiem_doc_lap_20261003/kiem_alpha_doc.py",
+      "sha256": "9cdd0eb1f97504c02ba6ea146920eb99725a96393384aec54e5d3cd39cac0a33",
+      "bytes": 4518,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\wc_clip_source_du_lieu_20261003\\bo_phan_nuoc_sat_than_v4.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/wc_clip_source_du_lieu_20261003/bo_phan_nuoc_sat_than_v4.py",
+      "sha256": "ce5784cbd8b5b02dc8f8b65eddc6e34f9d1ab4f8ffbb1542021efa48059b1109",
+      "bytes": 7433,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\wc_clip_source_du_lieu_20261003\\chot_topology_nguon_v2.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/wc_clip_source_du_lieu_20261003/chot_topology_nguon_v2.py",
+      "sha256": "2717aff481e2aed7a52ef7d69993d81b930c4a4feda68a2f3d9c124d9bfeecc9",
+      "bytes": 5219,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\wc_clip_source_du_lieu_20261003\\lap_path_nguon_v1.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/wc_clip_source_du_lieu_20261003/lap_path_nguon_v1.py",
+      "sha256": "d00c462e9272c76eb87a7154eb10dff234e431c0bb043fb09c6c07c9aea0db56",
+      "bytes": 17998,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\wc_clip_source_du_lieu_20261003\\phan_khe_nguon_v3.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/wc_clip_source_du_lieu_20261003/phan_khe_nguon_v3.py",
+      "sha256": "85d67eece7518efc6b3227602c94b3272911c4afea21ea7df1f3e90a82299d1e",
+      "bytes": 4618,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\wc_do_hoa_mau_20261003_doc_nhanh\\kiem_doc_nhanh.py",
+      "zip_entry": "codex/2026-10-02/b-n-h-y-s-a/wc_do_hoa_mau_20261003_doc_nhanh/kiem_doc_nhanh.py",
+      "sha256": "a230319b00197e32cb4ee3d9c86ccda48e794ac03877dd21d9e0a49accb62d15",
+      "bytes": 3740,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_QH_direction_handoff.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_QH_direction_handoff.py",
+      "sha256": "97af54109af9006cc114e9432f9bbc12537047b0a70a72c4287d519ed9826dea",
+      "bytes": 12194,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_QH_direction_readonly.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_QH_direction_readonly.py",
+      "sha256": "2469aca8272a52c99ec8481dbf91a49c5a1e8898a17ba052ab09c61f1a93e319",
+      "bytes": 10804,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_QH_handoff_verify.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_QH_handoff_verify.py",
+      "sha256": "19c2362716c22ac7911faf5cb982d6f44a52a26c76ce45d90466f4e91f593cea",
+      "bytes": 1780,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_current_QH_table_render.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_current_QH_table_render.py",
+      "sha256": "df4cef5aa19971f7115bb2a1ac92848f08553033d2231ed3428352357bf87122",
+      "bytes": 1674,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_p45_RAM_actual_audit.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_p45_RAM_actual_audit.py",
+      "sha256": "36dc6061f534df0079e54a8c6696ed0ff30681902f0e017914cb56a96b41453d",
+      "bytes": 16969,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_p45_RAM_diff_probe.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_p45_RAM_diff_probe.py",
+      "sha256": "583114f34bcf4f0f5b679c2933c4d9e4e05e1e571fb7063e89c16ead71218d31",
+      "bytes": 1832,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_p45_handoff.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_p45_handoff.py",
+      "sha256": "60c712f96b20338a62b0769776f738e45f617f45b3dca0f4e440e541bed699f6",
+      "bytes": 13625,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_p45_handoff_verify.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_p45_handoff_verify.py",
+      "sha256": "73313a92ca69e8904b7c10612561c245cc61f7ba1726905d838c374d53dba3b8",
+      "bytes": 1750,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_p45_layout.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_p45_layout.py",
+      "sha256": "d373f4d44e2762fcde9d02e71b44e672ec8e2e224d27af600253852bda8199a6",
+      "bytes": 10123,
+      "previous_archived_sha256": "1839bdd4a55590573395d5f47dee798d77c1cee5afc54543337792ccf98a5a0c",
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_p45_numeric_label_probe.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_p45_numeric_label_probe.py",
+      "sha256": "cec8cb3fe05ecf226fa630d7e5a01c3027ddd972d038dfefe87ec4347e638d06",
+      "bytes": 1221,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_p45_source_image_identity.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_p45_source_image_identity.py",
+      "sha256": "5a59d4d9216eb4454ff7a1e6ddc525fe0cb43d5a59cfc5b49256c89e23ed7ac2",
+      "bytes": 1424,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_shared_readonly_receipt.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_shared_readonly_receipt.py",
+      "sha256": "eb3b660bde3088ca7826e5f02878dcc6eb03f3c2562361c5d0f0658b60108cd4",
+      "bytes": 3855,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-cdx-perotac-dong-bo-do-thi\\work\\cdx_uniform_source_ink_direction_readonly.py",
+      "zip_entry": "codex/2026-10-03/catalogue-cdx-perotac-dong-bo-do-thi/work/cdx_uniform_source_ink_direction_readonly.py",
+      "sha256": "1fc15ac1ed9cdc30e892e2c5e845e0df00d851baec3f8fe9e52c45a87f263877",
+      "bytes": 6852,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_authorized_and_monotonic_v12.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_authorized_and_monotonic_v12.py",
+      "sha256": "c1a17c7bdcb1b10b045268dc9511e531718a125269ad9fd17cf8a88dbb90f818",
+      "bytes": 15768,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_final_handoff_v12.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_final_handoff_v12.py",
+      "sha256": "81c78cee0a503f4e67971e829b1ce17ca244de3b0c4808af18598e94c04a2345",
+      "bytes": 16414,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_fix_readback_selection_v10.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_fix_readback_selection_v10.py",
+      "sha256": "94af1272e922f0392e3755cbb89288d591da534dde007e2cdf940fea76e2e20b",
+      "bytes": 6397,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_geometry_select_authorized_v12.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_geometry_select_authorized_v12.py",
+      "sha256": "dbaf792ea64970580e469017928ce5d4181e552d629640797b750c41a971090f",
+      "bytes": 1961,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_next_curve_read_v10.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_next_curve_read_v10.py",
+      "sha256": "0340bb84d039bcede4f2d39f8d0bec0b17169528b3b541b02bf4dbfbb04034ad",
+      "bytes": 19324,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_next_curve_read_v7.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_next_curve_read_v7.py",
+      "sha256": "68a6d3924bdc2a1337925d11977931373382f1f61ab1e6f0e272004e0f5572cf",
+      "bytes": 19320,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_next_geometry_v10.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_next_geometry_v10.py",
+      "sha256": "342ae448f6bf34e81440264f1f829956f522ca40f3f8e6076101b4a75191947d",
+      "bytes": 12530,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_next_geometry_v12.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_next_geometry_v12.py",
+      "sha256": "c53a54dfdec3848cd6165de5371a3514c98e366f68f253b008c159dbe31d2c5c",
+      "bytes": 13072,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_next_geometry_v8.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_next_geometry_v8.py",
+      "sha256": "228b9a0efdf2a7b171b4bf18511cb6280cc3310447dedddc60c051d7a1cef884",
+      "bytes": 12416,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_next_handoff_v10.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_next_handoff_v10.py",
+      "sha256": "900d9d24acf12c60c0477c73cd46388b5dda65dbd4cb40d50e8bb9b71e18f428",
+      "bytes": 18603,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_next_handoff_v9.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_next_handoff_v9.py",
+      "sha256": "d5af6343bc636910e4b0daed208b9fad0556f7b97363fe8792ae061c81eb9b92",
+      "bytes": 18114,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-perotac-sp-dong-bo-do-thi\\work\\per_sp_uniform_next_upgrade_v7.py",
+      "zip_entry": "codex/2026-10-03/catalogue-perotac-sp-dong-bo-do-thi/work/per_sp_uniform_next_upgrade_v7.py",
+      "sha256": "5aa5f2444bca1a1400760b0fceded581818926399bbcc2b1855356f0f5deed42",
+      "bytes": 4349,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-wc-perotac-kiem-duong\\work\\per_wc_continue_DWO_shared_rule_and_uniform_frame_a3.py",
+      "zip_entry": "codex/2026-10-03/catalogue-wc-perotac-kiem-duong/work/per_wc_continue_DWO_shared_rule_and_uniform_frame_a3.py",
+      "sha256": "3319eaec8ee270e2352d658301adba11e06d3f4952a98b164afb48f9fab5a1ab",
+      "bytes": 15143,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    },
+    {
+      "source_path": "C:\\Users\\H2\\Documents\\Codex\\2026-10-03\\catalogue-wc-perotac-kiem-duong\\work\\per_wc_continue_DWO_uniform_frame_projection_a3.mjs",
+      "zip_entry": "codex/2026-10-03/catalogue-wc-perotac-kiem-duong/work/per_wc_continue_DWO_uniform_frame_projection_a3.mjs",
+      "sha256": "5a7085c0c10d1da0ae3305085056fa220997ed677930ca911c7ab803f53e5ee2",
+      "bytes": 1989,
+      "previous_archived_sha256": null,
+      "execution_not_authorized_by_archival": true
+    }
+  ],
+  "unstable_files_not_archived": [],
+  "scope": "Mã mới/đổi sau lần chụp đầu; giữ cả phiên trước, không chạy tác vụ sửa"
+}

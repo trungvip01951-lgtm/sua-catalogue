@@ -1,0 +1,32 @@
+{
+  "scope": "",
+  "actor": "",
+  "session": "",
+  "source_path": "",
+  "source_sha256": "",
+  "actual_saved_file_path": "",
+  "actual_saved_file_sha256": "",
+  "checked_at": "",
+  "result": "CHƯA THỂ XÁC MINH",
+  "checks": [
+    {"requirement": "KHÁC GIAO DIỆN GIỮA CÁC HÃNG: cùng loại bơm khác rõ màu, nền đầu trang và cách trình bày; so các PDF thật", "result": "CHUA_CHAY", "evidence": [], "reviewer": "", "pdf_sha256_and_pages": []},
+    {"requirement": "ĐƯỜNG CONG ĐỀU: toàn miền giảm, không gợn/ngoằn nghèo; sai lệch từng điểm bảng≤5%, giữ min/max/duty; nhìn mọi biểu đồ PDF thật, C2 không đủ", "result": "CHUA_CHAY", "evidence": [], "reviewer": "", "pdf_sha256_and_pages": []},
+    {"requirement": "Đường hiệu suất và vùng clip hiển thị đủ sau mọi thay đổi bố cục; không chỉ đếm path", "result": "CHUA_CHAY", "evidence": []},
+    {"requirement": "Đúng nguồn, mã việc và quyền anh", "result": "CHUA_CHAY", "evidence": []},
+    {"requirement": "Bản thật đã lưu bằng catfix và đọc lại đúng SHA", "result": "CHUA_CHAY", "evidence": []},
+    {"requirement": "Số liệu, khóa Q-H, bảng, ô trống, tên và đơn vị", "result": "CHUA_CHAY", "evidence": []},
+    {"requirement": "Q tăng/H giảm trên toàn đường cùng mã; số trung gian nguyên đúng bộ đã chốt; extrema và điểm làm việc giữ", "result": "CHUA_CHAY", "evidence": []},
+    {"requirement": "Hình thức chữ, màu, nét, đường, ảnh và mép đầy đủ", "result": "CHUA_CHAY", "evidence": []},
+    {"requirement": "Nguồn bất biến, bản trước đã sao lưu", "result": "CHUA_CHAY", "evidence": []},
+    {"requirement": "Trang, khổ, phông, ảnh, mặt nạ, thông tin, liên kết, mục lục giữ", "result": "CHUA_CHAY", "evidence": []},
+    {"requirement": "Ngoài vùng sửa đúng ngưỡng và không nới vùng", "result": "CHUA_CHAY", "evidence": []},
+    {"requirement": "Người kiểm độc lập đã mở đúng tệp thật", "result": "CHUA_CHAY", "evidence": []},
+    {"requirement": "Bản in thực nếu thuộc phạm vi", "result": "CHUA_CHAY", "evidence": []}
+  ],
+  "source_limitations": [],
+  "failed_diagnostics_preserved": [],
+  "scope_not_checked": [],
+  "approval_pending": [],
+  "no_success_by_default": true,
+  "not_applicable_requires_explanation": true
+}

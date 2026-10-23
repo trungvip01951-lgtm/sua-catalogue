@@ -1,0 +1,53 @@
+﻿PROMPT NHÓM G10 – Máy thổi khí Perotac GB
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('May thoi khi Perotac_300dpi_75% (bản mới).pdf')   (thư mục Thổi khí)
+  Ra:  S.dst('May thoi khi Perotac_300dpi_75% (bản mới).pdf')   → job = S.job('May thoi khi Perotac_300dpi_75% (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1: ÍT NỘI DUNG / HÌNH; trang 2: CHỮ NÉT VẼ; trang 3–19, 21–26, 28–29: CHỮ THẬT + CHỮ NÉT VẼ; trang 20, 27: CHỮ THẬT
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 77 | ĐÃ XONG (không làm lại) | May thoi khi Perotac_300dpi_75%.pdf | 2 | Tiêu đề | "PERATING PRINCIPLE" | (ĐÃ SỬA ngày 01/10 – bản mới đã gửi) | — |
+| 78 | SỬA | May thoi khi Perotac_300dpi_75%.pdf | 2 | Đoạn mô tả nguyên lý | "Intolet", "Maximun", "The gas it taken in though the inlet1", "dischargring it though" | Inlet, Maximum, "The gas is taken in through the inlet 1", "discharging it through" | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 79 | SỬA | May thoi khi Perotac_300dpi_75%.pdf | 3 | Tiêu đề | "EXPLOSIVE VIEW" | EXPLODED VIEW | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 80 | SỬA | May thoi khi Perotac_300dpi_75%.pdf | 10, 12 | Bảng GB-2200, GB-3000S | Một số ô ("14.8(17.7)", "50(60)", "390(435)") khác font/độ đậm – lộ dấu vết sửa | Đồng bộ font các ô | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 81 | SỬA | May thoi khi Perotac_300dpi_75%.pdf | 22–25 | Tiêu đề biểu đồ | "Performance Curve of gb Series" | GB Series | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 82 | SỬA | May thoi khi Perotac_300dpi_75%.pdf | 28–29 | Ô ứng dụng | Chữ dịch máy sai: "Wash the battle machine", "Subpoena transport", "entwork edition", "cottom", "Ox milk"…; trang 29 lặp phụ đề của trang 28 | Viết lại câu ứng dụng | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 83 | SỬA | May thoi khi Perotac_300dpi_75%.pdf | cả file | Đơn vị | Kpa, HZ, KW, KG | kPa, Hz, kW, kg | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 145 | GIỮ NGUYÊN (không đụng) | May thoi khi Perotac_300dpi_75%.pdf | 19 | Bảng kích thước GB-1100, GB-1500, cột L1 | 30 | Giữ nguyên | NV trả lời (file câu hỏi 02/10) |
+
+Số việc phải SỬA: 6. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- 29 trang, phần lớn có CHỮ THẬT (+ một số chữ nét vẽ, trang 2 là nét vẽ). what_is_at trước mỗi việc.
+- #77 đã sửa ngày 01/10 (tiêu đề trang 2) – không làm lại.
+- #78 trang 2 (chữ nét vẽ): "Intolet"→"Inlet", "Maximun"→"Maximum", "The gas it taken in though the inlet1"→
+  "The gas is taken in through the inlet 1", "dischargring it though"→"discharging it through".
+  Chữ dòng này dính nhau khi đọc (khoảng cách hẹp) → dùng T.find(..., ignore_spaces=True) hoặc regex.
+- #79 trang 3: "EXPLOSIVE VIEW" → "EXPLODED VIEW" (chữ thật).
+- #80 trang 10, 12: ô "14.8(17.7)", "50(60)", "390(435)" khác font/đậm → viết lại bằng font/cỡ của các ô bình thường
+  cùng bảng (xoá + insert_like từ ô chuẩn bên cạnh, căn giữa ô).
+- #81 trang 22–25: "Performance Curve of gb Series" → "GB Series".
+- #82 trang 28–29 ô ứng dụng (dịch máy sai): lập bảng đề xuất câu tiếng Anh đúng cho TỪNG ô (vd "Wash the battle
+  machine" → "Bottle washing machine"), gửi anh duyệt TRƯỚC, rồi mới sửa; trang 29 bỏ phụ đề lặp của trang 28.
+- #83 cả file: Kpa→kPa, HZ→Hz, KW→kW, KG→kg (cả chữ thật và chữ nét vẽ; kiểm từng trang).
+- #145: giữ nguyên.
+
+ĐÃ DÒ THỬ BẰNG catfix (để bạn đối chiếu – toạ độ pt, gốc dưới trái; n = số chỗ tìm thấy):
+- May thoi khi Perotac_300dpi_75%.pdf, trang 3, tìm 'EXPLOSIVE' → n=1 "VORTEX AIR PUMP EXPLOSIVE VIEW" tại [301.7, 539.6, 441.3, 557.1]
+- May thoi khi Perotac_300dpi_75%.pdf, trang 22, tìm 'gb Series' → n=1 "Performance Curve of gb Series Vortex Air pump (for referenc" tại [174.9, 520.7, 216.3, 529.4]
+- May thoi khi Perotac_300dpi_75%.pdf, trang 22, tìm 'Series' → n=1 "Performance Curve of gb Series Vortex Air pump (for referenc" tại [188.3, 520.7, 216.3, 529.4]
+- May thoi khi Perotac_300dpi_75%.pdf, trang 28, tìm 'battle' → n=1 "Wash the battle machine " tại [271.9, 455.4, 293.1, 463.1]
+- May thoi khi Perotac_300dpi_75%.pdf, trang 28, tìm 'Subpoena' → n=2 "Subpoena transport" tại [242.1, 311.1, 281.9, 318.9]; "Subpoena " tại [224.3, 283.7, 254.1, 289.5]
+- May thoi khi Perotac_300dpi_75%.pdf, trang 28, tìm 'cottom' → n=0 (chưa thấy – thử dump/teach/regex, hoặc chữ nằm ở dạng khác: chữ thật/nét vẽ/ảnh)
+- May thoi khi Perotac_300dpi_75%.pdf, trang 10, tìm '14.8(17.7)' → n=0 (chưa thấy – thử dump/teach/regex, hoặc chữ nằm ở dạng khác: chữ thật/nét vẽ/ảnh)
+- May thoi khi Perotac_300dpi_75%.pdf, trang 10, tìm '50(60)' → n=2 "50(60)" tại [278.8, 148.2, 304.0, 156.0]; "50(60)" tại [278.9, 116.0, 304.0, 123.7]
+- May thoi khi Perotac_300dpi_75%.pdf, trang 2, tìm 'Intolet' → n=1 "Intolet" tại [269.3, 300.5, 303.3, 310.0]
+- May thoi khi Perotac_300dpi_75%.pdf, trang 2, tìm 'Maximun' → n=1 "The impellers are mounted directlyon the motorshaftfornoncon" tại [514.3, 202.6, 550.7, 214.0]
+- May thoi khi Perotac_300dpi_75%.pdf, trang 2, tìm 'though' → n=2 "The gas ittaken in though the inlet'.As itentersthe side cha" tại [153.5, 148.2, 181.1, 162.6]; "dischargring itthoughtheoutletsilencer4whereitexitsthesidech" tại [132.8, 78.6, 160.4, 93.0]
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G10.png") và báo cáo S.report("BAO CAO G10.md"); ghi S.progress("G10", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

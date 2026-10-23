@@ -1,0 +1,44 @@
+﻿PROMPT NHÓM G02 – Aquaris SP – vẽ lại 21 biểu đồ
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.result('Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf')   ← file ĐÃ SỬA của nhóm G01 (thư mục Giếng)
+  KIỂM TRƯỚC KHI LÀM: sha256 của file vào phải KHÁC c56abd03329bbe9469156196e2da7782d07a66f60b685c4c9f4b3d74b45ed785
+  (mã đó là bản 01-10 CHƯA sửa G01). Trùng mã → DỪNG, báo anh làm G01 trước.
+  Ra:  S.dst('Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf', sub='G02 (gồm cả G01)')
+  → job = S.job('Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf', sub='G02 (gồm cả G01)', src=S.result('Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf'))
+  Loại trang (đã kiểm): trang 1: ÍT NỘI DUNG / HÌNH; trang 2–32: CHỮ NÉT VẼ
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 20 | SỬA | Aquaris bơm giếng SP 1_300dpi_75%.pdf | 3–14, 16–32 | 21 biểu đồ đường đặc tính | — | Vẽ lại cả 21 biểu đồ theo bảng (đường cong mượt, giữ màu/nét/chữ cũ); trang 10 thêm đường 5SP10-30 và nới trục dọc; trang 18 trục lưu lượng chia đều đúng; nhãn bỏ số 0 | Anh Trung chốt 02/10 |
+
+Số việc phải SỬA: 1. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- File vào: FILE RA của nhóm G01 (đã sửa bảng). Không dùng bản mới cũ.
+- 21 biểu đồ ở trang 3–14 và 16, 18, 20, …, 32. Mỗi biểu đồ: trục ngang = lưu lượng Q (m³/h, nhãn dưới
+  biểu đồ), trục đứng = cột áp H (m, nhãn bên trái), lưới xám; mỗi model là 1 đường màu xanh
+  (màu nét ≈ (0.133, 0.365, 0.635), dày ≈ 0.67pt), nhãn model kiểu "25-7.5" (số tầng - kW) ở đầu trái đường,
+  chữ xanh có viền trắng phía sau.
+- Cách làm: (1) đọc bảng của trang (hàng l/min, hàng m³/h, các hàng model) bằng OutlineText;
+  (2) hiệu chỉnh trục: charts.gridlines + ticks_from_labels + snap_ticks + Chart.from_ticks (warning phải None);
+  (3) ghép mỗi đường với model qua nhãn đầu đường (số tầng-kW) và cột áp tại Q=0;
+  (4) path = ch.smooth_path(điểm bảng) ; E.replace_path(trang, oi, path) ; ghi ch.last_fit (độ lệch lớn nhất);
+  (5) nhãn: bỏ số 0 đầu ("07-2.2" → "7-2.2"), giữ vị trí đầu nhãn; nếu đầu đường mới lệch > 2pt thì dời nhãn
+  + bản sao viền trắng theo cùng độ lệch.
+- MẪU TRƯỚC: làm trang 9 (4SP14) → gửi ảnh trước–sau + bảng lệch từng điểm → CHỜ anh duyệt.
+- Trang 10 (5SP10): thêm đường 5SP10-30 (cột áp tới ≈330 m, vượt trục 300): đề xuất đổi nhãn trục đứng để giá trị
+  lớn nhất ≥ 330 với bước tròn (vd 0–60–120–…–360 giữ nguyên số vạch lưới), vẽ lại TẤT CẢ đường theo trục mới,
+  đường mới tạo bằng E.insert_object_after(đường mẫu) + nhãn "30-…" chép kiểu nhãn khác. Gửi mẫu duyệt.
+- Trang 18 (6SP30): nhãn trục ngang "0-10-15-20-30-40-50" cách đều (sai). Đề xuất nhãn tuyến tính khớp vạch lưới
+  (vd 0–10–20–30–40–50–60) đủ phủ dải lưu lượng của bảng, vẽ lại các đường theo trục đúng. Gửi mẫu duyệt.
+- Nghiệm thu từng biểu đồ: số đường = số model trong bảng; mỗi đường lệch ≤ max(1 m, 2%) tại mọi điểm bảng
+  (đo lại trên file ra bằng sample_path + compare); màu/độ dày nét không đổi; ngoài vùng biểu đồ không đổi điểm ảnh.
+
+NGHIỆM THU RIÊNG: Mỗi biểu đồ: bảng (model | điểm Q | H bảng | H đường mới | lệch). Lệch lớn nhất ≤ max(1 m, 2%).
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G02.png") và báo cáo S.report("BAO CAO G02.md"); ghi S.progress("G02", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

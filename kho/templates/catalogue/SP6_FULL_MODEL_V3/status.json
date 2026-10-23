@@ -1,0 +1,18 @@
+{
+  "template": "SP6_FULL_MODEL_V3",
+  "scope": "One SP Perotac page6 sample, 6SP36 and6SP46",
+  "digital_sample_scope_pass": true,
+  "numeric": "PASS",
+  "visual_independent": "PASS",
+  "preservation": "PASS",
+  "paper_print": "NOT_RUN",
+  "production_ready": false,
+  "canonical_adopted": false,
+  "user_design_review": "AWAITING_REVIEW",
+  "full_pdf_sha256": "f6701fbd513b8860fe8dc8d735c4c448bb45f5c642bfeaa36b2009abea51d7f1",
+  "method_attempts": 1,
+  "prior_STOP2_methods": "REMAIN_CLOSED",
+  "models": 39,
+  "H_cells": 426,
+  "max_relative_H_error_percent": 4.920087670846964
+}

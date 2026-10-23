@@ -1,0 +1,56 @@
+﻿PROMPT NHÓM G03 – Aquaris SA
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf')   (thư mục Giếng)
+  Ra:  S.dst('Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf')   → job = S.job('Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1: ÍT NỘI DUNG / HÌNH; trang 2–10: CHỮ NÉT VẼ
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 21 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 3 | Bảng 4SA2, dòng 4SA2/65 | 4.0 kW = 5.0 HP | 4.0 kW = 5.5 HP (như các trang khác) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 22 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 4 | Bảng 4SA3, hàng m³/h | 1.1 m³/h ứng 20 l/min | 1.2 m³/h | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 23 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 5 | Bảng 4SA4, hàng m³/h | 5.0 m³/h ứng 90 l/min | 5.4 m³/h | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 24 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 5 | Bảng 4SA4, dòng 4SA4/22, cột 3.0 m³/h (50 l/min) | 103 (thấp hơn cả điểm 4.2 m³/h = 104) | ≈129 (theo tỉ lệ tầng; chốt số cho đường cong mượt) | Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý) |
+| 25 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 6 | Bảng 4SA6, dòng 4SA6/11 | 1.0 kW / 1.5 HP | 1.1 kW / 1.5 HP | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 26 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 6 | Bảng 4SA6, dòng 4SA6/36, cột 1.2 m³/h | 281 (cao hơn cả điểm 0 = 227) | ≈217 (theo tỉ lệ tầng; chốt số cho đường cong mượt – xem PROMPT CHUNG mục CHỐT SỐ) | Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý) |
+| 27 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 7 | Bảng 4SA8, hàng m³/h | 2.2 m³/h ứng 40 l/min | 2.4 m³/h | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 28 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 7 | Bảng 4SA8, dòng 4SA8/8 | 1.0 kW / 1.5 HP | 1.1 kW / 1.5 HP | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 29 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 7 | Bảng 4SA8, dòng "4SA8/24" | Tên 4SA8/24 nhưng số liệu 162-153-137-114-72-14 là của 28 tầng; biểu đồ ghi 4SA8/28 | Đổi tên thành 4SA8/28 (số liệu và biểu đồ đều là 28 tầng) | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 30 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 7 | Bảng 4SA8, dòng 4SA8/44, cột 4.8 m³/h | 316 (cao hơn điểm 0 = 255) | ≈216 (theo tỉ lệ tầng; chốt số cho đường cong mượt – xem PROMPT CHUNG mục CHỐT SỐ) | Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý) |
+| 31 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 8 | Bảng 4SA10, dòng 4SA10/28, cột 1.8 m³/h | 116 | ≈166 (theo tỉ lệ tầng; chốt số cho đường cong mượt – xem PROMPT CHUNG mục CHỐT SỐ) | Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý) |
+| 32 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 10 | Bảng 4SA16, hàng l/min | 230 / 265 / 360 ứng 14 / 16 / 22 m³/h | 233 / 267 / 367 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 33 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 2 | Trang mục lục | Tên model trong 6 ô không thẳng hàng | Căn lại cho đều | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 34 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | cả file | Chữ chung | "Kw", "KW", "Hp"; "Aquaris S.r.l"; "diameterϕ95mm" dính chữ | kW, HP; S.r.l.; "diameter ϕ95 mm" | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 130 | SỬA | Aquaris bơm giếng SA 1_300dpi_75%.pdf | 5 | Bảng 4SA4, hàng 4SA4/40, cột 6.0 m³/h | 98 | 89 (theo tỉ lệ tầng – sửa cho đồng bộ vì Aquaris SP nay sửa các ô lệch) | Em đề xuất theo chốt mới của anh (trước NV chọn để nguyên) |
+
+Số việc phải SỬA: 15. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- Cả file là CHỮ NÉT VẼ (10 trang). Bảng mỗi trang có hàng l/min và m³/h, các hàng model dạng "4SA8/24".
+- #21 trang 3: dòng 4SA2/65: HP "5.0" → "5.5". #25, #28: "1.0" (kW) → "1.1".
+- #22, #23, #27: hàng m³/h – đổi đúng ô (1.1→1.2; 5.0→5.4; 2.2→2.4) – ô ở đúng cột 20, 90, 40 l/min.
+- #24, #26, #30, #31, #130 (5 ô cột áp): chốt số theo tỉ lệ cột áp/tầng như G01 (#8–15), có kiểm đường cong;
+  số đề xuất: ≈129, ≈217, ≈216, ≈166, 89.
+- #29 trang 7: đổi TÊN hàng "4SA8/24" → "4SA8/28" (số liệu giữ nguyên).
+- #32 trang 10: hàng l/min 230/265/360 → 233/267/367.
+- #33 trang 2 (mục lục): 6 ô tên model lệch – căn lại cho thẳng hàng theo cột (T.move từng tên; so toạ độ
+  x của các tên cùng cột, y của các tên cùng hàng).
+- #34 cả file: "Kw"/"KW" → "kW", "Hp" → "HP"; "Aquaris S.r.l" → "S.r.l."; "diameterϕ95mm" → "diameter ϕ95 mm"
+  (chèn khoảng trắng = dời phần sau sang phải đúng 1 khoảng cách chữ).
+- Biểu đồ: sau khi đổi số, đo các đường của model có ô đổi (4SA4/22, 4SA4/40, 4SA6/36, 4SA8/28, 4SA8/44,
+  4SA10/28) so với bảng; báo bảng lệch; vẽ lại khi anh duyệt mẫu.
+
+ĐÃ DÒ THỬ BẰNG catfix (để bạn đối chiếu – toạ độ pt, gốc dưới trái; n = số chỗ tìm thấy):
+- Aquaris bơm giếng SA 1_300dpi_75%.pdf, trang 3, tìm '4SA2/65' → n=2 "4SA2/65" tại [200.1, 456.2, 231.8, 462.3]; "400 4SA2/65" tại [212.7, 395.0, 255.2, 401.8]
+- Aquaris bơm giếng SA 1_300dpi_75%.pdf, trang 3, tìm '5.0' → n=1 "5.0" tại [296.1, 456.2, 307.0, 462.0]
+- Aquaris bơm giếng SA 1_300dpi_75%.pdf, trang 3, tìm 'Kw' → n=1 "Motor power (Kw)" tại [527.1, 689.7, 535.0, 694.0]
+- Aquaris bơm giếng SA 1_300dpi_75%.pdf, trang 3, tìm 'S.r.l' → n=1 "???? Acuaris S.r.l" tại [82.1, 20.4, 97.3, 27.0]
+- Aquaris bơm giếng SA 1_300dpi_75%.pdf, trang 7, tìm '4SA8/24' → n=1 "4SA8/24" tại [196.3, 469.5, 228.0, 475.5]
+- Aquaris bơm giếng SA 1_300dpi_75%.pdf, trang 7, tìm '316' → n=1 "316" tại [411.1, 440.4, 424.4, 446.2]
+- Aquaris bơm giếng SA 1_300dpi_75%.pdf, trang 7, tìm '2.2' → n=2 "4 ?A 8 15 - 2.2" tại [445.5, 712.9, 457.7, 719.2]; "2.2" tại [380.8, 582.6, 391.7, 588.2]
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G03.png") và báo cáo S.report("BAO CAO G03.md"); ghi S.progress("G03", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

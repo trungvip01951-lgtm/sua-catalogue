@@ -1,0 +1,238 @@
+{
+ "src": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\3M Aquaris (bản mới).pdf",
+ "dst": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\3M Aquaris (bản mới).pdf",
+ "edits": [
+  {
+   "page": 0,
+   "rect": [
+    417.0,
+    289.62,
+    515.73,
+    298.38
+   ],
+   "label": "#105 M ODELO → MODELO (chữ ó chưa có Ó hoa)",
+   "kind": "outline-move"
+  },
+  {
+   "page": 1,
+   "rect": [
+    227.61,
+    516.76,
+    364.54,
+    524.64
+   ],
+   "label": "#106 MA TERIAL → MATERIAL (chữ ó chưa có Ó hoa)",
+   "kind": "outline-move"
+  },
+  {
+   "page": 0,
+   "rect": [
+    409.87,
+    191.82,
+    534.9,
+    199.54
+   ],
+   "label": "#107 T amaño → Tamaño",
+   "kind": "outline-move"
+  },
+  {
+   "page": 0,
+   "rect": [
+    259.9,
+    138.25,
+    274.49,
+    144.3
+   ],
+   "label": "#107 inox304 → inox 304",
+   "kind": "outline-move"
+  },
+  {
+   "page": 0,
+   "rect": [
+    473.18,
+    237.59,
+    494.9,
+    244.46
+   ],
+   "label": "#107 kw → kW, đồng phông nghiêng",
+   "kind": "outline-replace"
+  },
+  {
+   "page": 0,
+   "rect": [
+    490.9,
+    227.36,
+    512.55,
+    234.24
+   ],
+   "label": "#107 kw → kW, đồng phông nghiêng",
+   "kind": "outline-replace"
+  },
+  {
+   "page": 0,
+   "rect": [
+    500.5,
+    217.13,
+    523.54,
+    224.01
+   ],
+   "label": "#107 kw → kW, đồng phông nghiêng",
+   "kind": "outline-replace"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1084.85,
+    360.4,
+    1086.86,
+    360.91
+   ],
+   "label": "#107 3M65-200/150 Q=150 thêm -",
+   "kind": "outline-insert"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1103.51,
+    360.39,
+    1105.52,
+    360.91
+   ],
+   "label": "#107 3M65-200/150 Q=204 thêm -",
+   "kind": "outline-insert"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1122.06,
+    360.38,
+    1124.07,
+    360.9
+   ],
+   "label": "#107 3M65-200/150 Q=216 thêm -",
+   "kind": "outline-insert"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1140.67,
+    360.38,
+    1142.68,
+    360.89
+   ],
+   "label": "#107 3M65-200/150 Q=228 thêm -",
+   "kind": "outline-insert"
+  },
+  {
+   "page": 0,
+   "rect": [
+    1159.08,
+    360.37,
+    1161.09,
+    360.89
+   ],
+   "label": "#107 3M65-200/150 Q=240 thêm -",
+   "kind": "outline-insert"
+  },
+  {
+   "page": 0,
+   "rect": [
+    886.71,
+    79.27,
+    889.73,
+    83.81
+   ],
+   "label": "Trục 3M32: nhãn 32 → 30 theo nhịp 0–6–12–18–24",
+   "kind": "outline-axis"
+  },
+  {
+   "page": 0,
+   "rect": [
+    886.71,
+    215.32,
+    889.73,
+    219.87
+   ],
+   "label": "Trục 3M32: nhãn 32 → 30 theo nhịp 0–6–12–18–24",
+   "kind": "outline-axis"
+  },
+  {
+   "page": 0,
+   "rect": [
+    666.97,
+    87.47,
+    886.77,
+    213.49
+   ],
+   "label": "3M32-200/55 đường theo 100% điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 0,
+   "rect": [
+    838.57,
+    168.71,
+    859.24,
+    176.9
+   ],
+   "label": "3M32-200/55 nhãn theo đầu cuối mới",
+   "kind": "outline-move"
+  },
+  {
+   "page": 0,
+   "rect": [
+    666.97,
+    87.47,
+    886.77,
+    213.49
+   ],
+   "label": "3M32-200/40 đường theo 100% điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 0,
+   "rect": [
+    823.86,
+    147.62,
+    862.22,
+    154.57
+   ],
+   "label": "3M32-200/40 nhãn theo đầu cuối mới",
+   "kind": "outline-move"
+  },
+  {
+   "page": 1,
+   "rect": [
+    72.2,
+    598.92,
+    291.99,
+    724.94
+   ],
+   "label": "3M50-200/92 đường theo 100% điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 1,
+   "rect": [
+    349.22,
+    598.92,
+    569.02,
+    724.94
+   ],
+   "label": "3M65-200/185 đường theo 100% điểm bảng",
+   "kind": "curve"
+  },
+  {
+   "page": 1,
+   "rect": [
+    349.22,
+    598.92,
+    569.02,
+    724.94
+   ],
+   "label": "3M65-200/150 đường theo 100% điểm bảng",
+   "kind": "curve"
+  }
+ ],
+ "log": []
+}

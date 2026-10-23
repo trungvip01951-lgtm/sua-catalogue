@@ -1,0 +1,79 @@
+{
+  "source_held": true,
+  "canonical_held": true,
+  "candidate_sha": "8f1a2edc65aad20ab5f0d41b1c4980e85cd7617193a868ac2e98ad05cac7c583",
+  "page_boxes_equal": true,
+  "metadata_equal": true,
+  "toc_equal": true,
+  "links_equal": true,
+  "outside_page_checks": [
+    {
+      "page": 1,
+      "rgb_exact": true
+    },
+    {
+      "page": 2,
+      "rgb_exact": true
+    },
+    {
+      "page": 3,
+      "rgb_exact": true
+    },
+    {
+      "page": 4,
+      "rgb_exact": true
+    },
+    {
+      "page": 5,
+      "rgb_exact": true
+    },
+    {
+      "page": 7,
+      "rgb_exact": true
+    },
+    {
+      "page": 8,
+      "rgb_exact": true
+    },
+    {
+      "page": 9,
+      "rgb_exact": true
+    },
+    {
+      "page": 10,
+      "rgb_exact": true
+    },
+    {
+      "page": 11,
+      "rgb_exact": true
+    },
+    {
+      "page": 12,
+      "rgb_exact": true
+    }
+  ],
+  "table_readback426_pass": true,
+  "old_image_raw_streams_held": true,
+  "old_font_raw_streams_held": true,
+  "xmp_equal": true,
+  "all_mediaboxes_equal": true,
+  "fullpage_vector_content_bytes": 96625,
+  "numeric_curve426_pass": true,
+  "table_changes2": [
+    {
+      "model": "6SP46-2",
+      "Q": 12.0,
+      "before": 26,
+      "after": 25
+    },
+    {
+      "model": "6SP46-2",
+      "Q": 18.0,
+      "before": 25,
+      "after": 24
+    }
+  ],
+  "eta_scope": "Traced graphic only; no manufacturer eta data verification.",
+  "single_page_preview_sha": "469c269cd99bdb823ae457d586e31fe533e1712e81e1aebf9fb2e02e029b89e8",
+  "single_page_pixels_equal_parent": true
+}

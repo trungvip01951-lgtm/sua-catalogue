@@ -1,0 +1,38 @@
+{
+  "PEROTAC": {
+    "pdf": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG THIET KE RIENG 20261006\\PEROTAC SP - REVIEW 02.pdf",
+    "sha256": "07c0ca71af6a323b4fb142bc77d3e11685f521d79eed5a95c29bdf4c5e1da98a",
+    "text_items_checked": 6619,
+    "actual_curves": 220,
+    "max_control_coordinate_delta_pt": 4.981643542123493e-09,
+    "preservation": {
+      "info": true,
+      "xmp": true,
+      "toc": true,
+      "links": true,
+      "sizes": true,
+      "original_images_retained": true,
+      "original_fonts_retained": true
+    },
+    "failures": [],
+    "status": "PASS"
+  },
+  "REDPUMP": {
+    "pdf": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG THIET KE RIENG 20261006\\REDPUMP SP - REVIEW 02.pdf",
+    "sha256": "2face7a1b50125c174b361877ea27e6dd01d4b4cf956faaeccb1b76b0f461ca6",
+    "text_items_checked": 6619,
+    "actual_curves": 220,
+    "max_control_coordinate_delta_pt": 4.981643542123493e-09,
+    "preservation": {
+      "info": true,
+      "xmp": true,
+      "toc": true,
+      "links": true,
+      "sizes": true,
+      "original_images_retained": true,
+      "original_fonts_retained": true
+    },
+    "failures": [],
+    "status": "PASS"
+  }
+}

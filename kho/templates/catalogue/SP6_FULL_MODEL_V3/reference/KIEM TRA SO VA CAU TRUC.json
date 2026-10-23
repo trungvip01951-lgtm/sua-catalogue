@@ -1,0 +1,273 @@
+{
+  "candidate_sha256": "f6701fbd513b8860fe8dc8d735c4c448bb45f5c642bfeaa36b2009abea51d7f1",
+  "table_H426_pass": true,
+  "all_model_power_phase_cells_pass": true,
+  "removed_invalid_single_phase_cells": 4,
+  "table_numeric_changes": 0,
+  "full_labels_39_pass": true,
+  "curve_proof": [
+    {
+      "model": "6SP36-2",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-3",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-4",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-5",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-6",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-7",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-8",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-9",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-10",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-11",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-12",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-14",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-15",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-17",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-18",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-20",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-22",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-24",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-26",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-28",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP36-30",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-2",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-3A",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-3",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-4",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-5",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-6",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-7",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-8",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-9",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-10",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-11",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-12",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-14",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-16",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-18",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-20",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-22",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    },
+    {
+      "model": "6SP46-24",
+      "solid": true,
+      "strict_decreasing": true,
+      "endpoints_held": true
+    }
+  ],
+  "all_426_curve_points_within_5_percent": true,
+  "maximum_curve_error_percent": 4.920087670846964,
+  "changed_curve": "6SP36-2 only, natural C2 through unchanged 10 table points",
+  "grid_strokes": 120,
+  "grid_all_width_pt": 0.6,
+  "grid_all_same_RGB": [
+    0.32,
+    0.48,
+    0.56
+  ],
+  "all_grid_after_all_backgrounds": true,
+  "flow_Q_below_QH_above_eta": true,
+  "Total_head_axes": 2,
+  "model_counts_removed": true,
+  "logo_header_pixels180dpi_held": true,
+  "other11pages_pixels100dpi_held": true,
+  "page_sizes_metadata_toc_links_held": true,
+  "source_held": true,
+  "canonical_held": true,
+  "visual_independent": "PASS: SP6 screen visual scope; work/sp6_fullmodel/independent_final.md",
+  "print": "NOT_RUN",
+  "eta": "Trace of source only, not manufacturer tested data",
+  "changed_curve_actual_pdf_C2": {
+    "model": "6SP36-2",
+    "max_C1_difference": 3.6179785075668436e-05,
+    "max_C2_difference": 1.2242468464832013e-05,
+    "roundtrip_tolerance": 0.0001
+  },
+  "canonical_adopted": false
+}

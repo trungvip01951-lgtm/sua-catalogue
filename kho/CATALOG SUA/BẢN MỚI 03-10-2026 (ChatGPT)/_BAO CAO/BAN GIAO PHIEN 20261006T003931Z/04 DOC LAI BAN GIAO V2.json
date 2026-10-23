@@ -1,0 +1,15 @@
+{
+  "status": "HANDOFF_V2_READ_BACK",
+  "handoff": "D:\\ChatGPT\\Sửa catalogue\\BAN_GIAO_PHIEN_20261006T003931Z_V2.md",
+  "handoff_sha256": "f31681585903b1b84dab584f2f58faa0773bc206d4066041f22a898bed763ea1",
+  "proof": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\BAN GIAO PHIEN 20261006T003931Z\\03 DINH CHINH VA XAC NHAN BAN GIAO V2.json",
+  "proof_sha256": "85537db4582c653bcfbcfcb9f05d40bd9b52a9581a9e477b413e3a7a599d3813",
+  "ledger_sha256": "9be27de9044daf6600742852fc6ea77d781e48a063aa1b66085e14978b1b066c",
+  "checkpoint_sha256": "bf1ade8115396404ea9d31e2511c4ce244a2ddba83f3d4e2b98941d1b42b9eeb",
+  "25_sources_25_canonicals_held": true,
+  "locks": [],
+  "catalogue_edits": 0,
+  "original149_accepted": 137,
+  "whole_project_complete": false,
+  "receiver_read_applied": "NOT_VERIFIED"
+}

@@ -1,0 +1,77 @@
+{
+  "reviewer": "/root/sp_dimensions_assets",
+  "pdf": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\AQUARIS SP THIET KE MOI 20261006\\AQUARIS SP - REVIEW 02.pdf",
+  "sha256": "85c9e28f779859e35c7a0bd2abe0cb5d2ff018fa7971c274c8ca5b45beaaa358",
+  "pages": 31,
+  "visual_status": "PASS_AQUARIS_ONLY",
+  "pages_personally_viewed_full": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "review02_changed_pages_viewed": [
+    26,
+    27
+  ],
+  "inherited_visual_evidence_reason": "29 unchanged pages pixel identical at140dpi; full31 REVIEW01 reviewed individually;26/27reviewed anew",
+  "gates": {
+    "DUONG_CONG_DEU": {
+      "status": "PASS",
+      "chart_count": 20,
+      "curves": 197,
+      "H_rising_paths": 0,
+      "significant_curvature_reversal_paths": 0,
+      "max_slope_join_difference": 9.06894164098837e-07,
+      "float_derivative_tolerance": 1e-05
+    },
+    "KHAC_GIAO_DIEN_GIUA_CAC_HANG": {
+      "AQUARIS_vs_old_and_current_PR_RP": "PASS",
+      "all_three_new_final_PDFs": "PENDING",
+      "reason": "PR/RP redesigns not yet independently reviewed"
+    }
+  },
+  "intro_materials_checks": 402,
+  "intro_materials_missing": 0,
+  "photo_regions_600dpi_viewed": [
+    "cover6pumps",
+    "3SPhead",
+    "5SPhead",
+    "6SPhead",
+    "8and10SPhead"
+  ],
+  "photo_clean_status": "PASS_VISIBLE_OLD_STAMP_REGIONS",
+  "photo_limit": "Source67-116pxwide; notHD",
+  "numeric1179H": "Separate coordinator numericQA; not independently revalidated1179values here",
+  "PR_RP_SUMOTO": "UNKNOWN_NOT_PROVEN_CLEAN_OR_MARKED",
+  "report": "INDEPENDENT_FINAL_8COL.md",
+  "pdf_mutations": 0,
+  "adopted": false
+}

@@ -1,0 +1,16 @@
+{
+  "status": "DELIVERED_ROOT_REVIEW_PENDING",
+  "candidate": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\staging\\candidate-v4\\KTZ - LH Redpump (bản mới).pdf",
+  "candidate_SHA256": "2dcdb269de340c72e607ce18d63fa0a1f34a7f0b8f529c71a9ca17a6950c75e5",
+  "report": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\staging\\candidate-v4\\BAO-CAO-REDPUMP-H50.md",
+  "report_SHA256": "1caa2e9008c63d3b3322ad02b55c2db0cc76b535196742e3cbaf993231520025",
+  "QA_machine_SHA256": "c919ad3ccb7676a3c927f60efdfe6579ef441b6b8a09173303293f0f4f5bb005",
+  "QA_visual_SHA256": "6b23e7eb195ad65ae7fe89bd4fb1de68bd7c5ea631c70ca0419a5669a23ee7f1",
+  "source_current_hashes_held": true,
+  "canonical_untouched": true,
+  "gap_before_after_pt": [
+    14.303262446350516,
+    9.30239394635862
+  ],
+  "remaining_blocker": "Independent owner acceptance before canonical publication"
+}

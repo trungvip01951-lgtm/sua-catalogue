@@ -1,0 +1,52 @@
+from pathlib import Path
+import json,shutil,hashlib
+from decimal import Decimal
+from datetime import datetime,timezone
+R=Path(r'D:\ChatGPT\Sửa catalogue');W=R/'work/sp6_redesign_pilot';D=R/'deliverables/SP TRANG 6 MAU VE LAI 20261006'
+read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'))
+start=read(W/'token_start.json');cutoff='2026-10-06T02:51:35.999Z'
+def last_count(path):
+ last=None
+ for line in Path(path).open(encoding='utf-8'):
+  x=json.loads(line);p=x.get('payload',{})
+  if x.get('type')=='event_msg' and p.get('type')=='token_count' and x['timestamp']<=cutoff and p.get('info'):
+   last={'timestamp':x['timestamp'],'usage':p['info']['total_token_usage']}
+ return last
+root=last_count(start['log_path']);base=start['start']['before']['info']['total_token_usage'];root_delta={k:v-base.get(k,0) for k,v in root['usage'].items()}
+agentpath=r'C:\Users\H2\.codex\sessions\2026\10\06\rollout-2026-10-06T09-47-59-01a10f1c-5cf7-7942-8a3d-71edcbca5572.jsonl'
+agent=last_count(agentpath)
+before=Decimal(read(W/'credit_before.json')['credits']['balance']);after=Decimal('32273.4686995000');drop=before-after
+usage={'cutoff_utc':cutoff,'root_start':start['start']['timestamp'],'root_cutoff':root['timestamp'],'root_delta':root_delta,'independent_agent':agent,'credit_before':str(before),'credit_after':str(after),'credit_account_delta':str(drop),'credit_window_utc':['2026-10-06T02:35:32Z','2026-10-06T02:51:35Z'],'credit_scope':'ACCOUNT-WIDE, concurrent SEO WEB sessions observed; cannot attribute exact billed credits to this page. First minute and post-cutoff work excluded.','token_scope':'Session counters reported separately; not added to avoid possible platform aggregation. Reasoning tokens are already part of output.','root_log':start['log_path'],'agent_log':agentpath}
+(D/'TOKEN CREDIT SO DO.json').write_text(json.dumps(usage,ensure_ascii=False,indent=2),encoding='utf8')
+rows=[]
+for label,v in [('Phiên dựng mẫu ROOT',root_delta),('Phiên kiểm độc lập',agent['usage'])]:
+ rows.append(f"| {label} | {v['input_tokens']-v['cached_input_tokens']:,} | {v['cached_input_tokens']:,} | {v['output_tokens']:,} |")
+report=f'''# Token và Credit của lượt làm mẫu
+
+Đo đến 09:51:35 ngày 06/10/2026, giờ Việt Nam. Yêu cầu thử một trang bắt đầu khoảng 09:34:13.
+
+| Phiên | Token đầu vào không có trong bộ nhớ đệm | Token đầu vào đọc từ bộ nhớ đệm | Token đầu ra |
+|---|---:|---:|---:|
+{chr(10).join(rows)}
+
+Đây là bộ đếm token thực trong nhật ký Codex, không ước lượng theo số chữ. Token suy luận nằm trong đầu ra, không cộng thêm. Hai phiên báo riêng, không cộng gộp khi chưa có chứng từ xác nhận cơ chế gộp của nền tảng. Token đọc từ bộ nhớ đệm vẫn được ghi nhận; không coi là miễn phí hoặc tự đặt tỷ giá Credit/token.
+
+Số dư Credit toàn tài khoản: **{before:,.4f} → {after:,.4f}**, giảm **{drop:,.4f} Credit** trong cửa sổ 09:35:32–09:51:35. Có các phiên SEO WEB khác hoạt động cùng thời gian. **CHƯA THỂ XÁC MINH bao nhiêu Credit riêng cho trang mẫu này.** Không quy toàn bộ mức giảm tài khoản cho catalogue, không đổi sang tiền USD/VND. Mốc đầu được lấy sau lúc bắt đầu khoảng một phút; phần sau mốc chốt và câu trả lời cuối chưa tính.
+
+Lượt thử gồm đọc bàn giao/quy tắc, chạy lại43 kiểm thử, chuẩn bị bảng/đường, dựng2bản, kiểm PDF và kiểm độc lập. Đây là chi phí làm mẫu và thiết lập, không phải giá cố định cho mỗi trang; chưa có cơ sở nhân số này với34trang.
+
+Muốn giảm token lần sau: dùng hồ sơ dữ liệu đã khóa và mẫu đã dựng; một lượt bố trí đủ các nhãn trên toàn biểu đồ trước khi lưu, một lượt kiểm độc lập sau khi có bản cuối. Phiên hiện có lịch sử rất dài nên lượng token đầu vào lặp lại lớn. Muốn đo Credit riêng đáng tin cần một cửa sổ không có phiên khác dùng tài khoản, hoặc số liệu tính phí theo từng tác vụ từ hệ thống; không tự dừng phiên khác.
+'''
+(D/'BAO CAO TOKEN CREDIT.md').write_text(report,encoding='utf8')
+shutil.copy2(W/'independent_review.md',D/'KIEM DOC LAP.md')
+p=D/'BAO CAO MAU THU.md';t=p.read_text(encoding='utf8');t=t.replace('CHƯA ĐẠT nhãn -2 của 6SP46 vì đường -3A đi qua','CHƯA ĐẠT nhãn -2 của 6SP46 và nhiều nhãn thấp 6SP36 vì đường sát bên đi qua');t=t.replace('bản 2 còn lỗi nhãn -2','bản 2 còn lỗi nhãn -2 và nhiều nhãn thấp 6SP36');p.write_text(t,encoding='utf8')
+stamp=datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ');backup=W/('coordination_backup_'+stamp);backup.mkdir()
+manifest=read(R/'manifest.json');ledger=Path(manifest['paths']['progress']);cp=R/'state/CURRENT_CHECKPOINT.md'
+summary='Theo yêu cầu làm thử1trang và đoCredit: SP trang6 thiết kế mới bằng catfix, phông Arial gần nhất,39đường/426H. BƯỚC0 43/43 đạt. Hai ứng viên thật: bản2 SHA8f1a2edc65aad20ab5f0d41b1c4980e85cd7617193a868ac2e98ad05cac7c583; số426/model/công suất/điện đạt theo khóa, đồ họa FAIL vì nhiều nhãn thấp bị nét đường sát bên xuyên chữ; n≈2850 bị đổi= và thiếu P2. Dừng cách bố trí sau2lần;không mẫu3/không nhận bản chính. NguồnSP e1b94dc6/bảnchính48c8535c giữ;11trang khác pixel100dpi giữ. Đườngη chỉtrace ảnh,chưa dữliệu hãng;logo ảnhgốc. Đã giao PDF mộttrang và bản12trang riêng, giữ báo cáo độc lập. Credit giảm803.473010 toàn tài khoản trong09:35:32–09:51:35, có SEO WEB cùng dùng;không nhận chi phí riêngtrang. Token có nhật ký riêng. Hồsơ: '+str(D)+'. 137/149 gốc giữ;khóaSP đãnhả.'
+for f in [ledger,cp]:
+ shutil.copy2(f,backup/f.name)
+ beforebytes=f.read_bytes()
+ suffix=('\n\n| '+stamp+' | SP6 mẫu thiết kế mới1trang | ĐÃ GIAO MẪU; CHƯA ĐẠT HÌNH;137/149 GIỮ | '+summary+' |\n') if f==ledger else ('\n\n## SP6 một trang thử – '+stamp+'\n\n'+summary+'\n')
+ with f.open('ab') as stream:stream.write(suffix.encode('utf8'))
+ assert f.read_bytes()==beforebytes+suffix.encode('utf8')
+print(json.dumps(usage,ensure_ascii=False))

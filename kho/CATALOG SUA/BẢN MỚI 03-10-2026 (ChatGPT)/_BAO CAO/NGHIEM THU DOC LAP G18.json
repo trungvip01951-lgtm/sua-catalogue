@@ -1,0 +1,12 @@
+[
+ {
+  "stt": 123,
+  "file": "Catalogue DWO (bản mới).xlsx",
+  "page": "Sheet1",
+  "item": "Nghiệm thu bản in",
+  "old": "Dòng 14 Fan cover sang trang 2",
+  "new": "Đã cấu hình vừa 1 trang, cần xuất bản in thật",
+  "result": "CHƯA THỂ XÁC MINH",
+  "evidence": "G18/NGHIEM THU DOC LAP.json"
+ }
+]

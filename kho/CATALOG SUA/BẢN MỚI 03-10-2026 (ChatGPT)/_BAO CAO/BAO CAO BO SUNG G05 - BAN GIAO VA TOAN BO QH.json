@@ -1,0 +1,3178 @@
+{
+  "final_sha256": "bc015b9e872b23d17e717f196c5ddc93937a3e69cc2b5e2fea77d3365f07f593",
+  "source_sha256": "e1b94dc6f23c35d18d61cee71d9d88c844b1070d14ff662bbabe2256cdd690c9",
+  "basic_task_count": 6,
+  "basic_tasks_passed": 6,
+  "supplemental_corrections": 2,
+  "new_vector_curves": 26,
+  "new_vector_points": 52,
+  "new_points_counts": {
+    "ĐẠT": 52,
+    "CHƯA ĐẠT": 0,
+    "CHƯA THỂ": 0
+  },
+  "curve_count": 220,
+  "point_count": 2218,
+  "overall_counts": {
+    "ĐẠT": 1113,
+    "CHƯA ĐẠT": 31,
+    "CHƯA THỂ": 1074
+  },
+  "numeric_counts": {
+    "ĐẠT": 1161,
+    "CHƯA ĐẠT": 33,
+    "CHƯA THỂ": 1024
+  },
+  "confirmed_failed_curves": [
+    {
+      "model": "6SP30-5",
+      "page": 5,
+      "Q": [
+        18
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 4,
+          "source_label": "6SP30-5",
+          "curve_model": "6SP30-5",
+          "table_models": "6SPM30-5 | 6SP30-5",
+          "Q_m3h": 18,
+          "H_table_m": 48.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 50.51084,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 0.05587,
+          "slope": 0.0023133598907432306,
+          "extrap_pt": 0.0,
+          "deviation_m": 2.51084,
+          "limit_m": 1,
+          "uncertainty_m": 1.48199,
+          "uncertainty_position_pt": 0.54069,
+          "x_px": 1210.4914,
+          "y_px": 1734.5524,
+          "sample_locations": [
+            {
+              "x_px": 1178.0,
+              "y_px": 1734.487007547782
+            },
+            {
+              "x_px": 1182.0,
+              "y_px": 1734.4952962151117
+            },
+            {
+              "x_px": 1186.0,
+              "y_px": 1734.503564346178
+            },
+            {
+              "x_px": 1190.0,
+              "y_px": 1734.5127893908316
+            },
+            {
+              "x_px": 1194.0,
+              "y_px": 1734.521832208136
+            },
+            {
+              "x_px": 1198.0,
+              "y_px": 1734.5287017842643
+            },
+            {
+              "x_px": 1202.0,
+              "y_px": 1734.5302165256098
+            },
+            {
+              "x_px": 1206.0,
+              "y_px": 1734.5323841687052
+            },
+            {
+              "x_px": 1210.0,
+              "y_px": 1734.5370319730257
+            },
+            {
+              "x_px": 1214.0,
+              "y_px": 1734.5442214227535
+            },
+            {
+              "x_px": 1218.0,
+              "y_px": 1734.5528762626734
+            },
+            {
+              "x_px": 1222.0,
+              "y_px": 1734.5624767167303
+            },
+            {
+              "x_px": 1226.0,
+              "y_px": 1734.570719342811
+            },
+            {
+              "x_px": 1230.0,
+              "y_px": 1734.5784468790062
+            },
+            {
+              "x_px": 1234.0,
+              "y_px": 1734.6013400588472
+            },
+            {
+              "x_px": 1238.0,
+              "y_px": 1734.6314609191631
+            },
+            {
+              "x_px": 1242.0,
+              "y_px": 1734.6811673768032
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-10",
+      "page": 5,
+      "Q": [
+        18
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 8,
+          "source_label": "6SP30-10",
+          "curve_model": "6SP30-10",
+          "table_models": "6SP30-10",
+          "Q_m3h": 18,
+          "H_table_m": 96.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 99.417,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 0.10536,
+          "slope": 0.00399083228573554,
+          "extrap_pt": 0.0,
+          "deviation_m": 3.417,
+          "limit_m": 1.92,
+          "uncertainty_m": 1.49269,
+          "uncertainty_position_pt": 0.5412,
+          "x_px": 1210.4914,
+          "y_px": 1586.5136,
+          "sample_locations": [
+            {
+              "x_px": 1178.0,
+              "y_px": 1586.3699031569547
+            },
+            {
+              "x_px": 1182.0,
+              "y_px": 1586.4042446272042
+            },
+            {
+              "x_px": 1186.0,
+              "y_px": 1586.4296064210744
+            },
+            {
+              "x_px": 1190.0,
+              "y_px": 1586.4494652661156
+            },
+            {
+              "x_px": 1194.0,
+              "y_px": 1586.4650169167835
+            },
+            {
+              "x_px": 1198.0,
+              "y_px": 1586.4745424889054
+            },
+            {
+              "x_px": 1202.0,
+              "y_px": 1586.490868463117
+            },
+            {
+              "x_px": 1206.0,
+              "y_px": 1586.4988189788885
+            },
+            {
+              "x_px": 1210.0,
+              "y_px": 1586.5040731512443
+            },
+            {
+              "x_px": 1214.0,
+              "y_px": 1586.5095611776605
+            },
+            {
+              "x_px": 1218.0,
+              "y_px": 1586.518409974422
+            },
+            {
+              "x_px": 1222.0,
+              "y_px": 1586.5343927561678
+            },
+            {
+              "x_px": 1226.0,
+              "y_px": 1586.551308361234
+            },
+            {
+              "x_px": 1230.0,
+              "y_px": 1586.5564767134445
+            },
+            {
+              "x_px": 1234.0,
+              "y_px": 1586.5784405785153
+            },
+            {
+              "x_px": 1238.0,
+              "y_px": 1586.6179633204451
+            },
+            {
+              "x_px": 1242.0,
+              "y_px": 1586.7447035888772
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-13",
+      "page": 5,
+      "Q": [
+        24
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 9,
+          "source_label": "6SP30-13",
+          "curve_model": "6SP30-13",
+          "table_models": "6SP30-13",
+          "Q_m3h": 24,
+          "H_table_m": 115.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 119.27393,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.60909,
+          "slope": 0.14557766587280074,
+          "extrap_pt": 0.0,
+          "deviation_m": 4.27393,
+          "limit_m": 2.3000000000000003,
+          "uncertainty_m": 1.60985,
+          "uncertainty_position_pt": 0.58367,
+          "x_px": 1517.2857,
+          "y_px": 1526.5185,
+          "sample_locations": [
+            {
+              "x_px": 1485.0,
+              "y_px": 1522.5042838675602
+            },
+            {
+              "x_px": 1489.0,
+              "y_px": 1522.5177938629993
+            },
+            {
+              "x_px": 1493.0,
+              "y_px": 1522.536395193615
+            },
+            {
+              "x_px": 1497.0,
+              "y_px": 1522.5697410410169
+            },
+            {
+              "x_px": 1501.0,
+              "y_px": 1522.766353322229
+            },
+            {
+              "x_px": 1505.0,
+              "y_px": 1526.149518287089
+            },
+            {
+              "x_px": 1509.0,
+              "y_px": 1526.4380084361949
+            },
+            {
+              "x_px": 1513.0,
+              "y_px": 1526.485107788007
+            },
+            {
+              "x_px": 1517.0,
+              "y_px": 1526.5029583261298
+            },
+            {
+              "x_px": 1521.0,
+              "y_px": 1526.5153633826146
+            },
+            {
+              "x_px": 1525.0,
+              "y_px": 1526.5373828027928
+            },
+            {
+              "x_px": 1529.0,
+              "y_px": 1526.6147606198758
+            },
+            {
+              "x_px": 1533.0,
+              "y_px": 1530.0705648215837
+            },
+            {
+              "x_px": 1537.0,
+              "y_px": 1530.431851462626
+            },
+            {
+              "x_px": 1541.0,
+              "y_px": 1530.470750907012
+            },
+            {
+              "x_px": 1545.0,
+              "y_px": 1530.4907470622454
+            },
+            {
+              "x_px": 1549.0,
+              "y_px": 1530.5060106922692
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-15",
+      "page": 5,
+      "Q": [
+        24
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 10,
+          "source_label": "6SP30-15",
+          "curve_model": "6SP30-15",
+          "table_models": "6SP30-15",
+          "Q_m3h": 24,
+          "H_table_m": 133.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 137.40533,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.91687,
+          "slope": 0.1827841706228521,
+          "extrap_pt": 0.0,
+          "deviation_m": 4.40533,
+          "limit_m": 2.66,
+          "uncertainty_m": 1.67321,
+          "uncertainty_position_pt": 0.59484,
+          "x_px": 1517.2857,
+          "y_px": 1472.1725,
+          "sample_locations": [
+            {
+              "x_px": 1485.0,
+              "y_px": 1466.5632349459113
+            },
+            {
+              "x_px": 1489.0,
+              "y_px": 1466.5852508924092
+            },
+            {
+              "x_px": 1493.0,
+              "y_px": 1466.6151655125173
+            },
+            {
+              "x_px": 1497.0,
+              "y_px": 1467.3173759007382
+            },
+            {
+              "x_px": 1501.0,
+              "y_px": 1470.4379257421815
+            },
+            {
+              "x_px": 1505.0,
+              "y_px": 1470.49647594282
+            },
+            {
+              "x_px": 1509.0,
+              "y_px": 1470.5285634191782
+            },
+            {
+              "x_px": 1513.0,
+              "y_px": 1470.6366324918722
+            },
+            {
+              "x_px": 1517.0,
+              "y_px": 1473.680357306822
+            },
+            {
+              "x_px": 1521.0,
+              "y_px": 1474.2922457668199
+            },
+            {
+              "x_px": 1525.0,
+              "y_px": 1474.365672481595
+            },
+            {
+              "x_px": 1529.0,
+              "y_px": 1474.4708326830892
+            },
+            {
+              "x_px": 1533.0,
+              "y_px": 1474.5025534829476
+            },
+            {
+              "x_px": 1537.0,
+              "y_px": 1474.5265605760646
+            },
+            {
+              "x_px": 1541.0,
+              "y_px": 1474.5901976238954
+            },
+            {
+              "x_px": 1545.0,
+              "y_px": 1477.9827116834795
+            },
+            {
+              "x_px": 1549.0,
+              "y_px": 1478.4524864822179
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-17",
+      "page": 5,
+      "Q": [
+        18,
+        24
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 11,
+          "source_label": "6SP30-17",
+          "curve_model": "6SP30-17",
+          "table_models": "6SP30-17",
+          "Q_m3h": 18,
+          "H_table_m": 164.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 169.05914,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.76015,
+          "slope": 0.09005961851310398,
+          "extrap_pt": 0.0,
+          "deviation_m": 5.05914,
+          "limit_m": 3.2800000000000002,
+          "uncertainty_m": 1.59496,
+          "uncertainty_position_pt": 0.56702,
+          "x_px": 1210.4914,
+          "y_px": 1378.3965,
+          "sample_locations": [
+            {
+              "x_px": 1178.0,
+              "y_px": 1374.529631425988
+            },
+            {
+              "x_px": 1182.0,
+              "y_px": 1374.577587030365
+            },
+            {
+              "x_px": 1186.0,
+              "y_px": 1375.0970490045347
+            },
+            {
+              "x_px": 1190.0,
+              "y_px": 1378.3112227532768
+            },
+            {
+              "x_px": 1194.0,
+              "y_px": 1378.4359112526213
+            },
+            {
+              "x_px": 1198.0,
+              "y_px": 1378.4610992753462
+            },
+            {
+              "x_px": 1202.0,
+              "y_px": 1378.4639585583425
+            },
+            {
+              "x_px": 1206.0,
+              "y_px": 1378.4703957256713
+            },
+            {
+              "x_px": 1210.0,
+              "y_px": 1378.4855766768048
+            },
+            {
+              "x_px": 1214.0,
+              "y_px": 1378.5025127440138
+            },
+            {
+              "x_px": 1218.0,
+              "y_px": 1378.5251714221013
+            },
+            {
+              "x_px": 1222.0,
+              "y_px": 1378.5647478417543
+            },
+            {
+              "x_px": 1226.0,
+              "y_px": 1378.636148137967
+            },
+            {
+              "x_px": 1230.0,
+              "y_px": 1378.714080931086
+            },
+            {
+              "x_px": 1234.0,
+              "y_px": 1379.3998720519428
+            },
+            {
+              "x_px": 1238.0,
+              "y_px": 1382.3490469930452
+            },
+            {
+              "x_px": 1242.0,
+              "y_px": 1382.4645579903204
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 11,
+          "source_label": "6SP30-17",
+          "curve_model": "6SP30-17",
+          "table_models": "6SP30-17",
+          "Q_m3h": 24,
+          "H_table_m": 151.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 155.98355,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.67837,
+          "slope": 0.15615243977118898,
+          "extrap_pt": 0.0,
+          "deviation_m": 4.98355,
+          "limit_m": 3.02,
+          "uncertainty_m": 1.65073,
+          "uncertainty_position_pt": 0.58685,
+          "x_px": 1517.2857,
+          "y_px": 1417.1336,
+          "sample_locations": [
+            {
+              "x_px": 1485.0,
+              "y_px": 1410.6884952190426
+            },
+            {
+              "x_px": 1489.0,
+              "y_px": 1414.395070844773
+            },
+            {
+              "x_px": 1493.0,
+              "y_px": 1414.4702868398572
+            },
+            {
+              "x_px": 1497.0,
+              "y_px": 1414.4728668256744
+            },
+            {
+              "x_px": 1501.0,
+              "y_px": 1414.483448709469
+            },
+            {
+              "x_px": 1505.0,
+              "y_px": 1414.5003688011689
+            },
+            {
+              "x_px": 1509.0,
+              "y_px": 1414.5426114280542
+            },
+            {
+              "x_px": 1513.0,
+              "y_px": 1415.3078258737849
+            },
+            {
+              "x_px": 1517.0,
+              "y_px": 1418.334940242395
+            },
+            {
+              "x_px": 1521.0,
+              "y_px": 1418.4248789411217
+            },
+            {
+              "x_px": 1525.0,
+              "y_px": 1418.4697344653391
+            },
+            {
+              "x_px": 1529.0,
+              "y_px": 1418.5028987209425
+            },
+            {
+              "x_px": 1533.0,
+              "y_px": 1418.5418596012496
+            },
+            {
+              "x_px": 1537.0,
+              "y_px": 1418.637085141725
+            },
+            {
+              "x_px": 1541.0,
+              "y_px": 1421.7820621835435
+            },
+            {
+              "x_px": 1545.0,
+              "y_px": 1422.4542406583157
+            },
+            {
+              "x_px": 1549.0,
+              "y_px": 1422.5037848316747
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-20",
+      "page": 5,
+      "Q": [
+        18,
+        24
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 12,
+          "source_label": "6SP30-20",
+          "curve_model": "6SP30-20",
+          "table_models": "6SP30-20",
+          "Q_m3h": 18,
+          "H_table_m": 193.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 199.29481,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 2.36622,
+          "slope": 0.10801011064789087,
+          "extrap_pt": 0.0,
+          "deviation_m": 6.29481,
+          "limit_m": 3.86,
+          "uncertainty_m": 1.70924,
+          "uncertainty_position_pt": 0.61635,
+          "x_px": 1210.4914,
+          "y_px": 1288.6396,
+          "sample_locations": [
+            {
+              "x_px": 1178.0,
+              "y_px": 1286.4103145227627
+            },
+            {
+              "x_px": 1182.0,
+              "y_px": 1286.4589192186702
+            },
+            {
+              "x_px": 1186.0,
+              "y_px": 1286.4885990596363
+            },
+            {
+              "x_px": 1190.0,
+              "y_px": 1286.5074207410635
+            },
+            {
+              "x_px": 1194.0,
+              "y_px": 1286.527200506433
+            },
+            {
+              "x_px": 1198.0,
+              "y_px": 1286.544187412325
+            },
+            {
+              "x_px": 1202.0,
+              "y_px": 1286.5526875545238
+            },
+            {
+              "x_px": 1206.0,
+              "y_px": 1286.566975728703
+            },
+            {
+              "x_px": 1210.0,
+              "y_px": 1286.6197032488305
+            },
+            {
+              "x_px": 1214.0,
+              "y_px": 1289.7345804141785
+            },
+            {
+              "x_px": 1218.0,
+              "y_px": 1290.463298221078
+            },
+            {
+              "x_px": 1222.0,
+              "y_px": 1290.4933875473992
+            },
+            {
+              "x_px": 1226.0,
+              "y_px": 1290.5075598392416
+            },
+            {
+              "x_px": 1230.0,
+              "y_px": 1290.5339344319787
+            },
+            {
+              "x_px": 1234.0,
+              "y_px": 1290.5376638057603
+            },
+            {
+              "x_px": 1238.0,
+              "y_px": 1290.615700522474
+            },
+            {
+              "x_px": 1242.0,
+              "y_px": 1294.4090908683083
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 12,
+          "source_label": "6SP30-20",
+          "curve_model": "6SP30-20",
+          "table_models": "6SP30-20",
+          "Q_m3h": 24,
+          "H_table_m": 178.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 184.0139,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.68269,
+          "slope": 0.2128587417438905,
+          "extrap_pt": 0.0,
+          "deviation_m": 6.0139,
+          "limit_m": 3.56,
+          "uncertainty_m": 1.69859,
+          "uncertainty_position_pt": 0.60386,
+          "x_px": 1517.2857,
+          "y_px": 1334.0923,
+          "sample_locations": [
+            {
+              "x_px": 1485.0,
+              "y_px": 1326.5665268742066
+            },
+            {
+              "x_px": 1489.0,
+              "y_px": 1326.843034790353
+            },
+            {
+              "x_px": 1493.0,
+              "y_px": 1330.2139530617983
+            },
+            {
+              "x_px": 1497.0,
+              "y_px": 1330.4731330970894
+            },
+            {
+              "x_px": 1501.0,
+              "y_px": 1330.5270634247997
+            },
+            {
+              "x_px": 1505.0,
+              "y_px": 1330.65095796372
+            },
+            {
+              "x_px": 1509.0,
+              "y_px": 1333.6700291337788
+            },
+            {
+              "x_px": 1513.0,
+              "y_px": 1334.3879467514193
+            },
+            {
+              "x_px": 1517.0,
+              "y_px": 1334.4864871692016
+            },
+            {
+              "x_px": 1521.0,
+              "y_px": 1334.513254959545
+            },
+            {
+              "x_px": 1525.0,
+              "y_px": 1334.519022010645
+            },
+            {
+              "x_px": 1529.0,
+              "y_px": 1334.9031157142126
+            },
+            {
+              "x_px": 1533.0,
+              "y_px": 1338.4600240658378
+            },
+            {
+              "x_px": 1537.0,
+              "y_px": 1338.4984618113226
+            },
+            {
+              "x_px": 1541.0,
+              "y_px": 1338.5268553913763
+            },
+            {
+              "x_px": 1545.0,
+              "y_px": 1338.8624700732073
+            },
+            {
+              "x_px": 1549.0,
+              "y_px": 1342.4332459016966
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-24",
+      "page": 5,
+      "Q": [
+        18,
+        24,
+        30
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 13,
+          "source_label": "6SP30-24",
+          "curve_model": "6SP30-24",
+          "table_models": "6SP30-24",
+          "Q_m3h": 18,
+          "H_table_m": 232.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 238.68585,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.59965,
+          "slope": 0.1380445576070851,
+          "extrap_pt": 0.0,
+          "deviation_m": 6.68585,
+          "limit_m": 4.64,
+          "uncertainty_m": 1.61236,
+          "uncertainty_position_pt": 0.58141,
+          "x_px": 1210.4914,
+          "y_px": 1170.27,
+          "sample_locations": [
+            {
+              "x_px": 1178.0,
+              "y_px": 1166.4213302294852
+            },
+            {
+              "x_px": 1182.0,
+              "y_px": 1166.4883507261857
+            },
+            {
+              "x_px": 1186.0,
+              "y_px": 1166.505074012721
+            },
+            {
+              "x_px": 1190.0,
+              "y_px": 1166.5246610387808
+            },
+            {
+              "x_px": 1194.0,
+              "y_px": 1166.6023030757578
+            },
+            {
+              "x_px": 1198.0,
+              "y_px": 1169.6895358667189
+            },
+            {
+              "x_px": 1202.0,
+              "y_px": 1170.4160509228454
+            },
+            {
+              "x_px": 1206.0,
+              "y_px": 1170.463413884036
+            },
+            {
+              "x_px": 1210.0,
+              "y_px": 1170.4889561342295
+            },
+            {
+              "x_px": 1214.0,
+              "y_px": 1170.5043469315297
+            },
+            {
+              "x_px": 1218.0,
+              "y_px": 1170.5287080060132
+            },
+            {
+              "x_px": 1222.0,
+              "y_px": 1170.5839330933195
+            },
+            {
+              "x_px": 1226.0,
+              "y_px": 1170.811229102292
+            },
+            {
+              "x_px": 1230.0,
+              "y_px": 1173.9976341447648
+            },
+            {
+              "x_px": 1234.0,
+              "y_px": 1174.4263059188543
+            },
+            {
+              "x_px": 1238.0,
+              "y_px": 1174.4795907567557
+            },
+            {
+              "x_px": 1242.0,
+              "y_px": 1174.5054099587703
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 13,
+          "source_label": "6SP30-24",
+          "curve_model": "6SP30-24",
+          "table_models": "6SP30-24",
+          "Q_m3h": 24,
+          "H_table_m": 213.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 220.58098,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.7286,
+          "slope": 0.2327171872789248,
+          "extrap_pt": 0.0,
+          "deviation_m": 7.58098,
+          "limit_m": 4.26,
+          "uncertainty_m": 1.69112,
+          "uncertainty_position_pt": 0.60982,
+          "x_px": 1517.2857,
+          "y_px": 1224.6749,
+          "sample_locations": [
+            {
+              "x_px": 1485.0,
+              "y_px": 1218.449632729072
+            },
+            {
+              "x_px": 1489.0,
+              "y_px": 1218.481594330613
+            },
+            {
+              "x_px": 1493.0,
+              "y_px": 1218.5017868439331
+            },
+            {
+              "x_px": 1497.0,
+              "y_px": 1218.5712125402613
+            },
+            {
+              "x_px": 1501.0,
+              "y_px": 1222.2211463679253
+            },
+            {
+              "x_px": 1505.0,
+              "y_px": 1222.484858048361
+            },
+            {
+              "x_px": 1509.0,
+              "y_px": 1222.518372497714
+            },
+            {
+              "x_px": 1513.0,
+              "y_px": 1222.5549408482657
+            },
+            {
+              "x_px": 1517.0,
+              "y_px": 1223.1836828780902
+            },
+            {
+              "x_px": 1521.0,
+              "y_px": 1226.478193104763
+            },
+            {
+              "x_px": 1525.0,
+              "y_px": 1226.5119605736083
+            },
+            {
+              "x_px": 1529.0,
+              "y_px": 1226.5273972417656
+            },
+            {
+              "x_px": 1533.0,
+              "y_px": 1226.6033059387985
+            },
+            {
+              "x_px": 1537.0,
+              "y_px": 1230.4656605946384
+            },
+            {
+              "x_px": 1541.0,
+              "y_px": 1230.5139919456055
+            },
+            {
+              "x_px": 1545.0,
+              "y_px": 1230.5545755125859
+            },
+            {
+              "x_px": 1549.0,
+              "y_px": 1233.721061005506
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 13,
+          "source_label": "6SP30-24",
+          "curve_model": "6SP30-24",
+          "table_models": "6SP30-24",
+          "Q_m3h": 30,
+          "H_table_m": 184.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 189.70892,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.38829,
+          "slope": 0.3408826493806326,
+          "extrap_pt": 0.0,
+          "deviation_m": 5.70892,
+          "limit_m": 3.68,
+          "uncertainty_m": 1.80662,
+          "uncertainty_position_pt": 0.64226,
+          "x_px": 1827.4198,
+          "y_px": 1317.2205,
+          "sample_locations": [
+            {
+              "x_px": 1795.0,
+              "y_px": 1306.501346667351
+            },
+            {
+              "x_px": 1799.0,
+              "y_px": 1306.5267533498143
+            },
+            {
+              "x_px": 1803.0,
+              "y_px": 1310.0090212268665
+            },
+            {
+              "x_px": 1807.0,
+              "y_px": 1310.5322764300224
+            },
+            {
+              "x_px": 1811.0,
+              "y_px": 1310.5740889114454
+            },
+            {
+              "x_px": 1815.0,
+              "y_px": 1314.3751180739723
+            },
+            {
+              "x_px": 1819.0,
+              "y_px": 1314.5085835049972
+            },
+            {
+              "x_px": 1823.0,
+              "y_px": 1314.5239826122408
+            },
+            {
+              "x_px": 1827.0,
+              "y_px": 1318.1350330957985
+            },
+            {
+              "x_px": 1831.0,
+              "y_px": 1317.697164044099
+            },
+            {
+              "x_px": 1835.0,
+              "y_px": 1319.3452359203884
+            },
+            {
+              "x_px": 1839.0,
+              "y_px": 1320.6273445647503
+            },
+            {
+              "x_px": 1843.0,
+              "y_px": 1322.3598268846233
+            },
+            {
+              "x_px": 1847.0,
+              "y_px": 1323.6656495243517
+            },
+            {
+              "x_px": 1851.0,
+              "y_px": 1325.439982459642
+            },
+            {
+              "x_px": 1855.0,
+              "y_px": 1326.9383865516013
+            },
+            {
+              "x_px": 1859.0,
+              "y_px": 1328.5563842774377
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-26",
+      "page": 5,
+      "Q": [
+        18,
+        24,
+        30
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 14,
+          "source_label": "6SP30-26",
+          "curve_model": "6SP30-26",
+          "table_models": "6SP30-26",
+          "Q_m3h": 18,
+          "H_table_m": 251.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 258.63375,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.675,
+          "slope": 0.15569800816400603,
+          "extrap_pt": 0.0,
+          "deviation_m": 7.63375,
+          "limit_m": 5.0200000000000005,
+          "uncertainty_m": 1.62704,
+          "uncertainty_position_pt": 0.58671,
+          "x_px": 1210.4914,
+          "y_px": 1110.3268,
+          "sample_locations": [
+            {
+              "x_px": 1178.0,
+              "y_px": 1106.4477388955352
+            },
+            {
+              "x_px": 1182.0,
+              "y_px": 1106.4748000752506
+            },
+            {
+              "x_px": 1186.0,
+              "y_px": 1106.4976098642924
+            },
+            {
+              "x_px": 1190.0,
+              "y_px": 1106.5243641356985
+            },
+            {
+              "x_px": 1194.0,
+              "y_px": 1106.5817198751968
+            },
+            {
+              "x_px": 1198.0,
+              "y_px": 1106.706932980114
+            },
+            {
+              "x_px": 1202.0,
+              "y_px": 1109.7738230577727
+            },
+            {
+              "x_px": 1206.0,
+              "y_px": 1110.4056627360496
+            },
+            {
+              "x_px": 1210.0,
+              "y_px": 1110.4727265776407
+            },
+            {
+              "x_px": 1214.0,
+              "y_px": 1110.4965551414975
+            },
+            {
+              "x_px": 1218.0,
+              "y_px": 1110.5271101485416
+            },
+            {
+              "x_px": 1222.0,
+              "y_px": 1110.9843852793758
+            },
+            {
+              "x_px": 1226.0,
+              "y_px": 1114.3821777483702
+            },
+            {
+              "x_px": 1230.0,
+              "y_px": 1114.457171319418
+            },
+            {
+              "x_px": 1234.0,
+              "y_px": 1114.4887517463258
+            },
+            {
+              "x_px": 1238.0,
+              "y_px": 1114.5073866790178
+            },
+            {
+              "x_px": 1242.0,
+              "y_px": 1114.5263015091632
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 14,
+          "source_label": "6SP30-26",
+          "curve_model": "6SP30-26",
+          "table_models": "6SP30-26",
+          "Q_m3h": 24,
+          "H_table_m": 231.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 239.05895,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 2.03682,
+          "slope": 0.2719717904054647,
+          "extrap_pt": 0.0,
+          "deviation_m": 8.05895,
+          "limit_m": 4.62,
+          "uncertainty_m": 1.73603,
+          "uncertainty_position_pt": 0.62601,
+          "x_px": 1517.2857,
+          "y_px": 1169.1489,
+          "sample_locations": [
+            {
+              "x_px": 1485.0,
+              "y_px": 1162.1255811712326
+            },
+            {
+              "x_px": 1489.0,
+              "y_px": 1162.4551796045705
+            },
+            {
+              "x_px": 1493.0,
+              "y_px": 1162.5246719440677
+            },
+            {
+              "x_px": 1497.0,
+              "y_px": 1162.5536436427676
+            },
+            {
+              "x_px": 1501.0,
+              "y_px": 1162.6827783264118
+            },
+            {
+              "x_px": 1505.0,
+              "y_px": 1166.498255635555
+            },
+            {
+              "x_px": 1509.0,
+              "y_px": 1166.5361194729742
+            },
+            {
+              "x_px": 1513.0,
+              "y_px": 1166.5853215345116
+            },
+            {
+              "x_px": 1517.0,
+              "y_px": 1170.4085390311018
+            },
+            {
+              "x_px": 1521.0,
+              "y_px": 1170.5055448635892
+            },
+            {
+              "x_px": 1525.0,
+              "y_px": 1170.5428310558068
+            },
+            {
+              "x_px": 1529.0,
+              "y_px": 1170.7739455976673
+            },
+            {
+              "x_px": 1533.0,
+              "y_px": 1174.3720649181976
+            },
+            {
+              "x_px": 1537.0,
+              "y_px": 1174.4917216720644
+            },
+            {
+              "x_px": 1541.0,
+              "y_px": 1174.5652919876818
+            },
+            {
+              "x_px": 1545.0,
+              "y_px": 1178.1074443229838
+            },
+            {
+              "x_px": 1549.0,
+              "y_px": 1178.480598140786
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 14,
+          "source_label": "6SP30-26",
+          "curve_model": "6SP30-26",
+          "table_models": "6SP30-26",
+          "Q_m3h": 30,
+          "H_table_m": 199.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 205.13538,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.57914,
+          "slope": 0.3805702457484496,
+          "extrap_pt": 0.0,
+          "deviation_m": 6.13538,
+          "limit_m": 3.98,
+          "uncertainty_m": 1.81413,
+          "uncertainty_position_pt": 0.65417,
+          "x_px": 1827.4198,
+          "y_px": 1271.0887,
+          "sample_locations": [
+            {
+              "x_px": 1795.0,
+              "y_px": 1258.5142952349213
+            },
+            {
+              "x_px": 1799.0,
+              "y_px": 1261.85214258408
+            },
+            {
+              "x_px": 1803.0,
+              "y_px": 1262.4799302487188
+            },
+            {
+              "x_px": 1807.0,
+              "y_px": 1262.5225587961481
+            },
+            {
+              "x_px": 1811.0,
+              "y_px": 1263.4891873482113
+            },
+            {
+              "x_px": 1815.0,
+              "y_px": 1266.5156424978989
+            },
+            {
+              "x_px": 1819.0,
+              "y_px": 1267.2864766231462
+            },
+            {
+              "x_px": 1823.0,
+              "y_px": 1270.4350828815109
+            },
+            {
+              "x_px": 1827.0,
+              "y_px": 1270.5869073527897
+            },
+            {
+              "x_px": 1831.0,
+              "y_px": 1272.2301727797574
+            },
+            {
+              "x_px": 1835.0,
+              "y_px": 1273.5665676361725
+            },
+            {
+              "x_px": 1839.0,
+              "y_px": 1275.3491998591676
+            },
+            {
+              "x_px": 1843.0,
+              "y_px": 1276.7547582421514
+            },
+            {
+              "x_px": 1847.0,
+              "y_px": 1278.5045429170896
+            },
+            {
+              "x_px": 1851.0,
+              "y_px": 1280.2918798024548
+            },
+            {
+              "x_px": 1855.0,
+              "y_px": 1281.8345950095897
+            },
+            {
+              "x_px": 1859.0,
+              "y_px": 1283.5784988064102
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-30",
+      "page": 5,
+      "Q": [
+        18,
+        24,
+        30
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 15,
+          "source_label": "6SP30-30",
+          "curve_model": "6SP30-30",
+          "table_models": "6SP30-30",
+          "Q_m3h": 18,
+          "H_table_m": 289.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 297.97197,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.59091,
+          "slope": 0.21040420940457913,
+          "extrap_pt": 0.0,
+          "deviation_m": 8.97197,
+          "limit_m": 5.78,
+          "uncertainty_m": 1.66864,
+          "uncertainty_position_pt": 0.60312,
+          "x_px": 1210.4914,
+          "y_px": 991.848,
+          "sample_locations": [
+            {
+              "x_px": 1178.0,
+              "y_px": 986.1594642987425
+            },
+            {
+              "x_px": 1182.0,
+              "y_px": 986.4571480614221
+            },
+            {
+              "x_px": 1186.0,
+              "y_px": 986.4971306908628
+            },
+            {
+              "x_px": 1190.0,
+              "y_px": 986.5402883002346
+            },
+            {
+              "x_px": 1194.0,
+              "y_px": 987.4292663943975
+            },
+            {
+              "x_px": 1198.0,
+              "y_px": 990.4111719773849
+            },
+            {
+              "x_px": 1202.0,
+              "y_px": 990.464026289016
+            },
+            {
+              "x_px": 1206.0,
+              "y_px": 990.4877709073282
+            },
+            {
+              "x_px": 1210.0,
+              "y_px": 990.5135759077965
+            },
+            {
+              "x_px": 1214.0,
+              "y_px": 991.3611058352817
+            },
+            {
+              "x_px": 1218.0,
+              "y_px": 994.4628585771553
+            },
+            {
+              "x_px": 1222.0,
+              "y_px": 994.4896261648818
+            },
+            {
+              "x_px": 1226.0,
+              "y_px": 994.5043200673573
+            },
+            {
+              "x_px": 1230.0,
+              "y_px": 994.5617447965659
+            },
+            {
+              "x_px": 1234.0,
+              "y_px": 998.3852002275462
+            },
+            {
+              "x_px": 1238.0,
+              "y_px": 998.4538977390297
+            },
+            {
+              "x_px": 1242.0,
+              "y_px": 998.4794824918303
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 15,
+          "source_label": "6SP30-30",
+          "curve_model": "6SP30-30",
+          "table_models": "6SP30-30",
+          "Q_m3h": 24,
+          "H_table_m": 266.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 275.28489,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.70645,
+          "slope": 0.27015508304476565,
+          "extrap_pt": 0.0,
+          "deviation_m": 9.28489,
+          "limit_m": 5.32,
+          "uncertainty_m": 1.71823,
+          "uncertainty_position_pt": 0.62105,
+          "x_px": 1517.2857,
+          "y_px": 1060.1825,
+          "sample_locations": [
+            {
+              "x_px": 1485.0,
+              "y_px": 1050.5389517428953
+            },
+            {
+              "x_px": 1489.0,
+              "y_px": 1053.5166364491045
+            },
+            {
+              "x_px": 1493.0,
+              "y_px": 1054.315234048689
+            },
+            {
+              "x_px": 1497.0,
+              "y_px": 1054.4725551985935
+            },
+            {
+              "x_px": 1501.0,
+              "y_px": 1054.5187514215124
+            },
+            {
+              "x_px": 1505.0,
+              "y_px": 1058.307050885042
+            },
+            {
+              "x_px": 1509.0,
+              "y_px": 1058.4883862847705
+            },
+            {
+              "x_px": 1513.0,
+              "y_px": 1058.5119437015642
+            },
+            {
+              "x_px": 1517.0,
+              "y_px": 1058.9536058225967
+            },
+            {
+              "x_px": 1521.0,
+              "y_px": 1062.4585531972418
+            },
+            {
+              "x_px": 1525.0,
+              "y_px": 1062.4982464567865
+            },
+            {
+              "x_px": 1529.0,
+              "y_px": 1062.5348622811657
+            },
+            {
+              "x_px": 1533.0,
+              "y_px": 1062.7213137366457
+            },
+            {
+              "x_px": 1537.0,
+              "y_px": 1066.4649695643852
+            },
+            {
+              "x_px": 1541.0,
+              "y_px": 1066.5155835184598
+            },
+            {
+              "x_px": 1545.0,
+              "y_px": 1066.5885921282068
+            },
+            {
+              "x_px": 1549.0,
+              "y_px": 1070.3846047227885
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 15,
+          "source_label": "6SP30-30",
+          "curve_model": "6SP30-30",
+          "table_models": "6SP30-30",
+          "Q_m3h": 30,
+          "H_table_m": 229.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 236.74482,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.54799,
+          "slope": 0.43986745923445514,
+          "extrap_pt": 0.0,
+          "deviation_m": 7.74482,
+          "limit_m": 4.58,
+          "uncertainty_m": 1.86346,
+          "uncertainty_position_pt": 0.67196,
+          "x_px": 1827.4198,
+          "y_px": 1176.1028,
+          "sample_locations": [
+            {
+              "x_px": 1795.0,
+              "y_px": 1162.4957942472354
+            },
+            {
+              "x_px": 1799.0,
+              "y_px": 1162.573146160839
+            },
+            {
+              "x_px": 1803.0,
+              "y_px": 1166.4082381443798
+            },
+            {
+              "x_px": 1807.0,
+              "y_px": 1166.5165207926525
+            },
+            {
+              "x_px": 1811.0,
+              "y_px": 1170.4282107167794
+            },
+            {
+              "x_px": 1815.0,
+              "y_px": 1170.4998315438186
+            },
+            {
+              "x_px": 1819.0,
+              "y_px": 1171.3141789852164
+            },
+            {
+              "x_px": 1823.0,
+              "y_px": 1174.4702277616216
+            },
+            {
+              "x_px": 1827.0,
+              "y_px": 1175.7315973868854
+            },
+            {
+              "x_px": 1831.0,
+              "y_px": 1177.2100205865138
+            },
+            {
+              "x_px": 1835.0,
+              "y_px": 1178.9299904982445
+            },
+            {
+              "x_px": 1839.0,
+              "y_px": 1180.739455174269
+            },
+            {
+              "x_px": 1843.0,
+              "y_px": 1182.6529837059018
+            },
+            {
+              "x_px": 1847.0,
+              "y_px": 1184.6316751751638
+            },
+            {
+              "x_px": 1851.0,
+              "y_px": 1186.634912893145
+            },
+            {
+              "x_px": 1855.0,
+              "y_px": 1188.650702204794
+            },
+            {
+              "x_px": 1859.0,
+              "y_px": 1190.7202445046116
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-32",
+      "page": 5,
+      "Q": [
+        18,
+        24,
+        30
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 16,
+          "source_label": "6SP30-32",
+          "curve_model": "6SP30-32",
+          "table_models": "6SP30-32",
+          "Q_m3h": 18,
+          "H_table_m": 309.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 317.78306,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.58481,
+          "slope": 0.20322024236248715,
+          "extrap_pt": 0.0,
+          "deviation_m": 8.78306,
+          "limit_m": 6.18,
+          "uncertainty_m": 1.66267,
+          "uncertainty_position_pt": 0.60097,
+          "x_px": 1210.4914,
+          "y_px": 932.1761,
+          "sample_locations": [
+            {
+              "x_px": 1178.0,
+              "y_px": 926.4677230080792
+            },
+            {
+              "x_px": 1182.0,
+              "y_px": 926.4927256168694
+            },
+            {
+              "x_px": 1186.0,
+              "y_px": 926.5092517304188
+            },
+            {
+              "x_px": 1190.0,
+              "y_px": 926.5492527462882
+            },
+            {
+              "x_px": 1194.0,
+              "y_px": 929.7820936242118
+            },
+            {
+              "x_px": 1198.0,
+              "y_px": 930.4545225494721
+            },
+            {
+              "x_px": 1202.0,
+              "y_px": 930.493939986298
+            },
+            {
+              "x_px": 1206.0,
+              "y_px": 930.514718357433
+            },
+            {
+              "x_px": 1210.0,
+              "y_px": 930.6589493789783
+            },
+            {
+              "x_px": 1214.0,
+              "y_px": 934.4135609434148
+            },
+            {
+              "x_px": 1218.0,
+              "y_px": 934.4740578068391
+            },
+            {
+              "x_px": 1222.0,
+              "y_px": 934.4936900973638
+            },
+            {
+              "x_px": 1226.0,
+              "y_px": 934.5135531638933
+            },
+            {
+              "x_px": 1230.0,
+              "y_px": 934.5558472516766
+            },
+            {
+              "x_px": 1234.0,
+              "y_px": 937.9853746611329
+            },
+            {
+              "x_px": 1238.0,
+              "y_px": 938.4424552595167
+            },
+            {
+              "x_px": 1242.0,
+              "y_px": 938.4946228701226
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 16,
+          "source_label": "6SP30-32",
+          "curve_model": "6SP30-32",
+          "table_models": "6SP30-32",
+          "Q_m3h": 24,
+          "H_table_m": 284.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 293.75141,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.7392,
+          "slope": 0.27817977247687403,
+          "extrap_pt": 0.0,
+          "deviation_m": 9.75141,
+          "limit_m": 5.68,
+          "uncertainty_m": 1.72489,
+          "uncertainty_position_pt": 0.62345,
+          "x_px": 1517.2857,
+          "y_px": 1004.5605,
+          "sample_locations": [
+            {
+              "x_px": 1485.0,
+              "y_px": 994.5867590285304
+            },
+            {
+              "x_px": 1489.0,
+              "y_px": 998.4311747194082
+            },
+            {
+              "x_px": 1493.0,
+              "y_px": 998.4710358411768
+            },
+            {
+              "x_px": 1497.0,
+              "y_px": 998.4892867923003
+            },
+            {
+              "x_px": 1501.0,
+              "y_px": 998.6243759884178
+            },
+            {
+              "x_px": 1505.0,
+              "y_px": 1002.4370175921564
+            },
+            {
+              "x_px": 1509.0,
+              "y_px": 1002.4916926891024
+            },
+            {
+              "x_px": 1513.0,
+              "y_px": 1002.5315792410183
+            },
+            {
+              "x_px": 1517.0,
+              "y_px": 1003.258986446661
+            },
+            {
+              "x_px": 1521.0,
+              "y_px": 1006.4606342575262
+            },
+            {
+              "x_px": 1525.0,
+              "y_px": 1006.5007310040411
+            },
+            {
+              "x_px": 1529.0,
+              "y_px": 1006.5694146422675
+            },
+            {
+              "x_px": 1533.0,
+              "y_px": 1010.3488268553294
+            },
+            {
+              "x_px": 1537.0,
+              "y_px": 1010.5018059531312
+            },
+            {
+              "x_px": 1541.0,
+              "y_px": 1010.5738628836915
+            },
+            {
+              "x_px": 1545.0,
+              "y_px": 1011.4202921582936
+            },
+            {
+              "x_px": 1549.0,
+              "y_px": 1014.4797443143365
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 16,
+          "source_label": "6SP30-32",
+          "curve_model": "6SP30-32",
+          "table_models": "6SP30-32",
+          "Q_m3h": 30,
+          "H_table_m": 245.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 252.14994,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 2.41954,
+          "slope": 0.522215856329139,
+          "extrap_pt": 0.0,
+          "deviation_m": 7.14994,
+          "limit_m": 4.9,
+          "uncertainty_m": 2.07158,
+          "uncertainty_position_pt": 0.74701,
+          "x_px": 1827.4198,
+          "y_px": 1129.8106,
+          "sample_locations": [
+            {
+              "x_px": 1795.0,
+              "y_px": 1114.4732426130777
+            },
+            {
+              "x_px": 1799.0,
+              "y_px": 1114.59692614572
+            },
+            {
+              "x_px": 1803.0,
+              "y_px": 1118.465106326161
+            },
+            {
+              "x_px": 1807.0,
+              "y_px": 1118.5071947577308
+            },
+            {
+              "x_px": 1811.0,
+              "y_px": 1118.8163288270318
+            },
+            {
+              "x_px": 1815.0,
+              "y_px": 1122.5443299678373
+            },
+            {
+              "x_px": 1819.0,
+              "y_px": 1126.1326205260466
+            },
+            {
+              "x_px": 1823.0,
+              "y_px": 1126.5141317572138
+            },
+            {
+              "x_px": 1827.0,
+              "y_px": 1130.4972779256605
+            },
+            {
+              "x_px": 1831.0,
+              "y_px": 1131.8016942710376
+            },
+            {
+              "x_px": 1835.0,
+              "y_px": 1133.7520644052129
+            },
+            {
+              "x_px": 1839.0,
+              "y_px": 1135.794234192819
+            },
+            {
+              "x_px": 1843.0,
+              "y_px": 1137.8955293071795
+            },
+            {
+              "x_px": 1847.0,
+              "y_px": 1140.0659446672391
+            },
+            {
+              "x_px": 1851.0,
+              "y_px": 1142.2640972923618
+            },
+            {
+              "x_px": 1855.0,
+              "y_px": 1144.4140661609435
+            },
+            {
+              "x_px": 1859.0,
+              "y_px": 1146.5176972643465
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-35",
+      "page": 5,
+      "Q": [
+        18,
+        24,
+        30
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 17,
+          "source_label": "6SP30-35",
+          "curve_model": "6SP30-35",
+          "table_models": "6SP30-35",
+          "Q_m3h": 18,
+          "H_table_m": 338.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 348.03093,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 2.20097,
+          "slope": 0.22004983654746152,
+          "extrap_pt": 0.0,
+          "deviation_m": 10.03093,
+          "limit_m": 6.76,
+          "uncertainty_m": 1.7656,
+          "uncertainty_position_pt": 0.63013,
+          "x_px": 1210.4914,
+          "y_px": 841.9418,
+          "sample_locations": [
+            {
+              "x_px": 1178.0,
+              "y_px": 834.5116824292583
+            },
+            {
+              "x_px": 1182.0,
+              "y_px": 834.5395865519309
+            },
+            {
+              "x_px": 1186.0,
+              "y_px": 834.9770628147354
+            },
+            {
+              "x_px": 1190.0,
+              "y_px": 838.4475428461166
+            },
+            {
+              "x_px": 1194.0,
+              "y_px": 838.5106138069099
+            },
+            {
+              "x_px": 1198.0,
+              "y_px": 839.4269178974928
+            },
+            {
+              "x_px": 1202.0,
+              "y_px": 842.2742822923241
+            },
+            {
+              "x_px": 1206.0,
+              "y_px": 842.4307945716893
+            },
+            {
+              "x_px": 1210.0,
+              "y_px": 842.4853406601388
+            },
+            {
+              "x_px": 1214.0,
+              "y_px": 842.5040269685621
+            },
+            {
+              "x_px": 1218.0,
+              "y_px": 842.5195463550366
+            },
+            {
+              "x_px": 1222.0,
+              "y_px": 842.5745370579576
+            },
+            {
+              "x_px": 1226.0,
+              "y_px": 846.3888772626643
+            },
+            {
+              "x_px": 1230.0,
+              "y_px": 846.4931297816987
+            },
+            {
+              "x_px": 1234.0,
+              "y_px": 846.5184987861721
+            },
+            {
+              "x_px": 1238.0,
+              "y_px": 846.5698044939983
+            },
+            {
+              "x_px": 1242.0,
+              "y_px": 850.0008805939759
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 17,
+          "source_label": "6SP30-35",
+          "curve_model": "6SP30-35",
+          "table_models": "6SP30-35",
+          "Q_m3h": 24,
+          "H_table_m": 311.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 321.06337,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.6585,
+          "slope": 0.35348032900691956,
+          "extrap_pt": 0.0,
+          "deviation_m": 10.06337,
+          "limit_m": 6.22,
+          "uncertainty_m": 1.78739,
+          "uncertainty_position_pt": 0.64604,
+          "x_px": 1517.2857,
+          "y_px": 922.2957,
+          "sample_locations": [
+            {
+              "x_px": 1485.0,
+              "y_px": 910.5292126849286
+            },
+            {
+              "x_px": 1489.0,
+              "y_px": 910.6588913783313
+            },
+            {
+              "x_px": 1493.0,
+              "y_px": 914.4560234809406
+            },
+            {
+              "x_px": 1497.0,
+              "y_px": 914.554235480952
+            },
+            {
+              "x_px": 1501.0,
+              "y_px": 918.1974779843201
+            },
+            {
+              "x_px": 1505.0,
+              "y_px": 918.4706338073595
+            },
+            {
+              "x_px": 1509.0,
+              "y_px": 918.5573771253179
+            },
+            {
+              "x_px": 1513.0,
+              "y_px": 922.3845933892395
+            },
+            {
+              "x_px": 1517.0,
+              "y_px": 922.5017009862887
+            },
+            {
+              "x_px": 1521.0,
+              "y_px": 922.5698123467952
+            },
+            {
+              "x_px": 1525.0,
+              "y_px": 925.7323979610088
+            },
+            {
+              "x_px": 1529.0,
+              "y_px": 926.4779440512086
+            },
+            {
+              "x_px": 1533.0,
+              "y_px": 926.5238809421659
+            },
+            {
+              "x_px": 1537.0,
+              "y_px": 930.2210080664432
+            },
+            {
+              "x_px": 1541.0,
+              "y_px": 930.4931041967801
+            },
+            {
+              "x_px": 1545.0,
+              "y_px": 930.5415504841153
+            },
+            {
+              "x_px": 1549.0,
+              "y_px": 934.4394792829834
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 17,
+          "source_label": "6SP30-35",
+          "curve_model": "6SP30-35",
+          "table_models": "6SP30-35",
+          "Q_m3h": 30,
+          "H_table_m": 268.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 275.67089,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.76127,
+          "slope": 0.5329580622349701,
+          "extrap_pt": 0.0,
+          "deviation_m": 7.67089,
+          "limit_m": 5.36,
+          "uncertainty_m": 1.93636,
+          "uncertainty_position_pt": 0.69989,
+          "x_px": 1827.4198,
+          "y_px": 1059.0198,
+          "sample_locations": [
+            {
+              "x_px": 1795.0,
+              "y_px": 1042.4859002638946
+            },
+            {
+              "x_px": 1799.0,
+              "y_px": 1042.5745963181337
+            },
+            {
+              "x_px": 1803.0,
+              "y_px": 1046.4448992854323
+            },
+            {
+              "x_px": 1807.0,
+              "y_px": 1046.5113622190465
+            },
+            {
+              "x_px": 1811.0,
+              "y_px": 1050.4262496331291
+            },
+            {
+              "x_px": 1815.0,
+              "y_px": 1053.7492963606344
+            },
+            {
+              "x_px": 1819.0,
+              "y_px": 1054.459018405624
+            },
+            {
+              "x_px": 1823.0,
+              "y_px": 1058.4254855705672
+            },
+            {
+              "x_px": 1827.0,
+              "y_px": 1058.5182988192955
+            },
+            {
+              "x_px": 1831.0,
+              "y_px": 1060.7002737390142
+            },
+            {
+              "x_px": 1835.0,
+              "y_px": 1062.7197431921734
+            },
+            {
+              "x_px": 1839.0,
+              "y_px": 1064.8233007081014
+            },
+            {
+              "x_px": 1843.0,
+              "y_px": 1067.0772947889657
+            },
+            {
+              "x_px": 1847.0,
+              "y_px": 1069.336919733969
+            },
+            {
+              "x_px": 1851.0,
+              "y_px": 1071.483484499205
+            },
+            {
+              "x_px": 1855.0,
+              "y_px": 1073.658493251209
+            },
+            {
+              "x_px": 1859.0,
+              "y_px": 1076.1382188603197
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-38",
+      "page": 5,
+      "Q": [
+        18,
+        24,
+        30
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 18,
+          "source_label": "6SP30-38",
+          "curve_model": "6SP30-38",
+          "table_models": "6SP30-38",
+          "Q_m3h": 18,
+          "H_table_m": 367.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 377.7455,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.64795,
+          "slope": 0.23438461841832833,
+          "extrap_pt": 0.0,
+          "deviation_m": 10.7455,
+          "limit_m": 7.34,
+          "uncertainty_m": 1.71008,
+          "uncertainty_position_pt": 0.61032,
+          "x_px": 1210.4914,
+          "y_px": 753.5674,
+          "sample_locations": [
+            {
+              "x_px": 1178.0,
+              "y_px": 746.3417692432957
+            },
+            {
+              "x_px": 1182.0,
+              "y_px": 746.4983301389619
+            },
+            {
+              "x_px": 1186.0,
+              "y_px": 746.5759951379029
+            },
+            {
+              "x_px": 1190.0,
+              "y_px": 749.536384254634
+            },
+            {
+              "x_px": 1194.0,
+              "y_px": 750.4524717992497
+            },
+            {
+              "x_px": 1198.0,
+              "y_px": 750.5270740533364
+            },
+            {
+              "x_px": 1202.0,
+              "y_px": 750.6515722609586
+            },
+            {
+              "x_px": 1206.0,
+              "y_px": 753.5840104204736
+            },
+            {
+              "x_px": 1210.0,
+              "y_px": 754.4459024901095
+            },
+            {
+              "x_px": 1214.0,
+              "y_px": 754.4967889384126
+            },
+            {
+              "x_px": 1218.0,
+              "y_px": 754.5225322259028
+            },
+            {
+              "x_px": 1222.0,
+              "y_px": 754.6169323297099
+            },
+            {
+              "x_px": 1226.0,
+              "y_px": 758.3959663488387
+            },
+            {
+              "x_px": 1230.0,
+              "y_px": 758.4841082865195
+            },
+            {
+              "x_px": 1234.0,
+              "y_px": 758.5205299217158
+            },
+            {
+              "x_px": 1238.0,
+              "y_px": 758.6707399466329
+            },
+            {
+              "x_px": 1242.0,
+              "y_px": 762.3673627767214
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 18,
+          "source_label": "6SP30-38",
+          "curve_model": "6SP30-38",
+          "table_models": "6SP30-38",
+          "Q_m3h": 24,
+          "H_table_m": 338.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 348.92769,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.75352,
+          "slope": 0.36287049068660354,
+          "extrap_pt": 0.0,
+          "deviation_m": 10.92769,
+          "limit_m": 6.76,
+          "uncertainty_m": 1.81808,
+          "uncertainty_position_pt": 0.64886,
+          "x_px": 1517.2857,
+          "y_px": 839.2748,
+          "sample_locations": [
+            {
+              "x_px": 1485.0,
+              "y_px": 826.964656681308
+            },
+            {
+              "x_px": 1489.0,
+              "y_px": 830.4580661317367
+            },
+            {
+              "x_px": 1493.0,
+              "y_px": 830.4958463218614
+            },
+            {
+              "x_px": 1497.0,
+              "y_px": 830.5600592591095
+            },
+            {
+              "x_px": 1501.0,
+              "y_px": 834.4363359588103
+            },
+            {
+              "x_px": 1505.0,
+              "y_px": 834.5063977590398
+            },
+            {
+              "x_px": 1509.0,
+              "y_px": 834.6088597782386
+            },
+            {
+              "x_px": 1513.0,
+              "y_px": 838.4674431729874
+            },
+            {
+              "x_px": 1517.0,
+              "y_px": 838.5296378467071
+            },
+            {
+              "x_px": 1521.0,
+              "y_px": 842.376093724175
+            },
+            {
+              "x_px": 1525.0,
+              "y_px": 842.4765909572671
+            },
+            {
+              "x_px": 1529.0,
+              "y_px": 842.5253447700217
+            },
+            {
+              "x_px": 1533.0,
+              "y_px": 845.5192511140145
+            },
+            {
+              "x_px": 1537.0,
+              "y_px": 846.4821856137495
+            },
+            {
+              "x_px": 1541.0,
+              "y_px": 846.5764709492258
+            },
+            {
+              "x_px": 1545.0,
+              "y_px": 850.4017404995417
+            },
+            {
+              "x_px": 1549.0,
+              "y_px": 850.5236474469964
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 18,
+          "source_label": "6SP30-38",
+          "curve_model": "6SP30-38",
+          "table_models": "6SP30-38",
+          "Q_m3h": 30,
+          "H_table_m": 291.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 299.50812,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 2.048,
+          "slope": 0.5560475347844668,
+          "extrap_pt": 0.0,
+          "deviation_m": 8.50812,
+          "limit_m": 5.82,
+          "uncertainty_m": 1.97146,
+          "uncertainty_position_pt": 0.71257,
+          "x_px": 1827.4198,
+          "y_px": 987.221,
+          "sample_locations": [
+            {
+              "x_px": 1795.0,
+              "y_px": 970.4514713427923
+            },
+            {
+              "x_px": 1799.0,
+              "y_px": 970.8055052599839
+            },
+            {
+              "x_px": 1803.0,
+              "y_px": 974.4468808357243
+            },
+            {
+              "x_px": 1807.0,
+              "y_px": 977.5774023935766
+            },
+            {
+              "x_px": 1811.0,
+              "y_px": 978.4906883099848
+            },
+            {
+              "x_px": 1815.0,
+              "y_px": 978.5839513990611
+            },
+            {
+              "x_px": 1819.0,
+              "y_px": 982.4779375707552
+            },
+            {
+              "x_px": 1823.0,
+              "y_px": 982.7153891455608
+            },
+            {
+              "x_px": 1827.0,
+              "y_px": 986.6835538884723
+            },
+            {
+              "x_px": 1831.0,
+              "y_px": 988.5495156119998
+            },
+            {
+              "x_px": 1835.0,
+              "y_px": 990.8362957420883
+            },
+            {
+              "x_px": 1839.0,
+              "y_px": 993.3700385478195
+            },
+            {
+              "x_px": 1843.0,
+              "y_px": 995.6408159334441
+            },
+            {
+              "x_px": 1847.0,
+              "y_px": 998.2831515458344
+            },
+            {
+              "x_px": 1851.0,
+              "y_px": 1000.6379975051277
+            },
+            {
+              "x_px": 1855.0,
+              "y_px": 1003.3716789403009
+            },
+            {
+              "x_px": 1859.0,
+              "y_px": 1005.8666339026803
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "6SP30-42",
+      "page": 5,
+      "Q": [
+        18,
+        24,
+        30
+      ],
+      "points": [
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 19,
+          "source_label": "6SP30-42",
+          "curve_model": "6SP30-42",
+          "table_models": "6SP30-42",
+          "Q_m3h": 18,
+          "H_table_m": 405.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 417.8604,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 2.13463,
+          "slope": 0.2502818529262458,
+          "extrap_pt": 0.0,
+          "deviation_m": 12.8604,
+          "limit_m": 8.1,
+          "uncertainty_m": 1.76241,
+          "uncertainty_position_pt": 0.63124,
+          "x_px": 1210.4914,
+          "y_px": 633.965,
+          "sample_locations": [
+            {
+              "x_px": 1178.0,
+              "y_px": 626.4397738360449
+            },
+            {
+              "x_px": 1182.0,
+              "y_px": 626.5023130972646
+            },
+            {
+              "x_px": 1186.0,
+              "y_px": 626.6132335542643
+            },
+            {
+              "x_px": 1190.0,
+              "y_px": 630.233825851343
+            },
+            {
+              "x_px": 1194.0,
+              "y_px": 630.4699386456189
+            },
+            {
+              "x_px": 1198.0,
+              "y_px": 630.5222384001944
+            },
+            {
+              "x_px": 1202.0,
+              "y_px": 630.9681365520041
+            },
+            {
+              "x_px": 1206.0,
+              "y_px": 634.2970906169793
+            },
+            {
+              "x_px": 1210.0,
+              "y_px": 634.4682085985719
+            },
+            {
+              "x_px": 1214.0,
+              "y_px": 634.5056582371164
+            },
+            {
+              "x_px": 1218.0,
+              "y_px": 634.5369040519837
+            },
+            {
+              "x_px": 1222.0,
+              "y_px": 634.7107532267022
+            },
+            {
+              "x_px": 1226.0,
+              "y_px": 638.4653694834927
+            },
+            {
+              "x_px": 1230.0,
+              "y_px": 638.5161781256128
+            },
+            {
+              "x_px": 1234.0,
+              "y_px": 639.0918536896669
+            },
+            {
+              "x_px": 1238.0,
+              "y_px": 642.4627427373864
+            },
+            {
+              "x_px": 1242.0,
+              "y_px": 642.5097893185318
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 19,
+          "source_label": "6SP30-42",
+          "curve_model": "6SP30-42",
+          "table_models": "6SP30-42",
+          "Q_m3h": 24,
+          "H_table_m": 373.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 385.79132,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.96855,
+          "slope": 0.39523717488837024,
+          "extrap_pt": 0.0,
+          "deviation_m": 12.79132,
+          "limit_m": 7.46,
+          "uncertainty_m": 1.84529,
+          "uncertainty_position_pt": 0.65857,
+          "x_px": 1517.2857,
+          "y_px": 729.6383,
+          "sample_locations": [
+            {
+              "x_px": 1485.0,
+              "y_px": 718.3615208155674
+            },
+            {
+              "x_px": 1489.0,
+              "y_px": 718.4947411613239
+            },
+            {
+              "x_px": 1493.0,
+              "y_px": 718.5587512131735
+            },
+            {
+              "x_px": 1497.0,
+              "y_px": 722.2132764836856
+            },
+            {
+              "x_px": 1501.0,
+              "y_px": 722.5197343335975
+            },
+            {
+              "x_px": 1505.0,
+              "y_px": 726.3817967454439
+            },
+            {
+              "x_px": 1509.0,
+              "y_px": 726.4943817652692
+            },
+            {
+              "x_px": 1513.0,
+              "y_px": 726.5637544934715
+            },
+            {
+              "x_px": 1517.0,
+              "y_px": 730.469217663173
+            },
+            {
+              "x_px": 1521.0,
+              "y_px": 730.5198630289711
+            },
+            {
+              "x_px": 1525.0,
+              "y_px": 730.7187178341386
+            },
+            {
+              "x_px": 1529.0,
+              "y_px": 734.4994637815151
+            },
+            {
+              "x_px": 1533.0,
+              "y_px": 734.5854966010189
+            },
+            {
+              "x_px": 1537.0,
+              "y_px": 738.0312234734581
+            },
+            {
+              "x_px": 1541.0,
+              "y_px": 738.55617832055
+            },
+            {
+              "x_px": 1545.0,
+              "y_px": 742.418297357476
+            },
+            {
+              "x_px": 1549.0,
+              "y_px": 742.5449017656281
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        },
+        {
+          "page": 5,
+          "family": "6SP30",
+          "row": 19,
+          "source_label": "6SP30-42",
+          "curve_model": "6SP30-42",
+          "table_models": "6SP30-42",
+          "Q_m3h": 30,
+          "H_table_m": 321.0,
+          "identity_uncertain": false,
+          "slices": 17,
+          "actual_vector": false,
+          "H_curve_m": 330.75304,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.6717,
+          "slope": 0.6356204153774107,
+          "extrap_pt": 0.0,
+          "deviation_m": 9.75304,
+          "limit_m": 6.42,
+          "uncertainty_m": 2.04735,
+          "uncertainty_position_pt": 0.73069,
+          "x_px": 1827.4198,
+          "y_px": 893.3282,
+          "sample_locations": [
+            {
+              "x_px": 1795.0,
+              "y_px": 874.344737995445
+            },
+            {
+              "x_px": 1799.0,
+              "y_px": 874.7999689566992
+            },
+            {
+              "x_px": 1803.0,
+              "y_px": 878.4840773031353
+            },
+            {
+              "x_px": 1807.0,
+              "y_px": 878.6772013625249
+            },
+            {
+              "x_px": 1811.0,
+              "y_px": 882.4990913792769
+            },
+            {
+              "x_px": 1815.0,
+              "y_px": 886.4632757614728
+            },
+            {
+              "x_px": 1819.0,
+              "y_px": 886.5685527553894
+            },
+            {
+              "x_px": 1823.0,
+              "y_px": 890.4926872358042
+            },
+            {
+              "x_px": 1827.0,
+              "y_px": 894.4592656850684
+            },
+            {
+              "x_px": 1831.0,
+              "y_px": 895.1344866214521
+            },
+            {
+              "x_px": 1835.0,
+              "y_px": 897.5566090110804
+            },
+            {
+              "x_px": 1839.0,
+              "y_px": 900.313586162666
+            },
+            {
+              "x_px": 1843.0,
+              "y_px": 902.8210080292336
+            },
+            {
+              "x_px": 1847.0,
+              "y_px": 905.5609159009861
+            },
+            {
+              "x_px": 1851.0,
+              "y_px": 908.459542999969
+            },
+            {
+              "x_px": 1855.0,
+              "y_px": 911.2955121701427
+            },
+            {
+              "x_px": 1859.0,
+              "y_px": 914.1117178489551
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "10SP135-5",
+      "page": 11,
+      "Q": [
+        180
+      ],
+      "points": [
+        {
+          "page": 11,
+          "family": "10SP135",
+          "row": 7,
+          "source_label": "10SP135-5",
+          "curve_model": "10SP135-5",
+          "table_models": "10SP135-5",
+          "Q_m3h": 180,
+          "H_table_m": 66.0,
+          "identity_uncertain": false,
+          "slices": 11,
+          "actual_vector": false,
+          "H_curve_m": 68.72297,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.63213,
+          "slope": 0.21260862906569786,
+          "extrap_pt": 0.18,
+          "deviation_m": 2.72297,
+          "limit_m": 1.32,
+          "uncertainty_m": 1.1522,
+          "uncertainty_position_pt": 0.60952,
+          "x_px": 2675.5,
+          "y_px": 1564.1848,
+          "sample_locations": [
+            {
+              "x_px": 2644.0,
+              "y_px": 1557.5693253633046
+            },
+            {
+              "x_px": 2647.0,
+              "y_px": 1558.440327592704
+            },
+            {
+              "x_px": 2650.0,
+              "y_px": 1558.4939767968606
+            },
+            {
+              "x_px": 2653.0,
+              "y_px": 1558.5098531199524
+            },
+            {
+              "x_px": 2656.0,
+              "y_px": 1558.5441035449448
+            },
+            {
+              "x_px": 2659.0,
+              "y_px": 1562.3088381126784
+            },
+            {
+              "x_px": 2662.0,
+              "y_px": 1562.4757633927438
+            },
+            {
+              "x_px": 2665.0,
+              "y_px": 1562.500772144431
+            },
+            {
+              "x_px": 2668.0,
+              "y_px": 1562.5249926910933
+            },
+            {
+              "x_px": 2671.0,
+              "y_px": 1562.6171586474238
+            },
+            {
+              "x_px": 2674.0,
+              "y_px": 1563.4587209219749
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    },
+    {
+      "model": "10SP135-7",
+      "page": 11,
+      "Q": [
+        180
+      ],
+      "points": [
+        {
+          "page": 11,
+          "family": "10SP135",
+          "row": 9,
+          "source_label": "10SP135-7",
+          "curve_model": "10SP135-7",
+          "table_models": "10SP135-7",
+          "Q_m3h": 180,
+          "H_table_m": 93.0,
+          "identity_uncertain": false,
+          "slices": 11,
+          "actual_vector": false,
+          "H_curve_m": 96.16268,
+          "nominal_status": "CHƯA ĐẠT",
+          "confidence_status": "CHƯA ĐẠT",
+          "reason": "",
+          "measurement_method": "Lát sắc độ từ ảnh của chínhPDFmẫu, thứ tự nét nguồn độc lập vớiH bảng.",
+          "local_spread_px": 1.56802,
+          "slope": 0.39802956189486777,
+          "extrap_pt": 0.18,
+          "deviation_m": 3.16268,
+          "limit_m": 1.86,
+          "uncertainty_m": 1.26681,
+          "uncertainty_position_pt": 0.67016,
+          "x_px": 2675.5,
+          "y_px": 1443.2191,
+          "sample_locations": [
+            {
+              "x_px": 2644.0,
+              "y_px": 1430.5015401570563
+            },
+            {
+              "x_px": 2647.0,
+              "y_px": 1430.6973410335786
+            },
+            {
+              "x_px": 2650.0,
+              "y_px": 1434.436966081466
+            },
+            {
+              "x_px": 2653.0,
+              "y_px": 1434.493229091799
+            },
+            {
+              "x_px": 2656.0,
+              "y_px": 1434.5272997027755
+            },
+            {
+              "x_px": 2659.0,
+              "y_px": 1437.9586966951917
+            },
+            {
+              "x_px": 2662.0,
+              "y_px": 1438.4969692143493
+            },
+            {
+              "x_px": 2665.0,
+              "y_px": 1438.5425132790847
+            },
+            {
+              "x_px": 2668.0,
+              "y_px": 1438.6658927141202
+            },
+            {
+              "x_px": 2671.0,
+              "y_px": 1442.3465002865998
+            },
+            {
+              "x_px": 2674.0,
+              "y_px": 1442.5011602828806
+            }
+          ],
+          "verification_status": "CHƯA ĐẠT"
+        }
+      ]
+    }
+  ],
+  "unknown_point_count": 1074,
+  "group_status": "CHƯA XONG",
+  "archived_previous_path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G05\\PHIEN TRUOC\\10d7d99e2873693fa3913b95185422a038d761903193bd544937b1dce45c8c0c\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "style_exception": "6SP30-38 đoạnQ36→42; ngoại lệ1/52 bềdày từảnh; nguồn150dpi khôngđủkếtluậnpenwidth.",
+  "reports": [
+    "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\BAO CAO BO SUNG G05 - BAN GIAO VA TOAN BO QH.md",
+    "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G05/MAU PDF SUA DUONG/Perotac bơm giếng SP_compressed (bản mới).pdf",
+    "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf"
+  ]
+}

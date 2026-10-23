@@ -1,0 +1,63 @@
+from pathlib import Path
+import json,sys,hashlib
+import numpy as np
+import fitz,pikepdf
+R=Path(r'D:\ChatGPT\Sửa catalogue');W=R/'work/sp6_fullmodel';D=R/'deliverables/SP6 FULL MODEL NET LIEN 20261006';read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+receipt=read(W/'candidate.json');plan=read(W/'build_plan.json');data=read(W/'data_current.json');old=read(R/'templates/catalogue/SP6_LOGO_TABLE_V2/data.json');out=Path(receipt['candidate'])
+d=fitz.open(out);base=fitz.open(plan['base']);canonical=fitz.open(data['current']);p=d[5];draw=p.get_drawings();words=p.get_text('words');fulltext=p.get_text();checks=[]
+assert len(d)==12 and '21 models' not in fulltext and '18 models' not in fulltext and fulltext.count('Total head H (m)')==2
+for r in data['records']:assert r['H']==next(x['H'] for x in old['records'] if x['model']==r['model'])
+for c in read(R/'work/sp6_logo_table_v2/draw_plan.json')['cells426']:
+ x0,y0,x1,y1=c['box'];actual=[w[4] for w in words if x0<(w[0]+w[2])/2<x1 and y0<(w[1]+w[3])/2<y1];assert actual==[str(c['H'])],(c,actual)
+for family,left in [('6SP36',24),('6SP46',428)]:
+ for i,r in enumerate([r for r in data['records'] if r['family']==family]):
+  meta=r['metadata'];expected=[meta.get('single_phase_model') or '-',meta['current_owner_fullmodel'],meta['kW_literal'],meta['HP_literal']];xs=[left,left+45,left+90,left+108,left+126];y=407+7.7*i
+  for j,s in enumerate(expected):
+   actual=[w[4] for w in words if xs[j]<(w[0]+w[2])/2<xs[j+1] and y<(w[1]+w[3])/2<y+7.7];assert actual==[str(s)],(r['model'],j,s,actual)
+curves=[x for x in draw if abs((x['width'] or 0)-.75)<1e-5 and x['rect'].y0>=93.9 and x['rect'].y1<=284.1 and any(i[0]=='c' for i in x['items'])];assert len(curves)==39
+def value(seg,t):
+ a=np.asarray(seg);return (1-t)**3*a[0]+3*(1-t)**2*t*a[1]+3*(1-t)*t*t*a[2]+t**3*a[3]
+proof=[]
+for r,path in zip(data['records'],curves):
+ px,qm,hm=(53,60,450) if r['family']=='6SP36' else (457,72,350);segs=[]
+ assert path['dashes'].replace(' ','')=='[]0',path['dashes']
+ for item in path['items']:
+  if item[0]=='c':segs.append([[(pt.x-px)/326*qm,(284-pt.y)/190*hm] for pt in item[1:]])
+ assert len(segs)==len(r['segments'])
+ assert np.max(np.abs(np.asarray(segs)-np.asarray(r['segments'])))<.0001
+ for seg in segs:
+  vv=3*np.diff(np.asarray(seg),axis=0)[:,1];aa=vv[0]-2*vv[1]+vv[2];bb=2*(vv[1]-vv[0]);ts=[0,1]
+  if abs(aa)>1e-15 and 0<-bb/(2*aa)<1:ts.append(-bb/(2*aa))
+  assert max((1-t)**2*vv[0]+2*(1-t)*t*vv[1]+t*t*vv[2] for t in ts)<0
+ for q,h in zip(r['Q'],r['H']):
+  seg=next(s for s in segs if s[0][0]-.0001<=q<=s[3][0]+.0001);lo=0.;hi=1.
+  for _ in range(55):
+   t=(lo+hi)/2
+   if value(seg,t)[0]<q:lo=t
+   else:hi=t
+  curve=float(value(seg,(lo+hi)/2)[1]);err=abs(curve-h);pct=err/h*100;assert err<=min(max(1,.02*h),.05*h)+.0001,(r['model'],q,h,curve,pct)
+  checks.append({'model':r['model'],'Q':q,'H_table':h,'H_curve_actual_pdf':curve,'error_percent':pct})
+ proof.append({'model':r['model'],'solid':True,'strict_decreasing':True,'endpoints_held':abs(segs[0][0][1]-r['H'][0])<.0001 and abs(segs[-1][-1][1]-r['H'][-1])<.0001})
+ assert proof[-1]['endpoints_held']
+table=[x for x in draw if x['type']=='s' and x['rect'].y0>=373.9 and x['rect'].y1<579];assert len(table)==len(plan['table_grid_segments'])
+assert all(abs(x['width']-.6)<1e-5 and np.max(np.abs(np.array(x['color'])-np.array(plan['table_rgb'])))<1e-5 for x in table)
+fills=[x for x in draw if x['fill'] is not None and x['rect'].y0>=374 and x['rect'].y1<579];assert max(x['seqno'] for x in fills)<min(x['seqno'] for x in table)
+header_same=base[5].get_pixmap(dpi=180,clip=fitz.Rect(0,0,p.rect.width,47),alpha=False).samples==p.get_pixmap(dpi=180,clip=fitz.Rect(0,0,p.rect.width,47),alpha=False).samples;assert header_same
+assert all(a.rect==b.rect for a,b in zip(d,canonical)) and d.metadata==canonical.metadata and d.get_toc()==canonical.get_toc() and all(a.get_links()==b.get_links() for a,b in zip(d,canonical))
+for i in range(12):
+ if i!=5:assert d[i].get_pixmap(dpi=100,alpha=False).samples==canonical[i].get_pixmap(dpi=100,alpha=False).samples
+spans=[s for b in p.get_text('dict')['blocks'] if 'lines' in b for line in b['lines'] for s in line['spans']]
+labels=[s for s in spans if s['text'].startswith('6SP') and s['origin'][1]<285 and s['text'] not in ['6SP36','6SP46']];assert len(labels)==39 and {s['text'] for s in labels}=={r['model'] for r in data['records']}
+assert len([s for s in spans if s['text']=='m³/h' and abs(s['origin'][1]-296)<.01])==2
+assert len([s for s in spans if s['text']=='l/min' and abs(s['origin'][1]-306)<.01])==2
+assert len([s for s in spans if s['text']=='η (%)' and abs(s['origin'][1]-321)<.01])==2
+qa={'candidate_sha256':sha(out),'table_H426_pass':True,'all_model_power_phase_cells_pass':True,'removed_invalid_single_phase_cells':4,'table_numeric_changes':0,'full_labels_39_pass':True,'curve_proof':proof,'all_426_curve_points_within_5_percent':True,'maximum_curve_error_percent':max(x['error_percent'] for x in checks),'changed_curve':'6SP36-2 only, natural C2 through unchanged 10 table points','grid_strokes':len(table),'grid_all_width_pt':.6,'grid_all_same_RGB':plan['table_rgb'],'all_grid_after_all_backgrounds':True,'flow_Q_below_QH_above_eta':True,'Total_head_axes':2,'model_counts_removed':True,'logo_header_pixels180dpi_held':True,'other11pages_pixels100dpi_held':True,'page_sizes_metadata_toc_links_held':True,'source_held':sha(Path(data['source']))==data['source_sha256'],'canonical_held':sha(Path(data['current']))==data['current_sha256'],'visual_independent':'PENDING','print':'NOT_RUN','eta':'Trace of source only, not manufacturer tested data'}
+(D/'KIEM TRA SO VA CAU TRUC.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2),encoding='utf8');(D/'426 DIEM DOC TU PDF.json').write_text(json.dumps(checks,ensure_ascii=False,indent=2),encoding='utf8')
+d.close();base.close();canonical.close()
+sys.path.insert(0,str(R/'vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT'));from catfix.vector import Editor
+e=Editor(str(out))
+for i in reversed(range(12)):
+ if i!=5:del e.doc.pdf.pages[i]
+single=D/'SP6 - MAU DA SUA.pdf';assert not single.exists();e.save(str(single));e.close()
+with fitz.open(single) as a,fitz.open(out) as b:assert a[0].get_pixmap(dpi=180,alpha=False).samples==b[5].get_pixmap(dpi=180,alpha=False).samples
+print(json.dumps({'numeric_structure':'PASS','full_labels':len(labels),'grid_strokes':len(table),'max_error_percent':qa['maximum_curve_error_percent'],'single_pdf':str(single)},ensure_ascii=False))

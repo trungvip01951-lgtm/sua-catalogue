@@ -1,0 +1,62 @@
+[
+ {
+  "stt": 71,
+  "file": "KTZ - LH Perotac (bản mới).pdf; KTZ - LH Redpump (bản mới).pdf",
+  "page": "1",
+  "item": "Chép i, t từ chính PDF; căn khoảng chữ bằng các dòng nguồn cùng kiểu",
+  "old": "Civel engineering; build-in thermal protection",
+  "new": "Civil engineering; built-in thermal protection",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09.png; G09/NGHIEM THU CHOT.json"
+ },
+ {
+  "stt": 72,
+  "file": "KTZ - LH Perotac (bản mới).pdf; KTZ - LH Redpump (bản mới).pdf",
+  "page": "5",
+  "item": "Chép nét s cùng kiểu trong chính PDF, sửa cả nét tô và viền",
+  "old": "high preasure",
+  "new": "high pressure",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09.png; G09/NGHIEM THU CHOT.json"
+ },
+ {
+  "stt": 73,
+  "file": "KTZ - LH Perotac (bản mới).pdf; KTZ - LH Redpump (bản mới).pdf",
+  "page": "3–4",
+  "item": "Chép số 5 cùng bảng, căn giữa; 90 ÷ 60 = 1.50",
+  "old": "KTZ67.5: 1.60 m³/phút",
+  "new": "1.50 m³/phút",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09.png; G09/NGHIEM THU CHOT.json"
+ },
+ {
+  "stt": 74,
+  "file": "KTZ - LH Perotac (bản mới).pdf; KTZ - LH Redpump (bản mới).pdf",
+  "page": "4",
+  "item": "Chép số 5 cùng bảng, căn giữa; 30 ÷ 60 = 0.50",
+  "old": "KTZ32.2: 0.60 m³/phút",
+  "new": "0.50 m³/phút",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09.png; G09/NGHIEM THU CHOT.json"
+ },
+ {
+  "stt": 75,
+  "file": "KTZ - LH Perotac (bản mới).pdf; KTZ - LH Redpump (bản mới).pdf",
+  "page": "7",
+  "item": "Xóa riêng SH ở cả lớp tô và viền; căn lại ba nét số sẵn có",
+  "old": "SH637",
+  "new": "637",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09.png; G09/NGHIEM THU CHOT.json"
+ },
+ {
+  "stt": 76,
+  "file": "KTZ - LH Perotac (bản mới).pdf; KTZ - LH Redpump (bản mới).pdf",
+  "page": "2",
+  "item": "Chép số 1, kiểu đường và chấm từ chính hình; đầu chỉ ở vỏ động cơ",
+  "old": "03 ở chỗ bắt cáp; thiếu 11",
+  "new": "Xóa 03 và đường/chấm riêng; thêm 11 chỉ vỏ động cơ",
+  "result": "ĐẠT",
+  "evidence": "So sanh G09.png; G09/NGHIEM THU CHOT.json"
+ }
+]

@@ -1,0 +1,12 @@
+[
+ {
+  "stt": 20,
+  "file": "Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+  "page": "3–14, 16, 18, 20, 22, 24, 26, 28, 30, 32",
+  "item": "Thay đúng nét đường cũ bằng đường nội suy mượt đi qua mọi điểm bảng; chép hình chữ/viền trắng gốc, giữ màu và độ dày",
+  "old": "21 biểu đồ cũ lệch bảng; trang 10 thiếu 5SP10-30; trục Q trang 18 không tuyến tính; nhãn còn số 0 đầu",
+  "new": "21 biểu đồ, 207 đường khớp 1219 điểm bảng; trang 10 thêm 30-15 và trục H 0–360; trang 18 trục Q 0–60 chia đều; bỏ 93 số 0 đầu",
+  "result": "ĐẠT",
+  "evidence": "So sanh G02.png; G02/so-sanh-day-du-trang-*.png; G02/nghiem-thu-doc-lap.json; G02/bang-sai-lech-tung-diem.md"
+ }
+]

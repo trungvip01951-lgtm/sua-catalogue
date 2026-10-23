@@ -1,0 +1,148 @@
+﻿HƯỚNG DẪN ANH TRUNG – GIAO VIỆC SỬA CATALOGUE CHO CHATGPT   (bản 02-10-2026)
+=====================================================================================
+
+A. GÓI NÀY GỒM GÌ  (thư mục  Catalog Sua\GOI CHATGPT 02-10-2026)
+-----------------------------------------------------------------
+1. GOI_SUA_CATALOGUE_CHATGPT.zip  (zip = file nén; KHÔNG cần giải nén)
+   Bên trong: bộ công cụ sửa PDF/Excel tên "catfix" em viết và đã chạy thử trên chính catalogue của
+   anh (43/43 bài kiểm ĐẠT), danh sách đủ 162 việc lấy từ file phương án 02/10, file phương án Excel,
+   và hướng dẫn kỹ thuật cho ChatGPT.
+2. "01_PROMPT_CHUNG (dán vào ChatGPT).txt"  (prompt = lời dặn cho ChatGPT)
+   Lời dặn chung: quy tắc bắt buộc, cách làm, cách tự kiểm, mẫu báo cáo.
+3. Thư mục "02_PROMPT_TUNG_NHOM": 18 file, mỗi file = 1 nhóm việc.
+4. "03_TIN NHAN DAN VAO CHATGPT.txt": TIN NHẮN ANH COPY DÁN VÀO CHATGPT (dùng cho CÁCH 1).
+5. File này (hướng dẫn cho anh).
+
+B. CÁCH 1 – CHATGPT ĐỌC ĐƯỢC MÁY TÍNH CỦA ANH (nhanh nhất)
+---------------------------------------------------------
+Bước 1. Mở ChatGPT (loại đọc/chạy được trên máy anh), mở cuộc trò chuyện mới.
+Bước 2. Mở file "03_TIN NHAN DAN VAO CHATGPT.txt" bằng Notepad -> Ctrl+A (chọn hết) -> Ctrl+C (copy)
+        -> bấm vào ô chat -> Ctrl+V (dán) -> gửi.
+Bước 3. ChatGPT tự đọc gói, kiểm công cụ, chạy bài kiểm. Phải thấy dòng "TỔNG KẾT: 43/43 ĐẠT".
+        - Nếu ChatGPT báo thiếu thư viện / thiếu Tesseract (OCR = công cụ đọc chữ trong ảnh) và xin
+          cài: đó là phần mềm miễn phí cài lên máy anh; anh đồng ý thì trả lời "Đồng ý cài".
+        - Nếu báo KHÔNG ĐẠT -> dừng, chụp lại tin nhắn gửi em.
+Bước 4. ChatGPT làm lần lượt 18 nhóm. Xong mỗi nhóm nó báo kết quả; việc cần duyệt (biểu đồ, ảnh bìa,
+        câu dịch lại, số chốt theo tỉ lệ) nó gửi ảnh mẫu và chờ anh trả lời "Duyệt, làm tiếp" hoặc nói
+        chỗ cần chỉnh.
+Bước 5. File đã sửa ChatGPT tự lưu vào:  Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\<Giếng / Nước thải /...>
+        (cùng tên file; riêng 2 file CM đổi "ngnag" thành "ngang"). Ảnh so sánh, bảng nghiệm thu, tiến
+        độ ở thư mục con  _BAO CAO. Thư mục BẢN MỚI 01-10-2026 không bị đụng tới.
+        - Nhóm G02 (vẽ lại 21 biểu đồ Aquaris SP) lưu riêng ở  Giếng\G02 (gồm cả G01)\ : file này đã gồm
+          cả phần sửa G01; anh dùng file này sau khi xem bảng nghiệm thu G02 thấy ĐẠT.
+Bước 6. Bị ngắt giữa chừng: nhắn "Làm tiếp theo TIEN DO.md, không làm lại việc đã ĐẠT".
+        Muốn làm riêng 1 nhóm: trong tin nhắn ở bước 2, thay dòng thứ tự nhóm bằng "Chỉ làm nhóm G08".
+
+C. CÁCH 2 – CHATGPT KHÔNG ĐỌC ĐƯỢC MÁY ANH (tải file lên, mỗi nhóm 1 cuộc trò chuyện)
+-----------------------------------------------------------------------------------
+Bước 1. Mở cuộc trò chuyện mới trên ChatGPT (loại chạy được code Python và tải file lên được).
+Bước 2. Bấm nút đính kèm (+), tải lên: file GOI_SUA_CATALOGUE_CHATGPT.zip  VÀ  file catalogue của
+        nhóm đó (xem mục D).
+Bước 3. Mở "01_PROMPT_CHUNG (dán vào ChatGPT).txt" bằng Notepad -> Ctrl+A, Ctrl+C -> dán -> gửi.
+Bước 4. Phải thấy dòng "TỔNG KẾT: 43/43 ĐẠT". Báo KHÔNG ĐẠT hoặc thiếu công cụ -> dừng, gửi em.
+Bước 5. Mở file của nhóm trong thư mục 02_PROMPT_TUNG_NHOM (ví dụ "G08 - Cắt rác WC ....txt") ->
+        Ctrl+A, Ctrl+C -> dán -> gửi.
+Bước 6. Duyệt bản mẫu khi ChatGPT gửi (như CÁCH 1).
+Bước 7. Khi xong, ChatGPT gửi link tải: file đã sửa, ảnh "So sanh Gxx.png" (bên trái = trước, bên
+        phải = sau), "BAO CAO Gxx.md" (bảng nghiệm thu), file ".log.json" (nhật ký thao tác). Anh tải
+        về, lưu vào  Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\<thư mục con>  – KHÔNG ghi đè thư mục
+        BẢN MỚI 01-10-2026.
+Bước 8. Xem ảnh so sánh và bảng nghiệm thu: mọi việc phải ĐẠT. Việc nào CHƯA ĐẠT -> nhắn ChatGPT làm
+        lại đúng việc đó, hoặc gửi em xử lý.
+
+D. 18 NHÓM VIỆC VÀ FILE CỦA TỪNG NHÓM
+-------------------------------------
+(đường dẫn tính từ thư mục  Catalog Sua\BẢN MỚI 01-10-2026\ ; CÁCH 2 thì tải các file này lên cùng zip)
+
+G01  Aquaris SP – chữ, số trong bảng, tên model   (19 việc sửa)
+     File: Giếng\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf
+
+G02  Aquaris SP – vẽ lại 21 biểu đồ   (1 việc sửa)
+     File: FILE ĐÃ SỬA của nhóm G01 (tên vẫn là "Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf")
+           CÁCH 1: ChatGPT tự lấy trong BẢN MỚI 03-10-2026 (ChatGPT)\Giếng;  CÁCH 2: anh tải file đó lên.
+     File ra G02 lưu ở Giếng\G02 (gồm cả G01): đã gồm cả phần sửa của G01, dùng sau khi
+     xem bảng nghiệm thu G02 thấy ĐẠT.
+
+G03  Aquaris SA   (15 việc sửa)
+     File: Giếng\Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf
+
+G04  Perotac SA + Redpump SL   (14 việc sửa, 1 việc giữ nguyên/đã xong)
+     File: Giếng\Perotac bơm giếng SA_compressed (bản mới).pdf
+           Giếng\Redpump gieng SL_compressed (bản mới).pdf
+
+G05  Perotac SP   (6 việc sửa, 2 việc giữ nguyên/đã xong)
+     File: Giếng\Perotac bơm giếng SP_compressed (bản mới).pdf
+
+G06  Aquaris FS (4 trang)   (3 việc sửa, 1 việc giữ nguyên/đã xong)
+     File: Nước thải\Aquaris FS_300dpi_75% (bản mới).pdf
+
+G07  Aquaris FS khổ A3   (5 việc sửa, 1 việc giữ nguyên/đã xong)
+     File: Nước thải\Catalog bơm nước thải Aquaris FS (bản mới).pdf
+
+G08  Cắt rác WC (Aquaris, Perotac, Redpump)   (12 việc sửa, 1 việc giữ nguyên/đã xong)
+     File: Nước thải\Catalog cắt rác Aquaris WC (bản mới).pdf
+           Nước thải\Catalog cắt rác perotac (bản mới).pdf
+           Nước thải\Catalog cắt rác redpump (bản mới).pdf
+
+G09  KTZ - LH (Perotac, Redpump)   (6 việc sửa, 2 việc giữ nguyên/đã xong)
+     File: Nước thải\KTZ - LH Perotac (bản mới).pdf
+           Nước thải\KTZ - LH Redpump (bản mới).pdf
+
+G10  Máy thổi khí Perotac GB   (6 việc sửa, 2 việc giữ nguyên/đã xong)
+     File: Thổi khí\May thoi khi Perotac_300dpi_75% (bản mới).pdf
+
+G11  Perotac Root   (11 việc sửa, 3 việc giữ nguyên/đã xong)
+     File: Thổi khí\Perotac Root_300dpi_75% (bản mới).pdf
+
+G12  3M (Aquaris, Perotac)   (3 việc sửa)
+     File: Trục ngang\3M Aquaris (bản mới).pdf
+           Trục ngang\3M Perotac (bản mới).pdf
+
+G13  Aquaris trục ngang CM   (8 việc sửa, 2 việc giữ nguyên/đã xong)
+     File: Trục ngang\Aquaris truc ngang CM (bản mới).pdf
+
+G14  CM Perotac + Redpump   (8 việc sửa, 1 việc giữ nguyên/đã xong)
+     File: Trục ngang\bơm trục ngnag perotac model CM (bản mới).pdf
+           Trục ngang\bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf
+     File ra được đổi tên "ngnag" thành "ngang" (việc #129), ví dụ
+           "bơm trục ngang perotac model CM (bản mới).pdf"
+
+G15  CDX Perotac   (8 việc sửa)
+     File: Trục ngang\CDX Perotac (bản mới).pdf
+
+G16  CDLF (Aquaris, Perotac)   (10 việc sửa)
+     File: Trục đứng\Bơm trục đứng CDLF Aquaris (bản mới).pdf
+           Trục đứng\Bơm trục đứng Perotac CDLF (bản mới).pdf
+
+G17  Inline IRG Perotac   (3 việc sửa, 1 việc giữ nguyên/đã xong)
+     File: Trục đứng\Inline IRG Perotac (bản mới).pdf
+
+G18  Excel: Catalogue perotac + Catalogue DWO   (12 việc sửa)
+     File: Nước thải\Catalogue perotac (bản mới).xlsx
+           Trục ngang\Catalogue DWO (bản mới).xlsx
+
+E. NẾU GẶP TRỤC TRẶC
+--------------------
+- ChatGPT báo hết thời gian chạy / bị ngắt giữa chừng:
+    nhắn "Chạy tiếp từ việc đang dở, không làm lại việc đã xong".
+- ChatGPT báo mất file / môi trường khởi động lại (CÁCH 2):
+    tải lại zip + file catalogue (và file đã sửa dở nếu có), nhắn "tiếp tục".
+- ChatGPT muốn dùng cách khác (che ô trắng, vẽ chữ bằng font khác, xuất lại PDF, cài thứ khác ngoài
+  danh sách):  nhắn "Không được, làm đúng PROMPT CHUNG, chỉ dùng catfix".
+- Chữ sửa xong nhìn khác chữ bên cạnh (lệch dòng, to nhỏ, đậm nhạt, khoảng cách):
+    nhắn rõ chỗ đó (trang, chữ), yêu cầu làm lại cho giống chữ bên cạnh.
+- ChatGPT nói "xong" nhưng không có bảng nghiệm thu / ảnh so sánh:
+    nhắn "Làm phần NGHIỆM THU CUỐI NHÓM và gửi báo cáo theo mẫu".
+
+F. MUỐN EM KIỂM LẠI KẾT QUẢ CỦA CHATGPT
+---------------------------------------
+Khi file đã nằm trong  Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT) , anh nhắn em: em so từng trang với
+bản 01-10 bằng máy (chỗ nào thay đổi, có đúng việc được giao không, chữ đọc lại có đúng không) và báo anh.
+
+G. LƯU Ý
+--------
+- Công cụ đã chạy thử trên máy em, gồm cả giả lập máy Windows; môi trường của ChatGPT có thể khác
+  (thiếu thư viện, giới hạn thời gian) – bài kiểm ở BƯỚC 0 sẽ cho biết ngay. Em không bảo đảm được chất
+  lượng phần ChatGPT làm, nên bước xem ảnh so sánh và bảng nghiệm thu là bắt buộc.
+- Các việc cần anh quyết (mẫu biểu đồ, ảnh bìa, câu dịch, số "chốt theo tỉ lệ") ChatGPT phải hỏi anh
+  trước khi làm hàng loạt.

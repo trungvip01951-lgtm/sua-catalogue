@@ -1,0 +1,43 @@
+{
+  "status": "ROOT_HANDOFF_APPROVED_FOR_SEPARATE_STAGING_WORK_NO_CANONICAL_WRITE",
+  "root_thread_id": "01a0fd33-b804-7fb3-b37d-7b92b4d5af3d",
+  "root_role": "Owner and sole publisher of shared catalogue project",
+  "effective_UTC": "2026-10-05T07:34:25.370494+00:00",
+  "handoff": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\01 HANDOFF G09 READONLY SOURCE CURRENT TASK.json",
+  "handoff_SHA256": "1abfe7fbece6fed2eeceddd8244f24d9500dc11de638906c0c2c45959e33c263",
+  "source_SHA256": "396487b4b47f836601d97bfa708fb242007c462951f7a3109b24c6f446975858",
+  "current_SHA256": "f20b82e880ee756e101a41fdddea87c249d2fc65e48f1532a76022ae81248ed4",
+  "selected_allowed_ROI_page_bottom_left": [
+    401.58033150000006,
+    386.77239959999997,
+    416.6035939463506,
+    388.1924004
+  ],
+  "root_own_readback": "Source/current native7 and exact original grid operator, CTM0.24 and hidden polygon intersection verified.",
+  "numeric_or_curve_change_allowed": false,
+  "allowed": "Separate writer assigned by coordinator may prepare one source-vector grid-gap correction and staged CATFIX candidate after its code/source review and real lock. Return actual images, measured errors and full7page visual QA. Preserve black845 glyph and all red curves; no canonical/source/control/ledger writes.",
+  "ROOT_release_scope": "ROOT will not edit either G09 PDF while an external writer owns this staging work. Only ROOT may later accept/publish after independent QA.",
+  "do_not_expand_ROI_or_change_font": "If selected footprint cannot improve legibility while preserving glyphs, report limitation and retain current PDF.",
+  "runtime": {
+    "python": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\.catfix-venv\\Scripts\\python.exe",
+    "python_SHA256": "5fc3c5244b5eef01a82fbefd1932d1382b79c72fe6e64ffe8df1e3ce3643f02f",
+    "working_directory": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a",
+    "install_allowed": false,
+    "PdfDoc_file": "D:\\ChatGPT\\Sửa catalogue\\vendor\\catfix_original\\GOI_SUA_CATALOGUE_CHATGPT\\catfix\\pdfdoc.py",
+    "PdfDoc_SHA256": "b63ff57761f41174e9c493b3ddc51a0e73da02a5b55892e3568503407cf43853",
+    "recipes_file": "D:\\ChatGPT\\Sửa catalogue\\vendor\\catfix_original\\GOI_SUA_CATALOGUE_CHATGPT\\catfix\\recipes.py",
+    "recipes_SHA256": "7f81eb66cdc73e32095f69d8bc4069d067cab4bd362353a75403440991292ff3",
+    "PdfDoc_set_stream_signature": "(self, ref, data)",
+    "Job_save_signature": "(self)"
+  },
+  "staging": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\staging",
+  "human_authorization_basis": "Human explicitly authorized parallel catalogue tasks and full graphical corrections; authorization confirmed by ROOT in main coordinating chat.",
+  "approval_does_not_mean_acceptance": true,
+  "operations": {
+    "Editor": 0,
+    "RAM": 0,
+    "PDF_Save": 0,
+    "canonical": 0,
+    "controls": 0
+  }
+}
