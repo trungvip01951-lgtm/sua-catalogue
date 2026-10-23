@@ -75,7 +75,7 @@ txt(ML, 576, 'PEROTAC  /  SS SERIES', 7.5, True, GREY)
 # ---- cột trái
 LW = 210
 heading(ML, 86, 'MODEL CODE', LW)
-for i, (a, b) in enumerate([(m[2], 'three-phase 3~'), (m[1], 'single-phase 1~, with float switch')]):
+for i, (a, b) in enumerate([(m[2], 'three-phase 3~'), (m[1], 'single-phase 1~')]):
     y = 104 + i * 15; txt(ML, y, a, 10, True, NAVY); txt(ML + 70, y, b, 8.5)
 heading(ML, 150, 'MAIN DATA', LW)
 rows = [('Power P2', f'{m[3]} kW / {m[4]} HP'), ('Power supply 1~', '1~ 220–240 V 50 Hz'), ('Power supply 3~', '3~ 380–415 V 50 Hz'),
@@ -87,12 +87,13 @@ for i, (a, b) in enumerate(rows):
 for t, ds in [('APPLICATIONS', APP), ('OPERATING CONDITIONS', OPC), ('MOTOR AND PUMP', MOT)]:
     heading(ML, y + 10, t, LW); y += 26
     for s in ds: txt(ML, y, s, 9); y += 12
-assert y < 470, y
+assert y < 455, y
 
 # ---- giữa: ảnh + vật liệu
 MX0, MX1 = 262, 452
-ph = img((MX0, 78, MX1, 246), PHOTO)
-y = 258
+ph = img((MX0, 80, MX1, 270), PHOTO)
+heading(MX0, 292, 'MATERIALS', MX1 - MX0)
+y = 302
 p.draw_rect(pymupdf.Rect(MX0, y, MX1, y + 14), color=None, fill=NAVY)
 txt(MX0 + 4, y + 10, 'COMPONENT', 7.5, True, WHITE); txt(MX0 + 92, y + 10, 'MATERIAL', 7.5, True, WHITE); y += 14
 for i, (a, b) in enumerate(MAT):
@@ -109,11 +110,10 @@ CH = pymupdf.Rect(466, 78, MR, 78 + 342 * 318 / 330)
 p.show_pdf_page(CH, pymupdf.open(W + '/qh/bieu_do.pdf'), 0)
 
 # ---- dưới: bảng
-heading(ML, 482, 'PERFORMANCE DATA', MR - ML)
+heading(ML, 466, 'PERFORMANCE DATA', MR - ML)
 tb = pymupdf.open(W + '/qh/bang.pdf'); tr = tb[0].rect
-p.show_pdf_page(pymupdf.Rect(ML, 494, ML + tr.width, 494 + tr.height), tb, 0)
-txt(ML + tr.width + 16, 510, 'H = total head (m)', 8, False, GREY)
-txt(ML + tr.width + 16, 522, QMAXNOTE, 8, False, GREY)
+p.show_pdf_page(pymupdf.Rect(ML, 478, ML + tr.width, 478 + tr.height), tb, 0)
+txt(ML + tr.width + 16, 506, QMAXNOTE, 9, False, GREY)
 
 # gộp phông trùng tên giữa trang và các khối chèn
 canon = {}

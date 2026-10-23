@@ -52,3 +52,4 @@ Mốc đọc nhanh đầu phiên, không phải sổ tiến độ. Thẩm quyề
 - Nháp: $HOME/claude_work/<việc> (ngoài kho). Cuối phiên: ghi đè mục 4 + bàn giao ngắn claude/BAN_GIAO_<UTC>.md ≤ 2 KB.
 
 - 23/10 (phiên CLAUDE_20261023T0255Z): đưa kho lên đám mây (claude/QUYET_DINH_ANH_20261023.md). Đám mây: 43/43 ĐẠT, môi trường 4/4, controls.changed rỗng (sau khi anh đẩy lại giữ CRLF). Không sửa catalogue nào.
+- 23/10 (phiên CLAUDE_20261023T0430Z): PEROTAC SS-150 catalogue riêng 1 trang A4 ngang, ứng viên 01 chờ anh duyệt: work/claude_ss150_20261023/ (BAO_CAO.md, build_ss150.py, lam_anh.py). Lỗi công cụ ve_duong_cong: ô so_cuc dạng chữ của SS.xlsx bị đọc thành "2850 poles" (xem BAO_CAO).
