@@ -1,5 +1,5 @@
 {
-  "sealed_utc": "2026-10-14T09:43:29.713542+00:00",
+  "sealed_utc": "2026-10-23T04:39:35.269263+00:00",
   "files": [
     {
       "relative_path": "README.md",
@@ -268,8 +268,8 @@
     },
     {
       "relative_path": "rules/QUY_TAC_HIEN_HANH.md",
-      "sha256": "9a2ba2b21e9f3d221199c945974936903bce347788a958c562329b1b9479d1c5",
-      "bytes": 16647
+      "sha256": "3c7feeec4c48e9720cfd1ce344f38a32011c800b8f77e8b502d16a8ddad3b6ea",
+      "bytes": 17425
     },
     {
       "relative_path": "rules/HO_SO_HANG.md",
@@ -283,13 +283,13 @@
     },
     {
       "relative_path": "rules/CHUAN_TRINH_BAY.md",
-      "sha256": "8e89a9177d00d1f358de4163b6932edc25775e9c9ea1f530e7d786f69f9d3561",
-      "bytes": 9723
+      "sha256": "f55f6cc10c4cbc62558640074b08760b13cef194294966906e1439eb34617a56",
+      "bytes": 10243
     },
     {
       "relative_path": "rules/LOI_DA_GAP.md",
-      "sha256": "7942f79a877216bf9db3d1907d80d8309cd7ffec15cb2f69008cc1daab8db4e3",
-      "bytes": 6826
+      "sha256": "4ab967b401aa87699347b80a7df6ccfee9a0e9fe215684ddba6350438903150d",
+      "bytes": 7629
     },
     {
       "relative_path": "tools/kiem_catalogue.py",
@@ -298,8 +298,8 @@
     },
     {
       "relative_path": "tools/ve_duong_cong.py",
-      "sha256": "22f099b5b4f792a4c33e5406788e1e371cf7a09d91bb6ec9d1cdc3bc8408ef72",
-      "bytes": 78684
+      "sha256": "006bbd6fbff85e9b56b559c0bcbd9e40e21a849745cee1e7ab21ed05281bb75d",
+      "bytes": 80202
     },
     {
       "relative_path": "tools/nhan_ban_chinh.py",
@@ -313,8 +313,8 @@
     },
     {
       "relative_path": "tools/test_ve_duong_cong.py",
-      "sha256": "3c036f31f75337cb6a9759fa0c5f78199f99505d888e3dbc4b9731f6a1c42c13",
-      "bytes": 25935
+      "sha256": "65eac831746df259a2ee25d6512fa0c8092a77890f049aa1361f57d424de65b5",
+      "bytes": 26772
     },
     {
       "relative_path": "tools/niem_phong.py",

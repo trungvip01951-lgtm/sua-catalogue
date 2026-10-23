@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """PEROTAC SS-150 / SSM-150F — catalogue riêng 1 trang, A4 ngang 842x595 (23/10/2026, phiên CLAUDE_20261023T0430Z).
-Lệnh anh 23/10/2026: "làm a catalogue con perotac ss-150 lưu lượng max 6m3/h áp max 7m nhé" + trả lời "1. 1  2. 1"
+Lệnh anh 23/10/2026: "làm a catalogue con perotac ss-150 lưu lượng max 6m3/h áp max 7m nhé" + trả lời "1. 1  2. 1"; ứng viên 02 theo QĐ 158
 (giữ số đã chốt QĐ 48: Q max 7 m³/h, H max 6 m; catalogue riêng 1 trang).
 Mẫu dựng: work/claude_wc200_55_20261016/build_wc200_55.py (PEROTAC catalogue riêng A4 ngang).
-Số liệu: DU_LIEU/SS.xlsx (bảng) + bản sao chỉ sửa THONG_TIN.so_cuc = 2 (biểu đồ, qh/bieu_do.pdf).
+Số liệu: SS150.xlsx (mk_xlsx.py): 3 điểm khoá DU_LIEU/SS.xlsx + mức Q 1–5 SUY RA (QĐ 158); bảng và biểu đồ cùng tệp.
 Chữ: lấy bằng mã từ bản đã duyệt CATALOG SUA/CATALOGUE DA DUYET/PEROTAC/PEROTAC - Bơm chìm nước thải SS.pdf (b617cdf9d4e7).
 Ảnh: anh.jpg = ảnh anh gửi 08/10 'SS - PEROTAC - SS-150 den SS-370 (co phao).png' (QĐ 116) qua lam_anh.py (nền 255, bỏ bóng, khung 82%); logo Bom_chim_nuoc_thai_FC_inox/f05538b98e09.jpeg.
 Dùng: python build_ss150.py <gốc kho> <thư mục làm> <tệp ra>

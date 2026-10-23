@@ -20,6 +20,8 @@ QTH = rules/QUY_TAC_HIEN_HANH.md; CTB = rules/CHUAN_TRINH_BAY.md; QĐ = rules/QU
 | A12 | Tên model sai | GB-9000S → GB-9500S (QĐ 90); CM 32-125/0.7 → /0.75 (QĐ 114) | QTH 2 | mắt (đối chiếu DU_LIEU) |
 | A13 | Catalogue mới không có đường đặc tính; ảnh để nguyên nền kho/hộp/túi | PEROTAC 80WQX40-15-5.5 ứng viên 01b (13/10 09:26, QĐ 145) | QTH 6, 7 | mắt |
 | A14 | Ảnh đại diện bị cắt xén, lẹm vào thân bơm | PEROTAC 80WQX40-15-5.5 ứng viên 02 (13/10 09:38, QĐ 146) | QTH 7; CTB 1.3, 1.8 | 6 + mắt |
+| A15 | Bảng chỉ 3 mức Q (0/6/7) và đường gấp tại điểm thưa — anh: "chia nhiều mức như catalogue khác", "vẽ công mềm mại" | work/claude_ss150_20261023 ứng viên 01 (PEROTAC SS-150, 23/10/2026) | QTH 4.14–4.15; CTB 2.2, 3.7 (QĐ 158) | tools/ve_duong_cong.py nối spline bậc 3 chỉ khi không đổi dáng (PCHIP dự phòng); test_ve_duong_cong ca 13 |
+| A16 | Khối điều kiện ghi "2850 poles": ve_duong_cong lấy số trong ô so_cuc dạng chữ ("PDF không ghi số cực (chỉ ghi n ≈ 2850 /min)") làm số cực | DU_LIEU/SS.xlsx THONG_TIN.so_cuc; SS-150 ứng viên 01 bản nháp | so_cuc/toc_do_vg_ph trong THONG_TIN phải là SỐ; chữ giải thích để ở cột nguồn | chưa có — đọc lại khối điều kiện trên PDF |
 | B1 | Ảnh bơm + ống mờ, viền răng cưa, đế bị cắt, vệt trắng | PEROTAC WC tr.2; REDPUMP WC tr.1 | CTB 1.2, 1.3, 1.7 | 6 |
 | B2 | Nền ảnh trang trí (nước bắn) mờ, vỡ hạt | REDPUMP WC tr.1 | CTB 1.1 | 6 + mắt |
 | B3 | Ảnh còn phông xám, đế trưng bày, cuộn cáp | AQUARIS WC tr.1 | CTB 1.1 | mắt |

@@ -443,6 +443,18 @@ class KiemVeDuongCong(unittest.TestCase):
         self.assertTrue(any('chữ chồng' in x and 'CM 80-125/4' in x for x in loi), loi)
         self.assertTrue(any('đè nét đường cong' in x and 'CM 80-160/22' in x for x in loi), loi)
 
+    def test_13_spline_mem_chi_khi_khong_doi_dang(self):
+        """QĐ 158: đường mềm (spline) khi chỉ làm mềm góc; spline đổi dáng (AQUARIS 6SP46-8, DU_LIEU/SP.xlsx) -> giữ PCHIP."""
+        ss = [(0, 6), (1, 5.9), (2, 5.5), (3, 4.9), (4, 4.0), (5, 2.9), (6, 1.6), (7, 0)]
+        f = V.kiem_duong(dict(khoa='SS-150', diem=[(q, h, i) for i, (q, h) in enumerate(ss)]), True)
+        self.assertEqual(type(f).__name__, 'CubicSpline')
+        qq = np.linspace(0, 7, 500)
+        self.assertTrue(np.all(np.diff(f(qq)) <= 1e-9))
+        self.assertLessEqual(f(qq).max(), 6 + 1e-9)
+        sp = [(0, 106), (35, 80), (40, 77), (46, 70), (50, 64), (55, 56)]
+        f = V.kiem_duong(dict(khoa='6SP46-8', diem=[(q, h, i) for i, (q, h) in enumerate(sp)]), True)
+        self.assertEqual(type(f).__name__, 'PchipInterpolator')
+
 
 if __name__ == '__main__':
     try:

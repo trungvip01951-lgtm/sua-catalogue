@@ -51,7 +51,7 @@ from pathlib import Path
 import numpy as np
 import openpyxl
 import pymupdf
-from scipy.interpolate import PchipInterpolator
+from scipy.interpolate import PchipInterpolator, CubicSpline
 
 LMIN = 1000.0 / 60.0          # 1 m³/h = 16,667 l/min
 MM = 72.0 / 25.4
@@ -410,7 +410,8 @@ def chon_model(ds, theo_ten, ten_chon, hang):
 
 
 def kiem_duong(md, can_duong):
-    """Q tăng thì H không tăng; không trùng Q; PCHIP qua đúng điểm, không móc. Trả về hàm nội suy."""
+    """Q tăng thì H không tăng; không trùng Q; qua đúng điểm, không móc. Trả về hàm nội suy:
+    spline bậc 3 mềm (QĐ 158) nếu giữ được chiều giảm và không vượt điểm, nếu không thì PCHIP."""
     ten = md['khoa']
     pts = sorted(md['diem'], key=lambda p: p[0])
     if not pts:
@@ -438,6 +439,26 @@ def kiem_duong(md, can_duong):
         raise LoiDuLieu(f'Model {ten}: đường nội suy có móc/vượt điểm — kiểm lại số liệu.')
     if np.max(np.abs(f(q) - h)) > 1e-6:
         raise LoiDuLieu(f'Model {ten}: đường không qua đúng điểm bảng.')
+    # QĐ 158 (23/10/2026) "đường đặc tính vẽ cong mềm mại": ưu tiên spline bậc 3 (not-a-knot) qua đúng điểm —
+    # độ cong liền mạch, không bẻ góc tại điểm làm tròn. Chỉ nhận khi Q tăng H không tăng và không vượt điểm;
+    # không đạt thì giữ PCHIP (giữ chiều, không móc).
+    # Thử lần lượt: not-a-knot; rồi đầu đường dốc 0 tại Q đầu (dáng bơm ly tâm ở điểm đóng van).
+    # Chỉ nhận spline khi nó chỉ làm mềm góc, không đổi dáng (mục 4.2): không tăng, không vượt điểm,
+    # số lần độ cong đổi chiều ≤ PCHIP và ≤ 1, lệch PCHIP ≤ 2 % biên độ H. Không đạt thì giữ PCHIP.
+    if len(pts) >= 4:
+        bien = max(h.max() - h.min(), 1e-9)
+        def doi_chieu(g):
+            c = g(qq, 2); c = c[np.abs(c) > 1e-3 * bien / max(q[-1] - q[0], 1e-9) ** 2]
+            return int(np.sum(np.diff(np.sign(c)) != 0))
+        dc_p = doi_chieu(f)
+        for bc in ('not-a-knot', ((1, 0.0), 'not-a-knot')):
+            s = CubicSpline(q, h, bc_type=bc)
+            hs = s(qq)
+            if np.any(np.diff(hs) > 1e-9) or hs.max() > h.max() + 1e-9 or hs.min() < h.min() - 1e-9:
+                continue
+            if np.max(np.abs(hs - hh)) > 0.02 * bien or doi_chieu(s) > min(dc_p, 1):
+                continue
+            return s
     return f
 
 

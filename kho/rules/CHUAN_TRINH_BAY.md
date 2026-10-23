@@ -3,7 +3,7 @@
 Nguồn: phương án anh Trung duyệt 13/10/2026 (rules/QUYET_DINH_ANH.md mục 147–149; claude/PHUONG_AN_DA_DUYET_20261013.md). Giá trị số máy đọc: rules/HO_SO_HANG.json. Quy tắc nội dung (mã, điện, số liệu): rules/QUY_TAC_HIEN_HANH.md.
 Áp cho bản DỰNG MỚI hoặc trang được sửa. 62 PDF đã duyệt giữ nguyên, không làm lại.
 
-Thuật ngữ: **pt** = point, 1/72 inch (đơn vị cỡ chữ, nét). **ppi** = số điểm ảnh trên mỗi inch khi ảnh nằm đúng cỡ trên trang. **RGB** = hệ màu màn hình. **PCHIP** = cách nội suy (nối điểm) giữ đúng chiều tăng/giảm, không tạo gợn. **Q** = lưu lượng (m³/h), **H** = cột áp (m). **Điểm làm việc** = cặp Q–H định mức theo tên model.
+Thuật ngữ: **pt** = point, 1/72 inch (đơn vị cỡ chữ, nét). **ppi** = số điểm ảnh trên mỗi inch khi ảnh nằm đúng cỡ trên trang. **RGB** = hệ màu màn hình. **PCHIP** = cách nội suy (nối điểm) giữ đúng chiều tăng/giảm, không tạo gợn. **Spline bậc 3** = cách nối điểm bằng đường cong trơn, độ cong liền mạch (không bẻ góc). **Q** = lưu lượng (m³/h), **H** = cột áp (m). **Điểm làm việc** = cặp Q–H định mức theo tên model.
 
 ## 1. Ảnh sản phẩm
 
@@ -20,7 +20,7 @@ Thuật ngữ: **pt** = point, 1/72 inch (đơn vị cỡ chữ, nét). **ppi** 
 ## 2. Biểu đồ Q–H
 
 1. Đường và bảng sinh từ MỘT tệp số liệu DU_LIEU/<nhóm>.xlsx (không gõ số hai nơi).
-2. Nối điểm bằng PCHIP đi qua đúng điểm dữ liệu; Q tăng thì H giảm; lệch đường so với bảng ≤ 5% tại từng điểm; không móc đầu/cuối, không gợn; giữ Qmin, Qmax, Hmin, Hmax, điểm làm việc; đường chạy hết dải Q của bảng.
+2. Nối điểm bằng spline bậc 3 mềm mại qua đúng điểm dữ liệu (QĐ 158), dùng PCHIP khi spline làm H tăng, vượt điểm khoá, thêm điểm uốn/đoạn phẳng hoặc lệch PCHIP > 2% biên độ H; Q tăng thì H giảm; lệch đường so với bảng ≤ 5% tại từng điểm; không móc đầu/cuối, không gợn; giữ Qmin, Qmax, Hmin, Hmax, điểm làm việc; đường chạy hết dải Q của bảng.
 3. Trục: Q m³/h là trục chính, l/min là trục phụ (l/min = m³/h × 16,667); H tính bằng m. Bỏ gpm (đơn vị Mỹ).
 4. ≤ 8 đường mỗi biểu đồ; nhiều hơn thì tách biểu đồ.
 5. Nét đường ≥ 1.5 pt; lưới chính 0.5 pt; nét so với nền tương phản ≥ 3 : 1.
@@ -37,6 +37,7 @@ Thuật ngữ: **pt** = point, 1/72 inch (đơn vị cỡ chữ, nét). **ppi** 
 4. Cùng dải: model lớn hơn cho Q hoặc H lớn hơn tại cùng điểm (thứ tự công suất).
 5. Số model trong bảng = số nhãn đường trên biểu đồ (trừ IRG).
 6. Kẻ bảng theo hãng (AQUARIS kẻ ngang mảnh; PEROTAC kẻ đầy đủ mảnh; REDPUMP đầu bảng nền tối chữ trắng, sọc xám xen kẽ). Nét kẻ vẽ sau toàn bộ nền ô, cùng màu, cùng độ dày.
+7. Bảng Q–H chia nhiều mức (khoảng 6–10 mức Q tròn, bước đều, từ 0 hoặc Qmin đến Qmax) như catalogue khác; mức không có trong nguồn thì H theo đường cong trơn qua điểm khoá, ghi SUY RA (QĐ 158).
 
 ## 4. Chữ và bố cục
 

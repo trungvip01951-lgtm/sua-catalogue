@@ -1,6 +1,6 @@
 # QUY TẮC HIỆN HÀNH — dự án Sửa catalogue
 
-Phiên bản 2026.10.13 (gộp ngày 13/10/2026 theo QĐ 147–149). Đây là tệp quy tắc DUY NHẤT đang áp dụng.
+Phiên bản 2026.10.23 (gộp ngày 13/10/2026 theo QĐ 147–149; thêm 4.14–4.15 theo QĐ 158 ngày 23/10/2026). Đây là tệp quy tắc DUY NHẤT đang áp dụng.
 Thứ tự đọc đầu phiên: **tệp này → rules/HO_SO_HANG.md → rules/CHUAN_TRINH_BAY.md → claude/TRANG_THAI_CLAUDE.md**.
 Ưu tiên khi lệch: lời anh Trung mới nhất (đúng phạm vi anh nói) > tệp này > mọi tệp cũ (rules/QUY_TAC_CUNG_HIEN_HANH.md, rules/QUY_TAC_ANH_TRUNG.md, procedures/, knowledge/, archive/).
 
@@ -74,6 +74,8 @@ Danh sách đổi mã đầy đủ ngày 09/10 (dùng cho dự án web): claude/
 11. Không tự nội suy hiệu suất η hay NPSH khi nguồn không có (QĐ 130, 149).
 12. Bảng và đường sinh từ MỘT tệp số liệu DU_LIEU/<nhóm>.xlsx; số của 3 hãng giống nhau từng ký tự, trừ chỗ anh cho khác (QĐ 149).
 13. Chính tả tiếng Anh sai của nguồn: sửa; câu sai ngữ pháp: viết lại giữ nghĩa, không thêm ý, không thêm số (QĐ 100, 102).
+14. Bảng Q–H chia NHIỀU MỨC như catalogue khác: nguồn chỉ có vài điểm (max/min/điểm làm việc) thì thêm các mức Q tròn, bước đều từ 0 (hoặc Qmin) đến Qmax, khoảng 6–10 mức; H mức thêm theo đường cong trơn qua điểm khoá, làm tròn như nguồn, ghi SUY RA (QĐ 158).
+15. Đường đặc tính vẽ CONG MỀM MẠI, không bẻ góc tại điểm bảng: tools/ve_duong_cong.py nối bằng spline bậc 3 qua đúng điểm, spline chỉ được làm mềm góc, không đổi dáng: dùng PCHIP khi spline làm H tăng, vượt điểm khoá, thêm điểm uốn/đoạn phẳng (mục 2) hoặc lệch PCHIP > 2% biên độ H; vẫn giữ mục 1–3 (QĐ 158).
 
 ## 5. Nội dung cấm và bắt buộc
 
