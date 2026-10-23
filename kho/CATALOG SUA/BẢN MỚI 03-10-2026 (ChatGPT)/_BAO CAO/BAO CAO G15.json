@@ -1,0 +1,82 @@
+[
+ {
+  "stt": 114,
+  "file": "CDX Perotac (bản mới).pdf",
+  "page": 4,
+  "item": "Chép 1.8 từ cùng bảng, cùng cỡ chữ.",
+  "old": "18 A ở CDX90/10, 380V",
+  "new": "1.8 A",
+  "result": "ĐẠT",
+  "evidence": "G15/accept-final-sites-2.png; đọc lại 1.8; ngoài vùng rỗng."
+ },
+ {
+  "stt": 115,
+  "file": "CDX Perotac (bản mới).pdf",
+  "page": 5,
+  "item": "Thêm -B bằng nét trong chính tệp, căn giữa hai ô model.",
+  "old": "Dòng CDX200/185 thứ hai ở hai bảng",
+  "new": "CDX200/185-B ở bảng thông số và kích thước",
+  "result": "ĐẠT",
+  "evidence": "G15/accept-final-sites-2.png; dòng 20.5kg, 410×260×295, 922 giữ nguyên."
+ },
+ {
+  "stt": 116,
+  "file": "CDX Perotac (bản mới).pdf",
+  "page": "3–5",
+  "item": "Chép nét cùng kiểu/cỡ, đóng khoảng chữ sai, giữ k gốc trang 3.",
+  "old": "Techni cal/par ameter; Reted; kw/(Kw); (Hp)",
+  "new": "Technical parameter list; Rated; kW/(kW); (HP)",
+  "result": "ĐẠT",
+  "evidence": "14 vị trí; G15/accept-final-sites-1.png và 2.png; final-kW-p3/p4/p5-600dpi.png."
+ },
+ {
+  "stt": 117,
+  "file": "CDX Perotac (bản mới).pdf",
+  "page": 2,
+  "item": "Xóa riêng ký tự thừa/sai, chép e/g từ cùng bảng.",
+  "old": "housring×2; O-Rring×4; washar×2; Flanqe×1",
+  "new": "housing×2; O-Ring×4; washer×2; Flange×1",
+  "result": "ĐẠT",
+  "evidence": "9 vị trí đều đọc lại đúng; G15/accept-final-sites-1.png."
+ },
+ {
+  "stt": 118,
+  "file": "CDX Perotac (bản mới).pdf",
+  "page": "4–5; kiểm thêm 3",
+  "item": "Đo 16 neo bằng tick số thật; giữ đường nguồn vì thiếu chuỗi Q-H và khóa nhãn–model.",
+  "old": "Nhãn 1..7/1..4; p5 có 4 đường/5 model; hai neo p3 lệch bảng",
+  "new": "Giữ nguyên đồ thị; chưa đổi nhãn số hoặc tạo đường thiếu",
+  "result": "CHƯA ĐẠT",
+  "evidence": "G15/graph-anchors-data-v3.json: p3 +1.1565m/+1.6692m sai; p4/p5 chưa thể nhận diện; thiếu số liệu đầu/cuối để dựng lại."
+ },
+ {
+  "stt": 119,
+  "file": "CDX Perotac (bản mới).pdf",
+  "page": "1–2",
+  "item": "P1 bỏ theo #159; p2 chép nguyên glyph và giãn đều quanh dấu /.",
+  "old": "steelhorizontal; CDX90/120/200",
+  "new": "P1 đã bỏ toàn mục; p2 CDX 90 / 120 / 200",
+  "result": "ĐẠT",
+  "evidence": "G15/accept-final-sites-3.png; vùng p1 trắng, đọc p2 đúng."
+ },
+ {
+  "stt": 159,
+  "file": "CDX Perotac (bản mới).pdf",
+  "page": 1,
+  "item": "Xóa mực/quầng nén theo mặt nạ gốc, RGB giấy trắng, trong suốt ngoài mặt nạ; không vẽ ô trắng kín.",
+  "old": "Definition of model + CDX90/10 + mũi tên + 3 giải thích",
+  "new": "Đã bỏ toàn mục định nghĩa",
+  "result": "ĐẠT",
+  "evidence": "G15/v12-definition-200dpi.png và 600dpi.png; đọc trống 200/300/450/500/600dpi; ngoài vùng rỗng."
+ },
+ {
+  "stt": 160,
+  "file": "CDX Perotac (bản mới).pdf",
+  "page": "3–4",
+  "item": "Bỏ 0 thừa, chép lại phần đuôi nguyên nét cùng kiểu; giữ lưới/đường đỏ.",
+  "old": "/025,/037,/055 ở p3; /05 ở p4",
+  "new": "/25,/37,/55 và /5 trong mọi bảng/nhãn tương ứng",
+  "result": "ĐẠT",
+  "evidence": "10 vị trí; G15/accept-final-sites-3.png; 50/37 và 90/37 đã đọc bằng mắt do kẻ lưới chồng chữ."
+ }
+]

@@ -1,0 +1,82 @@
+{
+  "timestamp": "20261006T031219Z",
+  "files": [
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP6 LOGO BANG RO QH 20261006\\BAO CAO 8 COT.md",
+      "stored": "reference/BAO CAO 8 COT.md",
+      "sha256": "081de0bf7dc9dabca1ae5934f646af703eeeb92124b7bf327509693b44f1616d"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP6 LOGO BANG RO QH 20261006\\CONG SUAT CAN RA SOAT SAU.json",
+      "stored": "reference/CONG SUAT CAN RA SOAT SAU.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP6 LOGO BANG RO QH 20261006\\CONG SUAT CAN RA SOAT SAU.md",
+      "stored": "reference/CONG SUAT CAN RA SOAT SAU.md",
+      "sha256": "7c84312233b6af4626ab6057c85de14a5b9a971746b6985e770863875ae9c098"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP6 LOGO BANG RO QH 20261006\\KIEM DOC LAP.md",
+      "stored": "reference/KIEM DOC LAP.md",
+      "sha256": "1ceccf4709d6e096c34f8d4cddd0cbefb2da0a97b785df9196d5a9325bb6df01"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP6 LOGO BANG RO QH 20261006\\KIEM TRA LOGO BANG.json",
+      "stored": "reference/KIEM TRA LOGO BANG.json",
+      "sha256": "fd46936438c7d5fde5fc1aa574280d40b0f5209d4cf467fa4c547442790033aa"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP6 LOGO BANG RO QH 20261006\\SP DU 12 TRANG - LOGO VA BANG MOI.pdf",
+      "stored": "reference/SP DU 12 TRANG - LOGO VA BANG MOI.pdf",
+      "sha256": "7b20403444ef5b97ae1f4da15a39e3affa64cb14206063da05e6114ad0208d05"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP6 LOGO BANG RO QH 20261006\\SP6 - LOGO VA BANG MOI.pdf",
+      "stored": "reference/SP6 - LOGO VA BANG MOI.pdf",
+      "sha256": "dfc2275fb56ef5e7a8b5e08be2b0029028f95d1f40e545d4137c22ddecba25c7"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP6 LOGO BANG RO QH 20261006\\SP6 LOGO VA BANG MOI.png",
+      "stored": "reference/SP6 LOGO VA BANG MOI.png",
+      "sha256": "e14eef8090899e45f2b32763fb85fc3536a3e0a5e8101f58d45f39e449493330"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\work\\sp6_logo_table_v2\\draw_plan.json",
+      "stored": "layout_and_field_map.json",
+      "sha256": "46ad5151e04e51fd2138b9ecfc51dec1f128169985c1e0e730abd705c8d942f0"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\templates\\catalogue\\SP6_VECTOR_V1\\data.json",
+      "stored": "data.json",
+      "sha256": "8414f1f359f69f41b2f5b26821d84912e50ac43263e2fea2cf226dbfda344227"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\work\\sp6_logo_table_v2\\build.py",
+      "stored": "historical_code/build.py.txt",
+      "sha256": "367f773df1107aa83da1df43fcab39a6aa9c59ec557f9d769dc5a38d97c6718f"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\work\\sp6_logo_table_v2\\qa.py",
+      "stored": "historical_code/qa.py.txt",
+      "sha256": "e3d9f937b7831cc99ebbd41e3e232f87de05bb477066ec98ca9fd0abce12fe4a"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\work\\sp6_logo_table_v2\\user_references\\codex-clipboard-3aa148ad-1a5d-43f6-9a59-6b50ec3deb50.png",
+      "stored": "user_references/codex-clipboard-3aa148ad-1a5d-43f6-9a59-6b50ec3deb50.png",
+      "sha256": "6d75f79e4adc7a174923bb36ee68ba9080a80e263e3e8c291d9341147f9ee8a9"
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\work\\sp6_logo_table_v2\\user_references\\codex-clipboard-69b0c37d-f399-4ade-ae78-86ff2730f517.png",
+      "stored": "user_references/codex-clipboard-69b0c37d-f399-4ade-ae78-86ff2730f517.png",
+      "sha256": "16bfa0bd2ce786841c1bbd3cf673c09c783fec74e9c1eb8de7b594c070ccbce9"
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Catalog cắt rác perotac (bản mới).pdf#image200",
+      "source_pdf_sha256": "622bcc5a8bb0562bea11474bda8801f30fe91839db3b84980dcb4ead056131d4",
+      "stored": "assets/PEROTAC ORIGINAL.jpg",
+      "sha256": "f05538b98e092b7453d4bfbbaba9064d34ed51a9eff9f247f4dca458c82dc4ba",
+      "note": "Exact encoded image bytes extracted, not retouched or generated"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+ve_duong_cong.py — chart_1604Q.pdf — PEROTAC — ĐẠT, 1 trang. Phông: Liberation Sans Regular + Liberation Sans Bold (LiberationSans-Regular.ttf, LiberationSans-Bold.ttf; nguồn: /sessions/rcw-013xaj2me7lueojxtbmjwaxj/mnt/Sửa catalogue/vendor/fonts) — đúng hồ sơ hãng
+- Màu #4885B1 làm đậm thành #427AA3 để đạt tương phản 4.5:1.

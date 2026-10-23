@@ -1,0 +1,46 @@
+[
+ {
+  "stt": 102,
+  "file": "Inline IRG Perotac (bản mới).pdf",
+  "page": "1",
+  "item": "Bảng 2900 v/p, dòng 50-250(I)",
+  "old": "1.5 kW / 2 HP cho 25 m³/h × 80 m (biến thể A, B đã 11 kW)",
+  "new": "50-250(I):15kW /20HP (kilôwatt /mã lực)",
+  "result": "ĐẠT",
+  "evidence": "So sanh G17.png; G17/NGHIEM THU BAN CUOI.json",
+  "method": "catfix chép đúng nét cùng kiểu/cỡ từ chính PDF, căn giữa ô số, giữ đường cơ sở; xoá nét cũ."
+ },
+ {
+  "stt": 103,
+  "file": "Inline IRG Perotac (bản mới).pdf",
+  "page": "1",
+  "item": "Bảng 2900 v/p, dòng 65-100(I) và 80-100",
+  "old": "Cột áp 125 m (bơm cánh 100, 3 kW)",
+  "new": "65-100(I) và80-100:12.5m (12,5m)",
+  "result": "ĐẠT",
+  "evidence": "So sanh G17.png; G17/NGHIEM THU BAN CUOI.json",
+  "method": "catfix chép đúng nét cùng kiểu/cỡ từ chính PDF, căn giữa ô số, giữ đường cơ sở; xoá nét cũ."
+ },
+ {
+  "stt": 104,
+  "file": "Inline IRG Perotac (bản mới).pdf",
+  "page": "1",
+  "item": "Mô tả",
+  "old": "\"Availble equipped with explosion-proof motors\"",
+  "new": "Available with explosion-proof motors (có thể trang bị động cơ chống cháy nổ)",
+  "result": "ĐẠT",
+  "evidence": "So sanh G17.png; G17/NGHIEM THU BAN CUOI.json",
+  "method": "catfix chép đúng nét cùng kiểu/cỡ từ chính PDF, căn giữa ô số, giữ đường cơ sở; xoá nét cũ."
+ },
+ {
+  "stt": 152,
+  "file": "Inline IRG Perotac (bản mới).pdf",
+  "page": "3",
+  "item": "Bảng 1450 v/p, 300-400/4 và 300-400A/4",
+  "old": "110 kW",
+  "new": "Giữ nguyên",
+  "result": "GIỮ NGUYÊN",
+  "evidence": "So sanh G17.png; G17/NGHIEM THU BAN CUOI.json",
+  "method": "Toàn trang3 và bảng1450vòng/phút giữ điểm ảnh nguồn tuyệt đối."
+ }
+]

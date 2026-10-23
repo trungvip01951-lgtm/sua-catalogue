@@ -1,0 +1,93 @@
+== Môi trường
+Python 3.12.14 · Windows-10-10.0.19045-SP0
+  [CÓ ]  numpy        2.3.5      tính toán
+  [CÓ ]  Pillow       12.3.0     xử lý ảnh
+  [CÓ ]  pikepdf      10.16.0    đọc/ghi PDF (ưu tiên)
+  [CÓ ]  PyMuPDF      1.28.2     đọc/ghi + vẽ trang PDF (dự phòng; tên cũ "fitz")
+  [CÓ ]  scipy        1.18.1     tách chữ trên ảnh, đường cong
+  [CÓ ]  opencv-python 5.0.0      xoá nền ảnh đẹp hơn (inpaint)
+  [CÓ ]  fonttools    4.66.1     kiểm tra font có chữ hay không (chữ thật)
+  [CÓ ]  pytesseract  0.3.13     gọi OCR
+  [CÓ ]  openpyxl     3.1.5      không bắt buộc (catfix sửa Excel trực tiếp XML)
+  [CÓ ] tesseract    OCR đọc chữ (bắt buộc cho file nét vẽ/ảnh)   (C:\Users\H2\AppData\Local\Programs\Tesseract-OCR\tesseract.exe)
+  [CÓ ] pdftoppm     vẽ trang (dự phòng nếu thiếu PyMuPDF)
+  [THIẾU] qpdf         kiểm tra cấu trúc PDF (không bắt buộc)
+KẾT LUẬN:
+  Mở/ghi PDF                         ĐƯỢC
+  Vẽ trang để so sánh                ĐƯỢC
+  OCR (chữ nét vẽ, chữ trên ảnh)     ĐƯỢC
+  Tách chữ trên ảnh                  ĐƯỢC
+  [ĐẠT] Môi trường: Mở/ghi PDF 
+  [ĐẠT] Môi trường: Vẽ trang để so sánh 
+  [ĐẠT] Môi trường: OCR (chữ nét vẽ, chữ trên ảnh) 
+  [ĐẠT] Môi trường: Tách chữ trên ảnh 
+   (1.2s)
+== Bộ đọc luồng PDF
+  [ĐẠT] Đọc/ghi lại luồng nội dung không mất byte: fx_cover_cdlf_aquaris_p1.pdf (31012 lệnh, 0.33s)
+  [ĐẠT] Đọc/ghi lại luồng nội dung không mất byte: fx_raster_perotac_sp_p9.pdf (22 lệnh, 0.00s)
+  [ĐẠT] Đọc/ghi lại luồng nội dung không mất byte: fx_text_wc_p1.pdf (850 lệnh, 0.01s)
+  [ĐẠT] Đọc/ghi lại luồng nội dung không mất byte: fx_vector_aquaris_sp_p9_goc.pdf (18480 lệnh, 0.17s)
+   (0.5s)
+== Chữ nét vẽ (Aquaris SP)
+  [ĐẠT] Chữ nét vẽ: tìm thấy đúng 1 chỗ "818" [Match('818' page=1 bbox=(515.5,509.3,528.7,515.1) objs=[155])]
+  [ĐẠT] Chữ nét vẽ: đọc lại thấy "815", hết "818" 
+  [ĐẠT] Chữ nét vẽ: vị trí chữ mới trùng bản đã kiểm duyệt (sai lệch <= 0.01pt) sai lệch 0.0027 pt
+  [ĐẠT] Chữ nét vẽ: chỉ ô sửa thay đổi điểm ảnh vùng đổi={1: [(np.float64(524.6), np.float64(509.3), np.float64(529.0), np.float64(515.6))]} ngoài vùng={}
+   (8.3s)
+== Chữ thật (WC)
+  [ĐẠT] Chữ thật: tìm thấy "irrugation" và "(KW)" 
+  [ĐẠT] Chữ thật: đọc lại lớp chữ đúng ({'found': True, 'absent_ok': True, 'ok': True}, {'found': True, 'absent_ok': True, 'ok': True})
+  [ĐẠT] Chữ thật: chỉ chỗ sửa thay đổi vùng đổi={1: [(np.float64(124.3), np.float64(345.1), np.float64(163.7), np.float64(357.1)), (np.float64(806.4), np.float64(178.1), np.float64(826.6), np.float64(186.7))]} ngoài={}
+   (0.5s)
+== Ảnh quét (Perotac SP)
+  [ĐẠT] Ảnh: chọn đúng ảnh đang hiển thị (không chọn lớp ảnh chỉ hiện trong nét chữ) PageImage(X11 1732x1240 page=(0.0,0.0,831.6,595.0) ~150dpi #4)
+  [ĐẠT] Ảnh: OCR tìm thấy "1750" [(1330, np.int64(1039), 1357, np.int64(1051))]
+  [ĐẠT] Ảnh: học được mẫu chữ số 1, 5, 7 
+  [ĐẠT] Ảnh: OCR đọc lại "175" '175'
+  [ĐẠT] Ảnh: thay đổi rõ rệt (>48 mức, >2pt) chỉ nằm ở ô sửa vùng={1: [(np.float64(639.4), np.float64(91.0), np.float64(650.9), np.float64(95.3))]} ngoài={}
+  [ĐẠT] Ảnh: ghi lại ảnh không sửa gì -> sai khác trung bình < 1 mức màu {'kind': 'image', 'image': 'X11', 'max_diff': 0, 'mean_diff': 0.0, 'p99': 0.0, 'rect': (np.float64(384.1), np.float64(264.9), np.float64(453.2), np.float64(334.0))}
+   (4.5s)
+== Biểu đồ
+  [ĐẠT] Biểu đồ: đường cong mượt đi sát điểm bảng (đơn giản) lệch tối đa 0.272
+  [ĐẠT] Biểu đồ: hiệu chỉnh trục tuyến tính (0.000914285714259222, 0.5721240000000023)
+  [ĐẠT] Biểu đồ: tìm đủ 8 đường cong [308, 309, 310, 311, 312, 313, 314, 315]
+  [ĐẠT] Biểu đồ: đường vẽ lại khớp bảng trong dung sai [(0, 170, 170.34), (5, 157, 155.56), (10, 133, 135.45), (14, 110, 108.42), (16, 90, 89.31), (18, 65, 65.76)] {'method': 'poly3', 'max_dev': 2.488, 'tol': 3.4}
+  [ĐẠT] Biểu đồ: giữ nguyên màu và độ dày nét 
+   (1.4s)
+== Ảnh bìa (CDLF)
+  [ĐẠT] Ảnh bìa: xoá bơm đế gang (R25 không còn) ['R13', 'R16', 'R18', 'R20', 'R22', 'R16', 'R26']
+  [ĐẠT] Ảnh bìa: bản sao bơm đặt đúng ô (sai lệch < 0.01pt) [(np.float64(238.30848), np.float64(212.0904), np.float64(376.36512), np.float64(520.6199999999999)), (np.float64(80.874565187544), np.float64(163.45199999999997), np.float64(189.607834812456), np.float64(406.4496))]
+  [ĐẠT] Ảnh bìa: chỉ vùng ảnh bìa thay đổi (chữ trên bìa giữ nguyên vị trí) {}
+   (1.1s)
+== Excel (DWO)
+  [ĐẠT] Excel: chỉ đúng các ô cần sửa thay đổi ['C15', 'C21', 'C22', 'D16', 'D17', 'D18', 'D20', 'D21', 'D22']
+  [ĐẠT] Excel: ảnh/định dạng/in ấn không bị đụng tới ['xl/calcChain.xml', 'xl/sharedStrings.xml', 'xl/worksheets/sheet2.xml']
+  [ĐẠT] Excel: mở lại bằng openpyxl được, giá trị đúng 
+   (0.1s)
+== Cấu trúc file
+  [ĐẠT] Cấu trúc file sau sửa hợp lệ: vec_815.pdf [] 245417->245270 bytes
+  [ĐẠT] Cấu trúc file sau sửa hợp lệ: text.pdf [] 185640->185659 bytes
+  [ĐẠT] Cấu trúc file sau sửa hợp lệ: raster.pdf [] 174727->172313 bytes
+  [ĐẠT] Cấu trúc file sau sửa hợp lệ: cover.pdf [] 760836->760890 bytes
+   (0.1s)
+== Đường dẫn (máy anh / máy chủ)
+  [ĐẠT] Đường dẫn máy anh: tìm đúng file vào, file ra cùng tên khác thư mục, đổi tên #129 Session – MÁY ANH TRUNG (code chạy thẳng trên máy anh, đọc/ghi file trong thư mục của anh)
+  file vào : C:\Users\H2\Desktop\CATALO~3\BNMI03~1\_BAOCA~1\_BAN_G~1\G09_RE~1\staging\tmp\catfix_ses_m0kjste1\Catalog Sua\BẢN MỚI 01-10-2026
+  file ra  : C:\Users\H2\Desktop\CATALO~3\BNMI03~1\_BAOCA~1\_BAN_G~1\G09_RE~1\staging\tmp\catfix_ses_m0kjste1\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)
+  báo cáo  : C:\Users\H2\Desktop\CATALO~3\BNMI03~1\_BAOCA~1\_BAN_G~1\G09_RE~1\staging\tmp\catfix_ses_m0kjste1\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO
+  [ĐẠT] Đường dẫn máy anh: sửa + lưu + kiểm qua S.job (nhật ký vào _BAO CAO) {}{}
+  [ĐẠT] Đường dẫn máy anh: G02 lấy đúng file đã sửa của G01, ghi ra thư mục riêng, nhật ký riêng C:\Users\H2\Desktop\CATALO~3\BNMI03~1\_BAOCA~1\_BAN_G~1\G09_RE~1\staging\tmp\catfix_ses_m0kjste1\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\Nước thải\G02 (gồm cả G01)\Catalog cắt rác Aquaris WC (bản mới).pdf
+  [ĐẠT] Đường dẫn máy anh: ghi tiến độ được, không cho ghi đè file vào 
+  [ĐẠT] Đường dẫn máy chủ ChatGPT: file tải lên trong /mnt/data, ra /mnt/data/out Session – MÁY CHỦ CHATGPT (file anh tải lên trong C:\Users\H2\Desktop\CATALO~3\BNMI03~1\_BAOCA~1\_BAN_G~1\G09_RE~1\staging\tmp\catfix_ses_m0kjste1\data)
+  file vào : C:\Users\H2\Desktop\CATALO~3\BNMI03~1\_BAOCA~1\_BAN_G~1\G09_RE~1\staging\tmp\catfix_ses_m0kjste1\data
+  file ra  : C:\Users\H2\Desktop\CATALO~3\BNMI03~1\_BAOCA~1\_BAN_G~1\G09_RE~1\staging\tmp\catfix_ses_m0kjste1\data\out
+  báo cáo  : C:\Users\H2\Desktop\CATALO~3\BNMI03~1\_BAOCA~1\_BAN_G~1\G09_RE~1\staging\tmp\catfix_ses_m0kjste1\data\out\_BAO CAO
+   (0.4s)
+== Windows
+  [ĐẠT] Windows: in tiếng Việt khi đầu ra dùng bảng mã cp1252 không lỗi 
+  [ĐẠT] Windows: tìm được tesseract khi không có trong PATH (biến CATFIX_TESSERACT / chỗ cài mặc định) và OCR chạy C:\Users\H2\AppData\Local\Programs\Tesseract-OCR\tesseract.exe True 775
+
+
+   (3.4s)
+
+TỔNG KẾT: 43/43 ĐẠT  (22s)  - file thử nghiệm ở C:\Users\H2\Desktop\CATALO~3\BNMI03~1\_BAOCA~1\_BAN_G~1\G09_RE~1\staging\cache\test_out

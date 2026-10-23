@@ -1,0 +1,156 @@
+[
+ {
+  "stt": 35,
+  "file": "Perotac bơm giếng SA_compressed (bản mới).pdf",
+  "page": "1",
+  "item": "Chép nét S từ chính câu nguồn",
+  "old": "2SD; 2.5SD",
+  "new": "2SS; 2.5SS",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 2
+ },
+ {
+  "stt": 36,
+  "file": "Perotac bơm giếng SA_compressed (bản mới).pdf; Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "1",
+  "item": "Chép số 1, 7 từ nhãn cùng biểu đồ",
+  "old": "24",
+  "new": "17",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 2
+ },
+ {
+  "stt": 37,
+  "file": "Perotac bơm giếng SA_compressed (bản mới).pdf; Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "1",
+  "item": "Chép nét số cùng bảng",
+  "old": "1546",
+  "new": "1566",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 2
+ },
+ {
+  "stt": 38,
+  "file": "Perotac bơm giếng SA_compressed (bản mới).pdf; Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "3",
+  "item": "Chép nét số cùng bảng",
+  "old": "752; 873",
+  "new": "732; 843",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 4
+ },
+ {
+  "stt": 39,
+  "file": "Perotac bơm giếng SA_compressed (bản mới).pdf; Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "3",
+  "item": "Chép nét số/dấu thập phân cùng bảng",
+  "old": "6.4; 7.5",
+  "new": "7.5; 8.7",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 4
+ },
+ {
+  "stt": 40,
+  "file": "Perotac bơm giếng SA_compressed (bản mới).pdf; Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "8",
+  "item": "Chép nét số cùng bảng",
+  "old": "814; 1664",
+  "new": "819; 1788",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 4
+ },
+ {
+  "stt": 41,
+  "file": "Perotac bơm giếng SA_compressed (bản mới).pdf; Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "9",
+  "item": "Chép nét số/dấu thập phân cùng bảng",
+  "old": "475; 3.3",
+  "new": "513; 3.9",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 4
+ },
+ {
+  "stt": 42,
+  "file": "Perotac bơm giếng SA_compressed (bản mới).pdf; Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "9",
+  "item": "Chép nét số cùng bảng",
+  "old": "2143",
+  "new": "2112",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 2
+ },
+ {
+  "stt": 43,
+  "file": "Perotac bơm giếng SA_compressed (bản mới).pdf",
+  "page": "11",
+  "item": "Chép tiêu đề cùng kiểu chữ trong chính PDF",
+  "old": "6SA15; 6SA25",
+  "new": "6SA35; 6SA45",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 2
+ },
+ {
+  "stt": 44,
+  "file": "Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "7",
+  "item": "Chép tiêu đề cùng kiểu chữ trong chính PDF",
+  "old": "4SL6; 4SL8",
+  "new": "4SL10; 4SL12",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 2
+ },
+ {
+  "stt": 45,
+  "file": "Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "11",
+  "item": "Chép tiêu đề; dời riêng 35/20 sang trái 3 điểm ảnh",
+  "old": "6SL15; 6SL25; 6SL 35/20",
+  "new": "6SL35; 6SL45; 6SL35/20",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 3
+ },
+ {
+  "stt": 46,
+  "file": "Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "10",
+  "item": "Tẩy đúng nét dấu chấm, giữ nét L",
+  "old": ".",
+  "new": "Xóa dấu chấm",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 1
+ },
+ {
+  "stt": 131,
+  "file": "Perotac bơm giếng SA_compressed (bản mới).pdf; Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "4,5,6,7,8",
+  "item": "Chép số/dấu chấm từ bảng cùng kiểu chữ",
+  "old": "14 ô kW: 5 hoặc 7; 8 ô HP: 7 / mỗi tệp",
+  "new": "5.5 kW hoặc 7.5 kW; 7.5 HP; 10 HP giữ nguyên",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 44
+ },
+ {
+  "stt": 132,
+  "file": "Perotac bơm giếng SA_compressed (bản mới).pdf; Redpump gieng SL_compressed (bản mới).pdf",
+  "page": "1,2,4,10",
+  "item": "Tẩy đúng nét chữ s cuối, giữ nguyên 1 year",
+  "old": "years",
+  "new": "year",
+  "result": "ĐẠT",
+  "evidence": "So sanh G04.png; G04/NGHIEM THU CHOT CHU SO.json",
+  "positions": 8
+ }
+]

@@ -1,0 +1,64 @@
+{
+  "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục đứng\\Inline IRG Perotac (bản mới).pdf",
+  "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục đứng\\Inline IRG Perotac (bản mới).pdf",
+  "edits": [
+    {
+      "page": 0,
+      "rect": [
+        970.0,
+        582.0,
+        991.0,
+        594.0
+      ],
+      "label": "#102 50-250(I) công suất: 1.5 → 15",
+      "kind": "outline"
+    },
+    {
+      "page": 0,
+      "rect": [
+        993.0,
+        582.0,
+        1009.0,
+        594.0
+      ],
+      "label": "#102 50-250(I) mã lực: 2 → 20",
+      "kind": "outline"
+    },
+    {
+      "page": 0,
+      "rect": [
+        1035.0,
+        319.0,
+        1064.0,
+        331.0
+      ],
+      "label": "#103 65-100(I) cột áp: 125 → 12.5",
+      "kind": "outline"
+    },
+    {
+      "page": 0,
+      "rect": [
+        1035.0,
+        140.0,
+        1064.0,
+        151.0
+      ],
+      "label": "#103 80-100 cột áp: 125 → 12.5",
+      "kind": "outline"
+    },
+    {
+      "page": 0,
+      "rect": [
+        60.0,
+        277.0,
+        255.0,
+        289.0
+      ],
+      "label": "#104 Mô tả động cơ: Availble equipped with explosion-proofmotors → Available with explosion-proof motors",
+      "kind": "outline"
+    }
+  ],
+  "accepted_trial": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G17\\MAU LAN2\\Inline IRG Perotac (bản mới).pdf",
+  "source_sha256": "e9902d3bffdb563161443c255edfc122c46f9f855030b11f0ca28fd6e24228c0",
+  "final_sha256": "93c8d6f031953979bdb3ee1f4f76d359d913ec0582473a4f0d2d73c516e2981c"
+}

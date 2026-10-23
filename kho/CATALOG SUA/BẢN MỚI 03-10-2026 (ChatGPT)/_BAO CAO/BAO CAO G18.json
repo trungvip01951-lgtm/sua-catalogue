@@ -1,0 +1,134 @@
+[
+ {
+  "stt": 66,
+  "file": "Catalogue perotac.xlsx",
+  "page": "Sheet1",
+  "item": "Bảng DELIVERY – cột lưu lượng (ô N23/N22)",
+  "old": "34 m³/h = 566,7 l/min (các cột khác cách đều 6 m³/h)",
+  "new": "36 m³/h = 600 l/min",
+  "result": "ĐẠT",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ },
+ {
+  "stt": 67,
+  "file": "Catalogue perotac.xlsx",
+  "page": "Sheet1",
+  "item": "Options in request (ô A10)",
+  "old": "\"Other voltages or frequency 50Hz\"",
+  "new": "\"…frequency 60Hz\" (tiêu chuẩn đã là 50Hz)",
+  "result": "ĐẠT",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ },
+ {
+  "stt": 68,
+  "file": "Catalogue perotac.xlsx",
+  "page": "Sheet1",
+  "item": "Motor and Pump (A8) và tiêu đề bảng (B22)",
+  "old": "\"380 - 415V/50HZ\" nhưng bảng ghi \"380 - 420V\"",
+  "new": "Thống nhất 380-415V; \"50Hz\"",
+  "result": "ĐẠT",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ },
+ {
+  "stt": 69,
+  "file": "Catalogue perotac.xlsx",
+  "page": "Sheet1",
+  "item": "Motor and Pump (A8)",
+  "old": "\"It's available to equip with floating switch\", \"It's can work in water containing fiber\"",
+  "new": "\"Available with float switch\", \"Can work in water containing fiber\"",
+  "result": "ĐẠT",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ },
+ {
+  "stt": 70,
+  "file": "Catalogue perotac.xlsx",
+  "page": "Sheet1",
+  "item": "Bảng",
+  "old": "SS-3000 bỏ trống ô model 1 pha; \"Oil for food machinery.\" thừa dấu chấm; chữ \"SS\" dùng font .VnCooper (máy không có font sẽ hiển thị font khác)",
+  "new": "Ghi \"-\"; bỏ dấu chấm thừa; đổi font chữ \"SS\" sang font Unicode cùng kiểu (Cooper Black)",
+  "result": "ĐẠT",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ },
+ {
+  "stt": 120,
+  "file": "Catalogue DWO.xlsx",
+  "page": "Sheet1",
+  "item": "Bảng TECHNICAL DATA – cột cuối (L14)",
+  "old": "Tiêu đề \"Max Head (m)\" (trùng cột 4) nhưng số liệu là 2900",
+  "new": "Speed (rpm)",
+  "result": "ĐẠT",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ },
+ {
+  "stt": 121,
+  "file": "Catalogue DWO.xlsx",
+  "page": "Sheet1",
+  "item": "Cột HP (D16:D22 = kW/0.75, định dạng 0.0)",
+  "old": "Hiện 2.9 (2,2 kW), 4.9 (3,7 kW), 6.7 (5 kW)",
+  "new": "Ghi giá trị chuẩn: 2,2 kW = 3 HP…",
+  "result": "ĐẠT",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ },
+ {
+  "stt": 122,
+  "file": "Catalogue DWO.xlsx",
+  "page": "Sheet1",
+  "item": "Ảnh bảng linh kiện",
+  "old": "Vật liệu cánh quạt \"Noiyl\"",
+  "new": "Nylon",
+  "result": "ĐẠT",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ },
+ {
+  "stt": 123,
+  "file": "Catalogue DWO.xlsx",
+  "page": "Sheet1",
+  "item": "In ấn",
+  "old": "Ảnh bảng linh kiện dài quá khổ, khi in dòng 14 \"Fan cover\" sang trang 2; \"(kw)\", \"(m3/h)\"",
+  "new": "Thu nhỏ ảnh/đặt vùng in; (kW), m³/h",
+  "result": "CHƯA THỂ XÁC MINH",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png; đã đặt vừa 1 trang, chưa có bản in thực tế do Excel bị thông báo kích hoạt chặn",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ },
+ {
+  "stt": 142,
+  "file": "Catalogue perotac.xlsx",
+  "page": "Sheet1, ô A11",
+  "item": "Warranty",
+  "old": "Warranty: 1 years",
+  "new": "Warranty: 1 year",
+  "result": "ĐẠT",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ },
+ {
+  "stt": 143,
+  "file": "Catalogue perotac.xlsx",
+  "page": "Sheet1, dòng 27 (C27, D27)",
+  "item": "SS-450 / SSM-450F",
+  "old": "0.55 kW – 0.8 HP",
+  "new": "0.45 kW – 0.6 HP",
+  "result": "ĐẠT",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ },
+ {
+  "stt": 161,
+  "file": "Catalogue DWO.xlsx",
+  "page": "Sheet1, dòng 21–22",
+  "item": "DWO400, DWO500 – cột kW",
+  "old": "3.7 kW; 5 kW",
+  "new": "DWO400 = 3 kW (4 HP); DWO500 = 3.7 kW (5 HP)",
+  "result": "ĐẠT",
+  "evidence": "G18/KIEM TRA DU LIEU.json; So sanh G18.png",
+  "method": "catfix.xlsx.Xlsx; chép nét chữ bằng catfix.raster cho #122"
+ }
+]

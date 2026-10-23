@@ -1,0 +1,1106 @@
+{
+  "pdf": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG THIET KE RIENG 20261006\\AQUARIS SP - 31 TRANG.pdf",
+  "sha256": "8170fe4d6b745c1a9e6c900b95282f7c4f8dbfe54251e2c235c76890d6774baf",
+  "texts": 4052,
+  "curves": 197,
+  "H_cells": 1179,
+  "max_error_percent": 4.999000001210948,
+  "pages": [
+    {
+      "page": 3,
+      "curves": [
+        {
+          "model": "3SP1-40",
+          "max_error_percent": 4.999000000372314,
+          "segments": 2
+        },
+        {
+          "model": "3SP1-30",
+          "max_error_percent": 3.220047400544421,
+          "segments": 1
+        },
+        {
+          "model": "3SP1-22",
+          "max_error_percent": 3.3888889223312706,
+          "segments": 1
+        },
+        {
+          "model": "3SP1-15",
+          "max_error_percent": 3.120000048156996,
+          "segments": 1
+        },
+        {
+          "model": "3SP1-10",
+          "max_error_percent": 1.8008683627049906,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "curves": [
+        {
+          "model": "3SP2-32",
+          "max_error_percent": 2.6884026570865305,
+          "segments": 1
+        },
+        {
+          "model": "3SP2-24",
+          "max_error_percent": 0.5641283076434326,
+          "segments": 1
+        },
+        {
+          "model": "3SP2-17",
+          "max_error_percent": 1.234986393201225,
+          "segments": 1
+        },
+        {
+          "model": "3SP2-11",
+          "max_error_percent": 1.5169146620341558,
+          "segments": 1
+        },
+        {
+          "model": "3SP2-8",
+          "max_error_percent": 1.6687676539726477,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "curves": [
+        {
+          "model": "4SP3-52",
+          "max_error_percent": 2.5362531044376393,
+          "segments": 1
+        },
+        {
+          "model": "4SP3-44",
+          "max_error_percent": 2.4606834341642103,
+          "segments": 1
+        },
+        {
+          "model": "4SP3-39",
+          "max_error_percent": 2.607154510049857,
+          "segments": 1
+        },
+        {
+          "model": "4SP3-32",
+          "max_error_percent": 2.7662006153309613,
+          "segments": 1
+        },
+        {
+          "model": "4SP3-25",
+          "max_error_percent": 2.3957607723836483,
+          "segments": 1
+        },
+        {
+          "model": "4SP3-22",
+          "max_error_percent": 2.498540101708312,
+          "segments": 1
+        },
+        {
+          "model": "4SP3-18",
+          "max_error_percent": 2.5025127393510838,
+          "segments": 1
+        },
+        {
+          "model": "4SP3-15",
+          "max_error_percent": 2.786970914769027,
+          "segments": 1
+        },
+        {
+          "model": "4SP3-12",
+          "max_error_percent": 1.7915045430970844,
+          "segments": 1
+        },
+        {
+          "model": "4SP3-9",
+          "max_error_percent": 1.2872317187219326,
+          "segments": 1
+        },
+        {
+          "model": "4SP3-6",
+          "max_error_percent": 2.474095998785996,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "curves": [
+        {
+          "model": "4SP5-52",
+          "max_error_percent": 4.252592799057849,
+          "segments": 1
+        },
+        {
+          "model": "4SP5-44",
+          "max_error_percent": 4.216553877624853,
+          "segments": 1
+        },
+        {
+          "model": "4SP5-40",
+          "max_error_percent": 4.310255074125742,
+          "segments": 1
+        },
+        {
+          "model": "4SP5-38",
+          "max_error_percent": 4.290528506955351,
+          "segments": 1
+        },
+        {
+          "model": "4SP5-33",
+          "max_error_percent": 4.315933934496278,
+          "segments": 1
+        },
+        {
+          "model": "4SP5-25",
+          "max_error_percent": 4.4226965114583265,
+          "segments": 1
+        },
+        {
+          "model": "4SP5-22",
+          "max_error_percent": 4.3443282353482715,
+          "segments": 1
+        },
+        {
+          "model": "4SP5-17",
+          "max_error_percent": 4.299231403502379,
+          "segments": 1
+        },
+        {
+          "model": "4SP5-12",
+          "max_error_percent": 4.37272253613461,
+          "segments": 1
+        },
+        {
+          "model": "4SP5-8",
+          "max_error_percent": 4.216553879020046,
+          "segments": 1
+        },
+        {
+          "model": "4SP5-6",
+          "max_error_percent": 4.372722537271034,
+          "segments": 1
+        },
+        {
+          "model": "4SP5-4",
+          "max_error_percent": 4.216553880724849,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "curves": [
+        {
+          "model": "4SP8-44",
+          "max_error_percent": 2.6638891530654765,
+          "segments": 1
+        },
+        {
+          "model": "4SP8-40",
+          "max_error_percent": 2.7116099237920426,
+          "segments": 1
+        },
+        {
+          "model": "4SP8-35",
+          "max_error_percent": 2.519999998919635,
+          "segments": 1
+        },
+        {
+          "model": "4SP8-30",
+          "max_error_percent": 2.743890994757042,
+          "segments": 1
+        },
+        {
+          "model": "4SP8-24",
+          "max_error_percent": 2.624100967636105,
+          "segments": 1
+        },
+        {
+          "model": "4SP8-21",
+          "max_error_percent": 2.53846153972325,
+          "segments": 1
+        },
+        {
+          "model": "4SP8-18",
+          "max_error_percent": 2.4241788228675776,
+          "segments": 1
+        },
+        {
+          "model": "4SP8-14",
+          "max_error_percent": 2.5615384578705402,
+          "segments": 1
+        },
+        {
+          "model": "4SP8-12",
+          "max_error_percent": 2.023327778671223,
+          "segments": 1
+        },
+        {
+          "model": "4SP8-10",
+          "max_error_percent": 2.7116099279920935,
+          "segments": 1
+        },
+        {
+          "model": "4SP8-7",
+          "max_error_percent": 2.492307688312453,
+          "segments": 1
+        },
+        {
+          "model": "4SP8-5",
+          "max_error_percent": 1.5582006514667532,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "curves": [
+        {
+          "model": "4SP14-25",
+          "max_error_percent": 3.514330325170647,
+          "segments": 1
+        },
+        {
+          "model": "4SP14-21",
+          "max_error_percent": 3.902827578691396,
+          "segments": 1
+        },
+        {
+          "model": "4SP14-18",
+          "max_error_percent": 3.5517193612591313,
+          "segments": 1
+        },
+        {
+          "model": "4SP14-15",
+          "max_error_percent": 3.487111871005161,
+          "segments": 1
+        },
+        {
+          "model": "4SP14-13",
+          "max_error_percent": 3.833163705012146,
+          "segments": 1
+        },
+        {
+          "model": "4SP14-10",
+          "max_error_percent": 3.9617055186180425,
+          "segments": 1
+        },
+        {
+          "model": "4SP14-7",
+          "max_error_percent": 4.97809643057071,
+          "segments": 1
+        },
+        {
+          "model": "4SP14-5",
+          "max_error_percent": 4.639839654736281,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "curves": [
+        {
+          "model": "5SP10-30",
+          "max_error_percent": 1.458991375855914,
+          "segments": 1
+        },
+        {
+          "model": "5SP10-26",
+          "max_error_percent": 1.4002627745008147,
+          "segments": 1
+        },
+        {
+          "model": "5SP10-22",
+          "max_error_percent": 1.5280173030196857,
+          "segments": 1
+        },
+        {
+          "model": "5SP10-18",
+          "max_error_percent": 1.3754448059316022,
+          "segments": 1
+        },
+        {
+          "model": "5SP10-15",
+          "max_error_percent": 1.3298541802832158,
+          "segments": 1
+        },
+        {
+          "model": "5SP10-11",
+          "max_error_percent": 1.4976102649392806,
+          "segments": 1
+        },
+        {
+          "model": "5SP10-8",
+          "max_error_percent": 1.5701492562370607,
+          "segments": 1
+        },
+        {
+          "model": "5SP10-6",
+          "max_error_percent": 1.5319928171602204,
+          "segments": 1
+        },
+        {
+          "model": "5SP10-4",
+          "max_error_percent": 1.8519477401379905,
+          "segments": 1
+        },
+        {
+          "model": "5SP10-3",
+          "max_error_percent": 1.1323550050575937,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "curves": [
+        {
+          "model": "5SP15-25",
+          "max_error_percent": 2.121220201530629,
+          "segments": 1
+        },
+        {
+          "model": "5SP15-22",
+          "max_error_percent": 2.1864630122147353,
+          "segments": 1
+        },
+        {
+          "model": "5SP15-19",
+          "max_error_percent": 2.034652269046806,
+          "segments": 1
+        },
+        {
+          "model": "5SP15-16",
+          "max_error_percent": 2.1925917998411633,
+          "segments": 1
+        },
+        {
+          "model": "5SP15-13",
+          "max_error_percent": 1.9726622699632892,
+          "segments": 1
+        },
+        {
+          "model": "5SP15-9",
+          "max_error_percent": 1.9923535349492174,
+          "segments": 1
+        },
+        {
+          "model": "5SP15-7",
+          "max_error_percent": 2.607590899672063,
+          "segments": 1
+        },
+        {
+          "model": "5SP15-5",
+          "max_error_percent": 2.315644343988858,
+          "segments": 1
+        },
+        {
+          "model": "5SP15-3",
+          "max_error_percent": 2.2693926286261665,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "curves": [
+        {
+          "model": "5SP20-22",
+          "max_error_percent": 4.894001985377246,
+          "segments": 1
+        },
+        {
+          "model": "5SP20-19",
+          "max_error_percent": 4.704412091496855,
+          "segments": 1
+        },
+        {
+          "model": "5SP20-16",
+          "max_error_percent": 4.798906946319052,
+          "segments": 1
+        },
+        {
+          "model": "5SP20-13",
+          "max_error_percent": 4.499050570562868,
+          "segments": 1
+        },
+        {
+          "model": "5SP20-11",
+          "max_error_percent": 4.9990000008172535,
+          "segments": 1
+        },
+        {
+          "model": "5SP20-8",
+          "max_error_percent": 4.031766644718312,
+          "segments": 1
+        },
+        {
+          "model": "5SP20-6",
+          "max_error_percent": 4.998999999389831,
+          "segments": 1
+        },
+        {
+          "model": "5SP20-4",
+          "max_error_percent": 4.123984728336361,
+          "segments": 1
+        },
+        {
+          "model": "5SP20-3",
+          "max_error_percent": 3.9294590421408713,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "curves": [
+        {
+          "model": "5SP25-20",
+          "max_error_percent": 3.6734694009235604,
+          "segments": 1
+        },
+        {
+          "model": "5SP25-17",
+          "max_error_percent": 3.7070524261952764,
+          "segments": 1
+        },
+        {
+          "model": "5SP25-14",
+          "max_error_percent": 3.8678328662367703,
+          "segments": 1
+        },
+        {
+          "model": "5SP25-12",
+          "max_error_percent": 3.786848094509815,
+          "segments": 1
+        },
+        {
+          "model": "5SP25-10",
+          "max_error_percent": 3.6734694140920587,
+          "segments": 1
+        },
+        {
+          "model": "5SP25-7",
+          "max_error_percent": 3.7676608739729565,
+          "segments": 1
+        },
+        {
+          "model": "5SP25-5",
+          "max_error_percent": 3.0111158472843185,
+          "segments": 1
+        },
+        {
+          "model": "5SP25-4",
+          "max_error_percent": 4.353741562440992,
+          "segments": 1
+        },
+        {
+          "model": "5SP25-3",
+          "max_error_percent": 3.8991372314878925,
+          "segments": 1
+        },
+        {
+          "model": "5SP25-2",
+          "max_error_percent": 4.988662263487578,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "curves": [
+        {
+          "model": "5SP30-16",
+          "max_error_percent": 2.4607070982311057,
+          "segments": 1
+        },
+        {
+          "model": "5SP30-14",
+          "max_error_percent": 2.5586825497141743,
+          "segments": 1
+        },
+        {
+          "model": "5SP30-12",
+          "max_error_percent": 2.5221255053696927,
+          "segments": 1
+        },
+        {
+          "model": "5SP30-10",
+          "max_error_percent": 2.3757130402861395,
+          "segments": 1
+        },
+        {
+          "model": "5SP30-8",
+          "max_error_percent": 2.6463778170718273,
+          "segments": 1
+        },
+        {
+          "model": "5SP30-6",
+          "max_error_percent": 2.6037222860190683,
+          "segments": 1
+        },
+        {
+          "model": "5SP30-4",
+          "max_error_percent": 3.0307222158724327,
+          "segments": 1
+        },
+        {
+          "model": "5SP30-3",
+          "max_error_percent": 2.953837287991302,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "curves": [
+        {
+          "model": "6SP20-38",
+          "max_error_percent": 3.461951237335317,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-32",
+          "max_error_percent": 3.3971294153438483,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-27",
+          "max_error_percent": 3.238448753128901,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-22",
+          "max_error_percent": 3.3811479897957706,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-19",
+          "max_error_percent": 3.577432092974938,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-16",
+          "max_error_percent": 3.397129414091329,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-13",
+          "max_error_percent": 3.267794713690517,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-11",
+          "max_error_percent": 3.6562266607545175,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-8",
+          "max_error_percent": 3.3456795666393107,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-6",
+          "max_error_percent": 3.3385570891569745,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-4",
+          "max_error_percent": 3.5732799376220177,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-3",
+          "max_error_percent": 4.514844808144612,
+          "segments": 1
+        },
+        {
+          "model": "6SP20-2",
+          "max_error_percent": 2.8725636878797314,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "curves": [
+        {
+          "model": "6SP30-28",
+          "max_error_percent": 3.2273065548138344,
+          "segments": 1
+        },
+        {
+          "model": "6SP30-23",
+          "max_error_percent": 3.2155797182495838,
+          "segments": 1
+        },
+        {
+          "model": "6SP30-19",
+          "max_error_percent": 3.138706150161752,
+          "segments": 1
+        },
+        {
+          "model": "6SP30-16",
+          "max_error_percent": 3.271484387590906,
+          "segments": 1
+        },
+        {
+          "model": "6SP30-14",
+          "max_error_percent": 3.0877976312875295,
+          "segments": 1
+        },
+        {
+          "model": "6SP30-12",
+          "max_error_percent": 4.231770848867219,
+          "segments": 1
+        },
+        {
+          "model": "6SP30-9",
+          "max_error_percent": 3.414351870891779,
+          "segments": 1
+        },
+        {
+          "model": "6SP30-7",
+          "max_error_percent": 3.0877976456771363,
+          "segments": 1
+        },
+        {
+          "model": "6SP30-5",
+          "max_error_percent": 2.6064150019652508,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 19,
+      "curves": [
+        {
+          "model": "6SP46-18",
+          "max_error_percent": 2.4728245532012574,
+          "segments": 1
+        },
+        {
+          "model": "6SP46-16",
+          "max_error_percent": 2.6147509969819183,
+          "segments": 1
+        },
+        {
+          "model": "6SP46-14",
+          "max_error_percent": 2.3443778644744584,
+          "segments": 1
+        },
+        {
+          "model": "6SP46-12",
+          "max_error_percent": 2.5772143483212706,
+          "segments": 1
+        },
+        {
+          "model": "6SP46-10",
+          "max_error_percent": 2.488922043382445,
+          "segments": 1
+        },
+        {
+          "model": "6SP46-8",
+          "max_error_percent": 2.4515076667333524,
+          "segments": 1
+        },
+        {
+          "model": "6SP46-7",
+          "max_error_percent": 2.8152856844840124,
+          "segments": 1
+        },
+        {
+          "model": "6SP46-6",
+          "max_error_percent": 2.8231311539232116,
+          "segments": 1
+        },
+        {
+          "model": "6SP46-5",
+          "max_error_percent": 2.488922047795228,
+          "segments": 1
+        },
+        {
+          "model": "6SP46-4",
+          "max_error_percent": 2.0579110087554398,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 21,
+      "curves": [
+        {
+          "model": "6SP60-16",
+          "max_error_percent": 1.3085227129115764,
+          "segments": 1
+        },
+        {
+          "model": "6SP60-15",
+          "max_error_percent": 1.5951449818965444,
+          "segments": 1
+        },
+        {
+          "model": "6SP60-14",
+          "max_error_percent": 1.798489721282873,
+          "segments": 1
+        },
+        {
+          "model": "6SP60-13",
+          "max_error_percent": 1.9874453090109538,
+          "segments": 1
+        },
+        {
+          "model": "6SP60-12",
+          "max_error_percent": 1.841157529086004,
+          "segments": 1
+        },
+        {
+          "model": "6SP60-11",
+          "max_error_percent": 1.4181062700590688,
+          "segments": 1
+        },
+        {
+          "model": "6SP60-10",
+          "max_error_percent": 1.9823212669266264,
+          "segments": 1
+        },
+        {
+          "model": "6SP60-9",
+          "max_error_percent": 2.639113016093566,
+          "segments": 1
+        },
+        {
+          "model": "6SP60-8",
+          "max_error_percent": 1.63380526066482,
+          "segments": 1
+        },
+        {
+          "model": "6SP60-6",
+          "max_error_percent": 1.2526821022516357,
+          "segments": 1
+        },
+        {
+          "model": "6SP60-5",
+          "max_error_percent": 2.9018976611868545,
+          "segments": 1
+        },
+        {
+          "model": "6SP60-4",
+          "max_error_percent": 2.2390469757214504,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 23,
+      "curves": [
+        {
+          "model": "8SP77-20",
+          "max_error_percent": 4.99899999959473,
+          "segments": 1
+        },
+        {
+          "model": "8SP77-17",
+          "max_error_percent": 4.998999999154867,
+          "segments": 1
+        },
+        {
+          "model": "8SP77-15",
+          "max_error_percent": 4.998999999483829,
+          "segments": 1
+        },
+        {
+          "model": "8SP77-12",
+          "max_error_percent": 4.998999999830822,
+          "segments": 1
+        },
+        {
+          "model": "8SP77-10",
+          "max_error_percent": 4.987770215018693,
+          "segments": 1
+        },
+        {
+          "model": "8SP77-8",
+          "max_error_percent": 4.9989999988491025,
+          "segments": 1
+        },
+        {
+          "model": "8SP77-7",
+          "max_error_percent": 4.998999999832077,
+          "segments": 1
+        },
+        {
+          "model": "8SP77-6",
+          "max_error_percent": 4.99899999956833,
+          "segments": 1
+        },
+        {
+          "model": "8SP77-5",
+          "max_error_percent": 4.999000001210948,
+          "segments": 1
+        },
+        {
+          "model": "8SP77-4",
+          "max_error_percent": 4.653930264173674,
+          "segments": 1
+        },
+        {
+          "model": "8SP77-3",
+          "max_error_percent": 4.998999997045814,
+          "segments": 1
+        },
+        {
+          "model": "8SP77-2",
+          "max_error_percent": 3.7013344395330257,
+          "segments": 2
+        },
+        {
+          "model": "8SP77-1",
+          "max_error_percent": 4.023823631736871,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 25,
+      "curves": [
+        {
+          "model": "8SP95-20",
+          "max_error_percent": 4.1408686851519345,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-16",
+          "max_error_percent": 3.988340215201024,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-14",
+          "max_error_percent": 4.118108689557466,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-12",
+          "max_error_percent": 4.011391687931414,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-11",
+          "max_error_percent": 4.169226847891039,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-10",
+          "max_error_percent": 4.158415732419833,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-8",
+          "max_error_percent": 4.433432816103991,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-6",
+          "max_error_percent": 3.869389517852147,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-5",
+          "max_error_percent": 4.1408686791472835,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-4",
+          "max_error_percent": 4.210954359085108,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-3",
+          "max_error_percent": 2.8748113065313357,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-2",
+          "max_error_percent": 4.998999988455164,
+          "segments": 1
+        },
+        {
+          "model": "8SP95-1",
+          "max_error_percent": 4.41623573559653,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "curves": [
+        {
+          "model": "8SP120-10",
+          "max_error_percent": 4.050622466379252,
+          "segments": 2
+        },
+        {
+          "model": "8SP120-9",
+          "max_error_percent": 4.154905884358174,
+          "segments": 2
+        },
+        {
+          "model": "8SP120-8",
+          "max_error_percent": 3.837073876909347,
+          "segments": 2
+        },
+        {
+          "model": "8SP120-7",
+          "max_error_percent": 3.892233959877233,
+          "segments": 2
+        },
+        {
+          "model": "8SP120-6",
+          "max_error_percent": 4.024018044500082,
+          "segments": 2
+        },
+        {
+          "model": "8SP120-5",
+          "max_error_percent": 4.212443477330908,
+          "segments": 2
+        },
+        {
+          "model": "8SP120-4",
+          "max_error_percent": 4.168516384987157,
+          "segments": 3
+        },
+        {
+          "model": "8SP120-3",
+          "max_error_percent": 4.19634244401512,
+          "segments": 2
+        },
+        {
+          "model": "8SP120-2",
+          "max_error_percent": 3.9157952873979163,
+          "segments": 2
+        },
+        {
+          "model": "8SP120-1",
+          "max_error_percent": 4.9989999975226596,
+          "segments": 2
+        }
+      ]
+    },
+    {
+      "page": 29,
+      "curves": [
+        {
+          "model": "10SP125-9",
+          "max_error_percent": 4.664933046032173,
+          "segments": 1
+        },
+        {
+          "model": "10SP125-8",
+          "max_error_percent": 4.999000000139269,
+          "segments": 1
+        },
+        {
+          "model": "10SP125-7",
+          "max_error_percent": 4.998999998636091,
+          "segments": 1
+        },
+        {
+          "model": "10SP125-6",
+          "max_error_percent": 4.962166187890429,
+          "segments": 1
+        },
+        {
+          "model": "10SP125-5",
+          "max_error_percent": 1.4759497464506526,
+          "segments": 1
+        },
+        {
+          "model": "10SP125-4",
+          "max_error_percent": 4.6205357306056225,
+          "segments": 1
+        },
+        {
+          "model": "10SP125-3",
+          "max_error_percent": 3.7441037971994184,
+          "segments": 1
+        },
+        {
+          "model": "10SP125-2",
+          "max_error_percent": 4.040207673965028,
+          "segments": 1
+        },
+        {
+          "model": "10SP125-1",
+          "max_error_percent": 4.786079365614153,
+          "segments": 1
+        }
+      ]
+    },
+    {
+      "page": 31,
+      "curves": [
+        {
+          "model": "10SP160-9",
+          "max_error_percent": 1.50948817317647,
+          "segments": 1
+        },
+        {
+          "model": "10SP160-8",
+          "max_error_percent": 1.2993182842322426,
+          "segments": 1
+        },
+        {
+          "model": "10SP160-7",
+          "max_error_percent": 1.1758029986912837,
+          "segments": 1
+        },
+        {
+          "model": "10SP160-6",
+          "max_error_percent": 1.1758029976578992,
+          "segments": 1
+        },
+        {
+          "model": "10SP160-5",
+          "max_error_percent": 1.0506780891573875,
+          "segments": 1
+        },
+        {
+          "model": "10SP160-4",
+          "max_error_percent": 1.1758029975350404,
+          "segments": 1
+        },
+        {
+          "model": "10SP160-3",
+          "max_error_percent": 1.1758029997416841,
+          "segments": 1
+        },
+        {
+          "model": "10SP160-2",
+          "max_error_percent": 1.0601356158998954,
+          "segments": 1
+        },
+        {
+          "model": "10SP160-1",
+          "max_error_percent": 1.1758030034173927,
+          "segments": 1
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "info": true,
+    "xmp": true,
+    "toc": true,
+    "links": true,
+    "sizes": true,
+    "images_retained": true,
+    "fonts_retained": true
+  },
+  "failures": [],
+  "status": "PASS"
+}

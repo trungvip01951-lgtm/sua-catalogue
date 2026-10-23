@@ -1,0 +1,495 @@
+{
+  "time": "2026-10-03T03:14:45.097187+07:00",
+  "group": "G14",
+  "status": "CHƯA XONG",
+  "pass_tasks": 7,
+  "total_tasks": 8,
+  "additional_upright_kw": 4,
+  "all_4_kw_read_exact": true,
+  "unknown": "Còn 2 (kw) nghiêng mỗi tệp, thiếu W nghiêng đúng kiểu trong chính tệp; không tạo ký tự nghiêng từ W đứng.",
+  "finals": [
+    {
+      "short": "Perotac",
+      "previous": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\bơm trục ngang perotac model CM (bản mới).pdf",
+      "previous_sha256": "64ef858f01db9c2e92ad03cf46f5cd5babf632030533aad26764557c253daba7",
+      "sample": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G14\\KW BO SUNG\\bơm trục ngang perotac model CM (bản mới).pdf",
+      "sample_sha256": "01bf4404fe23fed18538b5e8a377f53550f2d87bb0927b4d99fb7770bbe8fcad",
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag perotac model CM (bản mới).pdf",
+      "source_sha256": "466c54500ecbe7ba67e556ae92dce3a7c5e07776b03113c279f0468b60217a3d",
+      "edits": [
+        {
+          "page": 2,
+          "rect": [
+            178.07999999999998,
+            632.88,
+            185.27999999999997,
+            639.36
+          ],
+          "old": "kw",
+          "new": "kW",
+          "source_W_rect": [
+            1154.6399999999999,
+            256.32,
+            1161.84,
+            262.56
+          ],
+          "source_size_px": [
+            26,
+            30
+          ],
+          "target_size_px": [
+            23,
+            26
+          ],
+          "scale": 0.8571428571428571,
+          "word_rect": [
+            174.7,
+            632.88,
+            185.56,
+            639.86
+          ]
+        },
+        {
+          "page": 2,
+          "rect": [
+            779.76,
+            632.88,
+            787.92,
+            640.08
+          ],
+          "old": "kw",
+          "new": "kW",
+          "source_W_rect": [
+            1154.6399999999999,
+            256.32,
+            1161.84,
+            262.56
+          ],
+          "source_size_px": [
+            26,
+            30
+          ],
+          "target_size_px": [
+            26,
+            30
+          ],
+          "scale": 1.0,
+          "word_rect": [
+            776.14,
+            632.88,
+            788.2,
+            640.8199999999999
+          ]
+        }
+      ],
+      "outside": {},
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          2
+        ],
+        "size_before": 2442633,
+        "size_after": 2444842
+      },
+      "final": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\bơm trục ngang perotac model CM (bản mới).pdf",
+      "final_sha256": "8c39f96488f7a1e4524605080b6b4511b57dd29f44d3269babf3528fdd335a8c",
+      "previous_archive": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G14\\PHIEN TRUOC KW\\bơm trục ngang perotac model CM (bản mới).pdf",
+      "reads": [
+        {
+          "rect": [
+            174.29999999999998,
+            632.78,
+            185.76,
+            639.96
+          ],
+          "read": "kW",
+          "case_exact": true
+        },
+        {
+          "rect": [
+            775.74,
+            632.78,
+            788.4000000000001,
+            640.92
+          ],
+          "read": "kW",
+          "case_exact": true
+        }
+      ],
+      "previous_image_and_patch_streams": [
+        {
+          "page": 1,
+          "name": "Im6",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "Im8",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "Im10",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "CfxPatch5",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "CfxPatch4",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "CfxPatch3",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "CfxPatch2",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "CfxPatch1",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "Im14",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "Im16",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "Im18",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "Im20",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "Im22",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch15",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch14",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch13",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch12",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch11",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch10",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch9",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch8",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch7",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch6",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch5",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch4",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch3",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch2",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch1",
+          "raw_bytes_and_position_same": true
+        }
+      ],
+      "metadata_XMP_links_bookmarks_same": true,
+      "final_display_matches_sample_exact": true,
+      "source_unchanged": true
+    },
+    {
+      "short": "Redpump",
+      "previous": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf",
+      "previous_sha256": "1b49fa419a93905ab17701c59e84d9b708cce42f2af6c56e9950d882f1fc5019",
+      "sample": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G14\\KW BO SUNG\\bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf",
+      "sample_sha256": "8a0923936387fb5a2107f7a2939520016b65b49ce1bd6b4a7a2bd1375a7175eb",
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Trục ngang\\bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf",
+      "source_sha256": "5c18b0cb942e8f243591aae00908998d35c773e70336811bc2283275aeda6fa7",
+      "edits": [
+        {
+          "page": 2,
+          "rect": [
+            148.59062461348176,
+            631.3941115505595,
+            155.79210884353742,
+            638.1161779712237
+          ],
+          "old": "kw",
+          "new": "kW",
+          "source_W_rect": [
+            1124.871836734694,
+            254.47740204884283,
+            1132.0733209647494,
+            261.19944646624475
+          ],
+          "source_size_px": [
+            28,
+            30
+          ],
+          "target_size_px": [
+            24,
+            26
+          ],
+          "scale": 0.8518518518518519,
+          "word_rect": [
+            144.9699814471243,
+            631.3941115505595,
+            156.07191094619665,
+            638.3761041704856
+          ]
+        },
+        {
+          "page": 2,
+          "rect": [
+            749.9145578231293,
+            631.3941115505595,
+            758.0762399505257,
+            639.0764731741757
+          ],
+          "old": "kw",
+          "new": "kW",
+          "source_W_rect": [
+            1124.871836734694,
+            254.47740204884283,
+            1132.0733209647494,
+            261.19944646624475
+          ],
+          "source_size_px": [
+            28,
+            30
+          ],
+          "target_size_px": [
+            28,
+            30
+          ],
+          "scale": 1.0,
+          "word_rect": [
+            746.2939146567718,
+            631.3941115505595,
+            758.3559431045146,
+            639.0963255726997
+          ]
+        }
+      ],
+      "outside": {},
+      "structure": {
+        "ok": true,
+        "problems": [],
+        "changed_pages": [
+          2
+        ],
+        "size_before": 7520152,
+        "size_after": 7523204
+      },
+      "final": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf",
+      "final_sha256": "e968a794b348b5924dd7300ac873ba1aff73c0527d64a233d6b2ee217a1b2bdc",
+      "previous_archive": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G14\\PHIEN TRUOC KW\\bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf",
+      "reads": [
+        {
+          "rect": [
+            144.5699814471243,
+            631.2941115505595,
+            156.27191094619664,
+            638.4761041704857
+          ],
+          "read": "kW",
+          "case_exact": true
+        },
+        {
+          "rect": [
+            745.8939146567718,
+            631.2941115505595,
+            758.5559431045147,
+            639.1963255726997
+          ],
+          "read": "kW",
+          "case_exact": true
+        }
+      ],
+      "previous_image_and_patch_streams": [
+        {
+          "page": 1,
+          "name": "R12",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "CfxPatch5",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "CfxPatch4",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "CfxPatch3",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "CfxPatch2",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 1,
+          "name": "CfxPatch1",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "R19",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch15",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch14",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch13",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch12",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch11",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch10",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch9",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch8",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch7",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch6",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch5",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch4",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch3",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch2",
+          "raw_bytes_and_position_same": true
+        },
+        {
+          "page": 2,
+          "name": "CfxPatch1",
+          "raw_bytes_and_position_same": true
+        }
+      ],
+      "metadata_XMP_links_bookmarks_same": true,
+      "final_display_matches_sample_exact": true,
+      "source_unchanged": true
+    }
+  ],
+  "previous_full_QA": "G14/NGHIEM THU CUOI.json",
+  "table_QA": "34 dòng dồn mỗi tệp giữ mọi điểm ảnh DN/công suất/hp/H tới cột cuối; tất cả ảnh chèn cũ giữ nguyên byte/vị trí trong lượt bổ sung nên kết quả trước vẫn nguyên.",
+  "visual_kw_reviewed": true
+}

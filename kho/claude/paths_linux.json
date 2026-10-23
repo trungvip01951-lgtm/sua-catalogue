@@ -1,0 +1,15 @@
+{
+  "_ghi_chu": "Cấu hình đường dẫn riêng cho phiên Claude (môi trường Linux trên máy anh Trung). Không thay manifest.json, không sửa hằng số catfix. Khóa = tiền tố Windows, giá trị = thư mục mount tương đối so với $HOME/mnt.",
+  "map": {
+    "C:\\Users\\H2\\Desktop\\Catalog Sua": "Sửa catalogue/CATALOG SUA",
+    "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a": "b-n-h-y-s-a",
+    "D:\\ChatGPT\\Sửa catalogue": "Sửa catalogue"
+  },
+  "khong_ket_noi": [
+    "D:\\TempSystem\\catfix_work"
+  ],
+  "catfix_env": {
+    "CATFIX_ROOT": "Sửa catalogue/CATALOG SUA"
+  },
+  "_ghi_chu_20261010": "Catalog Sua đã gộp vào D:\\ChatGPT\\Sửa catalogue\\CATALOG SUA (anh chốt 10/10/2026); khóa C: cũ giữ để dịch đường dẫn trong sổ/biên nhận cũ."
+}

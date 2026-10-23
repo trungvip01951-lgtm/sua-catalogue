@@ -1,0 +1,85 @@
+{
+ "created": "2026-10-03T05:23:22.294215",
+ "group": "G06",
+ "status": "CHƯA XONG",
+ "can_sua": 3,
+ "passed": 1,
+ "not_passed": 2,
+ "rows": [
+  {
+   "stt": 51,
+   "file": "Aquaris FS_300dpi_75% (bản mới).pdf",
+   "page": 1,
+   "item": "Giữ bản đã nghiệm thu",
+   "old": "FS 15 15 1.5",
+   "new": "FS-35-7-2.2",
+   "result": "ĐẠT",
+   "evidence": "G06/acceptance-v2.json; mã nội dung file ra hiện tại khớp bản đã đạt"
+  },
+  {
+   "stt": 52,
+   "file": "Aquaris FS_300dpi_75% (bản mới).pdf",
+   "page": "2–3",
+   "item": "Giữ nguyên do chưa tìm thấy k chữ thường đúng nét đậm",
+   "old": "(KW)",
+   "new": "Còn (KW)",
+   "result": "CHƯA ĐẠT",
+   "evidence": "G06/review/word-copy-source-geometry.json; không có phông nhúng; trang 2–3 giữ nguyên"
+  },
+  {
+   "stt": 53,
+   "file": "Aquaris FS_300dpi_75% (bản mới).pdf",
+   "page": 4,
+   "item": "Thử hai cách mới, mỗi cách hai mẫu; giữ bản gốc vì mẫu cuối còn mực C sát lưới",
+   "old": "Dòng 5/13 nhỏ; 15/18 lớn; 28 sát viền",
+   "new": "Giữ nguyên bảng trong file ra",
+   "result": "CHƯA ĐẠT",
+   "evidence": "G06/review/native-word-edge-original-ink.json; native-word-edge-row5-1200dpi.png"
+  }
+ ],
+ "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Nước thải\\Aquaris FS_300dpi_75% (bản mới).pdf",
+ "destination": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\Aquaris FS_300dpi_75% (bản mới).pdf",
+ "source_sha256": "a297ed5b1dec97c33b6d2327d25d30bd3f317690548b9d5895c59e1376a63b31",
+ "destination_sha256": "97db44101b00605e71ce8996e8d4d08d672a8475cdcfa51ae1b1d5aa9597e033",
+ "destination_unchanged_from_final_v2": true,
+ "final_structure": {
+  "ok": true,
+  "problems": [],
+  "changed_pages": [],
+  "size_before": 2237886,
+  "size_after": 2128765
+ },
+ "source_page_2_3_4_content_streams_equal": [
+  true,
+  true,
+  true
+ ],
+ "preserved_task_136": "Giữ cả hai catalogue FS; không ghi file G07",
+ "methods": [
+  {
+   "method": "Ngân hàng ký tự",
+   "trials": 2,
+   "result": "Không đạt, đã dừng trước lượt bổ sung"
+  },
+  {
+   "method": "Nguyên từ nhưng mặt nạ theo vùng dựng ảnh",
+   "trials": 2,
+   "result": "Đổi mép mờ của lưới; không dùng"
+  },
+  {
+   "method": "Nguyên từ theo tọa độ ảnh gốc, mặt nạ từng từ",
+   "trials": 2,
+   "result": "Giữ lưới, còn mực C ở cột 1297; không dùng"
+  }
+ ],
+ "trial_only_results": {
+  "source_images_in_trial_preserved": true,
+  "grid_400_500_600_exact": true,
+  "numbers_400_500_600_exact": true,
+  "outside_new_200dpi": {},
+  "source_words_count": 29,
+  "all_29_saved_word_ink_samples_exact": true,
+  "old_C_not_cleared": true,
+  "accepted": false
+ }
+}

@@ -1,0 +1,238 @@
+{
+ "src": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+ "dst": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\G02 (gồm cả G01)\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+ "edits": [
+  {
+   "page": 8,
+   "rect": [
+    210.59,
+    115.5,
+    528.03,
+    419.16
+   ],
+   "label": "Vẽ lại 8 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 2,
+   "rect": [
+    236.47,
+    121.05,
+    545.14,
+    433.62
+   ],
+   "label": "Vẽ lại 5 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 3,
+   "rect": [
+    104.09,
+    114.62,
+    438.05,
+    454.89
+   ],
+   "label": "Vẽ lại 5 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 4,
+   "rect": [
+    223.13,
+    109.19,
+    511.7,
+    396.9
+   ],
+   "label": "Vẽ lại 10 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 5,
+   "rect": [
+    113.67,
+    96.45,
+    433.56,
+    384.16
+   ],
+   "label": "Vẽ lại 11 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 6,
+   "rect": [
+    224.03,
+    79.88,
+    535.07,
+    367.59
+   ],
+   "label": "Vẽ lại 12 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 7,
+   "rect": [
+    105.66,
+    118.37,
+    414.75,
+    365.04
+   ],
+   "label": "Vẽ lại 12 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 9,
+   "rect": [
+    72.92,
+    111.44,
+    423.8,
+    386.0
+   ],
+   "label": "Vẽ lại 10 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 10,
+   "rect": [
+    207.64,
+    100.44,
+    525.59,
+    398.99
+   ],
+   "label": "Vẽ lại 9 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 11,
+   "rect": [
+    105.31,
+    102.71,
+    443.25,
+    409.7
+   ],
+   "label": "Vẽ lại 9 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 12,
+   "rect": [
+    196.87,
+    88.21,
+    552.3,
+    395.2
+   ],
+   "label": "Vẽ lại 10 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 13,
+   "rect": [
+    111.01,
+    118.39,
+    435.06,
+    419.35
+   ],
+   "label": "Vẽ lại 8 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 15,
+   "rect": [
+    144.95,
+    408.57,
+    478.91,
+    733.06
+   ],
+   "label": "Vẽ lại 13 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 17,
+   "rect": [
+    144.96,
+    388.2,
+    491.32,
+    733.08
+   ],
+   "label": "Vẽ lại 9 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 19,
+   "rect": [
+    118.16,
+    377.17,
+    515.49,
+    729.88
+   ],
+   "label": "Vẽ lại 10 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 21,
+   "rect": [
+    85.84,
+    380.78,
+    540.81,
+    733.48
+   ],
+   "label": "Vẽ lại 12 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 23,
+   "rect": [
+    119.37,
+    434.48,
+    508.68,
+    730.08
+   ],
+   "label": "Vẽ lại 13 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 25,
+   "rect": [
+    95.02,
+    431.7,
+    532.35,
+    732.45
+   ],
+   "label": "Vẽ lại 13 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 27,
+   "rect": [
+    90.15,
+    407.33,
+    530.29,
+    708.08
+   ],
+   "label": "Vẽ lại 10 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 29,
+   "rect": [
+    103.9,
+    375.77,
+    521.27,
+    727.37
+   ],
+   "label": "Vẽ lại 9 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  },
+  {
+   "page": 31,
+   "rect": [
+    119.92,
+    389.32,
+    507.18,
+    727.37
+   ],
+   "label": "Vẽ lại 9 đường theo bảng; nhãn bỏ số 0 đầu",
+   "kind": "chart"
+  }
+ ],
+ "log": []
+}

@@ -1,0 +1,53 @@
+﻿PROMPT NHÓM G07 – Aquaris FS khổ A3
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('Catalog bơm nước thải Aquaris FS (bản mới).pdf')   (thư mục Nước thải)
+  Ra:  S.dst('Catalog bơm nước thải Aquaris FS (bản mới).pdf')   → job = S.job('Catalog bơm nước thải Aquaris FS (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1: CHỮ THẬT
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 54 | SỬA | Catalog bơm nước thải Aquaris FS.pdf | 1 | Bảng PERFORMANCE – hàng m³/h | Thiếu ô "48" dưới cột 800 l/min | Thêm 48 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 55 | SỬA | Catalog bơm nước thải Aquaris FS.pdf | 1 | Đoạn chữ Ý/Anh/Pháp | Chữ chép OCR bị dính/sai: industrian, movimentazionee, utllizzare, peril sollevamentodl, inseritidei, spiacevolidanni, "50 FHz", "dean or slightly dirty", nothigherthan, "anda Schuko", threephase, trlphasé, "IPB8" | industriali, movimentazione e, utilizzare, per il sollevamento di, inseriti dei, spiacevoli danni, 50 Hz, clean, not higher than, and a Schuko, three-phase, triphasé, IP68 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 56 | SỬA | Catalog bơm nước thải Aquaris FS.pdf | 1 | Tiêu đề cột | "FESI - WEIGHT", "Imballa", "CLOSEDIMPELLER", "PotenZa", "Kg³/m" | PESI, Imballo, CLOSED IMPELLER, Potenza, kg/dm³ | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 57 | SỬA | Catalog bơm nước thải Aquaris FS.pdf | 1 | Bảng số liệu | Lẫn dấu thập phân "1.5 / 7.2 / 8.5" với "0,55 / 3,6 / 4,5"; "50HZ"; số "10", "14", "9" to hơn số khác | Đổi dấu phẩy thành dấu chấm; cỡ chữ đều; "50 Hz" | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 136 | GIỮ NGUYÊN (không đụng) | Catalog bơm nước thải Aquaris FS.pdf | Cả 2 file | 2 catalogue cùng tên FS | 2 dòng bơm khác nhau | Giữ cả 2, không đổi | NV trả lời (file câu hỏi 02/10) |
+| 137 | SỬA | Catalog bơm nước thải Aquaris FS.pdf | 1 | Model FS 300/80 – bảng TECHNICAL DATA và bảng kích thước | Cửa xả 50; ren G 2" | Cửa xả 80; ren G 3" | NV trả lời (file câu hỏi 02/10) + Anh Trung chốt 02/10 |
+
+Số việc phải SỬA: 5. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- 1 trang A3, CHỮ THẬT (nhiều font TrueType rút gọn: ArialMT, Arial-BoldMT, ArialNarrow, MyriadPro…).
+  Dùng TextLayer/Job.text_replace. Ký tự mới phải có trong font của chính đoạn đó (catfix báo nếu thiếu).
+- #54 bảng PERFORMANCE hàng m³/h: ô trống dưới cột 800 l/min → thêm "48" bằng TL.insert_like(ô bên cạnh, '48',
+  origin) – căn giữa ô như các ô khác (tính origin từ tâm ô).
+- #55 đoạn chữ Ý/Anh/Pháp: sửa đúng từng cụm trong danh sách (industrian→industriali, movimentazionee→
+  movimentazione e, utllizzare→utilizzare, peril sollevamentodl→per il sollevamento di, inseritidei→inseriti dei,
+  spiacevolidanni→spiacevoli danni, 50 FHz→50 Hz, dean→clean, nothigherthan→not higher than, anda Schuko→
+  and a Schuko, threephase→three-phase, trlphasé→triphasé, IPB8→IP68). Đoạn văn: keep_rest=False nếu muốn
+  phần sau dồn tự nhiên – kiểm cuối dòng không tràn khung.
+- #56 tiêu đề cột: FESI→PESI, Imballa→Imballo, CLOSEDIMPELLER→CLOSED IMPELLER, PotenZa→Potenza, Kg³/m→kg/dm³
+  ('³' có thể không có trong font → báo).
+- #57 bảng số: dấu phẩy thập phân → dấu chấm (regex r'(\d),(\d)'), "50HZ" → "50 Hz"; các số "10", "14", "9" to hơn
+  → viết lại bằng cỡ chuẩn (xoá + insert_like từ ô cỡ chuẩn bên cạnh, căn giữa ô).
+- #137 model FS 300/80: bảng TECHNICAL DATA và bảng kích thước: cửa xả "50" → "80", ren G 2" → G 3".
+- #136: giữ nguyên.
+
+ĐÃ DÒ THỬ BẰNG catfix (để bạn đối chiếu – toạ độ pt, gốc dưới trái; n = số chỗ tìm thấy):
+- Catalog bơm nước thải Aquaris FS.pdf, trang 1, tìm '50 FHz' → n=1 "vanno da 0,55 kW a 2,2 kW. Tensione monofase 230-240 V. 50 F" tại [232.6, 389.5, 253.5, 397.0]
+- Catalog bơm nước thải Aquaris FS.pdf, trang 1, tìm 'industrian' → n=1 "IMPIEGHI: Le elettropompe sommergibili serie FS trovano larg" tại [373.5, 495.0, 402.2, 502.2]
+- Catalog bơm nước thải Aquaris FS.pdf, trang 1, tìm 'PotenZa' → n=1 "PotenZa motore (200=2 HP) " tại [159.0, 570.4, 184.3, 576.9]
+- Catalog bơm nước thải Aquaris FS.pdf, trang 1, tìm 'FESI' → n=1 "FESI - WEIGHT Kg" tại [1080.5, 343.2, 1096.0, 350.0]
+- Catalog bơm nước thải Aquaris FS.pdf, trang 1, tìm 'Imballa' → n=1 "Pompa - Pump Imballa - Pack" tại [1111.2, 330.3, 1132.8, 336.8]
+- Catalog bơm nước thải Aquaris FS.pdf, trang 1, tìm 'CLOSEDIMPELLER' → n=1 "SINGLE CHANNEL CLOSEDIMPELLER" tại [933.4, 462.2, 988.0, 468.0]
+- Catalog bơm nước thải Aquaris FS.pdf, trang 1, tìm 'Kg³/m' → n=3 "a 1.100 Kg³/m." tại [82.4, 459.6, 100.1, 466.8]; "Minimum pumping level: 10 cm. above the pump body. Maximum f" tại [344.8, 302.2, 362.1, 309.1]
+- Catalog bơm nước thải Aquaris FS.pdf, trang 1, tìm 'IPB8' → n=1 "degré de protection IPB8. Dans les moteurs monophasés sont p" tại [116.4, 77.7, 130.6, 84.7]
+- Catalog bơm nước thải Aquaris FS.pdf, trang 1, tìm 'trlphasé' → n=1 "T=trlphasé" tại [495.6, 554.3, 519.5, 560.8]
+- Catalog bơm nước thải Aquaris FS.pdf, trang 1, tìm 'dean' → n=1 "USES: The FS serie submersible electropumps is widely used i" tại [420.1, 336.2, 434.5, 343.0]
+- Catalog bơm nước thải Aquaris FS.pdf, trang 1, tìm '50HZ' → n=1 "50HZ" tại [729.7, 717.1, 750.3, 724.8]
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G07.png") và báo cáo S.report("BAO CAO G07.md"); ghi S.progress("G07", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

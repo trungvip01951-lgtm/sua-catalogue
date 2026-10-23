@@ -1,0 +1,7 @@
+# SL3SL3 đã lưu và nghiệm thu phạm vi bổ sung
+
+Bản hiện hành SL là8cd2389d, trước637c đã sao lưu. Chỉ nhận7đường/91mốc và7chữ của3SL3;3SL4/6SL25 đãđạt trước giữ nguyên. Đã đọc PDF thật, đủ11native vàđồ thị182đối tượng,4crops khớp mẫu+nămảnh trực tiếp; ngoài11trang200/ngưỡng0/đệm0=0.126luồng cũ giữ,1Contents53 sửa có phép; không nói127luồng đều nguyên. Khung trái403/927 và126Ref đổi vẫn giữ thất bại phép so nguyên. ToànSL/G04 chưa xong;135/149việc gốc giữ. SP19M2 đã có hình thức1c178 vàliteral1049ffe4 nhưng chưaPDF/bảnchính; DWO thiếu14min/bảnin thật. Không chạy lại mã tiếp nhận một lần.
+
+Hồ sơ: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G04\SL3SL3 M2 DA LUU NGHIEM THU PHAM VI BO SUNG 20261004T091556Z-8a5a9a\04 ROOT DA TIEP NHAN ACTUAL SL3SL3.json
+
+Kinh nghiệm: màu nền sạch trong bộ nhớ không thay kiểm ảnh thật. Vệt nhỏ từng tương ứng chỗ trắng alpha0 lân cận; mẫu2 phủ đủ hộp chữ đã kiểm sạch, không tự kết luận nguyên nhân bộ dựng. 91điểm chỉ tái dùng khi nguyên luồng lệnh actual/saved literal bằng nhau; phần RGB/mặt nạ đổi phải kiểm riêng. Thứ tự cắt ảnh trước toàntrang ở cùng điều kiện mẫu là điều kiện so SL; không áp tự động cho catalogue khác.

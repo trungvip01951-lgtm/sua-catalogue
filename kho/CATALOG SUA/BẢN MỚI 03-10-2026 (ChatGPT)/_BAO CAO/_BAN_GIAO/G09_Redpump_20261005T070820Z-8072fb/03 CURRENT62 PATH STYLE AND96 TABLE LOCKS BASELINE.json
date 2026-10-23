@@ -1,0 +1,3546 @@
+{
+  "brand": "Redpump",
+  "current_SHA256": "f20b82e880ee756e101a41fdddea87c249d2fc65e48f1532a76022ae81248ed4",
+  "curves62": [
+    {
+      "page": 3,
+      "model": "KTZ35.5",
+      "frequency": 50,
+      "path_and_style_SHA256": "247e4e7839c936c9386ea46984a53e8bbaea69f8d2e44157d14b057e5415fa6a",
+      "objects": [
+        958,
+        959,
+        960,
+        961,
+        962,
+        963,
+        964,
+        965,
+        966,
+        967,
+        968,
+        969,
+        970,
+        971,
+        972,
+        973,
+        974,
+        975,
+        976,
+        977,
+        978,
+        979,
+        980,
+        981,
+        982,
+        983,
+        984,
+        985,
+        986,
+        987,
+        988,
+        989,
+        990,
+        991,
+        992,
+        993,
+        994,
+        995,
+        996,
+        997,
+        998,
+        999,
+        1000,
+        1001
+      ],
+      "segments_accepted": 44,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ23.7",
+      "frequency": 50,
+      "path_and_style_SHA256": "b462e1e1e0ec7351ee61caa6cdb862c53f694659e403e52670aab70aefbf06b7",
+      "objects": [
+        920,
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957
+      ],
+      "segments_accepted": 38,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ33.7",
+      "frequency": 50,
+      "path_and_style_SHA256": "dbde49ad899681e5d219701500cf6ef9cfb89d2d314f12665d452099dfbc3ea7",
+      "objects": [
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        910,
+        911,
+        912,
+        913,
+        914,
+        915,
+        916,
+        917,
+        918,
+        919
+      ],
+      "segments_accepted": 21,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ22.2",
+      "frequency": 50,
+      "path_and_style_SHA256": "fa1c0660d4bf85ff56f900360654f039d3358fd7d10cfc93c2d750fa2bf3cefb",
+      "objects": [
+        831,
+        832,
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841,
+        842,
+        843,
+        844,
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859
+      ],
+      "segments_accepted": 29,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ45.5",
+      "frequency": 50,
+      "path_and_style_SHA256": "7eb36d633a0295ed56e167f009d94980d6ddf7de23f9f924ea9a54bdc029803a",
+      "objects": [
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866,
+        867,
+        868,
+        869,
+        870,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876,
+        877,
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891,
+        892,
+        893,
+        894,
+        895,
+        896,
+        897,
+        898
+      ],
+      "segments_accepted": 39,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ21.5",
+      "frequency": 50,
+      "path_and_style_SHA256": "473c972801545465926eb4971acc35d6c05b956f569e073cc53c4526fb7d74a7",
+      "objects": [
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
+        795,
+        796,
+        797,
+        798,
+        799,
+        800,
+        801,
+        802
+      ],
+      "segments_accepted": 18,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ32.2",
+      "frequency": 50,
+      "path_and_style_SHA256": "c0c2239dc3c7b7baec6cc185cdcffa1608a6754d1a50d6815e45bcfbb831bfa3",
+      "objects": [
+        803,
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814,
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830
+      ],
+      "segments_accepted": 28,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ43.7",
+      "frequency": 50,
+      "path_and_style_SHA256": "1d286feed2d62f567a0e26d7939e543b39a6611c8a54442b29233430c7d635f5",
+      "objects": [
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1030
+      ],
+      "segments_accepted": 29,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ31.5",
+      "frequency": 50,
+      "path_and_style_SHA256": "f9cea8cbc8b4af8d39c9a1058f20a08e2e8b281d3302cdce9ed58329874ff376",
+      "objects": [
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778,
+        779,
+        780,
+        781,
+        782,
+        783,
+        784
+      ],
+      "segments_accepted": 32,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ415",
+      "frequency": 50,
+      "path_and_style_SHA256": "b5f5d88a2761e97711ffaa846a8342957859f0194e319ada9bcdd1200a54c623",
+      "objects": [
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710
+      ],
+      "segments_accepted": 61,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ411",
+      "frequency": 50,
+      "path_and_style_SHA256": "91d6cd9cbeeae14b1aa770aa88d047d9e6cf488195db39d2508cdb89c93ec999",
+      "objects": [
+        558,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "segments_accepted": 56,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ47.5",
+      "frequency": 50,
+      "path_and_style_SHA256": "471398c3bff3675b9cb6ba8599547c7fc1c9655155be7af5c9976428a9272afd",
+      "objects": [
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650
+      ],
+      "segments_accepted": 39,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ615",
+      "frequency": 50,
+      "path_and_style_SHA256": "72e770631b217ca36a24738a46481ff2ff1e6e4bc5826b4a2960926b7175c4ec",
+      "objects": [
+        711,
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752
+      ],
+      "segments_accepted": 42,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ611",
+      "frequency": 50,
+      "path_and_style_SHA256": "49252750dacb5927b55c19884f68fb9f8cd0fe71927d381d9e039ee65153bd11",
+      "objects": [
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525
+      ],
+      "segments_accepted": 37,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 3,
+      "model": "KTZ67.5",
+      "frequency": 50,
+      "path_and_style_SHA256": "f1565f754bd93eefcb909369540c4991c8b5d4e4ad9272f09fbb6be2ec780509",
+      "objects": [
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557
+      ],
+      "segments_accepted": 32,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ35.5",
+      "frequency": 60,
+      "path_and_style_SHA256": "76f1b3f24fc37ef6e4a724ef5cdeba319078c0650d13f651dd05a00d5079a4f8",
+      "objects": [
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741
+      ],
+      "segments_accepted": 35,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ23.7",
+      "frequency": 60,
+      "path_and_style_SHA256": "e674fb1041f1651c3c987dd4fbd03423005d881cb5305870703dcb3d9b115383",
+      "objects": [
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766
+      ],
+      "segments_accepted": 25,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ33.7",
+      "frequency": 60,
+      "path_and_style_SHA256": "50fd64708cd28718c28f1d6efa32c4d74553803eb8ebb621658aa7765b34838c",
+      "objects": [
+        767,
+        768,
+        769,
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778,
+        779,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
+        795,
+        796,
+        797,
+        798
+      ],
+      "segments_accepted": 32,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ22.2",
+      "frequency": 60,
+      "path_and_style_SHA256": "b908a67a91e3587eacd8a03f1a165e36569c772c3816bd2fec387bd739f5f1c7",
+      "objects": [
+        946,
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958,
+        959,
+        960,
+        961,
+        962,
+        963,
+        964,
+        965,
+        966,
+        967,
+        968,
+        969,
+        970,
+        971,
+        972,
+        973,
+        1134,
+        974,
+        975
+      ],
+      "segments_accepted": 110,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ45.5",
+      "frequency": 60,
+      "path_and_style_SHA256": "5a5b36c8a3e2173c4596bf2b39b1d6105b4597d6e70556471a448af406729e0d",
+      "objects": [
+        799,
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814,
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831
+      ],
+      "segments_accepted": 33,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ21.5",
+      "frequency": 60,
+      "path_and_style_SHA256": "d084bcfcaf613d90d35c909a133405d9eb245024bf92a4f295e1b07c1ab4fe0f",
+      "objects": [
+        918,
+        919,
+        920,
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945
+      ],
+      "segments_accepted": 28,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ32.2",
+      "frequency": 60,
+      "path_and_style_SHA256": "c1bbdf75174e18f8a0e94bac31016581677f20d43e0abe229c8ef374bb929d20",
+      "objects": [
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866,
+        867,
+        868,
+        869,
+        870,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876,
+        877,
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891
+      ],
+      "segments_accepted": 32,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ43.7",
+      "frequency": 60,
+      "path_and_style_SHA256": "c8dd5b33d7866da2626ca118483e070c6b0bddcb37dec02aa7b87bae449505dc",
+      "objects": [
+        832,
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841,
+        842,
+        843,
+        844,
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859
+      ],
+      "segments_accepted": 28,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ31.5",
+      "frequency": 60,
+      "path_and_style_SHA256": "f3fcdb204cff03e6ce8eb9f24c626807e1946775c9b1ab402a5efd11148129a0",
+      "objects": [
+        892,
+        893,
+        894,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        910,
+        911,
+        912,
+        913,
+        914,
+        915,
+        916,
+        917
+      ],
+      "segments_accepted": 26,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ415",
+      "frequency": 60,
+      "path_and_style_SHA256": "7bb4baf23622f64259b463d65f05db1872389720f029195283a2070ffe7deaf9",
+      "objects": [
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665
+      ],
+      "segments_accepted": 62,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ411",
+      "frequency": 60,
+      "path_and_style_SHA256": "92621b3e7a53af9628bab8cc8f8b73431ee06137436eb695e3037445a46a5628",
+      "objects": [
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561
+      ],
+      "segments_accepted": 52,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ47.5",
+      "frequency": 60,
+      "path_and_style_SHA256": "9f2a3fdf02fc57136d831daa96afd126ccb08cea2cff1cf317e5370f70e035a5",
+      "objects": [
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603
+      ],
+      "segments_accepted": 42,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ615",
+      "frequency": 60,
+      "path_and_style_SHA256": "f92e508c0cffe52b194d5e9f8ab97fe27d2260d788b7ab7ad46fb6835d48aef5",
+      "objects": [
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706
+      ],
+      "segments_accepted": 41,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ611",
+      "frequency": 60,
+      "path_and_style_SHA256": "2941c318595d5c72bd9f4e8624df23be2b14be4e684acc9ad2dab97301ff5630",
+      "objects": [
+        978,
+        979,
+        980,
+        981,
+        982,
+        983,
+        984,
+        985,
+        986,
+        987,
+        988,
+        989,
+        990,
+        991,
+        992,
+        993,
+        994,
+        995,
+        996,
+        997,
+        998,
+        999,
+        1000,
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017
+      ],
+      "segments_accepted": 40,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 4,
+      "model": "KTZ67.5",
+      "frequency": 60,
+      "path_and_style_SHA256": "8beaea272c20f403852c18ff556c4c9e1791f34dac82d60ddbdf36e5dfa0b16e",
+      "objects": [
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509
+      ],
+      "segments_accepted": 25,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH6110",
+      "frequency": 50,
+      "path_and_style_SHA256": "075312475f66a80ff0ba2dc8fb8259aa58fe9db4b2fcb227d34708e1946881ce",
+      "objects": [
+        1353
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH690",
+      "frequency": 50,
+      "path_and_style_SHA256": "7add72e1bea1501e932b6a00e3bcd3fe5674b089d8e7323e1a9828aaddebf668",
+      "objects": [
+        1349
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH675",
+      "frequency": 50,
+      "path_and_style_SHA256": "ae90cbf715546623b2c8fca96c69f5f17ccbfc351d74de62657444ccd8f136cb",
+      "objects": [
+        1345
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH655",
+      "frequency": 50,
+      "path_and_style_SHA256": "1c15c15e4edb65d446ed5e5158d566d9d63756ca030f5b1bb9efefaa7a87045c",
+      "objects": [
+        1341
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH645",
+      "frequency": 50,
+      "path_and_style_SHA256": "316a1e2f9fa99c1d01b0bde295cd9a742603c4250334c75451bf731550c84287",
+      "objects": [
+        1340
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH637",
+      "frequency": 50,
+      "path_and_style_SHA256": "c59bd66bcbfbfcfe695a99646ca1bf55bcaa8ea2e0242003acc128e90a634dc0",
+      "objects": [
+        1335
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH430",
+      "frequency": 50,
+      "path_and_style_SHA256": "390a9a4b21216c1d12b77f45eab6f2d62aed2ab46f93277095720189d9e41219",
+      "objects": [
+        1336
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH422",
+      "frequency": 50,
+      "path_and_style_SHA256": "f1eebb5441c444f7fb147d4fe4cef27fdf809430595c7c32db39a2e2a519413f",
+      "objects": [
+        1325
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH630",
+      "frequency": 50,
+      "path_and_style_SHA256": "089783e4084fb3a1e8f4e30db560870d64e174ab676f524dd4d2385fe038daf1",
+      "objects": [
+        724
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH622",
+      "frequency": 50,
+      "path_and_style_SHA256": "7e5977ed40170c9abd45f5e1db34bd8237b80fda5c64648feb73586266d348f1",
+      "objects": [
+        1320
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH8110",
+      "frequency": 50,
+      "path_and_style_SHA256": "ac3c570a838bfbf0f58855f5b7bccf08c37c5f8a4437220e342501fb9fb0b110",
+      "objects": [
+        1359
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH890",
+      "frequency": 50,
+      "path_and_style_SHA256": "0186d80653200a8f18aed4ca46435711e4091dc77333171b70676f67e93df6d1",
+      "objects": [
+        1363
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH875",
+      "frequency": 50,
+      "path_and_style_SHA256": "a9c32aa7fbe565169a9e631dd849223a4beaef11ddca894dee580e43eeacb418",
+      "objects": [
+        1368
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH855",
+      "frequency": 50,
+      "path_and_style_SHA256": "08be381a556147fd01c975baf85293f4801feb5031bb3d2c6f5fd3b636e5a468",
+      "objects": [
+        1373
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH845",
+      "frequency": 50,
+      "path_and_style_SHA256": "efe48f77cd821ae8730f1b7fe0339a76a73db416219ab140fa8c5aa86e1f8cfa",
+      "objects": [
+        1378
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH837",
+      "frequency": 50,
+      "path_and_style_SHA256": "353fd05f7e51f6e7e9506c74156de0f0f78af1a2890969a1fee0feb5c5dd3a01",
+      "objects": [
+        1383
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH6110",
+      "frequency": 60,
+      "path_and_style_SHA256": "662a19974c0c1d9308885c279545eb87200644d6c28f766717bec4f9051d6ad1",
+      "objects": [
+        1293
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH690",
+      "frequency": 60,
+      "path_and_style_SHA256": "77166f3747364e72c606735cd7a0e2e5e4757e4e81c0df07d97d48082ce9cda9",
+      "objects": [
+        1287
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH675",
+      "frequency": 60,
+      "path_and_style_SHA256": "bfb6ff97a8a68fdf25fc3b1979ecd4e8d81b4f2f9aef4c1197e3af2f9ffc619b",
+      "objects": [
+        1398
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH655",
+      "frequency": 60,
+      "path_and_style_SHA256": "64bef411d4bda4c2fec17d28ddb9518c061d7cffd389af8b595151d146207c07",
+      "objects": [
+        1286
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH645",
+      "frequency": 60,
+      "path_and_style_SHA256": "5b0058dd20814fdd85a291ecc0b5071cffc11948d7c26e519be29d1063f59e70",
+      "objects": [
+        1391
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH430",
+      "frequency": 60,
+      "path_and_style_SHA256": "c2a015ecb8ce2993220477e9fc791bc925f9171d1629f97b1ceaedc6842310cc",
+      "objects": [
+        1282
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH637",
+      "frequency": 60,
+      "path_and_style_SHA256": "919606e715ef4cf8d10f18d5c721c1f7569b5e45a47ddd8157e21f23cc663ae1",
+      "objects": [
+        1384
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH422",
+      "frequency": 60,
+      "path_and_style_SHA256": "59698b79b0cec7dcbd75ca275a1aa080a6f03a166fbbf7f2f33a1f04a59b9efc",
+      "objects": [
+        1275
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH630",
+      "frequency": 60,
+      "path_and_style_SHA256": "3a91003afc4aaca8fdd0cc4ca2ab4b6aa0bab8cbb8da1f719cbadf693dccee90",
+      "objects": [
+        1274
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH622",
+      "frequency": 60,
+      "path_and_style_SHA256": "15a7292a2778be897140cf84d7453c240cbfa4f1c04ae015b99644fed0339206",
+      "objects": [
+        1265
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH8110",
+      "frequency": 60,
+      "path_and_style_SHA256": "09ba526ece1f3b101d4b5778b7bd22f3af82a0dcdc3874bf272f90d19b93815d",
+      "objects": [
+        1297
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH890",
+      "frequency": 60,
+      "path_and_style_SHA256": "a62972ebc09a56a2d888d46357816d7d8b1444d717901b9dbf1ad2c1973e7387",
+      "objects": [
+        1301
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH875",
+      "frequency": 60,
+      "path_and_style_SHA256": "78c59ee9bca78466aa4a03fe4fc77f05245d386b5f5289387aeec7e5991bcffe",
+      "objects": [
+        1306
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH855",
+      "frequency": 60,
+      "path_and_style_SHA256": "d9a9c57f40288813702bf33d705ddf27f94ac6aa5d68638de42ee66849515649",
+      "objects": [
+        1311
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH845",
+      "frequency": 60,
+      "path_and_style_SHA256": "c473044f90b7e8ce413d2c89be8e2fe9b830492049ba3a74b8cbc2a7af7bb7d7",
+      "objects": [
+        1393
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    },
+    {
+      "page": 7,
+      "model": "LH837",
+      "frequency": 60,
+      "path_and_style_SHA256": "c2a130d590429c4d486356f237c52c635bbd45249d75131b7486a9e89cb4d4ce",
+      "objects": [
+        1392
+      ],
+      "segments_accepted": 2,
+      "full_domain_decrease_previously_accepted": true
+    }
+  ],
+  "LH_table96_locks": [
+    {
+      "model": "LH6110",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 200,
+        "Q_rated": 120,
+        "H_rated": 150,
+        "Qmax": 192
+      }
+    },
+    {
+      "model": "LH690",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 140,
+        "Q_rated": 120,
+        "H_rated": 128,
+        "Qmax": 180
+      }
+    },
+    {
+      "model": "LH675",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 132,
+        "Q_rated": 90,
+        "H_rated": 120,
+        "Qmax": 180
+      }
+    },
+    {
+      "model": "LH655",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 102,
+        "Q_rated": 90,
+        "H_rated": 90,
+        "Qmax": 180
+      }
+    },
+    {
+      "model": "LH645",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 90,
+        "Q_rated": 120,
+        "H_rated": 75,
+        "Qmax": 220
+      }
+    },
+    {
+      "model": "LH637",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 83,
+        "Q_rated": 120,
+        "H_rated": 65,
+        "Qmax": 220
+      }
+    },
+    {
+      "model": "LH430",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 78,
+        "Q_rated": 72,
+        "H_rated": 70,
+        "Qmax": 170
+      }
+    },
+    {
+      "model": "LH422",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 68,
+        "Q_rated": 66,
+        "H_rated": 60,
+        "Qmax": 130
+      }
+    },
+    {
+      "model": "LH630",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 58,
+        "Q_rated": 140,
+        "H_rated": 45,
+        "Qmax": 220
+      }
+    },
+    {
+      "model": "LH622",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 50,
+        "Q_rated": 120,
+        "H_rated": 37,
+        "Qmax": 200
+      }
+    },
+    {
+      "model": "LH8110",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 107,
+        "Q_rated": 270,
+        "H_rated": 90,
+        "Qmax": 390
+      }
+    },
+    {
+      "model": "LH890",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 90,
+        "Q_rated": 270,
+        "H_rated": 70,
+        "Qmax": 360
+      }
+    },
+    {
+      "model": "LH875",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 70,
+        "Q_rated": 270,
+        "H_rated": 60,
+        "Qmax": 408
+      }
+    },
+    {
+      "model": "LH855",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 65,
+        "Q_rated": 240,
+        "H_rated": 50,
+        "Qmax": 390
+      }
+    },
+    {
+      "model": "LH845",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 53,
+        "Q_rated": 270,
+        "H_rated": 35,
+        "Qmax": 372
+      }
+    },
+    {
+      "model": "LH837",
+      "frequency": 50,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 48,
+        "Q_rated": 216,
+        "H_rated": 35,
+        "Qmax": 330
+      }
+    },
+    {
+      "model": "LH6110",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 205,
+        "Q_rated": 120,
+        "H_rated": 160,
+        "Qmax": 171
+      }
+    },
+    {
+      "model": "LH690",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 140,
+        "Q_rated": 120,
+        "H_rated": 128,
+        "Qmax": 180
+      }
+    },
+    {
+      "model": "LH675",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 132,
+        "Q_rated": 90,
+        "H_rated": 120,
+        "Qmax": 168
+      }
+    },
+    {
+      "model": "LH655",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 102,
+        "Q_rated": 90,
+        "H_rated": 90,
+        "Qmax": 180
+      }
+    },
+    {
+      "model": "LH645",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 90,
+        "Q_rated": 100,
+        "H_rated": 75,
+        "Qmax": 198
+      }
+    },
+    {
+      "model": "LH430",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 82,
+        "Q_rated": 72,
+        "H_rated": 75,
+        "Qmax": 144
+      }
+    },
+    {
+      "model": "LH637",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 80,
+        "Q_rated": 100,
+        "H_rated": 65,
+        "Qmax": 198
+      }
+    },
+    {
+      "model": "LH422",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 68,
+        "Q_rated": 66,
+        "H_rated": 60,
+        "Qmax": 138
+      }
+    },
+    {
+      "model": "LH630",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 64,
+        "Q_rated": 140,
+        "H_rated": 48,
+        "Qmax": 216
+      }
+    },
+    {
+      "model": "LH622",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 52,
+        "Q_rated": 120,
+        "H_rated": 40,
+        "Qmax": 210
+      }
+    },
+    {
+      "model": "LH8110",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 107,
+        "Q_rated": 270,
+        "H_rated": 90,
+        "Qmax": 390
+      }
+    },
+    {
+      "model": "LH890",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 90,
+        "Q_rated": 270,
+        "H_rated": 70,
+        "Qmax": 360
+      }
+    },
+    {
+      "model": "LH875",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 78,
+        "Q_rated": 270,
+        "H_rated": 60,
+        "Qmax": 348
+      }
+    },
+    {
+      "model": "LH855",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 65,
+        "Q_rated": 240,
+        "H_rated": 50,
+        "Qmax": 390
+      }
+    },
+    {
+      "model": "LH845",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 56,
+        "Q_rated": 270,
+        "H_rated": 35,
+        "Qmax": 305
+      }
+    },
+    {
+      "model": "LH837",
+      "frequency": 60,
+      "table_locks": {
+        "Q0": 0,
+        "Hmax": 50,
+        "Q_rated": 216,
+        "H_rated": 35,
+        "Qmax": 306
+      }
+    }
+  ],
+  "native7": [
+    {
+      "page": 1,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\CURRENT P01 NATIVE HELD.bin",
+      "SHA256": "2f2faf7f28128978d974a8cfadde45e7b9b9b5337ecc284f23d3468b126315a8",
+      "Contents_refs": [
+        [
+          48,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        5,
+        0
+      ]
+    },
+    {
+      "page": 2,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\CURRENT P02 NATIVE HELD.bin",
+      "SHA256": "3ef096dea28a9020cc62ba5328f7e6ffb7ccbe39f56c30b72ca5473961cbbd3a",
+      "Contents_refs": [
+        [
+          55,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        15,
+        0
+      ]
+    },
+    {
+      "page": 3,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\CURRENT P03 NATIVE HELD.bin",
+      "SHA256": "7954f1d1aae752b927d9688b60cfe5555a5a66f6e7392dadae13d42e5da21d68",
+      "Contents_refs": [
+        [
+          69,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        21,
+        0
+      ]
+    },
+    {
+      "page": 4,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\CURRENT P04 NATIVE HELD.bin",
+      "SHA256": "a77e0b6206a37fb44d199ba2e2fbcc186f8e36fac6db6e360dafc4aeb980ee33",
+      "Contents_refs": [
+        [
+          70,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        27,
+        0
+      ]
+    },
+    {
+      "page": 5,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\CURRENT P05 NATIVE HELD.bin",
+      "SHA256": "c610b30bc52f605d34a1528d5368cc8ac5dce64a98a7746c959c37f36cec6bf9",
+      "Contents_refs": [
+        [
+          62,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        31,
+        0
+      ]
+    },
+    {
+      "page": 6,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\CURRENT P06 NATIVE HELD.bin",
+      "SHA256": "8a661837a396579ff32a91e8c34094c91739c9696425dac62557f601a8ade7cc",
+      "Contents_refs": [
+        [
+          65,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        35,
+        0
+      ]
+    },
+    {
+      "page": 7,
+      "path": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\CURRENT P07 NATIVE HELD.bin",
+      "SHA256": "986e0dd9decd219cc61e16375ad421369aeac9d16d8a791a32ae1538b5eb32f2",
+      "Contents_refs": [
+        [
+          73,
+          0
+        ]
+      ],
+      "MediaBox": [
+        0.0,
+        0.0,
+        595.28,
+        842.27
+      ],
+      "Page_Ref": [
+        41,
+        0
+      ]
+    }
+  ],
+  "streams_current_RAW_baseline": [
+    {
+      "Ref": [
+        47,
+        0
+      ],
+      "RAW_SHA256": "510d5ba825f32a3805b039318a7af7c2c466fe81c550e699d68cb4ad5975a080"
+    },
+    {
+      "Ref": [
+        48,
+        0
+      ],
+      "RAW_SHA256": "ca971ef88c9af74e6a628349641fc6a0bde6fed63118a2d1a662cb19f4778329"
+    },
+    {
+      "Ref": [
+        49,
+        0
+      ],
+      "RAW_SHA256": "44656182963deb2aa6358cb6c31d34e9f130cb9f8c75fc3b838f4b950d2916fc"
+    },
+    {
+      "Ref": [
+        50,
+        0
+      ],
+      "RAW_SHA256": "8a52fd2d8e4840a8dea24744b1fb98b386f55549e9f9f73ea133b931d0cf94d5"
+    },
+    {
+      "Ref": [
+        51,
+        0
+      ],
+      "RAW_SHA256": "61a62b88f485ca476737a8b04a82b7cbfabe6e08e7d93e77be6c080a6a6950af"
+    },
+    {
+      "Ref": [
+        52,
+        0
+      ],
+      "RAW_SHA256": "f120f4f501b503a08621b87a5fd19013b6e34581c895c0f5ab29616596ea71ca"
+    },
+    {
+      "Ref": [
+        53,
+        0
+      ],
+      "RAW_SHA256": "41671047b48ad2e3032901783a358d42c1191aebd3ad69e8b20c3f15da6fa079"
+    },
+    {
+      "Ref": [
+        54,
+        0
+      ],
+      "RAW_SHA256": "475fd10237425d5dfe655f82eb6807a7124858c33481d7f1b2bc50734713ec73"
+    },
+    {
+      "Ref": [
+        55,
+        0
+      ],
+      "RAW_SHA256": "9bb03609386b2e5ead1e07fbfa3b124813c8ee4595433746c2c5f9c202c34192"
+    },
+    {
+      "Ref": [
+        56,
+        0
+      ],
+      "RAW_SHA256": "ea42f7abbc0b75a4cf94dc70afcafa7b5c73d2ebd72229d7558999e2542d2468"
+    },
+    {
+      "Ref": [
+        57,
+        0
+      ],
+      "RAW_SHA256": "6c24d2cdab59d2101b05c77c5e52aae8f59eaf8d29b4fa602b4e49d06943e3f2"
+    },
+    {
+      "Ref": [
+        58,
+        0
+      ],
+      "RAW_SHA256": "bba6768d1e55a01ab3861655d1e6af8b1ee04560a40af065a15d0e83f55610e8"
+    },
+    {
+      "Ref": [
+        60,
+        0
+      ],
+      "RAW_SHA256": "c9083ae6e835908377b8f13ffe0e65efc65ef776abe76c7b72e46c7b123bc63b"
+    },
+    {
+      "Ref": [
+        62,
+        0
+      ],
+      "RAW_SHA256": "94984af8126f1a812c5042a589e0966b465443084d270474e19aa4e46fda4e9e"
+    },
+    {
+      "Ref": [
+        63,
+        0
+      ],
+      "RAW_SHA256": "ca535bc4a899fdbb5b90ff833456b9665fb3180498cf6438568a87b937f439e0"
+    },
+    {
+      "Ref": [
+        64,
+        0
+      ],
+      "RAW_SHA256": "e201e313e1dd7b952d09516719c84e537f5c096c45040f5eb1dbbb3dc35c1f1e"
+    },
+    {
+      "Ref": [
+        65,
+        0
+      ],
+      "RAW_SHA256": "aaa28efdc6b9e02a9c5e3d52d7c3e3bd1475ccb23211d26c5cefcf06ef61abd9"
+    },
+    {
+      "Ref": [
+        66,
+        0
+      ],
+      "RAW_SHA256": "9dda5ed2c6e2428414eabc566e8cf5c8fcae4e899220bfad044dfd6d19a39069"
+    },
+    {
+      "Ref": [
+        69,
+        0
+      ],
+      "RAW_SHA256": "6d70040ca7d649e8a3e19a706815e1f5f8ed4404332a72c4d09ceaf4b5fc4528"
+    },
+    {
+      "Ref": [
+        70,
+        0
+      ],
+      "RAW_SHA256": "b5b793c660798107e2327da0e8e4f9160309938cfd2a275fb8f1a3124cd1a413"
+    },
+    {
+      "Ref": [
+        73,
+        0
+      ],
+      "RAW_SHA256": "938ae6f6adef79dc2fdcccd47a3922c2434a45f3a6d25c571d90db6cfaf5e304"
+    }
+  ],
+  "resources7_typed": [
+    {
+      "ExtGState": {
+        "Ref": [
+          12,
+          0
+        ]
+      },
+      "Font": {
+        "Ref": [
+          14,
+          0
+        ]
+      },
+      "ProcSet": [
+        {
+          "Name": "PDF"
+        },
+        {
+          "Name": "ImageC"
+        },
+        {
+          "Name": "Text"
+        }
+      ],
+      "XObject": {
+        "Ref": [
+          13,
+          0
+        ]
+      }
+    },
+    {
+      "ExtGState": {
+        "Ref": [
+          18,
+          0
+        ]
+      },
+      "Font": {
+        "Ref": [
+          20,
+          0
+        ]
+      },
+      "ProcSet": [
+        {
+          "Name": "PDF"
+        },
+        {
+          "Name": "ImageC"
+        },
+        {
+          "Name": "Text"
+        }
+      ],
+      "XObject": {
+        "Ref": [
+          19,
+          0
+        ]
+      }
+    },
+    {
+      "ExtGState": {
+        "Ref": [
+          24,
+          0
+        ]
+      },
+      "Font": {
+        "Ref": [
+          26,
+          0
+        ]
+      },
+      "ProcSet": [
+        {
+          "Name": "PDF"
+        },
+        {
+          "Name": "ImageC"
+        },
+        {
+          "Name": "Text"
+        }
+      ],
+      "XObject": {
+        "Ref": [
+          25,
+          0
+        ]
+      }
+    },
+    {
+      "ExtGState": {
+        "Ref": [
+          28,
+          0
+        ]
+      },
+      "Font": {
+        "Ref": [
+          30,
+          0
+        ]
+      },
+      "ProcSet": [
+        {
+          "Name": "PDF"
+        },
+        {
+          "Name": "ImageC"
+        },
+        {
+          "Name": "Text"
+        }
+      ],
+      "XObject": {
+        "Ref": [
+          29,
+          0
+        ]
+      }
+    },
+    {
+      "ExtGState": {
+        "Ref": [
+          32,
+          0
+        ]
+      },
+      "Font": {
+        "Ref": [
+          34,
+          0
+        ]
+      },
+      "ProcSet": [
+        {
+          "Name": "PDF"
+        },
+        {
+          "Name": "ImageC"
+        },
+        {
+          "Name": "Text"
+        }
+      ],
+      "XObject": {
+        "Ref": [
+          33,
+          0
+        ]
+      }
+    },
+    {
+      "ExtGState": {
+        "Ref": [
+          38,
+          0
+        ]
+      },
+      "Font": {
+        "Ref": [
+          40,
+          0
+        ]
+      },
+      "ProcSet": [
+        {
+          "Name": "PDF"
+        },
+        {
+          "Name": "ImageC"
+        },
+        {
+          "Name": "Text"
+        }
+      ],
+      "XObject": {
+        "Ref": [
+          39,
+          0
+        ]
+      }
+    },
+    {
+      "ExtGState": {
+        "Ref": [
+          42,
+          0
+        ]
+      },
+      "Font": {
+        "Ref": [
+          44,
+          0
+        ]
+      },
+      "ProcSet": [
+        {
+          "Name": "PDF"
+        },
+        {
+          "Name": "ImageC"
+        },
+        {
+          "Name": "Text"
+        }
+      ],
+      "XObject": {
+        "Ref": [
+          43,
+          0
+        ]
+      }
+    }
+  ],
+  "metadata_source_current": {
+    "source": {
+      "page_count": 7,
+      "Info": {
+        "format": "PDF 1.7",
+        "title": "KTZ - LH Redpump goc",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "Adobe Illustrator 27.9 (Windows)",
+        "producer": "GPL Ghostscript 10.07.0",
+        "creationDate": "D:20260914111948+07'00'",
+        "modDate": "D:20260914111948+07'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "XMP_semantic": "<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>\n<?adobe-xap-filters esc=\"CRLF\"?>\n<n0:xmpmeta xmlns:n0=\"adobe:ns:meta/\" n0:xmptk=\"XMP toolkit 2.9.1-13, framework 1.6\"><n1:RDF xmlns:n1=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><n1:Description xmlns:n2=\"http://ns.adobe.com/pdf/1.3/\" n2:Producer=\"GPL Ghostscript 10.07.0\" n1:about=\"\"></n1:Description><n1:Description n1:about=\"\"><n3:ModifyDate xmlns:n3=\"http://ns.adobe.com/xap/1.0/\">2026-09-14T11:19:48+07:00</n3:ModifyDate><n3:CreateDate xmlns:n3=\"http://ns.adobe.com/xap/1.0/\">2026-09-14T11:19:48+07:00</n3:CreateDate><n3:MetadataDate xmlns:n3=\"http://ns.adobe.com/xap/1.0/\">2026-09-14T11:19:48+07:00</n3:MetadataDate><n3:CreatorTool xmlns:n3=\"http://ns.adobe.com/xap/1.0/\">Adobe Illustrator 27.9 (Windows)</n3:CreatorTool></n1:Description><n1:Description xmlns:n4=\"http://ns.adobe.com/xap/1.0/mm/\" n4:DocumentID=\"uuid:05cded5b-b24f-11f1-0000-133d5441a3fa\" n1:about=\"\"></n1:Description><n1:Description xmlns:n4=\"http://ns.adobe.com/xap/1.0/mm/\" n4:RenditionClass=\"default\" n1:about=\"\"></n1:Description><n1:Description xmlns:n4=\"http://ns.adobe.com/xap/1.0/mm/\" n4:VersionID=\"1\" n1:about=\"\"></n1:Description><n1:Description xmlns:n5=\"http://purl.org/dc/elements/1.1/\" n5:format=\"application/pdf\" n1:about=\"\"><n5:title><n1:Alt><n1:li xml:lang=\"x-default\">KTZ - LH Redpump goc</n1:li></n1:Alt></n5:title></n1:Description></n1:RDF></n0:xmpmeta>\n<?xpacket end='w'?>",
+      "bookmarks": [],
+      "links": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "annotations": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "rects": [
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ]
+      ],
+      "rotations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "boxes": [
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            59.877899169921875,
+            8.2701416015625,
+            552.7620239257812,
+            765.0723190307617
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            0.0,
+            0.3641357421875,
+            594.0808715820312,
+            841.9052195250988
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            56.03860092163086,
+            8.2701416015625,
+            558.0689086914062,
+            794.5890197753906
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            840.9340195655823
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            0.41350001096725464,
+            0.9381103515625,
+            595.27587890625,
+            842.27001953125
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            0.13779999315738678,
+            0.9381103515625,
+            595.1378784179688,
+            842.27001953125
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            2.012200117111206,
+            2.23809814453125,
+            595.27587890625,
+            842.27001953125
+          ]
+        }
+      ],
+      "fonts": [
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "LSJJZE+ArialMT",
+            "R28",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "LSJJZE+ArialMT",
+            "R28",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "GLZHCM+Arial-BoldMT",
+            "R36",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "LSJJZE+ArialMT",
+            "R28",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "GLZHCM+Arial-BoldMT",
+            "R36",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "LSJJZE+ArialMT",
+            "R28",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "PYZZHQ+SegoeUIEmoji",
+            "R58",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "LSJJZE+ArialMT",
+            "R28",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "PYZZHQ+SegoeUIEmoji",
+            "R58",
+            "",
+            0
+          ]
+        ]
+      ],
+      "texts": [
+        "KTZ\n",
+        "KTZ21.5\nKTZ31.5\nKTZ22.2\nKTZ32.2\nKTZ23.7\nKTZ33.7\nKTZ43.7\nKTZ35.5\nKTZ45.5\nKTZ47.5\nKTZ67.5\nKTZ411\nKTZ611\nKTZ415\nKTZ615\nKTZ\n",
+        "KTZ\nKTZ21.5\nKTZ22.2\nKTZ32.2\nKTZ23.7\nKTZ33.7\nKTZ43.7\nKTZ35.5\nKTZ45.5\nKTZ47.5\nKTZ67.5\nKTZ411\nKTZ611\nKTZ415\nKTZ615\nKTZ31.5\n21.5\n22.2\n32.2\n23.7\n33.7\n43.7\n35.5\n45.5\n47.5\n67.5\n411\n611\n415\n615\n31.5\n",
+        "KTZ\n21.5\n22.2\n32.2\n23.7\n33.7\n43.7\n35.5\n45.5\n47.5\n67.5\n411\n611\n415\n615\n31.5\nKTZ21.5\nKTZ31.5\nKTZ22.2\nKTZ32.2\nKTZ23.7\nKTZ33.7\nKTZ43.7\nKTZ35.5\nKTZ45.5\nKTZ47.5\nKTZ67.5\nKTZ411\nKTZ611\nKTZ415\nKTZ615\n",
+        "LH\n",
+        "LH\nLH422\nLH430\nLH622\nLH630\nLH637\nLH645\nLH837\nLH845\nLH655\nLH675\nLH855\nLH875\nLH690\nLH890\nLH6110\nLH8110\n",
+        "LH\nLH422\nLH430\nLH622\nLH630\nLH637\nLH645\nLH837\nLH845\nLH655\nLH675\nLH855\nLH875\nLH690\nLH890\nLH6110\nLH8110\n"
+      ],
+      "raw_XMP_SHA256": "55c8100bd4a4397da44659e2d7aa991ed58190aa80d09aa9ddb07d99144a760b"
+    },
+    "current": {
+      "page_count": 7,
+      "Info": {
+        "format": "PDF 1.7",
+        "title": "KTZ - LH Redpump goc",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "Adobe Illustrator 27.9 (Windows)",
+        "producer": "GPL Ghostscript 10.07.0",
+        "creationDate": "D:20260914111948+07'00'",
+        "modDate": "D:20260914111948+07'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "XMP_semantic": "<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>\n<?adobe-xap-filters esc=\"CRLF\"?>\n<n0:xmpmeta xmlns:n0=\"adobe:ns:meta/\" n0:xmptk=\"XMP toolkit 2.9.1-13, framework 1.6\"><n1:RDF xmlns:n1=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><n1:Description xmlns:n2=\"http://ns.adobe.com/pdf/1.3/\" n2:Producer=\"GPL Ghostscript 10.07.0\" n1:about=\"\"></n1:Description><n1:Description n1:about=\"\"><n3:ModifyDate xmlns:n3=\"http://ns.adobe.com/xap/1.0/\">2026-09-14T11:19:48+07:00</n3:ModifyDate><n3:CreateDate xmlns:n3=\"http://ns.adobe.com/xap/1.0/\">2026-09-14T11:19:48+07:00</n3:CreateDate><n3:MetadataDate xmlns:n3=\"http://ns.adobe.com/xap/1.0/\">2026-09-14T11:19:48+07:00</n3:MetadataDate><n3:CreatorTool xmlns:n3=\"http://ns.adobe.com/xap/1.0/\">Adobe Illustrator 27.9 (Windows)</n3:CreatorTool></n1:Description><n1:Description xmlns:n4=\"http://ns.adobe.com/xap/1.0/mm/\" n4:DocumentID=\"uuid:05cded5b-b24f-11f1-0000-133d5441a3fa\" n1:about=\"\"></n1:Description><n1:Description xmlns:n4=\"http://ns.adobe.com/xap/1.0/mm/\" n4:RenditionClass=\"default\" n1:about=\"\"></n1:Description><n1:Description xmlns:n4=\"http://ns.adobe.com/xap/1.0/mm/\" n4:VersionID=\"1\" n1:about=\"\"></n1:Description><n1:Description xmlns:n5=\"http://purl.org/dc/elements/1.1/\" n5:format=\"application/pdf\" n1:about=\"\"><n5:title><n1:Alt><n1:li xml:lang=\"x-default\">KTZ - LH Redpump goc</n1:li></n1:Alt></n5:title></n1:Description></n1:RDF></n0:xmpmeta>\n<?xpacket end='w'?>",
+      "bookmarks": [],
+      "links": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "annotations": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "rects": [
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ],
+        [
+          0.0,
+          0.0,
+          595.27587890625,
+          842.2670288085938
+        ]
+      ],
+      "rotations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "boxes": [
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            59.877899169921875,
+            8.2701416015625,
+            552.7620239257812,
+            765.0723190307617
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            0.0,
+            0.3641357421875,
+            594.0808715820312,
+            841.9052195250988
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            56.03860092163086,
+            8.2701416015625,
+            558.0689086914062,
+            794.5890197753906
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            840.9340195655823
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            0.41350001096725464,
+            0.9381103515625,
+            595.27587890625,
+            842.27001953125
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            0.13779999315738678,
+            0.9381103515625,
+            595.1378784179688,
+            842.27001953125
+          ]
+        },
+        {
+          "Media": [
+            0.0,
+            0.0,
+            595.280029296875,
+            842.27001953125
+          ],
+          "Crop": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Bleed": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Trim": [
+            0.0,
+            0.00299072265625,
+            595.27587890625,
+            842.27001953125
+          ],
+          "Art": [
+            2.012200117111206,
+            2.23809814453125,
+            595.27587890625,
+            842.27001953125
+          ]
+        }
+      ],
+      "fonts": [
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "LSJJZE+ArialMT",
+            "R28",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "LSJJZE+ArialMT",
+            "R28",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "GLZHCM+Arial-BoldMT",
+            "R36",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "LSJJZE+ArialMT",
+            "R28",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "GLZHCM+Arial-BoldMT",
+            "R36",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "LSJJZE+ArialMT",
+            "R28",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "PYZZHQ+SegoeUIEmoji",
+            "R58",
+            "",
+            0
+          ]
+        ],
+        [
+          [
+            "ttf",
+            "TrueType",
+            "JCFJZE+Arial-Black",
+            "R16",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "LSJJZE+ArialMT",
+            "R28",
+            "",
+            0
+          ],
+          [
+            "ttf",
+            "TrueType",
+            "PYZZHQ+SegoeUIEmoji",
+            "R58",
+            "",
+            0
+          ]
+        ]
+      ],
+      "texts": [
+        "KTZ\n",
+        "KTZ21.5\nKTZ31.5\nKTZ22.2\nKTZ32.2\nKTZ23.7\nKTZ33.7\nKTZ43.7\nKTZ35.5\nKTZ45.5\nKTZ47.5\nKTZ67.5\nKTZ411\nKTZ611\nKTZ415\nKTZ615\nKTZ\n",
+        "KTZ\nKTZ21.5\nKTZ22.2\nKTZ32.2\nKTZ23.7\nKTZ33.7\nKTZ43.7\nKTZ35.5\nKTZ45.5\nKTZ47.5\nKTZ67.5\nKTZ411\nKTZ611\nKTZ415\nKTZ615\nKTZ31.5\n21.5\n22.2\n32.2\n23.7\n33.7\n43.7\n35.5\n45.5\n47.5\n67.5\n411\n611\n415\n615\n31.5\n",
+        "KTZ\n21.5\n22.2\n32.2\n23.7\n33.7\n43.7\n35.5\n45.5\n47.5\n67.5\n411\n611\n415\n615\n31.5\nKTZ21.5\nKTZ31.5\nKTZ22.2\nKTZ32.2\nKTZ23.7\nKTZ33.7\nKTZ43.7\nKTZ35.5\nKTZ45.5\nKTZ47.5\nKTZ67.5\nKTZ411\nKTZ611\nKTZ415\nKTZ615\n",
+        "LH\n",
+        "LH\nLH422\nLH430\nLH622\nLH630\nLH637\nLH645\nLH837\nLH845\nLH655\nLH675\nLH855\nLH875\nLH690\nLH890\nLH6110\nLH8110\n",
+        "LH\nLH422\nLH430\nLH622\nLH630\nLH637\nLH645\nLH837\nLH845\nLH655\nLH675\nLH855\nLH875\nLH690\nLH890\nLH6110\nLH8110\n"
+      ],
+      "raw_XMP_SHA256": "55c8100bd4a4397da44659e2d7aa991ed58190aa80d09aa9ddb07d99144a760b"
+    },
+    "saved": null,
+    "source_current_equal_observation": true,
+    "current_saved_exact_if_saved": false,
+    "numeric_outline_graph_checked_by_bijection": true
+  }
+}

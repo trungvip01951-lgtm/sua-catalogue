@@ -1,0 +1,633 @@
+{
+  "captured_utc": "2026-10-09T09:39:03.183960+00:00",
+  "scope": "Ảnh chụp trạng thái tệp; không phải nghiệm thu số/đồ họa",
+  "catalogue_count": 25,
+  "catalogues": [
+    {
+      "source_relative": "Giếng/Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+      "current_relative": "Giếng/Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+      "source_sha256": "d5244aa6c2e2772a636a2040fe6853fbcb53fdb417ff7e8ee316528339087c1f",
+      "source_actual_at_snapshot_sha256": "d5244aa6c2e2772a636a2040fe6853fbcb53fdb417ff7e8ee316528339087c1f",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "427a70820ce05318f72e2bd7cf113874d1a754a0cee2bbd1ac98538a6b71df90",
+      "source_bytes": 1754777,
+      "current_bytes": 328438,
+      "groups": [
+        "G03"
+      ],
+      "tasks": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        130
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Giếng/Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+      "current_relative": "Giếng/G02 (gồm cả G01)/Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+      "source_sha256": "c56abd03329bbe9469156196e2da7782d07a66f60b685c4c9f4b3d74b45ed785",
+      "source_actual_at_snapshot_sha256": "c56abd03329bbe9469156196e2da7782d07a66f60b685c4c9f4b3d74b45ed785",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "cfe9b2636314b62d1aef764aef5883218f2d48236a512f1062fde51ec2be0e37",
+      "source_bytes": 7138690,
+      "current_bytes": 14744581,
+      "groups": [
+        "G01",
+        "G02"
+      ],
+      "tasks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "canonical_selection_note": "G02 hợp nhất G01; bản G01 ở cấpGiếng là kết quả cũ, không dùng ghi lùi."
+    },
+    {
+      "source_relative": "Giếng/Perotac bơm giếng SA_compressed (bản mới).pdf",
+      "current_relative": "Giếng/Perotac bơm giếng SA_compressed (bản mới).pdf",
+      "source_sha256": "3925ae2a4beaf22a6514837949e631b2777e83dcd87e4990d7fbd01f3c5d2bcd",
+      "source_actual_at_snapshot_sha256": "3925ae2a4beaf22a6514837949e631b2777e83dcd87e4990d7fbd01f3c5d2bcd",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "e91bedd738963d915b0668085b409d38af314f2ba75a7157a29c3852d4b949ad",
+      "source_bytes": 2206481,
+      "current_bytes": 429494,
+      "groups": [
+        "G04"
+      ],
+      "tasks": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        131,
+        132
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Giếng/Perotac bơm giếng SP_compressed (bản mới).pdf",
+      "current_relative": "Giếng/Perotac bơm giếng SP_compressed (bản mới).pdf",
+      "source_sha256": "e1b94dc6f23c35d18d61cee71d9d88c844b1070d14ff662bbabe2256cdd690c9",
+      "source_actual_at_snapshot_sha256": "e1b94dc6f23c35d18d61cee71d9d88c844b1070d14ff662bbabe2256cdd690c9",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "00debe7acb61252485fc20cf1d094842977ac468a18089e4b8086496ab476af4",
+      "source_bytes": 2634146,
+      "current_bytes": 4956463,
+      "groups": [
+        "G05"
+      ],
+      "tasks": [
+        47,
+        48,
+        49,
+        50,
+        132,
+        133,
+        134,
+        135
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Giếng/Redpump gieng SL_compressed (bản mới).pdf",
+      "current_relative": "Giếng/Redpump gieng SL_compressed (bản mới).pdf",
+      "source_sha256": "a01b7f84c0ebb4960a6b9601d98a04420c4c00f8bf1d48a23e1bde4e8b084038",
+      "source_actual_at_snapshot_sha256": "a01b7f84c0ebb4960a6b9601d98a04420c4c00f8bf1d48a23e1bde4e8b084038",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "5b762e846fc91ebc5cc535a800746b0f61f8c896a9f56274d5a14a052a4f2b59",
+      "source_bytes": 2182937,
+      "current_bytes": 3791455,
+      "groups": [
+        "G04"
+      ],
+      "tasks": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        131,
+        132,
+        162
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Nước thải/Aquaris FS_300dpi_75% (bản mới).pdf",
+      "current_relative": "Nước thải/Aquaris FS_300dpi_75% (bản mới).pdf",
+      "source_sha256": "a297ed5b1dec97c33b6d2327d25d30bd3f317690548b9d5895c59e1376a63b31",
+      "source_actual_at_snapshot_sha256": "a297ed5b1dec97c33b6d2327d25d30bd3f317690548b9d5895c59e1376a63b31",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "0127ab81d50e87707588971ceac30aab995126ecd121fa0759492c5d9e4b01fe",
+      "source_bytes": 2237886,
+      "current_bytes": 825244,
+      "groups": [
+        "G06"
+      ],
+      "tasks": [
+        51,
+        52,
+        53,
+        136
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Nước thải/Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+      "current_relative": "Nước thải/Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+      "source_sha256": "4ae76b0cc2a5d1060763b332093ce952ac964902bd9aaa705f4a36b4ef9ce8fa",
+      "source_actual_at_snapshot_sha256": "4ae76b0cc2a5d1060763b332093ce952ac964902bd9aaa705f4a36b4ef9ce8fa",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "c0a49a5fc7b64b757a1848f1c45019313cd387ca4717f347daecf52a2196df2d",
+      "source_bytes": 2015699,
+      "current_bytes": 866044,
+      "groups": [
+        "G07"
+      ],
+      "tasks": [
+        54,
+        55,
+        56,
+        57,
+        136,
+        137
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Nước thải/Catalog cắt rác Aquaris WC (bản mới).pdf",
+      "current_relative": "Nước thải/Catalog cắt rác Aquaris WC (bản mới).pdf",
+      "source_sha256": "b44ed64480e649bbcb2e50ddff8f591d85177c8fe88b07e93ebb154a0a5a3d40",
+      "source_actual_at_snapshot_sha256": "b44ed64480e649bbcb2e50ddff8f591d85177c8fe88b07e93ebb154a0a5a3d40",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "627874543daf647e44272e2aa4492679236921079fae37a56946658e9a47a09b",
+      "source_bytes": 400859,
+      "current_bytes": 487872,
+      "groups": [
+        "G08"
+      ],
+      "tasks": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        138,
+        139,
+        141
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Nước thải/Catalog cắt rác perotac (bản mới).pdf",
+      "current_relative": "Nước thải/Catalog cắt rác perotac (bản mới).pdf",
+      "source_sha256": "622bcc5a8bb0562bea11474bda8801f30fe91839db3b84980dcb4ead056131d4",
+      "source_actual_at_snapshot_sha256": "622bcc5a8bb0562bea11474bda8801f30fe91839db3b84980dcb4ead056131d4",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "50032fe5237afef09d761c1edb09ce2052b6c1c40681613a71738d970cb1f7a7",
+      "source_bytes": 373253,
+      "current_bytes": 830390,
+      "groups": [
+        "G08"
+      ],
+      "tasks": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        138,
+        139,
+        141
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Nước thải/Catalog cắt rác redpump (bản mới).pdf",
+      "current_relative": "Nước thải/Catalog cắt rác redpump (bản mới).pdf",
+      "source_sha256": "21d3cd13c787fdf1e3133325aac1e87c87802e8a4dc0a9a509accb2c76390ad0",
+      "source_actual_at_snapshot_sha256": "21d3cd13c787fdf1e3133325aac1e87c87802e8a4dc0a9a509accb2c76390ad0",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "d25e5a9a99ac8036c6ab164bf298210682c52e6e7c3f8af125359b427fe73430",
+      "source_bytes": 377309,
+      "current_bytes": 691487,
+      "groups": [
+        "G08"
+      ],
+      "tasks": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        138,
+        139,
+        140,
+        141,
+        162
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Nước thải/Catalogue perotac (bản mới).xlsx",
+      "current_relative": "Nước thải/Catalogue perotac (bản mới).xlsx",
+      "source_sha256": "526393f3bc8361fdfe7f4936cb8d0495b71e5337f88ae947613c88e0268ffe22",
+      "source_actual_at_snapshot_sha256": "526393f3bc8361fdfe7f4936cb8d0495b71e5337f88ae947613c88e0268ffe22",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "c1a85b110bae5a3cdc81c27f9efbd45c3ea7e8c21c51a5fb61176cf304780d7b",
+      "source_bytes": 309297,
+      "current_bytes": 306010,
+      "groups": [
+        "G18"
+      ],
+      "tasks": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        142,
+        143
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Nước thải/KTZ - LH Perotac (bản mới).pdf",
+      "current_relative": "Nước thải/KTZ - LH Perotac (bản mới).pdf",
+      "source_sha256": "6419937911edac5440b83ee95b907a1c76ad8eb2c21ce6e3f38b40044a788eb9",
+      "source_actual_at_snapshot_sha256": "6419937911edac5440b83ee95b907a1c76ad8eb2c21ce6e3f38b40044a788eb9",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "3e8c7af0097bcab714a75114bfd0313d7ec5a6ffe37cd1408c071f78df62628f",
+      "source_bytes": 2582792,
+      "current_bytes": 962718,
+      "groups": [
+        "G09"
+      ],
+      "tasks": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        144
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Nước thải/KTZ - LH Redpump (bản mới).pdf",
+      "current_relative": "Nước thải/KTZ - LH Redpump (bản mới).pdf",
+      "source_sha256": "396487b4b47f836601d97bfa708fb242007c462951f7a3109b24c6f446975858",
+      "source_actual_at_snapshot_sha256": "396487b4b47f836601d97bfa708fb242007c462951f7a3109b24c6f446975858",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "93f1dc011a533dd7db3106e99dca13bb255fe92507f3ffebf21dee622a8a7f28",
+      "source_bytes": 2528286,
+      "current_bytes": 950762,
+      "groups": [
+        "G09"
+      ],
+      "tasks": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        144,
+        162
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Thổi khí/May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+      "current_relative": "Thổi khí/May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+      "source_sha256": "6cd3434df5334b9bb57c366fc1ee4ed8f6559637ac08322375419d4469c4519d",
+      "source_actual_at_snapshot_sha256": "6cd3434df5334b9bb57c366fc1ee4ed8f6559637ac08322375419d4469c4519d",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "6eeb13b8f820475a068fd167e073e1714f2a8fc15d85ee5d14808eaf33e6d92b",
+      "source_bytes": 4319708,
+      "current_bytes": 1602625,
+      "groups": [
+        "G10"
+      ],
+      "tasks": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        145
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Thổi khí/Perotac Root_300dpi_75% (bản mới).pdf",
+      "current_relative": "Thổi khí/Perotac Root_300dpi_75% (bản mới).pdf",
+      "source_sha256": "96d5a624e92accf52e18ca84cc9d66a482449cf3cdb41c947ba63a878ebd7e3d",
+      "source_actual_at_snapshot_sha256": "96d5a624e92accf52e18ca84cc9d66a482449cf3cdb41c947ba63a878ebd7e3d",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "826f7388e18bd08b0650f8d6b67f2649b6b8d0910ee2d30a7179dab3ea146eb1",
+      "source_bytes": 5436233,
+      "current_bytes": 5437669,
+      "groups": [
+        "G11"
+      ],
+      "tasks": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        146,
+        147,
+        148
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Trục ngang/3M Aquaris (bản mới).pdf",
+      "current_relative": "Trục ngang/3M Aquaris (bản mới).pdf",
+      "source_sha256": "bb909625d3b89e62e8dfad36e35ff6042ab247c4be91d35ca927c4d70ee77329",
+      "source_actual_at_snapshot_sha256": "bb909625d3b89e62e8dfad36e35ff6042ab247c4be91d35ca927c4d70ee77329",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "26d21ab75962ff57453cb9ed4c990676f263feb2bf1cf158761a9e8f28376cc4",
+      "source_bytes": 3094993,
+      "current_bytes": 646865,
+      "groups": [
+        "G12"
+      ],
+      "tasks": [
+        105,
+        106,
+        107
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Trục ngang/3M Perotac (bản mới).pdf",
+      "current_relative": "Trục ngang/3M Perotac (bản mới).pdf",
+      "source_sha256": "9483051deb70cfb7267d98376adaf3841129c8def208591d89121c48318eb615",
+      "source_actual_at_snapshot_sha256": "9483051deb70cfb7267d98376adaf3841129c8def208591d89121c48318eb615",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "6ff13790c6636ead684c86429667578dbef91133acfb891e9b553314ae9cb17e",
+      "source_bytes": 3054467,
+      "current_bytes": 609002,
+      "groups": [
+        "G12"
+      ],
+      "tasks": [
+        105,
+        106,
+        107
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Trục ngang/Aquaris truc ngang CM (bản mới).pdf",
+      "current_relative": "Trục ngang/Aquaris truc ngang CM (bản mới).pdf",
+      "source_sha256": "1ab4ef2f230651eba98dd36018f04fcbc39f4ecb9cdb7e89a89a634f8b78c26a",
+      "source_actual_at_snapshot_sha256": "1ab4ef2f230651eba98dd36018f04fcbc39f4ecb9cdb7e89a89a634f8b78c26a",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "24ef59e17cb7b3eed3a49e3098064bcb0cf152ecf4712d3f7713f6ea33e873ba",
+      "source_bytes": 626109,
+      "current_bytes": 588813,
+      "groups": [
+        "G13"
+      ],
+      "tasks": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        153,
+        154,
+        155,
+        156
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Trục ngang/CDX Perotac (bản mới).pdf",
+      "current_relative": "Trục ngang/CDX Perotac (bản mới).pdf",
+      "source_sha256": "ef57c37be06a3f954baac6b7549d0dda8788bf089925b6b23e68d62ed23216da",
+      "source_actual_at_snapshot_sha256": "ef57c37be06a3f954baac6b7549d0dda8788bf089925b6b23e68d62ed23216da",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "de4c5e6aff603ac3045043669f978c9fe3c802125971d557f83f8efb53e8d41b",
+      "source_bytes": 614609,
+      "current_bytes": 174569,
+      "groups": [
+        "G15"
+      ],
+      "tasks": [
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        159,
+        160
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Trục ngang/Catalogue DWO (bản mới).xlsx",
+      "current_relative": "Trục ngang/Catalogue DWO (bản mới).xlsx",
+      "source_sha256": "bd2187c92e1522e4fcf449bd1ba1483cb2426f0c953a62968c02900d1226dd7b",
+      "source_actual_at_snapshot_sha256": "bd2187c92e1522e4fcf449bd1ba1483cb2426f0c953a62968c02900d1226dd7b",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "e56968e717a2808d064d47c7dbd816f536a801e07a1be2b84f26e856eebc0d7b",
+      "source_bytes": 370455,
+      "current_bytes": 352057,
+      "groups": [
+        "G18"
+      ],
+      "tasks": [
+        120,
+        121,
+        122,
+        123,
+        161
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Trục ngang/bơm trục ngnag perotac model CM (bản mới).pdf",
+      "current_relative": "Trục ngang/bơm trục ngang perotac model CM (bản mới).pdf",
+      "source_sha256": "466c54500ecbe7ba67e556ae92dce3a7c5e07776b03113c279f0468b60217a3d",
+      "source_actual_at_snapshot_sha256": "466c54500ecbe7ba67e556ae92dce3a7c5e07776b03113c279f0468b60217a3d",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "464491a7b94b1080babc592c80962768051e3d4966da4c5788d6ab35e13558bb",
+      "source_bytes": 1339158,
+      "current_bytes": 639628,
+      "groups": [
+        "G14"
+      ],
+      "tasks": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        157
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Trục ngang/bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf",
+      "current_relative": "Trục ngang/bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf",
+      "source_sha256": "5c18b0cb942e8f243591aae00908998d35c773e70336811bc2283275aeda6fa7",
+      "source_actual_at_snapshot_sha256": "5c18b0cb942e8f243591aae00908998d35c773e70336811bc2283275aeda6fa7",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "606898d554f56fe1f0023f68453ad2fee0acaa47650bd9b38e4c2c6d6081684e",
+      "source_bytes": 5295651,
+      "current_bytes": 237436,
+      "groups": [
+        "G14"
+      ],
+      "tasks": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        157,
+        158,
+        162
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Trục đứng/Bơm trục đứng CDLF Aquaris (bản mới).pdf",
+      "current_relative": "Trục đứng/Bơm trục đứng CDLF Aquaris (bản mới).pdf",
+      "source_sha256": "4683a5bd0aa350d4ec823a147ca7839edf72f473b7b3721ca25cf3c25baf4f34",
+      "source_actual_at_snapshot_sha256": "4683a5bd0aa350d4ec823a147ca7839edf72f473b7b3721ca25cf3c25baf4f34",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "da8b69ed84c1f10782b01baf4edf5cb91d2b5e278fc5fec6a3cc122dc6410a76",
+      "source_bytes": 6803763,
+      "current_bytes": 1741994,
+      "groups": [
+        "G16"
+      ],
+      "tasks": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        149,
+        151
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Trục đứng/Bơm trục đứng Perotac CDLF (bản mới).pdf",
+      "current_relative": "Trục đứng/Bơm trục đứng Perotac CDLF (bản mới).pdf",
+      "source_sha256": "49267867caf900038e302feb67224c90a4f06765a6eef93d16fb0c7b3801ab8e",
+      "source_actual_at_snapshot_sha256": "49267867caf900038e302feb67224c90a4f06765a6eef93d16fb0c7b3801ab8e",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "6a95e493aa7703c3661574afe939a74099c06b575cf22f794abf9810c42726d4",
+      "source_bytes": 2733395,
+      "current_bytes": 1612288,
+      "groups": [
+        "G16"
+      ],
+      "tasks": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        149,
+        150
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    },
+    {
+      "source_relative": "Trục đứng/Inline IRG Perotac (bản mới).pdf",
+      "current_relative": "Trục đứng/Inline IRG Perotac (bản mới).pdf",
+      "source_sha256": "e9902d3bffdb563161443c255edfc122c46f9f855030b11f0ca28fd6e24228c0",
+      "source_actual_at_snapshot_sha256": "e9902d3bffdb563161443c255edfc122c46f9f855030b11f0ca28fd6e24228c0",
+      "source_changed_from_initial_anchor": false,
+      "current_sha256": "a47d7216ccb7910953d01ea9355476257097b9d6407b2958a62230f1c0528cf0",
+      "source_bytes": 3027993,
+      "current_bytes": 193132,
+      "groups": [
+        "G17"
+      ],
+      "tasks": [
+        102,
+        103,
+        104,
+        152
+      ],
+      "canonical_selection_note": "Cùng tên và thư mục con"
+    }
+  ],
+  "progress_ledger": "/sessions/rcw-01pauh56yysqe6ta1fhd5r5k/mnt/Catalog Sua/BẢN MỚI 03-10-2026 (ChatGPT)/_BAO CAO/TIEN DO.md",
+  "progress_ledger_sha256": "21a881a9ac47b4977be1ece9b4d6719c89fa913287a25ae0fc10da98e9944612"
+}

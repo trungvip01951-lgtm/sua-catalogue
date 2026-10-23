@@ -1,0 +1,29 @@
+{
+  "brand": [],
+  "catalogue": "SP stainless steel",
+  "model": "",
+  "current_pdf": "",
+  "current_sha256": "",
+  "requested_changes": [],
+  "locked_QH_min_max_and_known_duty": [],
+  "table_value_only_locks": [],
+  "affected_pages": [],
+  "unaffected_pages_pixel_check": "NOT_RUN",
+  "same_data_other_brands_to_update": [],
+  "even_curves_actual_pdf": {
+    "result": "NOT_RUN",
+    "max_H_error_percent": null,
+    "visual_pages": [],
+    "evidence": [],
+    "reviewer": ""
+  },
+  "different_brand_design": {
+    "result": "NOT_RUN",
+    "compared_pdfs": [],
+    "evidence": [],
+    "reviewer": ""
+  },
+  "eta_curve_and_clip_visible": "NOT_RUN",
+  "deliverable_format": "PDF",
+  "do_not_rebuild_unaffected_pages": true
+}

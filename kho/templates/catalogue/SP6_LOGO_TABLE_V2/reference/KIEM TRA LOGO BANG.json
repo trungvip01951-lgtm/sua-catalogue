@@ -1,0 +1,29 @@
+{
+  "candidate_sha256": "7b20403444ef5b97ae1f4da15a39e3affa64cb14206063da05e6114ad0208d05",
+  "actual_table_cells": 426,
+  "actual_table_failures": [],
+  "plot_47_354pt_pixels_180dpi_identical": true,
+  "other11pages_pixels100dpi_identical": true,
+  "metadata_toc_links_boxes_held": true,
+  "logo_raw_bytes_from_original_held": true,
+  "logo_effective_ppi": 742.09900990099,
+  "source_held": true,
+  "canonical_held": true,
+  "numeric_changes_from_previous_candidate": 0,
+  "new_threshold_interpretation": "abs(Hcurve-Htable)/abs(Htable)<=0.05 for every nonzero table H, endpoints/workpoint locks independent.",
+  "points_over_5_percent": [
+    {
+      "model": "6SP36-2",
+      "Q": 48.0,
+      "H_table": 14,
+      "H_curve": 13.222222222222218,
+      "error_m": 0.7777777777777821,
+      "tolerance_m": 1,
+      "relative_error_percent": 5.5555555555555864
+    }
+  ],
+  "maximum_relative_error_percent": 5.5555555555555864,
+  "power_flag_pairs": 0,
+  "power_review_scope": "Table samples only, family-level screening; defer changes; not whole-catalogue or continuous inverse-H proof.",
+  "whole_page_status": "NOT_ACCEPTED_PRIOR_LABEL_ERRORS_PERSIST"
+}

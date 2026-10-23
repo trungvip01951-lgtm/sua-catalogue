@@ -1,0 +1,31 @@
+﻿PROMPT NHÓM G12 – 3M (Aquaris, Perotac)
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('3M Aquaris (bản mới).pdf')   (thư mục Trục ngang)
+  Ra:  S.dst('3M Aquaris (bản mới).pdf')   → job = S.job('3M Aquaris (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–2: CHỮ NÉT VẼ
+- Vào: S.src('3M Perotac (bản mới).pdf')   (thư mục Trục ngang)
+  Ra:  S.dst('3M Perotac (bản mới).pdf')   → job = S.job('3M Perotac (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–2: CHỮ NÉT VẼ
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 105 | SỬA | 3M Aquaris.pdf; 3M Perotac.pdf | 1 | Tiêu đề | "LÍMITES UTILIZACIóN/UTILIS ATION LIMITES"; "CóDIGO M ODELO" | LÍMITES DE UTILIZACIÓN / LIMITES D'UTILISATION; CÓDIGO MODELO | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 106 | SỬA | 3M Aquaris.pdf; 3M Perotac.pdf | 2 | Tiêu đề bảng vật liệu | "DESCRIPCIóN DE MA TERIAL" | DESCRIPCIÓN DE MATERIAL | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 107 | SỬA | 3M Aquaris.pdf; 3M Perotac.pdf | 1 | Chữ | "Rated power(kw)", "kw"; "T amaño"; "inox304"; hàng 3M 65-200/150 không có dấu "-" ở ô trống | kW; Tamaño; inox 304; thêm "-" | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+
+Số việc phải SỬA: 3. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- 2 file giống hệt (khác logo), CHỮ NÉT VẼ. Làm cùng việc trên cả 2 file.
+- #105 trang 1 tiêu đề: "LÍMITES UTILIZACIóN/UTILIS ATION LIMITES" → "LÍMITES DE UTILIZACIÓN / LIMITES D'UTILISATION";
+  "CóDIGO M ODELO" → "CÓDIGO MODELO". Chữ có dấu (Í, Ó, ') phải có sẵn cùng kiểu chữ – thiếu thì báo.
+- #106 trang 2: "DESCRIPCIóN DE MA TERIAL" → "DESCRIPCIÓN DE MATERIAL".
+- #107 trang 1: "Rated power(kw)", "kw" → "kW"; "T amaño" → "Tamaño"; "inox304" → "inox 304"; hàng 3M 65-200/150 sau số 30 thêm "-"
+  (chép dấu "-" của hàng khác, đặt cùng cột).
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G12.png") và báo cáo S.report("BAO CAO G12.md"); ghi S.progress("G12", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

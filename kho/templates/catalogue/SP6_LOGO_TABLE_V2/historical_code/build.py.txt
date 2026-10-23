@@ -1,0 +1,106 @@
+from pathlib import Path
+import sys,json,hashlib,subprocess,shutil
+import fitz,pikepdf
+from fontTools.ttLib import TTFont
+R=Path(r'D:\ChatGPT\Sửa catalogue');W=R/'work/sp6_logo_table_v2';D=R/'deliverables/SP6 LOGO BANG RO QH 20261006';D.mkdir(exist_ok=True)
+sys.path.insert(0,str(R/'vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT'))
+from catfix.vector import Editor
+from catfix import cs
+read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'))
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+BASE=Path(read(R/'work/sp6_redesign_pilot/candidate.json')['candidate']);assert sha(BASE)=='8f1a2edc65aad20ab5f0d41b1c4980e85cd7617193a868ac2e98ad05cac7c583'
+data=read(R/'templates/catalogue/SP6_VECTOR_V1/data.json');CURRENT=Path(data['current']);assert sha(CURRENT)==data['current_sha256'];assert sha(Path(data['source']))==data['source_sha256']
+LOGO=Path(r'C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 01-10-2026\Nước thải\Catalog cắt rác perotac (bản mới).pdf')
+ld=fitz.open(LOGO); logo_info=next(i for i in ld[0].get_image_info(xrefs=True) if i['width']==1041 and i['height']==356 and i['bbox'][1]<100);ld.close()
+E=Editor(str(BASE));v=E.page(5);width=831.5599975585938;height=595.;deletes=set()
+def inside(top,bottom):return bottom<=46.01 or top>=355 and bottom<579
+for o in v.objs:
+ bb=o['bbox'];top=height-float(bb[3]);bottom=height-float(bb[1])
+ if inside(top,bottom):deletes.update(range(o['i0'],o['i1']+1))
+for first,last,ctm in v.texts:
+ tm=next((i.operands for i in v.ops[first:last+1] if i.op=='Tm'),None)
+ if tm and inside(height-float(tm[5]),height-float(tm[5])):deletes.update(range(first,last+1))
+for image in v.images:
+ if image['name']=='PilotOriginalLogo':deletes.add(image['i'])
+ops=['q','[] 0 d','0 J 0 j'];texts=[];fonts={};cells=[]
+NAVY=(.075,.20,.30);INK=(.12,.22,.28);TEAL=(.15,.37,.46);PALE=(.94,.97,.98);HEAD=(.87,.93,.96);BORDER=(.40,.56,.63)
+for name,path in [('Body',Path('C:/Windows/Fonts/arial.ttf')),('Bold',Path('C:/Windows/Fonts/arialbd.ttf'))]:
+ tt=TTFont(path);assert not(tt['OS/2'].fsType&2);fonts[name]={'path':path,'tt':tt,'cmap':tt.getBestCmap(),'upem':tt['head'].unitsPerEm,'used':set()}
+def n(v):return f'{v:.7f}'.rstrip('0').rstrip('.') if abs(v)>1e-8 else '0'
+def col(c,stroke=False):return ' '.join(n(v) for v in c)+(' RG' if stroke else ' rg')
+def rect(x,y,w,h,c):ops.append(f'{col(c)} {n(x)} {n(height-y-h)} {n(w)} {n(h)} re f')
+def line(x,y,x2,y2,c=BORDER,lw=.45):ops.append(f'{col(c,True)} {n(lw)} w {n(x)} {n(height-y)} m {n(x2)} {n(height-y2)} l S')
+def text(s,x,y,size=6,font='Body',color=INK,align='center'):
+ f=fonts[font];tw=sum(f['tt']['hmtx'][f['cmap'][ord(c)]][0] for c in s)*size/f['upem']
+ if align=='center':x-=tw/2
+ if align=='right':x-=tw
+ assert x>=0 and x+tw<=width and y<height
+ f['used'].update(ord(c) for c in s);ops.append(f'BT /Refresh{font} {n(size)} Tf {col(color)} 1 0 0 1 {n(x)} {n(height-y)} Tm <{s.encode("utf-16-be").hex()}> Tj ET')
+ texts.append({'text':s,'x':x,'baseline_top':y,'font':font,'size':size,'width':tw})
+# White header with existing high-resolution logo, kept byte-for-byte.
+line(24,46,width-24,46,TEAL,1.3)
+text('PERFORMANCE CURVES',width-24,20,10,'Bold',NAVY,'right')
+text('6-inch submersible pumps  |  50 Hz  |  n ≈ 2850 1/min',width-24,34,7,'Body',INK,'right')
+logo_width=101.;logo_height=logo_width*356/1041
+ops.append(f'q {n(logo_width)} 0 0 {n(logo_height)} 24 {n(height-5-logo_height)} cm /RefreshPerotacLogo Do Q')
+for family,left in [('6SP36',24),('6SP46',428)]:
+ rs=[r for r in data['records'] if r['family']==family];nw=len(rs[0]['Q']);cw=380.;ty=374.;hh=33.;rh=7.7
+ fixed=[45.,45.,18.,18.,32.];dw=(cw-sum(fixed))/nw;xs=[left]
+ for val in fixed+[dw]*nw:xs.append(xs[-1]+val)
+ text('PERFORMANCE DATA',left,366,8,'Bold',NAVY,'left');text('50 Hz',left+cw,366,6.4,'Bold',NAVY,'right')
+ rect(left,ty,cw,hh,HEAD)
+ # Group row: MODEL, P2, DELIVERY; no redundant dividing lines through merged headings.
+ text('MODEL',(xs[0]+xs[2])/2,ty+8.2,6.8,'Bold',NAVY)
+ text('P',(xs[2]+xs[4])/2-1.6,ty+8.2,7.3,'Bold',NAVY)
+ text('2',(xs[2]+xs[4])/2+2.5,ty+9.4,5.3,'Bold',NAVY)
+ text('DELIVERY',(xs[4]+xs[-1])/2,ty+8.2,6.8,'Bold',NAVY)
+ for j,label in [(0,'1~'),(1,'3~')]:
+  text(label,(xs[j]+xs[j+1])/2,ty+19,5.8,'Bold');text('220–240V' if j==0 else '380–415V',(xs[j]+xs[j+1])/2,ty+28.5,5.5)
+ for j,label in [(2,'kW'),(3,'HP')]:text(label,(xs[j]+xs[j+1])/2,ty+25,6.4,'Bold')
+ text('Q',xs[4]+6,ty+25,7.2,'Bold');text('m³/h',xs[4]+21,ty+19,5.7,'Bold');text('l/min',xs[4]+21,ty+29.2,5.5)
+ for j,q in enumerate(rs[0]['Q']):
+  cx=(xs[j+5]+xs[j+6])/2;text(f'{q:g}',cx,ty+19,6.1,'Bold');text(str(round(q*1000/60)),cx,ty+29.2,5.7)
+ bottom=ty+hh+rh*len(rs)
+ for i,r in enumerate(rs):
+  yy=ty+hh+i*rh
+  if i%2==0:
+   rect(left,yy,sum(fixed[:4]),rh,PALE);rect(xs[5],yy,cw-(xs[5]-left),rh,PALE)
+  m=r['metadata'];values=[m.get('single_phase_model') or '-',m['current_owner_fullmodel'],m['kW_literal'],m['HP_literal']]
+  for j,value in enumerate(values):text(str(value),(xs[j]+xs[j+1])/2,yy+5.65,5.7 if j<2 else 6.)
+  for j,(q,h) in enumerate(zip(r['Q'],r['H'])):
+   xx=xs[j+5];text(str(h),(xx+xs[j+6])/2,yy+5.65,6.)
+   cells.append({'model':r['model'],'Q':q,'H':h,'box':[xx,yy,xs[j+6],yy+rh]})
+  line(left,yy+rh,xs[4],yy+rh,lw=.33);line(xs[5],yy+rh,xs[-1],yy+rh,lw=.33)
+ text('H (m)',(xs[4]+xs[5])/2,(ty+hh+bottom)/2+2,7.,'Bold',NAVY)
+ # Strong outer and group borders; clear two Q rows and individually boxed values.
+ for y in [ty,ty+11,ty+hh,bottom]:line(left,y,left+cw,y,lw=.55)
+ for j,x in enumerate(xs):
+  if j in [0,2,4,len(xs)-1]:line(x,ty,x,bottom,lw=.55)
+  else:line(x,ty+11,x,bottom,lw=.4)
+ line(xs[4]+11,ty+11,xs[4]+11,ty+hh,lw=.4)
+ line(xs[4]+11,ty+22,xs[-1],ty+22,lw=.4)
+ops.append('Q');native='\n'.join(ops).encode('ascii');assert len(cells)==426
+(W/'draw_plan.json').write_text(json.dumps({'base':str(BASE),'base_sha':sha(BASE),'logo_source':str(LOGO),'logo_source_sha':sha(LOGO),'logo_info':{k:logo_info[k] for k in ['xref','width','height','bbox']},'texts':texts,'cells426':cells,'delete_count':len(deletes),'scope':'HEADER_AND_TABLE_ONLY; original plot labels still FAIL STOP2; no numeric changes'},ensure_ascii=False,indent=2),encoding='utf8')
+if '--save' not in sys.argv:print('PREFLIGHT PASS; no PDF saved');E.close();sys.exit()
+gate=subprocess.run([sys.executable,'-X','utf8',str(R/'tools/catalogue.py'),'check','--actor','ChatGPT','--session','ROOT-SP6-LOGO-TABLE-20261006','--token','55463f79-2250-4e84-89f9-194dd5ce8053'],capture_output=True,encoding='utf8');assert gate.returncode==0,gate.stdout+gate.stderr
+(W/'lock_check.json').write_text(gate.stdout,encoding='utf8')
+pdf=E.doc.pdf;page=E.doc._pages[5];resources=pikepdf.Dictionary(page.Resources);font_res=pikepdf.Dictionary(resources.Font)
+for name,f in fonts.items():
+ tt=f['tt'];up=f['upem'];cmap=f['cmap'];fontbytes=f['path'].read_bytes();ff=pdf.make_stream(fontbytes);ff['/Length1']=len(fontbytes);base='ArialMT' if name=='Body' else 'Arial-BoldMT'
+ desc=pdf.make_indirect(pikepdf.Dictionary(Type=pikepdf.Name.FontDescriptor,FontName=pikepdf.Name('/'+base),Flags=32,FontBBox=pikepdf.Array([getattr(tt['head'],k)*1000/up for k in ['xMin','yMin','xMax','yMax']]),ItalicAngle=0,Ascent=tt['hhea'].ascent*1000/up,Descent=tt['hhea'].descent*1000/up,CapHeight=getattr(tt['OS/2'],'sCapHeight',1467)*1000/up,StemV=80 if name=='Body' else 120,FontFile2=ff))
+ gidmap=bytearray((max(f['used'])+1)*2);ww=pikepdf.Array()
+ for code in sorted(f['used']):
+  glyph=cmap[code];gidmap[code*2:code*2+2]=tt.getGlyphID(glyph).to_bytes(2,'big');ww.append(code);ww.append(pikepdf.Array([tt['hmtx'][glyph][0]*1000/up]))
+ cid=pdf.make_indirect(pikepdf.Dictionary(Type=pikepdf.Name.Font,Subtype=pikepdf.Name.CIDFontType2,BaseFont=pikepdf.Name('/'+base),CIDSystemInfo=pikepdf.Dictionary(Registry='Adobe',Ordering='Identity',Supplement=0),FontDescriptor=desc,DW=1000,W=ww,CIDToGIDMap=pdf.make_stream(bytes(gidmap))))
+ cmapbytes=b'/CIDInit /ProcSet findresource begin 12 dict begin begincmap /CIDSystemInfo << /Registry (Adobe) /Ordering (UCS) /Supplement 0 >> def /CMapName /RefreshUnicode def /CMapType 2 def 1 begincodespacerange <0000> <FFFF> endcodespacerange 1 beginbfrange <0000> <FFFF> <0000> endbfrange endcmap CMapName currentdict /CMap defineresource pop end end'
+ font_res['/Refresh'+name]=pdf.make_indirect(pikepdf.Dictionary(Type=pikepdf.Name.Font,Subtype=pikepdf.Name.Type0,BaseFont=pikepdf.Name('/'+base),Encoding=pikepdf.Name('/Identity-H'),DescendantFonts=pikepdf.Array([cid]),ToUnicode=pdf.make_stream(cmapbytes)))
+resources.Font=font_res;resources.XObject=pikepdf.Dictionary(resources.XObject)
+with pikepdf.open(LOGO) as donor:resources.XObject['/RefreshPerotacLogo']=pdf.copy_foreign(donor.get_object((logo_info['xref'],0)))
+page.Resources=resources
+E.delete_instrs(5,sorted(deletes));E.insert_instrs(5,len(v.ops),cs.parse(native))
+out=D/'SP DU 12 TRANG - LOGO VA BANG MOI.pdf';assert not out.exists();E.save(str(out));E.close()
+with fitz.open(out) as d:
+ d[5].get_pixmap(dpi=180,alpha=False).save(str(D/'SP6 LOGO VA BANG MOI.png'))
+ for name,clip in [('LOGO',(18,0,135,46)),('BANG TRAI',(22,355,406,573)),('BANG PHAI',(426,355,810,550))]:d[5].get_pixmap(dpi=400,clip=fitz.Rect(clip),alpha=False).save(str(W/(name+'.png')))
+(W/'candidate.json').write_text(json.dumps({'candidate':str(out),'sha256':sha(out),'source_held':sha(Path(data['source']))==data['source_sha256'],'canonical_held':sha(CURRENT)==data['current_sha256'],'base_held':sha(BASE)=='8f1a2edc65aad20ab5f0d41b1c4980e85cd7617193a868ac2e98ad05cac7c583','logo_scope':'Existing original Perotac artwork reused unchanged, no raster editing or AI generation','numeric_change_count':0,'label_layout_status':'Prior FAIL preserved, no retry'},ensure_ascii=False,indent=2),encoding='utf8')
+print(str(out))

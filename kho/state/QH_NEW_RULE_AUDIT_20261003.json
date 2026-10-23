@@ -1,0 +1,269 @@
+{
+  "captured_utc": "2026-10-03T10:33:39.915379+00:00",
+  "instruction": "Moi ma bom Q tang thi H giam; sua thong tin sai, giu extrema va diem lam viec da khoa",
+  "not_an_alternative_progress_ledger": true,
+  "catalogues": [
+    {
+      "source_relative": "Giếng/Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+      "current_relative": "Giếng/Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf",
+      "source_sha256": "d5244aa6c2e2772a636a2040fe6853fbcb53fdb417ff7e8ee316528339087c1f",
+      "current_sha256": "fbc99ed3b402bb373832cd5153e35474a10f2c97c195be4b34f6320f20cf257e",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Giếng/Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+      "current_relative": "Giếng/G02 (gồm cả G01)/Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+      "source_sha256": "c56abd03329bbe9469156196e2da7782d07a66f60b685c4c9f4b3d74b45ed785",
+      "current_sha256": "0245d277dd48d7860f682141acbcac0d48aa79f7148615c347852a9ce0bd9a4a",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Giếng/Perotac bơm giếng SA_compressed (bản mới).pdf",
+      "current_relative": "Giếng/Perotac bơm giếng SA_compressed (bản mới).pdf",
+      "source_sha256": "3925ae2a4beaf22a6514837949e631b2777e83dcd87e4990d7fbd01f3c5d2bcd",
+      "current_sha256": "389a670c2871d450b8c0e9544d8550c0afa810e646921877752ccf2dd031e32c",
+      "status_new_rule": "PHUONG_AN_CO_DIEU_KIEN_CHUA_SUA",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm.",
+      "proposed": {
+        "models": 10,
+        "equal_pairs_addressed": 12,
+        "edited_cells": 34,
+        "plan_path": "D:\\ChatGPT\\Sửa catalogue\\work\\g03_sa_p2p3_qh_giam_nguyen_v1\\02 PHUONG AN NGUYEN GIAM14 HANG161 O VA TOA DO TRUOC SAU.json",
+        "sha256": "2ae4a448857b614a19e9d708b2da8d05b3240e75451fc26ea4cfe227f53cb90a",
+        "root_read_scope": "Doc bao cao so va dieu kien; chua nghiem thu moi toan anh/bang/net"
+      },
+      "remaining": {
+        "additional_3SS2_equal_pairs": 4,
+        "p8_table_cells": 104,
+        "p8_table_rows": 13,
+        "full_p8_continuous_curve_check": "CHUA_CHAY",
+        "p8_font": "CHUA_DAT"
+      }
+    },
+    {
+      "source_relative": "Giếng/Perotac bơm giếng SP_compressed (bản mới).pdf",
+      "current_relative": "Giếng/Perotac bơm giếng SP_compressed (bản mới).pdf",
+      "source_sha256": "e1b94dc6f23c35d18d61cee71d9d88c844b1070d14ff662bbabe2256cdd690c9",
+      "current_sha256": "7335c3a45042d0517e5bb1d033513dad722145dcda0aecdb1a896c9765e7eee1",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Giếng/Redpump gieng SL_compressed (bản mới).pdf",
+      "current_relative": "Giếng/Redpump gieng SL_compressed (bản mới).pdf",
+      "source_sha256": "a01b7f84c0ebb4960a6b9601d98a04420c4c00f8bf1d48a23e1bde4e8b084038",
+      "current_sha256": "b7c1febb60e0ebfcb88d233f87d8e10d0c0e5886214acc98e6f5cc2b2d32d435",
+      "status_new_rule": "DA_RA_BANG_NGUON_CHUA_SUA",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm.",
+      "table_scan": {
+        "tables": 17,
+        "models": 196,
+        "cells": 1931,
+        "adjacent_pairs": 1735,
+        "increasing": 5,
+        "equal": 28,
+        "affected_models": 28,
+        "full_curve_check": "CHUA_CHAY",
+        "new_direct_visual_read_cells": 120
+      },
+      "proposed": {
+        "models": 10,
+        "edited_cells": 26,
+        "unchanged_cells": 94,
+        "source_extrema_preserved": "Gia tri trong bang; khong tu xac nhan extrema vat ly",
+        "plan_path": "D:\\ChatGPT\\Sửa catalogue\\work\\g18_project_qa\\6SL25_DON_DIEU_DOC_NGUON_LAN1\\PHUONG AN NGUYEN10 HANG VA QUET17 BANG THEO QUY TAC MOI.json",
+        "sha256": "a12f601d5dedddb65c9bb09788015b8196c5f4364043327c96b366fe4839f326",
+        "root_numeric_readback": "D:\\ChatGPT\\Sửa catalogue\\work\\root_qh_check\\ROOT KIEM120 SO VA26 O DE XUAT6SL25 - CHUA SUA CATALOGUE.json"
+      }
+    },
+    {
+      "source_relative": "Nước thải/Aquaris FS_300dpi_75% (bản mới).pdf",
+      "current_relative": "Nước thải/Aquaris FS_300dpi_75% (bản mới).pdf",
+      "source_sha256": "a297ed5b1dec97c33b6d2327d25d30bd3f317690548b9d5895c59e1376a63b31",
+      "current_sha256": "97db44101b00605e71ce8996e8d4d08d672a8475cdcfa51ae1b1d5aa9597e033",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Nước thải/Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+      "current_relative": "Nước thải/Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+      "source_sha256": "4ae76b0cc2a5d1060763b332093ce952ac964902bd9aaa705f4a36b4ef9ce8fa",
+      "current_sha256": "928bbda4fdd4aab698bfa49f2af6eb0b1c794f31e1b6b4d6348b956108e49a02",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Nước thải/Catalog cắt rác Aquaris WC (bản mới).pdf",
+      "current_relative": "Nước thải/Catalog cắt rác Aquaris WC (bản mới).pdf",
+      "source_sha256": "b44ed64480e649bbcb2e50ddff8f591d85177c8fe88b07e93ebb154a0a5a3d40",
+      "current_sha256": "ed6e0a3bbae594b0fda886cf63472b8a49cd78e918d11cedd9fae3cd393aa5ce",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Nước thải/Catalog cắt rác perotac (bản mới).pdf",
+      "current_relative": "Nước thải/Catalog cắt rác perotac (bản mới).pdf",
+      "source_sha256": "622bcc5a8bb0562bea11474bda8801f30fe91839db3b84980dcb4ead056131d4",
+      "current_sha256": "74044ef1f3a62804eaf2d41974365ee4af2c071f45218bc604e205f0e6c579ee",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Nước thải/Catalog cắt rác redpump (bản mới).pdf",
+      "current_relative": "Nước thải/Catalog cắt rác redpump (bản mới).pdf",
+      "source_sha256": "21d3cd13c787fdf1e3133325aac1e87c87802e8a4dc0a9a509accb2c76390ad0",
+      "current_sha256": "fa4714b4423ef1242af63303917d626969ef2ad733f1fbcf693826abc0c7b219",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Nước thải/Catalogue perotac (bản mới).xlsx",
+      "current_relative": "Nước thải/Catalogue perotac (bản mới).xlsx",
+      "source_sha256": "526393f3bc8361fdfe7f4936cb8d0495b71e5337f88ae947613c88e0268ffe22",
+      "current_sha256": "c1a85b110bae5a3cdc81c27f9efbd45c3ea7e8c21c51a5fb61176cf304780d7b",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Nước thải/KTZ - LH Perotac (bản mới).pdf",
+      "current_relative": "Nước thải/KTZ - LH Perotac (bản mới).pdf",
+      "source_sha256": "6419937911edac5440b83ee95b907a1c76ad8eb2c21ce6e3f38b40044a788eb9",
+      "current_sha256": "571a82e2b40f38f2608b51f72c9c06691fa8ac99848121130cbd83e1649991eb",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Nước thải/KTZ - LH Redpump (bản mới).pdf",
+      "current_relative": "Nước thải/KTZ - LH Redpump (bản mới).pdf",
+      "source_sha256": "396487b4b47f836601d97bfa708fb242007c462951f7a3109b24c6f446975858",
+      "current_sha256": "891c128d86e41957b3c48cbb55ca1aaa1450b8ee4130f068a91ed9e9fb96b61a",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Thổi khí/May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+      "current_relative": "Thổi khí/May thoi khi Perotac_300dpi_75% (bản mới).pdf",
+      "source_sha256": "6cd3434df5334b9bb57c366fc1ee4ed8f6559637ac08322375419d4469c4519d",
+      "current_sha256": "f8b8b6ec86876628a1ec5cc8e71224229c88abfcf8095e946cb1f2d62a330cc2",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Thổi khí/Perotac Root_300dpi_75% (bản mới).pdf",
+      "current_relative": "Thổi khí/Perotac Root_300dpi_75% (bản mới).pdf",
+      "source_sha256": "96d5a624e92accf52e18ca84cc9d66a482449cf3cdb41c947ba63a878ebd7e3d",
+      "current_sha256": "826f7388e18bd08b0650f8d6b67f2649b6b8d0910ee2d30a7179dab3ea146eb1",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Trục ngang/3M Aquaris (bản mới).pdf",
+      "current_relative": "Trục ngang/3M Aquaris (bản mới).pdf",
+      "source_sha256": "bb909625d3b89e62e8dfad36e35ff6042ab247c4be91d35ca927c4d70ee77329",
+      "current_sha256": "974abda757d400c3f078eea7371d26fa25c78ec089417c6c802db33dbef2ffb9",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Trục ngang/3M Perotac (bản mới).pdf",
+      "current_relative": "Trục ngang/3M Perotac (bản mới).pdf",
+      "source_sha256": "9483051deb70cfb7267d98376adaf3841129c8def208591d89121c48318eb615",
+      "current_sha256": "f0255328f1e532a63a901e605ee827ab69e28350b7e27ea2beb78222dadb6335",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Trục ngang/Aquaris truc ngang CM (bản mới).pdf",
+      "current_relative": "Trục ngang/Aquaris truc ngang CM (bản mới).pdf",
+      "source_sha256": "1ab4ef2f230651eba98dd36018f04fcbc39f4ecb9cdb7e89a89a634f8b78c26a",
+      "current_sha256": "0338206b4e3f5be3d4376adc8877ac36b0eedbbf37a762e4e0ecc85414dfa3ae",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Trục ngang/bơm trục ngnag perotac model CM (bản mới).pdf",
+      "current_relative": "Trục ngang/bơm trục ngang perotac model CM (bản mới).pdf",
+      "source_sha256": "466c54500ecbe7ba67e556ae92dce3a7c5e07776b03113c279f0468b60217a3d",
+      "current_sha256": "8c39f96488f7a1e4524605080b6b4511b57dd29f44d3269babf3528fdd335a8c",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Trục ngang/bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf",
+      "current_relative": "Trục ngang/bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf",
+      "source_sha256": "5c18b0cb942e8f243591aae00908998d35c773e70336811bc2283275aeda6fa7",
+      "current_sha256": "e968a794b348b5924dd7300ac873ba1aff73c0527d64a233d6b2ee217a1b2bdc",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Trục ngang/Catalogue DWO (bản mới).xlsx",
+      "current_relative": "Trục ngang/Catalogue DWO (bản mới).xlsx",
+      "source_sha256": "bd2187c92e1522e4fcf449bd1ba1483cb2426f0c953a62968c02900d1226dd7b",
+      "current_sha256": "e56968e717a2808d064d47c7dbd816f536a801e07a1be2b84f26e856eebc0d7b",
+      "status_new_rule": "CHO_SO_MIN",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm.",
+      "pending": "Qmin/Hmin chua co; cau hoi min0 tham khao hay min thuc con cho; khung co the lam doc lap"
+    },
+    {
+      "source_relative": "Trục ngang/CDX Perotac (bản mới).pdf",
+      "current_relative": "Trục ngang/CDX Perotac (bản mới).pdf",
+      "source_sha256": "ef57c37be06a3f954baac6b7549d0dda8788bf089925b6b23e68d62ed23216da",
+      "current_sha256": "194a943e106e7a71426464823231494a2331c16bd74a0c3654d77a9dc888241a",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Trục đứng/Bơm trục đứng CDLF Aquaris (bản mới).pdf",
+      "current_relative": "Trục đứng/Bơm trục đứng CDLF Aquaris (bản mới).pdf",
+      "source_sha256": "4683a5bd0aa350d4ec823a147ca7839edf72f473b7b3721ca25cf3c25baf4f34",
+      "current_sha256": "ebdb5bfe2cac829fdf542a3b27355d6460c5df96e9ee6a745c8087b8c7b28e12",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Trục đứng/Bơm trục đứng Perotac CDLF (bản mới).pdf",
+      "current_relative": "Trục đứng/Bơm trục đứng Perotac CDLF (bản mới).pdf",
+      "source_sha256": "49267867caf900038e302feb67224c90a4f06765a6eef93d16fb0c7b3801ab8e",
+      "current_sha256": "c7481ff88b364550413423936868605c2587504c528cf67eb73d89469ee8f942",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    },
+    {
+      "source_relative": "Trục đứng/Inline IRG Perotac (bản mới).pdf",
+      "current_relative": "Trục đứng/Inline IRG Perotac (bản mới).pdf",
+      "source_sha256": "e9902d3bffdb563161443c255edfc122c46f9f855030b11f0ca28fd6e24228c0",
+      "current_sha256": "93c8d6f031953979bdb3ee1f4f76d359d913ec0582473a4f0d2d73c516e2981c",
+      "status_new_rule": "CHUA_RA_TOAN_BO",
+      "changed_in_catalogue_for_new_rule": false,
+      "scope": "Theo dõi việc rà sau lệnh mới; không phải nghiệm thu từ tên/hàm băm."
+    }
+  ],
+  "new_catalogue_edits_accepted": 0
+}

@@ -1,0 +1,71 @@
+{
+  "status": "PASS_LEADER_OWNER_BINDING_CLEARANCE",
+  "failures": [],
+  "leaders": [
+    {
+      "family": "6SP18",
+      "model": "6SP18-5",
+      "exact_owner_endpoint_error_pt": 0.0,
+      "nearest_other_curve_distance_pt": 2.985714285714323,
+      "length_pt": 3.5
+    },
+    {
+      "family": "6SP18",
+      "model": "6SP18-7",
+      "exact_owner_endpoint_error_pt": 0.0,
+      "nearest_other_curve_distance_pt": 2.9857142138151374,
+      "length_pt": 3.5
+    },
+    {
+      "family": "6SP18",
+      "model": "6SP18-4",
+      "exact_owner_endpoint_error_pt": 0.0,
+      "nearest_other_curve_distance_pt": 2.429575649745813,
+      "length_pt": 4.301162633521313
+    },
+    {
+      "family": "6SP30",
+      "model": "6SP30-5",
+      "exact_owner_endpoint_error_pt": 0.0,
+      "nearest_other_curve_distance_pt": 5.389999764409125,
+      "length_pt": 3.5
+    },
+    {
+      "family": "6SP30",
+      "model": "6SP30-6",
+      "exact_owner_endpoint_error_pt": 0.0,
+      "nearest_other_curve_distance_pt": 5.389999999999986,
+      "length_pt": 3.5
+    },
+    {
+      "family": "6SP30",
+      "model": "6SP30-4",
+      "exact_owner_endpoint_error_pt": 0.0,
+      "nearest_other_curve_distance_pt": 1.4660705272557049,
+      "length_pt": 3.0
+    },
+    {
+      "family": "6SP36",
+      "model": "6SP36-6",
+      "exact_owner_endpoint_error_pt": 0.0,
+      "nearest_other_curve_distance_pt": 1.3738928995181947,
+      "length_pt": 4.6097722286464435
+    },
+    {
+      "family": "6SP36",
+      "model": "6SP36-7",
+      "exact_owner_endpoint_error_pt": 0.0,
+      "nearest_other_curve_distance_pt": 2.092969426183031,
+      "length_pt": 3.0
+    },
+    {
+      "family": "6SP46",
+      "model": "6SP46-3A",
+      "exact_owner_endpoint_error_pt": 0.0,
+      "nearest_other_curve_distance_pt": 2.7141985438664706,
+      "length_pt": 5.0
+    }
+  ],
+  "no_pdf": true,
+  "scope": "All9leader strokes versus every non-owner curve, every label ink, and each other. Curve grid excluded, no effect on owner identity."
+}

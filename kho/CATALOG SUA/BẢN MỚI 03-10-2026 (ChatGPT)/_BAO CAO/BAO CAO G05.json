@@ -1,0 +1,90 @@
+[
+ {
+  "stt": 47,
+  "file": "Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "page": "5",
+  "item": "Bảng 6SP30, dòng 6SP30-6, cột 6 m³/h",
+  "old": "57 (thấp hơn cột 12 m³/h = 63)",
+  "new": "67 m; trung vị H/tầng 11,1183473389; ước tính 66,7100840336, làm tròn 67; đa thức tại Q6 ≈66,11m, lệch 1,33%.",
+  "result": "ĐẠT",
+  "evidence": "So sanh G05.png; G05/NGHIEM THU BAN CUOI SO VA CHU.json",
+  "method": "catfix chép số/cụm chữ từ chính file, đúng cỡ/màu và căn giữa; giữ nguyên chữ year đã có."
+ },
+ {
+  "stt": 48,
+  "file": "Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "page": "8",
+  "item": "Bảng kích thước 6SP46, dòng 6SP46-7",
+  "old": "T(T) 1767 (1063 + 764 = 1827)",
+  "new": "1827 = 1063 + 764",
+  "result": "ĐẠT",
+  "evidence": "So sanh G05.png; G05/NGHIEM THU BAN CUOI SO VA CHU.json",
+  "method": "catfix chép số/cụm chữ từ chính file, đúng cỡ/màu và căn giữa; giữ nguyên chữ year đã có."
+ },
+ {
+  "stt": 49,
+  "file": "Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "page": "9",
+  "item": "Bảng 8SP77, dòng 8SP77-9, cột 24 m³/h",
+  "old": "1750",
+  "new": "175",
+  "result": "ĐẠT",
+  "evidence": "So sanh G05.png; G05/NGHIEM THU BAN CUOI SO VA CHU.json",
+  "method": "catfix chép số/cụm chữ từ chính file, đúng cỡ/màu và căn giữa; giữ nguyên chữ year đã có."
+ },
+ {
+  "stt": 50,
+  "file": "Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "page": "1,4,9,11",
+  "item": "Tiêu đề trang",
+  "old": "Chữ \"4SP/6SP/8SP/10SP\" khác kiểu chữ với các catalogue Perotac SA",
+  "new": "Giữ nguyên (không có kiểu chữ đó để chép chữ \"P\")",
+  "result": "GIỮ NGUYÊN",
+  "evidence": "So sanh G05.png; G05/NGHIEM THU BAN CUOI SO VA CHU.json",
+  "method": "Đối chiếu vùng tiêu đề và bảng khối lượng: điểm ảnh giống nguồn."
+ },
+ {
+  "stt": 132,
+  "file": "Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "page": "SA, SL: 1, 2, 4, 10; SP: 1, 4, 9, 11",
+  "item": "Mục \"Warranty\"",
+  "old": "SA, SL: \"1 years\"; SP: \"2 years\"",
+  "new": "Warranty: 1 year (bảo hành 1 năm), đủ 4 trang",
+  "result": "ĐẠT",
+  "evidence": "So sanh G05.png; G05/NGHIEM THU BAN CUOI SO VA CHU.json",
+  "method": "catfix chép số/cụm chữ từ chính file, đúng cỡ/màu và căn giữa; giữ nguyên chữ year đã có."
+ },
+ {
+  "stt": 133,
+  "file": "Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "page": "7",
+  "item": "Bảng 6SP60, hàng 6SP60-20, 2 cột lưu lượng cuối",
+  "old": "110 / 80",
+  "new": "103 / 72, đúng số được chỉ định",
+  "result": "ĐẠT",
+  "evidence": "So sanh G05.png; G05/NGHIEM THU BAN CUOI SO VA CHU.json",
+  "method": "catfix chép số/cụm chữ từ chính file, đúng cỡ/màu và căn giữa; giữ nguyên chữ year đã có."
+ },
+ {
+  "stt": 134,
+  "file": "Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "page": "8",
+  "item": "Bảng khối lượng 6SP46",
+  "old": "38.4 – 40.6 – 42.8 – 47.2",
+  "new": "Giữ nguyên",
+  "result": "GIỮ NGUYÊN",
+  "evidence": "So sanh G05.png; G05/NGHIEM THU BAN CUOI SO VA CHU.json",
+  "method": "Đối chiếu vùng tiêu đề và bảng khối lượng: điểm ảnh giống nguồn."
+ },
+ {
+  "stt": 135,
+  "file": "Perotac bơm giếng SP_compressed (bản mới).pdf",
+  "page": "1, 4, 9, 11",
+  "item": "Bảng vật liệu – Shaft, Shaft coupling",
+  "old": "Trục AISI 431 / Khớp nối AISI 304 (trang 9 có thêm ②AISI 316)",
+  "new": "AISI 316 SS cho trục và khớp nối, đủ 8 dòng tại 4 trang",
+  "result": "ĐẠT",
+  "evidence": "So sanh G05.png; G05/NGHIEM THU BAN CUOI SO VA CHU.json",
+  "method": "catfix chép số/cụm chữ từ chính file, đúng cỡ/màu và căn giữa; giữ nguyên chữ year đã có."
+ }
+]

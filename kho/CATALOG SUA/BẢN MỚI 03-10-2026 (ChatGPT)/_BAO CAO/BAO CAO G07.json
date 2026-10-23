@@ -1,0 +1,52 @@
+[
+ {
+  "stt": 54,
+  "file": "Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+  "page": 1,
+  "old": "Ô m³/h trống dưới cột 800 l/min",
+  "new": "48",
+  "item": "Chép kiểu chữ ô 42, cùng cỡ 7 pt, căn giữa theo cột 800",
+  "result": "ĐẠT",
+  "evidence": "So sanh G07.png; G07/acceptance-final.json; sai số tâm < 0,001 pt"
+ },
+ {
+  "stt": 55,
+  "file": "Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+  "page": 1,
+  "old": "industrian; movimentazionee; utllizzare; peril sollevamentodl; inseritidei; spiacevolidanni; 50 FHz; dean; nothigherthan; anda Schuko; threephase; trlphasé; IPB8",
+  "new": "industriali; movimentazione e; utilizzare; per il sollevamento di; inseriti dei; spiacevoli danni; 50 Hz; clean; not higher than; and a Schuko; three-phase; triphasé; IP68",
+  "item": "Sửa 13 cụm; dồn phần sau trong từng dòng bằng đúng phông/cỡ gốc, giữ nét đậm của đoạn Ý",
+  "result": "ĐẠT",
+  "evidence": "So sanh G07.png; G07/acceptance-final.json; đọc đủ 13 cụm; ảnh G07/review/mo-ta-sau.png"
+ },
+ {
+  "stt": 56,
+  "file": "Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+  "page": 1,
+  "old": "FESI; Imballa; CLOSEDIMPELLER; PotenZa; Kg³/m ×3",
+  "new": "PESI; Imballo; CLOSED IMPELLER; Potenza; kg/dm³ ×3",
+  "item": "Chữ thật; k từ cùng Arial gốc, ³ chép đúng mã nét có sẵn trong cùng phông",
+  "result": "ĐẠT",
+  "evidence": "So sanh G07.png; G07/acceptance-final.json; 3/3 đơn vị đọc đúng; phông nhúng giữ nguyên"
+ },
+ {
+  "stt": 57,
+  "file": "Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+  "page": 1,
+  "old": "35 ô dùng dấu phẩy; 50HZ; 10/14/9 cỡ 8 pt",
+  "new": "35 ô dùng dấu chấm; 50 Hz; 10/14/9 cỡ 7 pt",
+  "item": "Thay dấu thập phân trong bảng; chép kiểu chữ chuẩn ô bên cạnh, căn giữa",
+  "result": "ĐẠT",
+  "evidence": "So sanh G07.png; G07/acceptance-final.json; 35/35 ô đọc đúng, 3/3 số cùng cỡ 7 pt"
+ },
+ {
+  "stt": 137,
+  "file": "Catalog bơm nước thải Aquaris FS (bản mới).pdf",
+  "page": 1,
+  "old": "FS300/80: cửa xả 50; ren G 2”",
+  "new": "Cửa xả 50 còn giữ; ren G 3” đã sửa",
+  "item": "Ren sửa bằng cùng phông. Cửa xả thiếu nét 8 trong phông MyriadPro-Regular (kiểu chữ thường gốc)",
+  "result": "CHƯA ĐẠT",
+  "evidence": "So sanh G07.png; G07/acceptance-final.json; G07/numeric-fonts.json; G07/source-audit.json"
+ }
+]

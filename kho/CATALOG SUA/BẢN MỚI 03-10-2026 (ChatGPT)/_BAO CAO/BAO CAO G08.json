@@ -1,0 +1,134 @@
+[
+ {
+  "stt": 58,
+  "file": "Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf",
+  "page": "1",
+  "item": "Chú thích biểu đồ 50WC",
+  "old": "\"50WC15-80-7.5\"",
+  "new": "50WC15-40-7.5 (như bảng)",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Thay đúng chữ/số bằng catfix, giữ phông, cỡ và căn theo chỗ gốc."
+ },
+ {
+  "stt": 59,
+  "file": "Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf",
+  "page": "1–8 (24 chỗ)",
+  "item": "Mục Applications",
+  "old": "\"Agriculture irrugation\"",
+  "new": "Agriculture irrigation",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Thay đúng chữ/số bằng catfix, giữ phông, cỡ và căn theo chỗ gốc."
+ },
+ {
+  "stt": 60,
+  "file": "Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf",
+  "page": "2",
+  "item": "Range 65WC",
+  "old": "Power \"1.5-7.5kW\"; Max head \"36 m\"",
+  "new": "1.5-5.5kW; 40 m",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Thay đúng chữ/số bằng catfix, giữ phông, cỡ và căn theo chỗ gốc."
+ },
+ {
+  "stt": 61,
+  "file": "Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf",
+  "page": "3",
+  "item": "Range 80WC",
+  "old": "Discharge \"DN50\"; ví dụ ký hiệu \"80 WC 49 9 2.2\"",
+  "new": "DN80; sơ đồ giải thích model gồm5 phần:80 WC 45 9 2.2.",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Thay đúng chữ/số bằng catfix, giữ phông, cỡ và căn theo chỗ gốc."
+ },
+ {
+  "stt": 62,
+  "file": "Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf",
+  "page": "4",
+  "item": "Range 100WC",
+  "old": "Max flow rate \"250 m³/h\"",
+  "new": "240 m³/h",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Thay đúng chữ/số bằng catfix, giữ phông, cỡ và căn theo chỗ gốc."
+ },
+ {
+  "stt": 63,
+  "file": "Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf",
+  "page": "8",
+  "item": "Range 300WC",
+  "old": "Discharge \"DN350\"",
+  "new": "DN300",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Thay đúng chữ/số bằng catfix, giữ phông, cỡ và căn theo chỗ gốc."
+ },
+ {
+  "stt": 64,
+  "file": "Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf",
+  "page": "1",
+  "item": "Bảng 50WC, dòng 50WC15-25-3 (lệch giữa 3 file)",
+  "old": "Aquaris: 30-29-27-25-21-16-8-4; Perotac & Redpump: 28-27-26-25-21-16-8-1",
+  "new": "Cả ba bản: H30/29/28/25/21/16/10/4m tại Q0/5/10/15/20/25/30/35m³/h; đồng bộ đường.",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Đo đường gốc Aquaris, làm tròn cột áp; thay số và nội suy đơn điệu qua từng điểm, giữ nét/màu gốc."
+ },
+ {
+  "stt": 65,
+  "file": "Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf",
+  "page": "cả file",
+  "item": "Tiêu đề bảng",
+  "old": "\"(KW)\"",
+  "new": "(kW)",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Thay đúng chữ/số bằng catfix, giữ phông, cỡ và căn theo chỗ gốc."
+ },
+ {
+  "stt": 138,
+  "file": "Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf",
+  "page": "5",
+  "item": "Bảng 150WC, hàng 150WC200-20-18.5, cột 120 m³/h",
+  "old": "27",
+  "new": "29m tại Q120m³/h, cả ba bản.",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Đo đường gốc tại Q120: H28,747m; chốt29m; thay đúng ô cùng phông."
+ },
+ {
+  "stt": 139,
+  "file": "Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf",
+  "page": "1–8",
+  "item": "Dòng \"Speed\" (tốc độ) ở phần thông số chung",
+  "old": "Trang 6–8: 1450 (Redpump trang 7–8: 980); trang 1–5: không có",
+  "new": "Trang1–5:2900vòng/phút; trang6–8:1450vòng/phút.",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Sao chép kiểu chữ, tọa độ cột và đường kẻ từ dòng liền trên; chuẩn tốc độ các trang6–8."
+ },
+ {
+  "stt": 140,
+  "file": "Catalog cắt rác redpump.pdf",
+  "page": "8",
+  "item": "Bảng 300WC, model lớn nhất",
+  "old": "300WC950-20-90, 90 kW / 120 HP",
+  "new": "300WC950-20-95, 95 kW / 130 HP (giống Aquaris, Perotac)",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Thay đúng chữ/số bằng catfix, giữ phông, cỡ và căn theo chỗ gốc."
+ },
+ {
+  "stt": 141,
+  "file": "Catalog cắt rác Aquaris WC.pdf; Catalog cắt rác perotac.pdf; Catalog cắt rác redpump.pdf",
+  "page": "1–8",
+  "item": "Dòng \"WARRANTY\"",
+  "old": "1 years",
+  "new": "Aquaris: 2 years; Perotac, Redpump: 1 year",
+  "result": "ĐẠT",
+  "evidence": "So sanh G08.png; G08/NGHIEM THU DOC LAP.json; G08/NGHIEM THU BAN CUOI.json",
+  "method": "Thay đúng chữ/số bằng catfix, giữ phông, cỡ và căn theo chỗ gốc."
+ }
+]

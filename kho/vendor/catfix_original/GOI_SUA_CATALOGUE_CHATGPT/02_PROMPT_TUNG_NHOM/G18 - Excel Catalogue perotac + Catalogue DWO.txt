@@ -1,0 +1,47 @@
+﻿PROMPT NHÓM G18 – Excel: Catalogue perotac + Catalogue DWO
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('Catalogue perotac (bản mới).xlsx')   (thư mục Nước thải)
+  Ra:  S.dst('Catalogue perotac (bản mới).xlsx')   → X = Xlsx(S.src(...)); ...; X.save(S.dst(...))
+- Vào: S.src('Catalogue DWO (bản mới).xlsx')   (thư mục Trục ngang)
+  Ra:  S.dst('Catalogue DWO (bản mới).xlsx')   → X = Xlsx(S.src(...)); ...; X.save(S.dst(...))
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 66 | SỬA | Catalogue perotac.xlsx | Sheet1 | Bảng DELIVERY – cột lưu lượng (ô N23/N22) | 34 m³/h = 566,7 l/min (các cột khác cách đều 6 m³/h) | 36 m³/h = 600 l/min | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 67 | SỬA | Catalogue perotac.xlsx | Sheet1 | Options in request (ô A10) | "Other voltages or frequency 50Hz" | "…frequency 60Hz" (tiêu chuẩn đã là 50Hz) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 68 | SỬA | Catalogue perotac.xlsx | Sheet1 | Motor and Pump (A8) và tiêu đề bảng (B22) | "380 - 415V/50HZ" nhưng bảng ghi "380 - 420V" | Thống nhất 380-415V; "50Hz" | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 69 | SỬA | Catalogue perotac.xlsx | Sheet1 | Motor and Pump (A8) | "It's available to equip with floating switch", "It's can work in water containing fiber" | "Available with float switch", "Can work in water containing fiber" | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 70 | SỬA | Catalogue perotac.xlsx | Sheet1 | Bảng | SS-3000 bỏ trống ô model 1 pha; "Oil for food machinery." thừa dấu chấm; chữ "SS" dùng font .VnCooper (máy không có font sẽ hiển thị font khác) | Ghi "-"; bỏ dấu chấm thừa; đổi font chữ "SS" sang font Unicode cùng kiểu (Cooper Black) | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 120 | SỬA | Catalogue DWO.xlsx | Sheet1 | Bảng TECHNICAL DATA – cột cuối (L14) | Tiêu đề "Max Head (m)" (trùng cột 4) nhưng số liệu là 2900 | Speed (rpm) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 121 | SỬA | Catalogue DWO.xlsx | Sheet1 | Cột HP (D16:D22 = kW/0.75, định dạng 0.0) | Hiện 2.9 (2,2 kW), 4.9 (3,7 kW), 6.7 (5 kW) | Ghi giá trị chuẩn: 2,2 kW = 3 HP… | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 122 | SỬA | Catalogue DWO.xlsx | Sheet1 | Ảnh bảng linh kiện | Vật liệu cánh quạt "Noiyl" | Nylon | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 123 | SỬA | Catalogue DWO.xlsx | Sheet1 | In ấn | Ảnh bảng linh kiện dài quá khổ, khi in dòng 14 "Fan cover" sang trang 2; "(kw)", "(m3/h)" | Thu nhỏ ảnh/đặt vùng in; (kW), m³/h | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 142 | SỬA | Catalogue perotac.xlsx | Sheet1, ô A11 | Warranty | Warranty: 1 years | Warranty: 1 year | NV trả lời (file câu hỏi 02/10) |
+| 143 | SỬA | Catalogue perotac.xlsx | Sheet1, dòng 27 (C27, D27) | SS-450 / SSM-450F | 0.55 kW – 0.8 HP | 0.45 kW – 0.6 HP | NV trả lời (file câu hỏi 02/10) |
+| 161 | SỬA | Catalogue DWO.xlsx | Sheet1, dòng 21–22 | DWO400, DWO500 – cột kW | 3.7 kW; 5 kW | DWO400 = 3 kW (4 HP); DWO500 = 3.7 kW (5 HP) | NV trả lời (file câu hỏi 02/10) + Anh Trung chốt 02/10 |
+
+Số việc phải SỬA: 12. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- 2 file Excel. Dùng catfix.xlsx.Xlsx (sửa XML, giữ ảnh/định dạng/khổ in). Sheet dữ liệu: "Sheet1" (sheet "SGV" ẩn, trống).
+- Catalogue perotac.xlsx: #66 cột lưu lượng N23 = 34 → 36 và N22 (l/min) 566.67 → 600 (kiểm công thức nếu có);
+  #67 A10 "frequency 50Hz" → "60Hz"; #68 A8 "380 - 415V/50HZ" → "380 - 415V/50Hz", B22 "380 - 420V" → "380 - 415V";
+  #69 A8 "It's available to equip with floating switch" → "Available with float switch", "It's can work" → "Can work";
+  #70 ô model 1 pha của SS-3000 ghi "-"; bỏ dấu chấm thừa "Oil for food machinery."; đổi font ".VnCooper" → "Cooper Black"
+  (X.replace_font_name). #142 A11 "1 years" → "1 year". #143 C27 0.55 → 0.45, D27 0.8 → 0.6.
+- Catalogue DWO.xlsx: #120 L14 "Max Head (m)" → "Speed (rpm)" (chữ trong ô có xuống dòng – giữ kiểu xuống dòng);
+  #121 cột HP D16:D22 (đang là công thức C/0.75) → số chuẩn: 0.37→0.5, 0.75→1, 1.1→1.5, 1.5→2, 2.2→3, 3→4, 3.7→5;
+  #161 C21 (DWO400) 3.7 → 3 và C22 (DWO500) 5 → 3.7 (HP tương ứng 4 và 5);
+  #122 ảnh bảng linh kiện (xl/media/image2.jpeg): "Noiyl" → "Nylon" (ArrayCanvas – đã thử chạy được);
+  #123 "(kw)" → "(kW)", "(m3/h)" → "(m³/h)" nếu font có '³'; ảnh linh kiện quá khổ in (dòng "Fan cover" sang trang 2):
+  thu nhỏ khung ảnh trong xl/drawings/drawing*.xml (giữ tỉ lệ) hoặc chỉnh vùng in/scale trong pageSetup – nếu không
+  xuất được PDF để kiểm (không có LibreOffice) thì ghi CHƯA THỂ XÁC MINH.
+- Nghiệm thu: diff_cells chỉ gồm đúng các ô trên; diff_parts chỉ gồm sharedStrings / sheet2 / calcChain
+  (+ media/drawing nếu sửa ảnh/khổ in); mở lại bằng openpyxl không lỗi.
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G18.png") và báo cáo S.report("BAO CAO G18.md"); ghi S.progress("G18", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

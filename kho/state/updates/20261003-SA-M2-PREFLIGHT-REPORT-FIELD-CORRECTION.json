@@ -1,0 +1,62 @@
+{
+  "time": "2026-10-03T19:06:19.264017+07:00",
+  "candidate_sha256": "1f800916d3129d4ed4d36290fc4227ee2363c2d4e9d99171aa802e4b2df1fa26",
+  "source_report": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G03\\QH MOI SA8 NHAN7 GIU NGUYEN NET - MAU2\\BAO TOAN NGHIEM THU NGUONG0 VA NET CHU MAU2.json",
+  "source_report_sha256": "a2bb950b25763f4d0782aa29b5496d906f8bd32f5813fd553e17b5f19f64ca7c",
+  "field": "label_move_objects_exact",
+  "old_field_type": "bool",
+  "cause": "Tên biến changed của danh sách5path bị biếnchanged boolean của bộ đọc cũ che sauexec. Các kiểm path đã chạy trước; sửa dữ liệu bằng đọc lại độc lập, không sửa PDF hoặc ghi đè báo cáo.",
+  "corrected_label_move_objects_exact": [
+    {
+      "object": 328,
+      "original_commands_colour_width_held": true,
+      "delta_pt": [
+        0,
+        1
+      ],
+      "max_control_error_pt": 8.000000008223651e-06
+    },
+    {
+      "object": 329,
+      "original_commands_colour_width_held": true,
+      "delta_pt": [
+        0,
+        1
+      ],
+      "max_control_error_pt": 8.00000003664536e-06
+    },
+    {
+      "object": 330,
+      "original_commands_colour_width_held": true,
+      "delta_pt": [
+        0,
+        1
+      ],
+      "max_control_error_pt": 8.00000003664536e-06
+    },
+    {
+      "object": 337,
+      "original_commands_colour_width_held": true,
+      "delta_pt": [
+        0,
+        1
+      ],
+      "max_control_error_pt": 8.00000003664536e-06
+    },
+    {
+      "object": 338,
+      "original_commands_colour_width_held": true,
+      "delta_pt": [
+        0,
+        1
+      ],
+      "max_control_error_pt": 8.00000003664536e-06
+    }
+  ],
+  "all5_actual_readback_pass": true,
+  "prior_publish_preflights": "Hai lần dừng trước ghi catalogue/backup/ledger. M1 bị final hình thứcFAIL;M2 dừng kiểu trường, chưa tiếp nhận.",
+  "premature_inventory_history": "inventory-20261003T120339Z-35efc17c.json",
+  "corrected_inventory_reason": "Ảnh chụp đó giữ nguyên SA fbc99…;câu lý do đã tiếp nhậnM2 ghi sớm sau preflight lỗi. Không có catalogue được ghi trong bước refresh đó. M2 chỉ được coi đã tiếp nhận sau biên nhận publish thật.",
+  "catalogue_written": false,
+  "ledger_written": false
+}

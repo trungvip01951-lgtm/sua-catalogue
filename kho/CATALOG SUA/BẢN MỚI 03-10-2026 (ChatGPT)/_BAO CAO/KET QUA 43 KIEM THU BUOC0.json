@@ -1,0 +1,346 @@
+[
+ {
+  "stt": 1,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Môi trường: Mở/ghi PDF ",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 2,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Môi trường: Vẽ trang để so sánh ",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 3,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Môi trường: OCR (chữ nét vẽ, chữ trên ảnh) ",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 4,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Môi trường: Tách chữ trên ảnh ",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 5,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Đọc/ghi lại luồng nội dung không mất byte: fx_cover_cdlf_aquaris_p1.pdf (31012 lệnh, 0.29s)",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 6,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Đọc/ghi lại luồng nội dung không mất byte: fx_raster_perotac_sp_p9.pdf (22 lệnh, 0.00s)",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 7,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Đọc/ghi lại luồng nội dung không mất byte: fx_text_wc_p1.pdf (850 lệnh, 0.00s)",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 8,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Đọc/ghi lại luồng nội dung không mất byte: fx_vector_aquaris_sp_p9_goc.pdf (18480 lệnh, 0.16s)",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 9,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Chữ nét vẽ: tìm thấy đúng 1 chỗ \"818\" [Match('818' page=1 bbox=(515.5,509.3,528.7,515.1) objs=[155])]",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 10,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Chữ nét vẽ: đọc lại thấy \"815\", hết \"818\" ",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 11,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Chữ nét vẽ: vị trí chữ mới trùng bản đã kiểm duyệt (sai lệch <= 0.01pt) sai lệch 0.0027 pt",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 12,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Chữ nét vẽ: chỉ ô sửa thay đổi điểm ảnh vùng đổi={1: [(np.float64(524.6), np.float64(509.3), np.float64(529.0), np.float64(515.6))]} ngoài vùng={}",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 13,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Chữ thật: tìm thấy \"irrugation\" và \"(KW)\" ",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 14,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Chữ thật: đọc lại lớp chữ đúng ({'found': True, 'absent_ok': True, 'ok': True}, {'found': True, 'absent_ok': True, 'ok': True})",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 15,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Chữ thật: chỉ chỗ sửa thay đổi vùng đổi={1: [(np.float64(124.3), np.float64(345.1), np.float64(163.7), np.float64(357.1)), (np.float64(806.4), np.float64(178.1), np.float64(826.6), np.float64(186.7))]} ngoài={}",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 16,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Ảnh: chọn đúng ảnh đang hiển thị (không chọn lớp ảnh chỉ hiện trong nét chữ) PageImage(X11 1732x1240 page=(0.0,0.0,831.6,595.0) ~150dpi #4)",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 17,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Ảnh: OCR tìm thấy \"1750\" [(1330, np.int64(1039), 1357, np.int64(1051))]",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 18,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Ảnh: học được mẫu chữ số 1, 5, 7 ",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 19,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Ảnh: OCR đọc lại \"175\" '175'",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 20,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Ảnh: thay đổi rõ rệt (>48 mức, >2pt) chỉ nằm ở ô sửa vùng={1: [(np.float64(639.4), np.float64(91.0), np.float64(650.9), np.float64(95.3))]} ngoài={}",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 21,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Ảnh: ghi lại ảnh không sửa gì -> sai khác trung bình < 1 mức màu {'kind': 'image', 'image': 'X11', 'max_diff': 0, 'mean_diff': 0.0, 'p99': 0.0, 'rect': (np.float64(384.1), np.float64(264.9), np.float64(453.2), np.float64(334.0))}",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 22,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Biểu đồ: đường cong mượt đi sát điểm bảng (đơn giản) lệch tối đa 0.272",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 23,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Biểu đồ: hiệu chỉnh trục tuyến tính (0.000914285714259222, 0.5721240000000023)",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 24,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Biểu đồ: tìm đủ 8 đường cong [308, 309, 310, 311, 312, 313, 314, 315]",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 25,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Biểu đồ: đường vẽ lại khớp bảng trong dung sai [(0, 170, 170.34), (5, 157, 155.56), (10, 133, 135.45), (14, 110, 108.42), (16, 90, 89.31), (18, 65, 65.76)] {'method': 'poly3', 'max_dev': 2.488, 'tol': 3.4}",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 26,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Biểu đồ: giữ nguyên màu và độ dày nét ",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 27,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Ảnh bìa: xoá bơm đế gang (R25 không còn) ['R13', 'R16', 'R18', 'R20', 'R22', 'R16', 'R26']",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 28,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Ảnh bìa: bản sao bơm đặt đúng ô (sai lệch < 0.01pt) [(np.float64(238.30848), np.float64(212.0904), np.float64(376.36512), np.float64(520.6199999999999)), (np.float64(80.874565187544), np.float64(163.45199999999997), np.float64(189.607834812456), np.float64(406.4496))]",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 29,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Ảnh bìa: chỉ vùng ảnh bìa thay đổi (chữ trên bìa giữ nguyên vị trí) {}",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 30,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Excel: chỉ đúng các ô cần sửa thay đổi ['C15', 'C21', 'C22', 'D16', 'D17', 'D18', 'D20', 'D21', 'D22']",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 31,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Excel: ảnh/định dạng/in ấn không bị đụng tới ['xl/calcChain.xml', 'xl/sharedStrings.xml', 'xl/worksheets/sheet2.xml']",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 32,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Excel: mở lại bằng openpyxl được, giá trị đúng ",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 33,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Cấu trúc file sau sửa hợp lệ: vec_815.pdf [] 245417->245270 bytes",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 34,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Cấu trúc file sau sửa hợp lệ: text.pdf [] 185640->185659 bytes",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 35,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Cấu trúc file sau sửa hợp lệ: raster.pdf [] 174727->172313 bytes",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 36,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Cấu trúc file sau sửa hợp lệ: cover.pdf [] 760836->760890 bytes",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 37,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Đường dẫn máy anh: tìm đúng file vào, file ra cùng tên khác thư mục, đổi tên #129 Session – MÁY ANH TRUNG (code chạy thẳng trên máy anh, đọc/ghi file trong thư mục của anh)",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 38,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Đường dẫn máy anh: sửa + lưu + kiểm qua S.job (nhật ký vào _BAO CAO) {}{}",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 39,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Đường dẫn máy anh: G02 lấy đúng file đã sửa của G01, ghi ra thư mục riêng, nhật ký riêng D:\\TempSystem\\catfix_ses_5ee5zklh\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\G02 (gồm cả G01)\\Catalog cắt rác Aquaris WC (bản mới).pdf",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 40,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Đường dẫn máy anh: ghi tiến độ được, không cho ghi đè file vào ",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 41,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Đường dẫn máy chủ ChatGPT: file tải lên trong /mnt/data, ra /mnt/data/out Session – MÁY CHỦ CHATGPT (file anh tải lên trong D:\\TempSystem\\catfix_ses_5ee5zklh\\data)",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 42,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Windows: in tiếng Việt khi đầu ra dùng bảng mã cp1252 không lỗi ",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ },
+ {
+  "stt": 43,
+  "file": "tests/run_tests.py",
+  "page": "-",
+  "item": "Windows: tìm được tesseract khi không có trong PATH (biến CATFIX_TESSERACT / chỗ cài mặc định) và OCR chạy C:\\Users\\H2\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe True 775",
+  "result": "ĐẠT",
+  "evidence": "Đầu ra nguyên văn của bộ kiểm thử"
+ }
+]

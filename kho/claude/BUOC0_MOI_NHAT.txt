@@ -1,0 +1,4 @@
+UTC 20261023T025547Z | Claude/Linux | py 3.13.16 pymupdf 2.0 scipy 1.18.1 cv2 5.0.0 pikepdf 10.17.0
+Môi trường ĐƯỢC: 4/4
+TỔNG KẾT: 43/43 ĐẠT  (12s)  - file thử nghiệm ở /tmp/catfix_cache/test_out
+health:   "result": "CHƯA ĐẠT",

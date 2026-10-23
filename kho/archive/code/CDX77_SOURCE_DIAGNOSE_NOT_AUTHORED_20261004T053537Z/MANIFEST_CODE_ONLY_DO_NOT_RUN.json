@@ -1,0 +1,23 @@
+{
+  "scope": "read-only diagnosis and source evidence code; no accepted authoring method",
+  "files": [
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_CDX77_direct_graphics_sourceplan1.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\CDX77_SOURCE_DIAGNOSE_NOT_AUTHORED_20261004T053537Z\\root_CDX77_direct_graphics_sourceplan1.py",
+      "sha256": "944a07dc106b77a00f47be70fedeaa382435b9d0104eeea580cdb908fdb9b555",
+      "executed_one_shot_not_replayable": true
+    },
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_CDX77_normalize_receipt1.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\CDX77_SOURCE_DIAGNOSE_NOT_AUTHORED_20261004T053537Z\\root_CDX77_normalize_receipt1.py",
+      "sha256": "019ca3e1946faa73f2c50ff917940689fff4f19c3f29ca696f5fbdbdf48ba493",
+      "executed_one_shot_not_replayable": true
+    },
+    {
+      "source": "C:\\Users\\H2\\Documents\\Codex\\2026-10-02\\b-n-h-y-s-a\\root_shared_CDX77_source_checkpoint1.py",
+      "archive": "D:\\ChatGPT\\Sửa catalogue\\archive\\code\\CDX77_SOURCE_DIAGNOSE_NOT_AUTHORED_20261004T053537Z\\root_shared_CDX77_source_checkpoint1.py",
+      "sha256": "7bbd5695ed37ab95a51c936e00bfc5cae8963d205e0b46766c5b423a63d3e09d",
+      "executed_one_shot_not_replayable": true
+    }
+  ]
+}

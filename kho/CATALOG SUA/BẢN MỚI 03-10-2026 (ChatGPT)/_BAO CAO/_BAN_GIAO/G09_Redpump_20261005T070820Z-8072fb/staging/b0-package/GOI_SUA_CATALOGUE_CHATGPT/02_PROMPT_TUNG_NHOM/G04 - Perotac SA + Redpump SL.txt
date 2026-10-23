@@ -1,0 +1,60 @@
+﻿PROMPT NHÓM G04 – Perotac SA + Redpump SL
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('Perotac bơm giếng SA_compressed (bản mới).pdf')   (thư mục Giếng)
+  Ra:  S.dst('Perotac bơm giếng SA_compressed (bản mới).pdf')   → job = S.job('Perotac bơm giếng SA_compressed (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–11: ẢNH CẢ TRANG ~150dpi
+- Vào: S.src('Redpump gieng SL_compressed (bản mới).pdf')   (thư mục Giếng)
+  Ra:  S.dst('Redpump gieng SL_compressed (bản mới).pdf')   → job = S.job('Redpump gieng SL_compressed (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–11: ẢNH CẢ TRANG ~150dpi
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 35 | SỬA | Perotac bơm giếng SA_compressed.pdf | 1 | Operating conditions | "2SD minimum well diameter", "2.5SD minimum well diameter" | 2SS / 2.5SS (bản Redpump đã ghi đúng 2SL) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 36 | SỬA | Perotac bơm giếng SA_compressed.pdf; Redpump gieng SL_compressed.pdf | 1 | Biểu đồ 2.5SS1.5 / 2.5SL1.5 | Nhãn ".../24" xuất hiện 2 lần; đường ≈46 m không có nhãn /17 | Đổi nhãn thứ 2 thành 2.5SS1.5/17 (2.5SL1.5/17) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 37 | SỬA | Perotac bơm giếng SA_compressed.pdf; Redpump gieng SL_compressed.pdf | 1 | Bảng kích thước 2.5SS(M)1.5/24 – 2.5SL(M)1.5/24 | P 779 + M 787 = 1566 nhưng T ghi 1546 | Sửa ô tổng T thành 1566 (= 779 + 787) | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 38 | SỬA | Perotac bơm giếng SA_compressed.pdf; Redpump gieng SL_compressed.pdf | 3 | Bảng kích thước 3SS2 / 3SL2 | 3SS2/11: T(T) 752 (444+288 = 732); 3SS2/15: T(T) 873 (535+308 = 843) | 732; 843 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 39 | SỬA | Perotac bơm giếng SA_compressed.pdf; Redpump gieng SL_compressed.pdf | 3 | Bảng khối lượng 3SS3 / 3SL3 | 3SS3/26: M(T) 6.4 kg; 3SS3/31: M(T) 7.5 kg (tổng T(T) không khớp) | 7.5 kg; 8.7 kg (cùng động cơ dài 408/448 mm như bảng 3SS2) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 40 | SỬA | Perotac bơm giếng SA_compressed.pdf; Redpump gieng SL_compressed.pdf | 8 | Bảng kích thước 4SA3 / 4SL3 | 4SA3/10: T(S) 814 (490+329 = 819); 4SA3/35: T(S) 1664 (1194+594 = 1788, chép từ 4SA4/28) | 819; 1788 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 41 | SỬA | Perotac bơm giếng SA_compressed.pdf; Redpump gieng SL_compressed.pdf | 9 | Bảng kích thước 4SA8 / 4SL8, dòng 4SA8/6 | P 475 mm / 3.3 kg nhưng T(S) 872, T(T) 857, 12.6 kg, 11.9 kg (lệch 38 mm và 0.6 kg) | Sửa thân bơm P = 513 mm và 3,9 kg (khớp cả 2 cột tổng) | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 42 | SỬA | Perotac bơm giếng SA_compressed.pdf; Redpump gieng SL_compressed.pdf | 9 | Bảng kích thước 4SA12 / 4SL12, dòng 4SA12/32 | P 2143 + M 908 = 3051 nhưng T(T) ghi 3020 | Sửa P = 2112 (đúng bước 56 mm/tầng và khớp tổng 3020) | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 43 | SỬA | Perotac bơm giếng SA_compressed.pdf | 11 | Biểu đồ 6SA35 / 6SA45 | Ô tiêu đề ghi "6SA15", "6SA25" | 6SA35, 6SA45 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 44 | SỬA | Redpump gieng SL_compressed.pdf | 7 | Biểu đồ 4SL10 / 4SL12 | Ô tiêu đề ghi "4SL6", "4SL8" | 4SL10, 4SL12 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 45 | SỬA | Redpump gieng SL_compressed.pdf | 11 | Biểu đồ 6SL35 / 6SL45 | Ô tiêu đề ghi "6SL15", "6SL25"; nhãn "6SL 35/20" có dấu cách | 6SL35, 6SL45; "6SL35/20" | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 46 | SỬA | Redpump gieng SL_compressed.pdf | 10 | Tiêu đề trang 6SL | "6SL." | 6SL | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 131 | SỬA | Perotac bơm giếng SA_compressed.pdf; Redpump gieng SL_compressed.pdf | 4–8 | Bảng thông số bơm 4", cột kW / HP (14 model mỗi file) | 5 kW / 7 HP; 7 kW / 10 HP | 5.5 kW / 7.5 HP; 7.5 kW / 10 HP | NV trả lời (file câu hỏi 02/10) |
+| 132 | SỬA | Perotac bơm giếng SA_compressed.pdf; Redpump gieng SL_compressed.pdf | SA, SL: 1, 2, 4, 10; SP: 1, 4, 9, 11 | Mục "Warranty" | SA, SL: "1 years"; SP: "2 years" | Warranty: 1 year (Perotac, Redpump bảo hành 1 năm) | NV trả lời (file câu hỏi 02/10) |
+| 162 | GIỮ NGUYÊN (không đụng) | Redpump gieng SL_compressed.pdf | Logo | Logo Redpump | Italy Standard | Giữ nguyên | NV trả lời (file câu hỏi 02/10) |
+
+Số việc phải SỬA: 14. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- 2 file ẢNH QUÉT (mỗi trang = 1 ảnh JPEG ~150 dpi). Redpump SL là bản nhân từ Perotac SA (tên SS/SA ↔ SL)
+  → làm CÙNG các việc trên cả 2 file (vị trí gần như trùng). Redpump có thêm khối xanh + logo vẽ đè ở đầu trang (giữ).
+- Dùng Job.raster_replace với search_rect quanh ô cần sửa; learn_rect = cả bảng chứa ô đó (cùng cỡ chữ).
+- #35 (chỉ Perotac SA) trang 1: "2SD minimum well diameter" → "2SS", "2.5SD" → "2.5SS".
+- #36 trang 1: biểu đồ 2.5SS1.5 có 2 nhãn ".../24": nhãn thứ hai (đường ≈46 m) → "2.5SS1.5/17" (Redpump: 2.5SL1.5/17).
+- #37–#42 bảng kích thước/khối lượng: 1546→1566; 752→732; 873→843; 6.4→7.5; 7.5→8.7; 814→819; 1664→1788;
+  dòng 4SA8/6: P 475→513 và 3.3→3.9; dòng 4SA12/32: P 2143→2112.
+- #43 (Perotac) trang 11 ô tiêu đề biểu đồ "6SA15"→"6SA35", "6SA25"→"6SA45". #44 (Redpump) trang 7
+  "4SL6"→"4SL10", "4SL8"→"4SL12". #45 (Redpump) trang 11 "6SL15"→"6SL35", "6SL25"→"6SL45", nhãn "6SL 35/20"→"6SL35/20"
+  (bỏ dấu cách: dời phần sau sang trái). #46 (Redpump) trang 10 tiêu đề "6SL." → "6SL" (xoá dấu chấm).
+- #131 trang 4–8 (14 hàng mỗi file), cột kW / HP:
+  hàng 5 kW/7 HP → 5.5 / 7.5 : 4SA2/64, 4SA3/56, 4SA4/45, 4SA6/38, 4SA8/33, 4SA10/24, 4SA12/23, 4SA16/18
+  hàng 7 kW/10 HP → 7.5 / 10 (HP giữ 10): 4SA4/56, 4SA6/47, 4SA8/41, 4SA10/30, 4SA12/29, 4SA16/23
+  (Redpump: tên 4SL…). Dấu '.' chép từ ô khác cùng bảng (vd "1.5"). Kiểm đủ 14×2 ô kW + 8 ô HP mỗi file.
+- #132 trang 1, 2, 4, 10: "Warranty: 1 years" → "1 year" (xoá chữ 's', giữ phần trước).
+- #162 logo Redpump "Italy Standard": giữ nguyên.
+- Biểu đồ (ảnh): chỉ ĐO đường nào lệch bảng nhiều (dùng màu đường + trục) và báo; vẽ lại khi anh duyệt.
+
+ĐÃ DÒ THỬ BẰNG catfix (để bạn đối chiếu – toạ độ pt, gốc dưới trái; n = số chỗ tìm thấy):
+- Perotac bơm giếng SA_compressed.pdf, trang 1, tìm '2SD' → n=1 "2SD minimum well diameter:2"" tại [28.3, 392.3, 42.7, 399.5]
+- Perotac bơm giếng SA_compressed.pdf, trang 1, tìm 'years' → n=1 "Warranty: 1 years" tại [78.7, 222.3, 103.7, 230.5]
+- Perotac bơm giếng SA_compressed.pdf, trang 1, tìm '1546' → n=1 "| sssmisi24 | a" | 779 | 7e7_| 1546 | 41 | 82 | 123 |" tại [623.0, 49.5, 636.5, 55.2]
+- Redpump gieng SL_compressed.pdf, trang 4, tìm 'years' → n=1 "Warranty: 1 years" tại [78.7, 220.3, 102.7, 228.5]
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G04.png") và báo cáo S.report("BAO CAO G04.md"); ghi S.progress("G04", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

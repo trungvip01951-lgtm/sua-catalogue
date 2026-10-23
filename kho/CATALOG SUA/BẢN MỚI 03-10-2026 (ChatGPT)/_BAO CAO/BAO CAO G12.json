@@ -1,0 +1,154 @@
+{
+  "group": "G12",
+  "status": "CHƯA XONG",
+  "task_summary": {
+    "total": 3,
+    "passed": 0,
+    "failed": 0,
+    "unable": 3
+  },
+  "rows": [
+    {
+      "task": 105,
+      "page": 1,
+      "old": "LÍMITES UTILIZACIóN/UTILIS ATION LIMITES; CóDIGO M ODELO",
+      "new": "Đã bỏ khe M ODELO → MODELO; chữ ó và tiêu đề giới hạn còn chờ đúng mẫu Ó/nháy",
+      "method": "Dời nét chữ theo khoảng cách cặp M/O nguồn; kiểm toàn tệp, phông nhúng và lớp S/s",
+      "result": "CHƯA THỂ XÁC MINH",
+      "evidence": "G12/delivery-chu-day-du-Aquaris.png; G12/delivery-chu-day-du-Perotac.png; G12/ky-tu-con-thieu.json"
+    },
+    {
+      "task": 106,
+      "page": 2,
+      "old": "DESCRIPCIóN DE MA TERIAL",
+      "new": "DESCRIPCIóN DE MATERIAL; còn chờ Ó hoa",
+      "method": "Dời nét chữ theo cặp A/T cùng kiểu của MATÉRIEL trên cùng dòng",
+      "result": "CHƯA THỂ XÁC MINH",
+      "evidence": "G12/delivery-chu-day-du-Aquaris.png; G12/delivery-chu-day-du-Perotac.png; G12/ky-tu-con-thieu.json"
+    },
+    {
+      "task": 107,
+      "page": 1,
+      "old": "3 dòng kw; kw trong bảng; T amaño; inox304; 5 ô trống sau số 30",
+      "new": "3 dòng kW; Tamaño; inox 304; thêm 5 dấu - đúng cột; kw thường đứng trong bảng còn chờ W",
+      "method": "Chép W nghiêng cùng phông (3 chữ a/t/e chứng minh), dời nét và chép dấu - đúng cột",
+      "result": "CHƯA THỂ XÁC MINH",
+      "evidence": "G12/delivery-Q-30-va-5-o-Aquaris.png; G12/delivery-Q-30-va-5-o-Perotac.png; G12/delivery-nghiem-thu-doc-lap.json"
+    }
+  ],
+  "files": {
+    "Aquaris": {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\3M Aquaris (bản mới).pdf",
+      "hashes": {
+        "source": "bb909625d3b89e62e8dfad36e35ff6042ab247c4be91d35ca927c4d70ee77329",
+        "output": "974abda757d400c3f078eea7371d26fa25c78ec089417c6c802db33dbef2ffb9"
+      },
+      "numeric_model_rows": 36,
+      "numeric_cells": 684,
+      "plots": 5,
+      "curves": 36,
+      "repaired_curves": 5,
+      "preserved_curves": 31,
+      "points": 250,
+      "repaired_points": 32,
+      "available_prompt_operations": 12,
+      "extra_text_operations": 4,
+      "new_dash_cells": 5,
+      "max_repaired_point_difference_m": 3.284332595399064e-05,
+      "max_repaired_endpoint_Q_error_m3h": 2.729791575006857e-05,
+      "max_repaired_endpoint_H_error_m": 2.6186527570359885e-05
+    },
+    "Perotac": {
+      "file": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Trục ngang\\3M Perotac (bản mới).pdf",
+      "hashes": {
+        "source": "9483051deb70cfb7267d98376adaf3841129c8def208591d89121c48318eb615",
+        "output": "f0255328f1e532a63a901e605ee827ab69e28350b7e27ea2beb78222dadb6335"
+      },
+      "numeric_model_rows": 36,
+      "numeric_cells": 684,
+      "plots": 5,
+      "curves": 36,
+      "repaired_curves": 5,
+      "preserved_curves": 31,
+      "points": 250,
+      "repaired_points": 32,
+      "available_prompt_operations": 12,
+      "extra_text_operations": 4,
+      "new_dash_cells": 5,
+      "max_repaired_point_difference_m": 3.284332595399064e-05,
+      "max_repaired_endpoint_Q_error_m3h": 2.729791575006857e-05,
+      "max_repaired_endpoint_H_error_m": 2.6186527570359885e-05
+    }
+  },
+  "totals": {
+    "numeric_model_rows": 72,
+    "numeric_cells": 1368,
+    "plots": 10,
+    "curves": 72,
+    "repaired_curves": 10,
+    "preserved_curves": 62,
+    "points": 500,
+    "repaired_points": 64,
+    "available_prompt_operations": 24,
+    "extra_text_operations": 8,
+    "new_dash_cells": 10
+  },
+  "missing": [
+    {
+      "file": "3M Aquaris (bản mới).pdf",
+      "task": 105,
+      "char": "Ó",
+      "style": "đậm nghiêng",
+      "where": "CÓDIGO và UTILIZACIÓN"
+    },
+    {
+      "file": "3M Aquaris (bản mới).pdf",
+      "task": 105,
+      "char": "'",
+      "style": "đậm nghiêng",
+      "where": "D'UTILISATION"
+    },
+    {
+      "file": "3M Aquaris (bản mới).pdf",
+      "task": 106,
+      "char": "Ó",
+      "style": "đậm nghiêng",
+      "where": "DESCRIPCIÓN"
+    },
+    {
+      "file": "3M Aquaris (bản mới).pdf",
+      "task": 107,
+      "char": "W",
+      "style": "thường đứng",
+      "where": "Đơn vị kw trên bảng kỹ thuật"
+    },
+    {
+      "file": "3M Perotac (bản mới).pdf",
+      "task": 105,
+      "char": "Ó",
+      "style": "đậm nghiêng",
+      "where": "CÓDIGO và UTILIZACIÓN"
+    },
+    {
+      "file": "3M Perotac (bản mới).pdf",
+      "task": 105,
+      "char": "'",
+      "style": "đậm nghiêng",
+      "where": "D'UTILISATION"
+    },
+    {
+      "file": "3M Perotac (bản mới).pdf",
+      "task": 106,
+      "char": "Ó",
+      "style": "đậm nghiêng",
+      "where": "DESCRIPCIÓN"
+    },
+    {
+      "file": "3M Perotac (bản mới).pdf",
+      "task": 107,
+      "char": "W",
+      "style": "thường đứng",
+      "where": "Đơn vị kw trên bảng kỹ thuật"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "template_id": "SP6_LOGO_TABLE_V2",
+  "based_on": "SP6_VECTOR_V1",
+  "logo": "PASS_INDEPENDENT",
+  "table": "PASS_INDEPENDENT",
+  "numbers_426_unchanged": "PASS",
+  "approx_speed_P2": "PASS",
+  "whole_page": "FAIL_EXISTING_LABELS_AND_1_NEW_5PCT_POINT",
+  "production_ready": false,
+  "canonical_adopted": false,
+  "closed_label_method_still_closed": true,
+  "new_header_table_pdf_attempts": 1,
+  "new_5pct_failures": [
+    {
+      "model": "6SP36-2",
+      "Q": 48.0,
+      "H_table": 14,
+      "H_curve": 13.222222222222218,
+      "error_m": 0.7777777777777821,
+      "tolerance_m": 1,
+      "relative_error_percent": 5.5555555555555864
+    }
+  ],
+  "power_table_sample_inversions_found": 0,
+  "power_entire_catalogue": "NOT_RUN",
+  "build_code_status": "historical only; contains fixed old lock and paths; do not execute unchanged"
+}

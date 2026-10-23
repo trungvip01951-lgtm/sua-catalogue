@@ -1,0 +1,29 @@
+{
+  "template_id": "SP6_VECTOR_V1",
+  "production_ready": false,
+  "numeric_status": "PASS_WITH_DOCUMENTED_TOLERANCE",
+  "visual_status": "FAIL",
+  "pdf_attempts": 2,
+  "method_closed": true,
+  "canonical_adopted": false,
+  "candidate_sha256": "8f1a2edc65aad20ab5f0d41b1c4980e85cd7617193a868ac2e98ad05cac7c583",
+  "known_failures": [
+    "SP46 -2 crossed by -3A",
+    "SP36 low labels crossed by adjacent paths",
+    "n approximate changed to equal",
+    "P2 missing"
+  ],
+  "reuse_allowed": [
+    "verified data and provenance",
+    "physical curves subject to original tolerance",
+    "readback/preservation approach",
+    "font/vector authoring principle"
+  ],
+  "reuse_prohibited": [
+    "unchanged failed label placement",
+    "running historical scripts with old lock/path/SHA",
+    "treating eta trace as manufacturer data",
+    "declaring exact all-point interpolation"
+  ],
+  "scope": "SP page6 only, 39 models; no 34-page production approval"
+}

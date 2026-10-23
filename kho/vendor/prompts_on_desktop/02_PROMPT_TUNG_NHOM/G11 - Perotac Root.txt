@@ -1,0 +1,49 @@
+﻿PROMPT NHÓM G11 – Perotac Root
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('Perotac Root_300dpi_75% (bản mới).pdf')   (thư mục Thổi khí)
+  Ra:  S.dst('Perotac Root_300dpi_75% (bản mới).pdf')   → job = S.job('Perotac Root_300dpi_75% (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1: CHỮ THẬT; trang 2–18: CHỮ NÉT VẼ
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 84 | SỬA | Perotac Root_300dpi_75%.pdf | 2 | Tiêu đề mục ưu điểm | "Advantages of SHOWFOU 3 LOBES ROOTS BLOWER" – sót tên hãng khác | Advantages of PEROTAC 3 LOBES ROOTS BLOWER | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 85 | SỬA | Perotac Root_300dpi_75%.pdf | 3 | Giải thích ký hiệu | "RLV/RWV: Complete Set … For Pressure Operation" | For Vacuum Operation | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 86 | SỬA | Perotac Root_300dpi_75%.pdf | 3 | Bảng SPECIFICATIONS, hàng RW 50 | Cột VACUUM ghi "RWC-50" | RWV-50 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 87 | SỬA | Perotac Root_300dpi_75%.pdf | 4 | Tiêu đề cột | "NOAME" | NAME | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 88 | SỬA | Perotac Root_300dpi_75%.pdf | 9 | Hướng dẫn chọn | "the moldel number" | model number | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 89 | SỬA | Perotac Root_300dpi_75%.pdf | 9 | Bảng quy đổi áp suất, hàng 1 mmHg | 0.013 atm; 0.1338 kPa | 0.00132 atm; 0.1333 kPa | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 90 | SỬA | Perotac Root_300dpi_75%.pdf | 9 | Bảng quy đổi lưu lượng, hàng 1 U.S. GPM | 3.4785 ℓ/min | 3.785 ℓ/min | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 91 | SỬA | Perotac Root_300dpi_75%.pdf | 10 | Biểu đồ | Nhãn trục "Static Pressurs" (10 biểu đồ); tiêu đề "RLC-80 (RWC-80)" khác kiểu các biểu đồ còn lại | Static Pressure; RL-80 (RW-80) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 92 | SỬA | Perotac Root_300dpi_75%.pdf | 15 | Bảng 90° ELBOW | "NDE00" | NDE100 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 93 | SỬA | Perotac Root_300dpi_75%.pdf | 17 | Mục motor | "Tanadem Type Motor" | Tandem | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 94 | SỬA | Perotac Root_300dpi_75%.pdf | 18 | Ô ứng dụng | "liguid chemical"; "Raint, etc" (chữ tràn viền ô) | liquid; Paint, etc | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 146 | GIỮ NGUYÊN (không đụng) | Perotac Root_300dpi_75%.pdf | 5–6 | Bảng tra RL theo vòng quay | Một số ô ngược quy luật | Giữ nguyên | NV trả lời (file câu hỏi 02/10) |
+| 147 | GIỮ NGUYÊN (không đụng) | Perotac Root_300dpi_75%.pdf | 14 | Bảng DSS, DSS125 cột D | 15 | Giữ nguyên | NV trả lời (file câu hỏi 02/10) |
+| 148 | GIỮ NGUYÊN (không đụng) | Perotac Root_300dpi_75%.pdf | 1 | Logo chứng nhận | ISO 9001 BSMI, CNS12681, CE | Giữ | NV trả lời (file câu hỏi 02/10) |
+
+Số việc phải SỬA: 11. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- CHỮ NÉT VẼ gần như toàn bộ (vài chữ thật ở trang 1, 2, 10, 17). Dùng OutlineText.
+- #84 trang 2: "SHOWFOU" → "PEROTAC" (cùng kiểu chữ tiêu đề). #85 trang 3: "For Pressure Operation" (dòng RLV/RWV)
+  → "For Vacuum Operation". #86 trang 3 hàng RW 50 cột VACUUM: "RWC-50" → "RWV-50". #87 trang 4 "NOAME" → "NAME".
+- #88 trang 9 "moldel" → "model". #89 trang 9 hàng 1 mmHg: "0.013" → "0.00132", "0.1338" → "0.1333".
+  #90 trang 9 hàng 1 U.S. GPM: "3.4785" → "3.785".
+- #91 trang 10: "Static Pressurs" → "Static Pressure" (10 biểu đồ, có thể là chữ xoay – similarity_decode);
+  tiêu đề "RLC-80 (RWC-80)" → "RL-80 (RW-80)". #92 trang 15 "NDE00" → "NDE100". #93 trang 17 "Tanadem" → "Tandem".
+- #94 trang 18: "liguid" → "liquid"; ô SPRAYING "Raint, etc" → "Paint, etc" và sửa chữ tràn viền ô (dời vào trong ô).
+- #146–#148: giữ nguyên.
+
+ĐÃ DÒ THỬ BẰNG catfix (để bạn đối chiếu – toạ độ pt, gốc dưới trái; n = số chỗ tìm thấy):
+- Perotac Root_300dpi_75%.pdf, trang 2, tìm 'SHOWFOU' → n=1 "Advantages of SHOWFOU 3 LOBES ROOTS BLOWER are" tại [109.0, 258.2, 154.4, 265.3]
+- Perotac Root_300dpi_75%.pdf, trang 4, tìm 'NOAME' → n=1 "NOAME" tại [163.0, 359.0, 219.9, 368.0]
+- Perotac Root_300dpi_75%.pdf, trang 9, tìm 'moldel' → n=1 "?. According to the airvolume and static pressure as calcula" tại [384.0, 513.0, 412.1, 520.3]
+- Perotac Root_300dpi_75%.pdf, trang 9, tìm '0.013' → n=1 "1 mmHg(Torr) 0.013" tại [125.3, 228.7, 145.3, 234.9]
+- Perotac Root_300dpi_75%.pdf, trang 9, tìm '3.4785' → n=0 (chưa thấy – thử dump/teach/regex, hoặc chữ nằm ở dạng khác: chữ thật/nét vẽ/ảnh)
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G11.png") và báo cáo S.report("BAO CAO G11.md"); ghi S.progress("G11", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

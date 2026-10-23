@@ -1,0 +1,35 @@
+{
+  "cutoff_utc": "2026-10-06T02:51:35.999Z",
+  "root_start": "2026-10-06T02:34:13.540Z",
+  "root_cutoff": "2026-10-06T02:51:35.086Z",
+  "root_delta": {
+    "input_tokens": 3561842,
+    "cached_input_tokens": 3419264,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 26167,
+    "reasoning_output_tokens": 7869,
+    "total_tokens": 3588009
+  },
+  "independent_agent": {
+    "timestamp": "2026-10-06T02:51:18.623Z",
+    "usage": {
+      "input_tokens": 986159,
+      "cached_input_tokens": 904960,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 7205,
+      "reasoning_output_tokens": 1017,
+      "total_tokens": 993364
+    }
+  },
+  "credit_before": "33076.9417095000",
+  "credit_after": "32273.4686995000",
+  "credit_account_delta": "803.4730100000",
+  "credit_window_utc": [
+    "2026-10-06T02:35:32Z",
+    "2026-10-06T02:51:35Z"
+  ],
+  "credit_scope": "ACCOUNT-WIDE, concurrent SEO WEB sessions observed; cannot attribute exact billed credits to this page. First minute and post-cutoff work excluded.",
+  "token_scope": "Session counters reported separately; not added to avoid possible platform aggregation. Reasoning tokens are already part of output.",
+  "root_log": "C:\\Users\\H2\\.codex\\sessions\\2026\\10\\06\\rollout-2026-10-06T07-52-13-01a10eb2-5f0e-7a22-830b-b9094790417c.jsonl",
+  "agent_log": "C:\\Users\\H2\\.codex\\sessions\\2026\\10\\06\\rollout-2026-10-06T09-47-59-01a10f1c-5cf7-7942-8a3d-71edcbca5572.jsonl"
+}

@@ -1,0 +1,119 @@
+from pathlib import Path
+import json,sys,hashlib,subprocess,math
+import numpy as np
+import fitz,pikepdf
+from fontTools.ttLib import TTFont
+R=Path(r'D:\ChatGPT\Sửa catalogue');W=R/'work/sp6_fullmodel';D=R/'deliverables/SP6 FULL MODEL NET LIEN 20261006';D.mkdir(exist_ok=True)
+read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+sys.path.insert(0,str(R/'vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT'));from catfix.vector import Editor;from catfix import cs
+data=read(W/'data_current.json');L=read(W/'label_plan.json');assert len(L['labels'])==39 and L['status']=='READY_GEOMETRY'
+BASE=Path(read(R/'work/sp6_logo_table_v2/candidate.json')['candidate']);assert sha(BASE)=='7b20403444ef5b97ae1f4da15a39e3affa64cb14206063da05e6114ad0208d05'
+assert sha(Path(data['current']))==data['current_sha256'] and sha(Path(data['source']))==data['source_sha256']
+E=Editor(str(BASE));v=E.page(5);height=595.;width=831.5599975585938;dels=set();moves=[];removed_labels=[];old_grid=[];curve_objs=[]
+def n(x):return f'{x:.8f}'.rstrip('0').rstrip('.') if abs(x)>1e-9 else '0'
+def rgb(c,stroke=False):return ' '.join(n(x) for x in c)+(' RG' if stroke else ' rg')
+TEAL=(.15,.37,.46);GRID=(.84,.88,.90);BORDER=(.32,.48,.56);INK=(.12,.22,.28);ops=['q','[] 0 d','0 J 0 j'];new_text=[];table_segments=[];qh_paths=[]
+font=TTFont('C:/Windows/Fonts/arialbd.ttf');cmap=font.getBestCmap();up=font['head'].unitsPerEm;used=set()
+def text(s,x,y,size=6,matrix=(1,0,0,1),color=TEAL,fontname='FullModelBold'):
+ used.update(ord(c) for c in s)
+ ops.append(f'BT /{fontname} {n(size)} Tf {rgb(color)} '+ ' '.join(n(z) for z in [*matrix,x,height-y])+f' Tm <{s.encode("utf-16-be").hex()}> Tj ET')
+ new_text.append({'text':s,'x':x,'baseline_top':y,'size':size,'matrix':matrix})
+def line(x,y,x2,y2,c,lw):ops.append(f'{rgb(c,True)} {n(lw)} w {n(x)} {n(height-y)} m {n(x2)} {n(height-y2)} l S')
+def old_text(first,last):
+ parts=[]
+ for ins in v.ops[first:last+1]:
+  if ins.op=='Tj':parts.append(bytes(ins.operands[0]).decode('utf-16-be'))
+ return ''.join(parts)
+for first,last,ctm in v.texts:
+ tmidx=next((j for j in range(first,last+1) if v.ops[j].op=='Tm'),None)
+ if tmidx is None:continue
+ tm=list(v.ops[tmidx].operands);top=height-float(tm[5]);s=old_text(first,last)
+ if top<285 and s.startswith('-') or abs(top-64)<.01 and (s=='H (m)' or s.endswith(' models')):
+  dels.update(range(first,last+1));removed_labels.append(s);continue
+ if abs(top-338)<.01 or abs(top-348)<.01:
+  tm[5]=float(tm[5])+42;E.modify_instr(5,tmidx,cs.Instr(tm,'Tm'));moves.append({'text':s,'from_y':top,'to_y':top-42})
+ elif 297<=top<=330:
+  tm[5]=float(tm[5])-21;E.modify_instr(5,tmidx,cs.Instr(tm,'Tm'));moves.append({'text':s,'from_y':top,'to_y':top+21})
+ if s in {x['old'] for x in data['revision_changes'] if x['field']=='single_phase_model'}:
+  dels.update(range(first,last+1));cx=24+22.5 if float(tm[4])<410 else 428+22.5
+  # Existing table font remains identical. Only invalid single-phase variant text changes.
+  dash_width=TTFont('C:/Windows/Fonts/arial.ttf')['hmtx']['hyphen'][0]/2048*5.7
+  text('-',cx-dash_width/2,top,5.7,color=INK,fontname='RefreshBody')
+for oi,o in enumerate(v.objs):
+ bb=o['bbox'];top=height-float(bb[3]);bottom=height-float(bb[1]);stroke=o['stroke'];lw=float(o['lw']);isS=o['op']=='S'
+ if isS and top>=373.99 and bottom<579:
+  dels.update(range(o['i0'],o['i1']+1));continue
+ if isS and abs(lw-.75)<1e-6 and 93.9<=top<=284.1:
+  curve_objs.append(oi);dels.update(range(o['i0'],o['i1']+1));continue
+ if isS and abs(lw-.3)<1e-6 and top>=93.9 and bottom<=284.1:
+  pts=[pt for sub in o['subs'] for pt in sub['pts']];assert len(pts)==2
+  old_grid.append([[float(x),height-float(y)] for x,y in pts]);dels.update(range(o['i0'],o['i1']+1));continue
+ if isS and abs(lw-.45)<1e-6 and abs(float(bb[0])-453)<.01 and abs(float(bb[2])-457)<.01 and abs(top-265)<.01:
+  dels.update(range(o['i0'],o['i1']+1));continue
+ if top>=297.9 and bottom<=327.1:E.move_object(5,oi,0,-21)
+assert len(curve_objs)==78 and sum(1 for x in removed_labels if x.startswith('-'))==39
+# Repaint each grid segment only outside label ink boxes. No opaque patches.
+boxes=[]
+for lab in L['labels']:
+ q=np.array(lab['ink_quad_page']);boxes.append([float(q[:,0].min())-.35,float(q[:,1].min())-.35,float(q[:,0].max())+.35,float(q[:,1].max())+.35])
+def spans(a,b,cuts):
+ out=[];cursor=a
+ for lo,hi in sorted(cuts):
+  lo=max(a,lo);hi=min(b,hi)
+  if hi<=lo:continue
+  if lo>cursor:out.append((cursor,lo))
+  cursor=max(cursor,hi)
+ if cursor<b:out.append((cursor,b))
+ return out
+for (x1,y1),(x2,y2) in old_grid:
+ if abs(y2-y1)<1e-8:
+  for a,b in spans(min(x1,x2),max(x1,x2),[(q[0],q[2]) for q in boxes if q[1]<=y1<=q[3]]):line(a,y1,b,y1,GRID,.3)
+ else:
+  assert abs(x2-x1)<1e-8
+  for a,b in spans(min(y1,y2),max(y1,y2),[(q[1],q[3]) for q in boxes if q[0]<=x1<=q[2]]):line(x1,a,x1,b,GRID,.3)
+ops+=['1 J 1 j']
+for r in data['records']:
+ px,qm,hm=(53,60,450) if r['family']=='6SP36' else (457,72,350)
+ X=lambda q:px+q/qm*326;Y=lambda h:94+190-h/hm*190
+ path=[rgb(TEAL,True),'.75 w','[] 0 d'];controls=[]
+ for j,seg in enumerate(r['segments']):
+  pts=[(X(q),height-Y(h)) for q,h in seg];controls.append(pts)
+  if j==0:path.append(f'{n(pts[0][0])} {n(pts[0][1])} m')
+  path.append(' '.join(n(z) for p in pts[1:] for z in p)+' c')
+ path.append('S');ops.append('\n'.join(path));qh_paths.append({'model':r['model'],'segments_page':controls})
+for lab in L['labels']:text(lab['text'],lab['x'],lab['baseline_top'],lab['size'],lab['pdf_text_matrix_abcd'])
+# One short leader for the exceptional 3A label, kept outside the curves.
+line(452,265,457,265,TEAL,.45)
+for x in [20,424]:
+ s='Total head H (m)';tw=sum(font['hmtx'][cmap[ord(c)]][0] for c in s)*6.4/up
+ text(s,x,189+tw/2,6.4,matrix=(0,1,-1,0),color=INK)
+# Single uniform grid pass AFTER all inherited backgrounds. Avoid duplicated bottom edges.
+ops+=['0 J 0 j'];seen=set()
+def tableline(x,y,x2,y2):
+ key=tuple(round(z,6) for z in [x,y,x2,y2]);assert key not in seen;seen.add(key);table_segments.append(key);line(x,y,x2,y2,BORDER,.6)
+for family,left in [('6SP36',24),('6SP46',428)]:
+ rs=[r for r in data['records'] if r['family']==family];nw=len(rs[0]['Q']);ty=374;hh=33;rh=7.7;bottom=ty+hh+rh*len(rs);fixed=[45,45,18,18,32];dw=(380-sum(fixed))/nw;xs=[left]
+ for value in fixed+[dw]*nw:xs.append(xs[-1]+value)
+ for y in [ty,ty+11,ty+hh,bottom]:tableline(left,y,left+380,y)
+ for i in range(1,len(rs)):
+  y=ty+hh+i*rh;tableline(left,y,xs[4],y);tableline(xs[5],y,xs[-1],y)
+ for j,x in enumerate(xs):tableline(x,ty if j in [0,2,4,len(xs)-1] else ty+11,x,bottom)
+ tableline(xs[4]+11,ty+11,xs[4]+11,ty+hh);tableline(xs[4]+11,ty+22,xs[-1],ty+22)
+ops.append('Q');native='\n'.join(ops).encode('ascii')
+plan={'base':str(BASE),'base_sha256':sha(BASE),'data_sha256':sha(W/'data_current.json'),'label_plan_sha256':sha(W/'label_plan.json'),'new_text':new_text,'removed_text':removed_labels,'moved_text':moves,'new_qh_paths39':qh_paths,'table_grid_segments':table_segments,'table_line_width_pt':.6,'table_rgb':BORDER,'removed_paths78':len(curve_objs),'grid_clipping':'remove only thin gray grid parts under labels, no opaque patch','attempt':1}
+(W/'build_plan.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf8')
+if '--save' not in sys.argv:print('PREFLIGHT PASS; no PDF');E.close();sys.exit()
+gate=subprocess.run([sys.executable,'-X','utf8',str(R/'tools/catalogue.py'),'check','--actor','ChatGPT','--session','ROOT-SP6-FULLMODEL-20261006','--token','3ab30e7e-6a22-45e9-8861-9e495184e7c4'],capture_output=True,encoding='utf8');assert gate.returncode==0,gate.stdout+gate.stderr;(W/'lock_gate.json').write_text(gate.stdout,encoding='utf8')
+pdf=E.doc.pdf;p=E.doc._pages[5];res=pikepdf.Dictionary(p.Resources);fs=pikepdf.Dictionary(res.Font);ffbytes=Path('C:/Windows/Fonts/arialbd.ttf').read_bytes();ff=pdf.make_stream(ffbytes);ff.Length1=len(ffbytes)
+desc=pdf.make_indirect(pikepdf.Dictionary(Type=pikepdf.Name.FontDescriptor,FontName=pikepdf.Name('/Arial-BoldMT'),Flags=32,FontBBox=pikepdf.Array([getattr(font['head'],k)*1000/up for k in ['xMin','yMin','xMax','yMax']]),ItalicAngle=0,Ascent=font['hhea'].ascent*1000/up,Descent=font['hhea'].descent*1000/up,CapHeight=font['OS/2'].sCapHeight*1000/up,StemV=120,FontFile2=ff))
+gidmap=bytearray((max(used)+1)*2);ww=pikepdf.Array()
+for code in sorted(used):
+ glyph=cmap[code];gidmap[code*2:code*2+2]=font.getGlyphID(glyph).to_bytes(2,'big');ww.append(code);ww.append(pikepdf.Array([font['hmtx'][glyph][0]*1000/up]))
+cid=pdf.make_indirect(pikepdf.Dictionary(Type=pikepdf.Name.Font,Subtype=pikepdf.Name.CIDFontType2,BaseFont=pikepdf.Name('/Arial-BoldMT'),CIDSystemInfo=pikepdf.Dictionary(Registry='Adobe',Ordering='Identity',Supplement=0),FontDescriptor=desc,DW=1000,W=ww,CIDToGIDMap=pdf.make_stream(bytes(gidmap))))
+cmapbytes=b'/CIDInit /ProcSet findresource begin 12 dict begin begincmap /CIDSystemInfo << /Registry (Adobe) /Ordering (UCS) /Supplement 0 >> def /CMapName /FullModelUnicode def /CMapType 2 def 1 begincodespacerange <0000> <FFFF> endcodespacerange 1 beginbfrange <0000> <FFFF> <0000> endbfrange endcmap CMapName currentdict /CMap defineresource pop end end'
+fs['/FullModelBold']=pdf.make_indirect(pikepdf.Dictionary(Type=pikepdf.Name.Font,Subtype=pikepdf.Name.Type0,BaseFont=pikepdf.Name('/Arial-BoldMT'),Encoding=pikepdf.Name('/Identity-H'),DescendantFonts=pikepdf.Array([cid]),ToUnicode=pdf.make_stream(cmapbytes)));res.Font=fs;p.Resources=res
+E.delete_instrs(5,sorted(dels));E.insert_instrs(5,len(v.ops),cs.parse(native));out=D/'SP DU 12 TRANG - FULL MODEL NET LIEN.pdf';assert not out.exists();E.save(str(out));E.close()
+with fitz.open(out) as d:
+ d[5].get_pixmap(dpi=180,alpha=False).save(str(D/'SP6 FULL MODEL NET LIEN.png'))
+ for name,clip in [('DO THI TRAI',(10,50,410,354)),('DO THI PHAI',(410,50,819,354)),('BANG TRAI',(22,370,407,572)),('BANG PHAI',(426,370,811,550))]:d[5].get_pixmap(dpi=400,clip=fitz.Rect(clip),alpha=False).save(str(W/(name+'.png')))
+(W/'candidate.json').write_text(json.dumps({'candidate':str(out),'sha256':sha(out),'attempt':1,'scope':'all latest user corrections to SP6 sample','canonical_adopted':False},ensure_ascii=False,indent=2),encoding='utf8');print(str(out))

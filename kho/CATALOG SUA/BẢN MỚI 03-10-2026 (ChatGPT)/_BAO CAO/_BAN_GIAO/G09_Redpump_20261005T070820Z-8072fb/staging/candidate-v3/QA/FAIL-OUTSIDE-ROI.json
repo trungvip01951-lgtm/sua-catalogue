@@ -1,0 +1,14 @@
+{
+  "candidate": "v3",
+  "REJECTED": true,
+  "reason": "Shared native insertion index at end of first white fill/start of second lost first Q in dictionary assembly; clipping state leaked beyond white fills",
+  "outside_ROI_changed_pixels": 1865,
+  "outside_bbox_pixels": [
+    222,
+    1167,
+    576,
+    1414
+  ],
+  "source_current_untouched": true,
+  "fix": "Concatenate suffix Q and following prefix q at their shared index; verify q/Q balance and outsideROI"
+}

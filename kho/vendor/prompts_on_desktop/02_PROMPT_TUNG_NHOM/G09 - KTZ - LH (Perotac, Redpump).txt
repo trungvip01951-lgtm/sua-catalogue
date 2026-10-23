@@ -1,0 +1,39 @@
+﻿PROMPT NHÓM G09 – KTZ - LH (Perotac, Redpump)
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('KTZ - LH Perotac (bản mới).pdf')   (thư mục Nước thải)
+  Ra:  S.dst('KTZ - LH Perotac (bản mới).pdf')   → job = S.job('KTZ - LH Perotac (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1, 5: CHỮ NÉT VẼ; trang 2–4, 6–7: CHỮ THẬT + CHỮ NÉT VẼ
+- Vào: S.src('KTZ - LH Redpump (bản mới).pdf')   (thư mục Nước thải)
+  Ra:  S.dst('KTZ - LH Redpump (bản mới).pdf')   → job = S.job('KTZ - LH Redpump (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1, 5: CHỮ NÉT VẼ; trang 2–4, 6–7: CHỮ THẬT + CHỮ NÉT VẼ
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 71 | SỬA | KTZ - LH Perotac.pdf; KTZ - LH Redpump.pdf | 1 | KTZ – Application/Feature | "Civel engineering"; "build-in thermal protection" | Civil engineering; built-in | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 72 | SỬA | KTZ - LH Perotac.pdf; KTZ - LH Redpump.pdf | 5 | LH – mô tả | "high preasure" | high pressure | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 73 | SỬA | KTZ - LH Perotac.pdf; KTZ - LH Redpump.pdf | 3–4 | Bảng KTZ 50Hz & 60Hz, dòng KTZ67.5 | Rated 90 m³/h ↔ 1.60 m³/min | 1.50 m³/min | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 74 | SỬA | KTZ - LH Perotac.pdf; KTZ - LH Redpump.pdf | 4 | Bảng KTZ 60Hz, dòng KTZ32.2 | Rated 30 m³/h ↔ 0.60 m³/min | 0.50 m³/phút (khớp 30 m³/h) | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 75 | SỬA | KTZ - LH Perotac.pdf; KTZ - LH Redpump.pdf | 7 | Biểu đồ LH 50Hz | Nhãn "SH637" | 637 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 76 | SỬA | KTZ - LH Perotac.pdf; KTZ - LH Redpump.pdf | 2 | Hình cắt KTZ | Hình có số 03 nhưng bảng vật liệu không có mục 03; bảng có mục 11 nhưng hình không có số 11 | Hình cắt: xoá số 03 (chỉ vào chỗ bắt cáp, bảng không có), thêm số 11 chỉ vào vỏ động cơ | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 144 | GIỮ NGUYÊN (không đụng) | KTZ - LH Perotac.pdf; KTZ - LH Redpump.pdf | 6 | Bảng kích thước LH8110 | H 1687, H1 1282 | Giữ nguyên | NV trả lời (file câu hỏi 02/10) |
+| 162 | GIỮ NGUYÊN (không đụng) | KTZ - LH Redpump.pdf | Logo | Logo Redpump | Italy Standard | Giữ nguyên | NV trả lời (file câu hỏi 02/10) |
+
+Số việc phải SỬA: 6. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- 2 file cùng nội dung: trang 1, 5 chủ yếu CHỮ NÉT VẼ; trang 2–4, 6–7 có cả CHỮ THẬT và NÉT VẼ.
+  Mỗi việc: what_is_at trước để biết dùng TextLayer hay OutlineText.
+- #71 trang 1: "Civel engineering" → "Civil engineering"; "build-in thermal protection" → "built-in".
+- #72 trang 5: "high preasure" → "high pressure".
+- #73 trang 3–4 (bảng 50 Hz và 60 Hz) dòng KTZ67.5: "1.60" (m³/min) → "1.50". #74 trang 4 dòng KTZ32.2: "0.60" → "0.50".
+- #75 trang 7 biểu đồ LH 50Hz: nhãn "SH637" → "637".
+- #76 trang 2 hình cắt: xoá số chú thích "03" (và đường dẫn của nó nếu riêng); thêm số "11" chỉ vào vỏ động cơ
+  (chép kiểu một số chú thích có sẵn: số + đường dẫn + chấm). Làm MẪU, gửi duyệt.
+- #144, #162: giữ nguyên.
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G09.png") và báo cáo S.report("BAO CAO G09.md"); ghi S.progress("G09", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

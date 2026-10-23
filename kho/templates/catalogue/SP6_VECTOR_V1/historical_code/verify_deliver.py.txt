@@ -1,0 +1,61 @@
+from pathlib import Path
+import json,hashlib,sys,shutil
+import fitz,pikepdf
+R=Path(r'D:\ChatGPT\Sửa catalogue');W=R/'work/sp6_redesign_pilot'
+read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'))
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+c=read(W/'candidate.json');out=Path(c['candidate']);root=out.parent.parent
+plan=read(root/'02 DRAW PLAN TEXT AND PATHS.json');original=Path(plan['current'])
+a=fitz.open(original);b=fitz.open(out)
+assert len(a)==len(b)==12
+qa={'source_held':sha(Path(plan['source']))==plan['source_sha256'],'canonical_held':sha(original)==plan['current_sha256'],'candidate_sha':sha(out),'page_boxes_equal':all(x.rect==y.rect for x,y in zip(a,b)),'metadata_equal':a.metadata==b.metadata,'toc_equal':a.get_toc()==b.get_toc(),'links_equal':all(x.get_links()==y.get_links() for x,y in zip(a,b)),'outside_page_checks':[]}
+for i in range(12):
+ if i==5:continue
+ p=a[i].get_pixmap(dpi=100,alpha=False);q=b[i].get_pixmap(dpi=100,alpha=False)
+ qa['outside_page_checks'].append({'page':i+1,'rgb_exact':p.samples==q.samples})
+assert all(x['rgb_exact'] for x in qa['outside_page_checks'])
+words=b[5].get_text('words');cells=[]
+for family,left in [('6SP36',24),('6SP46',428)]:
+ records=[r for r in plan['records'] if r['family']==family];nw=len(records[0]['Q']);dw=(380-134)/nw
+ for row,rec in enumerate(records):
+  for j,(q,h) in enumerate(zip(rec['Q'],rec['H'])):
+   x0=left+134+j*dw;x1=x0+dw;y0=401+8*row;y1=y0+8
+   found=[w[4] for w in words if x0<(w[0]+w[2])/2<x1 and y0<(w[1]+w[3])/2<y1]
+   cells.append({'model':rec['model'],'Q':q,'expected':str(h),'actual':found,'pass':found==[str(h)]})
+qa['table_readback426_pass']=len(cells)==426 and all(x['pass'] for x in cells)
+assert qa['table_readback426_pass'],[x for x in cells if not x['pass']][:5]
+with pikepdf.open(original) as s,pikepdf.open(out) as d:
+ def streams(pdf,kind):
+  found=[]
+  for o in pdf.objects:
+   if isinstance(o,pikepdf.Stream) and (kind=='Image' and str(o.get('/Subtype',''))=='/Image' or kind=='FontFile' and '/Length1' in o):
+    found.append(hashlib.sha256(o.read_raw_bytes()).hexdigest())
+  return found
+ qa['old_image_raw_streams_held']=all(v in streams(d,'Image') for v in streams(s,'Image'))
+ qa['old_font_raw_streams_held']=all(v in streams(d,'FontFile') for v in streams(s,'FontFile'))
+ qa['xmp_equal']=(s.Root.Metadata.read_bytes() if '/Metadata' in s.Root else None)==(d.Root.Metadata.read_bytes() if '/Metadata' in d.Root else None)
+ qa['all_mediaboxes_equal']=all(list(x.MediaBox)==list(y.MediaBox) for x,y in zip(s.pages,d.pages))
+ qa['fullpage_vector_content_bytes']=len(d.pages[5].Contents.read_bytes())
+qa['numeric_curve426_pass']=all(t['error_m']<=t['tolerance_m']+1e-7 for t in plan['checks426'])
+qa['table_changes2']=plan['changes2'];qa['eta_scope']='Traced graphic only; no manufacturer eta data verification.'
+assert all(qa[k] for k in ['source_held','canonical_held','page_boxes_equal','metadata_equal','toc_equal','links_equal','old_image_raw_streams_held','old_font_raw_streams_held','xmp_equal','all_mediaboxes_equal','numeric_curve426_pass'])
+a[5].get_pixmap(dpi=180,alpha=False).save(str(out.parent/'TRANG 6 TRUOC.png'))
+a.close();b.close()
+(out.parent/'05 QA ACTUAL PDF.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2),encoding='utf-8')
+(out.parent/'06 ACTUAL TABLE READBACK426.json').write_text(json.dumps(cells,ensure_ascii=False,indent=2),encoding='utf-8')
+D=R/'deliverables/SP TRANG 6 MAU VE LAI 20261006';D.mkdir(exist_ok=True)
+shutil.copy2(out,D/'SP DU 12 TRANG - MAU MOI O TRANG 6.pdf')
+shutil.copy2(out.parent/'TRANG 6 SAU.png',D/'SP TRANG 6 MAU MOI.png')
+shutil.copy2(out.parent/'TRANG 6 TRUOC.png',D/'SP TRANG 6 BAN TRUOC.png')
+sys.path.insert(0,str(R/'vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT'))
+from catfix.vector import Editor
+E=Editor(str(out))
+for i in reversed(range(12)):
+ if i!=5:del E.doc.pdf.pages[i]
+single=D/'SP TRANG 6 - MAU VE LAI.pdf';assert not single.exists();E.save(str(single));E.close()
+with fitz.open(single) as d,fitz.open(out) as f:
+ assert len(d)==1
+ assert d[0].get_pixmap(dpi=180,alpha=False).samples==f[5].get_pixmap(dpi=180,alpha=False).samples
+qa['single_page_preview_sha']=sha(single);qa['single_page_pixels_equal_parent']=True
+(D/'KIEM TRA PDF.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2),encoding='utf-8')
+print(json.dumps(qa,ensure_ascii=False))

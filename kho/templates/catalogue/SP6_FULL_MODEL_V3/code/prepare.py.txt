@@ -1,0 +1,54 @@
+from pathlib import Path
+import json,shutil,hashlib
+from datetime import datetime,timezone
+import numpy as np
+from scipy.interpolate import CubicSpline
+R=Path(r'D:\ChatGPT\Sửa catalogue');W=R/'work/sp6_fullmodel';W.mkdir(exist_ok=True);read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'));stamp=datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ');B=R/'history'/('full-model-rules-'+stamp);B.mkdir()
+doc='''# Yêu cầu chỉnh mẫu: nét bảng, model đầy đủ, trục Q/H — 06/10/2026
+
+Anh Trung trực tiếp yêu cầu:
+
+- Đường kẻ ô đang đậm/mờ không đều gây nhầm hàng: sửa đồng bộ, dễ dò thông số.
+- Không dùng riêng hậu tố -30/-28… trên đường; ghi rõ đầy đủ model. Nếu có cả1pha và3pha, đồ thị chỉ ghi model3pha; không xóa biến thể1pha hợp lệ trong bảng.
+- Dòng lưu lượng m³/h vàl/min phải ngay dưới đồ thịQ–H, phía trên biểu đồ hiệu suấtη; không đặt dướiη.
+- Đường đặc tính vẽ nét liền, không dùng nét đứt.
+- Ghi Total head H (m) dọc trục cột áp; xóaH(m) rời cạnh tiêu đề.
+- Bỏ các dòng đếm21models/18models; vẫn giữ tiêu đề dòngbơm6SP36/6SP46.
+- Anh xác nhận “được rồi e sửa lại cho a đi”.
+
+Áp vào mẫuSP6 đang xem, không suy thành đã sửa34trang. Đồng thời tuân quy tắc3kW về pha và ngưỡng5% đã công khai; giữ426sốH, côngsuất,đơnvị,đầucuối vàđiểmlàmviệc đãbiết. Ghi4ô1pha>3kW thành dấu–, giữđúng dòng3pha; không xóa model3pha hoặc tự sửa côngsuất.
+
+## Cách làm và tránh lỗi cũ
+
+Nét bảng phải vẽ sau TẤT CẢ nền ô, mỗi đoạnmộtlần,cùngmàu/độdày. Mẫutrước vẽnền dòngsau đè mép nét dòngtrước; chỉ đặtcùnglinewidth khôngchứng cùngđộrõ trênPDF. Bảnmới kiểm từngđường ngang/đứng vàđộđọc thật.
+
+Nhãnfullmodel dùng bốtrítheotangent/vùngtrống, đo hộpmựcthật vớiTOÀNBỘ đường vànhãn; một sốnhãn cóthể nằm dướiđường hoặc ngoàimépvớileaderngắn đúngchủ nếu khôngđủchỗ. Không lặp suffix cùngx cốđịnh đãSTOP2; không phủ trắng/nới ngưỡng/thu fontâmthầm. Chuẩn bịJSONhìnhhọctrướcPDF, tốiđa2mẫu cho cáchmới; giữ cácmẫu cũ đểtruyvết.
+
+Điểm6SP36-2 Q48cũ lệch5.56%: thử đườngC2 đơnđiệu đi qua426bảng (chỉkhớplại10điểm của modelnày;38đường còn giữ). Đầucuối/bảng khôngđổi; kiểm đạo hàm và điểm thực; đây là sửađường theo chuẩn mới, khôngsửa số để choqua.
+'''
+(R/'rules/BO_SUNG_FULL_MODEL_NET_BANG_TRUC_20261006.md').write_text(doc,encoding='utf8')
+for rel in ['rules/QUY_TAC_CUNG_HIEN_HANH.md','knowledge/LOI_VA_CACH_TRANH.md']:
+ p=R/rel;shutil.copy2(p,B/p.name)
+ with p.open('a',encoding='utf8') as f:f.write('\n\n## Model đầy đủ, nét bảng, trục Q/H — 06/10/2026\n\nĐọc rules/BO_SUNG_FULL_MODEL_NET_BANG_TRUC_20261006.md: fullmodel3pha trênđường khi cócảhai; nétliền; Q ngaydướiQH/trênη; Total head H(m) dọctrục, bỏH(m)rời vàsốđếmmodel. Kẻbảngsaucùngtoànbộnềnô,cùngmàunét. Không chạy lại cách nhãn suffixđãSTOP2. Anhđãxácnhậnsửa mẫu.\n')
+m=read(R/'manifest.json');shutil.copy2(R/'manifest.json',B/'manifest.json');rel='rules/BO_SUNG_FULL_MODEL_NET_BANG_TRUC_20261006.md'
+if rel not in m['mandatory_controls']:m['mandatory_controls'].append(rel)
+(R/'manifest.json').write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+data=read(R/'templates/catalogue/SP6_LOGO_TABLE_V2/data.json');changes=[]
+for r in data['records']:
+ md=r['metadata']
+ if float(md['kW_literal'])>3 and md.get('single_phase_model') and md['single_phase_model']!='-':
+  changes.append({'field':'single_phase_model','model':r['model'],'old':md['single_phase_model'],'new':None,'authority':'user3kWrule'});md['single_phase_model']=None;md['electrical_variants']=[v for v in md.get('electrical_variants',[]) if v.get('model')==md['current_owner_fullmodel']]
+ if r['model']=='6SP36-2':
+  r['prior_segments']=r['segments'];s=CubicSpline(r['Q'],r['H'],bc_type='natural');r['segments']=[]
+  for i in range(len(r['Q'])-1):
+   x0,x1=r['Q'][i:i+2];dx=x1-x0;y0,y1=r['H'][i:i+2];r['segments'].append([[x0,y0],[x0+dx/3,y0+float(s(x0,1))*dx/3],[x1-dx/3,y1-float(s(x1,1))*dx/3],[x1,y1]])
+  for seg in r['segments']:
+   a=np.array(seg);v=3*np.diff(a,axis=0)[:,1];aa=v[0]-2*v[1]+v[2];bb=2*(v[1]-v[0]);ts=[0,1]
+   if abs(aa)>1e-15 and 0<-bb/(2*aa)<1:ts.append(-bb/(2*aa))
+   assert max((1-t)**2*v[0]+2*(1-t)*t*v[1]+t*t*v[2] for t in ts)<0
+  changes.append({'field':'curve','model':r['model'],'method':'natural C2 cubic through same 10 table points; strict negative derivative proven','old_Q48_H':13.222222222222218,'new_Q48_H':14,'table_changed':False,'QH_endpoints_held':True})
+data['revision_changes']=changes
+(W/'data_current.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf8')
+for name in ['codex-clipboard-53ecc82e-7562-44e8-8b5d-dcd4ade4c7d6.png','codex-clipboard-ddf2d721-fa0a-4117-b4a1-5757942f3443.png','codex-clipboard-7c9a5cb1-324d-4589-b0f8-35f5bb519893.png','codex-clipboard-567dd300-813c-42d5-95fe-e55054e835f5.png','codex-clipboard-c6b1c061-12bc-4122-b2d3-705cdb871ef8.png']:
+ target=W/'user_references'/name;target.parent.mkdir(exist_ok=True);shutil.copy2(Path('D:/TempSystem')/name,target)
+print(json.dumps({'data_preflight':'PASS strict monotonic 6SP36-2 C2','changes':changes,'backup':str(B)},ensure_ascii=False))

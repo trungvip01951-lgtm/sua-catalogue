@@ -1,0 +1,345 @@
+{
+  "time": "2026-10-03T06:17:06.925458+07:00",
+  "group": "G04",
+  "final": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+  "final_sha": "389a670c2871d450b8c0e9544d8550c0afa810e646921877752ccf2dd031e32c",
+  "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+  "source_sha": "3925ae2a4beaf22a6514837949e631b2777e83dcd87e4990d7fbd01f3c5d2bcd",
+  "archive": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G04\\PHIEN TRUOC NET PDF THAT\\412c00d917c85d6dbdc6e73181ad337743f945f1a48d47dfbbfb0864444b1c74\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+  "previous_sha": "412c00d917c85d6dbdc6e73181ad337743f945f1a48d47dfbbfb0864444b1c74",
+  "accepted_sample": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G04\\NET PDF THAT MAU2\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+  "accepted_sample_sha": "275b2afea136440101ab7e349d5bd5fd918fdaa57891735e71019ee7717c6f7c",
+  "actual_readback": {
+    "current": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+    "current_sha": "412c00d917c85d6dbdc6e73181ad337743f945f1a48d47dfbbfb0864444b1c74",
+    "trial": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G04\\NET PDF THAT MAU2\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+    "trial_sha": "275b2afea136440101ab7e349d5bd5fd918fdaa57891735e71019ee7717c6f7c",
+    "point_count": 16,
+    "points": [
+      {
+        "model": "4SA16/23",
+        "Q": 0.0,
+        "H_table": 136.0,
+        "H_actual": 136.00001078846742,
+        "error": 1.0788467420752568e-05,
+        "limit": 2.72,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/23",
+        "Q": 3.0,
+        "H_table": 133.0,
+        "H_actual": 133.00001052951083,
+        "error": 1.0529510831247535e-05,
+        "limit": 2.66,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/23",
+        "Q": 6.0,
+        "H_table": 127.0,
+        "H_actual": 127.00000974239686,
+        "error": 9.74239685547218e-06,
+        "limit": 2.54,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/23",
+        "Q": 9.0,
+        "H_table": 115.0,
+        "H_actual": 115.00000898789047,
+        "error": 8.987890467437865e-06,
+        "limit": 2.3000000000000003,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/23",
+        "Q": 12.0,
+        "H_table": 101.0,
+        "H_actual": 101.00000814048775,
+        "error": 8.140487750551983e-06,
+        "limit": 2.02,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/23",
+        "Q": 15.0,
+        "H_table": 86.0,
+        "H_actual": 86.0000072130583,
+        "error": 7.213058296429153e-06,
+        "limit": 1.72,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/23",
+        "Q": 18.0,
+        "H_table": 69.0,
+        "H_actual": 69.00000607902015,
+        "error": 6.079020153038073e-06,
+        "limit": 1.3800000000000001,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/23",
+        "Q": 21.0,
+        "H_table": 50.0,
+        "H_actual": 50.00000847744074,
+        "error": 8.477440736953668e-06,
+        "limit": 1,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/18",
+        "Q": 0.0,
+        "H_table": 107.0,
+        "H_actual": 107.00000997428421,
+        "error": 9.974284211011764e-06,
+        "limit": 2.14,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/18",
+        "Q": 3.0,
+        "H_table": 104.0,
+        "H_actual": 104.00000975659864,
+        "error": 9.756598643662073e-06,
+        "limit": 2.08,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/18",
+        "Q": 6.0,
+        "H_table": 99.0,
+        "H_actual": 99.00000920501769,
+        "error": 9.205017690305795e-06,
+        "limit": 1.98,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/18",
+        "Q": 9.0,
+        "H_table": 90.0,
+        "H_actual": 90.00000859923179,
+        "error": 8.59923179064026e-06,
+        "limit": 1.8,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/18",
+        "Q": 12.0,
+        "H_table": 79.0,
+        "H_actual": 79.00000789641543,
+        "error": 7.896415425534542e-06,
+        "limit": 1.58,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/18",
+        "Q": 15.0,
+        "H_table": 67.0,
+        "H_actual": 67.00000718009586,
+        "error": 7.1800958636458745e-06,
+        "limit": 1.34,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/18",
+        "Q": 18.0,
+        "H_table": 54.0,
+        "H_actual": 54.00000632032145,
+        "error": 6.320321446651178e-06,
+        "limit": 1.08,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      },
+      {
+        "model": "4SA16/18",
+        "Q": 21.0,
+        "H_table": 39.0,
+        "H_actual": 39.00000817516263,
+        "error": 8.175162626855581e-06,
+        "limit": 1,
+        "result": "ĐẠT",
+        "dash_gap_bracket_only": true
+      }
+    ],
+    "endpoints": [
+      {
+        "model": "4SA16/23",
+        "which": "start",
+        "actual": [
+          60.37899871094699,
+          494.5935222519365
+        ],
+        "error_pt": 1.3568975873567979e-05
+      },
+      {
+        "model": "4SA16/23",
+        "which": "end",
+        "actual": [
+          320.9399931481364,
+          386.94890025953464
+        ],
+        "error_pt": 1.0611056723064394e-05
+      },
+      {
+        "model": "4SA16/18",
+        "which": "start",
+        "actual": [
+          60.37899871094699,
+          458.2947543707045
+        ],
+        "error_pt": 1.2571464708344138e-05
+      },
+      {
+        "model": "4SA16/18",
+        "which": "end",
+        "actual": [
+          320.9399931481364,
+          373.18040209769833
+        ],
+        "error_pt": 1.0232700788037619e-05
+      }
+    ],
+    "styles": [
+      {
+        "model": "4SA16/23",
+        "real_path_objects": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "actualRGB": [
+          "RG",
+          [
+            0.4862745098,
+            0.5490196078,
+            0.5784313725
+          ]
+        ],
+        "expectedRGB": [
+          0.48627450980392156,
+          0.5490196078431373,
+          0.5784313725490197
+        ],
+        "actualwidth": 0.9059180276,
+        "source_equivalentwidth": 0.9059180275676704,
+        "dash_intervals": [
+          [
+            0.0,
+            0.007959491947365052
+          ],
+          [
+            0.08532814231192311,
+            1.2845422229625778
+          ],
+          [
+            1.5553324992385325,
+            3.7990233598107235
+          ],
+          [
+            3.99244498572212,
+            6.0
+          ],
+          [
+            6.0,
+            21.0
+          ]
+        ],
+        "source_is_raster": true
+      },
+      {
+        "model": "4SA16/18",
+        "real_path_objects": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "actualRGB": [
+          "RG",
+          [
+            0.4862745098,
+            0.5529411765,
+            0.5725490196
+          ]
+        ],
+        "expectedRGB": [
+          0.48627450980392156,
+          0.5529411764705883,
+          0.5725490196078431
+        ],
+        "actualwidth": 0.9044240747,
+        "source_equivalentwidth": 0.9044240746928524,
+        "dash_intervals": [
+          [
+            0.0,
+            0.007959491947365052
+          ],
+          [
+            0.08532814231192311,
+            0.4334870689524352
+          ],
+          [
+            0.7042773452283898,
+            3.7990233598107235
+          ],
+          [
+            4.031129310904399,
+            6.0
+          ],
+          [
+            6.0,
+            21.0
+          ]
+        ],
+        "source_is_raster": true
+      }
+    ],
+    "outside": {},
+    "metadata": {
+      "info": true,
+      "rawXMP": true,
+      "bookmarks": true,
+      "links": true,
+      "page_sizes": true
+    },
+    "font_foreground": {
+      "black_source_font_pixels": 9234,
+      "changed_pixels": 0,
+      "max_change": 0
+    },
+    "visual": "ROOT soi mau2: net sach, khong pale nhu mau1; can soi fontforeground neu co delta.",
+    "accepted": false,
+    "scope": "2duong/16moc bang; cacduong khac G04 chua duocnghiemthu toanbo."
+  },
+  "final_structure": {
+    "ok": true,
+    "problems": [],
+    "changed_pages": [],
+    "size_before": 3428520,
+    "size_after": 3428520
+  },
+  "final_matches_accepted_sample_every_pixel": true,
+  "page_content_streams_and_metadata_exact_to_sample": true,
+  "visual_root": "Mau2 da soi450dpi, mau/do day theo muc nguon, 9234pixelchu nguon giunguyen; 2path smooth/same-model/khongbongchu.",
+  "accepted": true,
+  "status": "14/14 CAN_SUA ĐẠT; bổ sung2đường16mốc ĐẠT. Chưa nghiệm thu toàn bộ các đường còn lại của hai catalogue."
+}

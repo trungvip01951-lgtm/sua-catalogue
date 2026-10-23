@@ -1,0 +1,252 @@
+from pathlib import Path
+import sys,json,hashlib,io,math,subprocess
+import numpy as np
+import fitz,pikepdf
+from fontTools.ttLib import TTFont
+from scipy.interpolate import PchipInterpolator, UnivariateSpline
+
+R=Path(r'D:\ChatGPT\Sửa catalogue');W=R/'work/sp6_redesign_pilot'
+sys.path.insert(0,str(R/'vendor/catfix_original/GOI_SUA_CATALOGUE_CHATGPT'))
+from catfix.vector import Editor
+from catfix import cs
+from catfix.session import Session
+S=Session(); NAME='Perotac bơm giếng SP_compressed (bản mới).pdf'
+SRC=Path(S.src(NAME));CURRENT=Path(S.result(NAME))
+G=Path(S.report_dir)/'G05'
+O=G/'SP6 THIET KE MOI VECTOR PILOT 20261006';O.mkdir(exist_ok=True)
+P36=G/'ROOT6SP36 SOURCE210 CORRECT156270 PURE21 NO PDF 20261005T144000Z-283c9b/02 PURE21 CORRECT SOURCE210 HELD C2 NO PDF.json'
+P46=G/'ROOT6SP46 SOURCE216 MIN2 PURE18 NO PDF 20261005T135559Z-bc715d/02 PURE18 SELECTED216 C2 NO PDF.json'
+PM=G/'SOL P6 SHIFT8 LAST SAMPLE2 STATIC 20261005T204538Z-bb47a3/02 FULL P6 SHIFT8 LAST2 PLAN NO PDF.json'
+def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+assert sha(CURRENT)=='48c8535c4c8a025991be53caf414242cbb500eb43ac59f804a2008204691a6a2'
+assert sha(SRC)=='e1b94dc6f23c35d18d61cee71d9d88c844b1070d14ff662bbabe2256cdd690c9'
+assert sha(P36)=='739c4cbc505dc5131fd65dec4c51d9bcd0d8f7bc281ce61e83d45d54e042cdf3'
+assert sha(P46)=='108e43c805c6f3557a0119e5f3e357837c4a8f185dfe44b29e7ae27cc73f5200'
+assert sha(PM)=='d1ce8cb49fe255fc36445a12c6d209c4d37870e36f01747279caaaf403e60d91'
+D36=read(P36);D46=read(P46);meta={r['full_model']:r['source_metadata_row'] for r in read(PM)['labels39']}
+records=[]
+for family,data,key in [('6SP36',D36,'records21'),('6SP46',D46,'records18')]:
+ for r in data[key]:
+  controls=r.get('segments_QH_decimal20')
+  if controls is None:raise KeyError((r['model'],list(r)))
+  records.append({'family':family,'model':r['model'],'Q':[float(x) for x in r['Q_m3h_exact']],'H':r['selected_H_integer'],'H_before':r['source_H_integer'],'segments':[[[float(x),float(y)] for x,y in seg] for seg in controls],'metadata':meta[r['model']]})
+def point(seg,t):
+ s=np.asarray(seg);return (1-t)**3*s[0]+3*(1-t)**2*t*s[1]+3*(1-t)*t*t*s[2]+t**3*s[3]
+def at_q(rec,q):
+ for seg in rec['segments']:
+  if seg[0][0]-1e-8<=q<=seg[3][0]+1e-8:
+   lo=0.;hi=1.
+   for _ in range(55):
+    mid=(lo+hi)/2
+    if point(seg,mid)[0]<q:lo=mid
+    else:hi=mid
+   return float(point(seg,(lo+hi)/2)[1])
+ raise ValueError((rec['model'],q))
+checks=[];changes=[]
+for rec in records:
+ assert all(b<a for a,b in zip(rec['H'],rec['H'][1:])),rec['model']
+ for q,h,old in zip(rec['Q'],rec['H'],rec['H_before']):
+  error=abs(at_q(rec,q)-h);tol=max(1,0.02*h)
+  assert error<=tol+1e-7,(rec['model'],q,error,tol)
+  checks.append({'model':rec['model'],'Q':q,'H_table':h,'H_curve':at_q(rec,q),'error_m':error,'tolerance_m':tol})
+  if h!=old:changes.append({'model':rec['model'],'Q':q,'before':old,'after':h})
+ for seg in rec['segments']:
+  # derivative extrema for both parametric coordinates, including internal quadratic roots.
+  a=np.asarray(seg);v=3*np.diff(a,axis=0)
+  for k,sign in [(0,1),(1,-1)]:
+   aa=v[0,k]-2*v[1,k]+v[2,k];bb=2*(v[1,k]-v[0,k]);ts=[0.,1.]
+   if abs(aa)>1e-15 and 0<-bb/(2*aa)<1:ts.append(-bb/(2*aa))
+   assert min(sign*((1-t)**2*v[0,k]+2*(1-t)*t*v[1,k]+t*t*v[2,k]) for t in ts)>0,(rec['model'],k)
+assert len(records)==39 and len(checks)==426 and len(changes)==2
+
+# Extract the original page image for logo placement and read-only eta curve digitisation.
+before=fitz.open(CURRENT);page=before[5];width,height=page.rect.width,page.rect.height
+iminfo=max(page.get_image_info(xrefs=True),key=lambda v:v['width']*v['height'])
+pix=fitz.Pixmap(before,iminfo['xref']);rgb=np.frombuffer(pix.samples,dtype=np.uint8).reshape(pix.height,pix.width,pix.n)[:,:,:3].copy()
+etas=[]
+# Pixel boxes from the visibly checked original X8, no pump geometry or test points invented.
+for family,x0,x1,y0,y1 in [('6SP36',158,775,595,686),('6SP46',987,1607,595,686)]:
+ crop=rgb[y0:y1+1,x0:x1+1].astype(int)
+ mask=(crop[:,:,1]-crop[:,:,0]>3)&(crop[:,:,2]-crop[:,:,0]>3)&(crop[:,:,0]<230)
+ xs=[];ys=[]
+ for x in range(crop.shape[1]):
+  yy=np.flatnonzero(mask[:,x])
+  if len(yy):xs.append(x);ys.append(float(np.median(yy)))
+ assert len(xs)>crop.shape[1]*.65,(family,len(xs))
+ # Trace follows observations; endpoint and coverage uncertainties remain disclosed.
+ knots=np.arange(xs[0],xs[-1]+1,12,dtype=float)
+ if knots[-1]!=xs[-1]:knots=np.r_[knots,xs[-1]]
+ smooth=UnivariateSpline(xs,ys,s=len(xs)*1.5)
+ ky=smooth(knots)
+ fit=PchipInterpolator(knots,ky)
+ residual=float(np.max(np.abs(fit(np.clip(xs,knots[0],knots[-1]))-ys)))
+ etas.append({'family':family,'bbox_source_pixels':[x0,y0,x1,y1],'knots_x':knots.tolist(),'knots_y':ky.tolist(),'max_residual_source_pixel':residual,'source_width':x1-x0,'source_height':y1-y0,'scope':'Visible eta shape reproduction only; no manufacturer numeric eta table available.'})
+before.close()
+payload={'source':str(SRC),'source_sha256':sha(SRC),'current':str(CURRENT),'current_sha256':sha(CURRENT),'data_inputs':{str(p):sha(p) for p in [P36,P46,PM]},'records':records,'checks426':checks,'changes2':changes,'eta':etas,'method':'NEW FULL PAGE SEMANTIC VECTOR TEMPLATE; regular physical axes and embedded nearest Arial; no source glyph bank or old right-column leaders.'}
+(O/'01 LOCKED DATA AND NUMERIC PREFLIGHT.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
+
+NAVY=(0.075,0.20,0.30);INK=(0.12,0.22,0.28);TEAL=(0.15,0.37,0.46);PALE=(0.94,0.97,0.98);GRID=(0.84,0.88,0.90);MUTED=(0.33,0.42,0.47)
+ops=[];texts=[];curve_paths=[];fonts={}
+for name,fp in [('Body',Path('C:/Windows/Fonts/arial.ttf')),('Bold',Path('C:/Windows/Fonts/arialbd.ttf'))]:
+ tt=TTFont(fp);assert not (tt['OS/2'].fsType&2),'Restricted font embedding'
+ fonts[name]={'path':fp,'tt':tt,'cmap':tt.getBestCmap(),'upem':tt['head'].unitsPerEm,'used':set()}
+def n(v):return f'{v:.7f}'.rstrip('0').rstrip('.') if abs(v)>1e-8 else '0'
+def color(c,stroke=False):return ' '.join(n(v) for v in c)+(' RG' if stroke else ' rg')
+def rect(x,y,w,h,c):ops.append(f'{color(c)} {n(x)} {n(height-y-h)} {n(w)} {n(h)} re f')
+def line(x1,y1,x2,y2,c=GRID,lw=.3):ops.append(f'{color(c,True)} {n(lw)} w {n(x1)} {n(height-y1)} m {n(x2)} {n(height-y2)} l S')
+def tw(s,size,font='Body'):
+ f=fonts[font];return sum(f['tt']['hmtx'][f['cmap'][ord(c)]][0] for c in s)*size/f['upem']
+def text(s,x,y,size=7,font='Body',c=INK,align='left'):
+ w=tw(s,size,font)
+ if align=='center':x-=w/2
+ if align=='right':x-=w
+ assert 0<=x<=width and x+w<=width+.02 and 0<y<height,(s,x,y,w)
+ fonts[font]['used'].update(ord(c) for c in s)
+ ops.append(f'BT /Pilot{font} {n(size)} Tf {color(c)} 1 0 0 1 {n(x)} {n(height-y)} Tm <{s.encode("utf-16-be").hex()}> Tj ET')
+ texts.append({'text':s,'x':x,'baseline_top':y,'size':size,'font':font,'width':w})
+def draw_bezier_segments(segs,X,Y,c=TEAL,lw=.75,dash=None,kind=None,model=None):
+ op=[color(c,True),f'{n(lw)} w','1 J 1 j',('[3 2] 0 d' if dash else '[] 0 d')]
+ points=[]
+ for i,s in enumerate(segs):
+  pts=[(X(x),height-Y(y)) for x,y in s];points.append(pts)
+  if not i:op.append(f'{n(pts[0][0])} {n(pts[0][1])} m')
+  op.append(' '.join(n(v) for pt in pts[1:] for v in pt)+' c')
+ op.append('S');ops.append('\n'.join(op))
+ if kind=='QH':curve_paths.append({'model':model,'segments_page':points,'width':lw,'color':c})
+def split(seg,t):
+ a=np.asarray(seg);b=(1-t)*a[:-1]+t*a[1:];c=(1-t)*b[:-1]+t*b[1:];d=(1-t)*c[0]+t*c[1]
+ return [a[0],b[0],c[0],d],[d,c[1],b[2],a[3]]
+def portions(rec,cut):
+ left=[];right=[]
+ for seg in rec['segments']:
+  if seg[-1][0]<=cut+1e-8:left.append(seg)
+  elif seg[0][0]>=cut-1e-8:right.append(seg)
+  else:
+   lo=0.;hi=1.
+   for _ in range(55):
+    t=(lo+hi)/2
+    if point(seg,t)[0]<cut:lo=t
+    else:hi=t
+   a,b=split(seg,(lo+hi)/2);left.append(a);right.append(b)
+ return left,right
+
+# New entire-page layout. The original page image will not be painted behind it.
+rect(0,0,width,46,(.92,.96,.98));line(24,46,width-24,46,TEAL,1.3)
+text('PERFORMANCE CURVES',width-24,20,10,'Bold',NAVY,'right')
+text('6-inch submersible pumps  |  50 Hz  |  n = 2850 1/min',width-24,34,7,'Body',MUTED,'right')
+# Original brand logo is clipped and scaled from existing image, not regenerated.
+logo={'source_pixels':[43,15,292,107],'target':[24,8,80,29.558233]}
+cols=[{'family':'6SP36','x':24,'w':380,'qmax':60,'hmax':450},{'family':'6SP46','x':428,'w':380,'qmax':72,'hmax':350}]
+for col in cols:
+ family=col['family'];left=col['x'];cw=col['w'];rs=[r for r in records if r['family']==family]
+ text(family,left,65,17,'Bold',NAVY);text(f'{len(rs)} models',left+cw,64,7,'Body',MUTED,'right')
+ px=left+29;pw=cw-54;py=94;ph=190;qm=col['qmax'];hm=col['hmax']
+ X=lambda q:px+q/qm*pw;Y=lambda h:py+ph-h/hm*ph
+ for h in range(0,hm+1,50):
+  line(px,Y(h),px+pw,Y(h));text(str(h),px-6,Y(h)+2,5.8,align='right');text(str(round(h*3.280839895)),px+pw+5,Y(h)+2,5.4,c=MUTED)
+ for q in range(0,qm+1,12):
+  line(X(q),py,X(q),py+ph)
+  text(str(round(q*4.40286754)),X(q),79,5.3,c=MUTED,align='center')
+  text(str(round(q*3.66615483)),X(q),88,5.3,c=MUTED,align='center')
+ text('H (m)',left+110,64,6,'Bold');text('ft',px+pw+5,90,5.5)
+ text('US gpm',left,79,5.4,c=MUTED);text('Imp gpm',left,88,5.4,c=MUTED)
+ line(px,py,px,py+ph,INK,.5);line(px,py+ph,px+pw,py+ph,INK,.5)
+ for rec in rs:
+  a,b=portions(rec,12)
+  draw_bezier_segments(a,X,Y,dash=True,kind='QH',model=rec['model'])
+  draw_bezier_segments(b,X,Y,kind='QH',model=rec['model'])
+  suffix=rec['model'].replace(family,'')
+  # Adjacent 3A / 3 labels use separate horizontal positions, no column of leader lines.
+  if family=='6SP46' and suffix=='-3A':
+   text(suffix,px-5,Y(rec['H'][0])+1.6,5.4,'Bold',TEAL,'right')
+   line(px-4,Y(rec['H'][0]),px,Y(rec['H'][0]),TEAL,.45)
+  else:text(suffix,px+3,Y(rec['H'][0])-1.7,5.4,'Bold',TEAL)
+ # Eta is traced from its source raster as graphical evidence only.
+ eta=next(e for e in etas if e['family']==family);ey=298;eh=29
+ for v in [0,40,80]:
+  yy=ey+eh-v/90*eh;line(px,yy,px+pw,yy);text(str(v),px-5,yy+2,5.0,c=MUTED,align='right')
+ text('η (%)',left,300,5.6,'Bold',MUTED)
+ for q in range(0,qm+1,12):
+  line(X(q),ey,X(q),ey+eh)
+  text(str(q),X(q),338,6,'Bold',align='center');text(str(round(q*1000/60)),X(q),348,5.3,c=MUTED,align='center')
+ text('m³/h',px-5,338,5.6,'Bold',align='right');text('l/min',px-5,348,5.3,align='right')
+ fit=PchipInterpolator(eta['knots_x'],eta['knots_y']);ex=np.asarray(eta['knots_x']);ev=np.asarray(eta['knots_y']);sl=fit.derivative()(ex)
+ segs=[]
+ for j in range(len(ex)-1):
+  dx=ex[j+1]-ex[j];segs.append([(ex[j],ev[j]),(ex[j]+dx/3,ev[j]+sl[j]*dx/3),(ex[j+1]-dx/3,ev[j+1]-sl[j+1]*dx/3),(ex[j+1],ev[j+1])])
+ draw_bezier_segments(segs,lambda x:px+x/eta['source_width']*pw,lambda y:ey+y/eta['source_height']*eh,c=TEAL,lw=.65)
+ line(px,ey,px,ey+eh,INK,.45);line(px,ey+eh,px+pw,ey+eh,INK,.45)
+ text('PERFORMANCE DATA',left,366,8,'Bold',NAVY);text('Q: m³/h / l/min · H: m',left+cw,366,6.3,'Body',MUTED,'right')
+ # Two model columns retain single- and three-phase variants separately.
+ ty=374;hh=27;rh=8.0;fixed=[47,47,20,20];nw=len(rs[0]['Q']);dw=(cw-sum(fixed))/nw
+ xs=[left]
+ for val in fixed+[dw]*nw:xs.append(xs[-1]+val)
+ rect(left,ty,cw,hh,NAVY)
+ headings=['1~ 220–240V','3~ 380–415V','kW','HP']
+ for j,label in enumerate(headings):text(label,(xs[j]+xs[j+1])/2,ty+11,5.8,'Bold',(1,1,1),'center')
+ text('MODEL / POWER',left+67,ty+23,5.4,'Body',(.75,.87,.91),'center')
+ for j,q in enumerate(rs[0]['Q']):
+  text(f'{q:g}',(xs[j+4]+xs[j+5])/2,ty+11,6,'Bold',(1,1,1),'center')
+  text(str(round(q*1000/60)),(xs[j+4]+xs[j+5])/2,ty+22,5.4,'Body',(.75,.87,.91),'center')
+ for i,rec in enumerate(rs):
+  yy=ty+hh+i*rh
+  if i%2==0:rect(left,yy,cw,rh,PALE)
+  m=rec['metadata']; vals=[m.get('single_phase_model') or '-',m['current_owner_fullmodel'],m['kW_literal'],m['HP_literal']]+[str(h) for h in rec['H']]
+  for j,v in enumerate(vals):
+   # The historical metadata uses source hyphens and absent single phase as null.
+   text(str(v),(xs[j]+xs[j+1])/2,yy+5.9,5.8 if j<2 else 6.1,'Body',INK,'center')
+  line(left,yy+rh,left+cw,yy+rh,(.88,.92,.94),.25)
+ for x in xs:line(x,ty+hh,x,ty+hh+len(rs)*rh,(.86,.90,.92),.25)
+line(24,580,width-24,580,GRID,.4)
+text('6SP SERIES  /  50 Hz',24,591,6,'Bold',NAVY)
+text('DESIGN SAMPLE · PAGE 06',width-24,591,6,'Bold',MUTED,'right')
+
+payload['page_dimensions_pt']=[width,height];payload['drawn_text']=texts;payload['curve_paths78']=curve_paths;payload['logo']=logo
+(O/'02 DRAW PLAN TEXT AND PATHS.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
+native='\n'.join(ops).encode('ascii')
+(O/'03 VECTOR CONTENT BEFORE SAVE.bin').write_bytes(native)
+print(json.dumps({'preflight':'PASS','records':len(records),'table_points':len(checks),'changes':changes,'eta_residuals':[e['max_residual_source_pixel'] for e in etas],'text_objects':len(texts),'vector_bytes':len(native),'folder':str(O)},ensure_ascii=False))
+if '--save' not in sys.argv:sys.exit(0)
+
+gate=subprocess.run([sys.executable,'-X','utf8',str(R/'tools/catalogue.py'),'check','--actor','ChatGPT','--session','ROOT-SP6-REDESIGN-PILOT-20261006','--token','73851276-2662-4f7f-a5b0-be94d4f9e720'],capture_output=True,text=True,encoding='utf-8')
+assert gate.returncode==0,gate.stdout+gate.stderr
+(O/'00 PREWRITE LOCK GATE.json').write_text(gate.stdout,encoding='utf-8')
+E=Editor(str(CURRENT));pdf=E.doc.pdf;pi=5;p=E.doc._pages[pi]
+original_metadata=bytes(pdf.Root.Metadata.read_bytes()) if '/Metadata' in pdf.Root else None
+resources=pikepdf.Dictionary(p.Resources)
+font_res=pikepdf.Dictionary(resources.get('/Font',pikepdf.Dictionary()))
+for name,f in fonts.items():
+ tt=f['tt'];up=f['upem'];cmap=f['cmap'];font_bytes=f['path'].read_bytes()
+ ff=pdf.make_stream(font_bytes);ff['/Length1']=len(font_bytes)
+ bbox=[getattr(tt['head'],k)*1000/up for k in ['xMin','yMin','xMax','yMax']]
+ base='ArialMT' if name=='Body' else 'Arial-BoldMT'
+ descriptor=pdf.make_indirect(pikepdf.Dictionary(Type=pikepdf.Name.FontDescriptor,FontName=pikepdf.Name('/'+base),Flags=32,FontBBox=pikepdf.Array(bbox),ItalicAngle=0,Ascent=tt['hhea'].ascent*1000/up,Descent=tt['hhea'].descent*1000/up,CapHeight=getattr(tt['OS/2'],'sCapHeight',1467)*1000/up,StemV=80 if name=='Body' else 120,FontFile2=ff))
+ last=max(f['used']);gidmap=bytearray((last+1)*2);ww=pikepdf.Array()
+ for code in sorted(f['used']):
+  glyph=cmap[code];gid=tt.getGlyphID(glyph);gidmap[code*2:code*2+2]=gid.to_bytes(2,'big');ww.append(code);ww.append(pikepdf.Array([tt['hmtx'][glyph][0]*1000/up]))
+ cid=pdf.make_indirect(pikepdf.Dictionary(Type=pikepdf.Name.Font,Subtype=pikepdf.Name.CIDFontType2,BaseFont=pikepdf.Name('/'+base),CIDSystemInfo=pikepdf.Dictionary(Registry='Adobe',Ordering='Identity',Supplement=0),FontDescriptor=descriptor,DW=1000,W=ww,CIDToGIDMap=pdf.make_stream(bytes(gidmap))))
+ cmapbytes=b'/CIDInit /ProcSet findresource begin 12 dict begin begincmap /CIDSystemInfo << /Registry (Adobe) /Ordering (UCS) /Supplement 0 >> def /CMapName /PilotUnicode def /CMapType 2 def 1 begincodespacerange <0000> <FFFF> endcodespacerange 1 beginbfrange <0000> <FFFF> <0000> endbfrange endcmap CMapName currentdict /CMap defineresource pop end end'
+ font_res['/Pilot'+name]=pdf.make_indirect(pikepdf.Dictionary(Type=pikepdf.Name.Font,Subtype=pikepdf.Name.Type0,BaseFont=pikepdf.Name('/'+base),Encoding=pikepdf.Name('/Identity-H'),DescendantFonts=pikepdf.Array([cid]),ToUnicode=pdf.make_stream(cmapbytes)))
+resources['/Font']=font_res;p['/Resources']=resources
+original_image=pdf.get_object((iminfo['xref'],0));resources.XObject['/PilotOriginalLogo']=original_image
+x0,y0,x1,y1=logo['source_pixels'];tx,ty,ww,hh=logo['target'];scale=ww/(x1-x0)
+logo_ops=f'q {n(tx)} {n(height-ty-hh)} {n(ww)} {n(hh)} re W n {n(rgb.shape[1]*scale)} 0 0 {n(rgb.shape[0]*scale)} {n(tx-x0*scale)} {n(height-ty-(rgb.shape[0]-y0)*scale)} cm /PilotOriginalLogo Do Q\n'
+E.delete_instrs(pi,range(len(E.page(pi).ops)));E.insert_instrs(pi,0,cs.parse(native+b'\n'+logo_ops.encode('ascii')))
+trial=2 if '--trial2' in sys.argv else 1
+OUT=O/f'UNG VIEN {trial}'/NAME;OUT.parent.mkdir(exist_ok=True);assert not OUT.exists()
+E.save(str(OUT));E.close()
+receipt={'candidate':str(OUT),'sha256':sha(OUT),'trial':trial,'current_held':sha(CURRENT)==payload['current_sha256'],'source_held':sha(SRC)==payload['source_sha256'],'page_changed':6,'page_count':12,'fonts_added':['ArialMT','Arial-BoldMT'],'metadata_xml_decoded_held_pending_readback':True,'method':payload['method']}
+with fitz.open(OUT) as d:
+ d[5].get_pixmap(dpi=180,alpha=False).save(str(OUT.parent/'TRANG 6 SAU.png'))
+ for name,clip in [('DO THI TRAI',(20,50,410,352)),('DO THI PHAI',(426,50,815,352)),('BANG TRAI',(22,355,407,573)),('BANG PHAI',(426,355,811,552))]:
+  d[5].get_pixmap(dpi=350,clip=fitz.Rect(clip),alpha=False).save(str(OUT.parent/(name+'.png')))
+ extracted=d[5].get_text();(OUT.parent/'TEXT READBACK.txt').write_text(extracted,encoding='utf-8')
+ receipt['extracted_characters']=len(extracted)
+with pikepdf.open(OUT) as doc:
+ receipt['metadata_xml_decoded_held']=(bytes(doc.Root.Metadata.read_bytes()) if '/Metadata' in doc.Root else None)==original_metadata
+assert receipt['current_held'] and receipt['source_held']
+(OUT.parent/'04 SAVED READBACK.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8')
+(W/'candidate.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8')
+print(json.dumps(receipt,ensure_ascii=False))
+

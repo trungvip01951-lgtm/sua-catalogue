@@ -1,0 +1,132 @@
+{
+  "created_utc": "20261006T030200Z",
+  "status": "ARCHIVE_NOT_ACCEPTANCE",
+  "files": [
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP TRANG 6 MAU VE LAI 20261006\\BAO CAO MAU THU.md",
+      "stored": "reference/BAO CAO MAU THU.md",
+      "sha256": "a7a23a4d42109e05648c7a8793633120fe7d8d094fccd83234aca48857e2af80",
+      "bytes": 3528
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP TRANG 6 MAU VE LAI 20261006\\BAO CAO TOKEN CREDIT.md",
+      "stored": "reference/BAO CAO TOKEN CREDIT.md",
+      "sha256": "d3b019505206ed11b8efdc380f4cc91643adba1f273c8acf59a7ff8ced8ec517",
+      "bytes": 2215
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP TRANG 6 MAU VE LAI 20261006\\KIEM DOC LAP.md",
+      "stored": "reference/KIEM DOC LAP.md",
+      "sha256": "cd624b5b2abf67f9d6618595a0a3117c5044767beb9ffad05356f2c13df8b569",
+      "bytes": 5924
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP TRANG 6 MAU VE LAI 20261006\\KIEM TRA PDF.json",
+      "stored": "reference/KIEM TRA PDF.json",
+      "sha256": "0110928689af8abeab899813fc7e3024a701bc88d8d9829521d6b38412ab7665",
+      "bytes": 1611
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP TRANG 6 MAU VE LAI 20261006\\SP DU 12 TRANG - MAU MOI O TRANG 6.pdf",
+      "stored": "reference/SP DU 12 TRANG - MAU MOI O TRANG 6.pdf",
+      "sha256": "8f1a2edc65aad20ab5f0d41b1c4980e85cd7617193a868ac2e98ad05cac7c583",
+      "bytes": 5430805
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP TRANG 6 MAU VE LAI 20261006\\SP TRANG 6 - MAU VE LAI.pdf",
+      "stored": "reference/SP TRANG 6 - MAU VE LAI.pdf",
+      "sha256": "469c269cd99bdb823ae457d586e31fe533e1712e81e1aebf9fb2e02e029b89e8",
+      "bytes": 1324336
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP TRANG 6 MAU VE LAI 20261006\\SP TRANG 6 BAN TRUOC.png",
+      "stored": "reference/SP TRANG 6 BAN TRUOC.png",
+      "sha256": "ce22d0e4037d90c564828a7c08e62b0101154f2b89bc61345b1c0dcd1c1e2728",
+      "bytes": 2095425
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP TRANG 6 MAU VE LAI 20261006\\SP TRANG 6 MAU MOI.png",
+      "stored": "reference/SP TRANG 6 MAU MOI.png",
+      "sha256": "3ef77f2040a9eec9a6512c03f87ffa00c3078fa7a6053d960e805442324133dc",
+      "bytes": 482688
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP TRANG 6 MAU VE LAI 20261006\\TOKEN CREDIT SO DO.json",
+      "stored": "reference/TOKEN CREDIT SO DO.json",
+      "sha256": "3994260c26bbd5057ff3a137b484315a5bc08c915e7781c824317b70d4526776",
+      "bytes": 1481
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\NGHIEN CUU VE LAI SP SL SA 20261006\\PHUONG AN VE LAI 3 CATALOGUE.md",
+      "stored": "reference/PHUONG AN VE LAI 3 CATALOGUE.md",
+      "sha256": "592113d9b1981846c60958e9093c2a27661e57027647e1628c84157baa5c29ac",
+      "bytes": 12342
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\work\\sp6_redesign_pilot\\build_pilot.py",
+      "stored": "historical_code/build_pilot.py.txt",
+      "sha256": "e8e6ed4fe065b17611b9568ed538537df9db38d958edd8326cb6c84a456fe426",
+      "bytes": 17440
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\work\\sp6_redesign_pilot\\close_pilot.py",
+      "stored": "historical_code/close_pilot.py.txt",
+      "sha256": "c0c8518347112f3350f32099e6665dfa4a7e403c62958bda72a934baad64522a",
+      "bytes": 6409
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\work\\sp6_redesign_pilot\\inspect_inputs.py",
+      "stored": "historical_code/inspect_inputs.py.txt",
+      "sha256": "c22dde6fbfd4c7fe614441feaccf14e9a69b1d3334bd53d7b54d35f743590df8",
+      "bytes": 1772
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\work\\sp6_redesign_pilot\\read_data_schema.py",
+      "stored": "historical_code/read_data_schema.py.txt",
+      "sha256": "07c0eb3a710e2518ab5372bf6dd06281b7c20de4fea78a8611a944f203611fb4",
+      "bytes": 1667
+    },
+    {
+      "source": "D:\\ChatGPT\\Sửa catalogue\\work\\sp6_redesign_pilot\\verify_deliver.py",
+      "stored": "historical_code/verify_deliver.py.txt",
+      "sha256": "f540a88ddf093f13a92ba099eced1c9af717a1870f5738c31b0606fb11f64325",
+      "bytes": 4358
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G05\\SP6 THIET KE MOI VECTOR PILOT 20261006\\01 LOCKED DATA AND NUMERIC PREFLIGHT.json",
+      "stored": "reference/01 LOCKED DATA AND NUMERIC PREFLIGHT.json",
+      "sha256": "9433477bf5bdb8a63ee2a15e9dc85f233a803ef42e3c7824e4a6817242a36686",
+      "bytes": 157474
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G05\\SP6 THIET KE MOI VECTOR PILOT 20261006\\02 DRAW PLAN TEXT AND PATHS.json",
+      "stored": "reference/02 DRAW PLAN TEXT AND PATHS.json",
+      "sha256": "d5667602c388786bfff2a6494d913d62819d29a97f41ea64cdd02bd759f2d809",
+      "bytes": 349206
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G05\\SP6 THIET KE MOI VECTOR PILOT 20261006\\UNG VIEN 2\\06 ACTUAL TABLE READBACK426.json",
+      "stored": "reference/06 ACTUAL TABLE READBACK426.json",
+      "sha256": "e31adcbe3190d84bccf2c9f3b6c1c04df7c57aa55fc27ee31130b15636cf4947",
+      "bytes": 55983
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G05\\ROOT6SP36 SOURCE210 CORRECT156270 PURE21 NO PDF 20261005T144000Z-283c9b\\02 PURE21 CORRECT SOURCE210 HELD C2 NO PDF.json",
+      "stored": "reference/data_sources/ROOT6SP36 SOURCE210 CORRECT156270 PURE21 NO PDF 20261005T144000Z-283c9b/02 PURE21 CORRECT SOURCE210 HELD C2 NO PDF.json",
+      "sha256": "739c4cbc505dc5131fd65dec4c51d9bcd0d8f7bc281ce61e83d45d54e042cdf3",
+      "bytes": 327299
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G05\\ROOT6SP46 SOURCE216 MIN2 PURE18 NO PDF 20261005T135559Z-bc715d\\02 PURE18 SELECTED216 C2 NO PDF.json",
+      "stored": "reference/data_sources/ROOT6SP46 SOURCE216 MIN2 PURE18 NO PDF 20261005T135559Z-bc715d/02 PURE18 SELECTED216 C2 NO PDF.json",
+      "sha256": "108e43c805c6f3557a0119e5f3e357837c4a8f185dfe44b29e7ae27cc73f5200",
+      "bytes": 361113
+    },
+    {
+      "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\G05\\SOL P6 SHIFT8 LAST SAMPLE2 STATIC 20261005T204538Z-bb47a3\\02 FULL P6 SHIFT8 LAST2 PLAN NO PDF.json",
+      "stored": "reference/data_sources/SOL P6 SHIFT8 LAST SAMPLE2 STATIC 20261005T204538Z-bb47a3/02 FULL P6 SHIFT8 LAST2 PLAN NO PDF.json",
+      "sha256": "d1ce8cb49fe255fc36445a12c6d209c4d37870e36f01747279caaaf403e60d91",
+      "bytes": 461919
+    }
+  ]
+}

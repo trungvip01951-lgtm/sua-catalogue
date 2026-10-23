@@ -1,0 +1,3426 @@
+{
+ "version": "02-10-2026",
+ "source": "PHUONG AN SUA CATALOGUE 02-10-2026.xlsx",
+ "rules": [
+  {
+   "id": 1,
+   "name": "Bảo hành",
+   "text": "Aquaris: \"Warranty: 2 years\". Perotac, Redpump: \"Warranty: 1 year\" (sửa cả \"1 years\"; Perotac SP đang \"2 years\" → \"1 year\"). Catalogue không có dòng bảo hành thì không thêm."
+  },
+  {
+   "id": 2,
+   "name": "Công suất",
+   "text": "Ghi \"kW\" (không Kw, KW, kw) và \"HP\" (không Hp, hp) – tất cả catalogue."
+  },
+  {
+   "id": 3,
+   "name": "Tên công ty Aquaris",
+   "text": "\"S.r.l.\" có dấu chấm cuối."
+  },
+  {
+   "id": 4,
+   "name": "Dấu thập phân",
+   "text": "Dấu chấm cho mọi catalogue (vd 5.5). Aquaris CM đổi toàn bộ (khoảng 350 số); FS khổ A3 và các chỗ lẫn ở file khác."
+  },
+  {
+   "id": 5,
+   "name": "Tên model",
+   "text": "Không có số 0 ở đầu: Aquaris SP 69 tên trong bảng + nhãn biểu đồ (vd 8SP77-03 → 8SP77-3); CDX90/05 → CDX90/5."
+  },
+  {
+   "id": 6,
+   "name": "Tên model CM",
+   "text": "Dạng \"CM cỡ/công suất kW\", không ghi \".0\" (vd CM 32-200/4, CM 32-250/5.5); 9,5 kW → 9.2. Aquaris CM bỏ A/B/C (sheet \"Tên CM mới\"). Perotac & Redpump CM đổi \"/3.0\" → \"/3\" cho cùng kiểu."
+  },
+  {
+   "id": 7,
+   "name": "Biểu đồ",
+   "text": "Aquaris SP vẽ lại cả 21 biểu đồ. Catalogue khác: biểu đồ nào lệch bảng thì vẽ lại cả biểu đồ trang đó. Gửi trang mẫu duyệt trước."
+  },
+  {
+   "id": 8,
+   "name": "Số cột áp lệch",
+   "text": "Sửa theo tỉ lệ cột áp/tầng của các model cùng cột; chốt số để đường cong mượt (gồm cả 8 ô Aquaris SP)."
+  },
+  {
+   "id": 9,
+   "name": "Bảng giá",
+   "text": "Em sửa catalogue cho đúng; anh cập nhật bảng giá tối thiểu theo catalogue."
+  }
+ ],
+ "cm_rename": [
+  {
+   "stt": 1,
+   "old": "CM 32-160 B",
+   "kw": "3",
+   "new": "CM 32-200/3",
+   "note": "Đổi cỡ theo anh chốt"
+  },
+  {
+   "stt": 2,
+   "old": "CM 32-160 A",
+   "kw": "4",
+   "new": "CM 32-200/4",
+   "note": "Đổi cỡ theo anh chốt"
+  },
+  {
+   "stt": 3,
+   "old": "CM 32-200 B",
+   "kw": "5,5",
+   "new": "CM 32-250/5.5",
+   "note": "Đổi cỡ theo anh chốt"
+  },
+  {
+   "stt": 4,
+   "old": "CM 32-200 A",
+   "kw": "7,5",
+   "new": "CM 32-250/7.5",
+   "note": "Đổi cỡ theo anh chốt"
+  },
+  {
+   "stt": 5,
+   "old": "CM 40-160 B",
+   "kw": "3",
+   "new": "CM 40-160/3",
+   "note": ""
+  },
+  {
+   "stt": 6,
+   "old": "CM 40-160 A",
+   "kw": "4",
+   "new": "CM 40-160/4",
+   "note": ""
+  },
+  {
+   "stt": 7,
+   "old": "CM 40-200 B",
+   "kw": "5,5",
+   "new": "CM 40-200/5.5",
+   "note": ""
+  },
+  {
+   "stt": 8,
+   "old": "CM 40-200 A",
+   "kw": "7,5",
+   "new": "CM 40-200/7.5",
+   "note": ""
+  },
+  {
+   "stt": 9,
+   "old": "CM 40-250 B",
+   "kw": "11",
+   "new": "CM 40-250/11",
+   "note": ""
+  },
+  {
+   "stt": 10,
+   "old": "CM 40-250 A",
+   "kw": "15",
+   "new": "CM 40-250/15",
+   "note": ""
+  },
+  {
+   "stt": 11,
+   "old": "CM 50-125 B",
+   "kw": "3",
+   "new": "CM 50-125/3",
+   "note": ""
+  },
+  {
+   "stt": 12,
+   "old": "CM 50-125 A",
+   "kw": "4",
+   "new": "CM 50-125/4",
+   "note": ""
+  },
+  {
+   "stt": 13,
+   "old": "CM 50-160 B",
+   "kw": "5,5",
+   "new": "CM 50-160/5.5",
+   "note": ""
+  },
+  {
+   "stt": 14,
+   "old": "CM 50-160 A",
+   "kw": "7,5",
+   "new": "CM 50-160/7.5",
+   "note": ""
+  },
+  {
+   "stt": 15,
+   "old": "CM 50-200 C",
+   "kw": "9,5",
+   "new": "CM 50-200/9.2",
+   "note": "9,5 kW → 9.2 (cỡ chuẩn)"
+  },
+  {
+   "stt": 16,
+   "old": "CM 50-200 B",
+   "kw": "11",
+   "new": "CM 50-200/11",
+   "note": ""
+  },
+  {
+   "stt": 17,
+   "old": "CM 50-200 A",
+   "kw": "15",
+   "new": "CM 50-200/15",
+   "note": ""
+  },
+  {
+   "stt": 18,
+   "old": "CM 50-250 B",
+   "kw": "18,5",
+   "new": "CM 50-250/18.5",
+   "note": ""
+  },
+  {
+   "stt": 19,
+   "old": "CM 50-250 A",
+   "kw": "22",
+   "new": "CM 50-250/22",
+   "note": ""
+  },
+  {
+   "stt": 20,
+   "old": "CM 65-125 B",
+   "kw": "5,5",
+   "new": "CM 65-125/5.5",
+   "note": ""
+  },
+  {
+   "stt": 21,
+   "old": "CM 65-125 A",
+   "kw": "7,5",
+   "new": "CM 65-125/7.5",
+   "note": ""
+  },
+  {
+   "stt": 22,
+   "old": "CM 65-160 C",
+   "kw": "9,5",
+   "new": "CM 65-160/9.2",
+   "note": "9,5 kW → 9.2 (cỡ chuẩn)"
+  },
+  {
+   "stt": 23,
+   "old": "CM 65-160 B",
+   "kw": "11",
+   "new": "CM 65-160/11",
+   "note": ""
+  },
+  {
+   "stt": 24,
+   "old": "CM 65-160 A",
+   "kw": "15",
+   "new": "CM 65-160/15",
+   "note": ""
+  },
+  {
+   "stt": 25,
+   "old": "CM 65-200 B",
+   "kw": "18,5",
+   "new": "CM 65-200/18.5",
+   "note": ""
+  },
+  {
+   "stt": 26,
+   "old": "CM 65-200 A",
+   "kw": "22",
+   "new": "CM 65-200/22",
+   "note": ""
+  },
+  {
+   "stt": 27,
+   "old": "CM 65-250 B",
+   "kw": "30",
+   "new": "CM 65-250/30",
+   "note": ""
+  },
+  {
+   "stt": 28,
+   "old": "CM 65-250 A",
+   "kw": "37",
+   "new": "CM 65-250/37",
+   "note": ""
+  },
+  {
+   "stt": 29,
+   "old": "CM 80-160 F",
+   "kw": "7,5",
+   "new": "CM 80-160/7.5",
+   "note": ""
+  },
+  {
+   "stt": 30,
+   "old": "CM 80-160 E",
+   "kw": "9,5",
+   "new": "CM 80-160/9.2",
+   "note": "9,5 kW → 9.2 (cỡ chuẩn)"
+  },
+  {
+   "stt": 31,
+   "old": "CM 80-160 D",
+   "kw": "11",
+   "new": "CM 80-160/11",
+   "note": ""
+  },
+  {
+   "stt": 32,
+   "old": "CM 80-160 C",
+   "kw": "15",
+   "new": "CM 80-160/15",
+   "note": ""
+  },
+  {
+   "stt": 33,
+   "old": "CM 80-160 B",
+   "kw": "18,5",
+   "new": "CM 80-160/18.5",
+   "note": ""
+  },
+  {
+   "stt": 34,
+   "old": "CM 80-160 A",
+   "kw": "22",
+   "new": "CM 80-160/22",
+   "note": ""
+  },
+  {
+   "stt": 35,
+   "old": "CM 80-200 B",
+   "kw": "30",
+   "new": "CM 80-200/30",
+   "note": ""
+  },
+  {
+   "stt": 36,
+   "old": "CM 80-200 A",
+   "kw": "37",
+   "new": "CM 80-200/37",
+   "note": ""
+  }
+ ],
+ "groups": [
+  {
+   "id": "G01",
+   "title": "Aquaris SP – chữ, số trong bảng, tên model",
+   "kind": "nét vẽ",
+   "files": [
+    {
+     "name": "Aquaris bơm giếng SP 1_300dpi_75%.pdf",
+     "folder": "Giếng",
+     "input": "BẢN MỚI 01-10-2026/Giếng/Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "id": "G02",
+   "title": "Aquaris SP – vẽ lại 21 biểu đồ",
+   "kind": "nét vẽ",
+   "files": [
+    {
+     "name": "Aquaris bơm giếng SP 1_300dpi_75%.pdf",
+     "folder": "Giếng",
+     "input": "BẢN MỚI 01-10-2026/Giếng/Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    20
+   ]
+  },
+  {
+   "id": "G03",
+   "title": "Aquaris SA",
+   "kind": "nét vẽ",
+   "files": [
+    {
+     "name": "Aquaris bơm giếng SA 1_300dpi_75%.pdf",
+     "folder": "Giếng",
+     "input": "BẢN MỚI 01-10-2026/Giếng/Aquaris bơm giếng SA 1_300dpi_75% (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    130
+   ]
+  },
+  {
+   "id": "G04",
+   "title": "Perotac SA + Redpump SL",
+   "kind": "ảnh quét",
+   "files": [
+    {
+     "name": "Perotac bơm giếng SA_compressed.pdf",
+     "folder": "Giếng",
+     "input": "BẢN MỚI 01-10-2026/Giếng/Perotac bơm giếng SA_compressed (bản mới).pdf"
+    },
+    {
+     "name": "Redpump gieng SL_compressed.pdf",
+     "folder": "Giếng",
+     "input": "BẢN MỚI 01-10-2026/Giếng/Redpump gieng SL_compressed (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    131,
+    132,
+    162
+   ]
+  },
+  {
+   "id": "G05",
+   "title": "Perotac SP",
+   "kind": "ảnh quét",
+   "files": [
+    {
+     "name": "Perotac bơm giếng SP_compressed.pdf",
+     "folder": "Giếng",
+     "input": "BẢN MỚI 01-10-2026/Giếng/Perotac bơm giếng SP_compressed (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    47,
+    48,
+    49,
+    50,
+    132,
+    133,
+    134,
+    135
+   ]
+  },
+  {
+   "id": "G06",
+   "title": "Aquaris FS (4 trang)",
+   "kind": "ảnh quét",
+   "files": [
+    {
+     "name": "Aquaris FS_300dpi_75%.pdf",
+     "folder": "Nước thải",
+     "input": "BẢN MỚI 01-10-2026/Nước thải/Aquaris FS_300dpi_75% (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    51,
+    52,
+    53,
+    136
+   ]
+  },
+  {
+   "id": "G07",
+   "title": "Aquaris FS khổ A3",
+   "kind": "chữ thật",
+   "files": [
+    {
+     "name": "Catalog bơm nước thải Aquaris FS.pdf",
+     "folder": "Nước thải",
+     "input": "BẢN MỚI 01-10-2026/Nước thải/Catalog bơm nước thải Aquaris FS (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    54,
+    55,
+    56,
+    57,
+    136,
+    137
+   ]
+  },
+  {
+   "id": "G08",
+   "title": "Cắt rác WC (Aquaris, Perotac, Redpump)",
+   "kind": "chữ thật",
+   "files": [
+    {
+     "name": "Catalog cắt rác Aquaris WC.pdf",
+     "folder": "Nước thải",
+     "input": "BẢN MỚI 01-10-2026/Nước thải/Catalog cắt rác Aquaris WC (bản mới).pdf"
+    },
+    {
+     "name": "Catalog cắt rác perotac.pdf",
+     "folder": "Nước thải",
+     "input": "BẢN MỚI 01-10-2026/Nước thải/Catalog cắt rác perotac (bản mới).pdf"
+    },
+    {
+     "name": "Catalog cắt rác redpump.pdf",
+     "folder": "Nước thải",
+     "input": "BẢN MỚI 01-10-2026/Nước thải/Catalog cắt rác redpump (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    138,
+    139,
+    140,
+    141,
+    162
+   ]
+  },
+  {
+   "id": "G09",
+   "title": "KTZ - LH (Perotac, Redpump)",
+   "kind": "nét vẽ + chữ thật",
+   "files": [
+    {
+     "name": "KTZ - LH Perotac.pdf",
+     "folder": "Nước thải",
+     "input": "BẢN MỚI 01-10-2026/Nước thải/KTZ - LH Perotac (bản mới).pdf"
+    },
+    {
+     "name": "KTZ - LH Redpump.pdf",
+     "folder": "Nước thải",
+     "input": "BẢN MỚI 01-10-2026/Nước thải/KTZ - LH Redpump (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    144,
+    162
+   ]
+  },
+  {
+   "id": "G10",
+   "title": "Máy thổi khí Perotac GB",
+   "kind": "chữ thật + nét vẽ",
+   "files": [
+    {
+     "name": "May thoi khi Perotac_300dpi_75%.pdf",
+     "folder": "Thổi khí",
+     "input": "BẢN MỚI 01-10-2026/Thổi khí/May thoi khi Perotac_300dpi_75% (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    145
+   ]
+  },
+  {
+   "id": "G11",
+   "title": "Perotac Root",
+   "kind": "nét vẽ",
+   "files": [
+    {
+     "name": "Perotac Root_300dpi_75%.pdf",
+     "folder": "Thổi khí",
+     "input": "BẢN MỚI 01-10-2026/Thổi khí/Perotac Root_300dpi_75% (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    146,
+    147,
+    148
+   ]
+  },
+  {
+   "id": "G12",
+   "title": "3M (Aquaris, Perotac)",
+   "kind": "nét vẽ",
+   "files": [
+    {
+     "name": "3M Aquaris.pdf",
+     "folder": "Trục ngang",
+     "input": "BẢN MỚI 01-10-2026/Trục ngang/3M Aquaris (bản mới).pdf"
+    },
+    {
+     "name": "3M Perotac.pdf",
+     "folder": "Trục ngang",
+     "input": "BẢN MỚI 01-10-2026/Trục ngang/3M Perotac (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    105,
+    106,
+    107
+   ]
+  },
+  {
+   "id": "G13",
+   "title": "Aquaris trục ngang CM",
+   "kind": "chữ thật",
+   "files": [
+    {
+     "name": "Aquaris truc ngang CM.pdf",
+     "folder": "Trục ngang",
+     "input": "BẢN MỚI 01-10-2026/Trục ngang/Aquaris truc ngang CM (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    153,
+    154,
+    155,
+    156
+   ]
+  },
+  {
+   "id": "G14",
+   "title": "CM Perotac + Redpump",
+   "kind": "ảnh",
+   "files": [
+    {
+     "name": "bơm trục ngnag perotac model CM.pdf",
+     "folder": "Trục ngang",
+     "input": "BẢN MỚI 01-10-2026/Trục ngang/bơm trục ngnag perotac model CM (bản mới).pdf"
+    },
+    {
+     "name": "bơm trục ngnag redpump model CM_300dpi_75%.pdf",
+     "folder": "Trục ngang",
+     "input": "BẢN MỚI 01-10-2026/Trục ngang/bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    157,
+    158,
+    162
+   ]
+  },
+  {
+   "id": "G15",
+   "title": "CDX Perotac",
+   "kind": "ảnh quét",
+   "files": [
+    {
+     "name": "CDX Perotac.pdf",
+     "folder": "Trục ngang",
+     "input": "BẢN MỚI 01-10-2026/Trục ngang/CDX Perotac (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    159,
+    160
+   ]
+  },
+  {
+   "id": "G16",
+   "title": "CDLF (Aquaris, Perotac)",
+   "kind": "nét vẽ + ảnh bìa",
+   "files": [
+    {
+     "name": "Bơm trục đứng CDLF Aquaris.pdf",
+     "folder": "Trục đứng",
+     "input": "BẢN MỚI 01-10-2026/Trục đứng/Bơm trục đứng CDLF Aquaris (bản mới).pdf"
+    },
+    {
+     "name": "Bơm trục đứng Perotac CDLF.pdf",
+     "folder": "Trục đứng",
+     "input": "BẢN MỚI 01-10-2026/Trục đứng/Bơm trục đứng Perotac CDLF (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    149,
+    150,
+    151
+   ]
+  },
+  {
+   "id": "G17",
+   "title": "Inline IRG Perotac",
+   "kind": "nét vẽ",
+   "files": [
+    {
+     "name": "Inline IRG Perotac.pdf",
+     "folder": "Trục đứng",
+     "input": "BẢN MỚI 01-10-2026/Trục đứng/Inline IRG Perotac (bản mới).pdf"
+    }
+   ],
+   "tasks": [
+    102,
+    103,
+    104,
+    152
+   ]
+  },
+  {
+   "id": "G18",
+   "title": "Excel: Catalogue perotac + Catalogue DWO",
+   "kind": "Excel",
+   "files": [
+    {
+     "name": "Catalogue perotac.xlsx",
+     "folder": "Nước thải",
+     "input": "BẢN MỚI 01-10-2026/Nước thải/Catalogue perotac (bản mới).xlsx"
+    },
+    {
+     "name": "Catalogue DWO.xlsx",
+     "folder": "Trục ngang",
+     "input": "BẢN MỚI 01-10-2026/Trục ngang/Catalogue DWO (bản mới).xlsx"
+    }
+   ],
+   "tasks": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    120,
+    121,
+    122,
+    123,
+    142,
+    143,
+    161
+   ]
+  }
+ ],
+ "tasks": [
+  {
+   "id": 1,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "15, 17, 19, 21, 23, 25, 27, 29, 31",
+   "where": "Mục \"Warranty\" (Bảo hành)",
+   "current": "Warranty: 1 year",
+   "new": "Warranty: 2 years (bảo hành 2 năm)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 2,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "15, 17, 19, 21, 23, 25, 27, 29, 31",
+   "where": "Bảng vật liệu – hàng 1",
+   "current": "Components (trùng tiêu đề)",
+   "new": "Delivery casing (đầu xả)",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 3,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "15, 17, 19, 21, 23, 25, 27, 29, 31",
+   "where": "Bảng vật liệu – hàng 13",
+   "current": "Shaft",
+   "new": "Motor shaft (trục động cơ)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 4,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "15, 17, 19, 21, 23, 25, 27, 29, 31",
+   "where": "Bảng vật liệu – hàng 6 Shaft, hàng 7 Shaft coupling",
+   "current": "①AISI 316 ②AISI 304ss",
+   "new": "AISI 316ss (inox 316)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 5,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "3, 4",
+   "where": "Dòng \"Outlet\" (cửa xả) trên bảng thông số",
+   "current": "G2¼",
+   "new": "G1¼\" (ghi cùng kiểu trang bơm 4\")",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 6,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "16",
+   "where": "Dòng chữ trên bảng thông số",
+   "current": "Diffuser height: 56mm",
+   "new": "Diffuser height: 45mm",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 7,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "24, 26",
+   "where": "Dòng chữ trên bảng thông số",
+   "current": "Diffuser height: 104mm",
+   "new": "Xoá dòng này",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 8,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "5",
+   "where": "Bảng thông số – cột áp (m), 4SP2-18, cột 2.5 m³/h",
+   "current": "66",
+   "new": "60 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 9,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "16",
+   "where": "Bảng thông số – cột áp (m), 6SP20-8, cột 30 m³/h",
+   "current": "29",
+   "new": "25–26 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 10,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "22",
+   "where": "Bảng thông số – cột áp (m), 6SP60-13, cột 40 m³/h",
+   "current": "163",
+   "new": "134 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 11,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "22",
+   "where": "Bảng thông số – cột áp (m), 6SP60-12, cột 45 m³/h",
+   "current": "112",
+   "new": "116 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 12,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "26",
+   "where": "Bảng thông số – cột áp (m), 8SP95-08, cột 95 m³/h",
+   "current": "93",
+   "new": "96 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 13,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "28",
+   "where": "Bảng thông số – cột áp (m), 8SP120-02, cột 150 m³/h",
+   "current": "9",
+   "new": "6–7 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 14,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "30",
+   "where": "Bảng thông số – cột áp (m), 10SP125-05, cột 140 m³/h",
+   "current": "95",
+   "new": "84 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 15,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "32",
+   "where": "Bảng thông số – cột áp (m), 10SP160-03, cột 180 m³/h",
+   "current": "52",
+   "new": "54 (theo tỉ lệ cột áp/tầng; chốt số khi vẽ cho đường cong mượt)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 16,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "3–14, 16–32",
+   "where": "Sơ đồ ký hiệu model: dòng \"Motor power (Kw)\"",
+   "current": "(Kw)",
+   "new": "(kW)",
+   "basis": "Quy tắc chung (anh chốt: áp tất cả catalogue)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 17,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "3–14, 16–32",
+   "where": "Đầu cột công suất trong bảng thông số",
+   "current": "KW, Hp",
+   "new": "kW, HP",
+   "basis": "Quy tắc chung (anh chốt: áp tất cả catalogue)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 18,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "Cả file",
+   "where": "Chân trang góc dưới trái",
+   "current": "Aquaris S.r.l",
+   "new": "Aquaris S.r.l.",
+   "basis": "Quy tắc chung (anh chốt: áp tất cả catalogue)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 19,
+   "groups": [
+    "G01"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "6–11, 20–32",
+   "where": "Tên model trong bảng (69 tên có số 0 ở đầu)",
+   "current": "vd 4SP3-06, 5SP10-08, 8SP77-03, 10SP160-09",
+   "new": "4SP3-6, 5SP10-8, 8SP77-3, 10SP160-9",
+   "basis": "Quy tắc chung (anh chốt: áp tất cả catalogue)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 20,
+   "groups": [
+    "G02"
+   ],
+   "files": [
+    "Aquaris bơm giếng SP 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "3–14, 16–32",
+   "where": "21 biểu đồ đường đặc tính",
+   "current": "—",
+   "new": "Vẽ lại cả 21 biểu đồ theo bảng (đường cong mượt, giữ màu/nét/chữ cũ); trang 10 thêm đường 5SP10-30 và nới trục dọc; trang 18 trục lưu lượng chia đều đúng; nhãn bỏ số 0",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 21,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "3",
+   "where": "Bảng 4SA2, dòng 4SA2/65",
+   "current": "4.0 kW = 5.0 HP",
+   "new": "4.0 kW = 5.5 HP (như các trang khác)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 22,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "4",
+   "where": "Bảng 4SA3, hàng m³/h",
+   "current": "1.1 m³/h ứng 20 l/min",
+   "new": "1.2 m³/h",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 23,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "5",
+   "where": "Bảng 4SA4, hàng m³/h",
+   "current": "5.0 m³/h ứng 90 l/min",
+   "new": "5.4 m³/h",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 24,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "5",
+   "where": "Bảng 4SA4, dòng 4SA4/22, cột 3.0 m³/h (50 l/min)",
+   "current": "103 (thấp hơn cả điểm 4.2 m³/h = 104)",
+   "new": "≈129 (theo tỉ lệ tầng; chốt số cho đường cong mượt)",
+   "basis": "Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 25,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "6",
+   "where": "Bảng 4SA6, dòng 4SA6/11",
+   "current": "1.0 kW / 1.5 HP",
+   "new": "1.1 kW / 1.5 HP",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 26,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "6",
+   "where": "Bảng 4SA6, dòng 4SA6/36, cột 1.2 m³/h",
+   "current": "281 (cao hơn cả điểm 0 = 227)",
+   "new": "≈217 (như trên)",
+   "basis": "Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 27,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "7",
+   "where": "Bảng 4SA8, hàng m³/h",
+   "current": "2.2 m³/h ứng 40 l/min",
+   "new": "2.4 m³/h",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 28,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "7",
+   "where": "Bảng 4SA8, dòng 4SA8/8",
+   "current": "1.0 kW / 1.5 HP",
+   "new": "1.1 kW / 1.5 HP",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 29,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "7",
+   "where": "Bảng 4SA8, dòng \"4SA8/24\"",
+   "current": "Tên 4SA8/24 nhưng số liệu 162-153-137-114-72-14 là của 28 tầng; biểu đồ ghi 4SA8/28",
+   "new": "Đổi tên thành 4SA8/28 (số liệu và biểu đồ đều là 28 tầng)",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 30,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "7",
+   "where": "Bảng 4SA8, dòng 4SA8/44, cột 4.8 m³/h",
+   "current": "316 (cao hơn điểm 0 = 255)",
+   "new": "≈216 (như trên)",
+   "basis": "Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 31,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "8",
+   "where": "Bảng 4SA10, dòng 4SA10/28, cột 1.8 m³/h",
+   "current": "116",
+   "new": "≈166 (như trên)",
+   "basis": "Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 32,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "10",
+   "where": "Bảng 4SA16, hàng l/min",
+   "current": "230 / 265 / 360 ứng 14 / 16 / 22 m³/h",
+   "new": "233 / 267 / 367",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 33,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "2",
+   "where": "Trang mục lục",
+   "current": "Tên model trong 6 ô không thẳng hàng",
+   "new": "Căn lại cho đều",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 34,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "cả file",
+   "where": "Chữ chung",
+   "current": "\"Kw\", \"KW\", \"Hp\"; \"Aquaris S.r.l\"; \"diameterϕ95mm\" dính chữ",
+   "new": "kW, HP; S.r.l.; \"diameter ϕ95 mm\"",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 35,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Perotac bơm giếng SA_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "1",
+   "where": "Operating conditions",
+   "current": "\"2SD minimum well diameter\", \"2.5SD minimum well diameter\"",
+   "new": "2SS / 2.5SS (bản Redpump đã ghi đúng 2SL)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 36,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Perotac bơm giếng SA_compressed.pdf",
+    "Redpump gieng SL_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "1",
+   "where": "Biểu đồ 2.5SS1.5 / 2.5SL1.5",
+   "current": "Nhãn \".../24\" xuất hiện 2 lần; đường ≈46 m không có nhãn /17",
+   "new": "Đổi nhãn thứ 2 thành 2.5SS1.5/17 (2.5SL1.5/17)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 37,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Perotac bơm giếng SA_compressed.pdf",
+    "Redpump gieng SL_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "1",
+   "where": "Bảng kích thước 2.5SS(M)1.5/24 – 2.5SL(M)1.5/24",
+   "current": "P 779 + M 787 = 1566 nhưng T ghi 1546",
+   "new": "Sửa ô tổng T thành 1566 (= 779 + 787)",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 38,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Perotac bơm giếng SA_compressed.pdf",
+    "Redpump gieng SL_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "3",
+   "where": "Bảng kích thước 3SS2 / 3SL2",
+   "current": "3SS2/11: T(T) 752 (444+288 = 732); 3SS2/15: T(T) 873 (535+308 = 843)",
+   "new": "732; 843",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 39,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Perotac bơm giếng SA_compressed.pdf",
+    "Redpump gieng SL_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "3",
+   "where": "Bảng khối lượng 3SS3 / 3SL3",
+   "current": "3SS3/26: M(T) 6.4 kg; 3SS3/31: M(T) 7.5 kg (tổng T(T) không khớp)",
+   "new": "7.5 kg; 8.7 kg (cùng động cơ dài 408/448 mm như bảng 3SS2)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 40,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Perotac bơm giếng SA_compressed.pdf",
+    "Redpump gieng SL_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "8",
+   "where": "Bảng kích thước 4SA3 / 4SL3",
+   "current": "4SA3/10: T(S) 814 (490+329 = 819); 4SA3/35: T(S) 1664 (1194+594 = 1788, chép từ 4SA4/28)",
+   "new": "819; 1788",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 41,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Perotac bơm giếng SA_compressed.pdf",
+    "Redpump gieng SL_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "9",
+   "where": "Bảng kích thước 4SA8 / 4SL8, dòng 4SA8/6",
+   "current": "P 475 mm / 3.3 kg nhưng T(S) 872, T(T) 857, 12.6 kg, 11.9 kg (lệch 38 mm và 0.6 kg)",
+   "new": "Sửa thân bơm P = 513 mm và 3,9 kg (khớp cả 2 cột tổng)",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 42,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Perotac bơm giếng SA_compressed.pdf",
+    "Redpump gieng SL_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "9",
+   "where": "Bảng kích thước 4SA12 / 4SL12, dòng 4SA12/32",
+   "current": "P 2143 + M 908 = 3051 nhưng T(T) ghi 3020",
+   "new": "Sửa P = 2112 (đúng bước 56 mm/tầng và khớp tổng 3020)",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 43,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Perotac bơm giếng SA_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "11",
+   "where": "Biểu đồ 6SA35 / 6SA45",
+   "current": "Ô tiêu đề ghi \"6SA15\", \"6SA25\"",
+   "new": "6SA35, 6SA45",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 44,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Redpump gieng SL_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "7",
+   "where": "Biểu đồ 4SL10 / 4SL12",
+   "current": "Ô tiêu đề ghi \"4SL6\", \"4SL8\"",
+   "new": "4SL10, 4SL12",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 45,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Redpump gieng SL_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "11",
+   "where": "Biểu đồ 6SL35 / 6SL45",
+   "current": "Ô tiêu đề ghi \"6SL15\", \"6SL25\"; nhãn \"6SL 35/20\" có dấu cách",
+   "new": "6SL35, 6SL45; \"6SL35/20\"",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 46,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Redpump gieng SL_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "10",
+   "where": "Tiêu đề trang 6SL",
+   "current": "\"6SL.\"",
+   "new": "6SL",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 47,
+   "groups": [
+    "G05"
+   ],
+   "files": [
+    "Perotac bơm giếng SP_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "5",
+   "where": "Bảng 6SP30, dòng 6SP30-6, cột 6 m³/h",
+   "current": "57 (thấp hơn cột 12 m³/h = 63)",
+   "new": "≈67 (như trên)",
+   "basis": "Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 48,
+   "groups": [
+    "G05"
+   ],
+   "files": [
+    "Perotac bơm giếng SP_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "8",
+   "where": "Bảng kích thước 6SP46, dòng 6SP46-7",
+   "current": "T(T) 1767 (1063 + 764 = 1827)",
+   "new": "1827",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 49,
+   "groups": [
+    "G05"
+   ],
+   "files": [
+    "Perotac bơm giếng SP_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "9",
+   "where": "Bảng 8SP77, dòng 8SP77-9, cột 24 m³/h",
+   "current": "1750",
+   "new": "175",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 50,
+   "groups": [
+    "G05"
+   ],
+   "files": [
+    "Perotac bơm giếng SP_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "1,4,9,11",
+   "where": "Tiêu đề trang",
+   "current": "Chữ \"4SP/6SP/8SP/10SP\" khác kiểu chữ với các catalogue Perotac SA",
+   "new": "Giữ nguyên (không có kiểu chữ đó để chép chữ \"P\")",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "GIU_NGUYEN"
+  },
+  {
+   "id": 51,
+   "groups": [
+    "G06"
+   ],
+   "files": [
+    "Aquaris FS_300dpi_75%.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1",
+   "where": "Ví dụ ký hiệu model",
+   "current": "\"FS 15 15 1.5\" – không có trong bảng (model dạng FS-35-7-2.2 … FS-150-20-15)",
+   "new": "Lấy model có thật đầu bảng làm ví dụ: FS-35-7-2.2",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 52,
+   "groups": [
+    "G06"
+   ],
+   "files": [
+    "Aquaris FS_300dpi_75%.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "2–3",
+   "where": "Tiêu đề bảng",
+   "current": "\"(KW)\"",
+   "new": "(kW)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 53,
+   "groups": [
+    "G06"
+   ],
+   "files": [
+    "Aquaris FS_300dpi_75%.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "4",
+   "where": "Bảng chi tiết",
+   "current": "Cỡ chữ không đều (dòng 5, 13 rất nhỏ; dòng 15, 18 to hơn); dòng 28 chạm viền ô",
+   "new": "Chỉnh cỡ chữ cho đều nếu ra đẹp; không đẹp thì giữ nguyên",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 54,
+   "groups": [
+    "G07"
+   ],
+   "files": [
+    "Catalog bơm nước thải Aquaris FS.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1",
+   "where": "Bảng PERFORMANCE – hàng m³/h",
+   "current": "Thiếu ô \"48\" dưới cột 800 l/min",
+   "new": "Thêm 48",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 55,
+   "groups": [
+    "G07"
+   ],
+   "files": [
+    "Catalog bơm nước thải Aquaris FS.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1",
+   "where": "Đoạn chữ Ý/Anh/Pháp",
+   "current": "Chữ chép OCR bị dính/sai: industrian, movimentazionee, utllizzare, peril sollevamentodl, inseritidei, spiacevolidanni, \"50 FHz\", \"dean or slightly dirty\", nothigherthan, \"anda Schuko\", threephase, trlphasé, \"IPB8\"",
+   "new": "industriali, movimentazione e, utilizzare, per il sollevamento di, inseriti dei, spiacevoli danni, 50 Hz, clean, not higher than, and a Schuko, three-phase, triphasé, IP68",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 56,
+   "groups": [
+    "G07"
+   ],
+   "files": [
+    "Catalog bơm nước thải Aquaris FS.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1",
+   "where": "Tiêu đề cột",
+   "current": "\"FESI - WEIGHT\", \"Imballa\", \"CLOSEDIMPELLER\", \"PotenZa\", \"Kg³/m\"",
+   "new": "PESI, Imballo, CLOSED IMPELLER, Potenza, kg/dm³",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 57,
+   "groups": [
+    "G07"
+   ],
+   "files": [
+    "Catalog bơm nước thải Aquaris FS.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1",
+   "where": "Bảng số liệu",
+   "current": "Lẫn dấu thập phân \"1.5 / 7.2 / 8.5\" với \"0,55 / 3,6 / 4,5\"; \"50HZ\"; số \"10\", \"14\", \"9\" to hơn số khác",
+   "new": "Đổi dấu phẩy thành dấu chấm; cỡ chữ đều; \"50 Hz\"",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 58,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác Aquaris WC.pdf",
+    "Catalog cắt rác perotac.pdf",
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1",
+   "where": "Chú thích biểu đồ 50WC",
+   "current": "\"50WC15-80-7.5\"",
+   "new": "50WC15-40-7.5 (như bảng)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 59,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác Aquaris WC.pdf",
+    "Catalog cắt rác perotac.pdf",
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1–8 (24 chỗ)",
+   "where": "Mục Applications",
+   "current": "\"Agriculture irrugation\"",
+   "new": "Agriculture irrigation",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 60,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác Aquaris WC.pdf",
+    "Catalog cắt rác perotac.pdf",
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "2",
+   "where": "Range 65WC",
+   "current": "Power \"1.5-7.5kW\"; Max head \"36 m\"",
+   "new": "1.5-5.5kW; 40 m",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 61,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác Aquaris WC.pdf",
+    "Catalog cắt rác perotac.pdf",
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "3",
+   "where": "Range 80WC",
+   "current": "Discharge \"DN50\"; ví dụ ký hiệu \"80 WC 49 9 2.2\"",
+   "new": "DN80; 80WC45-9-2.2",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 62,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác Aquaris WC.pdf",
+    "Catalog cắt rác perotac.pdf",
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "4",
+   "where": "Range 100WC",
+   "current": "Max flow rate \"250 m³/h\"",
+   "new": "240 m³/h",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 63,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác Aquaris WC.pdf",
+    "Catalog cắt rác perotac.pdf",
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "8",
+   "where": "Range 300WC",
+   "current": "Discharge \"DN350\"",
+   "new": "DN300",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 64,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác Aquaris WC.pdf",
+    "Catalog cắt rác perotac.pdf",
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1",
+   "where": "Bảng 50WC, dòng 50WC15-25-3 (lệch giữa 3 file)",
+   "current": "Aquaris: 30-29-27-25-21-16-8-4; Perotac & Redpump: 28-27-26-25-21-16-8-1",
+   "new": "Chọn bộ số khớp đường cong trên biểu đồ (đo khi làm), ghi giống nhau ở cả 3 file",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 65,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác Aquaris WC.pdf",
+    "Catalog cắt rác perotac.pdf",
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "cả file",
+   "where": "Tiêu đề bảng",
+   "current": "\"(KW)\"",
+   "new": "(kW)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 66,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue perotac.xlsx"
+   ],
+   "folder": "Nước thải",
+   "page": "Sheet1",
+   "where": "Bảng DELIVERY – cột lưu lượng (ô N23/N22)",
+   "current": "34 m³/h = 566,7 l/min (các cột khác cách đều 6 m³/h)",
+   "new": "36 m³/h = 600 l/min",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 67,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue perotac.xlsx"
+   ],
+   "folder": "Nước thải",
+   "page": "Sheet1",
+   "where": "Options in request (ô A10)",
+   "current": "\"Other voltages or frequency 50Hz\"",
+   "new": "\"…frequency 60Hz\" (tiêu chuẩn đã là 50Hz)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 68,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue perotac.xlsx"
+   ],
+   "folder": "Nước thải",
+   "page": "Sheet1",
+   "where": "Motor and Pump (A8) và tiêu đề bảng (B22)",
+   "current": "\"380 - 415V/50HZ\" nhưng bảng ghi \"380 - 420V\"",
+   "new": "Thống nhất 380-415V; \"50Hz\"",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 69,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue perotac.xlsx"
+   ],
+   "folder": "Nước thải",
+   "page": "Sheet1",
+   "where": "Motor and Pump (A8)",
+   "current": "\"It's available to equip with floating switch\", \"It's can work in water containing fiber\"",
+   "new": "\"Available with float switch\", \"Can work in water containing fiber\"",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 70,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue perotac.xlsx"
+   ],
+   "folder": "Nước thải",
+   "page": "Sheet1",
+   "where": "Bảng",
+   "current": "SS-3000 bỏ trống ô model 1 pha; \"Oil for food machinery.\" thừa dấu chấm; chữ \"SS\" dùng font .VnCooper (máy không có font sẽ hiển thị font khác)",
+   "new": "Ghi \"-\"; bỏ dấu chấm thừa; đổi font chữ \"SS\" sang font Unicode cùng kiểu (Cooper Black)",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 71,
+   "groups": [
+    "G09"
+   ],
+   "files": [
+    "KTZ - LH Perotac.pdf",
+    "KTZ - LH Redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1",
+   "where": "KTZ – Application/Feature",
+   "current": "\"Civel engineering\"; \"build-in thermal protection\"",
+   "new": "Civil engineering; built-in",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 72,
+   "groups": [
+    "G09"
+   ],
+   "files": [
+    "KTZ - LH Perotac.pdf",
+    "KTZ - LH Redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "5",
+   "where": "LH – mô tả",
+   "current": "\"high preasure\"",
+   "new": "high pressure",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 73,
+   "groups": [
+    "G09"
+   ],
+   "files": [
+    "KTZ - LH Perotac.pdf",
+    "KTZ - LH Redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "3–4",
+   "where": "Bảng KTZ 50Hz & 60Hz, dòng KTZ67.5",
+   "current": "Rated 90 m³/h ↔ 1.60 m³/min",
+   "new": "1.50 m³/min",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 74,
+   "groups": [
+    "G09"
+   ],
+   "files": [
+    "KTZ - LH Perotac.pdf",
+    "KTZ - LH Redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "4",
+   "where": "Bảng KTZ 60Hz, dòng KTZ32.2",
+   "current": "Rated 30 m³/h ↔ 0.60 m³/min",
+   "new": "0.50 m³/phút (khớp 30 m³/h)",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 75,
+   "groups": [
+    "G09"
+   ],
+   "files": [
+    "KTZ - LH Perotac.pdf",
+    "KTZ - LH Redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "7",
+   "where": "Biểu đồ LH 50Hz",
+   "current": "Nhãn \"SH637\"",
+   "new": "637",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 76,
+   "groups": [
+    "G09"
+   ],
+   "files": [
+    "KTZ - LH Perotac.pdf",
+    "KTZ - LH Redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "2",
+   "where": "Hình cắt KTZ",
+   "current": "Hình có số 03 nhưng bảng vật liệu không có mục 03; bảng có mục 11 nhưng hình không có số 11",
+   "new": "Hình cắt: xoá số 03 (chỉ vào chỗ bắt cáp, bảng không có), thêm số 11 chỉ vào vỏ động cơ",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 77,
+   "groups": [
+    "G10"
+   ],
+   "files": [
+    "May thoi khi Perotac_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "2",
+   "where": "Tiêu đề",
+   "current": "\"PERATING PRINCIPLE\"",
+   "new": "(ĐÃ SỬA ngày 01/10 – bản mới đã gửi)",
+   "basis": "—",
+   "status": "DA_XONG"
+  },
+  {
+   "id": 78,
+   "groups": [
+    "G10"
+   ],
+   "files": [
+    "May thoi khi Perotac_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "2",
+   "where": "Đoạn mô tả nguyên lý",
+   "current": "\"Intolet\", \"Maximun\", \"The gas it taken in though the inlet1\", \"dischargring it though\"",
+   "new": "Inlet, Maximum, \"The gas is taken in through the inlet 1\", \"discharging it through\"",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 79,
+   "groups": [
+    "G10"
+   ],
+   "files": [
+    "May thoi khi Perotac_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "3",
+   "where": "Tiêu đề",
+   "current": "\"EXPLOSIVE VIEW\"",
+   "new": "EXPLODED VIEW",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 80,
+   "groups": [
+    "G10"
+   ],
+   "files": [
+    "May thoi khi Perotac_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "10, 12",
+   "where": "Bảng GB-2200, GB-3000S",
+   "current": "Một số ô (\"14.8(17.7)\", \"50(60)\", \"390(435)\") khác font/độ đậm – lộ dấu vết sửa",
+   "new": "Đồng bộ font các ô",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 81,
+   "groups": [
+    "G10"
+   ],
+   "files": [
+    "May thoi khi Perotac_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "22–25",
+   "where": "Tiêu đề biểu đồ",
+   "current": "\"Performance Curve of gb Series\"",
+   "new": "GB Series",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 82,
+   "groups": [
+    "G10"
+   ],
+   "files": [
+    "May thoi khi Perotac_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "28–29",
+   "where": "Ô ứng dụng",
+   "current": "Chữ dịch máy sai: \"Wash the battle machine\", \"Subpoena transport\", \"entwork edition\", \"cottom\", \"Ox milk\"…; trang 29 lặp phụ đề của trang 28",
+   "new": "Viết lại câu ứng dụng",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 83,
+   "groups": [
+    "G10"
+   ],
+   "files": [
+    "May thoi khi Perotac_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "cả file",
+   "where": "Đơn vị",
+   "current": "Kpa, HZ, KW, KG",
+   "new": "kPa, Hz, kW, kg",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 84,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "2",
+   "where": "Tiêu đề mục ưu điểm",
+   "current": "\"Advantages of SHOWFOU 3 LOBES ROOTS BLOWER\" – sót tên hãng khác",
+   "new": "Advantages of PEROTAC 3 LOBES ROOTS BLOWER",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 85,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "3",
+   "where": "Giải thích ký hiệu",
+   "current": "\"RLV/RWV: Complete Set … For Pressure Operation\"",
+   "new": "For Vacuum Operation",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 86,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "3",
+   "where": "Bảng SPECIFICATIONS, hàng RW 50",
+   "current": "Cột VACUUM ghi \"RWC-50\"",
+   "new": "RWV-50",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 87,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "4",
+   "where": "Tiêu đề cột",
+   "current": "\"NOAME\"",
+   "new": "NAME",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 88,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "9",
+   "where": "Hướng dẫn chọn",
+   "current": "\"the moldel number\"",
+   "new": "model number",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 89,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "9",
+   "where": "Bảng quy đổi áp suất, hàng 1 mmHg",
+   "current": "0.013 atm; 0.1338 kPa",
+   "new": "0.00132 atm; 0.1333 kPa",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 90,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "9",
+   "where": "Bảng quy đổi lưu lượng, hàng 1 U.S. GPM",
+   "current": "3.4785 ℓ/min",
+   "new": "3.785 ℓ/min",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 91,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "10",
+   "where": "Biểu đồ",
+   "current": "Nhãn trục \"Static Pressurs\" (10 biểu đồ); tiêu đề \"RLC-80 (RWC-80)\" khác kiểu các biểu đồ còn lại",
+   "new": "Static Pressure; RL-80 (RW-80)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 92,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "15",
+   "where": "Bảng 90° ELBOW",
+   "current": "\"NDE00\"",
+   "new": "NDE100",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 93,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "17",
+   "where": "Mục motor",
+   "current": "\"Tanadem Type Motor\"",
+   "new": "Tandem",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 94,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "18",
+   "where": "Ô ứng dụng",
+   "current": "\"liguid chemical\"; \"Raint, etc\" (chữ tràn viền ô)",
+   "new": "liquid; Paint, etc",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 95,
+   "groups": [
+    "G16"
+   ],
+   "files": [
+    "Bơm trục đứng CDLF Aquaris.pdf",
+    "Bơm trục đứng Perotac CDLF.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "11",
+   "where": "Bảng Size CDLF32 (9 dòng CDLF32-8 … -16)",
+   "current": "Cột B2 chép bằng B1 (1100/1100, 1170/1170 … 1660/1660) nên B1+B2 không khớp",
+   "new": "B2 = 500, 550, 550, 575, 575, 650, 650, 650, 650",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 96,
+   "groups": [
+    "G16"
+   ],
+   "files": [
+    "Bơm trục đứng CDLF Aquaris.pdf",
+    "Bơm trục đứng Perotac CDLF.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "8",
+   "where": "Bảng Size CDLF12-5",
+   "current": "B1 400 + B2 350 = 750 nhưng ghi 740",
+   "new": "Sửa ô tổng thành 750 (= 400 + 350)",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 97,
+   "groups": [
+    "G16"
+   ],
+   "files": [
+    "Bơm trục đứng CDLF Aquaris.pdf",
+    "Bơm trục đứng Perotac CDLF.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "7",
+   "where": "Bảng hiệu suất CDLF8, dòng CDLF8-12, cột 10 m³/h",
+   "current": "92",
+   "new": "≈97 (như trên)",
+   "basis": "Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 98,
+   "groups": [
+    "G16"
+   ],
+   "files": [
+    "Bơm trục đứng CDLF Aquaris.pdf",
+    "Bơm trục đứng Perotac CDLF.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "11",
+   "where": "Bảng hiệu suất CDLF32 – tên model",
+   "current": "16 dòng đầu ghi theo số tầng (32-8-2, 32-8) nhưng từ dòng 17 ghi ×10 (\"32-90-2\" … \"32-160\")",
+   "new": "32-9-2 … 32-16 như bảng Size",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 99,
+   "groups": [
+    "G16"
+   ],
+   "files": [
+    "Bơm trục đứng CDLF Aquaris.pdf",
+    "Bơm trục đứng Perotac CDLF.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "2",
+   "where": "Bảng Max. Working pressure",
+   "current": "Ký hiệu \"3(*)\" nhưng chú thích \"*: For curve 4\", \"**: For curve 3\"",
+   "new": "Sửa chú thích cho khớp ký hiệu",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 100,
+   "groups": [
+    "G16"
+   ],
+   "files": [
+    "Bơm trục đứng CDLF Aquaris.pdf",
+    "Bơm trục đứng Perotac CDLF.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "2–3",
+   "where": "Chính tả",
+   "current": "\"parallcl\", \"shown bellow\", \"intergrate impeller\", \"flow is effected\", \"pres-sure-resistant\", \"CDLF is a kind of multinational products\"",
+   "new": "parallel, below, integral impeller, affected, pressure-resistant, viết lại câu",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 101,
+   "groups": [
+    "G16"
+   ],
+   "files": [
+    "Bơm trục đứng CDLF Aquaris.pdf",
+    "Bơm trục đứng Perotac CDLF.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "1",
+   "where": "Biểu đồ phạm vi / bảng",
+   "current": "Nhãn CDL2…CDL42 (thiếu F); \"Dn25/Dn32/Dn40\" lẫn với \"DN50\"",
+   "new": "CDLF2…CDLF42; DN25…",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 102,
+   "groups": [
+    "G17"
+   ],
+   "files": [
+    "Inline IRG Perotac.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "1",
+   "where": "Bảng 2900 v/p, dòng 50-250(I)",
+   "current": "1.5 kW / 2 HP cho 25 m³/h × 80 m (biến thể A, B đã 11 kW)",
+   "new": "15 kW / 20 HP",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 103,
+   "groups": [
+    "G17"
+   ],
+   "files": [
+    "Inline IRG Perotac.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "1",
+   "where": "Bảng 2900 v/p, dòng 65-100(I) và 80-100",
+   "current": "Cột áp 125 m (bơm cánh 100, 3 kW)",
+   "new": "12.5 m (mọi model cánh 100 khác đều 12.5 m; biến thể A = 10 m)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 104,
+   "groups": [
+    "G17"
+   ],
+   "files": [
+    "Inline IRG Perotac.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "1",
+   "where": "Mô tả",
+   "current": "\"Availble equipped with explosion-proof motors\"",
+   "new": "Available with explosion-proof motors",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 105,
+   "groups": [
+    "G12"
+   ],
+   "files": [
+    "3M Aquaris.pdf",
+    "3M Perotac.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "1",
+   "where": "Tiêu đề",
+   "current": "\"LÍMITES UTILIZACIóN/UTILIS ATION LIMITES\"; \"CóDIGO M ODELO\"",
+   "new": "LÍMITES DE UTILIZACIÓN / LIMITES D'UTILISATION; CÓDIGO MODELO",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 106,
+   "groups": [
+    "G12"
+   ],
+   "files": [
+    "3M Aquaris.pdf",
+    "3M Perotac.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "2",
+   "where": "Tiêu đề bảng vật liệu",
+   "current": "\"DESCRIPCIóN DE MA TERIAL\"",
+   "new": "DESCRIPCIÓN DE MATERIAL",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 107,
+   "groups": [
+    "G12"
+   ],
+   "files": [
+    "3M Aquaris.pdf",
+    "3M Perotac.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "1",
+   "where": "Chữ",
+   "current": "\"Rated power(kw)\", \"kw\"; \"T amaño\"; \"inox304\"; hàng 3M 65-200/150 không có dấu \"-\" ở ô trống",
+   "new": "kW; Tamaño; inox 304; thêm \"-\"",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 108,
+   "groups": [
+    "G13"
+   ],
+   "files": [
+    "Aquaris truc ngang CM.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "1",
+   "where": "Đoạn tiếng Anh",
+   "current": "\"temperatures not higher thaCM 80°C\" (lỗi thay chữ N→CM)",
+   "new": "than 80°C",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 109,
+   "groups": [
+    "G13"
+   ],
+   "files": [
+    "Aquaris truc ngang CM.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "1",
+   "where": "Đoạn tiếng Ý/Pháp",
+   "current": "Chữ đè lên nhau: \"supporto in ghisa G20\", \"support en fonte G20\"",
+   "new": "Tách chữ",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 110,
+   "groups": [
+    "G13"
+   ],
+   "files": [
+    "Aquaris truc ngang CM.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "4",
+   "where": "Ô tiêu đề biểu đồ",
+   "current": "\"N\" (tên dòng gốc)",
+   "new": "CM",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 111,
+   "groups": [
+    "G13"
+   ],
+   "files": [
+    "Aquaris truc ngang CM.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "4",
+   "where": "Bảng linh kiện",
+   "current": "\"Girante - Impeller (N 32/200 A-B - N 40 - N 50 - N 65 - N 80)\", \"Piedino - Foot (N 40-160 A B - N 50-125 A B)\"",
+   "new": "Đổi \"N\" → \"CM\" theo tên mới, bỏ A/B (vd \"N 32/160 A-B\" → \"CM 32-200/3 – /4\")",
+   "basis": "Anh Trung chốt 02/10 (đổi tên CM)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 112,
+   "groups": [
+    "G13"
+   ],
+   "files": [
+    "Aquaris truc ngang CM.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "4",
+   "where": "Bảng linh kiện",
+   "current": "Số 46 dùng cho 2 chi tiết (Piedino Plastica / Piedino FE)",
+   "new": "Giữ số 46 cho cả 2 chân đế, ghi rõ: chân nhựa cho CM 40-160 và CM 50-125, chân sắt cho các model khác",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "GIU_NGUYEN"
+  },
+  {
+   "id": 113,
+   "groups": [
+    "G13"
+   ],
+   "files": [
+    "Aquaris truc ngang CM.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "2",
+   "where": "Bảng kích thước",
+   "current": "T = \"724,50\" (các ô khác số nguyên)",
+   "new": "724.5",
+   "basis": "Quy tắc chung (anh chốt: áp tất cả catalogue)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 114,
+   "groups": [
+    "G15"
+   ],
+   "files": [
+    "CDX Perotac.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "4",
+   "where": "Bảng thông số, dòng CDX90/10",
+   "current": "Dòng điện 380V \"18\"",
+   "new": "1.8",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 115,
+   "groups": [
+    "G15"
+   ],
+   "files": [
+    "CDX Perotac.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "5",
+   "where": "Bảng thông số + bảng kích thước",
+   "current": "\"CDX200/185\" lặp 2 hàng với khối lượng/kiện khác nhau (21.3 kg 420x260x295 896 / 20.5 kg 410X260X295 922)",
+   "new": "Hàng thứ 2 đổi tên thành CDX200/185-B (cùng kiểu CDX200/150-B)",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 116,
+   "groups": [
+    "G15"
+   ],
+   "files": [
+    "CDX Perotac.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "3–5",
+   "where": "Tiêu đề bảng",
+   "current": "\"Techni cal par ameter list\"; \"Reted head\", \"Reted flow\"; \"(Kw)\"",
+   "new": "Technical parameter list; Rated; (kW)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 117,
+   "groups": [
+    "G15"
+   ],
+   "files": [
+    "CDX Perotac.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "2",
+   "where": "Bảng linh kiện",
+   "current": "\"Pump housring component\", \"O-Rring\", \"Flanqe Cover Pad\", \"Spring washar\"",
+   "new": "housing, O-Ring, Flange, washer",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 118,
+   "groups": [
+    "G15"
+   ],
+   "files": [
+    "CDX Perotac.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "4–5",
+   "where": "Biểu đồ",
+   "current": "Đường cong đánh số 1–7 / 1–4 nhưng không chú thích số nào là model nào; trang 5 có 5 model nhưng 4 đường",
+   "new": "Ghi tên model cho từng đường cong (khớp theo cột áp trong bảng); vẽ thêm đường còn thiếu ở trang 5",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 119,
+   "groups": [
+    "G15"
+   ],
+   "files": [
+    "CDX Perotac.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "1–2",
+   "where": "Chữ",
+   "current": "\"steelhorizontal\" dính chữ; tiêu đề \"CDX 90 / 120 /200\" cách không đều",
+   "new": "Tách chữ, căn lại",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 120,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue DWO.xlsx"
+   ],
+   "folder": "Trục ngang",
+   "page": "Sheet1",
+   "where": "Bảng TECHNICAL DATA – cột cuối (L14)",
+   "current": "Tiêu đề \"Max Head (m)\" (trùng cột 4) nhưng số liệu là 2900",
+   "new": "Speed (rpm)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 121,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue DWO.xlsx"
+   ],
+   "folder": "Trục ngang",
+   "page": "Sheet1",
+   "where": "Cột HP (D16:D22 = kW/0.75, định dạng 0.0)",
+   "current": "Hiện 2.9 (2,2 kW), 4.9 (3,7 kW), 6.7 (5 kW)",
+   "new": "Ghi giá trị chuẩn: 2,2 kW = 3 HP…",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 122,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue DWO.xlsx"
+   ],
+   "folder": "Trục ngang",
+   "page": "Sheet1",
+   "where": "Ảnh bảng linh kiện",
+   "current": "Vật liệu cánh quạt \"Noiyl\"",
+   "new": "Nylon",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 123,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue DWO.xlsx"
+   ],
+   "folder": "Trục ngang",
+   "page": "Sheet1",
+   "where": "In ấn",
+   "current": "Ảnh bảng linh kiện dài quá khổ, khi in dòng 14 \"Fan cover\" sang trang 2; \"(kw)\", \"(m3/h)\"",
+   "new": "Thu nhỏ ảnh/đặt vùng in; (kW), m³/h",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 124,
+   "groups": [
+    "G14"
+   ],
+   "files": [
+    "bơm trục ngnag perotac model CM.pdf",
+    "bơm trục ngnag redpump model CM_300dpi_75%.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "1",
+   "where": "Ô chú thích thiết kế",
+   "current": "\"Original design by Aquaris (Patent no.201530478502.0)\", \"Diseño original de Aquaris\", \"Design original par Aquaris\" – catalogue Perotac/Redpump còn tên Aquaris",
+   "new": "Bỏ dòng này (cả 3 thứ tiếng)",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 125,
+   "groups": [
+    "G14"
+   ],
+   "files": [
+    "bơm trục ngnag perotac model CM.pdf",
+    "bơm trục ngnag redpump model CM_300dpi_75%.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "2",
+   "where": "Bảng thông số",
+   "current": "\"CM 32-250/5.5\" và \"CM 32-250/7.5\" xuất hiện 2 lần với số liệu khác nhau",
+   "new": "Xoá 2 dòng lặp (cột áp 79,5 m và 95 m, cao hơn cả loại 9,2 kW cùng mã)",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 126,
+   "groups": [
+    "G14"
+   ],
+   "files": [
+    "bơm trục ngnag perotac model CM.pdf",
+    "bơm trục ngnag redpump model CM_300dpi_75%.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "2",
+   "where": "Bảng thông số",
+   "current": "\"CM 100-160/220\" (22 kW)",
+   "new": "CM 100-160/22",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 127,
+   "groups": [
+    "G14"
+   ],
+   "files": [
+    "bơm trục ngnag perotac model CM.pdf",
+    "bơm trục ngnag redpump model CM_300dpi_75%.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "2",
+   "where": "Chân trang",
+   "current": "\"Performance curve in page 111-129 / 130-141\" – catalogue chỉ 2 trang",
+   "new": "Bỏ dòng tham chiếu",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 128,
+   "groups": [
+    "G14"
+   ],
+   "files": [
+    "bơm trục ngnag perotac model CM.pdf",
+    "bơm trục ngnag redpump model CM_300dpi_75%.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "1–2",
+   "where": "Chữ",
+   "current": "\"CM also available / también disponible / aussi disponible\" bỏ lửng; \"Rated power(kw)\"; \"disenadas\"",
+   "new": "Bỏ câu bỏ dở; (kW); diseñadas",
+   "basis": "Em tự quyết theo anh cho phép (số đồng bộ, hợp lý)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 129,
+   "groups": [
+    "G14"
+   ],
+   "files": [
+    "bơm trục ngnag perotac model CM.pdf",
+    "bơm trục ngnag redpump model CM_300dpi_75%.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "tên file",
+   "where": "Tên file",
+   "current": "\"ngnag\"",
+   "new": "Đổi tên file \"ngnag\" → \"ngang\" (bản Perotac và Redpump)",
+   "basis": "Đề xuất trong danh sách lỗi – anh đồng ý (câu 28)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 130,
+   "groups": [
+    "G03"
+   ],
+   "files": [
+    "Aquaris bơm giếng SA 1_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "5",
+   "where": "Bảng 4SA4, hàng 4SA4/40, cột 6.0 m³/h",
+   "current": "98",
+   "new": "89 (theo tỉ lệ tầng – sửa cho đồng bộ vì Aquaris SP nay sửa các ô lệch)",
+   "basis": "Em đề xuất theo chốt mới của anh (trước NV chọn để nguyên)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 131,
+   "groups": [
+    "G04"
+   ],
+   "files": [
+    "Perotac bơm giếng SA_compressed.pdf",
+    "Redpump gieng SL_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "4–8",
+   "where": "Bảng thông số bơm 4\", cột kW / HP (14 model mỗi file)",
+   "current": "5 kW / 7 HP; 7 kW / 10 HP",
+   "new": "5.5 kW / 7.5 HP; 7.5 kW / 10 HP",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 132,
+   "groups": [
+    "G04",
+    "G05"
+   ],
+   "files": [
+    "Perotac bơm giếng SA_compressed.pdf",
+    "Redpump gieng SL_compressed.pdf",
+    "Perotac bơm giếng SP_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "SA, SL: 1, 2, 4, 10; SP: 1, 4, 9, 11",
+   "where": "Mục \"Warranty\"",
+   "current": "SA, SL: \"1 years\"; SP: \"2 years\"",
+   "new": "Warranty: 1 year (Perotac, Redpump bảo hành 1 năm)",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 133,
+   "groups": [
+    "G05"
+   ],
+   "files": [
+    "Perotac bơm giếng SP_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "7",
+   "where": "Bảng 6SP60, hàng 6SP60-20, 2 cột lưu lượng cuối",
+   "current": "110 / 80",
+   "new": "103 / 72 (theo tỉ lệ tầng – sửa cho đồng bộ)",
+   "basis": "Em đề xuất theo chốt mới của anh (trước NV chọn để yên)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 134,
+   "groups": [
+    "G05"
+   ],
+   "files": [
+    "Perotac bơm giếng SP_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "8",
+   "where": "Bảng khối lượng 6SP46",
+   "current": "38.4 – 40.6 – 42.8 – 47.2",
+   "new": "Giữ nguyên",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "GIU_NGUYEN"
+  },
+  {
+   "id": 135,
+   "groups": [
+    "G05"
+   ],
+   "files": [
+    "Perotac bơm giếng SP_compressed.pdf"
+   ],
+   "folder": "Giếng",
+   "page": "1, 4, 9, 11",
+   "where": "Bảng vật liệu – Shaft, Shaft coupling",
+   "current": "Trục AISI 431 / Khớp nối AISI 304 (trang 9 có thêm ②AISI 316)",
+   "new": "AISI 316 SS cho cả 2 hàng",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 136,
+   "groups": [
+    "G06",
+    "G07"
+   ],
+   "files": [
+    "Aquaris FS_300dpi_75%.pdf",
+    "Catalog bơm nước thải Aquaris FS.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "Cả 2 file",
+   "where": "2 catalogue cùng tên FS",
+   "current": "2 dòng bơm khác nhau",
+   "new": "Giữ cả 2, không đổi",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "GIU_NGUYEN"
+  },
+  {
+   "id": 137,
+   "groups": [
+    "G07"
+   ],
+   "files": [
+    "Catalog bơm nước thải Aquaris FS.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1",
+   "where": "Model FS 300/80 – bảng TECHNICAL DATA và bảng kích thước",
+   "current": "Cửa xả 50; ren G 2\"",
+   "new": "Cửa xả 80; ren G 3\"",
+   "basis": "NV trả lời (file câu hỏi 02/10) + Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 138,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác Aquaris WC.pdf",
+    "Catalog cắt rác perotac.pdf",
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "5",
+   "where": "Bảng 150WC, hàng 150WC200-20-18.5, cột 120 m³/h",
+   "current": "27",
+   "new": "Số đo trên biểu đồ cùng trang (≈29)",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 139,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác Aquaris WC.pdf",
+    "Catalog cắt rác perotac.pdf",
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1–8",
+   "where": "Dòng \"Speed\" (tốc độ) ở phần thông số chung",
+   "current": "Trang 6–8: 1450 (Redpump trang 7–8: 980); trang 1–5: không có",
+   "new": "Trang 6–8 (200WC–300WC): \"Speed 1450 r.p.m\"; trang 1–5 (50WC–150WC): thêm dòng \"Speed 2900 r.p.m\"",
+   "basis": "NV trả lời (file câu hỏi 02/10) + Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 140,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "8",
+   "where": "Bảng 300WC, model lớn nhất",
+   "current": "300WC950-20-90, 90 kW / 120 HP",
+   "new": "300WC950-20-95, 95 kW / 130 HP (giống Aquaris, Perotac)",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 141,
+   "groups": [
+    "G08"
+   ],
+   "files": [
+    "Catalog cắt rác Aquaris WC.pdf",
+    "Catalog cắt rác perotac.pdf",
+    "Catalog cắt rác redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "1–8",
+   "where": "Dòng \"WARRANTY\"",
+   "current": "1 years",
+   "new": "Aquaris: 2 years; Perotac, Redpump: 1 year",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 142,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue perotac.xlsx"
+   ],
+   "folder": "Nước thải",
+   "page": "Sheet1, ô A11",
+   "where": "Warranty",
+   "current": "Warranty: 1 years",
+   "new": "Warranty: 1 year",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 143,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue perotac.xlsx"
+   ],
+   "folder": "Nước thải",
+   "page": "Sheet1, dòng 27 (C27, D27)",
+   "where": "SS-450 / SSM-450F",
+   "current": "0.55 kW – 0.8 HP",
+   "new": "0.45 kW – 0.6 HP",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 144,
+   "groups": [
+    "G09"
+   ],
+   "files": [
+    "KTZ - LH Perotac.pdf",
+    "KTZ - LH Redpump.pdf"
+   ],
+   "folder": "Nước thải",
+   "page": "6",
+   "where": "Bảng kích thước LH8110",
+   "current": "H 1687, H1 1282",
+   "new": "Giữ nguyên",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "GIU_NGUYEN"
+  },
+  {
+   "id": 145,
+   "groups": [
+    "G10"
+   ],
+   "files": [
+    "May thoi khi Perotac_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "19",
+   "where": "Bảng kích thước GB-1100, GB-1500, cột L1",
+   "current": "30",
+   "new": "Giữ nguyên",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "GIU_NGUYEN"
+  },
+  {
+   "id": 146,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "5–6",
+   "where": "Bảng tra RL theo vòng quay",
+   "current": "Một số ô ngược quy luật",
+   "new": "Giữ nguyên",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "GIU_NGUYEN"
+  },
+  {
+   "id": 147,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "14",
+   "where": "Bảng DSS, DSS125 cột D",
+   "current": "15",
+   "new": "Giữ nguyên",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "GIU_NGUYEN"
+  },
+  {
+   "id": 148,
+   "groups": [
+    "G11"
+   ],
+   "files": [
+    "Perotac Root_300dpi_75%.pdf"
+   ],
+   "folder": "Thổi khí",
+   "page": "1",
+   "where": "Logo chứng nhận",
+   "current": "ISO 9001 BSMI, CNS12681, CE",
+   "new": "Giữ",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "GIU_NGUYEN"
+  },
+  {
+   "id": 149,
+   "groups": [
+    "G16"
+   ],
+   "files": [
+    "Bơm trục đứng Perotac CDLF.pdf",
+    "Bơm trục đứng CDLF Aquaris.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "3 (bảng vật liệu)",
+   "where": "Dòng \"Base plate\" (đế bơm)",
+   "current": "Cast iron ASTM25B (gang)",
+   "new": "Stainless steel AISI304 (inox 304) – cả 2 hãng",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 150,
+   "groups": [
+    "G16"
+   ],
+   "files": [
+    "Bơm trục đứng Perotac CDLF.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "1 (bìa)",
+   "where": "Ảnh bìa – bơm đế gang ngoài cùng bên phải",
+   "current": "Bơm đế gang màu đen",
+   "new": "Xoá bơm đế gang, vẽ lại nền; đặt bản sao bơm ngoài cùng bên trái vào đúng chỗ (giữ cỡ, chân ngang mặt đất)",
+   "basis": "NV trả lời (file câu hỏi 02/10) + Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 151,
+   "groups": [
+    "G16"
+   ],
+   "files": [
+    "Bơm trục đứng CDLF Aquaris.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "1 (bìa)",
+   "where": "Ảnh bìa",
+   "current": "Giống hệt ảnh Perotac",
+   "new": "Lật ngang ảnh, xoá bơm đế gang, đặt bản sao bơm cao ở giữa vào chỗ đó (để khác bản Perotac)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 152,
+   "groups": [
+    "G17"
+   ],
+   "files": [
+    "Inline IRG Perotac.pdf"
+   ],
+   "folder": "Trục đứng",
+   "page": "3",
+   "where": "Bảng 1450 v/p, 300-400/4 và 300-400A/4",
+   "current": "110 kW",
+   "new": "Giữ nguyên",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "GIU_NGUYEN"
+  },
+  {
+   "id": 153,
+   "groups": [
+    "G13"
+   ],
+   "files": [
+    "Aquaris truc ngang CM.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "2",
+   "where": "Bảng đóng gói CM 80-160 B, CM 80-160 F",
+   "current": "810x530x360; 660x530x350",
+   "new": "Giữ kích thước; chỉ đổi tên model (xem sheet \"Tên CM mới\")",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "GIU_NGUYEN"
+  },
+  {
+   "id": 154,
+   "groups": [
+    "G13"
+   ],
+   "files": [
+    "Aquaris truc ngang CM.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "1, 2, 3, 4",
+   "where": "Tên model ở mọi bảng, phần mô tả 3 thứ tiếng, bảng linh kiện",
+   "current": "CM 32-160 B … CM 80-200 A (36 model)",
+   "new": "Tên mới dạng \"CM cỡ/công suất kW\" (xem sheet \"Tên CM mới\"); 9,5 kW → 9.2; trang 1 bỏ hết A, B, C",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 155,
+   "groups": [
+    "G13"
+   ],
+   "files": [
+    "Aquaris truc ngang CM.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "1",
+   "where": "Sơ đồ giải thích ký hiệu model",
+   "current": "CM 80 160 B (B = loại cánh)",
+   "new": "Bỏ chữ B và chú thích của nó, thay bằng công suất (kW)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 156,
+   "groups": [
+    "G13"
+   ],
+   "files": [
+    "Aquaris truc ngang CM.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "1–4",
+   "where": "Dấu thập phân (khoảng 350 số)",
+   "current": "Dấu phẩy (43,5)",
+   "new": "Dấu chấm (43.5)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 157,
+   "groups": [
+    "G14"
+   ],
+   "files": [
+    "bơm trục ngnag perotac model CM.pdf",
+    "bơm trục ngnag redpump model CM_300dpi_75%.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "2",
+   "where": "Tên model có \".0\"",
+   "current": "CM 32-160/3.0, CM 32-200/4.0 …",
+   "new": "CM 32-160/3, CM 32-200/4 … (cùng kiểu Aquaris CM)",
+   "basis": "Em đề xuất cho đồng bộ cách ghi anh chốt \"/4\"",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 158,
+   "groups": [
+    "G14"
+   ],
+   "files": [
+    "bơm trục ngnag redpump model CM_300dpi_75%.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "Cả file",
+   "where": "File làm việc",
+   "current": "—",
+   "new": "Sửa trực tiếp trong file này (anh xác nhận không có file gốc khác)",
+   "basis": "Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 159,
+   "groups": [
+    "G15"
+   ],
+   "files": [
+    "CDX Perotac.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "1",
+   "where": "Phần giải thích ký hiệu model",
+   "current": "Số đầu = Rated flow, số cuối = Rated Power",
+   "new": "Xoá cả phần này",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 160,
+   "groups": [
+    "G15"
+   ],
+   "files": [
+    "CDX Perotac.pdf"
+   ],
+   "folder": "Trục ngang",
+   "page": "3–5",
+   "where": "Tên model có số 0 ở đầu",
+   "current": "CDX90/05",
+   "new": "CDX90/5",
+   "basis": "Quy tắc chung (anh chốt: áp tất cả catalogue)",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 161,
+   "groups": [
+    "G18"
+   ],
+   "files": [
+    "Catalogue DWO.xlsx"
+   ],
+   "folder": "Trục ngang",
+   "page": "Sheet1, dòng 21–22",
+   "where": "DWO400, DWO500 – cột kW",
+   "current": "3.7 kW; 5 kW",
+   "new": "DWO400 = 3 kW (4 HP); DWO500 = 3.7 kW (5 HP)",
+   "basis": "NV trả lời (file câu hỏi 02/10) + Anh Trung chốt 02/10",
+   "status": "CAN_SUA"
+  },
+  {
+   "id": 162,
+   "groups": [
+    "G04",
+    "G08",
+    "G09",
+    "G14"
+   ],
+   "files": [
+    "Redpump gieng SL_compressed.pdf",
+    "Catalog cắt rác redpump.pdf",
+    "KTZ - LH Redpump.pdf",
+    "bơm trục ngnag redpump model CM_300dpi_75%.pdf"
+   ],
+   "folder": "Giếng, Nước thải, Trục ngang",
+   "page": "Logo",
+   "where": "Logo Redpump",
+   "current": "Italy Standard",
+   "new": "Giữ nguyên",
+   "basis": "NV trả lời (file câu hỏi 02/10)",
+   "status": "GIU_NGUYEN"
+  }
+ ]
+}

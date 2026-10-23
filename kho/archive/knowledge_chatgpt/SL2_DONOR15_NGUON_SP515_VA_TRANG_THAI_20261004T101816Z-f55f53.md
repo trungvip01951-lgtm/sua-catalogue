@@ -1,0 +1,15 @@
+# Mốc tiến độ đã báo anh:135/149 việc gốc
+
+SL3SL2 mẫu1:8 đường/16 lớp bút/80 mốc và16 đầu/cuối đạt kiểm toán độc lập;7 nhãn đọc được,nhãn15 nhìn16 còn CHƯA ĐẠT nên0PDF. Đã tìm15 nguyênRGB cùngcatalogue SL4SL2,42x12 ghép13x10 khôngđổi cỡ/màu,prefix/baseline giữ;ROOT mở3ảnh tĩnh vàđọc nguồn thật,129 điểmđổi,CHƯA là mẫu2/PDF. Native862233/bgmask/7nhãn/CTM phải giữ khi mẫu2;ICC nén khác nguồn và105→106alias là chẩnđoán tĩnh cũ,khôngnới kiểmbảnhiện hành. SP6SP18 nguồn21hàng/189số,/53Q12đúng515 (516 là đọcJSONcũ);21nhánh xácminh2neo cùngmực,phươngán toán189 đạt riêng,phông/nền còn đang chuẩn bị. 25nguồn+25bản chính giữ,SL8cd/SPed803;135/149việcgốc giữ.
+
+Nguồn15 chỉ chuẩn bị một payload chữ; không lấy nguồn bitmap mơ hồ làm nhãn đã đạt. Chưa cho chạy mẫu2. SP18 pure21/189 và21owner nguồn không là nghiệm thu đường thật. ToànSL/SP/CDX và bản inExcel còn công việc. ROOT+3tác nhân đang làm theo một người ghi một tệp.
+
+Hồ sơ ROOT: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G04\ROOT SL2 DONOR15 STATIC SOURCE SP18 PROGRESS NO PDF 20261004T101816Z-f55f53\01 ROOT SOURCE SUFFIX15 ARRAY CTM NO RAM ACCEPTANCE.json
+
+- SL2_M1_actual: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G04\SL3SL2 ONE CATFIX RAM M1 SOURCE8 FONT FRACTION NO PDF 20261004T095541Z-17c407\01 ACTUAL ONE CATFIX 3SL2 RAM M1 SOURCE80 FONT8 FRACTION GUARDS.json; SHA256 1bb1c732d2c790b45ae4549842be0693fb9ed61394196ecd5ab54fad28fab8da
+- SL2_M1_numeric80_independent: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G04\G03 SL3SL2 ACTUAL16 SOURCE80 FONT8 FIVE DIRECT INDEPENDENT 20261004T100259Z-7df94c\01 ACTUAL16 NATIVE80 FONT8 FIVEGRAPHICS INDEPENDENT.json; SHA256 f59954225320ca4bdbdf665662ae3c607dae2dd4887eb38df33efea966b79cb1
+- SP18_source515: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G05\G03 SP18 SOURCE53 Q12 LITERAL515 INDEPENDENT CLOSURE 20261004T095435Z-a35320\01 SOURCE53 Q12 TRUE515 RAW EXACT INDEPENDENT.json; SHA256 7d3e67a2eb46f10d1950102c1fbb174070c13f491eaa6079757c5f8c7a31caeb
+- SP18_source21owners: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G05\G03 SP18 SOURCE21 TWOANCHOR Q200300 OWNER CLOSED 20261004T101046Z-1d8e58\01 SOURCE21 SAMEINK Q12Q18 MODEL OWNERS CLOSED.json; SHA256 915bc802d0af7fecc932cd6caab5587fc92d5806b40bd189b9e68afe6258088f
+- SP18_pure189: C:\Users\H2\Desktop\Catalog Sua\BẢN MỚI 03-10-2026 (ChatGPT)\_BAO CAO\G05\G03 SP18 PURE21 FRACTION189 FIRSTLAST42 INDEPENDENT 20261004T101324Z-ad699a\01 PURE21 QH FRACTION189 FIRSTLAST42 NO AUTHOR FIT.json; SHA256 6c5e898b77fc385072572b7bcfadac2267e22a25ee839b8d99720d64c33708ea
+
+Kinh nghiệm: cùngpixel/cùngCTM giữ cỡ nguồn nhưng số đo threshold không chứng cỡ phông;giữ JPEGphase và phải xem mẫu thực. Nhãn15 cần hai chữ nguyênRGB15,cùngcatalogue;giữ prefix/biên cũ và80toán chỉ reuse khi native/các CTM literal giữ. Dữ liệuJSON515/516 phải đọc ảnh bảng thật trước sửa;đúngnguồn thì0ôPDFđổi. Sourceproof/puremath không thay kiểm PDF đãlưu.

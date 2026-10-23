@@ -1,0 +1,2984 @@
+[
+  {
+    "model": "6SP36-2",
+    "Q": 0.0,
+    "H_table": 27,
+    "H_curve_actual_pdf": 26.999985544305098,
+    "error_percent": 5.353961074976926e-05
+  },
+  {
+    "model": "6SP36-2",
+    "Q": 6.0,
+    "H_table": 26,
+    "H_curve_actual_pdf": 26.00001284950658,
+    "error_percent": 4.94211791490784e-05
+  },
+  {
+    "model": "6SP36-2",
+    "Q": 12.0,
+    "H_table": 25,
+    "H_curve_actual_pdf": 24.99996787623355,
+    "error_percent": 0.00012849506579470926
+  },
+  {
+    "model": "6SP36-2",
+    "Q": 18.0,
+    "H_table": 24,
+    "H_curve_actual_pdf": 23.999995261248493,
+    "error_percent": 1.974479794479104e-05
+  },
+  {
+    "model": "6SP36-2",
+    "Q": 24.0,
+    "H_table": 23,
+    "H_curve_actual_pdf": 23.000022486636514,
+    "error_percent": 9.776798484225586e-05
+  },
+  {
+    "model": "6SP36-2",
+    "Q": 30.0,
+    "H_table": 21,
+    "H_curve_actual_pdf": 21.000004818564967,
+    "error_percent": 2.2945547464186823e-05
+  },
+  {
+    "model": "6SP36-2",
+    "Q": 36.0,
+    "H_table": 19,
+    "H_curve_actual_pdf": 18.999987649225996,
+    "error_percent": 6.500407370274866e-05
+  },
+  {
+    "model": "6SP36-2",
+    "Q": 42.0,
+    "H_table": 16,
+    "H_curve_actual_pdf": 15.999997685626465,
+    "error_percent": 1.4464834596772391e-05
+  },
+  {
+    "model": "6SP36-2",
+    "Q": 48.0,
+    "H_table": 14,
+    "H_curve_actual_pdf": 13.999979119551808,
+    "error_percent": 0.00014914605851298494
+  },
+  {
+    "model": "6SP36-2",
+    "Q": 54.0,
+    "H_table": 10,
+    "H_curve_actual_pdf": 10.000016061883224,
+    "error_percent": 0.00016061883224338658
+  },
+  {
+    "model": "6SP36-3",
+    "Q": 0.0,
+    "H_table": 41,
+    "H_curve_actual_pdf": 40.99996466385691,
+    "error_percent": 8.618571485970545e-05
+  },
+  {
+    "model": "6SP36-3",
+    "Q": 6.0,
+    "H_table": 39,
+    "H_curve_actual_pdf": 39.95957515405953,
+    "error_percent": 2.4604491129731505
+  },
+  {
+    "model": "6SP36-3",
+    "Q": 12.0,
+    "H_table": 38,
+    "H_curve_actual_pdf": 38.457059705449105,
+    "error_percent": 1.2027886985502751
+  },
+  {
+    "model": "6SP36-3",
+    "Q": 18.0,
+    "H_table": 36,
+    "H_curve_actual_pdf": 36.49241949399525,
+    "error_percent": 1.3678319277645834
+  },
+  {
+    "model": "6SP36-3",
+    "Q": 24.0,
+    "H_table": 34,
+    "H_curve_actual_pdf": 34.06565568854655,
+    "error_percent": 0.19310496631337978
+  },
+  {
+    "model": "6SP36-3",
+    "Q": 30.0,
+    "H_table": 31,
+    "H_curve_actual_pdf": 31.176769450830573,
+    "error_percent": 0.5702240349373324
+  },
+  {
+    "model": "6SP36-3",
+    "Q": 36.0,
+    "H_table": 28,
+    "H_curve_actual_pdf": 27.825761935454047,
+    "error_percent": 0.6222788019498334
+  },
+  {
+    "model": "6SP36-3",
+    "Q": 42.0,
+    "H_table": 25,
+    "H_curve_actual_pdf": 24.012634289902735,
+    "error_percent": 3.9494628403890597
+  },
+  {
+    "model": "6SP36-3",
+    "Q": 48.0,
+    "H_table": 20,
+    "H_curve_actual_pdf": 19.737387654541603,
+    "error_percent": 1.3130617272919842
+  },
+  {
+    "model": "6SP36-3",
+    "Q": 54.0,
+    "H_table": 15,
+    "H_curve_actual_pdf": 15.000024092824836,
+    "error_percent": 0.0001606188322374654
+  },
+  {
+    "model": "6SP36-4",
+    "Q": 0.0,
+    "H_table": 54,
+    "H_curve_actual_pdf": 53.999971088610195,
+    "error_percent": 5.353961074976926e-05
+  },
+  {
+    "model": "6SP36-4",
+    "Q": 6.0,
+    "H_table": 53,
+    "H_curve_actual_pdf": 52.82826488329702,
+    "error_percent": 0.3240285220811005
+  },
+  {
+    "model": "6SP36-4",
+    "Q": 12.0,
+    "H_table": 51,
+    "H_curve_actual_pdf": 51.0050411352108,
+    "error_percent": 0.009884578844711469
+  },
+  {
+    "model": "6SP36-4",
+    "Q": 18.0,
+    "H_table": 48,
+    "H_curve_actual_pdf": 48.530300420917946,
+    "error_percent": 1.1047925435790549
+  },
+  {
+    "model": "6SP36-4",
+    "Q": 24.0,
+    "H_table": 45,
+    "H_curve_actual_pdf": 45.404043306945354,
+    "error_percent": 0.8978740154341204
+  },
+  {
+    "model": "6SP36-4",
+    "Q": 30.0,
+    "H_table": 42,
+    "H_curve_actual_pdf": 41.62627034978047,
+    "error_percent": 0.889832500522692
+  },
+  {
+    "model": "6SP36-4",
+    "Q": 36.0,
+    "H_table": 38,
+    "H_curve_actual_pdf": 37.19698209587136,
+    "error_percent": 2.1132050108648355
+  },
+  {
+    "model": "6SP36-4",
+    "Q": 42.0,
+    "H_table": 33,
+    "H_curve_actual_pdf": 32.116179081626626,
+    "error_percent": 2.6782452071920417
+  },
+  {
+    "model": "6SP36-4",
+    "Q": 48.0,
+    "H_table": 27,
+    "H_curve_actual_pdf": 26.383861833415516,
+    "error_percent": 2.281993209572164
+  },
+  {
+    "model": "6SP36-4",
+    "Q": 54.0,
+    "H_table": 20,
+    "H_curve_actual_pdf": 20.00003212376645,
+    "error_percent": 0.00016061883224338658
+  },
+  {
+    "model": "6SP36-5",
+    "Q": 0.0,
+    "H_table": 68,
+    "H_curve_actual_pdf": 68.00002248663651,
+    "error_percent": 3.306858310318549e-05
+  },
+  {
+    "model": "6SP36-5",
+    "Q": 6.0,
+    "H_table": 66,
+    "H_curve_actual_pdf": 65.59927491282869,
+    "error_percent": 0.6071592229868329
+  },
+  {
+    "model": "6SP36-5",
+    "Q": 12.0,
+    "H_table": 63,
+    "H_curve_actual_pdf": 63.017998287585336,
+    "error_percent": 0.0285687104529135
+  },
+  {
+    "model": "6SP36-5",
+    "Q": 18.0,
+    "H_table": 60,
+    "H_curve_actual_pdf": 60.07565677346171,
+    "error_percent": 0.12609462243618216
+  },
+  {
+    "model": "6SP36-5",
+    "Q": 24.0,
+    "H_table": 57,
+    "H_curve_actual_pdf": 56.591714513208075,
+    "error_percent": 0.7162903277051319
+  },
+  {
+    "model": "6SP36-5",
+    "Q": 30.0,
+    "H_table": 52,
+    "H_curve_actual_pdf": 52.385635619867216,
+    "error_percent": 0.7416069612831075
+  },
+  {
+    "model": "6SP36-5",
+    "Q": 36.0,
+    "H_table": 47,
+    "H_curve_actual_pdf": 47.27688416687179,
+    "error_percent": 0.5891152486633794
+  },
+  {
+    "model": "6SP36-5",
+    "Q": 42.0,
+    "H_table": 41,
+    "H_curve_actual_pdf": 41.08492417814185,
+    "error_percent": 0.20713214180938305
+  },
+  {
+    "model": "6SP36-5",
+    "Q": 48.0,
+    "H_table": 34,
+    "H_curve_actual_pdf": 33.629222669099505,
+    "error_percent": 1.0905215614720438
+  },
+  {
+    "model": "6SP36-5",
+    "Q": 54.0,
+    "H_table": 25,
+    "H_curve_actual_pdf": 24.99996787623355,
+    "error_percent": 0.00012849506579470926
+  },
+  {
+    "model": "6SP36-6",
+    "Q": 0.0,
+    "H_table": 81,
+    "H_curve_actual_pdf": 81.0000289113898,
+    "error_percent": 3.5693073833179505e-05
+  },
+  {
+    "model": "6SP36-6",
+    "Q": 6.0,
+    "H_table": 79,
+    "H_curve_actual_pdf": 78.27305851683178,
+    "error_percent": 0.9201790926179979
+  },
+  {
+    "model": "6SP36-6",
+    "Q": 12.0,
+    "H_table": 76,
+    "H_curve_actual_pdf": 75.3228247042879,
+    "error_percent": 0.8910201259369788
+  },
+  {
+    "model": "6SP36-6",
+    "Q": 18.0,
+    "H_table": 73,
+    "H_curve_actual_pdf": 71.926057267419,
+    "error_percent": 1.4711544281931543
+  },
+  {
+    "model": "6SP36-6",
+    "Q": 24.0,
+    "H_table": 68,
+    "H_curve_actual_pdf": 67.85948597539297,
+    "error_percent": 0.20663827148092484
+  },
+  {
+    "model": "6SP36-6",
+    "Q": 30.0,
+    "H_table": 62,
+    "H_curve_actual_pdf": 62.89984056063811,
+    "error_percent": 1.4513557429646955
+  },
+  {
+    "model": "6SP36-6",
+    "Q": 36.0,
+    "H_table": 56,
+    "H_curve_actual_pdf": 56.823850706596566,
+    "error_percent": 1.471161976065297
+  },
+  {
+    "model": "6SP36-6",
+    "Q": 42.0,
+    "H_table": 49,
+    "H_curve_actual_pdf": 49.40824603547773,
+    "error_percent": 0.8331551744443491
+  },
+  {
+    "model": "6SP36-6",
+    "Q": 48.0,
+    "H_table": 41,
+    "H_curve_actual_pdf": 40.429759778474505,
+    "error_percent": 1.3908298085987683
+  },
+  {
+    "model": "6SP36-6",
+    "Q": 54.0,
+    "H_table": 30,
+    "H_curve_actual_pdf": 29.999975907175166,
+    "error_percent": 8.03094161128115e-05
+  },
+  {
+    "model": "6SP36-7",
+    "Q": 0.0,
+    "H_table": 95,
+    "H_curve_actual_pdf": 95.00000803094161,
+    "error_percent": 8.4536227524567e-06
+  },
+  {
+    "model": "6SP36-7",
+    "Q": 6.0,
+    "H_table": 92,
+    "H_curve_actual_pdf": 91.85334914962456,
+    "error_percent": 0.15940309823417056
+  },
+  {
+    "model": "6SP36-7",
+    "Q": 12.0,
+    "H_table": 89,
+    "H_curve_actual_pdf": 88.4393474260521,
+    "error_percent": 0.6299467123010173
+  },
+  {
+    "model": "6SP36-7",
+    "Q": 18.0,
+    "H_table": 85,
+    "H_curve_actual_pdf": 84.49066000330467,
+    "error_percent": 0.5992235255239193
+  },
+  {
+    "model": "6SP36-7",
+    "Q": 24.0,
+    "H_table": 80,
+    "H_curve_actual_pdf": 79.73994399513485,
+    "error_percent": 0.325070006081436
+  },
+  {
+    "model": "6SP36-7",
+    "Q": 30.0,
+    "H_table": 73,
+    "H_curve_actual_pdf": 73.9198564713032,
+    "error_percent": 1.2600773579495967
+  },
+  {
+    "model": "6SP36-7",
+    "Q": 36.0,
+    "H_table": 66,
+    "H_curve_actual_pdf": 66.76305444291424,
+    "error_percent": 1.1561430953246046
+  },
+  {
+    "model": "6SP36-7",
+    "Q": 42.0,
+    "H_table": 58,
+    "H_curve_actual_pdf": 58.002194847752506,
+    "error_percent": 0.0037842202629409997
+  },
+  {
+    "model": "6SP36-7",
+    "Q": 48.0,
+    "H_table": 48,
+    "H_curve_actual_pdf": 47.36993890059622,
+    "error_percent": 1.312627290424547
+  },
+  {
+    "model": "6SP36-7",
+    "Q": 54.0,
+    "H_table": 35,
+    "H_curve_actual_pdf": 34.99998393811678,
+    "error_percent": 4.589109492160658e-05
+  },
+  {
+    "model": "6SP36-8",
+    "Q": 0.0,
+    "H_table": 108,
+    "H_curve_actual_pdf": 108.0000144556949,
+    "error_percent": 1.3384902680863213e-05
+  },
+  {
+    "model": "6SP36-8",
+    "Q": 6.0,
+    "H_table": 105,
+    "H_curve_actual_pdf": 104.49555780635114,
+    "error_percent": 0.48042113680843446
+  },
+  {
+    "model": "6SP36-8",
+    "Q": 12.0,
+    "H_table": 102,
+    "H_curve_actual_pdf": 100.67127714754024,
+    "error_percent": 1.3026694631958455
+  },
+  {
+    "model": "6SP36-8",
+    "Q": 18.0,
+    "H_table": 97,
+    "H_curve_actual_pdf": 96.20734849598094,
+    "error_percent": 0.8171664989887241
+  },
+  {
+    "model": "6SP36-8",
+    "Q": 24.0,
+    "H_table": 91,
+    "H_curve_actual_pdf": 90.78394792076433,
+    "error_percent": 0.2374198672919411
+  },
+  {
+    "model": "6SP36-8",
+    "Q": 30.0,
+    "H_table": 83,
+    "H_curve_actual_pdf": 84.08125156953972,
+    "error_percent": 1.302712734385201
+  },
+  {
+    "model": "6SP36-8",
+    "Q": 36.0,
+    "H_table": 75,
+    "H_curve_actual_pdf": 75.77943569470071,
+    "error_percent": 1.0392475929342786
+  },
+  {
+    "model": "6SP36-8",
+    "Q": 42.0,
+    "H_table": 66,
+    "H_curve_actual_pdf": 65.55867667957118,
+    "error_percent": 0.668671697619427
+  },
+  {
+    "model": "6SP36-8",
+    "Q": 48.0,
+    "H_table": 54,
+    "H_curve_actual_pdf": 53.3390353102474,
+    "error_percent": 1.2240086847270433
+  },
+  {
+    "model": "6SP36-8",
+    "Q": 54.0,
+    "H_table": 40,
+    "H_curve_actual_pdf": 39.99999196905839,
+    "error_percent": 2.0077354019321092e-05
+  },
+  {
+    "model": "6SP36-9",
+    "Q": 0.0,
+    "H_table": 122,
+    "H_curve_actual_pdf": 121.9999935752467,
+    "error_percent": 5.266191225171526e-06
+  },
+  {
+    "model": "6SP36-9",
+    "Q": 6.0,
+    "H_table": 119,
+    "H_curve_actual_pdf": 117.9320314820784,
+    "error_percent": 0.8974525360685709
+  },
+  {
+    "model": "6SP36-9",
+    "Q": 12.0,
+    "H_table": 114,
+    "H_curve_actual_pdf": 113.52323966298817,
+    "error_percent": 0.41821082194019754
+  },
+  {
+    "model": "6SP36-9",
+    "Q": 18.0,
+    "H_table": 109,
+    "H_curve_actual_pdf": 108.43278837335926,
+    "error_percent": 0.5203776391199463
+  },
+  {
+    "model": "6SP36-9",
+    "Q": 24.0,
+    "H_table": 102,
+    "H_curve_actual_pdf": 102.31984783118529,
+    "error_percent": 0.313576305083613
+  },
+  {
+    "model": "6SP36-9",
+    "Q": 30.0,
+    "H_table": 94,
+    "H_curve_actual_pdf": 94.84358819837536,
+    "error_percent": 0.8974342535908059
+  },
+  {
+    "model": "6SP36-9",
+    "Q": 36.0,
+    "H_table": 85,
+    "H_curve_actual_pdf": 85.66317956205937,
+    "error_percent": 0.7802112494816109
+  },
+  {
+    "model": "6SP36-9",
+    "Q": 42.0,
+    "H_table": 74,
+    "H_curve_actual_pdf": 74.43779191589299,
+    "error_percent": 0.5916106971526852
+  },
+  {
+    "model": "6SP36-9",
+    "Q": 48.0,
+    "H_table": 61,
+    "H_curve_actual_pdf": 60.82660072728207,
+    "error_percent": 0.2842611028162785
+  },
+  {
+    "model": "6SP36-9",
+    "Q": 54.0,
+    "H_table": 45,
+    "H_curve_actual_pdf": 45.0,
+    "error_percent": 0.0
+  },
+  {
+    "model": "6SP36-10",
+    "Q": 0.0,
+    "H_table": 135,
+    "H_curve_actual_pdf": 135.0,
+    "error_percent": 0.0
+  },
+  {
+    "model": "6SP36-10",
+    "Q": 6.0,
+    "H_table": 132,
+    "H_curve_actual_pdf": 130.5450571234394,
+    "error_percent": 1.1022294519398546
+  },
+  {
+    "model": "6SP36-10",
+    "Q": 12.0,
+    "H_table": 127,
+    "H_curve_actual_pdf": 125.7111646828271,
+    "error_percent": 1.0148309584038555
+  },
+  {
+    "model": "6SP36-10",
+    "Q": 18.0,
+    "H_table": 121,
+    "H_curve_actual_pdf": 120.11937309332569,
+    "error_percent": 0.7277908319622384
+  },
+  {
+    "model": "6SP36-10",
+    "Q": 24.0,
+    "H_table": 114,
+    "H_curve_actual_pdf": 113.39073272852626,
+    "error_percent": 0.5344449749769653
+  },
+  {
+    "model": "6SP36-10",
+    "Q": 30.0,
+    "H_table": 104,
+    "H_curve_actual_pdf": 105.14629389966277,
+    "error_percent": 1.1022056727526592
+  },
+  {
+    "model": "6SP36-10",
+    "Q": 36.0,
+    "H_table": 94,
+    "H_curve_actual_pdf": 95.0071068348262,
+    "error_percent": 1.0713902498151098
+  },
+  {
+    "model": "6SP36-10",
+    "Q": 42.0,
+    "H_table": 82,
+    "H_curve_actual_pdf": 82.59422165817888,
+    "error_percent": 0.7246605587547332
+  },
+  {
+    "model": "6SP36-10",
+    "Q": 48.0,
+    "H_table": 68,
+    "H_curve_actual_pdf": 67.52869455437911,
+    "error_percent": 0.6930962435601252
+  },
+  {
+    "model": "6SP36-10",
+    "Q": 54.0,
+    "H_table": 50,
+    "H_curve_actual_pdf": 50.00000803094161,
+    "error_percent": 1.6061883215456874e-05
+  },
+  {
+    "model": "6SP36-11",
+    "Q": 0.0,
+    "H_table": 149,
+    "H_curve_actual_pdf": 148.99997911955182,
+    "error_percent": 1.4013723607940053e-05
+  },
+  {
+    "model": "6SP36-11",
+    "Q": 6.0,
+    "H_table": 145,
+    "H_curve_actual_pdf": 143.89668915777898,
+    "error_percent": 0.7609040291179451
+  },
+  {
+    "model": "6SP36-11",
+    "Q": 12.0,
+    "H_table": 140,
+    "H_curve_actual_pdf": 138.3877373682458,
+    "error_percent": 1.1516161655387083
+  },
+  {
+    "model": "6SP36-11",
+    "Q": 18.0,
+    "H_table": 133,
+    "H_curve_actual_pdf": 132.06746867704805,
+    "error_percent": 0.7011513706405603
+  },
+  {
+    "model": "6SP36-11",
+    "Q": 24.0,
+    "H_table": 125,
+    "H_curve_actual_pdf": 124.53022796578021,
+    "error_percent": 0.37581762737582947
+  },
+  {
+    "model": "6SP36-11",
+    "Q": 30.0,
+    "H_table": 114,
+    "H_curve_actual_pdf": 115.37036004928505,
+    "error_percent": 1.2020702186711
+  },
+  {
+    "model": "6SP36-11",
+    "Q": 36.0,
+    "H_table": 103,
+    "H_curve_actual_pdf": 104.18220965340294,
+    "error_percent": 1.1477763625271218
+  },
+  {
+    "model": "6SP36-11",
+    "Q": 42.0,
+    "H_table": 91,
+    "H_curve_actual_pdf": 90.56012139272133,
+    "error_percent": 0.4833830849216176
+  },
+  {
+    "model": "6SP36-11",
+    "Q": 48.0,
+    "H_table": 75,
+    "H_curve_actual_pdf": 74.09844649465461,
+    "error_percent": 1.2020713404605203
+  },
+  {
+    "model": "6SP36-11",
+    "Q": 54.0,
+    "H_table": 55,
+    "H_curve_actual_pdf": 55.00001606188322,
+    "error_percent": 2.9203424041022366e-05
+  },
+  {
+    "model": "6SP36-12",
+    "Q": 0.0,
+    "H_table": 162,
+    "H_curve_actual_pdf": 161.9999855443051,
+    "error_percent": 8.92326845390881e-06
+  },
+  {
+    "model": "6SP36-12",
+    "Q": 6.0,
+    "H_table": 158,
+    "H_curve_actual_pdf": 156.70384885052982,
+    "error_percent": 0.8203488287785929
+  },
+  {
+    "model": "6SP36-12",
+    "Q": 12.0,
+    "H_table": 152,
+    "H_curve_actual_pdf": 150.94919076553904,
+    "error_percent": 0.691321864776945
+  },
+  {
+    "model": "6SP36-12",
+    "Q": 18.0,
+    "H_table": 145,
+    "H_curve_actual_pdf": 144.2774898729668,
+    "error_percent": 0.4982828462297855
+  },
+  {
+    "model": "6SP36-12",
+    "Q": 24.0,
+    "H_table": 136,
+    "H_curve_actual_pdf": 136.2302247061467,
+    "error_percent": 0.16928287216670163
+  },
+  {
+    "model": "6SP36-12",
+    "Q": 30.0,
+    "H_table": 125,
+    "H_curve_actual_pdf": 126.34887372296124,
+    "error_percent": 1.0790989783689953
+  },
+  {
+    "model": "6SP36-12",
+    "Q": 36.0,
+    "H_table": 113,
+    "H_curve_actual_pdf": 114.17491528069172,
+    "error_percent": 1.0397480360103726
+  },
+  {
+    "model": "6SP36-12",
+    "Q": 42.0,
+    "H_table": 99,
+    "H_curve_actual_pdf": 99.24982761086778,
+    "error_percent": 0.2523511220886695
+  },
+  {
+    "model": "6SP36-12",
+    "Q": 48.0,
+    "H_table": 82,
+    "H_curve_actual_pdf": 81.11509624280427,
+    "error_percent": 1.0791509234094265
+  },
+  {
+    "model": "6SP36-12",
+    "Q": 54.0,
+    "H_table": 60,
+    "H_curve_actual_pdf": 60.00002409282484,
+    "error_percent": 4.0154708062326946e-05
+  },
+  {
+    "model": "6SP36-14",
+    "Q": 0.0,
+    "H_table": 189,
+    "H_curve_actual_pdf": 188.99997108861018,
+    "error_percent": 1.5297031650310187e-05
+  },
+  {
+    "model": "6SP36-14",
+    "Q": 6.0,
+    "H_table": 184,
+    "H_curve_actual_pdf": 182.8498734040125,
+    "error_percent": 0.6250688021671202
+  },
+  {
+    "model": "6SP36-14",
+    "Q": 12.0,
+    "H_table": 178,
+    "H_curve_actual_pdf": 176.162652331256,
+    "error_percent": 1.0322177914292145
+  },
+  {
+    "model": "6SP36-14",
+    "Q": 18.0,
+    "H_table": 169,
+    "H_curve_actual_pdf": 168.40118445272012,
+    "error_percent": 0.3543287262011146
+  },
+  {
+    "model": "6SP36-14",
+    "Q": 24.0,
+    "H_table": 159,
+    "H_curve_actual_pdf": 159.02834629186094,
+    "error_percent": 0.017827856516315483
+  },
+  {
+    "model": "6SP36-14",
+    "Q": 30.0,
+    "H_table": 146,
+    "H_curve_actual_pdf": 147.50701428374936,
+    "error_percent": 1.032201564211888
+  },
+  {
+    "model": "6SP36-14",
+    "Q": 36.0,
+    "H_table": 132,
+    "H_curve_actual_pdf": 133.30006474560946,
+    "error_percent": 0.9848975345526222
+  },
+  {
+    "model": "6SP36-14",
+    "Q": 42.0,
+    "H_table": 115,
+    "H_curve_actual_pdf": 115.87037384735673,
+    "error_percent": 0.756846823788462
+  },
+  {
+    "model": "6SP36-14",
+    "Q": 48.0,
+    "H_table": 95,
+    "H_curve_actual_pdf": 94.68082628752056,
+    "error_percent": 0.33597232892572637
+  },
+  {
+    "model": "6SP36-14",
+    "Q": 54.0,
+    "H_table": 70,
+    "H_curve_actual_pdf": 69.99996787623355,
+    "error_percent": 4.589109492160658e-05
+  },
+  {
+    "model": "6SP36-15",
+    "Q": 0.0,
+    "H_table": 203,
+    "H_curve_actual_pdf": 203.0000224866365,
+    "error_percent": 1.1077160842446372e-05
+  },
+  {
+    "model": "6SP36-15",
+    "Q": 6.0,
+    "H_table": 198,
+    "H_curve_actual_pdf": 196.1279752200228,
+    "error_percent": 0.9454670605945504
+  },
+  {
+    "model": "6SP36-15",
+    "Q": 12.0,
+    "H_table": 190,
+    "H_curve_actual_pdf": 188.69768682434264,
+    "error_percent": 0.6854279871880845
+  },
+  {
+    "model": "6SP36-15",
+    "Q": 18.0,
+    "H_table": 181,
+    "H_curve_actual_pdf": 180.1509161399095,
+    "error_percent": 0.46910710502237696
+  },
+  {
+    "model": "6SP36-15",
+    "Q": 24.0,
+    "H_table": 170,
+    "H_curve_actual_pdf": 169.92942194579683,
+    "error_percent": 0.04151650247245149
+  },
+  {
+    "model": "6SP36-15",
+    "Q": 30.0,
+    "H_table": 156,
+    "H_curve_actual_pdf": 157.47496292921798,
+    "error_percent": 0.9454890571910131
+  },
+  {
+    "model": "6SP36-15",
+    "Q": 36.0,
+    "H_table": 141,
+    "H_curve_actual_pdf": 142.22929765490608,
+    "error_percent": 0.8718423084440261
+  },
+  {
+    "model": "6SP36-15",
+    "Q": 42.0,
+    "H_table": 123,
+    "H_curve_actual_pdf": 123.63418453449415,
+    "error_percent": 0.5155971825155717
+  },
+  {
+    "model": "6SP36-15",
+    "Q": 48.0,
+    "H_table": 102,
+    "H_curve_actual_pdf": 101.13139102333471,
+    "error_percent": 0.8515774281032211
+  },
+  {
+    "model": "6SP36-15",
+    "Q": 54.0,
+    "H_table": 75,
+    "H_curve_actual_pdf": 74.99997590717516,
+    "error_percent": 3.2123766459335457e-05
+  },
+  {
+    "model": "6SP36-17",
+    "Q": 0.0,
+    "H_table": 230,
+    "H_curve_actual_pdf": 230.0000080309416,
+    "error_percent": 3.4917137332226758e-06
+  },
+  {
+    "model": "6SP36-17",
+    "Q": 6.0,
+    "H_table": 224,
+    "H_curve_actual_pdf": 222.33360975070124,
+    "error_percent": 0.7439242184369453
+  },
+  {
+    "model": "6SP36-17",
+    "Q": 12.0,
+    "H_table": 216,
+    "H_curve_actual_pdf": 214.0258452934666,
+    "error_percent": 0.9139605122839802
+  },
+  {
+    "model": "6SP36-17",
+    "Q": 18.0,
+    "H_table": 206,
+    "H_curve_actual_pdf": 204.4353416709567,
+    "error_percent": 0.7595428781763647
+  },
+  {
+    "model": "6SP36-17",
+    "Q": 24.0,
+    "H_table": 193,
+    "H_curve_actual_pdf": 192.9207258245311,
+    "error_percent": 0.04107470231549023
+  },
+  {
+    "model": "6SP36-17",
+    "Q": 30.0,
+    "H_table": 177,
+    "H_curve_actual_pdf": 178.84062459000975,
+    "error_percent": 1.039900898310595
+  },
+  {
+    "model": "6SP36-17",
+    "Q": 36.0,
+    "H_table": 160,
+    "H_curve_actual_pdf": 161.5536646624931,
+    "error_percent": 0.9710404140581907
+  },
+  {
+    "model": "6SP36-17",
+    "Q": 42.0,
+    "H_table": 140,
+    "H_curve_actual_pdf": 140.41847256118234,
+    "error_percent": 0.29890897227310076
+  },
+  {
+    "model": "6SP36-17",
+    "Q": 48.0,
+    "H_table": 116,
+    "H_curve_actual_pdf": 114.79368510999177,
+    "error_percent": 1.0399266293174394
+  },
+  {
+    "model": "6SP36-17",
+    "Q": 54.0,
+    "H_table": 85,
+    "H_curve_actual_pdf": 84.99999196905839,
+    "error_percent": 9.448166605686898e-06
+  },
+  {
+    "model": "6SP36-18",
+    "Q": 0.0,
+    "H_table": 243,
+    "H_curve_actual_pdf": 243.0000144556949,
+    "error_percent": 5.948845635939206e-06
+  },
+  {
+    "model": "6SP36-18",
+    "Q": 6.0,
+    "H_table": 237,
+    "H_curve_actual_pdf": 234.97275276681017,
+    "error_percent": 0.8553785794049898
+  },
+  {
+    "model": "6SP36-18",
+    "Q": 12.0,
+    "H_table": 229,
+    "H_curve_actual_pdf": 226.2640128875354,
+    "error_percent": 1.1947541975828007
+  },
+  {
+    "model": "6SP36-18",
+    "Q": 18.0,
+    "H_table": 218,
+    "H_curve_actual_pdf": 216.19232336620775,
+    "error_percent": 0.8292094650423187
+  },
+  {
+    "model": "6SP36-18",
+    "Q": 24.0,
+    "H_table": 205,
+    "H_curve_actual_pdf": 204.07621267640576,
+    "error_percent": 0.4506279627288977
+  },
+  {
+    "model": "6SP36-18",
+    "Q": 30.0,
+    "H_table": 187,
+    "H_curve_actual_pdf": 189.23420917956972,
+    "error_percent": 1.1947642671495813
+  },
+  {
+    "model": "6SP36-18",
+    "Q": 36.0,
+    "H_table": 169,
+    "H_curve_actual_pdf": 170.98484108762253,
+    "error_percent": 1.1744621820251642
+  },
+  {
+    "model": "6SP36-18",
+    "Q": 42.0,
+    "H_table": 148,
+    "H_curve_actual_pdf": 148.64663642559017,
+    "error_percent": 0.4369165037771444
+  },
+  {
+    "model": "6SP36-18",
+    "Q": 48.0,
+    "H_table": 122,
+    "H_curve_actual_pdf": 121.53813412314967,
+    "error_percent": 0.3785785875822338
+  },
+  {
+    "model": "6SP36-18",
+    "Q": 54.0,
+    "H_table": 90,
+    "H_curve_actual_pdf": 90.0,
+    "error_percent": 0.0
+  },
+  {
+    "model": "6SP36-20",
+    "Q": 0.0,
+    "H_table": 270,
+    "H_curve_actual_pdf": 270.0,
+    "error_percent": 0.0
+  },
+  {
+    "model": "6SP36-20",
+    "Q": 6.0,
+    "H_table": 263,
+    "H_curve_actual_pdf": 261.05416798788366,
+    "error_percent": 0.7398600806526012
+  },
+  {
+    "model": "6SP36-20",
+    "Q": 12.0,
+    "H_table": 254,
+    "H_curve_actual_pdf": 251.35316677150738,
+    "error_percent": 1.0420603261781987
+  },
+  {
+    "model": "6SP36-20",
+    "Q": 18.0,
+    "H_table": 242,
+    "H_curve_actual_pdf": 240.1418271051897,
+    "error_percent": 0.7678400391778137
+  },
+  {
+    "model": "6SP36-20",
+    "Q": 24.0,
+    "H_table": 227,
+    "H_curve_actual_pdf": 226.66497966040546,
+    "error_percent": 0.1475860526848175
+  },
+  {
+    "model": "6SP36-20",
+    "Q": 30.0,
+    "H_table": 208,
+    "H_curve_actual_pdf": 210.16745498436455,
+    "error_percent": 1.0420456655598815
+  },
+  {
+    "model": "6SP36-20",
+    "Q": 36.0,
+    "H_table": 188,
+    "H_curve_actual_pdf": 189.89408345858988,
+    "error_percent": 1.0074912013775934
+  },
+  {
+    "model": "6SP36-20",
+    "Q": 42.0,
+    "H_table": 165,
+    "H_curve_actual_pdf": 165.08969525749563,
+    "error_percent": 0.05436076211856633
+  },
+  {
+    "model": "6SP36-20",
+    "Q": 48.0,
+    "H_table": 136,
+    "H_curve_actual_pdf": 134.99913265830594,
+    "error_percent": 0.7359318688926919
+  },
+  {
+    "model": "6SP36-20",
+    "Q": 54.0,
+    "H_table": 100,
+    "H_curve_actual_pdf": 100.00001606188322,
+    "error_percent": 1.6061883215456874e-05
+  },
+  {
+    "model": "6SP36-22",
+    "Q": 0.0,
+    "H_table": 297,
+    "H_curve_actual_pdf": 296.9999855443051,
+    "error_percent": 4.8672373384957145e-06
+  },
+  {
+    "model": "6SP36-22",
+    "Q": 6.0,
+    "H_table": 290,
+    "H_curve_actual_pdf": 287.17757559051495,
+    "error_percent": 0.9732497963741559
+  },
+  {
+    "model": "6SP36-22",
+    "Q": 12.0,
+    "H_table": 279,
+    "H_curve_actual_pdf": 276.52311217847995,
+    "error_percent": 0.8877734127312014
+  },
+  {
+    "model": "6SP36-22",
+    "Q": 18.0,
+    "H_table": 266,
+    "H_curve_actual_pdf": 264.2045418043164,
+    "error_percent": 0.6749842840915713
+  },
+  {
+    "model": "6SP36-22",
+    "Q": 24.0,
+    "H_table": 250,
+    "H_curve_actual_pdf": 249.3898108728628,
+    "error_percent": 0.2440756508548816
+  },
+  {
+    "model": "6SP36-22",
+    "Q": 30.0,
+    "H_table": 229,
+    "H_curve_actual_pdf": 231.24686565204092,
+    "error_percent": 0.9811640401925432
+  },
+  {
+    "model": "6SP36-22",
+    "Q": 36.0,
+    "H_table": 207,
+    "H_curve_actual_pdf": 208.94365222721706,
+    "error_percent": 0.9389624286072743
+  },
+  {
+    "model": "6SP36-22",
+    "Q": 42.0,
+    "H_table": 181,
+    "H_curve_actual_pdf": 181.64811645556284,
+    "error_percent": 0.3580753898137251
+  },
+  {
+    "model": "6SP36-22",
+    "Q": 48.0,
+    "H_table": 150,
+    "H_curve_actual_pdf": 148.52821751644737,
+    "error_percent": 0.98118832236842
+  },
+  {
+    "model": "6SP36-22",
+    "Q": 54.0,
+    "H_table": 110,
+    "H_curve_actual_pdf": 110.00003212376645,
+    "error_percent": 2.9203424041022366e-05
+  },
+  {
+    "model": "6SP36-24",
+    "Q": 0.0,
+    "H_table": 324,
+    "H_curve_actual_pdf": 323.9999710886102,
+    "error_percent": 8.92326845390881e-06
+  },
+  {
+    "model": "6SP36-24",
+    "Q": 6.0,
+    "H_table": 316,
+    "H_curve_actual_pdf": 313.3769677738681,
+    "error_percent": 0.8300734892822461
+  },
+  {
+    "model": "6SP36-24",
+    "Q": 12.0,
+    "H_table": 305,
+    "H_curve_actual_pdf": 301.83925096325044,
+    "error_percent": 1.036311159590021
+  },
+  {
+    "model": "6SP36-24",
+    "Q": 18.0,
+    "H_table": 290,
+    "H_curve_actual_pdf": 288.47211388681575,
+    "error_percent": 0.5268572804083627
+  },
+  {
+    "model": "6SP36-24",
+    "Q": 24.0,
+    "H_table": 273,
+    "H_curve_actual_pdf": 272.3608496742776,
+    "error_percent": 0.234120998433123
+  },
+  {
+    "model": "6SP36-24",
+    "Q": 30.0,
+    "H_table": 250,
+    "H_curve_actual_pdf": 252.5907513048318,
+    "error_percent": 1.0363005219327193
+  },
+  {
+    "model": "6SP36-24",
+    "Q": 36.0,
+    "H_table": 226,
+    "H_curve_actual_pdf": 228.24711155698407,
+    "error_percent": 0.9942971491079939
+  },
+  {
+    "model": "6SP36-24",
+    "Q": 42.0,
+    "H_table": 198,
+    "H_curve_actual_pdf": 198.41522295837729,
+    "error_percent": 0.20970856483701264
+  },
+  {
+    "model": "6SP36-24",
+    "Q": 48.0,
+    "H_table": 163,
+    "H_curve_actual_pdf": 162.18039261667352,
+    "error_percent": 0.5028266155377207
+  },
+  {
+    "model": "6SP36-24",
+    "Q": 54.0,
+    "H_table": 120,
+    "H_curve_actual_pdf": 119.99997590717517,
+    "error_percent": 2.0077354025242283e-05
+  },
+  {
+    "model": "6SP36-26",
+    "Q": 0.0,
+    "H_table": 351,
+    "H_curve_actual_pdf": 351.0000289113898,
+    "error_percent": 8.236863188223517e-06
+  },
+  {
+    "model": "6SP36-26",
+    "Q": 6.0,
+    "H_table": 342,
+    "H_curve_actual_pdf": 339.2584625717547,
+    "error_percent": 0.8016191310658757
+  },
+  {
+    "model": "6SP36-26",
+    "Q": 12.0,
+    "H_table": 330,
+    "H_curve_actual_pdf": 326.5436812117588,
+    "error_percent": 1.0473693297700666
+  },
+  {
+    "model": "6SP36-26",
+    "Q": 18.0,
+    "H_table": 315,
+    "H_curve_actual_pdf": 311.8824697576592,
+    "error_percent": 0.989692140425657
+  },
+  {
+    "model": "6SP36-26",
+    "Q": 24.0,
+    "H_table": 296,
+    "H_curve_actual_pdf": 294.30161302894993,
+    "error_percent": 0.5737793821115101
+  },
+  {
+    "model": "6SP36-26",
+    "Q": 30.0,
+    "H_table": 270,
+    "H_curve_actual_pdf": 272.82789568497975,
+    "error_percent": 1.0473687722147227
+  },
+  {
+    "model": "6SP36-26",
+    "Q": 36.0,
+    "H_table": 244,
+    "H_curve_actual_pdf": 246.48810217157023,
+    "error_percent": 1.0197140047418989
+  },
+  {
+    "model": "6SP36-26",
+    "Q": 42.0,
+    "H_table": 214,
+    "H_curve_actual_pdf": 214.3090166676345,
+    "error_percent": 0.14440031197873596
+  },
+  {
+    "model": "6SP36-26",
+    "Q": 48.0,
+    "H_table": 177,
+    "H_curve_actual_pdf": 175.31743902909128,
+    "error_percent": 0.9505994185924997
+  },
+  {
+    "model": "6SP36-26",
+    "Q": 54.0,
+    "H_table": 130,
+    "H_curve_actual_pdf": 129.99999196905839,
+    "error_percent": 6.177647396026049e-06
+  },
+  {
+    "model": "6SP36-28",
+    "Q": 0.0,
+    "H_table": 378,
+    "H_curve_actual_pdf": 378.0000144556949,
+    "error_percent": 3.824257908818061e-06
+  },
+  {
+    "model": "6SP36-28",
+    "Q": 6.0,
+    "H_table": 369,
+    "H_curve_actual_pdf": 365.4998828523958,
+    "error_percent": 0.9485412324130662
+  },
+  {
+    "model": "6SP36-28",
+    "Q": 12.0,
+    "H_table": 356,
+    "H_curve_actual_pdf": 351.94069396216395,
+    "error_percent": 1.140254505010127
+  },
+  {
+    "model": "6SP36-28",
+    "Q": 18.0,
+    "H_table": 339,
+    "H_curve_actual_pdf": 336.2633836638689,
+    "error_percent": 0.8072614560858637
+  },
+  {
+    "model": "6SP36-28",
+    "Q": 24.0,
+    "H_table": 318,
+    "H_curve_actual_pdf": 317.40888772019974,
+    "error_percent": 0.18588436471706182
+  },
+  {
+    "model": "6SP36-28",
+    "Q": 30.0,
+    "H_table": 291,
+    "H_curve_actual_pdf": 294.3181417195732,
+    "error_percent": 1.1402548864512685
+  },
+  {
+    "model": "6SP36-28",
+    "Q": 36.0,
+    "H_table": 263,
+    "H_curve_actual_pdf": 265.93208101804385,
+    "error_percent": 1.1148597026782683
+  },
+  {
+    "model": "6SP36-28",
+    "Q": 42.0,
+    "H_table": 231,
+    "H_curve_actual_pdf": 231.19164068121324,
+    "error_percent": 0.08296133385854702
+  },
+  {
+    "model": "6SP36-28",
+    "Q": 48.0,
+    "H_table": 190,
+    "H_curve_actual_pdf": 189.03777273077714,
+    "error_percent": 0.5064354048541394
+  },
+  {
+    "model": "6SP36-28",
+    "Q": 54.0,
+    "H_table": 140,
+    "H_curve_actual_pdf": 140.00000803094161,
+    "error_percent": 5.736386867738474e-06
+  },
+  {
+    "model": "6SP36-30",
+    "Q": 0.0,
+    "H_table": 405,
+    "H_curve_actual_pdf": 405.0,
+    "error_percent": 0.0
+  },
+  {
+    "model": "6SP36-30",
+    "Q": 6.0,
+    "H_table": 395,
+    "H_curve_actual_pdf": 391.581262498908,
+    "error_percent": 0.8655031648334132
+  },
+  {
+    "model": "6SP36-30",
+    "Q": 12.0,
+    "H_table": 381,
+    "H_curve_actual_pdf": 377.0297665328529,
+    "error_percent": 1.042056028122605
+  },
+  {
+    "model": "6SP36-30",
+    "Q": 18.0,
+    "H_table": 363,
+    "H_curve_actual_pdf": 360.21276035084543,
+    "error_percent": 0.7678346140921685
+  },
+  {
+    "model": "6SP36-30",
+    "Q": 24.0,
+    "H_table": 341,
+    "H_curve_actual_pdf": 339.99749207763153,
+    "error_percent": 0.2939905930699313
+  },
+  {
+    "model": "6SP36-30",
+    "Q": 30.0,
+    "H_table": 312,
+    "H_curve_actual_pdf": 315.2512096515596,
+    "error_percent": 1.0420543754998643
+  },
+  {
+    "model": "6SP36-30",
+    "Q": 36.0,
+    "H_table": 282,
+    "H_curve_actual_pdf": 284.8411607624479,
+    "error_percent": 1.007503816470881
+  },
+  {
+    "model": "6SP36-30",
+    "Q": 42.0,
+    "H_table": 247,
+    "H_curve_actual_pdf": 247.63459278945217,
+    "error_percent": 0.2569201576729436
+  },
+  {
+    "model": "6SP36-30",
+    "Q": 48.0,
+    "H_table": 204,
+    "H_curve_actual_pdf": 202.49877126593339,
+    "error_percent": 0.7358964382679485
+  },
+  {
+    "model": "6SP36-30",
+    "Q": 54.0,
+    "H_table": 150,
+    "H_curve_actual_pdf": 150.00002409282482,
+    "error_percent": 1.606188321071992e-05
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 0.0,
+    "H_table": 27,
+    "H_curve_actual_pdf": 26.999985544305098,
+    "error_percent": 5.353961074976926e-05
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 6.0,
+    "H_table": 26,
+    "H_curve_actual_pdf": 26.190674059584868,
+    "error_percent": 0.7333617676341083
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 12.0,
+    "H_table": 25,
+    "H_curve_actual_pdf": 25.330495094328402,
+    "error_percent": 1.3219803773136078
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 18.0,
+    "H_table": 24,
+    "H_curve_actual_pdf": 24.368581174856462,
+    "error_percent": 1.5357548952352604
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 24.0,
+    "H_table": 23,
+    "H_curve_actual_pdf": 23.254064841203856,
+    "error_percent": 1.1046297443645932
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 30.0,
+    "H_table": 22,
+    "H_curve_actual_pdf": 21.936078653976438,
+    "error_percent": 0.2905515728343744
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 36.0,
+    "H_table": 20,
+    "H_curve_actual_pdf": 20.36375520120811,
+    "error_percent": 1.8187760060405547
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 42.0,
+    "H_table": 18,
+    "H_curve_actual_pdf": 18.486227105217818,
+    "error_percent": 2.7012616956545443
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 48.0,
+    "H_table": 16,
+    "H_curve_actual_pdf": 16.252627029466538,
+    "error_percent": 1.5789189341658627
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 54.0,
+    "H_table": 14,
+    "H_curve_actual_pdf": 13.61208768541421,
+    "error_percent": 2.7708022470413596
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 60.0,
+    "H_table": 11,
+    "H_curve_actual_pdf": 10.51374183937673,
+    "error_percent": 4.4205287329388225
+  },
+  {
+    "model": "6SP46-2",
+    "Q": 66.0,
+    "H_table": 7,
+    "H_curve_actual_pdf": 6.999977513363487,
+    "error_percent": 0.0003212376644690096
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 0.0,
+    "H_table": 35,
+    "H_curve_actual_pdf": 35.0,
+    "error_percent": 0.0
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 6.0,
+    "H_table": 34,
+    "H_curve_actual_pdf": 33.85513946337135,
+    "error_percent": 0.4260604018489665
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 12.0,
+    "H_table": 32,
+    "H_curve_actual_pdf": 32.46652516893426,
+    "error_percent": 1.457891152919566
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 18.0,
+    "H_table": 31,
+    "H_curve_actual_pdf": 30.834156640973777,
+    "error_percent": 0.5349785775039443
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 24.0,
+    "H_table": 29,
+    "H_curve_actual_pdf": 28.958033384025473,
+    "error_percent": 0.1447124688776789
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 30.0,
+    "H_table": 26,
+    "H_curve_actual_pdf": 26.838154882875425,
+    "error_percent": 3.2236726264439444
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 36.0,
+    "H_table": 25,
+    "H_curve_actual_pdf": 24.474520602560094,
+    "error_percent": 2.1019175897596227
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 42.0,
+    "H_table": 22,
+    "H_curve_actual_pdf": 21.867129988366194,
+    "error_percent": 0.6039545983354796
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 48.0,
+    "H_table": 20,
+    "H_curve_actual_pdf": 19.015982465830607,
+    "error_percent": 4.920087670846964
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 54.0,
+    "H_table": 16,
+    "H_curve_actual_pdf": 15.921077440740275,
+    "error_percent": 0.4932659953732821
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 60.0,
+    "H_table": 13,
+    "H_curve_actual_pdf": 12.582414299132031,
+    "error_percent": 3.212197698984376
+  },
+  {
+    "model": "6SP46-3A",
+    "Q": 66.0,
+    "H_table": 9,
+    "H_curve_actual_pdf": 8.999995181435033,
+    "error_percent": 5.353961074976926e-05
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 0.0,
+    "H_table": 40,
+    "H_curve_actual_pdf": 40.00001606188322,
+    "error_percent": 4.015470805640575e-05
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 6.0,
+    "H_table": 39,
+    "H_curve_actual_pdf": 38.85668750102233,
+    "error_percent": 0.3674679460965936
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 12.0,
+    "H_table": 38,
+    "H_curve_actual_pdf": 37.63613585125849,
+    "error_percent": 0.957537233530297
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 18.0,
+    "H_table": 37,
+    "H_curve_actual_pdf": 36.26113385949683,
+    "error_percent": 1.9969355148734318
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 24.0,
+    "H_table": 35,
+    "H_curve_actual_pdf": 34.65445427264248,
+    "error_percent": 0.987273506735765
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 30.0,
+    "H_table": 32,
+    "H_curve_actual_pdf": 32.73886983760057,
+    "error_percent": 2.3089682425017743
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 36.0,
+    "H_table": 30,
+    "H_curve_actual_pdf": 30.4371533012762,
+    "error_percent": 1.4571776709206694
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 42.0,
+    "H_table": 27,
+    "H_curve_actual_pdf": 27.672077410574488,
+    "error_percent": 2.489175594720326
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 48.0,
+    "H_table": 24,
+    "H_curve_actual_pdf": 24.366414912400558,
+    "error_percent": 1.5267288016689897
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 54.0,
+    "H_table": 21,
+    "H_curve_actual_pdf": 20.442938553659538,
+    "error_percent": 2.652673554002202
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 60.0,
+    "H_table": 16,
+    "H_curve_actual_pdf": 15.895246422676918,
+    "error_percent": 0.6547098582692645
+  },
+  {
+    "model": "6SP46-3",
+    "Q": 66.0,
+    "H_table": 11,
+    "H_curve_actual_pdf": 11.00001284950658,
+    "error_percent": 0.00011681369618669764
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 0.0,
+    "H_table": 54,
+    "H_curve_actual_pdf": 53.999971088610195,
+    "error_percent": 5.353961074976926e-05
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 6.0,
+    "H_table": 52,
+    "H_curve_actual_pdf": 52.38134817538635,
+    "error_percent": 0.7333618757429805
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 12.0,
+    "H_table": 51,
+    "H_curve_actual_pdf": 50.66099063838973,
+    "error_percent": 0.6647242384515161
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 18.0,
+    "H_table": 49,
+    "H_curve_actual_pdf": 48.73716386756148,
+    "error_percent": 0.5364002702826989
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 24.0,
+    "H_table": 46,
+    "H_curve_actual_pdf": 46.50813328027078,
+    "error_percent": 1.104637565806051
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 30.0,
+    "H_table": 43,
+    "H_curve_actual_pdf": 43.872164335028764,
+    "error_percent": 2.0282891512296826
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 36.0,
+    "H_table": 40,
+    "H_curve_actual_pdf": 40.72752254520245,
+    "error_percent": 1.8188063630061182
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 42.0,
+    "H_table": 36,
+    "H_curve_actual_pdf": 36.97247349272874,
+    "error_percent": 2.7013152575798296
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 48.0,
+    "H_table": 32,
+    "H_curve_actual_pdf": 32.50528284182833,
+    "error_percent": 1.5790088807135394
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 54.0,
+    "H_table": 28,
+    "H_curve_actual_pdf": 27.224216352719502,
+    "error_percent": 2.7706558831446366
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 60.0,
+    "H_table": 22,
+    "H_curve_actual_pdf": 21.02753989533211,
+    "error_percent": 4.4202732030358565
+  },
+  {
+    "model": "6SP46-4",
+    "Q": 66.0,
+    "H_table": 14,
+    "H_curve_actual_pdf": 14.000011243318257,
+    "error_percent": 8.030941612042446e-05
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 0.0,
+    "H_table": 67,
+    "H_curve_actual_pdf": 67.00000160618832,
+    "error_percent": 2.397296000185973e-06
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 6.0,
+    "H_table": 65,
+    "H_curve_actual_pdf": 64.99825255964286,
+    "error_percent": 0.002688369780208597
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 12.0,
+    "H_table": 64,
+    "H_curve_actual_pdf": 62.86963446511577,
+    "error_percent": 1.7661961482566046
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 18.0,
+    "H_table": 61,
+    "H_curve_actual_pdf": 60.48727827462536,
+    "error_percent": 0.8405274186469499
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 24.0,
+    "H_table": 58,
+    "H_curve_actual_pdf": 57.72431494019004,
+    "error_percent": 0.4753190686378602
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 30.0,
+    "H_table": 54,
+    "H_curve_actual_pdf": 54.45387541382814,
+    "error_percent": 0.8405100256076727
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 36.0,
+    "H_table": 50,
+    "H_curve_actual_pdf": 50.54909064755803,
+    "error_percent": 1.0981812951160634
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 42.0,
+    "H_table": 45,
+    "H_curve_actual_pdf": 45.88309159339805,
+    "error_percent": 1.962425763106776
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 48.0,
+    "H_table": 40,
+    "H_curve_actual_pdf": 40.32900920336655,
+    "error_percent": 0.8225230084163825
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 54.0,
+    "H_table": 34,
+    "H_curve_actual_pdf": 33.75997442948191,
+    "error_percent": 0.7059575603473308
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 60.0,
+    "H_table": 27,
+    "H_curve_actual_pdf": 26.165440233358595,
+    "error_percent": 3.0909620986718704
+  },
+  {
+    "model": "6SP46-5",
+    "Q": 66.0,
+    "H_table": 18,
+    "H_curve_actual_pdf": 17.999990362870065,
+    "error_percent": 5.353961074976926e-05
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 0.0,
+    "H_table": 80,
+    "H_curve_actual_pdf": 79.99997590717516,
+    "error_percent": 3.0116031055626994e-05
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 6.0,
+    "H_table": 79,
+    "H_curve_actual_pdf": 77.84151481663011,
+    "error_percent": 1.466436940974545
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 12.0,
+    "H_table": 77,
+    "H_curve_actual_pdf": 75.51471492763784,
+    "error_percent": 1.9289416524183898
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 18.0,
+    "H_table": 74,
+    "H_curve_actual_pdf": 72.85123739743022,
+    "error_percent": 1.552381895364561
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 24.0,
+    "H_table": 70,
+    "H_curve_actual_pdf": 69.68274329459723,
+    "error_percent": 0.45322386486109933
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 30.0,
+    "H_table": 65,
+    "H_curve_actual_pdf": 65.84089355476576,
+    "error_percent": 1.2936823919473175
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 36.0,
+    "H_table": 60,
+    "H_curve_actual_pdf": 61.15734893627863,
+    "error_percent": 1.9289148937977174
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 42.0,
+    "H_table": 55,
+    "H_curve_actual_pdf": 55.46376997587331,
+    "error_percent": 0.8432181379514764
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 48.0,
+    "H_table": 49,
+    "H_curve_actual_pdf": 48.59182257401316,
+    "error_percent": 0.8330151550751888
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 54.0,
+    "H_table": 41,
+    "H_curve_actual_pdf": 40.47605327377585,
+    "error_percent": 1.2779188444491543
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 60.0,
+    "H_table": 32,
+    "H_curve_actual_pdf": 31.46248223832601,
+    "error_percent": 1.6797430052312157
+  },
+  {
+    "model": "6SP46-6",
+    "Q": 66.0,
+    "H_table": 22,
+    "H_curve_actual_pdf": 22.00002569901316,
+    "error_percent": 0.00011681369618669764
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 0.0,
+    "H_table": 94,
+    "H_curve_actual_pdf": 93.99998715049341,
+    "error_percent": 1.3669687861083538e-05
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 6.0,
+    "H_table": 92,
+    "H_curve_actual_pdf": 91.2537084355449,
+    "error_percent": 0.811186483103376
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 12.0,
+    "H_table": 90,
+    "H_curve_actual_pdf": 88.32962559974186,
+    "error_percent": 1.855971555842378
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 18.0,
+    "H_table": 86,
+    "H_curve_actual_pdf": 85.04993454619796,
+    "error_percent": 1.1047272718628371
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 24.0,
+    "H_table": 81,
+    "H_curve_actual_pdf": 81.23683122596351,
+    "error_percent": 0.29238422958458427
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 30.0,
+    "H_table": 76,
+    "H_curve_actual_pdf": 76.71251166199357,
+    "error_percent": 0.9375153447283867
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 36.0,
+    "H_table": 70,
+    "H_curve_actual_pdf": 71.29917197311632,
+    "error_percent": 1.8559599615947369
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 42.0,
+    "H_table": 64,
+    "H_curve_actual_pdf": 64.81900839800109,
+    "error_percent": 1.2797006218767004
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 48.0,
+    "H_table": 57,
+    "H_curve_actual_pdf": 57.0942173191267,
+    "error_percent": 0.16529354232754184
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 54.0,
+    "H_table": 48,
+    "H_curve_actual_pdf": 47.94699528674931,
+    "error_percent": 0.11042648593893034
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 60.0,
+    "H_table": 38,
+    "H_curve_actual_pdf": 37.19953904287071,
+    "error_percent": 2.106476202971813
+  },
+  {
+    "model": "6SP46-7",
+    "Q": 66.0,
+    "H_table": 25,
+    "H_curve_actual_pdf": 25.000024092824834,
+    "error_percent": 9.63712993353738e-05
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 0.0,
+    "H_table": 107,
+    "H_curve_actual_pdf": 107.00001766807154,
+    "error_percent": 1.65122163883939e-05
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 6.0,
+    "H_table": 105,
+    "H_curve_actual_pdf": 103.84782395916072,
+    "error_percent": 1.097310515085028
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 12.0,
+    "H_table": 102,
+    "H_curve_actual_pdf": 100.49703700585742,
+    "error_percent": 1.4734931315123316
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 18.0,
+    "H_table": 98,
+    "H_curve_actual_pdf": 96.74906696353597,
+    "error_percent": 1.2764622821061566
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 24.0,
+    "H_table": 93,
+    "H_curve_actual_pdf": 92.40532404111136,
+    "error_percent": 0.6394365149340254
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 30.0,
+    "H_table": 86,
+    "H_curve_actual_pdf": 87.26721852780949,
+    "error_percent": 1.4735099160575467
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 36.0,
+    "H_table": 80,
+    "H_curve_actual_pdf": 81.13616081993725,
+    "error_percent": 1.4202010249215569
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 42.0,
+    "H_table": 73,
+    "H_curve_actual_pdf": 73.81356144765265,
+    "error_percent": 1.1144677365104736
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 48.0,
+    "H_table": 65,
+    "H_curve_actual_pdf": 65.10083110173507,
+    "error_percent": 0.15512477190010435
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 54.0,
+    "H_table": 55,
+    "H_curve_actual_pdf": 54.799380660355,
+    "error_percent": 0.3647624357181847
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 60.0,
+    "H_table": 43,
+    "H_curve_actual_pdf": 42.71062121584428,
+    "error_percent": 0.6729739166412156
+  },
+  {
+    "model": "6SP46-8",
+    "Q": 66.0,
+    "H_table": 29,
+    "H_curve_actual_pdf": 29.000003212376644,
+    "error_percent": 1.1077160840696267e-05
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 0.0,
+    "H_table": 121,
+    "H_curve_actual_pdf": 120.99997269479852,
+    "error_percent": 2.256628221880231e-05
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 6.0,
+    "H_table": 118,
+    "H_curve_actual_pdf": 117.35754667296841,
+    "error_percent": 0.5444519720606688
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 12.0,
+    "H_table": 115,
+    "H_curve_actual_pdf": 113.49564043694599,
+    "error_percent": 1.3081387504817477
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 18.0,
+    "H_table": 111,
+    "H_curve_actual_pdf": 109.19477793673094,
+    "error_percent": 1.6263261831252758
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 24.0,
+    "H_table": 104,
+    "H_curve_actual_pdf": 104.23548312232295,
+    "error_percent": 0.2264260791566796
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 30.0,
+    "H_table": 97,
+    "H_curve_actual_pdf": 98.39827994372165,
+    "error_percent": 1.4415257151769558
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 36.0,
+    "H_table": 90,
+    "H_curve_actual_pdf": 91.4636923509267,
+    "error_percent": 1.626324834363007
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 42.0,
+    "H_table": 82,
+    "H_curve_actual_pdf": 83.21224429393779,
+    "error_percent": 1.4783466999241295
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 48.0,
+    "H_table": 73,
+    "H_curve_actual_pdf": 73.42445972275453,
+    "error_percent": 0.5814516750062112
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 54.0,
+    "H_table": 62,
+    "H_curve_actual_pdf": 61.88086258737664,
+    "error_percent": 0.19215711713445122
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 60.0,
+    "H_table": 49,
+    "H_curve_actual_pdf": 48.186849562410906,
+    "error_percent": 1.6594906889573349
+  },
+  {
+    "model": "6SP46-9",
+    "Q": 66.0,
+    "H_table": 32,
+    "H_curve_actual_pdf": 32.00000160618832,
+    "error_percent": 5.019338500389381e-06
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 0.0,
+    "H_table": 134,
+    "H_curve_actual_pdf": 134.00000321237664,
+    "error_percent": 2.397296000185973e-06
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 6.0,
+    "H_table": 131,
+    "H_curve_actual_pdf": 130.0727664209974,
+    "error_percent": 0.7078118923683995
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 12.0,
+    "H_table": 128,
+    "H_curve_actual_pdf": 125.89434125522223,
+    "error_percent": 1.645045894357633
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 18.0,
+    "H_table": 123,
+    "H_curve_actual_pdf": 121.21354274751187,
+    "error_percent": 1.452404270315556
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 24.0,
+    "H_table": 116,
+    "H_curve_actual_pdf": 115.77918599804767,
+    "error_percent": 0.1903568982347708
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 30.0,
+    "H_table": 108,
+    "H_curve_actual_pdf": 109.34008620859143,
+    "error_percent": 1.2408205635105831
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 36.0,
+    "H_table": 100,
+    "H_curve_actual_pdf": 101.64505871634569,
+    "error_percent": 1.6450587163456871
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 42.0,
+    "H_table": 91,
+    "H_curve_actual_pdf": 92.44291902781352,
+    "error_percent": 1.585625305289579
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 48.0,
+    "H_table": 81,
+    "H_curve_actual_pdf": 81.48248285265876,
+    "error_percent": 0.5956578427885955
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 54.0,
+    "H_table": 69,
+    "H_curve_actual_pdf": 68.51256613756553,
+    "error_percent": 0.7064258875861907
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 60.0,
+    "H_table": 54,
+    "H_curve_actual_pdf": 53.28198510009838,
+    "error_percent": 1.3296572220400338
+  },
+  {
+    "model": "6SP46-10",
+    "Q": 66.0,
+    "H_table": 36,
+    "H_curve_actual_pdf": 35.99998072574013,
+    "error_percent": 5.353961074976926e-05
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 0.0,
+    "H_table": 147,
+    "H_curve_actual_pdf": 146.9999775133635,
+    "error_percent": 1.52970316395688e-05
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 6.0,
+    "H_table": 144,
+    "H_curve_actual_pdf": 142.8528197334438,
+    "error_percent": 0.7966529628862536
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 12.0,
+    "H_table": 141,
+    "H_curve_actual_pdf": 138.41703255592589,
+    "error_percent": 1.8318918043078825
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 18.0,
+    "H_table": 135,
+    "H_curve_actual_pdf": 133.40399074740344,
+    "error_percent": 1.1822290759974514
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 24.0,
+    "H_table": 128,
+    "H_curve_actual_pdf": 127.52506907447031,
+    "error_percent": 0.3710397855700709
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 30.0,
+    "H_table": 119,
+    "H_curve_actual_pdf": 120.49164230372017,
+    "error_percent": 1.2534809274959409
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 36.0,
+    "H_table": 110,
+    "H_curve_actual_pdf": 112.01508520174679,
+    "error_percent": 1.8318956379516231
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 42.0,
+    "H_table": 100,
+    "H_curve_actual_pdf": 101.80677253514386,
+    "error_percent": 1.806772535143864
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 48.0,
+    "H_table": 89,
+    "H_curve_actual_pdf": 89.57807907050514,
+    "error_percent": 0.6495270455113934
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 54.0,
+    "H_table": 76,
+    "H_curve_actual_pdf": 75.04037957442435,
+    "error_percent": 1.2626584547048032
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 60.0,
+    "H_table": 59,
+    "H_curve_actual_pdf": 58.16957713089413,
+    "error_percent": 1.4074963883150284
+  },
+  {
+    "model": "6SP46-11",
+    "Q": 66.0,
+    "H_table": 40,
+    "H_curve_actual_pdf": 40.00001606188322,
+    "error_percent": 4.015470805640575e-05
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 0.0,
+    "H_table": 161,
+    "H_curve_actual_pdf": 160.99998875668174,
+    "error_percent": 6.9834274876292356e-06
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 6.0,
+    "H_table": 157,
+    "H_curve_actual_pdf": 156.27635326482346,
+    "error_percent": 0.46092148737359495
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 12.0,
+    "H_table": 154,
+    "H_curve_actual_pdf": 151.25001329055712,
+    "error_percent": 1.7857056554823891
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 18.0,
+    "H_table": 148,
+    "H_curve_actual_pdf": 145.61826439227974,
+    "error_percent": 1.609280816027202
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 24.0,
+    "H_table": 139,
+    "H_curve_actual_pdf": 139.07840220999844,
+    "error_percent": 0.056404467624779894
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 30.0,
+    "H_table": 130,
+    "H_curve_actual_pdf": 131.32772250613542,
+    "error_percent": 1.0213250047195506
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 36.0,
+    "H_table": 120,
+    "H_curve_actual_pdf": 122.063521206333,
+    "error_percent": 1.7196010052774942
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 42.0,
+    "H_table": 109,
+    "H_curve_actual_pdf": 110.98309444025831,
+    "error_percent": 1.8193526974846905
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 48.0,
+    "H_table": 97,
+    "H_curve_actual_pdf": 97.78373858240852,
+    "error_percent": 0.807977920008781
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 54.0,
+    "H_table": 83,
+    "H_curve_actual_pdf": 82.16275029291504,
+    "error_percent": 1.0087345868493551
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 60.0,
+    "H_table": 65,
+    "H_curve_actual_pdf": 63.81742655834862,
+    "error_percent": 1.8193437563867358
+  },
+  {
+    "model": "6SP46-12",
+    "Q": 66.0,
+    "H_table": 43,
+    "H_curve_actual_pdf": 43.0000144556949,
+    "error_percent": 3.3617895121948135e-05
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 0.0,
+    "H_table": 188,
+    "H_curve_actual_pdf": 187.99997430098682,
+    "error_percent": 1.3669687861083538e-05
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 6.0,
+    "H_table": 183,
+    "H_curve_actual_pdf": 182.2670306130769,
+    "error_percent": 0.4005297196301027
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 12.0,
+    "H_table": 179,
+    "H_curve_actual_pdf": 176.1969331241878,
+    "error_percent": 1.5659591484984314
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 18.0,
+    "H_table": 172,
+    "H_curve_actual_pdf": 169.45252803334017,
+    "error_percent": 1.4810883527092022
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 24.0,
+    "H_table": 162,
+    "H_curve_actual_pdf": 161.6966615395549,
+    "error_percent": 0.18724596323771875
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 30.0,
+    "H_table": 151,
+    "H_curve_actual_pdf": 152.5921798418527,
+    "error_percent": 1.0544237363262898
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 36.0,
+    "H_table": 140,
+    "H_curve_actual_pdf": 141.8019291392544,
+    "error_percent": 1.2870922423245799
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 42.0,
+    "H_table": 127,
+    "H_curve_actual_pdf": 128.9887556307807,
+    "error_percent": 1.5659493155753557
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 48.0,
+    "H_table": 113,
+    "H_curve_actual_pdf": 113.8155055154524,
+    "error_percent": 0.7216862968605315
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 54.0,
+    "H_table": 97,
+    "H_curve_actual_pdf": 95.94502499229029,
+    "error_percent": 1.0876031007316644
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 60.0,
+    "H_table": 76,
+    "H_curve_actual_pdf": 74.80990894341872,
+    "error_percent": 1.5659092849753693
+  },
+  {
+    "model": "6SP46-14",
+    "Q": 66.0,
+    "H_table": 50,
+    "H_curve_actual_pdf": 49.999991969058385,
+    "error_percent": 1.6061883229667728e-05
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 0.0,
+    "H_table": 214,
+    "H_curve_actual_pdf": 213.9999791195518,
+    "error_percent": 9.757218787033827e-06
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 6.0,
+    "H_table": 210,
+    "H_curve_actual_pdf": 207.9272264184939,
+    "error_percent": 0.9870350388124345
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 12.0,
+    "H_table": 205,
+    "H_curve_actual_pdf": 201.43503640896236,
+    "error_percent": 1.7390066297744582
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 18.0,
+    "H_table": 197,
+    "H_curve_actual_pdf": 194.1039759466755,
+    "error_percent": 1.4700629712307156
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 24.0,
+    "H_table": 186,
+    "H_curve_actual_pdf": 185.51461188735172,
+    "error_percent": 0.2609613508861722
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 30.0,
+    "H_table": 173,
+    "H_curve_actual_pdf": 175.24751108670938,
+    "error_percent": 1.2991393564794107
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 36.0,
+    "H_table": 160,
+    "H_curve_actual_pdf": 162.8832404004668,
+    "error_percent": 1.802025250291752
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 42.0,
+    "H_table": 146,
+    "H_curve_actual_pdf": 148.00236668434223,
+    "error_percent": 1.3714840303713938
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 48.0,
+    "H_table": 130,
+    "H_curve_actual_pdf": 130.18545679405412,
+    "error_percent": 0.14265907234932212
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 54.0,
+    "H_table": 110,
+    "H_curve_actual_pdf": 109.01307758532073,
+    "error_percent": 0.897202195162973
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 60.0,
+    "H_table": 86,
+    "H_curve_actual_pdf": 84.45025430836343,
+    "error_percent": 1.8020298739960157
+  },
+  {
+    "model": "6SP46-16",
+    "Q": 66.0,
+    "H_table": 58,
+    "H_curve_actual_pdf": 58.00000642475329,
+    "error_percent": 1.1077160840696267e-05
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 0.0,
+    "H_table": 241,
+    "H_curve_actual_pdf": 241.00002088044818,
+    "error_percent": 8.66408638001273e-06
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 6.0,
+    "H_table": 236,
+    "H_curve_actual_pdf": 233.9280357628046,
+    "error_percent": 0.8779509479641536
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 12.0,
+    "H_table": 230,
+    "H_curve_actual_pdf": 226.40589833391343,
+    "error_percent": 1.56265289829851
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 18.0,
+    "H_table": 221,
+    "H_curve_actual_pdf": 217.9834563432082,
+    "error_percent": 1.3649518809012717
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 24.0,
+    "H_table": 209,
+    "H_curve_actual_pdf": 208.21055766148507,
+    "error_percent": 0.37772360694494306
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 30.0,
+    "H_table": 194,
+    "H_curve_actual_pdf": 196.63705034158374,
+    "error_percent": 1.3593042997854354
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 36.0,
+    "H_table": 180,
+    "H_curve_actual_pdf": 182.8127826790689,
+    "error_percent": 1.562657043927168
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 42.0,
+    "H_table": 164,
+    "H_curve_actual_pdf": 166.28760327291099,
+    "error_percent": 1.394880044457918
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 48.0,
+    "H_table": 146,
+    "H_curve_actual_pdf": 146.61136108616734,
+    "error_percent": 0.41874046997762676
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 54.0,
+    "H_table": 124,
+    "H_curve_actual_pdf": 123.33390550666256,
+    "error_percent": 0.5371729784979351
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 60.0,
+    "H_table": 97,
+    "H_curve_actual_pdf": 96.00508640766965,
+    "error_percent": 1.0256841158044832
+  },
+  {
+    "model": "6SP46-18",
+    "Q": 66.0,
+    "H_table": 65,
+    "H_curve_actual_pdf": 64.99998393811678,
+    "error_percent": 2.4710589562241344e-05
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 0.0,
+    "H_table": 268,
+    "H_curve_actual_pdf": 268.0000064247533,
+    "error_percent": 2.397296000185973e-06
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 6.0,
+    "H_table": 262,
+    "H_curve_actual_pdf": 260.1455191251449,
+    "error_percent": 0.7078171278072843
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 12.0,
+    "H_table": 256,
+    "H_curve_actual_pdf": 251.78866047353895,
+    "error_percent": 1.645054502523846
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 18.0,
+    "H_table": 246,
+    "H_curve_actual_pdf": 242.42705918565795,
+    "error_percent": 1.452414965179694
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 24.0,
+    "H_table": 232,
+    "H_curve_actual_pdf": 231.55834411266576,
+    "error_percent": 0.19036891695441177
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 30.0,
+    "H_table": 216,
+    "H_curve_actual_pdf": 218.6801443088872,
+    "error_percent": 1.2408075504107443
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 36.0,
+    "H_table": 200,
+    "H_curve_actual_pdf": 203.29008909952907,
+    "error_percent": 1.6450445497645345
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 42.0,
+    "H_table": 182,
+    "H_curve_actual_pdf": 184.88580814839975,
+    "error_percent": 1.5856088727471136
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 48.0,
+    "H_table": 162,
+    "H_curve_actual_pdf": 162.9649315256297,
+    "error_percent": 0.5956367442158695
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 54.0,
+    "H_table": 138,
+    "H_curve_actual_pdf": 137.02508977539117,
+    "error_percent": 0.7064566844991552
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 60.0,
+    "H_table": 108,
+    "H_curve_actual_pdf": 106.56391398361811,
+    "error_percent": 1.3297092744276784
+  },
+  {
+    "model": "6SP46-20",
+    "Q": 66.0,
+    "H_table": 72,
+    "H_curve_actual_pdf": 72.00001766807155,
+    "error_percent": 2.453898826360046e-05
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 0.0,
+    "H_table": 295,
+    "H_curve_actual_pdf": 294.9999919690584,
+    "error_percent": 2.7223530897741915e-06
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 6.0,
+    "H_table": 288,
+    "H_curve_actual_pdf": 286.3160235121007,
+    "error_percent": 0.5847140582983733
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 12.0,
+    "H_table": 281,
+    "H_curve_actual_pdf": 277.07983318144227,
+    "error_percent": 1.395077159629086
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 18.0,
+    "H_table": 270,
+    "H_curve_actual_pdf": 266.7391991778227,
+    "error_percent": 1.2077040082138208
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 24.0,
+    "H_table": 255,
+    "H_curve_actual_pdf": 254.74189985086235,
+    "error_percent": 0.10121574475986153
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 30.0,
+    "H_table": 237,
+    "H_curve_actual_pdf": 240.53571377350266,
+    "error_percent": 1.4918623516888878
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 36.0,
+    "H_table": 220,
+    "H_curve_actual_pdf": 223.56841981644655,
+    "error_percent": 1.6220090074757043
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 42.0,
+    "H_table": 200,
+    "H_curve_actual_pdf": 203.28779722259821,
+    "error_percent": 1.6438986112991074
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 48.0,
+    "H_table": 178,
+    "H_curve_actual_pdf": 179.14162568150354,
+    "error_percent": 0.6413627424177196
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 54.0,
+    "H_table": 152,
+    "H_curve_actual_pdf": 150.57768540378925,
+    "error_percent": 0.935733286980759
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 60.0,
+    "H_table": 119,
+    "H_curve_actual_pdf": 117.04375719560333,
+    "error_percent": 1.6439015162997193
+  },
+  {
+    "model": "6SP46-22",
+    "Q": 66.0,
+    "H_table": 79,
+    "H_curve_actual_pdf": 78.99999518143503,
+    "error_percent": 6.099449334917292e-06
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 0.0,
+    "H_table": 322,
+    "H_curve_actual_pdf": 321.9999775133635,
+    "error_percent": 6.9834274876292356e-06
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 6.0,
+    "H_table": 314,
+    "H_curve_actual_pdf": 312.5527065296469,
+    "error_percent": 0.46092148737359495
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 12.0,
+    "H_table": 307,
+    "H_curve_actual_pdf": 302.50002658111424,
+    "error_percent": 1.4657893872592047
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 18.0,
+    "H_table": 295,
+    "H_curve_actual_pdf": 291.2365287845595,
+    "error_percent": 1.2757529543866162
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 24.0,
+    "H_table": 278,
+    "H_curve_actual_pdf": 278.1568044199969,
+    "error_percent": 0.056404467624779894
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 30.0,
+    "H_table": 259,
+    "H_curve_actual_pdf": 262.65544501227083,
+    "error_percent": 1.4113687306064988
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 36.0,
+    "H_table": 240,
+    "H_curve_actual_pdf": 244.127042412666,
+    "error_percent": 1.7196010052774942
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 42.0,
+    "H_table": 218,
+    "H_curve_actual_pdf": 221.96618888051663,
+    "error_percent": 1.8193526974846905
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 48.0,
+    "H_table": 194,
+    "H_curve_actual_pdf": 195.56747716481703,
+    "error_percent": 0.807977920008781
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 54.0,
+    "H_table": 166,
+    "H_curve_actual_pdf": 164.32550058583007,
+    "error_percent": 1.0087345868493551
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 60.0,
+    "H_table": 130,
+    "H_curve_actual_pdf": 127.63485311669724,
+    "error_percent": 1.8193437563867358
+  },
+  {
+    "model": "6SP46-24",
+    "Q": 66.0,
+    "H_table": 86,
+    "H_curve_actual_pdf": 85.99997269479852,
+    "error_percent": 3.175023428459395e-05
+  }
+]

@@ -1,0 +1,75 @@
+{
+ "src": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Nước thải\\KTZ - LH Redpump (bản mới).pdf",
+ "dst": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\staging\\candidate-v2\\KTZ - LH Redpump (bản mới).pdf",
+ "edits": [
+  {
+   "page": 6,
+   "rect": [
+    401.58033150000006,
+    386.77239959999997,
+    416.6035939463506,
+    388.1924004
+   ],
+   "label": "Reveal existing source H50 through blank margin only",
+   "kind": "native-clip-white-background-only"
+  }
+ ],
+ "log": [
+  {
+   "method": "Two isolated even-odd clips around original duplicate white fills; reveal the exact original source grid beneath their blank margin",
+   "gap_direct_before_pt": 14.303262446350516,
+   "historic_approx_gap_not_used_pt": 14.27512168353752,
+   "allowed_ROI": [
+    401.58033150000006,
+    386.77239959999997,
+    416.6035939463506,
+    388.1924004
+   ],
+   "white_margin_cutout": [
+    401.58033150000006,
+    386.77239959999997,
+    406.9412,
+    388.1924004
+   ],
+   "glyph_bbox_min_x": 407.3112,
+   "glyph_clearance_pt": 0.37000000000000455,
+   "expected_remaining_centerline_gap_pt": 9.302393946350605,
+   "original_grid_path_style_and_all_original_operators_untouched": true,
+   "source_grid_physical_width_pt": 0.7000008,
+   "no_new_line_or_white_paint": true,
+   "no_glyph_or_halo_outline_edit": true,
+   "cutout_does_not_intersect_black_glyphs": true,
+   "outer_clip_rect_contains_entire_original_white_fill": [
+    398,
+    382,
+    418,
+    393
+   ],
+   "two_white_layers_not_double_gap": true,
+   "inserted_prefix_ascii": "\nq\n1658.3333333333 1591.6666666667 83.3333333333 45.8333333333 re\n1673.25138125 1611.551665 22.3369520833 5.91667 re\nW*\nn",
+   "inserted_suffix_ascii": "\nQ\n",
+   "patch_indices": [
+    [
+     59300,
+     121
+    ],
+    [
+     59306,
+     3
+    ],
+    [
+     59306,
+     121
+    ],
+    [
+     59312,
+     3
+    ]
+   ],
+   "patch_count": 4,
+   "candidate": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\_BAO CAO\\_BAN_GIAO\\G09_Redpump_20261005T070820Z-8072fb\\staging\\candidate-v2\\KTZ - LH Redpump (bản mới).pdf",
+   "v1_retained_as_review_draft": true,
+   "v1_reason_not_selected": "Overlaid fragment seam and 4-decimal serializer width rounding; v2 reuses the untouched original grid instead"
+  }
+ ]
+}

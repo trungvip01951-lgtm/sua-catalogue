@@ -1,0 +1,47 @@
+﻿PROMPT NHÓM G14 – CM Perotac + Redpump
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('bơm trục ngnag perotac model CM (bản mới).pdf')   (thư mục Trục ngang)
+  Ra:  S.dst('bơm trục ngnag perotac model CM (bản mới).pdf', rename='bơm trục ngang perotac model CM (bản mới).pdf')   (việc #129: đổi tên file)
+  → job = S.job('bơm trục ngnag perotac model CM (bản mới).pdf', rename='bơm trục ngang perotac model CM (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–2: ẢNH GHÉP nhiều dải ngang có mặt nạ JBIG2 (~200 dpi) → dùng render_canvas
+- Vào: S.src('bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf')   (thư mục Trục ngang)
+  Ra:  S.dst('bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf', rename='bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf')   (việc #129: đổi tên file)
+  → job = S.job('bơm trục ngnag redpump model CM_300dpi_75% (bản mới).pdf', rename='bơm trục ngang redpump model CM_300dpi_75% (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–2: ẢNH CẢ TRANG ~300dpi
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 124 | SỬA | bơm trục ngnag perotac model CM.pdf; bơm trục ngnag redpump model CM_300dpi_75%.pdf | 1 | Ô chú thích thiết kế | "Original design by Aquaris (Patent no.201530478502.0)", "Diseño original de Aquaris", "Design original par Aquaris" – catalogue Perotac/Redpump còn tên Aquaris | Bỏ dòng này (cả 3 thứ tiếng) | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 125 | SỬA | bơm trục ngnag perotac model CM.pdf; bơm trục ngnag redpump model CM_300dpi_75%.pdf | 2 | Bảng thông số | "CM 32-250/5.5" và "CM 32-250/7.5" xuất hiện 2 lần với số liệu khác nhau | Xoá 2 dòng lặp (cột áp 79,5 m và 95 m, cao hơn cả loại 9,2 kW cùng mã) | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 126 | SỬA | bơm trục ngnag perotac model CM.pdf; bơm trục ngnag redpump model CM_300dpi_75%.pdf | 2 | Bảng thông số | "CM 100-160/220" (22 kW) | CM 100-160/22 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 127 | SỬA | bơm trục ngnag perotac model CM.pdf; bơm trục ngnag redpump model CM_300dpi_75%.pdf | 2 | Chân trang | "Performance curve in page 111-129 / 130-141" – catalogue chỉ 2 trang | Bỏ dòng tham chiếu | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 128 | SỬA | bơm trục ngnag perotac model CM.pdf; bơm trục ngnag redpump model CM_300dpi_75%.pdf | 1–2 | Chữ | "CM also available / también disponible / aussi disponible" bỏ lửng; "Rated power(kw)"; "disenadas" | Bỏ câu bỏ dở; (kW); diseñadas | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 129 | SỬA | bơm trục ngnag perotac model CM.pdf; bơm trục ngnag redpump model CM_300dpi_75%.pdf | tên file | Tên file | "ngnag" | Đổi tên file "ngnag" → "ngang" (bản Perotac và Redpump) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 157 | SỬA | bơm trục ngnag perotac model CM.pdf; bơm trục ngnag redpump model CM_300dpi_75%.pdf | 2 | Tên model có ".0" | CM 32-160/3.0, CM 32-200/4.0 … | CM 32-160/3, CM 32-200/4 … (cùng kiểu Aquaris CM) | Em đề xuất cho đồng bộ cách ghi anh chốt "/4" |
+| 158 | SỬA | bơm trục ngnag redpump model CM_300dpi_75%.pdf | Cả file | File làm việc | — | Sửa trực tiếp trong file này (anh xác nhận không có file gốc khác) | Anh Trung chốt 02/10 |
+| 162 | GIỮ NGUYÊN (không đụng) | bơm trục ngnag redpump model CM_300dpi_75%.pdf | Logo | Logo Redpump | Italy Standard | Giữ nguyên | NV trả lời (file câu hỏi 02/10) |
+
+Số việc phải SỬA: 8. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- 2 file ẢNH: Perotac CM = ảnh ghép nhiều dải ngang có mặt nạ JBIG2 → BẮT BUỘC dùng R.render_canvas(trang, rect)
+  (sửa trên hình đã vẽ, ~300 dpi); Redpump CM = 1 ảnh 300 dpi mỗi trang → R.canvas(...).
+- Làm cùng việc trên cả 2 file (nội dung giống nhau, khác logo).
+- #124 trang 1: xoá ô chú thích "Original design by Aquaris (Patent no.201530478502.0)" + 2 dòng TBN/Pháp – xoá sạch,
+  nền vẽ lại liền mạch. #127 trang 2: bỏ dòng "Performance curve in page …". #128: bỏ câu "CM also available …" bỏ dở;
+  "(kw)" → "(kW)"; "disenadas" → "diseñadas" (cần 'ñ' – nếu file không có thì báo).
+- #125 trang 2: xoá 2 dòng lặp CM 32-250/5.5 và CM 32-250/7.5 (dòng có cột áp 79.5 m và 95 m), dồn các dòng phía dưới
+  lên cho liền bảng (R.copy_box) – làm mẫu gửi duyệt. #126: "CM 100-160/220" → "CM 100-160/22".
+- #157: tên có ".0" → bỏ ".0" (vd "CM 32-160/3.0" → "CM 32-160/3").
+- #129 TÊN FILE RA: đổi "ngnag" → "ngang". #158: sửa trực tiếp file Redpump này. #162 logo giữ.
+
+ĐÃ DÒ THỬ BẰNG catfix (để bạn đối chiếu – toạ độ pt, gốc dưới trái; n = số chỗ tìm thấy):
+- bơm trục ngnag redpump model CM_300dpi_75%.pdf, trang 2, tìm '220' → n=3 "220" tại [1002.7, 638.8, 1015.9, 644.8]; "CM 100-160/220" tại [673.6, 295.5, 686.8, 302.0]
+- bơm trục ngnag redpump model CM_300dpi_75%.pdf, trang 2, tìm '111-129' → n=1 "pachornance cu rve in Se en pdgina/Courbe en page 111-129" tại [511.5, 18.5, 537.7, 24.0]
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G14.png") và báo cáo S.report("BAO CAO G14.md"); ghi S.progress("G14", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

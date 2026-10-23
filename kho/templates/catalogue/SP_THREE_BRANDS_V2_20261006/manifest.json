@@ -1,0 +1,240 @@
+{
+  "version": "SP_THREE_BRANDS_V2_20261006",
+  "created_utc": "20261006T072313Z",
+  "scope": "SP stainless well pumps only, three separate PDF brands",
+  "status": "ACCEPTED_DIGITAL_PDF_WITH_DOCUMENTED_SOURCE_LIMITS",
+  "Aquaris": {
+    "utc": "20261006T052919Z",
+    "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+    "source_sha256_unchanged": "c56abd03329bbe9469156196e2da7782d07a66f60b685c4c9f4b3d74b45ed785",
+    "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\G02 (gồm cả G01)\\Aquaris bơm giếng SP 1_300dpi_75% (bản mới).pdf",
+    "canonical_before": "0245d277dd48d7860f682141acbcac0d48aa79f7148615c347852a9ce0bd9a4a",
+    "canonical_after": "9b2ca1ba4c429fc098f0f354884b0ce2eeb1f20c4b4994dd9e4f0aefd8ba214e",
+    "candidate": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\aquaris_writer\\Aquaris SP - HEADER20 CANDIDATE 1.pdf",
+    "deliverable": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG 20261006\\AQUARIS SP - 31 TRANG.pdf",
+    "backup": "D:\\ChatGPT\\Sửa catalogue\\history\\sp-aquaris-accepted-20261006T052919Z\\Aquaris SP BEFORE 32 pages.pdf",
+    "independent_report": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\aquaris_independent\\header_final\\INDEPENDENT_FINAL_8COL.md",
+    "independent_report_sha256": "e2218ca70bcc198d55134d5d95f5e1d42305ee8d5f8d4cfc808dfe6e6fc25cee",
+    "page_count": 31,
+    "models": 197,
+    "QH_points": 1179,
+    "numbers": "PASS",
+    "visual": "PASS_WITH_ORIGINAL_PHOTO_RESOLUTION_LIMIT",
+    "preservation": "PASS",
+    "paper_print": "NOT_RUN",
+    "canonical_adopted": true,
+    "scope": "SP stainless Aquaris only; 4SP2 removed; 3SP2 retained; no 60Hz or 6-inch single phase",
+    "original_149_tasks_progress": "137/149 unchanged; this is extension scope"
+  },
+  "Perotac_Redpump": {
+    "utc": "20261006T072116Z",
+    "source": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf",
+    "source_sha256_unchanged": "e1b94dc6f23c35d18d61cee71d9d88c844b1070d14ff662bbabe2256cdd690c9",
+    "original_149_tasks_progress": "137/149 unchanged; SP three-brand extension",
+    "source_claim_scope": "ROOT single writer: Perotac canonical plus derived new Redpump SP. Original registry has no Redpump SP source; no source fabricated.",
+    "brands": {
+      "PEROTAC": {
+        "candidate": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG 20261006\\PEROTAC SP - REVIEW 02.pdf",
+        "deliverable": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG 20261006\\PEROTAC SP - 13 TRANG.pdf",
+        "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Perotac bơm giếng SP_compressed (bản mới).pdf",
+        "sha256": "5c452fc9e01dded447622ebf302690ec2a347b6c114a97946f4f562e93fc48f8",
+        "canonical_before": "48c8535c4c8a025991be53caf414242cbb500eb43ac59f804a2008204691a6a2",
+        "backup": "D:\\ChatGPT\\Sửa catalogue\\history\\sp-perotac-redpump-accepted-20261006T072116Z\\PEROTAC SP BEFORE 12 pages.pdf",
+        "page_count": 13,
+        "models": 220,
+        "H_cells": 2218,
+        "dimension_rows": 219,
+        "numeric": "PASS",
+        "visual": "PASS_WITH_ORIGINAL_PHOTO_RESOLUTION_LIMIT",
+        "preservation": "PASS",
+        "paper_print": "NOT_RUN",
+        "canonical_adopted": true,
+        "numeric_report": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\perotac_numeric_independent\\PEROTAC\\review02\\BAO_CAO_8_COT.md",
+        "visual_report": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\perotac_independent\\review02\\INDEPENDENT_FINAL_8COL.md",
+        "visual_report_sha256": "c67881e96544c9e8c26a5548de2fde884aaf6a4aea40c4b50ae3d26d1ce5abbb",
+        "limitations": [
+          "Original product photos retain source resolution.",
+          "6SP36-28 dimensions not provided by source; missing three-phase dimensions/weights not inferred.",
+          "Eta reproduces source graphics; no separate factory test data."
+        ]
+      },
+      "REDPUMP": {
+        "candidate": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG 20261006\\REDPUMP SP - REVIEW 02.pdf",
+        "deliverable": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG 20261006\\REDPUMP SP - 13 TRANG.pdf",
+        "canonical": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Redpump bơm giếng SP (bản mới).pdf",
+        "sha256": "b067902b0ae5e41f19f0095db221942ddd231364694cedfd80edc7418dfc1b28",
+        "canonical_before": null,
+        "backup": null,
+        "page_count": 13,
+        "models": 220,
+        "H_cells": 2218,
+        "dimension_rows": 219,
+        "numeric": "PASS",
+        "visual": "PASS_WITH_ORIGINAL_PHOTO_RESOLUTION_LIMIT",
+        "preservation": "PASS",
+        "paper_print": "NOT_RUN",
+        "canonical_adopted": true,
+        "numeric_report": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\perotac_numeric_independent\\REDPUMP\\review02\\BAO_CAO_8_COT.md",
+        "visual_report": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\perotac_independent\\redpump_review02\\INDEPENDENT_FINAL_8COL.md",
+        "visual_report_sha256": "8cddb767882f9f9a9c56900b9601114d0c26e51d40f5d06f5ee25f8f9659eb2e",
+        "limitations": [
+          "Original product photos retain source resolution.",
+          "6SP36-28 dimensions not provided by source; missing three-phase dimensions/weights not inferred.",
+          "Eta reproduces source graphics; no separate factory test data."
+        ]
+      }
+    }
+  },
+  "approved_data": "D:\\ChatGPT\\Sửa catalogue\\templates\\catalogue\\SP_THREE_BRANDS_V2_20261006\\data_approved.json",
+  "layout_field_maps": [
+    "D:\\ChatGPT\\Sửa catalogue\\templates\\catalogue\\SP_THREE_BRANDS_V2_20261006\\PEROTAC-layout.json",
+    "D:\\ChatGPT\\Sửa catalogue\\templates\\catalogue\\SP_THREE_BRANDS_V2_20261006\\REDPUMP-layout.json"
+  ],
+  "rules": "rules/QUY_TAC_CUNG_HIEN_HANH.md",
+  "single_phase_requires_three_phase_model": true,
+  "do_not_rerun_historical_writer_or_acceptance_scripts": true,
+  "future_edit": "Read latest canonical SHA and claim. Use approved data and existing page field maps; patch only affected cells/curves/labels via catfix. Check all dependent fields and actual changed pages; keep unaffected pages.",
+  "preliminary_dataset_warning": "audit/perotac_dataset.json is historical, superseded by data_approved.json; task133 is H103/72, not110/80.",
+  "source_limits": [
+    "Original photo resolution retained.",
+    "6SP36-28 dimension row missing in source.",
+    "New three-phase model identities do not supply missing dimension/weight/current values.",
+    "Eta reproduced from source graphics, not independent factory test data.",
+    "No paper print inspection."
+  ],
+  "original_149_tasks_progress": "137/149 unchanged",
+  "inventory": {
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\aquaris_accepted.json": {
+      "sha256": "09be54817eb103645e55ccf86a5085c03166f8dab661eeb2cf8030de2fb0edaf",
+      "bytes": 1642
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\perotac_redpump_accepted.json": {
+      "sha256": "b0e187aded58d151fa7a527c011ce90eeed8085091c954e1852466a2e1b2495e",
+      "bytes": 3706
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\perotac_writer\\preservation_v2.json": {
+      "sha256": "e8b8ec99806da86852bbe614015b74c3aa59b52a626ce23eeff632c3eadd5d38",
+      "bytes": 37526
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\aquaris_writer\\phase_rule_readonly\\AQ_PHASE_RULE_8COL.md": {
+      "sha256": "a4d0acc19d4ca1b5c1eeca30a11e16df8c0a5deac35c8a1e5a5170987f23d7c7",
+      "bytes": 1805
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\authority_audit_6sp60_20\\G05_AUTHORITY_8COL.md": {
+      "sha256": "a78303cb5e5abaab8a16cc349c7f930d6568cddc9a3bef425f77f41e546d2711",
+      "bytes": 1752
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\4sp14_4_conditional_refit.json": {
+      "sha256": "b041002152e48cb63463a7de9b75e418113a1d7e69c112622e2b5bfef809ec22",
+      "bytes": 6194
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\4sp14_refit_geometry.json": {
+      "sha256": "0d1e8091bf35546421188293eed626a79063624972e52d90a546ba6893c7b6f5",
+      "bytes": 29307
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\4sp14_refit_geometry_partial.json": {
+      "sha256": "3f61531dec3560325c80fa68c858ff2f9383c978425ae5dfbdaadf746f272697",
+      "bytes": 28735
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\6sp30_17_pdf_tolerance_fix.json": {
+      "sha256": "59c2376ce30e82f1c8ed485f2ad19142a36f54e0193036fe3cfadbccee8ecaed",
+      "bytes": 2326
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\6sp60_20_restore_task133.json": {
+      "sha256": "c2b84697d9a592bf63e6ba4e0cdaae3b79bf98ce114b6c75121991a0fa7e92da",
+      "bytes": 4921
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\alternatives_partial.json": {
+      "sha256": "cfa092a515d7fa7a12b30a88d650a6820f628e41077f376db3681dbda24bdfb8",
+      "bytes": 160054
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\alternatives_without_callout.json": {
+      "sha256": "fcd0efae2fa27e6c2cca1895824d076166497d427b4472e0b39823ad6685c582",
+      "bytes": 160150
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\geometry_alternatives_pass.json": {
+      "sha256": "957fdb83d9a0b39f26cce45ece63604c61ab92688cf7b9574aaca35db6d533f2",
+      "bytes": 164098
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\geometry_alternatives_proof.json": {
+      "sha256": "7a5ca4f60bc656efb1829f55ab12155ae99ca1ae9f409662045c7f76d0b39178",
+      "bytes": 1354
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\geometry_owner_leaders_v2.json": {
+      "sha256": "e97cbf1e92eeae0c653d3bccd8a19462532d5a6706ed4274725ac4832106320a",
+      "bytes": 103815
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\perotac_labels.json": {
+      "sha256": "40a677fc3f94b45df3f5564e5b8ccf7347c5a3dcb9a5b54a9c15e90e23620b2e",
+      "bytes": 467308
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\perotac_labels_partial.json": {
+      "sha256": "366cf904127bfc02c480e2bdbe2f2fd0681632f84631da1aa32747af1af25b76",
+      "bytes": 467212
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\right_panels_conditional.json": {
+      "sha256": "77b86a70219a31b5e8cef9935e46de36612cd050be269fe64eb4a4b5981086fd",
+      "bytes": 63085
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\geometry\\right_panels_conditional_partial.json": {
+      "sha256": "949d845af7b8134fb719def9364e96d6d34ff3607b33f68d15ab3b445062d9cc",
+      "bytes": 62765
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\perotac_numeric_independent\\PEROTAC\\review02\\BAO_CAO_8_COT.md": {
+      "sha256": "a55810712d994479aa85d585b6e246df1d5335df146db905b33b2356a4592ae5",
+      "bytes": 3380
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\perotac_independent\\review02\\INDEPENDENT_FINAL_8COL.md": {
+      "sha256": "c67881e96544c9e8c26a5548de2fde884aaf6a4aea40c4b50ae3d26d1ce5abbb",
+      "bytes": 5308
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG 20261006\\PEROTAC SP - 13 TRANG.pdf": {
+      "sha256": "5c452fc9e01dded447622ebf302690ec2a347b6c114a97946f4f562e93fc48f8",
+      "bytes": 6012178
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\perotac_numeric_independent\\REDPUMP\\review02\\BAO_CAO_8_COT.md": {
+      "sha256": "0c2fca0bca470f2d9f16200d4340012add8752901ad6ad3d0e3362e098d5265a",
+      "bytes": 3021
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\perotac_independent\\redpump_review02\\INDEPENDENT_FINAL_8COL.md": {
+      "sha256": "8cddb767882f9f9a9c56900b9601114d0c26e51d40f5d06f5ee25f8f9659eb2e",
+      "bytes": 4205
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG 20261006\\REDPUMP SP - 13 TRANG.pdf": {
+      "sha256": "b067902b0ae5e41f19f0095db221942ddd231364694cedfd80edc7418dfc1b28",
+      "bytes": 6079449
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG 20261006\\AQUARIS SP - 31 TRANG.pdf": {
+      "sha256": "9b2ca1ba4c429fc098f0f354884b0ce2eeb1f20c4b4994dd9e4f0aefd8ba214e",
+      "bytes": 7269791
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\work\\sp_three_brands\\aquaris_independent\\header_final\\INDEPENDENT_FINAL_8COL.md": {
+      "sha256": "e2218ca70bcc198d55134d5d95f5e1d42305ee8d5f8d4cfc808dfe6e6fc25cee",
+      "bytes": 4380
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\templates\\catalogue\\SP_THREE_BRANDS_V2_20261006\\authoring_history_v2.py": {
+      "sha256": "2887df77fc37a47dbe60a3d03c112ddcabf8514d543b7434adf0ae780b79f7ea",
+      "bytes": 27939
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\templates\\catalogue\\SP_THREE_BRANDS_V2_20261006\\data_approved.json": {
+      "sha256": "134156b7ff3e1d2c8deecd518d769ac05641ae984e6f345480dee43f752d0663",
+      "bytes": 942569
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\templates\\catalogue\\SP_THREE_BRANDS_V2_20261006\\PEROTAC-layout.json": {
+      "sha256": "8db94f40fd2feba9ae554540f57bf3323e720d875d0794f203b8ca27d7b723ca",
+      "bytes": 2483975
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\templates\\catalogue\\SP_THREE_BRANDS_V2_20261006\\qa_readonly.py": {
+      "sha256": "097735c46053ec75244d664e1f0bcb3fb01711042577300f4592b2856451521e",
+      "bytes": 5408
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\templates\\catalogue\\SP_THREE_BRANDS_V2_20261006\\REDPUMP-layout.json": {
+      "sha256": "c1cfb5acd41ab8dcf002f2e041690f48bb1085740f5bab965dd7ddefb816bea4",
+      "bytes": 2483741
+    },
+    "D:\\ChatGPT\\Sửa catalogue\\templates\\catalogue\\SP_THREE_BRANDS_V2_20261006\\user_decisions.json": {
+      "sha256": "9421f956aafa2cfb0727b2dda2584f9360fb03e5109527945e2c12b337b246d1",
+      "bytes": 990
+    }
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "method": "Read-only native-image extraction and diagnostic crops only. No image retouch, no PDF write. Pixel coordinates origin top-left. PDF coordinates top-left.",
+  "aq_source": "D:\\ChatGPT\\Sửa catalogue\\deliverables\\SP BA HANG 20261006\\AQUARIS SP - 31 TRANG.pdf",
+  "aq_sha256": "9b2ca1ba4c429fc098f0f354884b0ce2eeb1f20c4b4994dd9e4f0aefd8ba214e",
+  "aq_primary_photo_instances": 20,
+  "aq_visible_matching_symbol_instances": 12,
+  "aq_faint_suspect_instances": 4,
+  "aq_clean_instances": 4,
+  "groups": [
+    {
+      "group": "A_3SP",
+      "status": "MATCHES_USER_MARK; exact clean patch available from x442",
+      "images": [
+        {
+          "xref": 436,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x436-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref436-native.jpeg",
+          "stamp_rect_native": [
+            22,
+            18,
+            40,
+            34
+          ],
+          "head_pixel_sha256": "60d0fa41df52b4f98f3b88cda86aa499c0d6705fb2c16e1e8df1162725ff1276",
+          "locations": [
+            {
+              "page": 3,
+              "image_bbox_pdf": [
+                53.565120697021484,
+                247.2413330078125,
+                109.2271728515625,
+                747.0165405273438
+              ],
+              "xref": 436,
+              "stamp_bbox_pdf": [
+                71.84221244925882,
+                260.7690829857848,
+                86.79619661018029,
+                272.79374963287125
+              ]
+            }
+          ]
+        },
+        {
+          "xref": 438,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x438-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref438-native.jpeg",
+          "stamp_rect_native": [
+            22,
+            18,
+            40,
+            34
+          ],
+          "head_pixel_sha256": "60d0fa41df52b4f98f3b88cda86aa499c0d6705fb2c16e1e8df1162725ff1276",
+          "locations": [
+            {
+              "page": 4,
+              "image_bbox_pdf": [
+                491.1431884765625,
+                247.2413330078125,
+                546.8052368164062,
+                747.0165405273438
+              ],
+              "xref": 438,
+              "stamp_bbox_pdf": [
+                509.42027897621267,
+                260.7690829857848,
+                524.3742621122901,
+                272.79374963287125
+              ]
+            }
+          ]
+        }
+      ],
+      "head_pixel_identical_all": true
+    },
+    {
+      "group": "B_4SP_ALREADY_CLEAN",
+      "status": "CLEAN_NO_VISIBLE_STAMP",
+      "images": [
+        {
+          "xref": 440,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x440-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref440-native.png",
+          "stamp_rect_native": null,
+          "head_pixel_sha256": "7a5af0bd618bcffd8be19e4b8265b49b230e4029a1160cac19a17a266d1ec9b6",
+          "locations": [
+            {
+              "page": 5,
+              "image_bbox_pdf": [
+                492.3816223144531,
+                247.2413330078125,
+                548.043701171875,
+                747.0165405273438
+              ],
+              "xref": 440
+            }
+          ]
+        },
+        {
+          "xref": 442,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x442-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref442-native.png",
+          "stamp_rect_native": null,
+          "head_pixel_sha256": "7a5af0bd618bcffd8be19e4b8265b49b230e4029a1160cac19a17a266d1ec9b6",
+          "locations": [
+            {
+              "page": 6,
+              "image_bbox_pdf": [
+                53.567039489746094,
+                247.2413330078125,
+                109.22908782958984,
+                747.0165405273438
+              ],
+              "xref": 442
+            }
+          ]
+        },
+        {
+          "xref": 445,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x445-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref445-native.png",
+          "stamp_rect_native": null,
+          "head_pixel_sha256": "7a5af0bd618bcffd8be19e4b8265b49b230e4029a1160cac19a17a266d1ec9b6",
+          "locations": [
+            {
+              "page": 7,
+              "image_bbox_pdf": [
+                492.3816223144531,
+                247.2413330078125,
+                548.043701171875,
+                747.0165405273438
+              ],
+              "xref": 445
+            }
+          ]
+        },
+        {
+          "xref": 447,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x447-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref447-native.png",
+          "stamp_rect_native": null,
+          "head_pixel_sha256": "7a5af0bd618bcffd8be19e4b8265b49b230e4029a1160cac19a17a266d1ec9b6",
+          "locations": [
+            {
+              "page": 8,
+              "image_bbox_pdf": [
+                53.567039489746094,
+                247.2413330078125,
+                109.22908782958984,
+                747.0165405273438
+              ],
+              "xref": 447
+            }
+          ]
+        }
+      ],
+      "head_pixel_identical_all": true
+    },
+    {
+      "group": "C_5SP",
+      "status": "MATCHES_USER_MARK",
+      "images": [
+        {
+          "xref": 450,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x450-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref450-native.jpeg",
+          "stamp_rect_native": [
+            28,
+            57,
+            55,
+            85
+          ],
+          "head_pixel_sha256": "64e570bebe39c9638074f515f4dfc9dfd97f9e0aac2b3c5831ba6636f349d19c",
+          "locations": [
+            {
+              "page": 9,
+              "image_bbox_pdf": [
+                489.2685546875,
+                262.3125305175781,
+                561.7588500976562,
+                737.0590209960938
+              ],
+              "xref": 450,
+              "stamp_bbox_pdf": [
+                512.3336486816406,
+                305.19771270026496,
+                534.5749893188477,
+                326.2641179829883
+              ]
+            },
+            {
+              "page": 10,
+              "image_bbox_pdf": [
+                33.346797943115234,
+                262.3125305175781,
+                105.83711242675781,
+                737.0590209960938
+              ],
+              "xref": 450,
+              "stamp_bbox_pdf": [
+                56.411898006092414,
+                305.19771270026496,
+                78.65324449539185,
+                326.2641179829883
+              ]
+            },
+            {
+              "page": 11,
+              "image_bbox_pdf": [
+                489.2685546875,
+                262.3125305175781,
+                561.7588500976562,
+                737.0590209960938
+              ],
+              "xref": 450,
+              "stamp_bbox_pdf": [
+                512.3336486816406,
+                305.19771270026496,
+                534.5749893188477,
+                326.2641179829883
+              ]
+            },
+            {
+              "page": 12,
+              "image_bbox_pdf": [
+                33.34775924682617,
+                262.3125305175781,
+                105.83807373046875,
+                737.0590209960938
+              ],
+              "xref": 450,
+              "stamp_bbox_pdf": [
+                56.41285930980335,
+                305.19771270026496,
+                78.65420579910278,
+                326.2641179829883
+              ]
+            }
+          ]
+        },
+        {
+          "xref": 455,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x455-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref455-native.jpeg",
+          "stamp_rect_native": [
+            28,
+            57,
+            55,
+            85
+          ],
+          "head_pixel_sha256": "64e570bebe39c9638074f515f4dfc9dfd97f9e0aac2b3c5831ba6636f349d19c",
+          "locations": [
+            {
+              "page": 13,
+              "image_bbox_pdf": [
+                489.2685546875,
+                262.3125305175781,
+                561.7588500976562,
+                737.0590209960938
+              ],
+              "xref": 455,
+              "stamp_bbox_pdf": [
+                512.3336486816406,
+                305.19771270026496,
+                534.5749893188477,
+                326.2641179829883
+              ]
+            }
+          ]
+        }
+      ],
+      "head_pixel_identical_all": true
+    },
+    {
+      "group": "D_6SP",
+      "status": "FAINT_SAME_SYMBOL; lettering unreadable",
+      "images": [
+        {
+          "xref": 458,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x458-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref458-native.jpeg",
+          "stamp_rect_native": [
+            28,
+            58,
+            56,
+            90
+          ],
+          "head_pixel_sha256": "cfccbf7d8d6fd330c28992127a1178eb3720fe7309ed28aa767798318c163835",
+          "locations": [
+            {
+              "page": 14,
+              "image_bbox_pdf": [
+                44.877838134765625,
+                136.00897216796875,
+                110.27183532714844,
+                734.7730102539062
+              ],
+              "xref": 458,
+              "stamp_bbox_pdf": [
+                65.9241820587509,
+                179.5281629060444,
+                86.97052598273618,
+                203.53875089946547
+              ]
+            },
+            {
+              "page": 16,
+              "image_bbox_pdf": [
+                56.26943588256836,
+                136.00897216796875,
+                121.66343688964844,
+                734.7730102539062
+              ],
+              "xref": 458,
+              "stamp_bbox_pdf": [
+                77.31578103427229,
+                179.5281629060444,
+                98.36212618597622,
+                203.53875089946547
+              ]
+            },
+            {
+              "page": 18,
+              "image_bbox_pdf": [
+                44.877838134765625,
+                136.00897216796875,
+                110.27183532714844,
+                734.7730102539062
+              ],
+              "xref": 458,
+              "stamp_bbox_pdf": [
+                65.9241820587509,
+                179.5281629060444,
+                86.97052598273618,
+                203.53875089946547
+              ]
+            },
+            {
+              "page": 20,
+              "image_bbox_pdf": [
+                56.26943588256836,
+                136.00897216796875,
+                121.66343688964844,
+                734.7730102539062
+              ],
+              "xref": 458,
+              "stamp_bbox_pdf": [
+                77.31578103427229,
+                179.5281629060444,
+                98.36212618597622,
+                203.53875089946547
+              ]
+            }
+          ]
+        }
+      ],
+      "head_pixel_identical_all": true
+    },
+    {
+      "group": "E_8_10SP",
+      "status": "MATCHES_USER_MARK",
+      "images": [
+        {
+          "xref": 468,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x468-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref468-native.jpeg",
+          "stamp_rect_native": [
+            43,
+            106,
+            77,
+            135
+          ],
+          "head_pixel_sha256": "25475fe6d70ad7bef44b6bed28ec7e4ef60a40c7458a9b401c2a8199e016bdfa",
+          "locations": [
+            {
+              "page": 22,
+              "image_bbox_pdf": [
+                60.91007995605469,
+                169.87518310546875,
+                148.47216796875,
+                684.4159545898438
+              ],
+              "xref": 468,
+              "stamp_bbox_pdf": [
+                93.36844016765727,
+                249.38148307244214,
+                119.03319010241279,
+                271.13320664831224
+              ]
+            }
+          ]
+        },
+        {
+          "xref": 471,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x471-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref471-native.jpeg",
+          "stamp_rect_native": [
+            43,
+            106,
+            77,
+            135
+          ],
+          "head_pixel_sha256": "25475fe6d70ad7bef44b6bed28ec7e4ef60a40c7458a9b401c2a8199e016bdfa",
+          "locations": [
+            {
+              "page": 24,
+              "image_bbox_pdf": [
+                60.90983963012695,
+                169.88763427734375,
+                148.4716796875,
+                684.4188232421875
+              ],
+              "xref": 471,
+              "stamp_bbox_pdf": [
+                93.36810792725662,
+                249.39245356345663,
+                119.03278518545216,
+                271.1437720473932
+              ]
+            }
+          ]
+        },
+        {
+          "xref": 474,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x474-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref474-native.jpeg",
+          "stamp_rect_native": [
+            43,
+            106,
+            77,
+            135
+          ],
+          "head_pixel_sha256": "25475fe6d70ad7bef44b6bed28ec7e4ef60a40c7458a9b401c2a8199e016bdfa",
+          "locations": [
+            {
+              "page": 26,
+              "image_bbox_pdf": [
+                59.64599609375,
+                168.94525146484375,
+                147.20782470703125,
+                683.4764404296875
+              ],
+              "xref": 474,
+              "stamp_bbox_pdf": [
+                92.10426014867322,
+                248.45007075095663,
+                117.76893405256601,
+                270.2013892348932
+              ]
+            }
+          ]
+        },
+        {
+          "xref": 477,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x477-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref477-native.jpeg",
+          "stamp_rect_native": [
+            43,
+            106,
+            77,
+            135
+          ],
+          "head_pixel_sha256": "25475fe6d70ad7bef44b6bed28ec7e4ef60a40c7458a9b401c2a8199e016bdfa",
+          "locations": [
+            {
+              "page": 28,
+              "image_bbox_pdf": [
+                60.90983963012695,
+                169.88885498046875,
+                148.4716796875,
+                684.4200439453125
+              ],
+              "xref": 477,
+              "stamp_bbox_pdf": [
+                93.36810792725662,
+                249.39367426658163,
+                119.03278518545216,
+                271.1449927505182
+              ]
+            }
+          ]
+        },
+        {
+          "xref": 480,
+          "head_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQ-x480-head-native.png",
+          "full_native_file": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\AQUARIS-xref480-native.jpeg",
+          "stamp_rect_native": [
+            43,
+            106,
+            77,
+            135
+          ],
+          "head_pixel_sha256": "25475fe6d70ad7bef44b6bed28ec7e4ef60a40c7458a9b401c2a8199e016bdfa",
+          "locations": [
+            {
+              "page": 30,
+              "image_bbox_pdf": [
+                60.90983963012695,
+                169.88885498046875,
+                148.4716796875,
+                684.4200439453125
+              ],
+              "xref": 480,
+              "stamp_bbox_pdf": [
+                93.36810792725662,
+                249.39367426658163,
+                119.03278518545216,
+                271.1449927505182
+              ]
+            }
+          ]
+        }
+      ],
+      "head_pixel_identical_all": true
+    }
+  ],
+  "cover_contents": {
+    "cover_page": 1,
+    "cover_xref": 416,
+    "status": "12 miniature product photo instances; mark too small to read, use corresponding cleaned full product assets for new contents",
+    "contents_page": 2,
+    "contents_photo_xrefs": [
+      420,
+      421,
+      423,
+      424,
+      425,
+      427,
+      428,
+      430,
+      431
+    ]
+  },
+  "perotac_redpump": [
+    {
+      "brands": [
+        "PEROTAC",
+        "REDPUMP"
+      ],
+      "page": 1,
+      "xref_both": 25,
+      "displayed_product_bbox_pdf": [
+        335,
+        96,
+        382,
+        445
+      ],
+      "status": "SUSPECT_UNREADABLE_MARK: source resolution and central cable obscure; no clearly readable SUMOTO letters",
+      "full_crop": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\PEROTAC-p01-product-full.png",
+      "head_crop": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\PEROTAC-p01-product-top.png",
+      "shared_image_authority": "Actual technical body PR/RP identical pixel-for-pixel in prior read-only acceptance"
+    },
+    {
+      "brands": [
+        "PEROTAC",
+        "REDPUMP"
+      ],
+      "page": 5,
+      "xref_both": 54,
+      "displayed_product_bbox_pdf": [
+        302,
+        96,
+        412,
+        428
+      ],
+      "status": "SUSPECT_UNREADABLE_MARK: source resolution and central cable obscure; no clearly readable SUMOTO letters",
+      "full_crop": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\PEROTAC-p05-product-full.png",
+      "head_crop": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\PEROTAC-p05-product-top.png",
+      "shared_image_authority": "Actual technical body PR/RP identical pixel-for-pixel in prior read-only acceptance"
+    },
+    {
+      "brands": [
+        "PEROTAC",
+        "REDPUMP"
+      ],
+      "page": 10,
+      "xref_both": 180,
+      "displayed_product_bbox_pdf": [
+        335,
+        96,
+        380,
+        446
+      ],
+      "status": "SUSPECT_UNREADABLE_MARK: source resolution and central cable obscure; no clearly readable SUMOTO letters",
+      "full_crop": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\PEROTAC-p10-product-full.png",
+      "head_crop": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\PEROTAC-p10-product-top.png",
+      "shared_image_authority": "Actual technical body PR/RP identical pixel-for-pixel in prior read-only acceptance"
+    },
+    {
+      "brands": [
+        "PEROTAC",
+        "REDPUMP"
+      ],
+      "page": 12,
+      "xref_both": 200,
+      "displayed_product_bbox_pdf": [
+        335,
+        96,
+        383,
+        447
+      ],
+      "status": "SUSPECT_UNREADABLE_MARK: source resolution and central cable obscure; no clearly readable SUMOTO letters",
+      "full_crop": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\PEROTAC-p12-product-full.png",
+      "head_crop": "D:\\ChatGPT\\Sửa catalogue\\work\\sp_aquaris_redesign_20261006\\assets\\PEROTAC-p12-product-top.png",
+      "shared_image_authority": "Actual technical body PR/RP identical pixel-for-pixel in prior read-only acceptance"
+    }
+  ],
+  "known_limits": "Symbol match to user-provided stamp; low-resolution lettering itself not fully legible. Only user identifies name SUMOTO."
+}

@@ -1,0 +1,37 @@
+﻿PROMPT NHÓM G15 – CDX Perotac
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('CDX Perotac (bản mới).pdf')   (thư mục Trục ngang)
+  Ra:  S.dst('CDX Perotac (bản mới).pdf')   → job = S.job('CDX Perotac (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–5: ẢNH CẢ TRANG ~150dpi
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 114 | SỬA | CDX Perotac.pdf | 4 | Bảng thông số, dòng CDX90/10 | Dòng điện 380V "18" | 1.8 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 115 | SỬA | CDX Perotac.pdf | 5 | Bảng thông số + bảng kích thước | "CDX200/185" lặp 2 hàng với khối lượng/kiện khác nhau (21.3 kg 420x260x295 896 / 20.5 kg 410X260X295 922) | Hàng thứ 2 đổi tên thành CDX200/185-B (cùng kiểu CDX200/150-B) | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 116 | SỬA | CDX Perotac.pdf | 3–5 | Tiêu đề bảng | "Techni cal par ameter list"; "Reted head", "Reted flow"; "(Kw)" | Technical parameter list; Rated; (kW) | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 117 | SỬA | CDX Perotac.pdf | 2 | Bảng linh kiện | "Pump housring component", "O-Rring", "Flanqe Cover Pad", "Spring washar" | housing, O-Ring, Flange, washer | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 118 | SỬA | CDX Perotac.pdf | 4–5 | Biểu đồ | Đường cong đánh số 1–7 / 1–4 nhưng không chú thích số nào là model nào; trang 5 có 5 model nhưng 4 đường | Ghi tên model cho từng đường cong (khớp theo cột áp trong bảng); vẽ thêm đường còn thiếu ở trang 5 | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 119 | SỬA | CDX Perotac.pdf | 1–2 | Chữ | "steelhorizontal" dính chữ; tiêu đề "CDX 90 / 120 /200" cách không đều | Tách chữ, căn lại | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 159 | SỬA | CDX Perotac.pdf | 1 | Phần giải thích ký hiệu model | Số đầu = Rated flow, số cuối = Rated Power | Xoá cả phần này | NV trả lời (file câu hỏi 02/10) |
+| 160 | SỬA | CDX Perotac.pdf | 3–5 | Tên model có số 0 ở đầu | CDX90/05 | CDX90/5 | Quy tắc chung (anh chốt: áp tất cả catalogue) |
+
+Số việc phải SỬA: 8. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- ẢNH QUÉT 150 dpi (5 trang) + lớp chữ ẨN (OCR, Tr 7) – không cần sửa lớp ẩn.
+- Trang 2–5: có nhiều ảnh trùng chỗ; image_at chọn ảnh trên cùng đang hiển thị.
+- #114 trang 4 dòng CDX90/10 cột dòng điện 380V: "18" → "1.8". #115 trang 5: hàng thứ 2 "CDX200/185" → "CDX200/185-B"
+  (ở cả bảng thông số và bảng kích thước).
+- #116 trang 3–5: "Techni cal par ameter list" → "Technical parameter list"; "Reted" → "Rated"; "(Kw)" → "(kW)".
+- #117 trang 2 bảng linh kiện: housring→housing, O-Rring→O-Ring, Flanqe→Flange, washar→washer.
+- #119 trang 1–2: "steelhorizontal" → "steel horizontal"; tiêu đề "CDX 90 / 120 /200" → khoảng cách đều.
+- #159 trang 1: xoá cả phần giải thích ký hiệu model. #160 trang 3–5: "CDX90/05" → "CDX90/5" (và các tên /0x tương tự).
+- #118 trang 4–5 biểu đồ: ghi tên model cho từng đường (ghép theo cột áp ở bảng), vẽ thêm đường còn thiếu ở trang 5
+  (charts.draw_polyline cùng màu/độ dày đường có sẵn) – làm mẫu gửi duyệt.
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G15.png") và báo cáo S.report("BAO CAO G15.md"); ghi S.progress("G15", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

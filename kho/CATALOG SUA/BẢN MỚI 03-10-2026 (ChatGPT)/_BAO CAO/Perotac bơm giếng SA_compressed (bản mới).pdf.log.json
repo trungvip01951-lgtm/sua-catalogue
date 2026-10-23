@@ -1,0 +1,988 @@
+{
+ "src": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 01-10-2026\\Giếng\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+ "dst": "C:\\Users\\H2\\Desktop\\Catalog Sua\\BẢN MỚI 03-10-2026 (ChatGPT)\\Giếng\\Perotac bơm giếng SA_compressed (bản mới).pdf",
+ "edits": [
+  {
+   "page": 0,
+   "rect": [
+    28.32,
+    392.31,
+    42.72,
+    399.51
+   ],
+   "label": "#35 : 2SD -> 2SS",
+   "kind": "raster"
+  },
+  {
+   "page": 0,
+   "rect": [
+    28.32,
+    384.15,
+    48.48,
+    391.35
+   ],
+   "label": "#35 : 2.5SD -> 2.5SS",
+   "kind": "raster"
+  },
+  {
+   "page": 0,
+   "rect": [
+    714.21,
+    434.09,
+    721.41,
+    439.85
+   ],
+   "label": "#36 Nhãn thứ hai 2.5SS1.5/24: 24 -> 17",
+   "kind": "raster"
+  },
+  {
+   "page": 0,
+   "rect": [
+    623.5,
+    49.46,
+    636.46,
+    55.22
+   ],
+   "label": "#37 T = 779 + 787: 1546 -> 1566",
+   "kind": "raster"
+  },
+  {
+   "page": 2,
+   "rect": [
+    719.97,
+    450.41,
+    729.57,
+    456.66
+   ],
+   "label": "#38 3SS2/11 T(T): 752 -> 732",
+   "kind": "raster"
+  },
+  {
+   "page": 2,
+   "rect": [
+    719.49,
+    440.33,
+    729.57,
+    446.57
+   ],
+   "label": "#38 3SS2/15 T(T): 873 -> 843",
+   "kind": "raster"
+  },
+  {
+   "page": 2,
+   "rect": [
+    767.97,
+    278.03,
+    777.09,
+    284.27
+   ],
+   "label": "#39 3SS3/26 M(T): 6.4 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 2,
+   "rect": [
+    767.97,
+    267.94,
+    777.09,
+    274.19
+   ],
+   "label": "#39 3SS3/31 M(T): 7.5 -> 8.7",
+   "kind": "raster"
+  },
+  {
+   "page": 7,
+   "rect": [
+    704.13,
+    321.24,
+    714.69,
+    327.49
+   ],
+   "label": "#40 4SA3/10 T(S): 814 -> 819",
+   "kind": "raster"
+  },
+  {
+   "page": 7,
+   "rect": [
+    703.17,
+    250.18,
+    716.61,
+    256.42
+   ],
+   "label": "#40 4SA3/35 T(S): 1664 -> 1788",
+   "kind": "raster"
+  },
+  {
+   "page": 8,
+   "rect": [
+    223.67,
+    307.32,
+    234.71,
+    313.56
+   ],
+   "label": "#41 4SA8/6 P(mm): 475 -> 513",
+   "kind": "raster"
+  },
+  {
+   "page": 8,
+   "rect": [
+    303.83,
+    307.32,
+    312.95,
+    313.56
+   ],
+   "label": "#41 4SA8/6 P(kg): 3.3 -> 3.9",
+   "kind": "raster"
+  },
+  {
+   "page": 8,
+   "rect": [
+    655.18,
+    344.29,
+    668.14,
+    350.05
+   ],
+   "label": "#42 4SA12/32 P(mm): 2143 -> 2112",
+   "kind": "raster"
+  },
+  {
+   "page": 10,
+   "rect": [
+    153.59,
+    500.35,
+    181.43,
+    509.0
+   ],
+   "label": "#43 Tiêu đề trái: 6SA15 -> 6SA35",
+   "kind": "raster"
+  },
+  {
+   "page": 10,
+   "rect": [
+    334.07,
+    500.35,
+    361.43,
+    509.0
+   ],
+   "label": "#43 Tiêu đề phải: 6SA25 -> 6SA45",
+   "kind": "raster"
+  },
+  {
+   "page": 0,
+   "rect": [
+    78.72,
+    222.33,
+    103.68,
+    230.49
+   ],
+   "label": "#132 : years -> year",
+   "kind": "raster"
+  },
+  {
+   "page": 1,
+   "rect": [
+    78.24,
+    222.81,
+    102.72,
+    230.97
+   ],
+   "label": "#132 : years -> year",
+   "kind": "raster"
+  },
+  {
+   "page": 3,
+   "rect": [
+    79.2,
+    222.33,
+    104.16,
+    230.49
+   ],
+   "label": "#132 : years -> year",
+   "kind": "raster"
+  },
+  {
+   "page": 9,
+   "rect": [
+    79.2,
+    222.33,
+    104.16,
+    230.49
+   ],
+   "label": "#132 : years -> year",
+   "kind": "raster"
+  },
+  {
+   "page": 3,
+   "rect": [
+    554.86,
+    42.74,
+    559.66,
+    48.98
+   ],
+   "label": "#131 4SA2/64 kW: 5 -> 5.5",
+   "kind": "raster"
+  },
+  {
+   "page": 3,
+   "rect": [
+    577.9,
+    43.22,
+    582.22,
+    48.98
+   ],
+   "label": "#131 4SA2/64 HP: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 4,
+   "rect": [
+    122.4,
+    51.38,
+    126.72,
+    57.14
+   ],
+   "label": "#131 4SA3/56 kW: 5 -> 5.5",
+   "kind": "raster"
+  },
+  {
+   "page": 4,
+   "rect": [
+    144.95,
+    51.38,
+    149.75,
+    57.14
+   ],
+   "label": "#131 4SA3/56 HP: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 4,
+   "rect": [
+    554.86,
+    68.67,
+    559.66,
+    74.43
+   ],
+   "label": "#131 4SA4/45 kW: 5 -> 5.5",
+   "kind": "raster"
+  },
+  {
+   "page": 4,
+   "rect": [
+    577.42,
+    68.67,
+    582.22,
+    74.43
+   ],
+   "label": "#131 4SA4/45 HP: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 4,
+   "rect": [
+    554.86,
+    50.9,
+    559.66,
+    56.66
+   ],
+   "label": "#131 4SA4/56 kW: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 5,
+   "rect": [
+    121.92,
+    69.15,
+    126.72,
+    75.39
+   ],
+   "label": "#131 4SA6/38 kW: 5 -> 5.5",
+   "kind": "raster"
+  },
+  {
+   "page": 5,
+   "rect": [
+    144.95,
+    69.15,
+    149.27,
+    75.39
+   ],
+   "label": "#131 4SA6/38 HP: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 5,
+   "rect": [
+    121.92,
+    51.38,
+    126.72,
+    57.62
+   ],
+   "label": "#131 4SA6/47 kW: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 5,
+   "rect": [
+    554.38,
+    69.15,
+    559.18,
+    75.39
+   ],
+   "label": "#131 4SA8/33 kW: 5 -> 5.5",
+   "kind": "raster"
+  },
+  {
+   "page": 5,
+   "rect": [
+    577.42,
+    69.15,
+    581.74,
+    75.39
+   ],
+   "label": "#131 4SA8/33 HP: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 5,
+   "rect": [
+    554.38,
+    51.38,
+    558.7,
+    57.62
+   ],
+   "label": "#131 4SA8/41 kW: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 6,
+   "rect": [
+    121.92,
+    69.63,
+    126.72,
+    75.87
+   ],
+   "label": "#131 4SA10/24 kW: 5 -> 5.5",
+   "kind": "raster"
+  },
+  {
+   "page": 6,
+   "rect": [
+    144.95,
+    69.63,
+    149.27,
+    75.39
+   ],
+   "label": "#131 4SA10/24 HP: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 6,
+   "rect": [
+    122.4,
+    52.34,
+    126.72,
+    58.58
+   ],
+   "label": "#131 4SA10/30 kW: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 6,
+   "rect": [
+    554.86,
+    72.03,
+    559.18,
+    77.79
+   ],
+   "label": "#131 4SA12/23 kW: 5 -> 5.5",
+   "kind": "raster"
+  },
+  {
+   "page": 6,
+   "rect": [
+    577.42,
+    72.03,
+    582.22,
+    77.79
+   ],
+   "label": "#131 4SA12/23 HP: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 6,
+   "rect": [
+    554.86,
+    52.82,
+    559.18,
+    59.06
+   ],
+   "label": "#131 4SA12/29 kW: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 7,
+   "rect": [
+    122.4,
+    72.03,
+    127.2,
+    78.27
+   ],
+   "label": "#131 4SA16/18 kW: 5 -> 5.5",
+   "kind": "raster"
+  },
+  {
+   "page": 7,
+   "rect": [
+    145.43,
+    72.03,
+    149.75,
+    78.27
+   ],
+   "label": "#131 4SA16/18 HP: 7 -> 7.5",
+   "kind": "raster"
+  },
+  {
+   "page": 7,
+   "rect": [
+    122.4,
+    52.82,
+    126.72,
+    59.06
+   ],
+   "label": "#131 4SA16/23 kW: 7 -> 7.5",
+   "kind": "raster"
+  }
+ ],
+ "log": [
+  {
+   "page": 1,
+   "kind": "raster-image",
+   "old": "2SD",
+   "new": "2SS",
+   "box_px": [
+    59,
+    415,
+    89,
+    430
+   ],
+   "align": "left"
+  },
+  {
+   "page": 1,
+   "kind": "raster-image",
+   "old": "2.5SD",
+   "new": "2.5SS",
+   "box_px": [
+    59,
+    432,
+    101,
+    447
+   ],
+   "align": "left"
+  },
+  {
+   "page": 1,
+   "kind": "raster-image",
+   "old": "24",
+   "new": "17",
+   "box_px": [
+    1488,
+    331,
+    1503,
+    343
+   ],
+   "align": "right"
+  },
+  {
+   "page": 1,
+   "kind": "raster-image",
+   "old": "1546",
+   "new": "1566",
+   "box_px": [
+    1299,
+    1132,
+    1326,
+    1144
+   ],
+   "align": "center"
+  },
+  {
+   "page": 3,
+   "kind": "raster-image",
+   "old": "752",
+   "new": "732",
+   "box_px": [
+    1500,
+    296,
+    1520,
+    309
+   ],
+   "align": "center"
+  },
+  {
+   "page": 3,
+   "kind": "raster-image",
+   "old": "873",
+   "new": "843",
+   "box_px": [
+    1499,
+    317,
+    1520,
+    330
+   ],
+   "align": "center"
+  },
+  {
+   "page": 3,
+   "kind": "raster-image",
+   "old": "6.4",
+   "new": "7.5",
+   "box_px": [
+    1600,
+    655,
+    1619,
+    668
+   ],
+   "align": "center"
+  },
+  {
+   "page": 3,
+   "kind": "raster-image",
+   "old": "7.5",
+   "new": "8.7",
+   "box_px": [
+    1600,
+    676,
+    1619,
+    689
+   ],
+   "align": "center"
+  },
+  {
+   "page": 8,
+   "kind": "raster-image",
+   "old": "814",
+   "new": "819",
+   "box_px": [
+    1467,
+    565,
+    1489,
+    578
+   ],
+   "align": "center"
+  },
+  {
+   "page": 8,
+   "kind": "raster-image",
+   "old": "1664",
+   "new": "1788",
+   "box_px": [
+    1465,
+    713,
+    1493,
+    726
+   ],
+   "align": "center"
+  },
+  {
+   "page": 9,
+   "kind": "raster-image",
+   "old": "475",
+   "new": "513",
+   "box_px": [
+    466,
+    594,
+    489,
+    607
+   ],
+   "align": "center"
+  },
+  {
+   "page": 9,
+   "kind": "raster-image",
+   "old": "3.3",
+   "new": "3.9",
+   "box_px": [
+    633,
+    594,
+    652,
+    607
+   ],
+   "align": "center"
+  },
+  {
+   "page": 9,
+   "kind": "raster-image",
+   "old": "2143",
+   "new": "2112",
+   "box_px": [
+    1365,
+    518,
+    1392,
+    530
+   ],
+   "align": "center"
+  },
+  {
+   "page": 11,
+   "kind": "raster-image",
+   "old": "6SA15",
+   "new": "6SA35",
+   "box_px": [
+    320,
+    187,
+    378,
+    205
+   ],
+   "align": "center"
+  },
+  {
+   "page": 11,
+   "kind": "raster-image",
+   "old": "6SA25",
+   "new": "6SA45",
+   "box_px": [
+    696,
+    187,
+    753,
+    205
+   ],
+   "align": "center"
+  },
+  {
+   "page": 1,
+   "kind": "raster-delete-last",
+   "old": "years",
+   "new": "year",
+   "box_px": [
+    164,
+    767,
+    216,
+    784
+   ]
+  },
+  {
+   "page": 2,
+   "kind": "raster-delete-last",
+   "old": "years",
+   "new": "year",
+   "box_px": [
+    163,
+    766,
+    214,
+    783
+   ]
+  },
+  {
+   "page": 4,
+   "kind": "raster-delete-last",
+   "old": "years",
+   "new": "year",
+   "box_px": [
+    165,
+    767,
+    217,
+    784
+   ]
+  },
+  {
+   "page": 10,
+   "kind": "raster-delete-last",
+   "old": "years",
+   "new": "year",
+   "box_px": [
+    165,
+    767,
+    217,
+    784
+   ]
+  },
+  {
+   "page": 4,
+   "kind": "raster-image",
+   "old": "5",
+   "new": "5.5",
+   "box_px": [
+    1156,
+    1145,
+    1166,
+    1158
+   ],
+   "align": "center"
+  },
+  {
+   "page": 4,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    1204,
+    1145,
+    1213,
+    1157
+   ],
+   "align": "center"
+  },
+  {
+   "page": 5,
+   "kind": "raster-image",
+   "old": "5",
+   "new": "5.5",
+   "box_px": [
+    255,
+    1128,
+    264,
+    1140
+   ],
+   "align": "center"
+  },
+  {
+   "page": 5,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    302,
+    1128,
+    312,
+    1140
+   ],
+   "align": "center"
+  },
+  {
+   "page": 5,
+   "kind": "raster-image",
+   "old": "5",
+   "new": "5.5",
+   "box_px": [
+    1156,
+    1092,
+    1166,
+    1104
+   ],
+   "align": "center"
+  },
+  {
+   "page": 5,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    1203,
+    1092,
+    1213,
+    1104
+   ],
+   "align": "center"
+  },
+  {
+   "page": 5,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    1156,
+    1129,
+    1166,
+    1141
+   ],
+   "align": "center"
+  },
+  {
+   "page": 6,
+   "kind": "raster-image",
+   "old": "5",
+   "new": "5.5",
+   "box_px": [
+    254,
+    1090,
+    264,
+    1103
+   ],
+   "align": "center"
+  },
+  {
+   "page": 6,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    302,
+    1090,
+    311,
+    1103
+   ],
+   "align": "center"
+  },
+  {
+   "page": 6,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    254,
+    1127,
+    264,
+    1140
+   ],
+   "align": "center"
+  },
+  {
+   "page": 6,
+   "kind": "raster-image",
+   "old": "5",
+   "new": "5.5",
+   "box_px": [
+    1155,
+    1090,
+    1165,
+    1103
+   ],
+   "align": "center"
+  },
+  {
+   "page": 6,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    1203,
+    1090,
+    1212,
+    1103
+   ],
+   "align": "center"
+  },
+  {
+   "page": 6,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    1155,
+    1127,
+    1164,
+    1140
+   ],
+   "align": "center"
+  },
+  {
+   "page": 7,
+   "kind": "raster-image",
+   "old": "5",
+   "new": "5.5",
+   "box_px": [
+    254,
+    1089,
+    264,
+    1102
+   ],
+   "align": "center"
+  },
+  {
+   "page": 7,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    302,
+    1090,
+    311,
+    1102
+   ],
+   "align": "center"
+  },
+  {
+   "page": 7,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    255,
+    1125,
+    264,
+    1138
+   ],
+   "align": "center"
+  },
+  {
+   "page": 7,
+   "kind": "raster-image",
+   "old": "5",
+   "new": "5.5",
+   "box_px": [
+    1156,
+    1085,
+    1165,
+    1097
+   ],
+   "align": "center"
+  },
+  {
+   "page": 7,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    1203,
+    1085,
+    1213,
+    1097
+   ],
+   "align": "center"
+  },
+  {
+   "page": 7,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    1156,
+    1124,
+    1165,
+    1137
+   ],
+   "align": "center"
+  },
+  {
+   "page": 8,
+   "kind": "raster-image",
+   "old": "5",
+   "new": "5.5",
+   "box_px": [
+    255,
+    1084,
+    265,
+    1097
+   ],
+   "align": "center"
+  },
+  {
+   "page": 8,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    303,
+    1084,
+    312,
+    1097
+   ],
+   "align": "center"
+  },
+  {
+   "page": 8,
+   "kind": "raster-image",
+   "old": "7",
+   "new": "7.5",
+   "box_px": [
+    255,
+    1124,
+    264,
+    1137
+   ],
+   "align": "center"
+  }
+ ]
+}

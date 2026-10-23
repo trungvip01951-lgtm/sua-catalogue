@@ -1,0 +1,39 @@
+﻿PROMPT NHÓM G05 – Perotac SP
+(Dán sau PROMPT CHUNG, trong cùng cuộc trò chuyện. Làm đủ mọi việc dưới đây rồi báo cáo theo mẫu.)
+
+FILE CẦN DÙNG (S = Session() ở BƯỚC 0: tự tìm file trên máy anh Trung, hoặc trong /mnt/data nếu anh tải lên;
+file ra CÙNG TÊN, ghi vào thư mục "BẢN MỚI 03-10-2026 (ChatGPT)" – không bao giờ ghi đè file vào):
+- Vào: S.src('Perotac bơm giếng SP_compressed (bản mới).pdf')   (thư mục Giếng)
+  Ra:  S.dst('Perotac bơm giếng SP_compressed (bản mới).pdf')   → job = S.job('Perotac bơm giếng SP_compressed (bản mới).pdf')
+  Loại trang (đã kiểm): trang 1–12: ẢNH CẢ TRANG ~150dpi
+
+DANH SÁCH VIỆC (mã # theo file phương án; trang = số trang PDF, bắt đầu từ 1):
+
+| # | Làm | File | Trang | Vị trí | Đang ghi | Sửa thành | Căn cứ |
+|---|---|---|---|---|---|---|---|
+| 47 | SỬA | Perotac bơm giếng SP_compressed.pdf | 5 | Bảng 6SP30, dòng 6SP30-6, cột 6 m³/h | 57 (thấp hơn cột 12 m³/h = 63) | ≈67 (theo tỉ lệ tầng; chốt số cho đường cong mượt – xem PROMPT CHUNG mục CHỐT SỐ) | Anh Trung chốt 02/10 (ước theo tỉ lệ, kết quả hợp lý) |
+| 48 | SỬA | Perotac bơm giếng SP_compressed.pdf | 8 | Bảng kích thước 6SP46, dòng 6SP46-7 | T(T) 1767 (1063 + 764 = 1827) | 1827 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 49 | SỬA | Perotac bơm giếng SP_compressed.pdf | 9 | Bảng 8SP77, dòng 8SP77-9, cột 24 m³/h | 1750 | 175 | Đề xuất trong danh sách lỗi – anh đồng ý (câu 28) |
+| 50 | GIỮ NGUYÊN (không đụng) | Perotac bơm giếng SP_compressed.pdf | 1,4,9,11 | Tiêu đề trang | Chữ "4SP/6SP/8SP/10SP" khác kiểu chữ với các catalogue Perotac SA | Giữ nguyên (không có kiểu chữ đó để chép chữ "P") | Em tự quyết theo anh cho phép (số đồng bộ, hợp lý) |
+| 132 | SỬA | Perotac bơm giếng SP_compressed.pdf | SA, SL: 1, 2, 4, 10; SP: 1, 4, 9, 11 | Mục "Warranty" | SA, SL: "1 years"; SP: "2 years" | Warranty: 1 year (Perotac, Redpump bảo hành 1 năm) | NV trả lời (file câu hỏi 02/10) |
+| 133 | SỬA | Perotac bơm giếng SP_compressed.pdf | 7 | Bảng 6SP60, hàng 6SP60-20, 2 cột lưu lượng cuối | 110 / 80 | 103 / 72 (theo tỉ lệ tầng – sửa cho đồng bộ) | Em đề xuất theo chốt mới của anh (trước NV chọn để yên) |
+| 134 | GIỮ NGUYÊN (không đụng) | Perotac bơm giếng SP_compressed.pdf | 8 | Bảng khối lượng 6SP46 | 38.4 – 40.6 – 42.8 – 47.2 | Giữ nguyên | NV trả lời (file câu hỏi 02/10) |
+| 135 | SỬA | Perotac bơm giếng SP_compressed.pdf | 1, 4, 9, 11 | Bảng vật liệu – Shaft, Shaft coupling | Trục AISI 431 / Khớp nối AISI 304 (trang 9 có thêm ②AISI 316) | AISI 316 SS cho cả 2 hàng | Anh Trung chốt 02/10 |
+
+Số việc phải SỬA: 6. Việc GIỮ NGUYÊN / ĐÃ XONG chỉ cần xác nhận "không đụng" trong báo cáo.
+
+LƯU Ý KỸ THUẬT RIÊNG (đã phân tích trên file thật):
+- ẢNH QUÉT 150 dpi. Trang 1, 4, 9, 11 có thêm 1 lớp ảnh chỉ hiện trong nét chữ tiêu đề (TEXT-CLIPPED) –
+  image_at tự bỏ qua lớp này; sửa trên ảnh chính.
+- #47 trang 5, 6SP30-6 cột 6 m³/h: 57 → chốt theo tỉ lệ (≈67) như cách G01.
+- #48 trang 8, 6SP46-7: T(T) 1767 → 1827.  #49 trang 9, 8SP77-9 cột 24 m³/h: 1750 → 175 (căn giữa ô).
+- #133 trang 7, 6SP60-20, 2 cột lưu lượng cuối: 110 / 80 → 103 / 72.
+- #132 trang 1, 4, 9, 11: "Warranty: 2 years" → "Warranty: 1 year" (đổi '2'→'1', xoá 's').
+- #135 trang 1, 4, 9, 11 bảng vật liệu: hàng Shaft và Shaft coupling → "AISI 316 SS" (trang 9 có thêm "②AISI 316" –
+  bỏ để ô chỉ còn "AISI 316 SS"). Chữ cần: A, I, S, 3, 1, 6 – lấy từ cùng bảng.
+- #50, #134: giữ nguyên.
+
+ĐÃ DÒ THỬ BẰNG catfix (để bạn đối chiếu – toạ độ pt, gốc dưới trái; n = số chỗ tìm thấy):
+- Perotac bơm giếng SP_compressed.pdf, trang 8, tìm '1767' → n=1 "1767 | 18.6" tại [713.9, 401.1, 726.9, 406.9]
+
+KẾT THÚC NHÓM: chạy NGHIỆM THU CUỐI NHÓM (PROMPT CHUNG); lưu ảnh S.report("So sanh G05.png") và báo cáo S.report("BAO CAO G05.md"); ghi S.progress("G05", "XONG" hoặc "CHƯA XONG", "a/b ĐẠT, ..."); rồi báo anh theo MẪU BÁO CÁO.

@@ -1,0 +1,1 @@
+{"viec": "BL_WATER_PUMP_QA_DOC_LAP", "phien": "CODEX_QA_BL_WATER_20261013", "luc": "20261013T044441Z", "pham_vi": "Tách tên ảnh QA nguồn V5/V6 và xác minh hash bằng chứng FAIL V5; chỉ file QA riêng", "nha_luc": "20261013T044442Z", "ghi_chu": "QA V5/V6 và mọi ảnh bằng chứng đọc lại/hash khớp; scope PASS V6, native drag UI NOT_RUN"}
