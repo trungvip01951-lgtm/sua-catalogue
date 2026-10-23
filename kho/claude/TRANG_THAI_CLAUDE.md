@@ -11,6 +11,7 @@ Mốc đọc nhanh đầu phiên, không phải sổ tiến độ. Thẩm quyề
 - Mỗi lệnh shell ≤ 170 giây; tiến trình nền bị dừng khi lệnh kết thúc; trong kho không xoá được bằng rm.
 - Sổ CATALOG SUA/BẢN MỚI 03-10-2026 (ChatGPT)/_BAO CAO/TIEN DO.md và state/CURRENT_CHECKPOINT.md: chỉ grep theo từ khoá.
 - Xem PDF: xuất PNG vào claude/_xem/xem_1…8.png (tên cố định, ghi đè), 110 dpi cả trang, 250–300 dpi vùng cắt.
+- Đám mây (từ 23/10): kho ở GitHub riêng tư trungvip01951-lgtm/sua-catalogue, thư mục kho/. Setup script môi trường cài tesseract-ocr + qpdf, nối `$HOME/mnt/Sửa catalogue` → /home/user/sua-catalogue/kho, chạy `dau_phien.sh env` (wheels offline chỉ hợp Python 3.10 → tải mạng bản mới, QĐ 23/10). Làm xong phải commit + push; máy anh `git pull` trước khi làm. Kho có `.gitattributes` `* -text` để giữ CRLF, nếu bỏ thì niêm phong lệch.
 
 ## 2. Nơi gốc dữ liệu
 
@@ -49,3 +50,5 @@ Mốc đọc nhanh đầu phiên, không phải sổ tiến độ. Thẩm quyề
 - Không xoá tệp: tệp bỏ thì mv sang archive/ và ghi archive/DA_CHUYEN_<ngày>.csv (đường cũ, đường mới, lý do).
 - Không bao giờ dọn rules/, DU_LIEU/, KHO_ANH/, templates/, CATALOG SUA/ (bài học 12/10: mã dựng trong work/ bị xoá nhầm).
 - Nháp: $HOME/claude_work/<việc> (ngoài kho). Cuối phiên: ghi đè mục 4 + bàn giao ngắn claude/BAN_GIAO_<UTC>.md ≤ 2 KB.
+
+- 23/10 (phiên CLAUDE_20261023T0255Z): đưa kho lên đám mây (claude/QUYET_DINH_ANH_20261023.md). Đám mây: 43/43 ĐẠT, môi trường 4/4, controls.changed rỗng (sau khi anh đẩy lại giữ CRLF). Không sửa catalogue nào.
