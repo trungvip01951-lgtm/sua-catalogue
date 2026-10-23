@@ -11,7 +11,7 @@ Mốc đọc nhanh đầu phiên, không phải sổ tiến độ. Thẩm quyề
 - Mỗi lệnh shell ≤ 170 giây; tiến trình nền bị dừng khi lệnh kết thúc; trong kho không xoá được bằng rm.
 - Sổ CATALOG SUA/BẢN MỚI 03-10-2026 (ChatGPT)/_BAO CAO/TIEN DO.md và state/CURRENT_CHECKPOINT.md: chỉ grep theo từ khoá.
 - Xem PDF: xuất PNG vào claude/_xem/xem_1…8.png (tên cố định, ghi đè), 110 dpi cả trang, 250–300 dpi vùng cắt.
-- Đám mây (từ 23/10): kho ở GitHub riêng tư trungvip01951-lgtm/sua-catalogue, thư mục kho/. Setup script môi trường cài tesseract-ocr + qpdf, nối `$HOME/mnt/Sửa catalogue` → /home/user/sua-catalogue/kho, chạy `dau_phien.sh env` (wheels offline chỉ hợp Python 3.10 → tải mạng bản mới, QĐ 23/10). Làm xong phải commit + push; máy anh `git pull` trước khi làm. Kho có `.gitattributes` `* -text` để giữ CRLF, nếu bỏ thì niêm phong lệch.
+- Đám mây (từ 23/10): kho ở GitHub riêng tư trungvip01951-lgtm/sua-catalogue, thư mục kho/. Hook .claude/hooks/session-start.sh (gốc repo) tự cài tesseract-ocr + qpdf, nối `$HOME/mnt/Sửa catalogue` → /home/user/sua-catalogue/kho, chạy `dau_phien.sh env` (wheels offline chỉ hợp Python 3.10 → tải mạng bản mới, QĐ 23/10). Làm xong phải commit + push; máy anh `git pull` trước khi làm. Kho có `.gitattributes` `* -text` để giữ CRLF, nếu bỏ thì niêm phong lệch.
 
 ## 2. Nơi gốc dữ liệu
 
