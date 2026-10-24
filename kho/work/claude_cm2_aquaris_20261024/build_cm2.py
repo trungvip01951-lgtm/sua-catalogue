@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """AQUARIS CM 32-250/7.5 + CM 40-160/4 — catalogue riêng 1 trang A4 dọc 595x842 (24/10/2026, phiên CLAUDE_20261024T0100Z).
 Lệnh anh: "Làm cho a catalogue aquaris cm 2 mã này nhé" (ảnh báo giá) + "Theo báo giá" + "Làm catalogue cho 2 mã này thôi song gửi a".
-Số: CM2.xlsx (mk_xlsx.py). Chữ: lấy bằng mã từ CATALOG SUA/CATALOGUE DA DUYET/AQUARIS/AQUARIS - Bơm trục ngang CM.pdf tr.3;
+Số: CM2.xlsx (mk_xlsx.py). Bảng ngang (QĐ 160): qh/bang.pdf vẽ với --ho-so HO_SO_HANG_bang_ngang.json (AQUARIS bang.huong = model_theo_dong). Chữ: lấy bằng mã từ CATALOG SUA/CATALOGUE DA DUYET/AQUARIS/AQUARIS - Bơm trục ngang CM.pdf tr.3;
 cánh bơm "Cast iron" theo báo giá ("Cánh quạt: Gang"). Ảnh KHO_ANH/Bom_truc_ngang_CM/29357a5db185.jpeg, logo 01e988048331.jpeg.
 Dùng: python build_cm2.py <gốc kho> <thư mục làm> <tệp ra>
 """
@@ -84,24 +84,27 @@ for i, (a, b) in enumerate(MAT):
     txt(x, y, a, 8); txt(x + cw - 8, y, b, 8, True, align='r')
     p.draw_line((x, y + 3.5), (x + cw - 8, y + 3.5), color=LINE, width=0.4)
 
-# ---- cột trái chữ, cột phải biểu đồ
-LW = 262; y = 206
+# ---- chữ 2 cột: trái SCOPE + STANDARD, phải PUMP + MOTOR
+LW = 262; RX = MR - LW; y = 206
 heading(ML, y, 'SCOPE OF APPLICATION', LW); y = para(ML, y + 17, SCOPE, LW)
-heading(ML, y + 8, 'PUMP', LW); y = para(ML, y + 25, PUMP, LW)
-heading(ML, y + 8, 'MOTOR', LW); y = para(ML, y + 25, MOTOR_T, LW); txt(ML, y, VOLT, 9); y += 11.7
 heading(ML, y + 8, 'STANDARD', LW); y += 25
-for s in STD: txt(ML, y, s, 9); y += 11.7
-assert y < 478, y
-CX = MR - 262
-heading(CX, 206, 'PERFORMANCE CURVES', 262)
-p.show_pdf_page(pymupdf.Rect(CX, 214, MR, 464), pymupdf.open(W + '/qh/bieu_do.pdf'), 0)
+for s_ in STD: txt(ML, y, s_, 9); y += 11.7
+yr = 206
+heading(RX, yr, 'PUMP', LW); yr = para(RX, yr + 17, PUMP, LW)
+heading(RX, yr + 8, 'MOTOR', LW); yr = para(RX, yr + 25, MOTOR_T, LW); txt(RX, yr, VOLT, 9); yr += 11.7
+y = max(y, yr); assert y < 372, y
 
-# ---- bảng
-heading(ML, 494, 'PERFORMANCE DATA', MR - ML)
-txt(MR, 494, 'Three-phase 3~ 380–415 V   ·   50 Hz', 8, False, MUTE, 'r')
+# ---- biểu đồ rộng hết khổ
+HC = y + 16
+heading(ML, HC, 'PERFORMANCE CURVES', MR - ML)
+p.show_pdf_page(pymupdf.Rect(ML, HC + 10, MR, 664), pymupdf.open(W + '/qh/bieu_do.pdf'), 0)
+
+# ---- bảng ngang (mỗi model một dòng, QĐ 160)
+heading(ML, 684, 'PERFORMANCE DATA', MR - ML)
+txt(MR, 684, 'Three-phase 3~ 380–415 V   ·   50 Hz', 8, False, MUTE, 'r')
 tb = pymupdf.open(W + '/qh/bang.pdf'); tr = tb[0].rect
-p.show_pdf_page(pymupdf.Rect(ML, 504, ML + tr.width, 504 + tr.height), tb, 0)
-y = 504 + tr.height + 13
+p.show_pdf_page(pymupdf.Rect(ML, 694, ML + tr.width, 694 + tr.height), tb, 0)
+y = 694 + tr.height + 14
 txt(ML, y, SUCT, 9, False, MUTE)
 for l in wrap(AVG, 9, (MR - ML) * 0.62): y += 11.7; txt(ML, y, l, 9, False, MUTE)
 assert y < 804, y

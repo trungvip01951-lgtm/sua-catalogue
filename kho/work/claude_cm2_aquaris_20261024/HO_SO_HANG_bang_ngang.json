@@ -1,0 +1,165 @@
+{
+ "_ghi_chu": "Bộ giá trị thiết kế theo hãng (máy đọc). Bản người đọc: rules/HO_SO_HANG.md. Duyệt 13/10/2026 (claude/PHUONG_AN_DA_DUYET_20261013.md). Màu đo từ 62 bản đã duyệt.",
+ "phien_ban": "2026.10.13",
+ "chung": {
+  "kho_A4_doc": [
+   595,
+   842
+  ],
+  "kho_A4_ngang": [
+   842,
+   595
+  ],
+  "le_mm": [
+   12,
+   15
+  ],
+  "luoi_cot": 12,
+  "co_chu_pt": {
+   "tieu_de_trang_min": 16,
+   "than_min": 9,
+   "bang_min": 7,
+   "bang_nen": 8,
+   "nhan_truc_min": 7,
+   "nhan_duong_min": 7
+  },
+  "net_duong_pt_min": 1.5,
+  "luoi_chinh_pt": 0.5,
+  "tuong_phan": {
+   "chu": 4.5,
+   "chu_lon_va_net": 3.0
+  },
+  "so_duong_toi_da_moi_bieu_do": 8,
+  "khoang_trong_lien_toi_da": 0.1,
+  "dung_luong_mb": {
+   "muc_tieu": 5,
+   "toi_da": 10
+  },
+  "anh": {
+   "ppi_min": 200,
+   "ppi_bia_min": 300,
+   "canh_dai_goc_px_min": 1000,
+   "ty_le_khung": [
+    0.8,
+    0.85
+   ],
+   "bong_do_duc": [
+    0.15,
+    0.25
+   ]
+  },
+  "khoi_dieu_kien_duong_cong": "Curves at 50 Hz, 2 poles (≈ 2900 min⁻¹), clean water at 20 °C, kinematic viscosity 1 mm²/s. Typical values, not guaranteed.",
+  "okabe_ito_bo_vang": [
+   "#0072B2",
+   "#D55E00",
+   "#009E73",
+   "#CC79A7",
+   "#56B4E9",
+   "#E69F00",
+   "#000000"
+  ],
+  "chu_cam": [
+   "warranty",
+   "guarantee period",
+   "60 Hz",
+   "60Hz",
+   "weight",
+   "kg"
+  ],
+  "dien": {
+   "mot_pha": "1~ 220–240 V 50 Hz",
+   "ba_pha": "3~ 380–415 V 50 Hz",
+   "mot_pha_kw_toi_da": 3
+  },
+  "nguong_giong_giao_dien": 0.6,
+  "_ghi_chu": "13/10/2026: dien.mot_pha_kw_toi_da (mã 1 pha tối đa 3 kW) và nguong_giong_giao_dien (độ giống ảnh giữa 2 hãng > 0,6 là CHƯA ĐẠT, dùng cho mục 9 của tools/kiem_catalogue.py) là ĐỀ XUẤT, chưa anh duyệt."
+ },
+ "hang": {
+  "AQUARIS": {
+   "kho": "A4_doc",
+   "phong": [
+    "Lato"
+   ],
+   "mau": {
+    "chinh": "#0D6159",
+    "nen": "#F0F7F5",
+    "co_y": [
+     "#009246",
+     "#FFFFFF",
+     "#CE2B37"
+    ]
+   },
+   "do_hoa_phu": "dai_co_y",
+   "bia": "anh_tren_trai_o_so_lieu_noi_bat",
+   "bieu_do": {
+    "mau_duong": "moi_model_mot_mau_okabe_ito",
+    "nhan": "so_khoanh_tron_va_chu_giai",
+    "truc_H": "trai",
+    "nen": "#FFFFFF"
+   },
+   "bang": {
+    "huong": "model_theo_dong",
+    "ke": "ngang_manh"
+   },
+   "anh": {
+    "nen": "#FFFFFF",
+    "bong": "tiep_xuc_mo"
+   }
+  },
+  "PEROTAC": {
+   "kho": "A4_ngang",
+   "phong": [
+    "Liberation Sans"
+   ],
+   "mau": {
+    "chinh": "#13334D",
+    "duong": "#1A669E",
+    "nen": "#EDF5FA"
+   },
+   "do_hoa_phu": "bang_dau_trang_xanh_nhat",
+   "bia": "logo_trai_chia_3_cot",
+   "bieu_do": {
+    "mau_duong": "mot_tong_xanh",
+    "nhan": "ten_model_dau_trai_duong",
+    "truc_H": "trai",
+    "nen": "#FFFFFF"
+   },
+   "bang": {
+    "huong": "model_theo_dong",
+    "ke": "day_du_manh"
+   },
+   "anh": {
+    "nen": "#FFFFFF",
+    "bong": "khong"
+   }
+  },
+  "REDPUMP": {
+   "kho": "A4_ngang",
+   "phong": [
+    "Liberation Sans"
+   ],
+   "mau": {
+    "chinh": "#2B2E33",
+    "nhan": "#A31A1F",
+    "nen": "#F7F2F0",
+    "nen_bieu_do": "#F4F4F4"
+   },
+   "do_hoa_phu": "cot_toi_trai_28_30_phan_tram",
+   "bia": "cot_toi_trai_ten_dong_dai_hieu_nang_anh_phai",
+   "bieu_do": {
+    "mau_duong": "do_xam",
+    "nhan": "ten_model_trong_o_mau_cuoi_phai_duong",
+    "truc_H": "phai",
+    "nen": "#F4F4F4"
+   },
+   "bang": {
+    "huong": "model_theo_dong",
+    "ke": "dau_bang_toi_chu_trang_soc_xam"
+   },
+   "anh": {
+    "nen": "#FFFFFF",
+    "bong": "do_duoi_de"
+   }
+  }
+ }
+}
