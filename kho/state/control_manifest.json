@@ -1,5 +1,5 @@
 {
-  "sealed_utc": "2026-10-23T04:39:35.269263+00:00",
+  "sealed_utc": "2026-10-24T09:12:07.358540+00:00",
   "files": [
     {
       "relative_path": "README.md",
@@ -288,8 +288,8 @@
     },
     {
       "relative_path": "rules/LOI_DA_GAP.md",
-      "sha256": "4ab967b401aa87699347b80a7df6ccfee9a0e9fe215684ddba6350438903150d",
-      "bytes": 7629
+      "sha256": "682a213f3803d2339e1bf089e346481aa640352a23d55f0d711b593d5f7aa37e",
+      "bytes": 8256
     },
     {
       "relative_path": "tools/kiem_catalogue.py",
@@ -298,8 +298,8 @@
     },
     {
       "relative_path": "tools/ve_duong_cong.py",
-      "sha256": "006bbd6fbff85e9b56b559c0bcbd9e40e21a849745cee1e7ab21ed05281bb75d",
-      "bytes": 80202
+      "sha256": "636c64b887843904e637e981e4d6e388d922fc31593d3663edfcbeab7e78762f",
+      "bytes": 80489
     },
     {
       "relative_path": "tools/nhan_ban_chinh.py",
@@ -313,8 +313,8 @@
     },
     {
       "relative_path": "tools/test_ve_duong_cong.py",
-      "sha256": "65eac831746df259a2ee25d6512fa0c8092a77890f049aa1361f57d424de65b5",
-      "bytes": 26772
+      "sha256": "86c78a1914e8eda54d86bad242e4ba2965f47e7776100673954aaa10afcb96b1",
+      "bytes": 28946
     },
     {
       "relative_path": "tools/niem_phong.py",

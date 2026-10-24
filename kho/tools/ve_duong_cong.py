@@ -1247,6 +1247,14 @@ def _h_tai(md, q):
     return None
 
 
+def _o_h(md, q):
+    """Chữ ô H: Q ngoài dải chạy của model -> "–" (QTH 4.7, CTB 3.2); trong dải mà thiếu số -> trống (lộ lỗi dữ liệu)."""
+    qs = [p[0] for p in md['diem']]
+    if qs and (q < min(qs) - 1e-9 or q > max(qs) + 1e-9):
+        return '–'
+    return fmt(_h_tai(md, q))
+
+
 def dung_bang(S, ph, ds, W, canh_bao, bo_cot_a=False):
     """Dựng lưới bảng (chưa vẽ). Thử cỡ bang_nen rồi bang_min; không vừa thì báo cần tách."""
     cot_q = sorted({p[0] for md in ds for p in md['diem']})
@@ -1298,7 +1306,7 @@ def dung_bang(S, ph, ds, W, canh_bao, bo_cot_a=False):
                         [ph.rong(f(md), co, dam) for md in ds]) + 2 * pad for a, b, f, _, dam in tt]
             w_dv = max(ph.rong(s, co, True) for s in dv) + 2 * pad
             w_q = max([ph.rong(fmt(q), co, True) for q in cot_q] + [ph.rong(fmt(round(q * LMIN)), co) for q in cot_q] +
-                      [ph.rong(fmt(_h_tai(md, q)), co) for md in ds for q in cot_q]) + 2 * pad
+                      [ph.rong(_o_h(md, q), co) for md in ds for q in cot_q]) + 2 * pad
             tong = sum(w_tt) + w_dv + w_q * len(cot_q)
             if tong <= W:
                 k = min(GIAN_BANG_TOI_DA, W / tong)      # giãn đều mọi cột, tối đa 3 lần
@@ -1312,7 +1320,7 @@ def dung_bang(S, ph, ds, W, canh_bao, bo_cot_a=False):
             w1 = max([ph.rong(b, co, True) for _, b, *_ in nh] + [ph.rong(dv[1], co, True)] +
                      [ph.rong(fmt(round(q * LMIN)), co) for q in cot_q]) + 2 * pad
             w_m = max([ph.rong(f(md), co, dam) for _, _, f, _, dam in nh for md in ds] +
-                      [ph.rong(fmt(_h_tai(md, q)), co) for md in ds for q in cot_q] + [co + 5]) + 2 * pad
+                      [ph.rong(_o_h(md, q), co) for md in ds for q in cot_q] + [co + 5]) + 2 * pad
             tong = w0 + w1 + w_m * len(ds)
             if tong <= W:
                 k = min(GIAN_BANG_TOI_DA, W / tong)
@@ -1378,7 +1386,7 @@ def ve_bang(K, S, B, x0, y0, mau_so=None):
                 K.chu_giua_o(o(c, c + 1, 2 + k, 3 + k, ys), f(md), co, chu, nen, dam, canh)
             for j, q in enumerate(B['cot_q']):
                 c = n_tt + 1 + j
-                K.chu_giua_o(o(c, c + 1, 2 + k, 3 + k, ys), fmt(_h_tai(md, q)), co, chu, nen, False, 'phai')
+                K.chu_giua_o(o(c, c + 1, 2 + k, 3 + k, ys), _o_h(md, q), co, chu, nen, False, 'phai')
         K.chu_giua_o(o(cdv, cdv + 1, 2, B['so_hang'], ys), B['dv'][2], co, chu, TRANG, True, 'trai')
         # kẻ
         if ke == 'day_du_manh':
@@ -1434,7 +1442,7 @@ def ve_bang(K, S, B, x0, y0, mau_so=None):
         K.chu_giua_o(o(0, 1, rr, rr + 1, ys), fmt(q), co, chu, nen_nhan, False, 'phai')
         K.chu_giua_o(o(1, 2, rr, rr + 1, ys), fmt(round(q * LMIN)), co, chu, nen_nhan, False, 'phai')
         for j, md in enumerate(B['ds']):
-            K.chu_giua_o(o(2 + j, 3 + j, rr, rr + 1, ys), fmt(_h_tai(md, q)), co, chu, TRANG, False, 'phai')
+            K.chu_giua_o(o(2 + j, 3 + j, rr, rr + 1, ys), _o_h(md, q), co, chu, TRANG, False, 'phai')
     for k in range(2, B['so_hang']):
         if k in (r_dv, r_dv + 1):
             continue

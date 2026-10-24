@@ -159,17 +159,37 @@ def kiem_pdf(path, hang, ho_so=None):
                 loi.append(f'tr.{so}: phông {basefont} không rút gọn')
             if ho.lower() not in basefont.replace(' ', '').lower():
                 loi.append(f'tr.{so}: phông {basefont} khác hồ sơ hãng ({ho})')
-        # 5. "–" chỉ ở cột / hàng Model 1~
+        # 5. "–" chỉ ở cột / hàng Model 1~, hoặc ở đầu/cuối dãy H của một model (ngoài dải chạy, QTH 4.7, CTB 3.2);
+        #    "–" nằm giữa hai số H của cùng model là lỗi.
         gach = [sp for sp in spans if sp['t'].strip() == '–']
         if gach:
-            if HS['hang'][hang]['bang']['huong'] == 'model_theo_cot':
-                mot = [sp for sp in spans if sp['t'].strip() == '1~']
-                ok = mot and all(abs((g['r'].y0 + g['r'].y1) / 2 - (mot[0]['r'].y0 + mot[0]['r'].y1) / 2) < 1 for g in gach)
-            else:
-                dau = [sp for sp in spans if sp['t'].strip() == 'Model 1~']
-                ok = dau and all(abs(g['r'].x0 - dau[0]['r'].x0) < 1 for g in gach)
+            def la_so(t):
+                try: float(t.strip()); return True
+                except ValueError: return False
+            theo_cot = HS['hang'][hang]['bang']['huong'] == 'model_theo_cot'
+            nhan_q = [sp for sp in spans if sp['t'].strip().startswith('Q (m')]
+            ok = True
+            for g in gach:
+                if theo_cot:
+                    mot = [sp for sp in spans if sp['t'].strip() == '1~']
+                    if mot and abs((g['r'].y0 + g['r'].y1) / 2 - (mot[0]['r'].y0 + mot[0]['r'].y1) / 2) < 1:
+                        continue
+                    y_h = max(sp['r'].y1 for sp in nhan_q) if nhan_q else -1
+                    cung = [sp for sp in spans if la_so(sp['t']) and abs(sp['r'].x1 - g['r'].x1) < 2 and sp['r'].y0 > y_h]
+                    truoc = any(sp['r'].y1 <= g['r'].y0 for sp in cung); sau = any(sp['r'].y0 >= g['r'].y1 for sp in cung)
+                else:
+                    dau = [sp for sp in spans if sp['t'].strip() == 'Model 1~']
+                    if dau and abs(g['r'].x0 - dau[0]['r'].x0) < 1:
+                        continue
+                    hang_q = [sp for sp in spans if nhan_q and la_so(sp['t']) and abs(sp['r'].y0 - nhan_q[0]['r'].y0) < 1]
+                    x_h = min(sp['r'].x0 for sp in hang_q) - 2 if hang_q else 1e9
+                    cung = [sp for sp in spans if la_so(sp['t']) and abs((sp['r'].y0 + sp['r'].y1) / 2 - (g['r'].y0 + g['r'].y1) / 2) < 1
+                            and sp['r'].x0 >= x_h]
+                    truoc = any(sp['r'].x1 <= g['r'].x0 for sp in cung); sau = any(sp['r'].x0 >= g['r'].x1 for sp in cung)
+                if truoc and sau:
+                    ok = False
             if not ok:
-                loi.append(f'tr.{so}: có "–" ngoài cột Model 1~')
+                loi.append(f'tr.{so}: có "–" nằm giữa dãy H (ngoài cột Model 1~)')
     doc.close()
     return loi
 
@@ -219,7 +239,11 @@ class KiemVeDuongCong(unittest.TestCase):
                     self.assertIn(md['m3'], txt)
                 self.assertIn('1~ 220–240 V 50 Hz', txt)
                 self.assertIn('Typical values, not guaranteed.', txt)
-                self.assertEqual(len(gach), 3, 'đúng 3 ô "–" (3 model không có bản 1 pha)')
+                cot_q = sorted({p[0] for md in self.ds5 for p in md['diem']})
+                ngoai = sum(1 for md in self.ds5 for q in cot_q
+                            if q < min(p[0] for p in md['diem']) or q > max(p[0] for p in md['diem']))
+                self.assertEqual(len(gach), 3 + ngoai,
+                                 'đúng 3 ô "–" (3 model không có bản 1 pha) + ô ngoài dải chạy (QTH 4.7)')
 
     def test_2_tu_choi_du_lieu_sai(self):
         """H tăng khi Q tăng -> dừng, báo model + điểm; CLI trả mã 2; không tạo PDF."""
@@ -454,6 +478,14 @@ class KiemVeDuongCong(unittest.TestCase):
         sp = [(0, 106), (35, 80), (40, 77), (46, 70), (50, 64), (55, 56)]
         f = V.kiem_duong(dict(khoa='6SP46-8', diem=[(q, h, i) for i, (q, h) in enumerate(sp)]), True)
         self.assertEqual(type(f).__name__, 'PchipInterpolator')
+
+    def test_14_o_ngoai_dai_ghi_gach(self):
+        """QTH 4.7 / CTB 3.2: ô H ngoài dải chạy của model ghi "–"; trong dải mà thiếu số để trống."""
+        md = dict(diem=[(6, 73.0, 2), (9, 71.8, 3), (15, 67.8, 4)])
+        self.assertEqual(V._o_h(md, 3), '–')
+        self.assertEqual(V._o_h(md, 18), '–')
+        self.assertEqual(V._o_h(md, 9), '71.8')
+        self.assertEqual(V._o_h(md, 12), '')
 
 
 if __name__ == '__main__':
