@@ -27,7 +27,7 @@ def bo(nhom, out, models, toc):
                         r = (r[0], r[1], r[2], sua[r[2]], f'SỬA cũ {r[3]} → mới {sua[r[2]]} để đường cong đều/mềm (QĐ 158, QTH 4.2): đường bậc 2 qua 5/124 và 12/78; ' + str(r[4]))
                     qh.append(r)
             continue
-        (q0, h0), (q1, h1), buoc = cfg[:3]; them = cfg[3] if len(cfg) > 3 else []
+        (q0, h0), (q1, h1), buoc = cfg[:3]; them = cfg[3] if len(cfg) > 3 else []; tron = cfg[4] if len(cfg) > 4 else {}
         b = (h0 - h1) / (q1 ** 2 - q0 ** 2); a = h0 + b * q0 ** 2
         qs = []; q = q0
         while q <= q1 + 1e-9: qs.append(q); q += buoc
@@ -35,8 +35,9 @@ def bo(nhom, out, models, toc):
             if q == q0: h, n = h0, f'BÁO GIÁ: {q0}–{q1} m³/h, {h0}–{h1} m (đầu dải)'
             elif q == q1: h, n = h1, f'BÁO GIÁ: {q0}–{q1} m³/h, {h0}–{h1} m (cuối dải)'
             else: h, n = r1(a - b * q * q), ('SỐ DỰNG (cột Q chung với model khác, QTH 4.7): ' if q in them else 'SUY RA: ') + f'H = {a:.4f} − {b:.6f}·Q² = {a - b * q * q:.3f}, làm tròn 0,1 m'
+            if q in tron: n += f' → chọn {tron[q]} (làm tròn lên/xuống 0,1 m để đường mềm, lệch công thức ≤ 0,06 m)'; h = tron[q]
             qh.append(('PEROTAC', md, q, h, n + '; ' + BG))
     wb.save(out)
     for md in models: print(md, [(r[2], r[3]) for r in qh.iter_rows(min_row=2, values_only=True) if r[1] == md])
-bo('CM', W + '/CM32_160_3.xlsx', {'CM 32-160/3': ((9, 29.2), (36, 20.5), 3)}, 2900)
+bo('CM', W + '/CM32_160_3.xlsx', {'CM 32-160/3': ((9, 29.2), (36, 20.5), 3, [], {12: 28.8, 24: 25.6, 27: 24.5})}, 2900)
 bo('CDLF', W + '/CDLF_2MA.xlsx', {'CDLF8-12T': {6: 120.6, 7: 116.1, 8: 110.6, 9: 104.1, 10: 96.4, 11: 87.7}, 'CDLF16-8T': ((6, 106.6), (24, 38.3), 2, [7, 9, 11])}, 2900)
