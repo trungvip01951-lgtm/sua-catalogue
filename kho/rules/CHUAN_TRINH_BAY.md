@@ -53,7 +53,7 @@ Thuật ngữ: **pt** = point, 1/72 inch (đơn vị cỡ chữ, nét). **ppi** 
 
 1. ≤ 5 MB mỗi tệp (tối đa 10 MB); hệ màu RGB.
 2. Phông nhúng một lần, dạng rút gọn (chỉ các ký tự dùng); gộp ảnh trùng; lưu với garbage=4 + deflate (nén, bỏ phần thừa); ảnh JPEG chất lượng 80–85% (PNG nếu cần trong suốt).
-3. Tên tệp: "HÃNG - Tên dòng.pdf" (vd "PEROTAC - Bơm trục ngang CM.pdf").
+3. Tên tệp: "HÃNG - Tên dòng.pdf" (vd "PEROTAC - Bơm trục ngang CM.pdf"). Tệp xuất cho anh khi có nhiều bản: thêm " 1", " 2"… ở cuối tên (vd "REDPUMP - Bơm trục rời đầu inox RPX 1.pdf"); không ghi "(UNG VIEN 0x)", "ứng viên", "bản" (QĐ 163).
 4. Mã dựng đạt lưu ở templates/<nhóm>/ để lần sau sửa nhanh.
 
 ## 6. Mẫu lệnh 6 ô (người phụ trách dự án giao việc cho AI)
