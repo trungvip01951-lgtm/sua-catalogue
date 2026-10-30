@@ -1,6 +1,6 @@
 # AQUARIS CM 32-250/7.5 + CM 40-160/4 — catalogue riêng 1 trang A4 dọc (24/10/2026, phiên CLAUDE_20261024T0100Z)
 Lệnh anh (QĐ 159): ảnh báo giá (bao_gia_anh_gui_20261024.jpg) + "Làm cho a catalogue aquaris cm 2 mã này nhé"; CM 32-250/7.5 "Theo báo giá".
-Ứng viên 01: AQUARIS - Bơm trục ngang CM 32-250-7.5 và CM 40-160-4 (UNG VIEN 01).pdf. Số: CM2.xlsx (mk_xlsx.py). Mã dựng: build_cm2.py.
+Ứng viên 01: AQUARIS - Bơm trục ngang CM 32-250-7.5 và CM 40-160-4 1.pdf. Số: CM2.xlsx (mk_xlsx.py). Mã dựng: build_cm2.py.
 | Model | Q m³/h | H m | Loại số |
 |---|---|---|---|
 | CM 40-160/4 | 9 … 39 (bước 3) | 35.5 … 25 | NGUỒN DU_LIEU/CM.xlsx (khớp báo giá) |
@@ -15,4 +15,4 @@ Bản cuối: SHA256 14aae48dd369…, 149367 byte; kiem_catalogue ĐẠT 8/8.
 
 ## Ứng viên 02 (24/10/2026) — bảng ngang theo QĐ 160
 Lời anh: "Làm bảng thông số ngang chứ k dọc như e gửi đâu nhé". Bảng mỗi model một dòng, 12 cột Q 6…39 m³/h (+ l/min); "–" ngoài dải chạy. Dàn lại trang: chữ 2 cột, biểu đồ rộng hết khổ, bảng dưới biểu đồ. Số không đổi (CM2.xlsx).
-Tệp: AQUARIS - Bơm trục ngang CM 32-250-7.5 và CM 40-160-4 (UNG VIEN 02).pdf, SHA256 e39c7c35ae5d…, 150174 byte. kiem_catalogue ĐẠT 8/8; đối chiếu bảng bằng mã: 24/24 ô H + đầu dòng (model, kW, HP, A) khớp CM2.xlsx; tìm chữ "32-250/7.5" ra đúng.
+Tệp: AQUARIS - Bơm trục ngang CM 32-250-7.5 và CM 40-160-4 2.pdf, SHA256 e39c7c35ae5d…, 150174 byte. kiem_catalogue ĐẠT 8/8; đối chiếu bảng bằng mã: 24/24 ô H + đầu dòng (model, kW, HP, A) khớp CM2.xlsx; tìm chữ "32-250/7.5" ra đúng.

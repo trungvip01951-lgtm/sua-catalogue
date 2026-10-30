@@ -1,6 +1,6 @@
 # PEROTAC SS-150 / SSM-150F — catalogue riêng 1 trang A4 ngang (23/10/2026, phiên CLAUDE_20261023T0430Z)
 Lệnh anh 23/10/2026: "làm a catalogue con perotac ss-150 lưu lượng max 6m3/h áp max 7m nhé". Số này ngược QĐ 48 (Q max 7, H max 6, đã có trong PEROTAC - Bơm chìm nước thải SS.pdf b617cdf9d4e7) → hỏi; anh trả lời "1. 1  2. 1" = giữ số đã chốt, làm catalogue riêng 1 trang.
-Ứng viên 01: PEROTAC - Bơm chìm nước thải SS-150 (UNG VIEN 01).pdf, SHA256 9bec10e100ba…, 260869 byte, 842×595, 1 trang.
+Ứng viên 01: PEROTAC - Bơm chìm nước thải SS-150 1.pdf, SHA256 9bec10e100ba…, 260869 byte, 842×595, 1 trang.
 Số: DU_LIEU/SS.xlsx (PEROTAC SS-150: 0/6, 6/1.6, 7/0; 0.15 kW / 0.2 HP), không đổi số nào. Chữ: lấy bằng mã từ bản đã duyệt SS PEROTAC (không gõ lại).
 SỐ SUY RA: "2 poles" trong khối điều kiện — nguồn chỉ ghi n ≈ 2850 /min; 2850 ở 50 Hz = 2 cực. Biểu đồ vẽ từ SS_ss150.xlsx (bản sao chỉ sửa THONG_TIN.so_cuc = 2; MODEL/QH đã kiểm giống hệt DU_LIEU).
 LỖI CÔNG CỤ (chưa sửa, tools/ niêm phong): tools/ve_duong_cong.py đọc ô so_cuc dạng chữ "PDF không ghi số cực (chỉ ghi n ≈ 2850 /min)" thành "2850 poles". Ai vẽ SS từ DU_LIEU/SS.xlsx sẽ dính.
@@ -10,7 +10,7 @@ Xem: claude/_xem/xem_4.png. Chưa đưa vào CATALOGUE DA DUYET — chờ anh du
 
 ## Ứng viên 02 (23/10/2026) — theo QĐ 158
 Lời anh: "em phải có bảng thông số lưu lượng bao nhiêu cột áp bao nhiêu chia nhiều mức như catalogue khác cho a, đường đặc tính vẽ công mềm mại cho a. lưu 2 quy tắc cho a và sửa lại".
-Tệp: PEROTAC - Bơm chìm nước thải SS-150 (UNG VIEN 02).pdf, SHA256 cab8c194f695…, 261255 byte. Số liệu: SS150.xlsx (mk_xlsx.py) — bảng và đường cùng tệp.
+Tệp: PEROTAC - Bơm chìm nước thải SS-150 2.pdf, SHA256 cab8c194f695…, 261255 byte. Số liệu: SS150.xlsx (mk_xlsx.py) — bảng và đường cùng tệp.
 | Q m³/h | H m | Loại số |
 |---|---|---|
 | 0 | 6 | NGUỒN (QĐ 48) |

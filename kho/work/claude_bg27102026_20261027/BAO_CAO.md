@@ -1,7 +1,7 @@
 # PEROTAC — 2 catalogue riêng theo báo giá BG-27102026-001 (27/10/2026, phiên CLAUDE_20261027T0100Z)
 Lệnh anh (QĐ 161): "Làm a catalogue 2 bộ này nhé 1 bộ 1 con 1 bộ 2 con" + ảnh báo giá (bao_gia_BG-27102026-001.png, khách Anh Tuấn).
-Bộ 1: PEROTAC - Bơm trục ngang CM 32-160-3 (UNG VIEN 01).pdf — số CM32_160_3.xlsx.
-Bộ 2: PEROTAC - Bơm trục đứng CDLF8-12T và CDLF16-8T (UNG VIEN 01).pdf — số CDLF_2MA.xlsx. Mã dựng: build_bg27.py (cm|cdlf), mk_xlsx.py.
+Bộ 1: PEROTAC - Bơm trục ngang CM 32-160-3 1.pdf — số CM32_160_3.xlsx.
+Bộ 2: PEROTAC - Bơm trục đứng CDLF8-12T và CDLF16-8T 1.pdf — số CDLF_2MA.xlsx. Mã dựng: build_bg27.py (cm|cdlf), mk_xlsx.py.
 | Model | Q m³/h | H m | Loại số |
 |---|---|---|---|
 | CM 32-160/3 | 9 … 36 (bước 3) | 29.2, 28.8, 28.2, 27.5, 26.6, 25.6, 24.5, 23.3, 22.0, 20.5 | BÁO GIÁ 2 đầu dải (DU_LIEU 0–27, 35–15 — áp QĐ 159, anh xác nhận); mức giữa SUY RA H = 29.78 − 0.00716·Q², làm tròn 0,1 m chọn lên/xuống để đường mềm (lệch ≤ 0.06 m) |
