@@ -17,3 +17,7 @@ Tệp: REDPUMP - Bơm giếng 6SP60 2.pdf — SHA256 9256521b4428…; kiem_catal
 ## Bản 3 (03/11/2026) — QĐ 168
 Điểm làm việc theo báo giá anh: 6SP60-6 54 m³/h – 53 m (η bơm 74.3 %), 6SP60-8 66 m³/h – 53 m (η bơm 69.2 % < 70 %, ghi đúng). H lấy số bảng đã duyệt (đường vẽ 52.9 / 52.1 m, lệch ≤ 1.7 %). P2 6SP60-8 giữ 15 kW / 20 HP (báo giá ghi 11 kW — dữ liệu đã duyệt là 15 kW; công suất trục suy ra ≈ 13.8 kW).
 Tệp: REDPUMP - Bơm giếng 6SP60 3.pdf — SHA256 df915b76fe25…, 370240 byte; kiem_catalogue ĐẠT 8/8 (bỏ qua 2); xem tr.2–3: nhãn điểm làm việc không đè đường/nhãn mã.
+
+## Bản 4 (03/11/2026) — QĐ 170
+6SP60-8 dời điểm làm việc về 64 m³/h – 56 m (H đọc trên đường vẽ 55.5 m, nội suy bảng 60/63–66/53 = 56.3 m; η bơm 71.1 %). 6SP60-6 giữ 54 m³/h – 53 m (74.3 %). P2 giữ 11 kW / 15 kW. Cả 2 điểm η > 70 %.
+Tệp: REDPUMP - Bơm giếng 6SP60 4.pdf — SHA256 01e639be2b63…, 370500 byte; kiem_catalogue ĐẠT 8/8 (bỏ qua 2); xem tr.2–3: nhãn không đè.
