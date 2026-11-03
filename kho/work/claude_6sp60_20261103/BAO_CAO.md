@@ -13,3 +13,7 @@ Tệp: REDPUMP - Bơm giếng 6SP60 1.pdf — SHA256 0a24c2fb2e30….
 ## Bản 2 (03/11/2026) — QĐ 167
 Lời anh: "bỏ 6SP60-7 và 6SP60-5 đi cho a nhé" → còn 15 mã; biểu đồ chia lại 3 nhóm (A: -2/-6/-10/-13/-16; B: -3/-8/-11/-14/-18; C: -4/-9/-12/-15/-20); ví dụ mã đổi 6SP60-8. DU_LIEU và catalogue SP đã duyệt KHÔNG đổi.
 Tệp: REDPUMP - Bơm giếng 6SP60 2.pdf — SHA256 9256521b4428…; kiem_catalogue ĐẠT 8/8, 15 đường lệch bảng ≤ 4.0 %; không còn chữ 6SP60-5 / 6SP60-7.
+
+## Bản 3 (03/11/2026) — QĐ 168
+Điểm làm việc theo báo giá anh: 6SP60-6 54 m³/h – 53 m (η bơm 74.3 %), 6SP60-8 66 m³/h – 53 m (η bơm 69.2 % < 70 %, ghi đúng). H lấy số bảng đã duyệt (đường vẽ 52.9 / 52.1 m, lệch ≤ 1.7 %). P2 6SP60-8 giữ 15 kW / 20 HP (báo giá ghi 11 kW — dữ liệu đã duyệt là 15 kW; công suất trục suy ra ≈ 13.8 kW).
+Tệp: REDPUMP - Bơm giếng 6SP60 3.pdf — SHA256 df915b76fe25…, 370240 byte; kiem_catalogue ĐẠT 8/8 (bỏ qua 2); xem tr.2–3: nhãn điểm làm việc không đè đường/nhãn mã.

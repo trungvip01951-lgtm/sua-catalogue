@@ -33,9 +33,9 @@ def h_duong(m, q):
     k = sorted(DQH[m]); from scipy.interpolate import CubicSpline
     return float(CubicSpline(k, [DQH[m][x] for x in k])(q))
 NHOM = [['6SP60-2', '6SP60-6', '6SP60-10', '6SP60-13', '6SP60-16'], ['6SP60-3', '6SP60-8', '6SP60-11', '6SP60-14', '6SP60-18'], ['6SP60-4', '6SP60-9', '6SP60-12', '6SP60-15', '6SP60-20']]
-DUTY = [('50 m³/h – 50 m', '6SP60-6', 50), ('60 m³/h – 50 m', '6SP60-8', 60)]   # mã theo báo giá anh (dòng 4: 6SP60-6, dòng 5: 6SP60-8); Q theo yêu cầu thầu
-DP = [(lab, m, q, round(h_duong(m, q), 1), round(eta_at(q), 1), [r for r in MD if r[2] == m][0]) for lab, m, q in DUTY]
-assert all(d[3] >= 50 and d[4] > 70 for d in DP), DP
+DUTY = [('54 m³/h – 53 m', '6SP60-6', 54), ('66 m³/h – 53 m', '6SP60-8', 66)]   # QĐ 168: điểm làm việc thực tế theo báo giá anh
+DP = [(lab, m, q, QH[m][q], round(eta_at(q), 1), [r for r in MD if r[2] == m][0]) for lab, m, q in DUTY]   # H = số bảng đã duyệt tại Q đó
+assert [d[3] for d in DP] == [53, 53] and all(abs(h_duong(d[1], d[2]) - d[3]) / d[3] < 0.05 for d in DP), DP
 D0 = pymupdf.open(R + '/CATALOG SUA/CATALOGUE DA DUYET/REDPUMP/REDPUMP - Bơm giếng SP.pdf')
 L = [s.strip() for s in D0[9].get_text().splitlines() if s.strip()]; i0 = L.index('6SP')
 def khoi(a, b): i = L.index(a, i0); return L[i + 1:L.index(b, i + 1)]
@@ -168,7 +168,7 @@ pg.txt(E.x0 + 6, E.y0 + 12, f'Peak {DINH[1]:g} % at Q ≈ {float(DINH[2].split()
 y = pg.head(x, E.y1 + 46, 'DUTY POINTS', cw)
 rows = [(m, f'{q} m³/h', f'{h:g} m', f'{e:g} %', f'{r[3]:g} kW / {r[4]:g} HP') for lab, m, q, h, e, r in DP]
 y = pg.table(x, y - 6, ['Model', 'Q', 'H', 'η pump', 'P2'], rows, [64, 46, 40, 44, cw - 194], size=8)
-for l in pg.wrap('H read on the performance curve; η read on the pump efficiency curve of the 6SP60 range (pump only, without motor). '
+for l in pg.wrap('H from the performance data table; η read on the pump efficiency curve of the 6SP60 range (pump only, without motor). '
                  'Curves at 50 Hz, 2 poles, n ≈ 2850 /min, clean water at 20 °C, kinematic viscosity 1 mm²/s. Typical values, not guaranteed.', 9, cw):
     y += 11.5; pg.txt(x, y + 2, l, 9, False, GREY)
 assert y < 556, y
