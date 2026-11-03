@@ -2,12 +2,13 @@
 # Q–H, kW/HP: DU_LIEU/SP.xlsx (REDPUMP - Bơm giếng SP.pdf tr.14). Kích thước P/M/T: tr.15. η: số hoá đường "η (%)" tr.14 (đường chung cả dải).
 import sys, numpy as np, pymupdf, openpyxl
 R, OUT = sys.argv[1], sys.argv[2]
+BO = ('6SP60-5', '6SP60-7')   # QĐ 167: anh bỏ 2 mã này khỏi catalogue riêng
 src = openpyxl.load_workbook(R + '/DU_LIEU/SP.xlsx', data_only=True)
 wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'THONG_TIN'
 for r in src['THONG_TIN'].iter_rows(values_only=True): ws.append(r)
 m = wb.create_sheet('MODEL'); hdr = True; md = []
 for r in src['MODEL'].iter_rows(values_only=True):
-    if hdr or (r[0] == 'REDPUMP' and str(r[2]).startswith('6SP60-')): m.append(r); md += [] if hdr else [r[2]]
+    if hdr or (r[0] == 'REDPUMP' and str(r[2]).startswith('6SP60-') and r[2] not in BO): m.append(r); md += [] if hdr else [r[2]]
     hdr = False
 qh = wb.create_sheet('QH'); qh.append(('hang', 'model', 'q_m3h', 'h_m', 'nguon'))
 for r in src['QH'].iter_rows(min_row=2, values_only=True):
@@ -15,6 +16,7 @@ for r in src['QH'].iter_rows(min_row=2, values_only=True):
 D = pymupdf.open(R + '/CATALOG SUA/CATALOGUE DA DUYET/REDPUMP/REDPUMP - Bơm giếng SP.pdf')
 L = [s.strip() for s in D[14].get_text().splitlines() if s.strip()]; i = L.index('6SP60  |  Outlet 3 in'); j = i + 5; kt = []
 while j < len(L) and L[j].startswith('6SP60-'): kt.append(L[j:j + 4]); j += 4
+kt = [k for k in kt if k[0] not in BO]
 assert [k[0] for k in kt] == md, (len(kt), len(md))
 k = wb.create_sheet('KICH_THUOC'); k.append(('model', 'P_mm', 'M_mm', 'T_mm', 'nguon'))
 for r in kt: k.append((r[0], int(r[1]), int(r[2]), int(r[3]), 'REDPUMP - Bơm giếng SP.pdf tr.15 (6SP60 | Outlet 3 in)'))

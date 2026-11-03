@@ -32,6 +32,7 @@ eta_at = lambda q: float(_P([a for a, b in ETA], [b for a, b in ETA])(q))
 def h_duong(m, q):
     k = sorted(DQH[m]); from scipy.interpolate import CubicSpline
     return float(CubicSpline(k, [DQH[m][x] for x in k])(q))
+NHOM = [['6SP60-2', '6SP60-6', '6SP60-10', '6SP60-13', '6SP60-16'], ['6SP60-3', '6SP60-8', '6SP60-11', '6SP60-14', '6SP60-18'], ['6SP60-4', '6SP60-9', '6SP60-12', '6SP60-15', '6SP60-20']]
 DUTY = [('50 m³/h – 50 m', '6SP60-6', 50), ('60 m³/h – 50 m', '6SP60-8', 60)]   # mã theo báo giá anh (dòng 4: 6SP60-6, dòng 5: 6SP60-8); Q theo yêu cầu thầu
 DP = [(lab, m, q, round(h_duong(m, q), 1), round(eta_at(q), 1), [r for r in MD if r[2] == m][0]) for lab, m, q in DUTY]
 assert all(d[3] >= 50 and d[4] > 70 for d in DP), DP
@@ -111,7 +112,7 @@ class Pg:
 
 PPI = {}
 # ================= Trang 1 =================
-pg = Pg(None, '6SP60 stainless steel submersible well pumps', 'Rated flow 60 m³/h · 6-inch wells · 2 to 20 impellers.')
+pg = Pg(None, '6SP60 stainless steel submersible well pumps', f'Rated flow 60 m³/h · 6-inch wells · {len(MD)} models, 2 to 20 impellers.')
 y = pg.yc + 24; t = pg.txt
 for a, b in [('Power P2', f'{min(r[3] for r in MD):g}–{max(r[3] for r in MD):g} kW'), ('Flow rate', f'up to {max(max(v) for v in QH.values()):g} m³/h'),
              ('Head', f'up to {max(max(v.values()) for v in QH.values()):g} m'), ('Pump efficiency', f'up to {DINH[1]:g} %'),
@@ -129,9 +130,9 @@ y = pg.head(x1, y + 8, 'OPTIONS ON REQUEST', w1); y = pg.lst(x1, y, OPT, w1); as
 x2 = x1 + w1 + 22; w2 = CX1 - x2
 yy = pg.head(x2, 156, 'MATERIALS', w2); yy = pg.table(x2, yy - 6, ['Component', 'Material'], MAT, [96, w2 - 96], size=7.8, rh=13)
 yy = pg.head(x2, yy + 22, 'MODEL CODE', w2)
-for c, d in [('6', 'Well diameter (in)'), ('SP', 'Series'), ('60', 'Rated flow (m³/h)'), ('7', 'Number of impellers')]:
+for c, d in [('6', 'Well diameter (in)'), ('SP', 'Series'), ('60', 'Rated flow (m³/h)'), ('8', 'Number of impellers')]:
     t(x2, yy, c, 11, True, RED); t(x2 + 30, yy, d, 9); yy += 14
-t(x2, yy + 4, 'Example: 6SP60-7', 9, False, GREY); assert yy < 556
+t(x2, yy + 4, 'Example: 6SP60-8', 9, False, GREY); assert yy < 556
 
 # ================= Trang 2: biểu đồ A, B =================
 pg = Pg('1', 'Performance curves', 'Group A and group B. Curves at 50 Hz, n ≈ 2850 /min. Data table: page 4.')
@@ -140,10 +141,12 @@ for i, f in enumerate(('bd1', 'bd2')):
     x = CX0 + i * (cw + 14); pg.head(x, 92, ['GROUP A', 'GROUP B'][i], cw)
     X, Y = pg.chart(pymupdf.Rect(x, 104, x + cw, 104 + chh), W + f'/qh/{f}.pdf')
     for d in DP:
-        if d[1] in (['6SP60-2', '6SP60-5', '6SP60-8', '6SP60-11', '6SP60-14', '6SP60-18'], ['6SP60-3', '6SP60-6', '6SP60-9', '6SP60-12', '6SP60-15', '6SP60-20'])[i]: pg.duty(X, Y, d[2], d[3], f'Duty point {d[0]}')
+        if d[1] in NHOM[i]: pg.duty(X, Y, d[2], d[3], f'Duty point {d[0]}')
 # ================= Trang 3: biểu đồ C + η =================
 pg = Pg('2', 'Curves, efficiency and duty points', 'Group C, pump efficiency curve of the 6SP60 range and the two duty points.')
 x = CX0; pg.head(x, 92, 'GROUP C', cw); X, Y = pg.chart(pymupdf.Rect(x, 104, x + cw, 104 + chh), W + '/qh/bd3.pdf')
+for d in DP:
+    if d[1] in NHOM[2]: pg.duty(X, Y, d[2], d[3], f'Duty point {d[0]}')
 x = CX0 + cw + 14; pg.head(x, 92, 'PUMP EFFICIENCY η', cw)
 E = pymupdf.Rect(x + 30, 112, x + cw - 6, 112 + 190); p = pg.p
 p.draw_rect(E, color=None, fill=PLOT)

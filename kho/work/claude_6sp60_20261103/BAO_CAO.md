@@ -9,3 +9,7 @@ Tệp: REDPUMP - Bơm giếng 6SP60 1.pdf — SHA256 0a24c2fb2e30….
 - Kiểm: kiem_catalogue ĐẠT 8/8; mục 4: 17 đường so bảng lệch lớn nhất 4.0 %. Kiểm độc lập (AI khác): số 17/17 mã, kích thước, chữ, η (tự số hoá lại: 73.86/73.46 %), đường Q–H ĐẠT; 1 lỗi chữ "Peak" bị đường η cắt → đã dời; đường η kéo tới Q 77.5 và vẽ mềm (PCHIP) theo góp ý.
 - Báo giá anh: dòng 5 ghi 6SP60-8 "66 m³/h, 53 m, 11 KW" — 6SP60-8 đã duyệt là 15 kW / 20 HP; tại 66 m³/h η chỉ 69.2 % (< 70 %). Dòng 4 ghi 6SP60-6 "54 m³/h, 53 m, 11 KW" khớp.
 - Lưu ý gửi anh: thầu đòi hiệu suất BƠM + ĐỘNG CƠ ≥ 70 %; nguồn chỉ có hiệu suất bơm (73.5–73.8 %). Không có số hiệu suất động cơ → chưa thể xác minh tổng ≥ 70 %.
+
+## Bản 2 (03/11/2026) — QĐ 167
+Lời anh: "bỏ 6SP60-7 và 6SP60-5 đi cho a nhé" → còn 15 mã; biểu đồ chia lại 3 nhóm (A: -2/-6/-10/-13/-16; B: -3/-8/-11/-14/-18; C: -4/-9/-12/-15/-20); ví dụ mã đổi 6SP60-8. DU_LIEU và catalogue SP đã duyệt KHÔNG đổi.
+Tệp: REDPUMP - Bơm giếng 6SP60 2.pdf — SHA256 9256521b4428…; kiem_catalogue ĐẠT 8/8, 15 đường lệch bảng ≤ 4.0 %; không còn chữ 6SP60-5 / 6SP60-7.
