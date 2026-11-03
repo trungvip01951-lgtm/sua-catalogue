@@ -29,5 +29,6 @@ pts = np.array(sorted(pts)); q = (pts[:, 0] - 457.0) / (783.0 - 457.0) * 90; e =
 eta = wb.create_sheet('ETA'); eta.append(('q_m3h', 'eta_pct', 'nguon'))
 for qq in range(0, 79, 3):
     if qq <= q.max() + 1e-6: eta.append((qq, round(float(np.interp(qq, q, e)), 1), 'số hoá đường η (%) REDPUMP - Bơm giếng SP.pdf tr.14 (trục 0–80 %, Q 0–90 m³/h), đường chung dải 6SP60'))
+eta.append((round(float(q.max()), 1), round(float(e[np.argmax(q)]), 1), 'điểm cuối đường η tr.14'))
 eta.append(('dinh', round(float(e.max()), 1), f'đỉnh tại Q {q[e.argmax()]:.1f} m³/h'))
 wb.save(OUT); print(len(md), 'model; eta', [(r[0], r[1]) for r in eta.iter_rows(min_row=2, values_only=True)][::3])

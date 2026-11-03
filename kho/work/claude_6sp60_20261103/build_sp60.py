@@ -27,11 +27,12 @@ DINH = [r for r in wb['ETA'].iter_rows(min_row=2, values_only=True) if r[0] == '
 DQH = {}
 for r in openpyxl.load_workbook(W + '/SP60_duong.xlsx', data_only=True)['QH'].iter_rows(min_row=2, values_only=True): DQH.setdefault(r[1], {})[r[2]] = r[3]
 LECH = json.load(open(W + '/lech_duong.json'))
-eta_at = lambda q: float(np.interp(q, [a for a, b in ETA], [b for a, b in ETA]))
+from scipy.interpolate import PchipInterpolator as _P
+eta_at = lambda q: float(_P([a for a, b in ETA], [b for a, b in ETA])(q))
 def h_duong(m, q):
     k = sorted(DQH[m]); from scipy.interpolate import CubicSpline
     return float(CubicSpline(k, [DQH[m][x] for x in k])(q))
-DUTY = [('50 m³/h – 50 m', '6SP60-6', 50), ('60 m³/h – 50 m', '6SP60-7', 60)]
+DUTY = [('50 m³/h – 50 m', '6SP60-6', 50), ('60 m³/h – 50 m', '6SP60-8', 60)]   # mã theo báo giá anh (dòng 4: 6SP60-6, dòng 5: 6SP60-8); Q theo yêu cầu thầu
 DP = [(lab, m, q, round(h_duong(m, q), 1), round(eta_at(q), 1), [r for r in MD if r[2] == m][0]) for lab, m, q in DUTY]
 assert all(d[3] >= 50 and d[4] > 70 for d in DP), DP
 D0 = pymupdf.open(R + '/CATALOG SUA/CATALOGUE DA DUYET/REDPUMP/REDPUMP - Bơm giếng SP.pdf')
@@ -138,11 +139,11 @@ cw = 266; chh = 328
 for i, f in enumerate(('bd1', 'bd2')):
     x = CX0 + i * (cw + 14); pg.head(x, 92, ['GROUP A', 'GROUP B'][i], cw)
     X, Y = pg.chart(pymupdf.Rect(x, 104, x + cw, 104 + chh), W + f'/qh/{f}.pdf')
-    if i == 1: d = DP[0]; pg.duty(X, Y, d[2], d[3], f'Duty point {d[0]}')
+    for d in DP:
+        if d[1] in (['6SP60-2', '6SP60-5', '6SP60-8', '6SP60-11', '6SP60-14', '6SP60-18'], ['6SP60-3', '6SP60-6', '6SP60-9', '6SP60-12', '6SP60-15', '6SP60-20'])[i]: pg.duty(X, Y, d[2], d[3], f'Duty point {d[0]}')
 # ================= Trang 3: biểu đồ C + η =================
 pg = Pg('2', 'Curves, efficiency and duty points', 'Group C, pump efficiency curve of the 6SP60 range and the two duty points.')
 x = CX0; pg.head(x, 92, 'GROUP C', cw); X, Y = pg.chart(pymupdf.Rect(x, 104, x + cw, 104 + chh), W + '/qh/bd3.pdf')
-d = DP[1]; pg.duty(X, Y, d[2], d[3], f'Duty point {d[0]}')
 x = CX0 + cw + 14; pg.head(x, 92, 'PUMP EFFICIENCY η', cw)
 E = pymupdf.Rect(x + 30, 112, x + cw - 6, 112 + 190); p = pg.p
 p.draw_rect(E, color=None, fill=PLOT)
@@ -153,12 +154,14 @@ for e in range(0, 81, 20):
 for q in range(0, 81, 20):
     p.draw_line((EX(q), E.y0), (EX(q), E.y1), color=LINE, width=0.4); pg.txt(EX(q), E.y1 + 11, str(q), 7.5, False, GREY, 'c')
 pg.txt(E.x0 + E.width / 2, E.y1 + 23, 'Q (m³/h)', 8, True, DARK, 'c'); pg.txt(x, E.y0 - 4, 'η (%)', 8, True, DARK)
-pts = [pymupdf.Point(EX(a), EY(b)) for a, b in ETA]
+from scipy.interpolate import PchipInterpolator
+fe = PchipInterpolator([a for a, b in ETA], [b for a, b in ETA]); qd = np.linspace(0, ETA[-1][0], 200)
+pts = [pymupdf.Point(EX(a), EY(float(fe(a)))) for a in qd]
 p.draw_polyline(pts, color=RED, width=1.6)
 for lab, m, q, h, e, r in DP:
     pt = pymupdf.Point(EX(q), EY(e)); p.draw_line((EX(q), EY(0)), pt, color=DARK, width=0.6, dashes='[2 2] 0')
     p.draw_circle(pt, 3, color=DARK, fill=WHITE, width=1.1)
-pg.txt(E.x0 + 4, E.y1 - 6, f'Peak {DINH[1]:g} % at Q ≈ {float(DINH[2].split()[-2]):.0f} m³/h', 7.5, False, GREY)
+pg.txt(E.x0 + 6, E.y0 + 12, f'Peak {DINH[1]:g} % at Q ≈ {float(DINH[2].split()[-2]):.0f} m³/h', 7.5, True, DARK)
 y = pg.head(x, E.y1 + 46, 'DUTY POINTS', cw)
 rows = [(m, f'{q} m³/h', f'{h:g} m', f'{e:g} %', f'{r[3]:g} kW / {r[4]:g} HP') for lab, m, q, h, e, r in DP]
 y = pg.table(x, y - 6, ['Model', 'Q', 'H', 'η pump', 'P2'], rows, [64, 46, 40, 44, cw - 194], size=8)
