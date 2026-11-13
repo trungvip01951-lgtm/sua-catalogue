@@ -10,7 +10,7 @@ def rgb(h): h = h.lstrip('#'); return tuple(int(h[i:i+2], 16) / 255 for i in (0,
 DARK, RED, GREY, TXT, WHITE, LINE = rgb('2B2E33'), rgb('A31A1F'), rgb('6B6F75'), rgb('222428'), (1, 1, 1), rgb('D9D4D1')
 STRIPE, LIGHT, PINK = rgb('F1EEEC'), rgb('C9CDD2'), rgb('E8767B')
 K = R + '/KHO_ANH/'; LOGO = K + 'Bom_chim_nuoc_thai_FC_inox/eb3ac079a784.jpeg'
-ANH = {'150': K + 'Bom_cat_rac_WC/51c00456604c.jpeg', '200': K + 'Bom_cat_rac_WC/d78acefb2b87.jpeg'}
+ANH = {'150': W + '/anh_wc_132kw.jpeg', '200': W + '/anh_wc_132kw.jpeg'}   # QĐ 178: ảnh đại diện = ảnh catalogue_132kw.pdf anh gửi
 W_, H_ = 842, 595; COL = 238; CX0, CX1 = COL + 26, W_ - 34
 
 # ---- chữ EN từ bản đã duyệt
@@ -31,20 +31,20 @@ T = {  # khóa: (EN, VI)
  'series': ('WC SERIES  ·  SUBMERSIBLE SEWAGE PUMPS WITH CUTTER', 'DÒNG WC  ·  BƠM CHÌM NƯỚC THẢI CẮT RÁC'),
  'range': ('RANGE CHARACTERISTICS', 'ĐẶC TÍNH DẢI'), 'power': ('Power P2', 'Công suất P2'), 'disch': ('Discharge', 'Cửa xả'),
  'qmax': ('Max. flow rate', 'Lưu lượng max'), 'hmax': ('Max. head', 'Cột áp max'), 'speed': ('Speed', 'Tốc độ'), 'supply': ('Power supply', 'Nguồn điện'),
- 'nom': ('PRODUCT NOMENCLATURE', 'CÁCH ĐỌC MÃ'), 'n1': ('Outlet size (mm)', 'Cỡ cửa xả (mm)'), 'n2': ('Series', 'Dòng'), 'n3': ('Rated flow (m³/h)', 'Lưu lượng định mức (m³/h)'),
- 'n4': ('Rated head (m)', 'Cột áp định mức (m)'), 'n5': ('Power (kW)', 'Công suất (kW)'), 'p1t': ('Model overview', 'Tổng quan model'),
+ 'nom': ('PRODUCT NOMENCLATURE', 'CÁCH ĐỌC MÃ'), 'n1': ('Outlet size (mm)', 'Cỡ cửa xả (mm)'), 'n2': ('Series', 'Dòng'), 'n3': ('Duty flow (m³/h)', 'Lưu lượng làm việc (m³/h)'),
+ 'n4': ('Duty head (m)', 'Cột áp làm việc (m)'), 'n5': ('Power (kW)', 'Công suất (kW)'), 'p1t': ('Model overview', 'Tổng quan model'),
  'p1s': ('14 models, 37–132 kW, three-phase 3~ 380–415 V 50 Hz.', '14 model, 37–132 kW, ba pha 3~ 380–415 V 50 Hz.'),
- 'main': ('MAIN DATA', 'THÔNG SỐ CHÍNH'), 'h_no': ('No.', 'TT'), 'h_md': ('Model', 'Model'), 'h_rated': ('Rated point', 'Điểm định mức'),
+ 'main': ('MAIN DATA', 'THÔNG SỐ CHÍNH'), 'h_no': ('No.', 'TT'), 'h_md': ('Model', 'Model'), 'h_rated': ('Duty point', 'Điểm làm việc'),
  'h_qmax': ('Max. flow', 'Q max'), 'h_hmax': ('Max. head', 'H max'), 'h_dn': ('Discharge', 'Cửa xả'), 'h_sp': ('Speed', 'Tốc độ'),
  'rpm': ('/min', 'v/ph'), 'poles2': ('2 poles · n ≈ 2900 /min', '2 cực · n ≈ 2900 vòng/phút'), 'poles4': ('4 poles · n ≈ 1450 /min', '4 cực · n ≈ 1450 vòng/phút'),
- 'note1': ('Rated point: rated flow and head given in the model code. Max. flow at H = 0; max. head at Q = 0.',
-           'Điểm định mức: lưu lượng và cột áp định mức ghi trong mã model. Lưu lượng max tại H = 0; cột áp max tại Q = 0.'),
+ 'note1': ('Duty point = flow and head in the model code (e.g. 200WC350-22-37: 350 m³/h at 22 m). Max. head at Q = 0.',
+           'Điểm làm việc = lưu lượng và cột áp ghi trong mã model (vd 200WC350-22-37: 350 m³/h tại 22 m). Cột áp max tại Q = 0.'),
  'curves': ('Performance curves', 'Đường đặc tính'), 'perf': ('PERFORMANCE DATA', 'BẢNG THÔNG SỐ'), 'ga': ('GROUP A', 'NHÓM A'), 'gb': ('GROUP B', 'NHÓM B'),
  'p4t': ('Applications, operating conditions and materials', 'Ứng dụng, điều kiện làm việc và vật liệu'),
  'app': ('APPLICATIONS', 'ỨNG DỤNG'), 'opc': ('OPERATING CONDITIONS / MOTOR AND PUMP', 'ĐIỀU KIỆN LÀM VIỆC / ĐỘNG CƠ VÀ BƠM'),
  'mat': ('MATERIALS', 'VẬT LIỆU'), 'comp': ('Component', 'Bộ phận'), 'matl': ('Material', 'Vật liệu'),
- 'tnote': ('Head values between max. head, rated point and max. flow are read on the performance curve. “–” = outside the operating range.',
-           'Cột áp giữa các điểm cột áp max, điểm định mức và lưu lượng max đọc trên đường đặc tính. “–” = ngoài dải làm việc.'),
+ 'tnote': ('Head values between max. head, duty point and max. flow are read on the performance curve. “–” = outside the operating range.',
+           'Cột áp giữa các điểm cột áp max, điểm làm việc và lưu lượng max đọc trên đường đặc tính. “–” = ngoài dải làm việc.'),
 }
 tr = lambda k: T[k][0 if LANG == 'en' else 1]
 vt = lambda s: s if LANG == 'en' else VI[s]
@@ -126,8 +126,7 @@ for c, d in [('150', tr('n1')), ('WC', tr('n2')), ('200', tr('n3')), ('35', tr('
     t(28, y, c, 11, True, PINK); t(64, y, d, 9, False, WHITE); y += 15
 t(28, y + 2, ('Example: ' if LANG == 'en' else 'Ví dụ: ') + '150WC200-35-37', 8.5, False, LIGHT); assert y < 556, y
 t(CX0, 44, 'WC  150WC · 200WC', 18, True, DARK); t(CX0, 62, vt(SUB).upper() + '  ·  37–132 kW', 9.5, True, RED)
-for i, (dn, x0) in enumerate((('150', CX0), ('200', CX0 + 140))):
-    rr = pg.img((x0, 76, x0 + 120, 226), ANH[dn]); t((rr.x0 + rr.x1) / 2, 238, dn + 'WC', 9, True, DARK, 'c')
+rr = pg.img((CX0, 72, CX0 + 260, 244), ANH['150'])
 x2 = CX0 + 290; yy = pg.head(x2, 90, tr('app'), CX1 - x2); yy = pg.lst(x2, yy, [vt(a) for a in APP], CX1 - x2)
 yy = pg.head(x2, yy + 8, tr('opc'), CX1 - x2); yy = pg.lst(x2, yy, [vt(a) for a in OPC], CX1 - x2); assert yy < 250, yy
 y = pg.head(CX0, 262, tr('main'), CX1 - CX0)
@@ -165,8 +164,7 @@ pg = Pg(None, tr('p4t')); y = pg.head(CX0, 100, tr('mat'), 302)
 pg.table(CX0, y - 6, [tr('comp'), tr('matl')], [(vt(a), vt(b) if not b.startswith(('AISI', 'Graphite')) else b) for a, b in MAT], [112, 190], size=9, rh=16)
 x2 = CX0 + 322; yy = pg.head(x2, 100, tr('app'), CX1 - x2); yy = pg.lst(x2, yy, [vt(a) for a in APP], CX1 - x2)
 yy = pg.head(x2, yy + 10, tr('opc'), CX1 - x2); yy = pg.lst(x2, yy, [vt(a) for a in OPC], CX1 - x2)
-for dn, x0 in (('150', CX0 + 40), ('200', CX0 + 300)):
-    rr = pg.img((x0, 280, x0 + 180, 520), ANH[dn]); pg.txt((rr.x0 + rr.x1) / 2, 536, dn + 'WC', 9, True, DARK, 'c')
+rr = pg.img((CX0, 270, CX1, 545), ANH['150'])
 assert doc.page_count == NP
 
 canon = {}

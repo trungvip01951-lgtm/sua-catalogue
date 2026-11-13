@@ -22,6 +22,8 @@ L = """150WC200-35-37 350 45 37
 150WC200-90-132 300 120 132
 200WC400-75-132 600 105 132"""
 HP = {37: 50, 45: 60, 55: 75, 75: 100, 90: 120, 110: 150, 132: 176}
+# QĐ 176: 200WC400-75-132 theo catalogue_132kw.pdf anh gửi 13/11/2026 (bảng Q 0–600 bước 50; điểm làm việc 300 m³/h – 80 m; H tại Qmax 600 = 5 m).
+ANH132 = {0: 105, 50: 104.3, 100: 102.2, 150: 98.8, 200: 93.9, 250: 87.6, 300: 80, 350: 71, 400: 60.6, 450: 48.8, 500: 35.6, 550: 21, 600: 5}
 NAC0 = {'150': 7, '200': 4}; KWS = [37, 45, 55, 75, 90, 110, 132]
 GRID = {'150': [0, 50, 100, 150, 180, 200, 250, 300, 350], '200': [0, 100, 200, 300, 350, 400, 500, 600, 700, 780]}
 wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'THONG_TIN'
@@ -33,6 +35,8 @@ for i, l in enumerate(L.splitlines(), 1):
     md, qm, hm, kw = l.split(); qm, hm, kw = float(qm), float(hm), int(kw)
     dn, rest = md.split('WC'); qr, hr, k2 = map(float, rest.split('-')); assert k2 == kw
     hmin = NAC0[dn] + KWS.index(kw) + 1
+    if md == '200WC400-75-132':   # QĐ 177: điểm làm việc theo tên model (400/75); Hmax 105, Qmax 600, H tại Qmax 5 m theo catalogue anh (QĐ 176)
+        hmin = ANH132[600]; assert (qm, hm) == (600, ANH132[0])
     n = math.log(1 - (hr - hmin) / (hm - hmin)) / math.log(qr / qm)
     if n >= 1: f = lambda q: hmin + (hm - hmin) * (1 - (q / qm) ** n); cong = f'Hmin + (Hmax − Hmin)·(1 − (Q/Qmax)^{n:.4f})'
     else:
@@ -45,8 +49,8 @@ for i, l in enumerate(L.splitlines(), 1):
     for q in GRID[dn] + ([qr] if qr not in GRID[dn] else []):
         if q > qm: continue
         if q == 0: h, s = hm, 'NGUỒN: Hmax lời anh'
-        elif q == qm: h, s = hmin, f'NGUỒN: Qmax lời anh; H = nấc {hmin} (QĐ 19)'
-        elif q == qr: h, s = hr, 'NGUỒN: định mức theo tên model'
+        elif q == qm: h, s = hmin, (f'NGUỒN: Qmax lời anh; H = nấc {hmin} (QĐ 19)' if md != '200WC400-75-132' else 'NGUỒN: catalogue_132kw.pdf anh gửi (H 5 m tại 600 m³/h)')
+        elif q == qr: h, s = hr, 'NGUỒN: điểm làm việc theo tên model (QĐ 177)'
         else: h, s = round(f(q), 1), f'SUY RA: H = {cong} = {f(q):.3f}'
         qh.append(('REDPUMP', md, q, h, s))
     print(md, round(n, 3), [(r[2], r[3]) for r in qh.iter_rows(min_row=2, values_only=True) if r[1] == md])

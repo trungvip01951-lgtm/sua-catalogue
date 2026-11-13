@@ -8,3 +8,11 @@ Tr.1 tổng quan + bảng 14 mã đúng thứ tự anh; tr.2 150WC (2 biểu đ�
 - Số liệu anh đưa làm đường cắt nhau: 200WC350-22-37 (37 kW) cao hơn 200WC300-32-45 (45 kW) khi Q > ~560 m³/h; 150WC180-80-110 và 150WC200-90-132 hết ở 300 m³/h trong khi 37–90 kW tới 350 m³/h — trái quy tắc 06/10 "công suất lớn phải trội hơn" ở cuối dải; giữ đúng số anh, chờ anh.
 - Chữ EN: REDPUMP - Bơm cắt rác WC.pdf đã duyệt tr.5 (bỏ ISO 9906 QĐ 149, bỏ dòng 1 pha). VI: dịch (bảng VI trong build_wcl.py). Ảnh 51c00456604c (150WC, 458 ppi), d78acefb2b87 (200WC, 450 ppi).
 - Kiểm: ve_duong_cong ĐẠT 8 biểu đồ + 2 bảng. kiem_catalogue EN ĐẠT 7, CHƯA ĐẠT 1 (QĐ 19 như trên); VI ĐẠT 6, CHƯA ĐẠT 2 (QĐ 19 + "có chữ tiếng Việt" — anh yêu cầu bản VI). Xem PDF 4 trang mỗi bản: nhãn không đè. Chưa kiểm độc lập bằng AI khác.
+
+## Bản 2 (13/11/2026) — QĐ 176–178
+Tệp: … 37-132kW 2.pdf (SHA256 c3621cb384c0…), … tiếng Việt 2.pdf (SHA256 0d799d2cfca5…).
+- Cột "Rated point" đổi thành "Duty point / Điểm làm việc" = số trong mã model; kiểm bằng mã: 14/14 mã có H đúng tại Q làm việc trong bảng.
+- 200WC400-75-132: 0/105, 400/75 (điểm làm việc theo mã), 600/5 (catalogue anh) — n = 2.969; bảng 0/105, 100/104.5, 200/101.2, 300/92.2, 350/84.8, 400/75, 500/46.8, 600/5. Khác catalogue anh tại 300 (anh 80 → 92.2) và 400 (anh 60.6 → 75) vì QĐ 177.
+- H tại Qmax của 200WC400-75-132 = 5 m (catalogue anh) trong khi 200WC300-65-110 = 10 m (nấc QĐ 19) — chờ anh chốt câu nấc.
+- Ảnh: anh_wc_132kw.jpeg (từ catalogue anh) 328 ppi; bỏ 2 ảnh cũ.
+- Kiểm: ve_duong_cong ĐẠT 8 + 2; kiem_catalogue EN ĐẠT 7 / CHƯA ĐẠT 1 (QĐ 19), VI ĐẠT 6 / CHƯA ĐẠT 2 (QĐ 19 + chữ Việt theo lệnh anh). Xem PDF tr.1, 3, 4. Chưa kiểm độc lập.
