@@ -1,0 +1,10 @@
+# REDPUMP WC 150WC / 200WC 37–132 kW — catalogue riêng 14 mã, bản EN + VI (13/11/2026, phiên CLAUDE_20261113)
+Lệnh anh: QĐ 174 (14 mã, thứ tự anh đưa), QĐ 175 (bản tiếng Việt).
+Tệp: REDPUMP - Bơm cắt rác WC 150WC-200WC 37-132kW 1.pdf (SHA256 91d17d07f400…), … tiếng Việt 1.pdf (SHA256 a063f97e587b…); 4 trang A4 ngang, giao diện REDPUMP.
+Tr.1 tổng quan + bảng 14 mã đúng thứ tự anh; tr.2 150WC (2 biểu đồ nhóm A/B + bảng); tr.3 200WC; tr.4 vật liệu, ứng dụng, điều kiện.
+- NGUỒN lời anh: Qmax, Hmax, kW. Điểm định mức Q–H: tên model (quy ước mã WC).
+- H tại Qmax = nấc công suất trong cỡ họng (QĐ 19), nối tiếp dải REDPUMP đã duyệt: 150WC 37→8 m … 132→14 m; 200WC 37→5 m … 132→11 m (tiền lệ 150WC300-30-37, 200WC450-32-55). kiem_catalogue đếm nấc trong riêng tệp (1…7) nên báo CHƯA ĐẠT mục QĐ 19 — giữ theo dải, chờ anh.
+- SUY RA: mức Q giữa: H = Hmin + (Hmax − Hmin)(1 − (Q/Qmax)^n) qua điểm định mức; 200WC350-22-37 điểm định mức nằm dưới dây cung → parabol lồi (giống dáng bảng WC đã duyệt). HP theo DU_LIEU/IRG.xlsx (90 kW = 120 HP, 132 kW = 176 HP). 2 cực n≈2900 (150WC), 4 cực n≈1450 (200WC) theo dải.
+- Số liệu anh đưa làm đường cắt nhau: 200WC350-22-37 (37 kW) cao hơn 200WC300-32-45 (45 kW) khi Q > ~560 m³/h; 150WC180-80-110 và 150WC200-90-132 hết ở 300 m³/h trong khi 37–90 kW tới 350 m³/h — trái quy tắc 06/10 "công suất lớn phải trội hơn" ở cuối dải; giữ đúng số anh, chờ anh.
+- Chữ EN: REDPUMP - Bơm cắt rác WC.pdf đã duyệt tr.5 (bỏ ISO 9906 QĐ 149, bỏ dòng 1 pha). VI: dịch (bảng VI trong build_wcl.py). Ảnh 51c00456604c (150WC, 458 ppi), d78acefb2b87 (200WC, 450 ppi).
+- Kiểm: ve_duong_cong ĐẠT 8 biểu đồ + 2 bảng. kiem_catalogue EN ĐẠT 7, CHƯA ĐẠT 1 (QĐ 19 như trên); VI ĐẠT 6, CHƯA ĐẠT 2 (QĐ 19 + "có chữ tiếng Việt" — anh yêu cầu bản VI). Xem PDF 4 trang mỗi bản: nhãn không đè. Chưa kiểm độc lập bằng AI khác.
