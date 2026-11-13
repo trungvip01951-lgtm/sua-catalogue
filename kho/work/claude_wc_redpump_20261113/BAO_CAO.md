@@ -16,3 +16,8 @@ Tệp: … 37-132kW 2.pdf (SHA256 c3621cb384c0…), … tiếng Việt 2.pdf (SH
 - H tại Qmax của 200WC400-75-132 = 5 m (catalogue anh) trong khi 200WC300-65-110 = 10 m (nấc QĐ 19) — chờ anh chốt câu nấc.
 - Ảnh: anh_wc_132kw.jpeg (từ catalogue anh) 328 ppi; bỏ 2 ảnh cũ.
 - Kiểm: ve_duong_cong ĐẠT 8 + 2; kiem_catalogue EN ĐẠT 7 / CHƯA ĐẠT 1 (QĐ 19), VI ĐẠT 6 / CHƯA ĐẠT 2 (QĐ 19 + chữ Việt theo lệnh anh). Xem PDF tr.1, 3, 4. Chưa kiểm độc lập.
+
+## Bản 3 (13/11/2026) — QĐ 179
+Tệp: … 37-132kW 3.pdf (SHA256 f173b7fe90a2…), … tiếng Việt 3.pdf (SHA256 7a0c15cc7074…).
+- H tại Qmax: 200WC 5 m, 150WC 10 m (cả 14 mã, kiểm bằng mã: 0 lệch). Điểm làm việc theo mã: 14/14 khớp. Đường giữa SUY RA cùng công thức (n mới trong WCL.xlsx).
+- Kiểm: ve_duong_cong ĐẠT 8 + 2; kiem_catalogue chỉ còn mục QĐ 19 (công cụ đòi nấc 1…7 — anh đã chốt QĐ 179) và chữ Việt ở bản VI (lệnh anh QĐ 175). Xem PDF tr.2, 3. Chưa kiểm độc lập.

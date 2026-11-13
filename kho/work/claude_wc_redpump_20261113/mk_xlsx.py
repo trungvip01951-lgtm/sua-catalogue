@@ -34,7 +34,7 @@ qh = wb.create_sheet('QH'); qh.append(('hang', 'model', 'q_m3h', 'h_m', 'nguon')
 for i, l in enumerate(L.splitlines(), 1):
     md, qm, hm, kw = l.split(); qm, hm, kw = float(qm), float(hm), int(kw)
     dn, rest = md.split('WC'); qr, hr, k2 = map(float, rest.split('-')); assert k2 == kw
-    hmin = NAC0[dn] + KWS.index(kw) + 1
+    hmin = {'200': 5, '150': 10}[dn]   # QĐ 179: H tại Qmax 200WC = 5 m, 150WC = 10 m (thay nấc QĐ 19 cho catalogue này)
     if md == '200WC400-75-132':   # QĐ 177: điểm làm việc theo tên model (400/75); Hmax 105, Qmax 600, H tại Qmax 5 m theo catalogue anh (QĐ 176)
         hmin = ANH132[600]; assert (qm, hm) == (600, ANH132[0])
     n = math.log(1 - (hr - hmin) / (hm - hmin)) / math.log(qr / qm)
@@ -49,7 +49,7 @@ for i, l in enumerate(L.splitlines(), 1):
     for q in GRID[dn] + ([qr] if qr not in GRID[dn] else []):
         if q > qm: continue
         if q == 0: h, s = hm, 'NGUỒN: Hmax lời anh'
-        elif q == qm: h, s = hmin, (f'NGUỒN: Qmax lời anh; H = nấc {hmin} (QĐ 19)' if md != '200WC400-75-132' else 'NGUỒN: catalogue_132kw.pdf anh gửi (H 5 m tại 600 m³/h)')
+        elif q == qm: h, s = hmin, (f'NGUỒN: Qmax lời anh; H = {hmin} m (QĐ 179)' if md != '200WC400-75-132' else 'NGUỒN: catalogue_132kw.pdf anh gửi (H 5 m tại 600 m³/h)')
         elif q == qr: h, s = hr, 'NGUỒN: điểm làm việc theo tên model (QĐ 177)'
         else: h, s = round(f(q), 1), f'SUY RA: H = {cong} = {f(q):.3f}'
         qh.append(('REDPUMP', md, q, h, s))
