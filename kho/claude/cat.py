@@ -32,6 +32,8 @@ def main():
     def manifest():
         m = orig()
         m['paths'] = {k: to_local(v) for k, v in m['paths'].items()}
+        if not Path(m['paths'].get('python', '')).exists():
+            m['paths']['python'] = sys.executable      # manifest trỏ python Windows; trên Linux dùng python đang chạy
         return m
     mod.manifest = manifest
     return mod.main()

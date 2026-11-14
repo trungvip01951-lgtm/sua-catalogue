@@ -26,7 +26,12 @@ def now():
 
 def xem():
     D.mkdir(parents=True, exist_ok=True)
-    rows = [json.loads(p.read_text(encoding='utf8')) for p in sorted(D.glob('*.lock'))]
+    rows = []
+    for p in sorted(D.glob('*.lock')):
+        try:
+            rows.append(json.loads(p.read_text(encoding='utf8')))
+        except ValueError:
+            print(f'KHÓA HỎNG (tệp rỗng/không đọc được): {p.name} — báo người điều phối, không tự xoá')
     if not rows:
         print('Không có khóa việc nào đang giữ.')
     for r in rows:
@@ -74,4 +79,8 @@ if __name__ == '__main__':
     elif a[:1] == ['nha'] and len(a) == 4:
         nha(a[1], a[2], a[3])
     else:
+        if a[:1] == ['nha']:
+            print('THIẾU THAM SỐ — khóa CHƯA nhả. Dùng: khoa_viec.py nha <VIỆC> <PHIÊN> "<ghi chú>"', file=sys.stderr)
+        elif a[:1] == ['nhan']:
+            print('THIẾU THAM SỐ — CHƯA nhận khóa. Dùng: khoa_viec.py nhan <VIỆC> <PHIÊN> "<phạm vi>"', file=sys.stderr)
         sys.exit(__doc__)

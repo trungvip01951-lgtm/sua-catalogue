@@ -1,58 +1,61 @@
-# Trạng thái ngắn cho AI — cập nhật 13/10/2026
+# Trạng thái ngắn cho AI — cập nhật 14/11/2026
 
-Mốc đọc nhanh đầu phiên, không phải sổ tiến độ. Thẩm quyền: rules/, tệp thật, sổ TIEN DO.md gốc. Giữ tệp ≤ 6 KB; mỗi phiên ghi đè mục 4. Bản cũ (53 KB, lịch sử 06–13/10): archive/claude/TRANG_THAI_CLAUDE_20261013_cu.md (chỉ tra theo từ khoá).
+Mốc đọc nhanh đầu phiên, không phải sổ tiến độ. Thẩm quyền: rules/, tệp thật, sổ TIEN DO.md gốc. Giữ tệp ≤ 6 KB; mỗi phiên GHI ĐÈ mục 4 (không nối thêm dòng). Bản cũ: archive/claude/TRANG_THAI_CLAUDE_20261114_cu.md, …_20261013_cu.md (chỉ tra theo từ khoá).
 
 ## 1. Đầu phiên
 
-- Đọc: rules/QUY_TAC_HIEN_HANH.md → rules/HO_SO_HANG.md → rules/CHUAN_TRINH_BAY.md → tệp này. Khi cần: rules/QUYET_DINH_ANH.md (nhật ký, số QĐ), rules/LOI_DA_GAP.md, claude/VIEC_CHO_ANH.md, claude/LOI_ANH_BAO.md.
-- Khoá việc: `python3 claude/khoa_viec.py xem` → `nhan <VIỆC> <PHIÊN> "<phạm vi>"` → `nha`.
-- Môi trường Claude (Linux): `bash claude/dau_phien.sh env` (cài offline từ vendor/wheels, vài giây). `bash claude/dau_phien.sh test` (43/43) CHỈ bắt buộc khi dùng catfix.
-- Lệnh dự án: `$HOME/cfenv/bin/python -B -X utf8 claude/cat.py health|status|context|claim…`. health báo "missing_paths: python" là lỗi sẵn có (manifest.json trỏ Python Windows) — bỏ qua; "controls.changed" phải rỗng.
-- Mỗi lệnh shell ≤ 170 giây; tiến trình nền bị dừng khi lệnh kết thúc; trong kho không xoá được bằng rm.
-- Sổ CATALOG SUA/BẢN MỚI 03-10-2026 (ChatGPT)/_BAO CAO/TIEN DO.md và state/CURRENT_CHECKPOINT.md: chỉ grep theo từ khoá.
-- Xem PDF: xuất PNG vào claude/_xem/xem_1…8.png (tên cố định, ghi đè), 110 dpi cả trang, 250–300 dpi vùng cắt.
-- Đám mây (từ 23/10): kho ở GitHub riêng tư trungvip01951-lgtm/sua-catalogue, thư mục kho/. Hook .claude/hooks/session-start.sh (gốc repo) tự cài tesseract-ocr + qpdf, nối `$HOME/mnt/Sửa catalogue` → /home/user/sua-catalogue/kho, chạy `dau_phien.sh env` (wheels offline chỉ hợp Python 3.10 → tải mạng bản mới, QĐ 23/10). Làm xong phải commit + push; máy anh `git pull` trước khi làm. Kho có `.gitattributes` `* -text` để giữ CRLF, nếu bỏ thì niêm phong lệch.
+- Đọc: rules/QUY_TAC_HIEN_HANH.md → rules/HO_SO_HANG.md → rules/CHUAN_TRINH_BAY.md → tệp này. Khi cần: rules/QUYET_DINH_ANH.md (nhật ký, số QĐ — nơi DUY NHẤT ghi quyết định), rules/LOI_DA_GAP.md, claude/VIEC_CHO_ANH.md, claude/LOI_ANH_BAO.md.
+- Đám mây (từ 23/10, QĐ 183): kho ở GitHub riêng tư trungvip01951-lgtm/sua-catalogue, thư mục kho/; xem CLAUDE.md ở gốc repo. Hook .claude/hooks/session-start.sh tự cài tesseract + qpdf, nối `$HOME/mnt/Sửa catalogue` → kho/, cài thư viện. Làm xong phải commit + push; máy anh `git pull` trước khi làm. Giữ `.gitattributes` `* -text`. Tệp rác không đưa lên: xem .gitignore.
+- Python: `$HOME/cfenv/bin/python -B -X utf8`, chạy tại kho/. Lệnh dự án: `claude/cat.py health|status|context|claim…` ("changed" phải rỗng; "missing_paths: python" là lỗi sẵn có, bỏ qua). `bash claude/dau_phien.sh test` (43/43) CHỈ bắt buộc khi dùng catfix.
+- Khoá việc: `claude/khoa_viec.py xem` → `nhan <VIỆC> <PHIÊN> "<phạm vi>"` → `nha <VIỆC> <PHIÊN> "<ghi chú>"` (đủ 3 tham số).
+- Mỗi lệnh shell ≤ 170 giây. Sổ TIEN DO.md và state/CURRENT_CHECKPOINT.md: chỉ grep theo từ khoá.
+- Xem PDF: xuất PNG vào claude/_xem/ (tên cố định, ghi đè; thư mục này không lên GitHub), 70–110 dpi cả trang, 250–300 dpi vùng cắt. Nháp: `$HOME/claude_work/<việc>` (ngoài kho, mất khi máy đám mây bị thu hồi — chép mã dựng + xlsx vào work/<việc>/ trước khi commit).
 
 ## 2. Nơi gốc dữ liệu
 
 | Gì | Ở đâu |
 |---|---|
 | Quy tắc, hồ sơ hãng, chuẩn trình bày, nhật ký quyết định, lỗi đã gặp | rules/ |
-| Số liệu từng nhóm (một nguồn cho bảng + đường) | DU_LIEU/<nhóm>.xlsx |
-| Ảnh đã duyệt | KHO_ANH/<nhóm>/<model>_<hãng>.png |
-| Mã dựng đạt | templates/<nhóm>/ (bắt buộc; không để trong work/) |
-| 62 PDF anh đã duyệt | CATALOG SUA/CATALOGUE DA DUYET/<HÃNG>/ + DANH SACH.txt |
-| Bản chính 25 catalogue gốc | CATALOG SUA/BẢN MỚI 03-10-2026 (ChatGPT)/ (nguồn bất biến: BẢN MỚI 01-10-2026) |
-| Nguồn anh gửi thêm | CATALOG SUA/NGUON BO SUNG 2026100x/ |
-| Công cụ | tools/ |
-| Tệp đã chuyển chỗ | archive/ (danh sách archive/DA_CHUYEN_20261013.csv) |
+| Số liệu từng nhóm (một nguồn cho bảng + đường) | DU_LIEU/<nhóm>.xlsx (đọc DU_LIEU/README.md) |
+| Ảnh tách từ bản đã duyệt | KHO_ANH/<nhóm>/<mã băm>.<đuôi> + KHO_ANH/DANH_MUC.csv |
+| 62 PDF anh đã duyệt | CATALOG SUA/CATALOGUE DA DUYET/<HÃNG>/ + DANH SACH.txt (mã kiểm khớp 62/62, đo 14/11) |
+| Catalogue riêng theo báo giá (mã dựng, xlsx, báo cáo, PDF) | work/claude_<việc>_<ngày>/ |
+| Bản chính 25 catalogue gốc / nguồn bất biến | CATALOG SUA/BẢN MỚI 03-10-2026 (ChatGPT)/ ; BẢN MỚI 01-10-2026, NGUON BO SUNG … |
+| Công cụ | tools/ (ve_duong_cong.py, kiem_catalogue.py, nhan_ban_chinh.py, niem_phong.py) |
+| Skill dự án | claude/skill/sua-catalogue/SKILL.md (+ .zip để tải lên tài khoản) |
 
 ## 3. Trạng thái
 
-- Claude là người điều phối (QĐ 1): ghi sổ TIEN DO.md, nhận bản chính sau nghiệm thu.
-- 62 PDF đã duyệt: AQUARIS 20, PEROTAC 21, REDPUMP 21; mã kiểm khớp DANH SACH.txt 62/62 (13/10). Không làm lại (QĐ 147).
-- Skill dự án (một bản duy nhất): nguồn ở claude/skill/sua-catalogue/SKILL.md — sửa ở đây rồi đóng zip tải lên tài khoản Claude của người phụ trách.
-- 13/10/2026 23:09 anh bỏ toàn bộ phần dành riêng cho nhân viên (gói Drive NV, skill NV, NV_LAM, tools/dong_bo_drive.py → archive/bo_phan_nhan_vien_20261013/; thư mục D:\ChatGPT\Sửa catalogue - DRIVE NV đã xoá). Cả dự án dùng 1 bộ quy tắc + 1 skill để anh giao nguyên cho nhân viên phụ trách.
-- Việc chờ anh: claude/VIEC_CHO_ANH.md (QXN40-60, 80WQX40-15-5.5, 150WC300-30-37, SS-450, MHI, 4MIX, QĐ 136–138, mốc 137/149, bảng giá). Lỗi anh báo đang mở: không (LOI_ANH_BAO 4/4 đã sửa).
-- Phương án 13/10 (QĐ 149) chia đợt A→D: A gộp quy tắc (xong 13/10); công cụ tools/kiem_catalogue.py, nhan_ban_chinh.py, ve_duong_cong.py, niem_phong.py, DU_LIEU/, KHO_ANH/ do các phiên khác — xem khoá trong claude/khoa/.
+- Claude là người điều phối (QĐ 1). 62 PDF đã duyệt: AQUARIS 20, PEROTAC 21, REDPUMP 21 — không làm lại (QĐ 147).
+- Từ 13/10 việc chính là CATALOGUE RIÊNG theo báo giá (QTH 4.16–4.18): mỗi việc một thư mục work/, PDF đặt tên "HÃNG - Tên … <số bản>.pdf" (QĐ 163). Chưa bản nào trong số này vào CATALOGUE DA DUYET.
+- Rà soát toàn dự án 14/11 (QĐ 184): kết quả + đề xuất chờ anh duyệt ở claude/RA_SOAT_20261114.html.
+- DU_LIEU/CM.xlsx hàng AQUARIS 3 mã (CM 32-160/3, CM 40-250/11, CM 65-200/22) đang mang số báo giá (QĐ 165) trong khi bản AQUARIS CM đã duyệt còn số cũ — chờ anh duyệt bản vá "AQUARIS - Bơm trục ngang CM 1.pdf" (khoá CM_AQUARIS_BG đang giữ). Bản cũ: history/DU_LIEU_CM_truoc_QD165_20261030.xlsx.
+- Lỗi công cụ đã biết: xem claude/RA_SOAT_20261114.html mục công cụ.
 
-## 4. Đang ở đâu (16/10/2026, phiên CLAUDE_20261016T0826Z)
+## 4. Đang ở đâu (14/11/2026, phiên CLAUDE_20261114)
 
-- REDPUMP 300IRG800-30-110 (bơm trục đứng IRG, catalogue riêng 1 trang) ứng viên 04 chờ anh duyệt: work/claude_irg300_20261016/ (BAO_CAO.md, build_irg300_04.py, IRG300_04.xlsx); có Qmin/Hmin thì đường chỉ vẽ Qmin–Qmax (QĐ 16/10 15:39). Đường qua 600/35, 800/30, 880/21 theo lệnh anh; điểm khác SUY RA (claude/QUYET_DINH_ANH_20261016.md).
-- PEROTAC 200WC450-32-55 (bơm cắt rác, catalogue riêng 2 trang) ứng viên 01 chờ anh duyệt: work/claude_wc200_55_20261016/ (BAO_CAO.md, build_wc200_55.py, WC200_55.xlsx); chờ anh xác nhận dòng web 50–600/30–4 và H 5 m tại Qmax.
-- Còn chờ anh: REDPUMP 250SWQ500-5 ứng viên 03 (work/claude_swq_20261015/); PEROTAC MHI-Q ứng viên 07; SF 3 hãng; 150WC300-30-37 ứng viên 02.
-- Mẫu dựng catalogue riêng 1 model REDPUMP: build_irg300.py (đọc nhãn vạch trục tổng quát, có dải làm việc). Trong kho không ghi đè được tệp → dựng ở $HOME/claude_work rồi cp sang tên mới.
+Catalogue riêng đã giao, chờ anh duyệt hoặc trả lời (chi tiết + câu hỏi: claude/VIEC_CHO_ANH.md mục A, B):
 
-- 17/10 (phiên CLAUDE_20261017T0850Z): REDPUMP 6SP30 catalogue riêng (A4 dọc, gốc bản 16 ad416b37fb9b) thêm ảnh, vật liệu, IP68/IE3/2850, bỏ cột kg — ứng viên 17A (5506fbe3cbab) và 17B (ba29a33c8174) chờ anh chọn: work/claude_6sp30_20261017/ (BAO_CAO.md, build_6sp30_17.py).
+| Ngày | Catalogue (hãng) | Thư mục work/ | Bản mới nhất |
+|---|---|---|---|
+| 14/11 | 50GDL18-15×9 (REDPUMP) | claude_gdl_redpump_20261114 | 1 — hỏi ảnh, điện áp |
+| 13/11 | WC 150WC/200WC 37–132 kW, 14 mã (REDPUMP) | claude_wc_redpump_20261113 | 3, tiếng Anh + tiếng Việt |
+| 03/11 | TKP600 / TKP800 (REDPUMP) | claude_tkp_redpump_20261103 | 1 |
+| 03/11 | 6SP60, 15 mã (REDPUMP) | claude_6sp60_20261103 | 4 |
+| 30/10 | CM AQUARIS vá 3 mã theo báo giá | claude_cm_aquaris_bg_20261030 | 1 — hỏi CM 32-200/5.5 |
+| 30/10 | FC 75/40 (PEROTAC) | claude_fc7540_20261030 | 1 |
+| 29/10 | RPX 2 mã (REDPUMP) — KHÔNG có trên GitHub (QĐ 169) | claude_rpx_redpump_20261029 | 1 — hỏi thứ tự tên |
+| 27/10 | CM 32-160/3; CDLF8-12T + CDLF16-8T (PEROTAC) | claude_bg27102026_20261027 | 1 |
+| 24/10 | CM 32-250/7.5 + CM 40-160/4 (AQUARIS) | claude_cm2_aquaris_20261024 | 2 |
+| 23/10 | SS-150 (PEROTAC) | claude_ss150_20261023 | 2 |
+| 16/10 | 300IRG800-30-110 (REDPUMP); 200WC450-32-55 (PEROTAC) | claude_irg300_20261016; claude_wc200_55_20261016 | ứng viên 04; 01 |
+| 15/10 | 250SWQ500-5 (REDPUMP) | claude_swq_20261015 | ứng viên 03 |
+| 13–14/10 | 80WQX40-15-5.5, 150WC300-30-37, SF 3 hãng, cụm MHI-Q (PEROTAC) | claude_wqx_…, claude_wc150_37_20261014, claude_sf_…, claude_mhi2_… | xem VIEC_CHO_ANH |
+
+Đã xong: REDPUMP 6SP30 (17B, anh duyệt QĐ 157); đánh giá biên bản thử V250/V450F/V750 so với SS (work/claude_v_ss_20261103/DANH_GIA.md).
+Mẫu mã dựng nên chép khi làm việc mới: REDPUMP 1 trang — work/claude_gdl_redpump_20261114/build_gdl.py; REDPUMP nhiều trang, 2 thứ tiếng — work/claude_wc_redpump_20261113/build_wcl.py; PEROTAC — work/claude_fc7540_20261030/build_fc7540.py; AQUARIS — work/claude_cm2_aquaris_20261024/build_cm2.py.
 
 ## 5. Giữ kho gọn
 
-- Không xoá tệp: tệp bỏ thì mv sang archive/ và ghi archive/DA_CHUYEN_<ngày>.csv (đường cũ, đường mới, lý do).
-- Không bao giờ dọn rules/, DU_LIEU/, KHO_ANH/, templates/, CATALOG SUA/ (bài học 12/10: mã dựng trong work/ bị xoá nhầm).
-- Nháp: $HOME/claude_work/<việc> (ngoài kho). Cuối phiên: ghi đè mục 4 + bàn giao ngắn claude/BAN_GIAO_<UTC>.md ≤ 2 KB.
-
-- 23/10 (phiên CLAUDE_20261023T0255Z): đưa kho lên đám mây (claude/QUYET_DINH_ANH_20261023.md). Đám mây: 43/43 ĐẠT, môi trường 4/4, controls.changed rỗng (sau khi anh đẩy lại giữ CRLF). Không sửa catalogue nào.
-- 23/10 (phiên CLAUDE_20261023T0430Z): PEROTAC SS-150 catalogue riêng 1 trang A4 ngang, ứng viên 02 (bảng 8 mức Q, đường spline mềm theo QĐ 158) chờ anh duyệt: work/claude_ss150_20261023/ (BAO_CAO.md, build_ss150.py, lam_anh.py). Lỗi công cụ ve_duong_cong: ô so_cuc dạng chữ của SS.xlsx bị đọc thành "2850 poles" (xem BAO_CAO).
-- 23/10: QĐ 158 — bảng Q–H nhiều mức + đường cong mềm (QTH 4.14–4.15, CTB 2.2/3.7); tools/ve_duong_cong.py dùng spline khi không đổi dáng; đã niêm phong lại.
-- 24/10 (phiên CLAUDE_20261024T0100Z): AQUARIS CM 32-250/7.5 + CM 40-160/4 catalogue riêng 1 trang A4 dọc (QĐ 159, số 32-250/7.5 theo báo giá), ứng viên 02 bảng ngang (QĐ 160) chờ anh duyệt: work/claude_cm2_aquaris_20261024/. ve_duong_cong: ô ngoài dải ghi "–".
-- 27/10 (phiên CLAUDE_20261027T0100Z): báo giá BG-27102026-001 → 2 catalogue riêng PEROTAC (CM 32-160/3; CDLF8-12T + CDLF16-8T), số theo báo giá (QĐ 161), ứng viên 01 chờ anh duyệt: work/claude_bg27102026_20261027/.
+- Không xoá tệp có nội dung: tệp bỏ thì mv sang archive/ và ghi archive/DA_CHUYEN_<ngày>.csv. Không bao giờ dọn rules/, DU_LIEU/, KHO_ANH/, templates/, CATALOG SUA/.
+- Cuối phiên: ghi đè mục 4, cập nhật claude/VIEC_CHO_ANH.md, ghi bàn giao claude/BAN_GIAO_<UTC>.md ≤ 2 KB, commit + push.

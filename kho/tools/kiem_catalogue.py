@@ -923,7 +923,7 @@ class KiemPDF:
                         m.loi.append(f'tr.{i + 1}: chữ cấm "{term}" — {ng}')
             ws = self.trang(i)['words']
             viet = sorted(set(w[4] for w in ws if RE_VIET.search(w[4])))
-            if viet:
+            if viet and not getattr(self.args, 'tieng_viet', False):
                 m.loi.append(f'tr.{i + 1}: có chữ tiếng Việt (phương án 13/10 cấm): {", ".join(viet[:8])}')
             sao = [w for w in ws if w[4] == '*']
             if sao:
@@ -953,7 +953,8 @@ class KiemPDF:
         kw_max = dien.get('mot_pha_kw_toi_da', MAC_DINH_MOT_PHA_KW)
         nguon_kw = 'HO_SO_HANG.json chung.dien.mot_pha_kw_toi_da (đề xuất, chưa anh duyệt)' if 'mot_pha_kw_toi_da' in dien else \
             'mặc định 3 kW theo phương án 13/10 (json chưa có khoá chung.dien.mot_pha_kw_toi_da)'
-        pat = re.compile(r'(?<![\d.,])(\d{2,3})(?:\s*[–\-/]\s*(\d{2,3}))?\s*V(?![A-Za-z])')
+        # V không được dính chữ cái (kể cả chữ có dấu: "04 / 04 VẬT LIỆU"); số bắt đầu bằng 0 là số trang, không phải điện áp
+        pat = re.compile(r'(?<![\d.,])(\d{2,3})(?:\s*[–\-/]\s*(\d{2,3}))?\s*V(?![^\W\d_])')
         chuan = ' / '.join(f'{x}–{y} V' for x, y in sorted(cho_phep))
         for i, pg in enumerate(self.doc):
             txt = re.sub(r'\s+', ' ', pg.get_text('text'))
@@ -963,6 +964,8 @@ class KiemPDF:
                 if b is not None and (a, b) in cho_phep:
                     continue
                 if a < 100 and b is None:
+                    continue
+                if mt.group(1).startswith('0') or (mt.group(2) or '').startswith('0'):
                     continue
                 m.loi.append(f'tr.{i + 1}: chuỗi điện áp "{mt.group(0).strip()}" khác chuẩn {chuan}')
         all_rows = [(i, r) for i in range(self.doc.page_count) for b in self.bang(i) for r in b['rows']]
@@ -1071,16 +1074,31 @@ class KiemPDF:
                     nhom.setdefault(mt.group(1), {})[r['model']] = (i, kw, v[-1] if v else None)
         if not nhom:
             return
+        kw_dai = {}
+        try:
+            import openpyxl
+            wbd = openpyxl.load_workbook(KHO / 'DU_LIEU' / 'WC.xlsx', read_only=True, data_only=True)
+            for r in wbd['MODEL'].iter_rows(min_row=2, values_only=True):
+                mt = re.match(r'^(\d+)WC', str(r[2] or '').replace(' ', ''))
+                if mt and r[0] == self.hang and isinstance(r[3], (int, float)):
+                    kw_dai.setdefault(mt.group(1), set()).add(float(r[3]))
+            wbd.close()
+        except Exception as e:      # không có DU_LIEU thì chỉ đếm trong PDF như trước, nhưng nói rõ
+            m.canh_bao.append(f'QĐ 19: không đọc được DU_LIEU/WC.xlsx ({type(e).__name__}) — nấc chỉ đếm trong PDF này')
         dung = sai = 0
         for co, ds in sorted(nhom.items(), key=lambda kv: int(kv[0])):
             khong_kw = [t for t, (i, kw, h) in ds.items() if kw is None]
             for t in khong_kw:
                 m.kxm.append(f'WC cỡ {co}: {t} không đọc được công suất → chưa kiểm QĐ 19')
-            nac = sorted(set(kw for i, kw, h in ds.values() if kw is not None))
+            # Nấc tính trên CẢ dải của hãng trong DU_LIEU/WC.xlsx + các mã trong PDF (catalogue riêng vài mã không tự thành nấc 1)
+            nac = sorted(set(kw for i, kw, h in ds.values() if kw is not None) | kw_dai.get(co, set()))
             for t, (i, kw, h) in ds.items():
                 if kw is None:
                     continue
                 can = nac.index(kw) + 1
+                # QĐ 179 (QTH 4.9): catalogue riêng REDPUMP 150WC/200WC 37–132 kW — 200WC = 5 m, 150WC = 10 m
+                if self.hang == 'REDPUMP' and co in ('150', '200') and 37 <= kw <= 132:
+                    can = 10 if co == '150' else 5
                 if h is None or abs(h - can) > 1e-9:
                     sai += 1
                     m.loi.append(f'tr.{i + 1}: QĐ 19 WC cỡ {co}: {t} ({kw:g} kW, nấc {can}) có H tại Qmax = '
@@ -1242,6 +1260,8 @@ class KiemPDF:
                 for ln in bl.get('lines', []):
                     tx = ''.join(sp['text'] for sp in ln['spans'])
                     if len(tx.split()) < 6 or ln['bbox'][2] - ln['bbox'][0] < 100:
+                        continue
+                    if ln['bbox'][1] > pg.rect.height - 34:      # dòng chân trang (12 mm dưới cùng) không phải chữ thân
                         continue
                     if sum(ch.isalpha() for ch in tx) / max(1, len(tx.replace(' ', ''))) < 0.7:
                         continue
@@ -1719,7 +1739,7 @@ def kiem_mot(path, muc_set, args=None, cfg=None):
     """Gọi từ công cụ khác (vd nhan_ban_chinh.py): trả (KiemPDF, {mục: Muc})."""
     cfg = cfg or doc_ho_so()
     if args is None:
-        args = argparse.Namespace(du_lieu=None, nhanh=False, khong_dong_co=False, khong_qh=False)
+        args = argparse.Namespace(du_lieu=None, nhanh=False, khong_dong_co=False, khong_qh=False, tieng_viet=False)
     k = KiemPDF(path, cfg, args)
     return k, k.chay(set(muc_set))
 
@@ -1737,6 +1757,7 @@ def main(argv=None):
     ap.add_argument('--khong-dong-co', action='store_true', help='sản phẩm không có động cơ (không bắt buộc "50 Hz")')
     ap.add_argument('--khong-qh', action='store_true', help='thiết bị không có Q–H (máy thổi khí, máy khuấy, định lượng, đĩa): '
                     'bỏ phép bảng/đường Q–H (mặc định tự nhận theo tên nhóm và nhãn trục)')
+    ap.add_argument('--tieng-viet', action='store_true', help='bản tiếng Việt anh yêu cầu riêng (QĐ 175): không tính lỗi chữ tiếng Việt')
     ap.add_argument('--goc', help='PDF bản gốc đã duyệt: chỉ tính CHƯA ĐẠT lỗi MỚI so với bản gốc')
     ap.add_argument('--trang', help='với --goc: các trang đã vá (vd 2,3); lỗi ở trang khác không tính')
     args = ap.parse_args(argv)

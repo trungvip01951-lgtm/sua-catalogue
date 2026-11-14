@@ -1,10 +1,10 @@
 {
-  "sealed_utc": "2026-11-14T07:29:09.845697+00:00",
+  "sealed_utc": "2026-11-14T08:14:57.098578+00:00",
   "files": [
     {
       "relative_path": "README.md",
-      "sha256": "cc1e8d9eaae23de701de5acb27c35ae39304509d10b707f2f60861c306c07f8b",
-      "bytes": 1781
+      "sha256": "cc64a4ef502b224179667a9ca0d1c566d346e7181d6c1e2605953a8584a581f7",
+      "bytes": 1878
     },
     {
       "relative_path": "START_HERE.md",
@@ -13,13 +13,13 @@
     },
     {
       "relative_path": "AGENTS.md",
-      "sha256": "233ab55f3719ba762cee645211b1f0b037a818655ae319cd0daed332cf984331",
-      "bytes": 3875
+      "sha256": "1b01aa0afbbec5820ab1e9841094abff13586c8b57f411417b333cdca9a1e241",
+      "bytes": 4275
     },
     {
       "relative_path": "CLAUDE.md",
-      "sha256": "ebf315aa3ef2bc153d34074a224bf633f638279522e1bb02c51c1119247eae88",
-      "bytes": 1260
+      "sha256": "770725fa64c025ed4975a2eeec25342a259a371f6f854b39868195585cf3738c",
+      "bytes": 1432
     },
     {
       "relative_path": "manifest.json",
@@ -268,8 +268,8 @@
     },
     {
       "relative_path": "rules/QUY_TAC_HIEN_HANH.md",
-      "sha256": "3c7feeec4c48e9720cfd1ce344f38a32011c800b8f77e8b502d16a8ddad3b6ea",
-      "bytes": 17425
+      "sha256": "ee33ed6cf24c3428df5c7e7e318ff781b3824973e63bdba7d319503b52aec0d7",
+      "bytes": 19454
     },
     {
       "relative_path": "rules/HO_SO_HANG.md",
@@ -283,23 +283,23 @@
     },
     {
       "relative_path": "rules/CHUAN_TRINH_BAY.md",
-      "sha256": "c27209c0f17ebd3dc2701a062bd9c493fe64ffbfda47d33bd7d4acc0ad7743e9",
-      "bytes": 10443
+      "sha256": "c21b32bb69901ae991d3631e07feb1cc937de4662ec720765f937a3c50846af0",
+      "bytes": 10875
     },
     {
       "relative_path": "rules/LOI_DA_GAP.md",
-      "sha256": "682a213f3803d2339e1bf089e346481aa640352a23d55f0d711b593d5f7aa37e",
-      "bytes": 8256
+      "sha256": "3f43e84fee22018c7fc8413b4fe3eb12f604ad1bdb637d063fce3f80b0c4066b",
+      "bytes": 10974
     },
     {
       "relative_path": "tools/kiem_catalogue.py",
-      "sha256": "2babbe410bdaf5d26164a21772b38509a5a00b47f86c6774f31aaa7f752e7452",
-      "bytes": 91515
+      "sha256": "13f77aec52fe3693718c5fb25c96e6e477ec2b29f173905495ffc8fe4884e9e9",
+      "bytes": 93370
     },
     {
       "relative_path": "tools/ve_duong_cong.py",
-      "sha256": "636c64b887843904e637e981e4d6e388d922fc31593d3663edfcbeab7e78762f",
-      "bytes": 80489
+      "sha256": "e05f832164903838c6d0f2d82116d6488f6dbab17950ec9ed6372948d4bb60e0",
+      "bytes": 83228
     },
     {
       "relative_path": "tools/nhan_ban_chinh.py",
@@ -313,13 +313,13 @@
     },
     {
       "relative_path": "tools/test_ve_duong_cong.py",
-      "sha256": "86c78a1914e8eda54d86bad242e4ba2965f47e7776100673954aaa10afcb96b1",
-      "bytes": 28946
+      "sha256": "0044d2ed9d80af99e4285f497cf790bca180b89509b7975c3c278be8fbd3aa6d",
+      "bytes": 31536
     },
     {
       "relative_path": "tools/niem_phong.py",
-      "sha256": "e480f5591c0d6fb09187f071db6a05cdecc59dbe6f57b518d7d73b0702007a7b",
-      "bytes": 1155
+      "sha256": "862245b2cd3d2accf398b42f0b1b6a13827cae431629f44e0276f68780f87c6c",
+      "bytes": 1344
     }
   ],
   "scope": "Khóa phiên bản quy tắc và công cụ dự án, không phải QA catalogue"

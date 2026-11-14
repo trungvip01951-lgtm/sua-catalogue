@@ -2,6 +2,8 @@
 """Chạy đúng nhánh --seal-controls của tools/refresh_index.py (không chụp lại state/catalogues.json).
 Dùng hàm gốc seal/fresh_json/replace_state; chỉ bỏ phần snapshot vì manifest trỏ đường Windows."""
 import sys, json
+if len(sys.argv) != 2 or not sys.argv[1].strip():
+    sys.exit('Dùng: python -B -X utf8 tools/niem_phong.py "<lý do niêm phong>"  (thiếu lý do — CHƯA niêm phong, chưa ghi gì)')
 from pathlib import Path
 from datetime import datetime, timezone
 import uuid

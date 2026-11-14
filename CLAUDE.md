@@ -1,6 +1,6 @@
 # Sửa catalogue — chạy trên đám mây (Claude Code cloud)
 
-Quy tắc dự án: kho/CLAUDE.md và kho/AGENTS.md. Tệp này chỉ ghi phần khác khi chạy trên đám mây; lệch với skill sua-catalogue thì theo tệp này (QĐ 23/10/2026, kho/claude/QUYET_DINH_ANH_20261023.md).
+Quy tắc dự án: kho/CLAUDE.md và kho/AGENTS.md. Tệp này chỉ ghi phần khác khi chạy trên đám mây; lệch với skill sua-catalogue thì theo tệp này (QĐ 183, rules/QUYET_DINH_ANH.md).
 
 - Kho gốc: GitHub riêng tư trungvip01951-lgtm/sua-catalogue, thư mục kho/. Câu trong skill "không chép catalogue lên đám mây" đã hết hiệu lực từ 23/10/2026.
 - Thư mục C:\Users\H2\Desktop\Catalog Sua là bản trùng (QĐ 23/10): không cần mount; sổ TIEN DO.md ở kho/CATALOG SUA/BẢN MỚI 03-10-2026 (ChatGPT)/_BAO CAO/.

@@ -1,4 +1,4 @@
-# LỖI ANH BÁO — chỉ ghi, CHƯA SỬA (QUYET_DINH mục 95)
+# LỖI ANH BÁO — chỉ ghi, chưa sửa cho tới khi anh bảo "sửa" (QĐ 106; số cũ 95)
 Anh nhắn lỗi → ghi một dòng; chỉ sửa khi anh bảo "sửa", sửa một lượt tất cả dòng TRẠNG THÁI = MỞ.
 
 | # | Ngày | Lời anh (nguyên văn) | Catalogue / hãng / trang | Cần làm rõ | Trạng thái |

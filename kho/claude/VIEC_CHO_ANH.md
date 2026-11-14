@@ -1,4 +1,4 @@
-# Việc đang chờ anh Trung — kiểm lại 13/10/2026
+# Việc đang chờ anh Trung — cập nhật 14/11/2026 (mục A–C cũ kiểm 13/10; mục D–E thêm 14/11)
 
 Mỗi mục: việc gì, cần anh trả lời gì, nguồn (đã grep kiểm ngày 13/10). Anh trả lời xong thì ghi nguyên văn vào rules/QUYET_DINH_ANH.md, làm việc, rồi xoá mục ở đây (ghi "ĐÃ XONG <ngày>"). Số "QĐ" là số mới trong rules/QUYET_DINH_ANH.md.
 
@@ -35,3 +35,29 @@ Mỗi mục: việc gì, cần anh trả lời gì, nguồn (đã grep kiểm ng
 ## Đã chốt 14/10/2026 07:08 (QĐ 152)
 - Vá hay dựng lại: VÁ đúng chỗ, giữ khổ và bố cục bản đã duyệt (anh chọn 1.1).
 - Cột dòng điện A: nguồn không có A thì bỏ cột A (anh chọn 2.1).
+
+## D. Catalogue riêng theo báo giá giao từ 15/10 đến 14/11 — chờ anh duyệt ("duyệt <tên>") hoặc báo lỗi
+
+Tệp nằm trong work/<thư mục>/; mỗi thư mục có BAO_CAO.md ghi số nào là NGUỒN, số nào SUY RA. Anh duyệt bản nào thì báo để chép vào CATALOGUE DA DUYET (nếu anh muốn lưu ở đó).
+
+| # | Tệp mới nhất | Thư mục work/ | Còn hỏi anh |
+|---|---|---|---|
+| D1 | REDPUMP - Bơm chìm nước thải SWQ 250SWQ500-5 (UNG VIEN 03).pdf | claude_swq_20261015 | — |
+| D2 | REDPUMP - Bơm trục đứng IRG 300IRG800-30-110 (UNG VIEN 04).pdf | claude_irg300_20261016 | — |
+| D3 | PEROTAC - Bơm cắt rác WC 200WC450-32-55 (UNG VIEN 01).pdf | claude_wc200_55_20261016 | dòng web "50–600 m³/h, 30–4 m" có dùng không; H 5 m tại Qmax |
+| D4 | PEROTAC - Bơm chìm nước thải SS-150 2.pdf | claude_ss150_20261023 | — |
+| D5 | AQUARIS - Bơm trục ngang CM 32-250-7.5 và CM 40-160-4 2.pdf | claude_cm2_aquaris_20261024 | — |
+| D6 | PEROTAC - Bơm trục ngang CM 32-160-3 1.pdf; PEROTAC - Bơm trục đứng CDLF8-12T và CDLF16-8T 1.pdf | claude_bg27102026_20261027 | — |
+| D7 | REDPUMP - Bơm trục rời đầu inox RPX 1.pdf (không có trên GitHub, QĐ 169) | claude_rpx_redpump_20261029 | thứ tự họng trong tên RPX: xả–hút (đang dùng) hay hút–xả |
+| D8 | PEROTAC - Bơm chìm nước thải FC 75-40 1.pdf | claude_fc7540_20261030 | — |
+| D9 | AQUARIS - Bơm trục ngang CM 1.pdf (vá 3 mã trên bản đã duyệt, QĐ 165) | claude_cm_aquaris_bg_20261030 | (a) duyệt để thay bản đã duyệt — DU_LIEU/CM.xlsx đã mang số mới; (b) CM 32-200/5.5 không có trong dải: thêm mã mới / ý anh là CM 32-250/5.5 / bỏ; (c) CM 32-160/3 số mới cắt lên trên CM 32-200/3 ở Q 24–27: giữ hay chỉnh |
+| D10 | REDPUMP - Bơm giếng 6SP60 4.pdf | claude_6sp60_20261103 | báo giá 6SP60-8 cần sửa thành 64 m³/h – 56 m, 15 kW |
+| D11 | REDPUMP - Bơm tăng áp TKP 1.pdf | claude_tkp_redpump_20261103 | câu công dụng viết mới; vật liệu / kích thước / dòng điện nếu anh có |
+| D12 | REDPUMP - Bơm cắt rác WC 150WC-200WC 37-132kW 3.pdf + bản tiếng Việt 3 | claude_wc_redpump_20261113 | số cực / tốc độ 150WC 37–132 kW đang ghi 2 cực 2900 theo dải (suy ra) |
+| D13 | REDPUMP - Bơm trục đứng đa tầng GDL 50GDL18-15x9 1.pdf | claude_gdl_redpump_20261114 | (a) ảnh máy; (b) điện áp 3 pha 380–415 V đúng không |
+
+## E. Việc anh giao chưa làm vì chờ anh trả lời
+
+10. **Bản chuẩn 3 hãng của sách RPX** ("Redpump là rpx perotac là prx aquaris mà aqx … thông số chuẩn hãng k sửa gì", 29/10): chờ anh trả lời 3 câu — thứ tự họng trong tên (xả–hút hay hút–xả); có giữ hậu tố "/kW" trong tên không; làm đủ mọi mã của sách mẫu hay chỉ một số cỡ.
+11. **Đề xuất sau rà soát 14/11** (QĐ 184): claude/RA_SOAT_20261114.html — anh đánh số mục đồng ý / không.
+

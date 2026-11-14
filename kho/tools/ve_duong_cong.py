@@ -385,9 +385,15 @@ def doc_du_lieu(duong_dan, hang):
             continue
         md = theo_ten.get(chuan_ten(r.get('model')))
         if md is None:
+            if _chu(r.get('model')):
+                raise LoiDuLieu(f'QH dòng {dong}: model "{r.get("model")}" của {hang} không có trong sheet MODEL '
+                                f'(sai tên?) — trước đây dòng này bị bỏ lặng lẽ.')
             continue
         q, h = _so(r.get('q_m3h')), _so(r.get('h_m'))
         if q is None or h is None:
+            la = [str(v) for v in (r.get('q_m3h'), r.get('h_m')) if _chu(v) and _so(v) is None and _chu(v) not in ('–', '-')]
+            if la:
+                raise LoiDuLieu(f'QH dòng {dong} ({r.get("model")}): ô Q/H "{", ".join(la)}" không phải số.')
             continue
         md['diem'].append((q, h, dong))
     wb.close()
@@ -529,14 +535,44 @@ def _gia_tri_hang(v, hang, ten, canh_bao):
     return None
 
 
+CUC_HOP_LE = (2, 4, 6, 8, 10, 12)
+
+
+def _khong_ghi(v):
+    return isinstance(v, str) and v.strip().lower() == 'không ghi'
+
+
 def khoi_dieu_kien(S, tt, canh_bao):
+    """Khối điều kiện dưới biểu đồ; số cực và tốc độ lấy từ THONG_TIN (so_cuc, toc_do_vg_ph).
+    - Cả hai ô ghi đúng chữ "KHÔNG GHI": nguồn không có → bỏ hẳn cụm "N poles (≈ … min⁻¹)" (QTH mục 3, CTB 2.8).
+    - Số cực phải thuộc CUC_HOP_LE, tốc độ 300–3600: ngoài khoảng thì bỏ qua giá trị đó + cảnh báo
+      (lỗi A16: ô chữ "…n ≈ 2850 /min" từng bị đọc thành "2850 poles").
+    - Số cực khác 2 mà không có tốc độ: không ghép với 2900 mặc định, chỉ ghi "N poles".
+    - Ô trống / không đọc được: vẫn dùng số mặc định của hồ sơ hãng NHƯNG có cảnh báo để người dựng kiểm lại."""
     s = S.dieu_kien
+    mau = r'\b\d+\s*poles\s*\(≈\s*\d+(?:[.,]\d+)?\s*min[^)]*\)'
+    if _khong_ghi(tt.get('so_cuc')) and _khong_ghi(tt.get('toc_do_vg_ph')):
+        return re.sub(mau + r',?\s*', '', s)
     cuc = _gia_tri_hang(tt.get('so_cuc'), S.hang, 'so_cuc', canh_bao)
     n = _gia_tri_hang(tt.get('toc_do_vg_ph'), S.hang, 'toc_do_vg_ph', canh_bao)
+    if cuc is not None and cuc not in CUC_HOP_LE:
+        canh_bao.append(f'THONG_TIN so_cuc đọc ra "{cuc:g}" không phải số cực hợp lệ {CUC_HOP_LE} — bỏ qua '
+                        f'(ô so_cuc phải là SỐ; chữ giải thích để ở cột nguon).')
+        cuc = None
+    if n is not None and not 300 <= n <= 3600:
+        canh_bao.append(f'THONG_TIN toc_do_vg_ph đọc ra "{n:g}" ngoài khoảng 300–3600 vg/ph — bỏ qua.')
+        n = None
     if cuc:
         s = re.sub(r'\b\d+\s*poles\b', f'{cuc:g} poles', s)
     if n:
         s = re.sub(r'≈\s*\d+(?:[.,]\d+)?\s*min', f'≈ {n:g} min', s)
+    elif cuc and cuc != 2:
+        s = re.sub(r'(\b\d+\s*poles)\s*\(≈[^)]*\)', r'\1', s)
+        canh_bao.append(f'Khối điều kiện: có số cực {cuc:g} nhưng THONG_TIN không có tốc độ — chỉ ghi "{cuc:g} poles".')
+    if (cuc is None or n is None) and not (cuc and cuc != 2):
+        thieu = ' và '.join(t for t, v in (('số cực', cuc), ('tốc độ', n)) if v is None)
+        canh_bao.append(f'Khối điều kiện: THONG_TIN không có {thieu} đọc được — đang in số MẶC ĐỊNH của hồ sơ hãng; '
+                        f'nguồn không ghi thì điền "KHÔNG GHI" vào cả so_cuc và toc_do_vg_ph để bỏ cụm này.')
     return s
 
 

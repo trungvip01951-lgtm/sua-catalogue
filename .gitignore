@@ -1,0 +1,11 @@
+# Tệp rác kỹ thuật — không đưa lên GitHub (dọn 14/11/2026)
+# Mảnh tệp do ổ FUSE để lại khi tệp đang mở bị xoá
+.fuse_hidden*
+# Bộ đệm Python
+__pycache__/
+*.pyc
+# Ảnh xem tạm của AI (tên cố định, ghi đè liên tục)
+kho/claude/_xem/
+# Tệp khoá/tạm của LibreOffice, Office
+.~lock.*#
+~$*

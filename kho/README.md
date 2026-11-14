@@ -1,6 +1,6 @@
 # Sửa catalogue — dự án dùng chung của anh Trung
 
-Thư mục: **D:\ChatGPT\Sửa catalogue** (gồm cả CATALOG SUA). Claude và ChatGPT/Codex cùng làm trên thư mục này. Bắt đầu: [START_HERE.md](START_HERE.md).
+Thư mục: **D:\ChatGPT\Sửa catalogue** (gồm cả CATALOG SUA); bản đám mây: GitHub riêng tư trungvip01951-lgtm/sua-catalogue, thư mục kho/ (QĐ 183). Claude và ChatGPT/Codex cùng làm trên thư mục này. Bắt đầu: [START_HERE.md](START_HERE.md).
 
 Anh chỉ cần giao việc theo mẫu lệnh 6 ô (rules/CHUAN_TRINH_BAY.md mục 6), ví dụ: "Sửa CM PEROTAC: <model> <thông số> <cũ> → <mới>". AI tự đọc quy tắc, số đã khoá, phần đã đạt, lỗi cũ; không bắt anh kể lại lịch sử.
 

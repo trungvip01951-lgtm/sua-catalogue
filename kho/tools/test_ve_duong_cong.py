@@ -487,6 +487,46 @@ class KiemVeDuongCong(unittest.TestCase):
         self.assertEqual(V._o_h(md, 9), '71.8')
         self.assertEqual(V._o_h(md, 12), '')
 
+    def test_15_khoi_dieu_kien_so_cuc_toc_do(self):
+        """QTH mục 3 / CTB 2.8 / lỗi A16, A19: số cực và tốc độ theo nguồn; không đọc chữ thành số cực; "KHÔNG GHI" thì bỏ cụm."""
+        class S:
+            hang = 'REDPUMP'
+            dieu_kien = ('Curves at 50 Hz, 2 poles (≈ 2900 min⁻¹), clean water at 20 °C, kinematic viscosity 1 mm²/s. '
+                         'Typical values, not guaranteed.')
+        cb = []
+        s = V.khoi_dieu_kien(S, {'so_cuc': 'PDF không ghi số cực (chỉ ghi n ≈ 2850 /min)', 'toc_do_vg_ph': 'n ≈ 2850 /min'}, cb)
+        self.assertIn('2 poles (≈ 2850 min⁻¹)', s)
+        self.assertNotIn('2850 poles', s)
+        self.assertTrue(any('so_cuc' in c for c in cb))
+        s = V.khoi_dieu_kien(S, {'so_cuc': 'KHÔNG GHI', 'toc_do_vg_ph': 'KHÔNG GHI'}, [])
+        self.assertEqual(s, 'Curves at 50 Hz, clean water at 20 °C, kinematic viscosity 1 mm²/s. Typical values, not guaranteed.')
+        cb = []
+        s = V.khoi_dieu_kien(S, {'so_cuc': 4}, cb)
+        self.assertIn('4 poles, clean water', s)
+        self.assertNotIn('2900', s)
+        self.assertIn('4 poles (≈ 1450 min⁻¹)', V.khoi_dieu_kien(S, {'so_cuc': 4, 'toc_do_vg_ph': 1450}, []))
+        cb = []
+        self.assertIn('2 poles (≈ 2900 min⁻¹)', V.khoi_dieu_kien(S, {}, cb))
+        self.assertTrue(any('MẶC ĐỊNH' in c for c in cb))
+        cb = []
+        self.assertIn('≈ 2900 min', V.khoi_dieu_kien(S, {'so_cuc': 2, 'toc_do_vg_ph': '2.900'}, cb))
+        self.assertTrue(any('300–3600' in c for c in cb))
+
+    def test_16_dong_qh_lac_khong_bi_bo_lang_le(self):
+        """Dòng QH đúng hãng mà sai tên model, hoặc ô H là chữ: dừng (LoiDuLieu) thay vì vẽ thiếu điểm."""
+        import openpyxl
+        for kieu in ('sai_ten', 'h_chu'):
+            p = self.tmp / f'lac_{kieu}.xlsx'
+            wb = openpyxl.Workbook(); t = wb.active; t.title = 'THONG_TIN'; t.append(['khoa', 'gia_tri', 'nguon'])
+            m = wb.create_sheet('MODEL'); m.append(['hang', 'model_1pha', 'model_3pha', 'p2_kw', 'p2_hp'])
+            m.append(['REDPUMP', None, 'AB 1', 1.1, 1.5])
+            q = wb.create_sheet('QH'); q.append(['hang', 'model', 'q_m3h', 'h_m', 'nguon'])
+            q.append(['REDPUMP', 'AB 1', 0, 20, '']); q.append(['REDPUMP', 'AB 1', 6, 15, ''])
+            q.append(['REDPUMP', 'AB 2' if kieu == 'sai_ten' else 'AB 1', 12, 9 if kieu == 'sai_ten' else '9 m', ''])
+            wb.save(p)
+            with self.assertRaises(V.LoiDuLieu):
+                V.doc_du_lieu(p, 'REDPUMP')
+
 
 if __name__ == '__main__':
     try:

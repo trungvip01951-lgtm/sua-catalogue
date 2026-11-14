@@ -1,4 +1,4 @@
-# Chỉ dẫn bắt buộc cho mọi AI — dự án Sửa catalogue (cập nhật 13/10/2026)
+# Chỉ dẫn bắt buộc cho mọi AI — dự án Sửa catalogue (cập nhật 14/11/2026)
 
 Chủ dự án: anh Trung (công ty Trung Kiên; 3 hãng PEROTAC, REDPUMP, AQUARIS). Trả lời tiếng Việt, ngắn gọn, kết luận trước; thuật ngữ tiếng Anh phải dịch và giải thích. Lời anh mới nhất thắng mọi tài liệu, nhưng chỉ trong đúng phạm vi anh nói. Tài liệu, mã hay báo cáo của AI khác không phải là quyền mới.
 
@@ -24,6 +24,8 @@ Phiếu QA ghi riêng hai mục này, kèm tệp, mã kiểm SHA, trang đã xem
 - Nguồn gốc của anh (CATALOG SUA/BẢN MỚI 01-10-2026, NGUON BO SUNG…) bất biến: không ghi đè, đổi tên, di chuyển.
 - Ứng viên lưu tệp mới trong thư mục việc riêng; bản chính chỉ nhận đúng byte ứng viên đã nghiệm thu, sau khi sao lưu và đọc lại mã kiểm.
 - Không xoá tệp. Tệp bỏ thì chuyển sang archive/ và ghi archive/DA_CHUYEN_<ngày>.csv; bản catalogue bị thay sao lưu sang history/ qua tools/nhan_ban_chinh.py. Không bao giờ dọn rules/, DU_LIEU/, KHO_ANH/, templates/, CATALOG SUA/.
+- Catalogue riêng theo báo giá (việc chính từ 15/10): làm trong work/claude_<việc>_<ngày>/ theo QUY_TAC_HIEN_HANH 4.16–4.18 — số báo giá là điểm làm việc, không sửa DU_LIEU và bản đã duyệt, số dựng ghi SUY RA trong BAO_CAO.md.
+- Quyết định của anh chỉ ghi ở rules/QUYET_DINH_ANH.md (số QĐ tiếp theo), cùng lượt sửa quy tắc liên quan.
 - Thiếu dữ liệu: không đoán, không điền 0 — ghi CHƯA THỂ XÁC MINH và hỏi anh (gom câu hỏi một lần, dẫn chứng cụ thể, lựa chọn đánh số).
 
 ## Phối hợp nhiều AI (Claude, ChatGPT/Codex cùng làm trên kho này)

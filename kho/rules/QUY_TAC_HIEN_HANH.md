@@ -1,6 +1,6 @@
 # QUY TẮC HIỆN HÀNH — dự án Sửa catalogue
 
-Phiên bản 2026.10.23 (gộp ngày 13/10/2026 theo QĐ 147–149; thêm 4.14–4.15 theo QĐ 158 ngày 23/10/2026). Đây là tệp quy tắc DUY NHẤT đang áp dụng.
+Phiên bản 2026.11.14 (gộp ngày 13/10/2026 theo QĐ 147–149; thêm 4.14–4.15 theo QĐ 158 ngày 23/10/2026; 14/11/2026 gộp QĐ 159–183: 4.16–4.18, ngoại lệ ở mục 1, 3, 4.9, 5, 6). Đây là tệp quy tắc DUY NHẤT đang áp dụng.
 Thứ tự đọc đầu phiên: **tệp này → rules/HO_SO_HANG.md → rules/CHUAN_TRINH_BAY.md → claude/TRANG_THAI_CLAUDE.md**.
 Ưu tiên khi lệch: lời anh Trung mới nhất (đúng phạm vi anh nói) > tệp này > mọi tệp cũ (rules/QUY_TAC_CUNG_HIEN_HANH.md, rules/QUY_TAC_ANH_TRUNG.md, procedures/, knowledge/, archive/).
 
@@ -9,7 +9,7 @@ Ký hiệu nguồn: **QĐ N** = rules/QUYET_DINH_ANH.md mục N (nhật ký nguy
 ## 1. Phạm vi hãng và nhóm
 
 - 62 PDF trong CATALOG SUA/CATALOGUE DA DUYET là bản anh đã duyệt: giữ nguyên, không làm lại. Lỗi thấy trên bản cũ chỉ là bài học; chỉ sửa khi anh ra lệnh sửa đúng catalogue đó (QĐ 147, 149).
-- Mỗi hãng một PDF riêng; tiếng Anh, không tiếng Việt; chỉ 50 Hz (PVI 1, 4, 6). CM AQUARIS giữ 2 dòng tiếng Ý của nguồn (QĐ 103).
+- Mỗi hãng một PDF riêng; tiếng Anh, không tiếng Việt; chỉ 50 Hz (PVI 1, 4, 6). Bản tiếng Việt chỉ làm khi anh yêu cầu cho đúng catalogue đó: là tệp riêng, tên thêm "tiếng Việt", số liệu giống hệt bản tiếng Anh (QĐ 175). CM AQUARIS giữ 2 dòng tiếng Ý của nguồn (QĐ 103).
 
 | Nhóm | Hãng làm | Nguồn |
 |---|---|---|
@@ -55,7 +55,7 @@ Danh sách đổi mã đầy đủ ngày 09/10 (dùng cho dự án web): claude/
 - Có model 1 pha thì bắt buộc có model 3 pha tương ứng (QTC).
 - SP: 2 / 2.5 / 3 inch có 1 pha; 4 inch ≤ 2.2 kW có 1 pha; 6 inch không 1 pha (QĐ 130 câu 15); 5 inch chỉ 3 pha (QĐ 136 — điều phối tự chọn, chờ anh xem).
 - SA PEROTAC, REDPUMP: mã 3 kW ở dải 4SA6, 4SA10 có thêm bản 1 pha (QĐ 140).
-- Tốc độ ghi theo nguồn từng sản phẩm (2950 / 2900 / 2850…), dạng "n ≈ … min⁻¹"; không áp một số cho mọi bơm (PVI 7; QĐ 114).
+- Tốc độ ghi theo nguồn từng sản phẩm (2950 / 2900 / 2850…); không áp một số cho mọi bơm (PVI 7; QĐ 114). Chữ trên trang ghi "n ≈ … /min" như 62 bản đã duyệt; khối điều kiện do tools/ve_duong_cong.py vẽ ghi "min⁻¹". Nguồn không có số cực / tốc độ thì KHÔNG ghi (không lấy số mặc định 2 cực 2900).
 - Họng xả bơm giếng: thân 6" = 3"; thân 5" = 2½"; thân 4" dải 4/6/8/10 = 1½", dải 12/16 = 2" (PVI 9; DHX). Dải 4" khác: giữ nguồn.
 - HP theo nguồn. CM AQUARIS: IP55, chất lỏng tối đa 120 °C, cánh bơm ghi như PEROTAC (QĐ 66, 102). Trục CM: PEROTAC và AQUARIS AISI 316, REDPUMP AISI 304 (LAB 3; QĐ 114).
 
@@ -69,17 +69,21 @@ Danh sách đổi mã đầy đủ ngày 09/10 (dùng cho dự án web): claude/
 6. Dòng điện A: nguồn cả catalogue không có dòng điện A thì bỏ cột A (QĐ 152). Nguồn có A nhưng vài mã thiếu số thì giữ cột, mã thiếu điền số suy ra từ các mã cùng catalogue, cùng pha (đường thẳng I = a + b·P2, làm tròn 0,1 A, tăng theo kW), ghi "số suy ra" (QĐ 73).
 7. Ô thiếu: không điền 0, không đoán; ghi CHƯA THỂ XÁC MINH và hỏi anh theo từng nhóm (QĐ 6). Dấu "–" chỉ ở đầu/cuối dãy (ngoài dải chạy của bơm) hoặc ở cột model 1 pha; ô trống nằm giữa dãy H thì điền theo đường của chính model, ghi "số dựng" (LAB 4). Cấm ô "*" (QĐ 149).
 8. Mã anh thêm chỉ có max/min: mốc H giữa điền theo đường mã lân cận, ghi suy ra (QĐ 127). Mã thêm vào giữa dải: nhỏ hơn mã trên một cấp, lớn hơn mã dưới một cấp (QĐ 130).
-9. WC: cột áp tại Qmax theo bậc công suất trong cùng cỡ họng — nhỏ nhất 1 m, mỗi nấc công suất +1 m (QĐ 19).
+9. WC: cột áp tại Qmax theo bậc công suất trong cùng cỡ họng — nhỏ nhất 1 m, mỗi nấc công suất +1 m (QĐ 19). Riêng catalogue REDPUMP 150WC / 200WC 37–132 kW: mọi mã 200WC = 5 m, mọi mã 150WC = 10 m (QĐ 179).
 10. Mọi số dựng, số suy ra, số sửa theo quyền anh: ghi cũ → mới và loại số trong báo cáo (QĐ 29, 33, 89, 149).
-11. Không tự nội suy hiệu suất η hay NPSH khi nguồn không có (QĐ 130, 149).
+11. Không tự nội suy hiệu suất η hay NPSH khi nguồn không có (QĐ 130, 149). Hiệu suất chỉ ghi số đọc được từ đường η đã duyệt hoặc số nhà máy; không nâng số cho đạt ngưỡng thầu — muốn đạt thì dời điểm làm việc hoặc xin số nhà máy (QĐ 169, 170).
 12. Bảng và đường sinh từ MỘT tệp số liệu DU_LIEU/<nhóm>.xlsx; số của 3 hãng giống nhau từng ký tự, trừ chỗ anh cho khác (QĐ 149).
 13. Chính tả tiếng Anh sai của nguồn: sửa; câu sai ngữ pháp: viết lại giữ nghĩa, không thêm ý, không thêm số (QĐ 100, 102).
 14. Bảng Q–H chia NHIỀU MỨC như catalogue khác: nguồn chỉ có vài điểm (max/min/điểm làm việc) thì thêm các mức Q tròn, bước đều từ 0 (hoặc Qmin) đến Qmax, khoảng 6–10 mức; H mức thêm theo đường cong trơn qua điểm khoá, làm tròn như nguồn, ghi SUY RA (QĐ 158).
 15. Đường đặc tính vẽ CONG MỀM MẠI, không bẻ góc tại điểm bảng: tools/ve_duong_cong.py nối bằng spline bậc 3 qua đúng điểm, spline chỉ được làm mềm góc, không đổi dáng: dùng PCHIP khi spline làm H tăng, vượt điểm khoá, thêm điểm uốn/đoạn phẳng (mục 2) hoặc lệch PCHIP > 2% biên độ H; vẫn giữ mục 1–3 (QĐ 158).
 
+16. Catalogue riêng theo báo giá (anh gửi báo giá + "làm catalogue con này"): số trong báo giá thắng số DU_LIEU trong phạm vi catalogue riêng đó; KHÔNG sửa DU_LIEU và bản đã duyệt (QĐ 159, 161, 164, 167). Cặp Q–H ghi trong báo giá là ĐIỂM LÀM VIỆC, đường phải đi đúng điểm đó và đánh dấu trên biểu đồ (QĐ 162, 168, 173); là giá trị max chỉ khi anh ghi "max". Thiếu Hmax / Qmax thì hỏi anh một lần; có đủ Hmax – điểm làm việc – Qmax thì được dựng đường qua 3 điểm, ghi SUY RA (QĐ 181).
+17. WC: hai số giữa mã (NN WC <Q>-<H>-<kW>, vd 200WC350-22-37 = 350 m³/h tại 22 m) là ĐIỂM LÀM VIỆC; đường của mọi mã phải đi đúng điểm này (QĐ 177).
+18. Anh cho Qmin / Hmin: đường và bảng chỉ chạy từ Qmin đến Qmax, không vẽ về Q = 0 (QĐ 182).
+
 ## 5. Nội dung cấm và bắt buộc
 
-- CẤM: dòng bảo hành (QĐ 34); cân nặng/khối lượng (QĐ 114 — GIỮ bảng kích thước và họng hút/xả; quy tắc bỏ D×R×C chỉ áp cho web); 60 Hz; tiếng Việt; ô "*"; tên hãng linh kiện NSK / NTN / T.I. (vật liệu MIX, 4MIX ghi "High quality") (QĐ 114).
+- CẤM: dòng bảo hành (QĐ 34); cân nặng/khối lượng (QĐ 114 — GIỮ bảng kích thước và họng hút/xả; quy tắc bỏ D×R×C chỉ áp cho web); 60 Hz; tiếng Việt (trừ bản tiếng Việt anh yêu cầu, mục 1); ô "*"; tên hãng linh kiện NSK / NTN / T.I. (vật liệu MIX, 4MIX ghi "High quality") (QĐ 114).
 - BẮT BUỘC: "50 Hz" ở trang đầu mọi sản phẩm có động cơ; dưới biểu đồ có khối điều kiện + "Typical values, not guaranteed"; chỉ ghi "ISO 9906:2012 Grade 3B" khi nhà cung cấp xác nhận (QĐ 149).
 - Bìa, chân trang: giữ thông tin bản cũ hoặc chỉ tên hãng; không tự thêm địa chỉ, điện thoại, website (QĐ 7).
 - Logo nguyên bản của 3 hãng; logo REDPUMP giữ chữ "Italy Standard"; logo không đặt trong ô nền khác màu (QĐ 24, 53; LOGO). Không chép logo, màu, bố cục của hãng bơm thật (QĐ 149).
@@ -88,7 +92,7 @@ Danh sách đổi mã đầy đủ ngày 09/10 (dùng cho dự án web): claude/
 
 ## 6. Biểu đồ và giao diện 3 hãng
 
-- Mọi nhóm mặc định có biểu đồ Q–H; thiếu bảng số thì tự vẽ từ thông số có (Hmax tại Q = 0, điểm định mức theo tên, Qmax), ghi điểm suy ra và hỏi anh (QĐ 145). NGOẠI LỆ: IRG KHÔNG vẽ đường (QĐ 82; anh chọn 3.2 ở QĐ 149).
+- Mọi nhóm mặc định có biểu đồ Q–H; thiếu bảng số thì tự vẽ từ thông số có (Hmax tại Q = 0, điểm định mức theo tên, Qmax), ghi điểm suy ra và hỏi anh (QĐ 145). NGOẠI LỆ: IRG KHÔNG vẽ đường (QĐ 82; anh chọn 3.2 ở QĐ 149), trừ catalogue riêng anh bảo "làm cả đường đặc tính" (300IRG800-30-110, QĐ 182).
 - Thiết bị không phải bơm ly tâm (GB, Root RL, máy khuấy, định lượng, đĩa phân phối khí): lấy bản đã duyệt làm mẫu (QĐ 149).
 - 3 hãng cùng dòng khác nhau ≥ 5/6 trục: màu, phông, bìa, bảng, biểu đồ, đồ họa phụ. Cấm dùng chung khuôn rồi chỉ đổi màu, lật trái-phải, đảo khối (QĐ 13, 14, 149). Giá trị từng hãng: rules/HO_SO_HANG.md.
 - AQUARIS: mỗi model một màu trong cùng biểu đồ (QĐ 54); PEROTAC, REDPUMP một tông.
@@ -122,7 +126,7 @@ Danh sách đổi mã đầy đủ ngày 09/10 (dùng cho dự án web): claude/
 
 ## 9. Cách cập nhật quy tắc về sau
 
-1. Anh ra quyết định mới → chép nguyên văn vào cuối rules/QUYET_DINH_ANH.md (số tiếp theo, ngày giờ, phiên).
+1. Anh ra quyết định mới → chép nguyên văn vào cuối rules/QUYET_DINH_ANH.md (số tiếp theo, ngày giờ, phiên). CHỈ ghi ở tệp này; không tạo tệp claude/QUYET_DINH_ANH_<ngày>.md riêng (3 tệp cũ 15/10, 16/10, 23/10 đã chép thành QĐ 181–183).
 2. Cùng lượt sửa điều liên quan trong tệp này (ghi số QĐ mới) và đánh "(đã thay bởi mục N)" vào mục cũ trong nhật ký; sửa HO_SO_HANG (.md và .json cùng lúc) hoặc CHUAN_TRINH_BAY nếu chạm tới.
 3. Nếu là lỗi: thêm một dòng vào rules/LOI_DA_GAP.md và phép kiểm vào tools/kiem_catalogue.py.
 4. Tăng số phiên bản ở dòng đầu tệp này; niêm phong lại bằng `tools/niem_phong.py "<lý do>"` (rồi `claude/cat.py health` phải "changed": []); báo anh 1 dòng.

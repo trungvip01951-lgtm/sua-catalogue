@@ -13,7 +13,8 @@ Lưu ý đã biết:
 - WC: H tại Qmax = 1, 2, 3… m theo nấc công suất trong cùng cỡ họng — ĐÚNG quyết định 19 của anh, không phải lỗi.
 - CM, SA 4 inch, SP: AQUARIS khác PEROTAC/REDPUMP ở một số model (khác nguồn) — giữ nguyên trừ khi anh chỉ đạo.
 - KTZ_LH: chỉ có điểm định mức và điểm max (đường cong trong PDF là hình).
-- MHI, IRG: chỉ 1 điểm danh định mỗi mã. IRG không vẽ đường (QĐ 71).
+- MHI, IRG: chỉ 1 điểm danh định mỗi mã. IRG không vẽ đường (QĐ 82, 149; số cũ 71).
 - so_cuc = 2 suy từ "n ≈ 2850–2900/min" (PDF không ghi chữ "cực").
+- THONG_TIN so_cuc / toc_do_vg_ph nên là SỐ trơn (2, 2900); chữ giải thích để ở cột nguon. Nguồn không ghi cả hai thì điền "KHÔNG GHI" vào cả hai ô để khối điều kiện dưới biểu đồ bỏ cụm số cực – tốc độ (14/11/2026).
 - PEROTAC dùng tiền tố SS cho bơm giếng 2/2.5/3 inch (AQUARIS, REDPUMP dùng SA).
 - Cột cân nặng (nếu PDF có) chỉ để tham khảo — không đưa lên catalogue mới.

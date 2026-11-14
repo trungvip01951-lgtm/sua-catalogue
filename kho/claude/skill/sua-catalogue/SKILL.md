@@ -3,13 +3,13 @@ name: sua-catalogue
 description: Dùng cho MỌI việc dự án Sửa catalogue bơm công ty Trung Kiên (PEROTAC, REDPUMP, AQUARIS) - nhận lệnh mẫu 6 ô, sửa/tạo catalogue theo hồ sơ hãng, vẽ đường Q-H, kiểm tự động, nghiệm thu, nhận bản chính, ghi quyết định.
 ---
 
-# Sửa catalogue — skill dự án (bộ quy tắc 2026.10.13)
+# Sửa catalogue — skill dự án (bộ quy tắc 2026.11.14)
 
 Người dùng là người phụ trách dự án (anh Trung hoặc nhân viên anh giao). Trả lời tiếng Việt, ngắn gọn; chữ tiếng Anh phải dịch và giải thích. Không đoán số liệu: thiếu thì ghi CHƯA THỂ XÁC MINH và hỏi. Quyết định chốt/duyệt cuối cùng là của anh Trung (hoặc người anh uỷ quyền, ghi rõ tên trong nhật ký).
 
 ## 0. Kho và tệp phải đọc
 
-Kho: `D:\ChatGPT\Sửa catalogue` (phiên Claude nối máy: `$HOME/mnt/Sửa catalogue`, làm bằng shell trên máy). Tệp thật trong kho thắng skill này khi lệch.
+Kho: GitHub riêng tư `trungvip01951-lgtm/sua-catalogue`, thư mục `kho/` (phiên Claude đám mây — đọc thêm `CLAUDE.md` ở gốc repo; làm xong phải commit + push). Trên máy anh: `D:\ChatGPT\Sửa catalogue` (phiên Claude nối máy: `$HOME/mnt/Sửa catalogue`). Tệp thật trong kho thắng skill này khi lệch.
 
 Đầu phiên đọc, theo thứ tự (dưới 40 KB):
 1. `rules/QUY_TAC_HIEN_HANH.md` — quy tắc đang áp dụng.
@@ -45,13 +45,13 @@ Lệnh ngắn vẫn được ("Sửa CM PEROTAC: CM 32-160/2.2 cột áp tại 9
 
 - [ ] 1. Đọc lệnh (đủ 6 ô) và 4 tệp đầu phiên; tìm từ khoá nhóm trong LOI_DA_GAP.
 - [ ] 2. Khoá: `python3 claude/khoa_viec.py xem`, rồi `nhan <NHOM_HANG> <MA_PHIEN> "<phạm vi>"` (mỗi lần làm ứng viên mới sau khi đã nhả thì nhận lại). Việc phiên/AI khác đang giữ: không đụng, không chiếm khoá. Tệp dùng chung (TRANG_THAI, QUYET_DINH, sổ): đọc lại ngay trước khi ghi, chỉ nối đoạn của mình. Không sửa tệp có niêm phong khi phiên khác đang giữ khoá.
-- [ ] 3. Làm trong thư mục nháp NGOÀI kho (`$HOME/claude_work/<việc>/`). Số liệu: sửa trên BẢN SAO `DU_LIEU/<NHÓM>.xlsx`, ghi cũ → mới.
+- [ ] 3. Làm trong thư mục nháp NGOÀI kho (`$HOME/claude_work/<việc>/`). Số liệu: sửa trên BẢN SAO `DU_LIEU/<NHÓM>.xlsx`, ghi cũ → mới; KHÔNG ghi `DU_LIEU/` gốc trước khi được duyệt. Catalogue riêng theo báo giá: chép mã dựng + xlsx + `BAO_CAO.md` + PDF vào `work/claude_<việc>_<ngày>/` (nháp ngoài kho mất khi máy đám mây bị thu hồi).
 - [ ] 4. Dựng (mục 3) hoặc vá (mục 4).
 - [ ] 5. Kiểm tự động (mục 5) → sửa → kiểm lại; cùng một cách hỏng 2 lần thì đổi cách.
 - [ ] 6. Nhìn PDF thật (ảnh xem lưu `claude/_xem/xem_1..8.png`, tên cố định, ghi đè): trang ~110 dpi, vùng biểu đồ và vùng ảnh 250–300 dpi; 3 hãng đặt cạnh nhau. Nhờ một AI khác kiểm độc lập phần thẩm mỹ. Lập phiếu QA.
 - [ ] 7. Gửi người phụ trách theo mẫu trả lời (mục 7); chờ "Duyệt".
 - [ ] 8. Duyệt → `nhan_ban_chinh.py` (mục 8); khi đó mới cập nhật `DU_LIEU/` gốc bằng bản sao đã sửa và lưu mã dựng vào `templates/<nhóm>/`.
-- [ ] 9. Nhả khoá; ghi đè mục 4 `claude/TRANG_THAI_CLAUDE.md`; bàn giao `claude/BAN_GIAO_<UTC>.md` ≤ 2 KB.
+- [ ] 9. Nhả khoá (`nha <VIỆC> <PHIÊN> "<ghi chú>"`); ghi đè mục 4 `claude/TRANG_THAI_CLAUDE.md`; cập nhật `claude/VIEC_CHO_ANH.md`; bàn giao `claude/BAN_GIAO_<UTC>.md` ≤ 2 KB; phiên đám mây: commit + push.
 
 ## 3. Dựng mới (tạo mới, hoặc dựng lại cả catalogue)
 
@@ -59,6 +59,7 @@ Lệnh ngắn vẫn được ("Sửa CM PEROTAC: CM 32-160/2.2 cột áp tại 9
 - Biểu đồ + bảng: `python tools/ve_duong_cong.py --du-lieu <xlsx> --hang <HÃNG> --ra <pdf> [--model …] [--kieu bieu_do|bang|ca_hai] [--so-voi DU_LIEU/<NHÓM>.xlsx]`, chèn vào trang bằng pymupdf `show_pdf_page`. Mã thoát 2 = số liệu sai hoặc số SỬA tạo gợn (chỉnh điểm kề, số nguyên, ghi cũ → mới, hoặc hỏi); 3 = không vừa khổ / thiếu phông. Cảnh báo ghi ở `<pdf>.canh_bao.txt` — đọc hết (vd "THIẾU DÒNG ĐIỆN A" ở vài model → điền số suy ra vào DU_LIEU theo QUY_TAC_HIEN_HANH 4.6 rồi vẽ lại).
 - Ba hãng cùng dòng khác ≥ 5/6 trục (màu, phông, bìa, bảng, biểu đồ, đồ hoạ phụ); cấm chung khuôn rồi chỉ đổi màu, lật trái-phải, đảo khối. Số liệu giống nhau theo nguồn (AQUARIS CM, SA 4", SP có số riêng — giữ).
 - MẶC ĐỊNH CÓ BIỂU ĐỒ Q–H cho mọi catalogue (QĐ 145), trừ IRG (QĐ 149, anh chọn 3.2). Thiếu bảng số thì tự vẽ từ thông số có (Hmax tại Q = 0, điểm định mức theo tên model, Qmax), ghi điểm suy ra trong báo cáo và hỏi xác nhận, nhưng vẫn giao bản có đường. KTZ-LH chưa có bảng Q–H (đường là hình) — sửa đường thì hỏi.
+- Catalogue riêng theo báo giá (QUY_TAC_HIEN_HANH 4.16–4.18): số báo giá thắng DU_LIEU trong phạm vi catalogue đó; cặp Q–H của báo giá là ĐIỂM LÀM VIỆC (đường đi đúng điểm, đánh dấu trên biểu đồ), là "max" chỉ khi anh ghi rõ; WC: hai số giữa mã là điểm làm việc; anh cho Qmin/Hmin thì chỉ vẽ Qmin–Qmax; thiếu Hmax/Qmax hỏi một lần; mức Q giữa ghi SUY RA trong `BAO_CAO.md`. Không ghi số chưa có nguồn (số cực, tốc độ, vật liệu, hiệu suất).
 - Bìa/chân trang: giữ theo bản cũ hoặc chỉ ghi tên hãng. Phông: dùng `vendor/fonts/` (Lato, Liberation Sans bản 2 — bản 1 làm gạch trong mã model thành gạch mềm, tìm chữ không thấy).
 
 ## 4. Vá catalogue đã duyệt (sửa vài số, vài trang, đổi ảnh)
@@ -70,17 +71,17 @@ Lệnh ngắn vẫn được ("Sửa CM PEROTAC: CM 32-160/2.2 cột áp tại 9
 
 ## 5. Kiểm tự động
 
-`python tools/kiem_catalogue.py <pdf|thư mục> [--bo3 <AQ> <PE> <RE>] [--du-lieu <xlsx>] [--goc <pdf> --trang 2,3] [--khong-qh] [--json out.json]` — 10 mục: (1) chữ cấm + "50 Hz"; (2) điện/pha; (3) bảng Q↑H↓, "–", thứ tự công suất, WC theo QĐ 19; (4) đường lệch ≤ 5%, cong đều (≤ 1 điểm uốn, không đoạn phẳng rồi gãy), không móc, ≤ 8 đường (AQUARIS 7); (5) chữ chồng, cỡ chữ; (6) ảnh ppi, tràn mép, chồng, 1 ảnh nhiều cỡ; (7) tương phản; (8) khổ, dung lượng, phông, RGB, khoảng trống; (9) khác giao diện 3 hãng; (10) mã kiểm khớp DANH SACH. CHƯA THỂ XÁC MINH thì kiểm tay mục đó và ghi rõ.
+`python tools/kiem_catalogue.py <pdf|thư mục> [--bo3 <AQ> <PE> <RE>] [--du-lieu <xlsx>] [--goc <pdf> --trang 2,3] [--khong-qh] [--tieng-viet] [--json out.json]` — 10 mục: (1) chữ cấm + "50 Hz"; (2) điện/pha; (3) bảng Q↑H↓, "–", thứ tự công suất, WC theo QĐ 19; (4) đường lệch ≤ 5%, cong đều (≤ 1 điểm uốn, không đoạn phẳng rồi gãy), không móc, ≤ 8 đường (AQUARIS 7); (5) chữ chồng, cỡ chữ; (6) ảnh ppi, tràn mép, chồng, 1 ảnh nhiều cỡ; (7) tương phản; (8) khổ, dung lượng, phông, RGB, khoảng trống; (9) khác giao diện 3 hãng; (10) mã kiểm khớp DANH SACH. CHƯA THỂ XÁC MINH thì kiểm tay mục đó và ghi rõ.
 
 ## 6. Quy tắc chính (đầy đủ ở rules/)
 
-- Đường: PCHIP qua đúng điểm bảng; Q tăng H giảm; giữ Qmin/Qmax/Hmin/Hmax/điểm làm việc; trục Q m³/h + l/min, H m. Dòng dưới biểu đồ: "Curves at 50 Hz, 2 poles (≈ 2900 min⁻¹), clean water at 20 °C, kinematic viscosity 1 mm²/s. Typical values, not guaranteed." Không ghi ISO 9906 trừ khi anh xác nhận nhà cung cấp thử theo chuẩn đó.
+- Đường: spline bậc 3 mềm qua đúng điểm bảng, tự chuyển PCHIP khi spline đổi dáng (QĐ 158); bảng chia 6–10 mức Q; Q tăng H giảm; giữ Qmin/Qmax/Hmin/Hmax/điểm làm việc; trục Q m³/h + l/min, H m. Dòng dưới biểu đồ: "Curves at 50 Hz, 2 poles (≈ 2900 min⁻¹), clean water at 20 °C, kinematic viscosity 1 mm²/s. Typical values, not guaranteed." Không ghi ISO 9906 trừ khi anh xác nhận nhà cung cấp thử theo chuẩn đó.
 - Bảng: Model 1 pha | Model 3 pha | P2 kW | P2 HP | A | Q (m³/h trên, l/min dưới); "–" chỉ ở cột 1 pha; "1~ 220–240 V 50 Hz", "3~ 380–415 V 50 Hz"; pha theo QUY_TAC_HIEN_HANH mục 3; H số lẻ theo nguồn thì giữ; cột A: nguồn không có A thì bỏ cột (công cụ tự bỏ, QĐ 152); nguồn có A mà vài mã thiếu thì giữ cột, điền số suy ra vào DU_LIEU theo QUY_TAC_HIEN_HANH 4.6.
 - Chữ: thân ≥ 9 pt, bảng/nhãn ≥ 7 pt (không đủ chỗ thì tách trang), tiêu đề ≥ 16 pt; tương phản chữ ≥ 4,5:1.
 - Ảnh: nền trắng/trong suốt; ≥ 200 ppi tại kích thước đặt (bìa ≥ 300); sản phẩm 80–85 % ô; mỗi cỡ một ảnh; xoá logo/chữ hãng gốc; soi viền trên nền trắng/xám/đen phóng 300 %. Ảnh tự tạo/vẽ lại phải gửi anh duyệt trước khi dùng. Lấy ảnh ĐẠT từ KHO_ANH; ảnh mới đã duyệt thì thêm vào KHO_ANH.
 - Ảnh đại diện từ ảnh anh gửi (QĐ 145, 146): ảnh anh gửi là ảnh MẪU — tách nền (kho, thùng, túi, cáp cuộn, vật thừa), xoá logo/chữ/tem lạ, căn đẹp trên nền sạch, bóng mềm dưới chân; đủ nguyên thân bơm, KHÔNG lẹm nắp, bulong, tai móc, cáp, mặt bích, vỏ xoắn, chân đế; lỗi nhỏ thì chỉnh màu/vẽ bù, không cắt thêm vào thân; mặt nạ tay đo toạ độ trên ảnh phóng to có lưới. Công cụ đã thử: `rembg` isnet-general-use tốt; SAM theo điểm làm mất tai móc, lỗ bích; BiRefNet tràn bộ nhớ 8 GB — đừng thử lại; vẽ lại cáp bằng `cv2.polylines` phóng 4 lần. Lưu cạnh ứng viên: PNG nền trong suốt + JPG nền trắng; ảnh gốc giữ nguyên. Một AI khác so ảnh gốc với ảnh đã làm, phóng từng vùng, xác nhận không lẹm.
-- Tệp: ≤ 5 MB (tối đa 10), RGB, phông nhúng một lần, lưu `garbage=4, deflate`; tên "HÃNG - Tên dòng.pdf"; "50 Hz" ở trang 1 với sản phẩm có động cơ.
-- Cấm: bảo hành, cân nặng (GIỮ bảng kích thước và họng hút/xả), 60 Hz, tiếng Việt trong PDF, ô "*".
+- Tệp: ≤ 5 MB (tối đa 10), RGB, phông nhúng một lần, lưu `garbage=4, deflate`; tên "HÃNG - Tên dòng.pdf", nhiều bản thì thêm " 1", " 2"… ở cuối, không ghi "ứng viên" (QĐ 163); "50 Hz" ở trang 1 với sản phẩm có động cơ.
+- Cấm: bảo hành, cân nặng (GIỮ bảng kích thước và họng hút/xả), 60 Hz, tiếng Việt trong PDF (trừ bản tiếng Việt anh yêu cầu riêng, QĐ 175), ô "*".
 
 ## 7. Mẫu trả lời và phiếu QA
 
@@ -93,7 +94,7 @@ Phiếu QA có hai mục riêng **KHÁC GIAO DIỆN GIỮA CÁC HÃNG** (chấm 
 
 ## 9. Ghi quyết định và cập nhật quy tắc
 
-Quyết định mới → chép NGUYÊN VĂN vào cuối `rules/QUYET_DINH_ANH.md` (số tiếp theo, ngày giờ, ai nói) → cùng lượt sửa điều liên quan trong `QUY_TAC_HIEN_HANH.md` / `HO_SO_HANG` (.md và .json) / `CHUAN_TRINH_BAY.md`, đánh "(đã thay bởi mục N)" vào mục cũ → nếu là lỗi: thêm dòng `LOI_DA_GAP.md` và phép kiểm vào `kiem_catalogue.py` (chạy `tools/test_cong_cu_moi.py`) → `python tools/niem_phong.py "<lý do>"` rồi `python claude/cat.py health` phải "changed": [] → sửa skill này ở `claude/skill/sua-catalogue/SKILL.md` nếu chạm tới → báo một dòng.
+Quyết định mới → chép NGUYÊN VĂN vào cuối `rules/QUYET_DINH_ANH.md` (số tiếp theo, ngày giờ, ai nói; chỉ ghi ở tệp này, không tạo tệp quyết định riêng theo ngày) → cùng lượt sửa điều liên quan trong `QUY_TAC_HIEN_HANH.md` / `HO_SO_HANG` (.md và .json) / `CHUAN_TRINH_BAY.md`, đánh "(đã thay bởi mục N)" vào mục cũ → nếu là lỗi: thêm dòng `LOI_DA_GAP.md` và phép kiểm vào `kiem_catalogue.py` (chạy `tools/test_cong_cu_moi.py`) → `python tools/niem_phong.py "<lý do>"` rồi `python claude/cat.py health` phải "changed": [] → sửa skill này ở `claude/skill/sua-catalogue/SKILL.md` nếu chạm tới → báo một dòng.
 
 ## 10. Làm nhanh và tiết kiệm
 

@@ -8,13 +8,14 @@ case "$1" in
 env)
   [ -x "$PY" ] || python3 -m venv --system-site-packages "$HOME/cfenv" || exit 1
   # 08/10: cài OFFLINE từ vendor/wheels (lưu sẵn trong kho, ~156 MB; tệp >25 MB tách .partNN) → vài giây, không phụ thuộc mạng chậm. Thiếu thì mới tải mạng.
-  if ! "$PY" -c "import pymupdf,scipy,cv2,pikepdf,pytesseract,fontTools" 2>/dev/null; then
-    WH="$K/vendor/wheels"; TW="$HOME/cfwheels"
-    if [ -d "$WH" ]; then mkdir -p "$TW"; cp "$WH"/*.whl "$TW"/ 2>/dev/null
+  if ! "$PY" -c "import pymupdf,scipy,cv2,pikepdf,pytesseract,fontTools,openpyxl" 2>/dev/null; then
+    WH="$K/vendor/wheels"; TW="$HOME/cfwheels"; PV=$("$PY" -c "import sys;print('%d.%d'%sys.version_info[:2])")
+    # 14/11: bánh xe offline là bản cp310 — Python khác 3.10 (máy đám mây 3.13) thì bỏ qua, khỏi chép 154 MB rồi cài hỏng
+    if [ -d "$WH" ] && [ "$PV" = "3.10" ]; then mkdir -p "$TW"; cp "$WH"/*.whl "$TW"/ 2>/dev/null
       for p in "$WH"/*.whl.part00; do [ -e "$p" ] || continue; b=$(basename "$p" .part00); cat "$WH/$b".part* > "$TW/$b"; done
-      "$HOME/cfenv/bin/pip" install -q --no-input --no-index --find-links "$TW" pymupdf scipy opencv-python-headless pytesseract fonttools pikepdf 2>&1 | tail -2; fi
-    "$PY" -c "import pymupdf,scipy,cv2,pikepdf,pytesseract,fontTools" 2>/dev/null || \
-      "$HOME/cfenv/bin/pip" install -q --no-input pymupdf scipy opencv-python-headless pytesseract fonttools pikepdf 2>&1 | tail -2
+      "$HOME/cfenv/bin/pip" install -q --no-input --no-index --find-links "$TW" pymupdf scipy opencv-python-headless pytesseract fonttools pikepdf openpyxl 2>&1 | tail -2; fi
+    "$PY" -c "import pymupdf,scipy,cv2,pikepdf,pytesseract,fontTools,openpyxl" 2>/dev/null || \
+      "$HOME/cfenv/bin/pip" install -q --no-input pymupdf scipy opencv-python-headless pytesseract fonttools pikepdf openpyxl 2>&1 | tail -2
   fi
   "$PY" -c "import pymupdf,scipy,cv2,pikepdf,numpy,sys;print('MOI TRUONG OK py',sys.version.split()[0],'pymupdf',pymupdf.__version__,'scipy',scipy.__version__,'cv2',cv2.__version__,'pikepdf',pikepdf.__version__,'numpy',numpy.__version__)" || { echo "MOI TRUONG THIEU - DUNG"; exit 2; }
   which tesseract pdftoppm qpdf ;;

@@ -7,5 +7,6 @@ if ! command -v tesseract >/dev/null || ! command -v qpdf >/dev/null; then
   apt-get install -y -qq tesseract-ocr tesseract-ocr-eng qpdf >/dev/null 2>&1 || \
     { apt-get update -qq >/dev/null 2>&1 && apt-get install -y -qq tesseract-ocr tesseract-ocr-eng qpdf >/dev/null 2>&1; }
 fi
+for c in tesseract qpdf; do command -v "$c" >/dev/null || echo "CANH BAO: thieu $c (apt-get khong cai duoc) - viec can OCR/qpdf se loi" >&2; done
 mkdir -p "$HOME/mnt" && ln -sfn "$KHO" "$HOME/mnt/Sửa catalogue"
 bash "$KHO/claude/dau_phien.sh" env >&2

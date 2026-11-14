@@ -15,7 +15,7 @@ Thuật ngữ: **pt** = point, 1/72 inch (đơn vị cỡ chữ, nét). **ppi** 
 6. Xoá sạch logo, chữ, tem của hãng gốc in trên ảnh.
 7. Soi viền: đặt ảnh lên 3 nền trắng, xám #808080, đen; phóng 300%: không quầng sáng, không răng cưa, không sót nền trong khe, không cắt cụt.
 8. Ảnh anh gửi là ảnh mẫu → tách nền, làm sạch, căn đẹp. Được vẽ lại một phần hoặc tự tạo ảnh mới dựa trên ảnh mẫu (giữ đúng cấu tạo), NHƯNG phải gửi anh duyệt trước khi dùng. Một AI khác so ảnh gốc với ảnh làm, phóng từng vùng, xác nhận không lẹm.
-9. Kho ảnh: KHO_ANH/<nhóm>/<model>_<hãng>.png; mỗi ảnh ghi trạng thái ĐẠT hoặc CẦN THAY KHI CÓ DỊP. Catalogue sau lấy ảnh từ kho, không cắt lại.
+9. Kho ảnh: KHO_ANH/<nhóm>/<12 ký tự đầu mã sha256>.<đuôi>, tra theo KHO_ANH/DANH_MUC.csv (nhóm, hãng, PDF, trang, ppi, trạng thái ĐẠT / CẦN THAY KHI CÓ DỊP / LOGO?); cách đặt tên: KHO_ANH/README.md. Catalogue sau lấy ảnh từ kho, không cắt lại.
 
 ## 2. Biểu đồ Q–H
 
@@ -26,7 +26,7 @@ Thuật ngữ: **pt** = point, 1/72 inch (đơn vị cỡ chữ, nét). **ppi** 
 5. Nét đường ≥ 1.5 pt; lưới chính 0.5 pt; nét so với nền tương phản ≥ 3 : 1.
 6. Nhãn đường sát đường, cùng màu đường, không bị đè, không chồng nhãn khác. Kiểu nhãn theo hãng (AQUARIS số khoanh tròn + chú giải; PEROTAC tên model đầu trái đường; REDPUMP tên model trong ô màu cuối phải đường).
 7. Nét đứt vùng khuyến nghị chỉ vẽ khi nguồn có. Không tự nội suy hiệu suất η hoặc NPSH khi nguồn không có.
-8. Dưới biểu đồ luôn có khối điều kiện: "Curves at 50 Hz, 2 poles (≈ 2900 min⁻¹), clean water at 20 °C, kinematic viscosity 1 mm²/s. Typical values, not guaranteed." (số cực và tốc độ theo nguồn). Chỉ ghi "ISO 9906:2012 Grade 3B" khi nhà cung cấp xác nhận.
+8. Dưới biểu đồ luôn có khối điều kiện: "Curves at 50 Hz, 2 poles (≈ 2900 min⁻¹), clean water at 20 °C, kinematic viscosity 1 mm²/s. Typical values, not guaranteed." (số cực và tốc độ theo nguồn; nguồn không có thì ghi "KHÔNG GHI" vào cả hai ô so_cuc và toc_do_vg_ph của sheet THONG_TIN — tools/ve_duong_cong.py sẽ bỏ cụm "2 poles (≈ … min⁻¹)"; để trống thì công cụ in số mặc định kèm cảnh báo). Chỉ ghi "ISO 9906:2012 Grade 3B" khi nhà cung cấp xác nhận.
 9. Mọi nhóm có biểu đồ, TRỪ IRG (chỉ bảng). Thiết bị không phải bơm ly tâm (GB, Root RL, máy khuấy, định lượng, đĩa phân phối khí): lấy bản đã duyệt làm mẫu.
 
 ## 3. Bảng thông số
@@ -47,7 +47,7 @@ Thuật ngữ: **pt** = point, 1/72 inch (đơn vị cỡ chữ, nét). **ppi** 
 4. Lề 12–15 mm; lưới 12 cột; vùng trống liền ≤ 10% chiều cao trang.
 5. Chỉ khổ A4: AQUARIS dọc 595×842 pt; PEROTAC, REDPUMP ngang 842×595 pt.
 6. "50 Hz" có ở trang đầu mọi sản phẩm có động cơ.
-7. Cấm: bảo hành, cân nặng/khối lượng, 60 Hz, tiếng Việt, ô "*". GIỮ bảng kích thước và họng hút/xả (QĐ 114 mục (6): "bỏ cân nặng (kg) ở MỌI catalogue, giữ kích thước"; quy tắc bỏ kích thước D×R×C chỉ áp cho trang sản phẩm/bài viết web).
+7. Cấm: bảo hành, cân nặng/khối lượng, 60 Hz, tiếng Việt (trừ bản tiếng Việt anh yêu cầu riêng — QTH mục 1, QĐ 175), ô "*". GIỮ bảng kích thước và họng hút/xả (QĐ 114 mục (6): "bỏ cân nặng (kg) ở MỌI catalogue, giữ kích thước"; quy tắc bỏ kích thước D×R×C chỉ áp cho trang sản phẩm/bài viết web).
 
 ## 5. Tệp PDF
 
