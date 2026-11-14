@@ -335,6 +335,7 @@ Nghĩa: (1) rác gom vào D:\ChatGPT\Sửa catalogue\_CHO_XOA_20261010, anh xem 
 177. [mới] 13/11/2026 anh Trung (ngắt lời khi đang làm mục 176): "200WC350-22-37 nghĩa là mặc định tại điểm 22m cao phải được là 350m3/h đây là điểm làm việc tất cả các mã đều phải vậy sửa lại cho a nhé" → mọi mã WC: số giữa mã (Q-H) = ĐIỂM LÀM VIỆC, đường phải đi đúng điểm này. 200WC400-75-132: lấy Hmax 105, Qmax 600, H 5 m tại Qmax theo catalogue anh, nhưng đường đi qua 400 m³/h – 75 m (không dùng điểm 300/80 và bảng H giữa của catalogue anh — lệnh sau thắng).
 178. [mới] 13/11/2026 anh Trung: "và thay ảnh đại diện như catalogue 132kw vào cho a nhé" → ảnh đại diện = ảnh trong catalogue_132kw.pdf (1254×1254) cho cả 4 trang.
 179. [mới] 13/11/2026 anh Trung, trả lời 2 câu catalogue REDPUMP WC 150WC/200WC 37–132 kW: "1. 2 hãy làm 5m với 200WC và 10m với 150WC 2. 1" → H tại Qmax: mọi mã 200WC = 5 m, mọi mã 150WC = 10 m (thay nấc QĐ 19 trong catalogue này); 150WC200-90-132 giữ số anh đưa (300 m³/h, 120 m).
+180. [mới] 14/11/2026 anh Trung, gửi BaoGia_REDPUMP_50GDL18-15x9_14112026.pdf (bơm ly tâm đa tầng trục đứng REDPUMP 50GDL18-15*9, 11 kW, Q 0 ~ 22,56 m³/h, H 172,29 ~ 112,12 m, điểm làm việc Q = 18 m³/h; H = 135 m, hút/xả 50/50 mm, 2930 vòng/phút): "Làm a catalogue con này".
 
 ## Bảng đối chiếu số cũ → số mới
 
