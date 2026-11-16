@@ -40,6 +40,7 @@ Catalogue riêng đã giao, chờ anh duyệt hoặc trả lời (chi tiết + c
 |---|---|---|---|
 | 16/11 | CDLF thêm dải 65–200 + trang cấu tạo 120/150/200, 3 hãng | claude_cdlf_them_dai_20261116 | ĐÃ NHẬN BẢN CHÍNH (QĐ 187); mã dựng: dung_<hãng>.py + lib.py |
 | 14/11 | 50GDL18-15×9 (REDPUMP) | claude_gdl_redpump_20261114 | 1 — hỏi ảnh, điện áp |
+| 16/11 | WC chuẩn 3 hãng: thêm 200WC350-22-37 vào trang 200WC (QĐ 190) — ĐÃ NHẬN BẢN CHÍNH | claude_wc_them_200wc37_20261116 | 1 |
 | 13/11 | WC 150WC/200WC 37–132 kW, 14 mã (REDPUMP) | claude_wc_redpump_20261113 | 3, tiếng Anh + tiếng Việt |
 | 03/11 | TKP600 / TKP800 (REDPUMP) | claude_tkp_redpump_20261103 | 1 |
 | 03/11 | 6SP60, 15 mã (REDPUMP) | claude_6sp60_20261103 | 4 |

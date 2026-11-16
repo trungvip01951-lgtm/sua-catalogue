@@ -25,3 +25,6 @@ Lệnh anh: ảnh báo giá (200WC350-22-37, Qmax 780 m³/h, Hmax 40 m, 37 kW 3 
 ## Kiểm
 - doc_lai.py (3 hãng): trang khác 0 đổi; chữ cũ ngoài vùng vẽ lại 0 lệch; 4 dòng cũ nguyên số; dòng mới đúng; tiêu đề Q đúng; lệch cột 0.00 pt.
 - tools/kiem_catalogue.py --goc --trang: ĐẠT 8/8 mỗi hãng (mục 9, 10 bỏ qua vì chỉ kiểm trang vá).
+- AI khác nghiệm thu độc lập (mã kiểm tự viết): 6/6 mục ĐẠT — đường mới qua 0/40, 350/22, 780/5; lệch đường–bảng lớn nhất 4,6 % (ngưỡng 5 %); 4 đường cũ trùng bản gốc (≤ 0,002 m); bảng, nhãn trục, nét kẻ khớp kiểu trang 300WC; trang khác y nguyên chữ và nét.
+- Ghi nhận: phông bị subset lại nên các trang khác của AQUARIS lệch khử răng cưa tối đa 15/255 (mắt không thấy); trang 200WC dùng phông nhúng mới cùng họ LiberationSans/Lato.
+- Bản chính 16/11/2026: PEROTAC 56956e912125, REDPUMP 475b65a0de8b, AQUARIS dad9fa2667cd.
