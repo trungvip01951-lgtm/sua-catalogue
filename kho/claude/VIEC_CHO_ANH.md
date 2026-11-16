@@ -55,6 +55,7 @@ Tệp nằm trong work/<thư mục>/; mỗi thư mục có BAO_CAO.md ghi số n
 | D11 | REDPUMP - Bơm tăng áp TKP 1.pdf | claude_tkp_redpump_20261103 | câu công dụng viết mới; vật liệu / kích thước / dòng điện nếu anh có |
 | D12 | REDPUMP - Bơm cắt rác WC 150WC-200WC 37-132kW 3.pdf + bản tiếng Việt 3 | claude_wc_redpump_20261113 | số cực / tốc độ 150WC 37–132 kW đang ghi 2 cực 2900 theo dải (suy ra) |
 | D13 | REDPUMP - Bơm trục đứng đa tầng GDL 50GDL18-15x9 1.pdf | claude_gdl_redpump_20261114 | (a) ảnh máy; (b) điện áp 3 pha 380–415 V đúng không |
+| D14 | REDPUMP / PEROTAC / AQUARIS - Bơm trục đứng CDLF 1.pdf (thêm dải 65–200, QĐ 186) | claude_cdlf_them_dai_20261116 | (a) duyệt để thay 3 bản đã duyệt + cập nhật DU_LIEU; (b) có làm trang cấu tạo riêng cho CDLF 120/150/200 không; (c) ảnh bơm dải lớn |
 
 ## E. Việc anh giao chưa làm vì chờ anh trả lời
 

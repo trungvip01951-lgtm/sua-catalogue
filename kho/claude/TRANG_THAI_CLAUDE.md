@@ -32,12 +32,13 @@ Mốc đọc nhanh đầu phiên, không phải sổ tiến độ. Thẩm quyề
 - DU_LIEU/CM.xlsx hàng AQUARIS 3 mã (CM 32-160/3, CM 40-250/11, CM 65-200/22) đang mang số báo giá (QĐ 165) trong khi bản AQUARIS CM đã duyệt còn số cũ — chờ anh duyệt bản vá "AQUARIS - Bơm trục ngang CM 1.pdf" (khoá CM_AQUARIS_BG đang giữ). Bản cũ: history/DU_LIEU_CM_truoc_QD165_20261030.xlsx.
 - Lỗi công cụ đã biết: xem claude/RA_SOAT_20261114.html mục công cụ.
 
-## 4. Đang ở đâu (14/11/2026, phiên CLAUDE_20261114)
+## 4. Đang ở đâu (16/11/2026, phiên CLAUDE_20261116)
 
 Catalogue riêng đã giao, chờ anh duyệt hoặc trả lời (chi tiết + câu hỏi: claude/VIEC_CHO_ANH.md mục A, B):
 
 | Ngày | Catalogue (hãng) | Thư mục work/ | Bản mới nhất |
 |---|---|---|---|
+| 16/11 | CDLF thêm dải 65–200, 3 hãng (vá bản đã duyệt) | claude_cdlf_them_dai_20261116 | 1 — chờ duyệt |
 | 14/11 | 50GDL18-15×9 (REDPUMP) | claude_gdl_redpump_20261114 | 1 — hỏi ảnh, điện áp |
 | 13/11 | WC 150WC/200WC 37–132 kW, 14 mã (REDPUMP) | claude_wc_redpump_20261113 | 3, tiếng Anh + tiếng Việt |
 | 03/11 | TKP600 / TKP800 (REDPUMP) | claude_tkp_redpump_20261103 | 1 |
