@@ -3,7 +3,7 @@
 Dùng: python dung_redpump.py <tệp ra>"""
 import sys, pymupdf, lib, so_lieu
 from lib import rgb, g, lmin
-GOC = lib.KHO + '/CATALOG SUA/CATALOGUE DA DUYET/REDPUMP/REDPUMP - Bơm trục đứng CDLF.pdf'
+GOC = lib.goc_cdlf('REDPUMP')
 FR, FB = lib.KHO + '/vendor/fonts/LiberationSans-Regular.ttf', lib.KHO + '/vendor/fonts/LiberationSans-Bold.ttf'
 DARK, RED, GREY, TXT, WHITE, LIGHT, BAND, LUOI = rgb('2B2E33'), rgb('A31A1F'), rgb('66666B'), rgb('262629'), (1, 1, 1), rgb('CCCCD1'), rgb('F7F2EF'), rgb('DEDBDB')
 D = so_lieu.doc(); goc = pymupdf.open(GOC); doc = pymupdf.open(GOC); T1, T2 = 11, 12   # trang mẫu (chỉ số)
@@ -12,6 +12,7 @@ def trai(pg, c, dai, d):
     c(22, 35.2, 'CDLF' + dai, 34, True, WHITE); y = 257.1
     for _, v in lib.dac_tinh(dai, d): c(186, y, v, 7.6, True, WHITE, 'r'); y += 10.8
     c(226, 38.8, f"50 Hz  |  n ≈ {d['n']} /min", 8, False, GREY)
+    if dai in lib.BICH: c(22, 357, lib.BICH[dai], 7, False, LIGHT)
 for dai, d in D.items():
     ms = d['models']
     # ---------- trang đường + kích thước
@@ -75,10 +76,11 @@ for i0, i1 in ((0, 6), (6, 13)):
     p1.draw_line((226, y), (x1, y), color=DARK, width=0.9); y += 14
 assert y - 14 < 588, y
 print('đổi tiêu đề:', lib.doi_tieu_de(doc, FR, FB))
+print('bỏ "or 2950":', lib.bo_2950(doc, FR, FB))
 import cau_tao
 cau_tao.them(doc, goc, lambda pg: lib.Chu(pg, FR, FB), 2, dict(x=226, w=260, y1=74.4, y2=364.4, bang_dy=17.6, anh=(256, 94, 456, 358), vung=(224, 60, 770, 588),
     chu=[pymupdf.Rect(_s['bbox']) for _s in lib._spans(goc[2]) if _s['bbox'][0] < 200 and _s['text'].strip() == 'CDLF 32, 42'] + [(224, 39.5, 420, 47)],
-    viet=[(22, [_s['bbox'][1] for _s in lib._spans(goc[2]) if _s['bbox'][0] < 200 and _s['text'].strip() == 'CDLF 32, 42'][0], 'CDLF 120, 150, 200', 7.4, False, LIGHT), (226, 38.8, '50 Hz  |  n ≈ 2950 /min', 8, False, GREY)],
+    viet=[(22, [_s['bbox'][1] for _s in lib._spans(goc[2]) if _s['bbox'][0] < 200 and _s['text'].strip() == 'CDLF 32, 42'][0], 'CDLF 120, 150, 200', 7.4, False, LIGHT), (226, 38.8, '50 Hz  |  n ≈ 2900 /min', 8, False, GREY)],
     hd=dict(co=8.4, mau=RED), bang=dict(nen_dau=DARK, chu_dau=WHITE, cot=[4, 24, 124, 196], rh=9.6, co=7, chu=TXT, ke=LUOI, ghi=GREY),
     ma=dict(x=508, y=74.4, w=260, d0=16.7, p=9.2, dx=26, co_k=7.6, co_t=7.3, mau_k=RED, mau_vd=GREY, mau_t=TXT)))
 # ---------- số trang

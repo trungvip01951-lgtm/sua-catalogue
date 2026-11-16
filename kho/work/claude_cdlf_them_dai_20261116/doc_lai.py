@@ -3,7 +3,7 @@ import pymupdf, so_lieu, lib, re
 D = so_lieu.doc(); KQ = []
 def spans(p): return [s for b in p.get_text('dict')['blocks'] for l in b.get('lines', []) for s in l['spans'] if s['text'].strip()]
 for h in ('REDPUMP', 'PEROTAC', 'AQUARIS'):
-    moi = pymupdf.open(f'{h} - Bơm trục đứng CDLF.pdf'); goc = pymupdf.open(f'{lib.KHO}/CATALOG SUA/CATALOGUE DA DUYET/{h}/{h} - Bơm trục đứng CDLF.pdf'); n0 = goc.page_count
+    moi = pymupdf.open(f'{h} - Bơm trục đứng CDLF.pdf'); goc = pymupdf.open(lib.goc_cdlf(h)); n0 = goc.page_count
     SP = {i: spans(moi[i]) for i in range(n0 + 1, moi.page_count)}
     def cung_dong(ten):      # các dãy chữ nằm cùng dòng (lệch tâm ≤ 3 pt), bên phải mỗi chỗ xuất hiện tên
         out = []

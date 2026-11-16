@@ -125,7 +125,9 @@ def anh_so_do(dai, d, out):
     pm = pg.get_pixmap(dpi=300, clip=pymupdf.Rect(66, 435, 272, 744), colorspace=pymupdf.csGRAY)
     a = np.frombuffer(pm.samples, np.uint8).reshape(pm.height, pm.width).copy(); k = 300 / 72
     a[:int(7 * k), :int((128 - 66) * k)] = 255      # xoá phần đuôi tiêu đề chữ Trung "安装图" lọt vào góc trên trái; giữ trọn chữ D2 (lỗi nghiệm thu 16/11)
-    import cv2; cv2.imwrite(out, a); return pm.width, pm.height
+    import cv2
+    ys, xs = np.where(a < 200); a = a[max(ys.min() - 6, 0):ys.max() + 7, max(xs.min() - 6, 0):xs.max() + 7]      # bỏ lề trắng thừa → hình to hơn trong cùng ô (góp ý nghiệm thu 2)
+    cv2.imwrite(out, a); return a.shape[1], a.shape[0]
 
 # ---------------------------------------------------------------- trang đầu: bảng PRODUCT RANGE + tiêu đề cấu tạo
 def _spans(p, clip=None):
@@ -166,4 +168,23 @@ def doi_tieu_de(doc, FR, FB):
         xoa(pg, chu=[pymupdf.Rect(s['bbox']) + (-0.5, 0.5, 0.5, -0.5) for s, _ in viec]); c = Chu(pg, FR, FB)
         for s, moi in viec:
             col = s['color']; c(s['bbox'][0], s['bbox'][1] + (s['bbox'][3] - s['bbox'][1] - s['size'] * 1.117) / 2, moi, s['size'], 'Bold' in s['font'], ((col >> 16) / 255, (col >> 8 & 255) / 255, (col & 255) / 255)); n += 1
+    return n
+
+BICH = {'65': 'Flanges PN25-40 / DN100 available on request.', '85': 'Flanges PN25-40 / DN100 available on request.'}   # nguồn tr.40, 42 (câu cuối trang)
+
+def goc_cdlf(hang):
+    """Bản CDLF đã duyệt TRƯỚC 16/11/2026 (13/12/12 trang) — gốc để vá; lấy từ history/ vì bản trong CATALOGUE DA DUYET nay là bản đã thêm dải."""
+    import glob
+    f = sorted(glob.glob(f'{KHO}/history/20261116T0456*_{hang} - Bơm trục đứng CDLF/*.pdf')); assert len(f) == 1, f
+    return f[0]
+
+def bo_2950(doc, FR, FB):
+    """QĐ 188 "Tốc độ để 2900 hết": câu ghi chú trang 1 "…motor speed of 2900 or 2950 /min." → bỏ "or 2950"."""
+    n = 0
+    for pg in list(doc)[:2]:
+        viec = [s for s in _spans(pg) if ' or 2950' in s['text']]
+        if not viec: continue
+        xoa(pg, chu=[pymupdf.Rect(s['bbox']) + (-0.5, 0.5, 0.5, -0.5) for s in viec]); c = Chu(pg, FR, FB)
+        for s in viec:
+            col = s['color']; c(s['bbox'][0], s['bbox'][1] + (s['bbox'][3] - s['bbox'][1] - s['size'] * 1.117) / 2, s['text'].rstrip().replace(' or 2950', ''), s['size'], 'Bold' in s['font'], ((col >> 16) / 255, (col >> 8 & 255) / 255, (col & 255) / 255)); n += 1
     return n

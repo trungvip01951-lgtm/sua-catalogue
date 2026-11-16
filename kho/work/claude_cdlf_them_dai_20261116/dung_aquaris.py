@@ -3,7 +3,7 @@
 Dùng: python dung_aquaris.py <tệp ra>"""
 import sys, pymupdf, lib, so_lieu
 from lib import rgb, g, lmin
-GOC = lib.KHO + '/CATALOG SUA/CATALOGUE DA DUYET/AQUARIS/AQUARIS - Bơm trục đứng CDLF.pdf'
+GOC = lib.goc_cdlf('AQUARIS')
 FR, FB = lib.KHO + '/vendor/fonts/LiberationSans-Regular.ttf', lib.KHO + '/vendor/fonts/LiberationSans-Bold.ttf'
 LB, LL = lib.KHO + '/vendor/fonts/Lato-Bold.ttf', 'Lato-Light.ttf'
 XANH, XAM, TXT, NEN, KE, WHITE = rgb('0D6159'), rgb('5C6E73'), rgb('1F3036'), rgb('EFF7F4'), rgb('D3E0DD'), (1, 1, 1)
@@ -30,8 +30,9 @@ for dai, d in D.items():
         lib.xoa(pg, vung=[(372, 182, 836, 478), (840, 212, 1169, 480), (378, 512, 1169, 745), (60, 408, 330, 714)])
         lib.bieu_do(c, (426, 195, 808, 448), ms, d['Q'], dict(luoi=KE, co_truc=7.2, mau_truc=XAM, co_q=7.6, mau_q=XANH, co_l=7.0, q_dy=4.1, l_dy=15.7, khung=XAM,
                     co_tieu_h=7.8, x_tieu_h=377.7, mau_duong=lambda k: MAU[k % len(MAU)], net=1.2, co_nhan=7.4, mau_nhan=XANH, nhan_mau_duong=True, dan=13, cat_day=a > 1, h_vach=8))
-        sk = f'sk{dai}.png'; w_, h_ = lib.anh_so_do(dai, d, sk); H = 296; Wd = H * w_ / h_
-        pg.insert_image(pymupdf.Rect(190 - Wd / 2, 414, 190 + Wd / 2, 414 + H), filename=sk)
+        sk = f'sk{dai}.png'; w_, h_ = lib.anh_so_do(dai, d, sk); k_ = min(292 / w_, 300 / h_); Wd, H = w_ * k_, h_ * k_
+        pg.insert_image(pymupdf.Rect(186 - Wd / 2, 410, 186 + Wd / 2, 410 + H), filename=sk)
+        if dai in lib.BICH: c(40, 730.5, lib.BICH[dai], 7.6, False, XAM)
         # kích thước
         rows = lib.gop_kich_thuoc(ms); pg.draw_rect(pymupdf.Rect(842, 214, 1167, 242), color=None, fill=NEN); pg.draw_line((842, 214), (1167, 214), color=XANH, width=0.8)
         c(848, 224.1, 'MODEL', 7.6, True, XANH); c(1066, 217.8, 'SIZE (mm)', 7.4, True, XANH, 'c'); cx = [980 + 41.5 * i for i in range(5)]
@@ -77,10 +78,11 @@ for nhan, v in rows:
     y += 25; p1.draw_line((380, y), (1167, y), color=KE, width=0.5)
 p1.draw_line((380, y), (1167, y), color=XANH, width=1.1)
 print('đổi tiêu đề:', lib.doi_tieu_de(doc, FR, FB))
+print('bỏ "or 2950":', lib.bo_2950(doc, FR, FB))
 import cau_tao
-cau_tao.them(doc, goc, lambda pg: lib.Chu(pg, FR, FB), 1, dict(x=40, w=357, y1=117.5, y2=483.5, bang_dy=18.5, anh=(70, 142, 370, 462), vung=(38, 104, 1169, 760), trang_ma=0,
+cau_tao.them(doc, goc, lambda pg: lib.Chu(pg, FR, FB), 1, dict(x=40, w=357, x2=425, y1=117.5, y2=483.5, bang_dy=18.5, anh=(40, 142, 397, 700), vung=(38, 104, 1169, 760), trang_ma=0,
     hd=dict(co=9.4, mau=XANH), bang=dict(nen_dau=NEN, chu_dau=XANH, cot=[4, 30, 162, 258], rh=13, co=8, chu=TXT, ke=KE, ghi=XAM, co_ghi=7.6),
-    ma=dict(x=486, y=117.5, w=357, d0=19, p=11, dx=30, co_k=8.3, co_t=8.0, mau_k=XANH, mau_vd=XAM, mau_t=TXT)))
+    ma=dict(x=810, y=117.5, w=357, d0=19, p=11, dx=30, co_k=8.3, co_t=8.0, mau_k=XANH, mau_vd=XAM, mau_t=TXT)))
 N = doc.page_count
 for i, pg in enumerate(doc):
     lib.xoa(pg, chu=[(1100, 800, 1169, 814)]); c = lib.Chu(pg, FR, FB); c(1167, 802.8, f'{i + 1:02d} / {N}', 8, False, XAM, 'r')

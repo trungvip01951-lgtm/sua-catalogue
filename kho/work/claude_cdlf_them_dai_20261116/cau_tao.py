@@ -17,7 +17,7 @@ def anh(out='sec120.png'):
 def them(doc, goc, c_lop, k, st):
     """Nhân bản trang cấu tạo chỉ số k của bản gốc, chèn ngay sau, thay nội dung."""
     doc.insert_pdf(goc, from_page=k, to_page=k, start_at=k + 1); pg = doc[k + 1]
-    _pe = pymupdf.open(lib.KHO + '/CATALOG SUA/CATALOGUE DA DUYET/PEROTAC/PEROTAC - Bơm trục đứng CDLF.pdf')      # câu chung 3 hãng, đọc từ bản PEROTAC đã duyệt tr.1
+    _pe = pymupdf.open(lib.goc_cdlf('PEROTAC'))      # câu chung 3 hãng, đọc từ bản PEROTAC đã duyệt tr.1
     cu = [s['text'].strip() for s in lib._spans(_pe[0]) if s['text'].startswith(('Light vertical multistage centrifu', 'components in stainless steel 304'))]
     cau = cu[0] if 'stainless steel 304' in cu[0] else cu[0] + ' ' + cu[1]      # câu mô tả CDLF lấy từ trang đã duyệt (không gõ lại)
     assert cau.startswith('Light vertical multistage centrifugal pump') and cau.endswith('304 or 316L'), cau
@@ -29,6 +29,7 @@ def them(doc, goc, c_lop, k, st):
     tieu_de(x, st['y1'], 'SECTION DRAWING  CDLF 120, 150, 200', w)
     f, iw, ih = anh(); r = pymupdf.Rect(st['anh']); k_ = min(r.width / iw, r.height / ih)
     pg.insert_image(pymupdf.Rect(r.x0 + (r.width - iw * k_) / 2, r.y0, r.x0 + (r.width + iw * k_) / 2, r.y0 + ih * k_), filename=f)
+    if st.get('x2'): x = st['x2']; st = dict(st, y2=st['y1'])      # bố cục 3 cột: hình | vật liệu | cách đọc mã (lấp khoảng trống — góp ý nghiệm thu 1)
     tieu_de(x, st['y2'], 'MATERIALS  CDLF 120, 150, 200', w)
     y = st['y2'] + st['bang_dy']; b = st['bang']; pg.draw_rect(pymupdf.Rect(x, y, x + w, y + 13), color=None, fill=b['nen_dau'])
     for dx, t in zip(b['cot'], ['NO.', 'NAME', 'MATERIAL', 'AISI / ASTM']): c(x + dx, y + 2.9, t, 7, True, b['chu_dau'])

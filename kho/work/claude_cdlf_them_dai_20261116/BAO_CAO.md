@@ -29,3 +29,12 @@ Anh chọn "1.1 2.1 3.1". Thêm so với bản 1: trang cấu tạo – vật li
 - Nhận bản chính bằng tools/nhan_ban_chinh.py: bản cũ sao lưu history/20261116T0456…Z_<HÃNG> - Bơm trục đứng CDLF/; DANH SACH.txt khớp 62/62; sổ TIEN DO có 3 dòng mới.
 - DU_LIEU/CDLF.xlsx: thêm 261 dòng MODEL (87 mã × 3 hãng) + 2.289 dòng QH; bản trước: history/DU_LIEU_CDLF_truoc_QD187_20261116.xlsx. Kích thước ghi trong cột thong_so_khac.
 - doc_lai.py trên bản 2: 87/87 mã × 3 hãng đúng; trang cũ chỉ khác số trang.
+
+## Bản 3 (16/11/2026) — QĐ 188: ĐÃ NHẬN BẢN CHÍNH (thay bản 2)
+Lời anh: "124 / Tốc độ để 2900 hết cho a". Bản chính: REDPUMP b14afa57f233 (24 trang), PEROTAC b66094bd9d9e (23), AQUARIS a26b9c13df1d (22).
+- Tốc độ: n ≈ 2900 /min ở mọi dải (120, 150, 200: nguồn 2950 → 2900 theo lệnh anh); trang 1 "motor speed of 2900 or 2950 /min" → "2900 /min". Không còn chữ "2950" trong 3 tệp (đã quét).
+- Góp ý 1: trang cấu tạo CDLF 120/150/200 của PEROTAC và AQUARIS xếp 3 cột (hình to | vật liệu | cách đọc mã).
+- Góp ý 2: hình lắp đặt cắt sát lề trắng và đặt to hết ô (PEROTAC cao tới 262 pt, AQUARIS 300 pt) — to hơn khoảng 5–10 %, bị giới hạn bởi ô của khuôn trang.
+- Góp ý 4: thêm "Flanges PN25-40 / DN100 available on request." ở trang dải 65, 85 (nguồn tr.40, 42).
+- Mã dựng nay lấy gốc từ history/20261116T0456…Z_<HÃNG> - Bơm trục đứng CDLF/ (bản đã duyệt trước 16/11) qua lib.goc_cdlf().
+- doc_lai.py: 87/87 mã × 3 hãng đúng; DANH SACH khớp 62/62. DU_LIEU/CDLF.xlsx: 162 dòng ghi chú tốc độ đổi 2950 → 2900. Bản 3 chưa qua AI khác (thay đổi nhỏ, em tự xem 4 trang).

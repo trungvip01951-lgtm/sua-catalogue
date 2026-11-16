@@ -3,7 +3,7 @@
 Dùng: python dung_perotac.py <tệp ra>"""
 import sys, pymupdf, lib, so_lieu
 from lib import rgb, g, lmin
-GOC = lib.KHO + '/CATALOG SUA/CATALOGUE DA DUYET/PEROTAC/PEROTAC - Bơm trục đứng CDLF.pdf'
+GOC = lib.goc_cdlf('PEROTAC')
 FR, FB = lib.KHO + '/vendor/fonts/LiberationSans-Regular.ttf', lib.KHO + '/vendor/fonts/LiberationSans-Bold.ttf'
 NAVY, BLUE, TXT, GREY, WHITE, ROW, KE = rgb('13334D'), rgb('1A669E'), rgb('1F3847'), rgb('5C6E78'), (1, 1, 1), rgb('EDF4F9'), rgb('D6E0E5')
 D = so_lieu.doc(); goc = pymupdf.open(GOC); doc = pymupdf.open(GOC); T1, T2 = 10, 11
@@ -19,8 +19,9 @@ for dai, d in D.items():
     lib.xoa(pg, vung=[(434, 64, 771, 574), (210, 86, 432, 348), (22, 372, 434, 556)])
     lib.bieu_do(c, (486, 75, 762, 546), ms, d['Q'], dict(luoi=KE, co_truc=7.2, mau_truc=GREY, co_q=7.6, mau_q=NAVY, co_l=7.0, q_dy=4.1, l_dy=15.7, khung=GREY,
                 co_tieu_h=7.8, x_tieu_h=437.7, mau_duong=BLUE, net=1.0, co_nhan=7.0, mau_nhan=NAVY, dan=13, luoi_phu=True))
-    sk = f'sk{dai}.png'; w, h = lib.anh_so_do(dai, d, sk); H = 250; Wd = H * w / h
-    pg.insert_image(pymupdf.Rect(321 - Wd / 2, 92, 321 + Wd / 2, 92 + H), filename=sk)
+    sk = f'sk{dai}.png'; w, h = lib.anh_so_do(dai, d, sk); k_ = min(220 / w, 262 / h); Wd, H = w * k_, h * k_
+    pg.insert_image(pymupdf.Rect(321 - Wd / 2, 90, 321 + Wd / 2, 90 + H), filename=sk)
+    if dai in lib.BICH: c(24, 567.3, lib.BICH[dai], 7, False, GREY)
     rows = lib.gop_kich_thuoc(ms); y = 374; rh = min(12, (554 - 398) / len(rows)); xs = [24, 174, 225.6, 277.2, 328.8, 380.4, 432]
     pg.draw_rect(pymupdf.Rect(24, y, 432, y + 24), color=None, fill=NAVY)
     c(99, y + 7.7, 'MODEL', 7.8, True, WHITE, 'c'); c(303, y + 2.5, 'SIZE (mm)', 7.6, True, WHITE, 'c')
@@ -68,11 +69,12 @@ for i, (nhan, v) in enumerate(rows):
         for x, t in zip(xs, v): c(x, y + 1.6, t, 7.3, False, TXT, 'c')
     y += 11.2; p1.draw_line((24, y), (768, y), color=KE, width=0.5)
 print('đổi tiêu đề:', lib.doi_tieu_de(doc, FR, FB))
+print('bỏ "or 2950":', lib.bo_2950(doc, FR, FB))
 import cau_tao
-cau_tao.them(doc, goc, lambda pg: lib.Chu(pg, FR, FB), 1, dict(x=24, w=236, y1=72.4, y2=334.4, bang_dy=17.6, anh=(42, 92, 242, 326), vung=(22, 64, 770, 585), trang_ma=0,
-    chu=[(420, 34, 770, 46)], viet=[(768, 35.9, 'Light stainless steel vertical multi-stage centrifugal pump  |  50 Hz  |  n ≈ 2950 /min', 7.8, False, TXT, 'r')],
+cau_tao.them(doc, goc, lambda pg: lib.Chu(pg, FR, FB), 1, dict(x=24, w=236, x2=278, y1=72.4, y2=334.4, bang_dy=17.6, anh=(24, 94, 260, 500), vung=(22, 64, 770, 585), trang_ma=0,
+    chu=[(420, 34, 770, 46)], viet=[(768, 35.9, 'Light stainless steel vertical multi-stage centrifugal pump  |  50 Hz  |  n ≈ 2900 /min', 7.8, False, TXT, 'r')],
     hd=dict(co=8.4, mau=BLUE), bang=dict(nen_dau=NAVY, chu_dau=WHITE, cot=[4, 22, 108, 170], rh=9.6, co=7, chu=TXT, ke=KE, ghi=GREY, soc=ROW),
-    ma=dict(x=278, y=72.4, w=236, d0=16.7, p=9.2, dx=26, co_k=7.6, co_t=7.3, mau_k=NAVY, mau_vd=GREY, mau_t=TXT)))
+    ma=dict(x=532, y=72.4, w=236, d0=16.7, p=9.2, dx=26, co_k=7.6, co_t=7.3, mau_k=NAVY, mau_vd=GREY, mau_t=TXT)))
 N = doc.page_count
 for i, pg in enumerate(doc):
     lib.xoa(pg, chu=[(700, 591, 770, 603)]); c = lib.Chu(pg, FR, FB); c(768, 593.3, f'{i + 1:02d} / {N}', 7.4, False, GREY, 'r')
