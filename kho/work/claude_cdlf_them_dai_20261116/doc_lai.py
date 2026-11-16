@@ -4,7 +4,7 @@ D = so_lieu.doc(); KQ = []
 def spans(p): return [s for b in p.get_text('dict')['blocks'] for l in b.get('lines', []) for s in l['spans'] if s['text'].strip()]
 for h in ('REDPUMP', 'PEROTAC', 'AQUARIS'):
     moi = pymupdf.open(f'{h} - Bơm trục đứng CDLF.pdf'); goc = pymupdf.open(f'{lib.KHO}/CATALOG SUA/CATALOGUE DA DUYET/{h}/{h} - Bơm trục đứng CDLF.pdf'); n0 = goc.page_count
-    SP = {i: spans(moi[i]) for i in range(n0, moi.page_count)}
+    SP = {i: spans(moi[i]) for i in range(n0 + 1, moi.page_count)}
     def cung_dong(ten):      # các dãy chữ nằm cùng dòng (lệch tâm ≤ 3 pt), bên phải mỗi chỗ xuất hiện tên
         out = []
         for i, ss in SP.items():
@@ -30,9 +30,11 @@ for h in ('REDPUMP', 'PEROTAC', 'AQUARIS'):
             if not any(r[:5] == [str(v) for v in dim] for r in ung): sai += 1; print(h, 'DIM không khớp', ten, ung[:2])
     # trang cũ
     doi = []
+    chen = 3 if h == 'REDPUMP' else 2      # trang cấu tạo CDLF 120/150/200 chèn ở chỉ số này
     for i in range(n0):
-        a = [s['text'] for s in spans(goc[i])]; b = [s['text'] for s in spans(moi[i])]
+        j = i + (1 if i >= chen else 0)
+        a = [s['text'] for s in spans(goc[i])]; b = [s['text'] for s in spans(moi[j])]
         if sorted(a) != sorted(b): doi.append((i + 1, len(set(a) ^ set(b))))
-        da, db = len(goc[i].get_drawings()), len(moi[i].get_drawings()); ia, ib = len(goc[i].get_image_info()), len(moi[i].get_image_info())
+        da, db = len(goc[i].get_drawings()), len(moi[j].get_drawings()); ia, ib = len(goc[i].get_image_info()), len(moi[j].get_image_info())
         if (da, ia) != (db, ib) and i != 0: print(h, 'tr.', i + 1, 'nét/ảnh đổi', da, db, ia, ib)
     print(h, 'model đã so', dem, '| sai', sai, '| trang cũ có chữ khác (trang, số chuỗi khác):', doi)

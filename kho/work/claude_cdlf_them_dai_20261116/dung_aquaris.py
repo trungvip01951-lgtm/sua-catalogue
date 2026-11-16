@@ -77,6 +77,10 @@ for nhan, v in rows:
     y += 25; p1.draw_line((380, y), (1167, y), color=KE, width=0.5)
 p1.draw_line((380, y), (1167, y), color=XANH, width=1.1)
 print('đổi tiêu đề:', lib.doi_tieu_de(doc, FR, FB))
+import cau_tao
+cau_tao.them(doc, goc, lambda pg: lib.Chu(pg, FR, FB), 1, dict(x=40, w=357, y1=117.5, y2=483.5, bang_dy=18.5, anh=(70, 142, 370, 462), vung=(38, 104, 1169, 760), trang_ma=0,
+    hd=dict(co=9.4, mau=XANH), bang=dict(nen_dau=NEN, chu_dau=XANH, cot=[4, 30, 162, 258], rh=13, co=8, chu=TXT, ke=KE, ghi=XAM, co_ghi=7.6),
+    ma=dict(x=486, y=117.5, w=357, d0=19, p=11, dx=30, co_k=8.3, co_t=8.0, mau_k=XANH, mau_vd=XAM, mau_t=TXT)))
 N = doc.page_count
 for i, pg in enumerate(doc):
     lib.xoa(pg, chu=[(1100, 800, 1169, 814)]); c = lib.Chu(pg, FR, FB); c(1167, 802.8, f'{i + 1:02d} / {N}', 8, False, XAM, 'r')

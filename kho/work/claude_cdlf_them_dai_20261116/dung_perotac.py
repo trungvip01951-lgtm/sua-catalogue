@@ -68,6 +68,11 @@ for i, (nhan, v) in enumerate(rows):
         for x, t in zip(xs, v): c(x, y + 1.6, t, 7.3, False, TXT, 'c')
     y += 11.2; p1.draw_line((24, y), (768, y), color=KE, width=0.5)
 print('đổi tiêu đề:', lib.doi_tieu_de(doc, FR, FB))
+import cau_tao
+cau_tao.them(doc, goc, lambda pg: lib.Chu(pg, FR, FB), 1, dict(x=24, w=236, y1=72.4, y2=334.4, bang_dy=17.6, anh=(42, 92, 242, 326), vung=(22, 64, 770, 585), trang_ma=0,
+    chu=[(420, 34, 770, 46)], viet=[(768, 35.9, 'Light stainless steel vertical multi-stage centrifugal pump  |  50 Hz  |  n ≈ 2950 /min', 7.8, False, TXT, 'r')],
+    hd=dict(co=8.4, mau=BLUE), bang=dict(nen_dau=NAVY, chu_dau=WHITE, cot=[4, 22, 108, 170], rh=9.6, co=7, chu=TXT, ke=KE, ghi=GREY, soc=ROW),
+    ma=dict(x=278, y=72.4, w=236, d0=16.7, p=9.2, dx=26, co_k=7.6, co_t=7.3, mau_k=NAVY, mau_vd=GREY, mau_t=TXT)))
 N = doc.page_count
 for i, pg in enumerate(doc):
     lib.xoa(pg, chu=[(700, 591, 770, 603)]); c = lib.Chu(pg, FR, FB); c(768, 593.3, f'{i + 1:02d} / {N}', 7.4, False, GREY, 'r')
