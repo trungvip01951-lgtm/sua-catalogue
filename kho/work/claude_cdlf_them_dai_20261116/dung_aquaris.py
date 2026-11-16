@@ -79,6 +79,7 @@ for nhan, v in rows:
 p1.draw_line((380, y), (1167, y), color=XANH, width=1.1)
 print('đổi tiêu đề:', lib.doi_tieu_de(doc, FR, FB))
 print('bỏ "or 2950":', lib.bo_2950(doc, FR, FB))
+print('đầu bơm → inox:', lib.dau_bom_inox(doc, FR, FB), 'dòng')
 import cau_tao
 cau_tao.them(doc, goc, lambda pg: lib.Chu(pg, FR, FB), 1, dict(x=40, w=357, x2=425, y1=117.5, y2=483.5, bang_dy=18.5, anh=(40, 142, 397, 700), vung=(38, 104, 1169, 760), trang_ma=0,
     hd=dict(co=9.4, mau=XANH), bang=dict(nen_dau=NEN, chu_dau=XANH, cot=[4, 30, 162, 258], rh=13, co=8, chu=TXT, ke=KE, ghi=XAM, co_ghi=7.6),

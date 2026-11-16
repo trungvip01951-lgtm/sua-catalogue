@@ -77,6 +77,7 @@ for i0, i1 in ((0, 6), (6, 13)):
 assert y - 14 < 588, y
 print('đổi tiêu đề:', lib.doi_tieu_de(doc, FR, FB))
 print('bỏ "or 2950":', lib.bo_2950(doc, FR, FB))
+print('đầu bơm → inox:', lib.dau_bom_inox(doc, FR, FB), 'dòng')
 import cau_tao
 cau_tao.them(doc, goc, lambda pg: lib.Chu(pg, FR, FB), 2, dict(x=226, w=260, y1=74.4, y2=364.4, bang_dy=17.6, anh=(256, 94, 456, 358), vung=(224, 60, 770, 588),
     chu=[pymupdf.Rect(_s['bbox']) for _s in lib._spans(goc[2]) if _s['bbox'][0] < 200 and _s['text'].strip() == 'CDLF 32, 42'] + [(224, 39.5, 420, 47)],

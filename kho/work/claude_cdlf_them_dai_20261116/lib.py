@@ -188,3 +188,19 @@ def bo_2950(doc, FR, FB):
         for s in viec:
             col = s['color']; c(s['bbox'][0], s['bbox'][1] + (s['bbox'][3] - s['bbox'][1] - s['size'] * 1.117) / 2, s['text'].rstrip().replace(' or 2950', ''), s['size'], 'Bold' in s['font'], ((col >> 16) / 255, (col >> 8 & 255) / 255, (col & 255) / 255)); n += 1
     return n
+
+def dau_bom_inox(doc, FR, FB):
+    """QĐ 189 "Cdlf vật liệu đầu bơm vẫn phải là inox": mọi dòng 'Pump head' đang ghi 'Cast iron | ASTM25B' → 'Stainless steel | AISI304'."""
+    n = 0
+    for pg in list(doc)[:5]:
+        ss = _spans(pg); viec = []
+        for s in ss:
+            if s['text'].strip() != 'Pump head': continue
+            yc = (s['bbox'][1] + s['bbox'][3]) / 2
+            cung = sorted([t for t in ss if abs((t['bbox'][1] + t['bbox'][3]) / 2 - yc) < 2 and 0 < t["bbox"][0] - s["bbox"][0] < 260], key=lambda t: t['bbox'][0])
+            if [t['text'].strip() for t in cung[:2]] == ['Cast iron', 'ASTM25B']: viec += [(cung[0], 'Stainless steel'), (cung[1], 'AISI304')]
+        if not viec: continue
+        xoa(pg, chu=[pymupdf.Rect(t['bbox']) + (-0.5, 0.5, 0.5, -0.5) for t, _ in viec]); c = Chu(pg, FR, FB)
+        for t, moi in viec:
+            col = t['color']; c(t['bbox'][0], t['bbox'][1] + (t['bbox'][3] - t['bbox'][1] - t['size'] * 1.117) / 2, moi, t['size'], 'Bold' in t['font'], ((col >> 16) / 255, (col >> 8 & 255) / 255, (col & 255) / 255)); n += 1
+    return n // 2

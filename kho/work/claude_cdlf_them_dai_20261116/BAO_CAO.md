@@ -38,3 +38,10 @@ Lời anh: "124 / Tốc độ để 2900 hết cho a". Bản chính: REDPUMP b14
 - Góp ý 4: thêm "Flanges PN25-40 / DN100 available on request." ở trang dải 65, 85 (nguồn tr.40, 42).
 - Mã dựng nay lấy gốc từ history/20261116T0456…Z_<HÃNG> - Bơm trục đứng CDLF/ (bản đã duyệt trước 16/11) qua lib.goc_cdlf().
 - doc_lai.py: 87/87 mã × 3 hãng đúng; DANH SACH khớp 62/62. DU_LIEU/CDLF.xlsx: 159 dòng (53 mã dải 120–200 × 3 hãng) ghi chú tốc độ đổi 2950 → 2900. Bản 3 chưa qua AI khác (thay đổi nhỏ, em tự xem 4 trang).
+
+
+## Bản 4 (16/11/2026, QĐ 189)
+
+- Anh: "Cdlf vật liệu đầu bơm vẫn phải là inox". Trang 2 cả 3 hãng: dòng Pump head ở bảng CDLF 2, 4 và CDLF 8, 12, 16, 20 đổi Cast iron/ASTM25B → Stainless steel/AISI304 (lib.dau_bom_inox). Mác AISI304 SUY RA từ dòng Pump head của bảng 32–85, 120–200.
+- Kiểm: chỉ trang 2 khác chữ so với bản 3; số chữ "Cast iron" 7 → 5 mỗi hãng (còn Base plate ×3, Bracket ×2); doc_lai.py 87/87 × 3 hãng; số trang 24/23/22 không đổi.
+- Bản chính: REDPUMP af924a6db10f, PEROTAC 5c6d3b4f7e7f, AQUARIS f347456adf3f.

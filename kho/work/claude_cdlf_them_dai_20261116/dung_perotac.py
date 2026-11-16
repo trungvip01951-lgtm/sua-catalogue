@@ -70,6 +70,7 @@ for i, (nhan, v) in enumerate(rows):
     y += 11.2; p1.draw_line((24, y), (768, y), color=KE, width=0.5)
 print('đổi tiêu đề:', lib.doi_tieu_de(doc, FR, FB))
 print('bỏ "or 2950":', lib.bo_2950(doc, FR, FB))
+print('đầu bơm → inox:', lib.dau_bom_inox(doc, FR, FB), 'dòng')
 import cau_tao
 cau_tao.them(doc, goc, lambda pg: lib.Chu(pg, FR, FB), 1, dict(x=24, w=236, x2=278, y1=72.4, y2=334.4, bang_dy=17.6, anh=(24, 94, 260, 500), vung=(22, 64, 770, 585), trang_ma=0,
     chu=[(420, 34, 770, 46)], viet=[(768, 35.9, 'Light stainless steel vertical multi-stage centrifugal pump  |  50 Hz  |  n ≈ 2900 /min', 7.8, False, TXT, 'r')],
