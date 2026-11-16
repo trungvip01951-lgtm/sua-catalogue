@@ -37,4 +37,4 @@ Lời anh: "124 / Tốc độ để 2900 hết cho a". Bản chính: REDPUMP b14
 - Góp ý 2: hình lắp đặt cắt sát lề trắng và đặt to hết ô (PEROTAC cao tới 262 pt, AQUARIS 300 pt) — to hơn khoảng 5–10 %, bị giới hạn bởi ô của khuôn trang.
 - Góp ý 4: thêm "Flanges PN25-40 / DN100 available on request." ở trang dải 65, 85 (nguồn tr.40, 42).
 - Mã dựng nay lấy gốc từ history/20261116T0456…Z_<HÃNG> - Bơm trục đứng CDLF/ (bản đã duyệt trước 16/11) qua lib.goc_cdlf().
-- doc_lai.py: 87/87 mã × 3 hãng đúng; DANH SACH khớp 62/62. DU_LIEU/CDLF.xlsx: 162 dòng ghi chú tốc độ đổi 2950 → 2900. Bản 3 chưa qua AI khác (thay đổi nhỏ, em tự xem 4 trang).
+- doc_lai.py: 87/87 mã × 3 hãng đúng; DANH SACH khớp 62/62. DU_LIEU/CDLF.xlsx: 159 dòng (53 mã dải 120–200 × 3 hãng) ghi chú tốc độ đổi 2950 → 2900. Bản 3 chưa qua AI khác (thay đổi nhỏ, em tự xem 4 trang).
