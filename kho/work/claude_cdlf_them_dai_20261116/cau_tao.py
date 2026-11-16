@@ -11,7 +11,7 @@ VL = [('1', 'Bracket', 'Cast iron', 'ASTM25B'), ('2', 'Pump head', 'Stainless st
       ('14', 'Cylinder', 'Stainless steel', 'AISI304'), ('15', 'Coupling', 'Carbon steel', ''), ('–', 'Rubber parts', 'NBR', '')]
 MA = [('200', 'Rated flow (m³/h)'), ('3', 'Number of stages'), ('A', 'One small impeller, type A (2A = two)'), ('B', 'One small impeller, type B (2B = two)'), ('T', 'Three-phase 3~ 380–415 V')]
 def anh(out='sec120.png'):
-    pg = pymupdf.open('nguon_CDL.pdf')[9]; pm = pg.get_pixmap(dpi=300, clip=pymupdf.Rect(98, 446, 264, 712), colorspace=pymupdf.csGRAY)
+    pg = pymupdf.open('nguon_CDL.pdf')[9]; pm = pg.get_pixmap(dpi=300, clip=pymupdf.Rect(98, 446, 264, 724), colorspace=pymupdf.csGRAY)
     a = np.frombuffer(pm.samples, np.uint8).reshape(pm.height, pm.width).copy(); a[a > 140] = 255      # bỏ nền ảnh mờ của trang nguồn, giữ nét vẽ
     cv2.imwrite(out, a); return out, pm.width, pm.height
 def them(doc, goc, c_lop, k, st):

@@ -18,7 +18,7 @@ Mốc đọc nhanh đầu phiên, không phải sổ tiến độ. Thẩm quyề
 | Quy tắc, hồ sơ hãng, chuẩn trình bày, nhật ký quyết định, lỗi đã gặp | rules/ |
 | Số liệu từng nhóm (một nguồn cho bảng + đường) | DU_LIEU/<nhóm>.xlsx (đọc DU_LIEU/README.md) |
 | Ảnh tách từ bản đã duyệt | KHO_ANH/<nhóm>/<mã băm>.<đuôi> + KHO_ANH/DANH_MUC.csv |
-| 62 PDF anh đã duyệt | CATALOG SUA/CATALOGUE DA DUYET/<HÃNG>/ + DANH SACH.txt (mã kiểm khớp 62/62, đo 14/11) |
+| 62 PDF anh đã duyệt | CATALOG SUA/CATALOGUE DA DUYET/<HÃNG>/ + DANH SACH.txt (mã kiểm khớp 62/62, đo 16/11) |
 | Catalogue riêng theo báo giá (mã dựng, xlsx, báo cáo, PDF) | work/claude_<việc>_<ngày>/ |
 | Bản chính 25 catalogue gốc / nguồn bất biến | CATALOG SUA/BẢN MỚI 03-10-2026 (ChatGPT)/ ; BẢN MỚI 01-10-2026, NGUON BO SUNG … |
 | Công cụ | tools/ (ve_duong_cong.py, kiem_catalogue.py, nhan_ban_chinh.py, niem_phong.py) |
@@ -38,7 +38,7 @@ Catalogue riêng đã giao, chờ anh duyệt hoặc trả lời (chi tiết + c
 
 | Ngày | Catalogue (hãng) | Thư mục work/ | Bản mới nhất |
 |---|---|---|---|
-| 16/11 | CDLF thêm dải 65–200, 3 hãng (vá bản đã duyệt) | claude_cdlf_them_dai_20261116 | 1 — chờ duyệt |
+| 16/11 | CDLF thêm dải 65–200 + trang cấu tạo 120/150/200, 3 hãng | claude_cdlf_them_dai_20261116 | ĐÃ NHẬN BẢN CHÍNH (QĐ 187); mã dựng: dung_<hãng>.py + lib.py |
 | 14/11 | 50GDL18-15×9 (REDPUMP) | claude_gdl_redpump_20261114 | 1 — hỏi ảnh, điện áp |
 | 13/11 | WC 150WC/200WC 37–132 kW, 14 mã (REDPUMP) | claude_wc_redpump_20261113 | 3, tiếng Anh + tiếng Việt |
 | 03/11 | TKP600 / TKP800 (REDPUMP) | claude_tkp_redpump_20261103 | 1 |

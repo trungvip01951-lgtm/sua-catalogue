@@ -122,7 +122,10 @@ def dac_tinh(dai, d):
 def anh_so_do(dai, d, out):
     """Cắt hình lắp đặt từ trang nguồn (300 dpi, xám)."""
     src = pymupdf.open('nguon_CDL.pdf'); pg = src[d['trang'] - 1]
-    pm = pg.get_pixmap(dpi=300, clip=pymupdf.Rect(66, 442, 272, 744), colorspace=pymupdf.csGRAY); pm.save(out); return pm.width, pm.height
+    pm = pg.get_pixmap(dpi=300, clip=pymupdf.Rect(66, 435, 272, 744), colorspace=pymupdf.csGRAY)
+    a = np.frombuffer(pm.samples, np.uint8).reshape(pm.height, pm.width).copy(); k = 300 / 72
+    a[:int(7 * k), :int((128 - 66) * k)] = 255      # xoá phần đuôi tiêu đề chữ Trung "安装图" lọt vào góc trên trái; giữ trọn chữ D2 (lỗi nghiệm thu 16/11)
+    import cv2; cv2.imwrite(out, a); return pm.width, pm.height
 
 # ---------------------------------------------------------------- trang đầu: bảng PRODUCT RANGE + tiêu đề cấu tạo
 def _spans(p, clip=None):

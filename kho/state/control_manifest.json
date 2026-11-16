@@ -1,5 +1,5 @@
 {
-  "sealed_utc": "2026-11-16T04:18:57.019356+00:00",
+  "sealed_utc": "2026-11-16T04:57:23.332712+00:00",
   "files": [
     {
       "relative_path": "README.md",
@@ -288,8 +288,8 @@
     },
     {
       "relative_path": "rules/LOI_DA_GAP.md",
-      "sha256": "3f43e84fee22018c7fc8413b4fe3eb12f604ad1bdb637d063fce3f80b0c4066b",
-      "bytes": 10974
+      "sha256": "f6ea9085f275c6ce2db64492557b8660aa0513b158a6be1698d49f21397aec32",
+      "bytes": 11403
     },
     {
       "relative_path": "tools/kiem_catalogue.py",

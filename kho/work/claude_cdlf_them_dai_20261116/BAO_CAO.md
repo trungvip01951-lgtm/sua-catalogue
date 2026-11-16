@@ -17,3 +17,15 @@ Số liệu (so_lieu.py): 87 mã = 22 + 12 + 19 + 17 + 17, NGUỒN nguon_CDL.pdf
 - CHƯA LÀM / chờ anh: (1) trang cấu tạo – vật liệu riêng cho CDLF 120/150/200 (nguồn tr.10 có bản vẽ và bảng vật liệu khác); (2) giải thích hậu tố A/B của dải 200 trong khối MODEL DESIGNATION (nguồn tr.6); (3) ảnh bơm riêng cho dải lớn.
 - Kiểm: doc_lai.py — 87/87 mã × 3 hãng đọc lại đúng kW, HP, dãy H, kích thước; trang cũ chỉ khác số trang (trừ tr.1–3 sửa chủ ý). kiem_catalogue --goc: lỗi còn lại trên trang mới đều là kiểu có sẵn của bản đã duyệt (biểu đồ > 8 đường, chữ chú thích 7 pt, ảnh/logo < 200 ppi) vì giữ khuôn cũ theo QĐ 152; không lỗi kiểu mới. Đã xem toàn bộ trang mới của 3 hãng. Chưa có AI khác kiểm thẩm mỹ.
 - DU_LIEU gốc CHƯA đổi; bản sao đã thêm 261 dòng MODEL + 2.289 dòng QH: CDLF_them_dai.xlsx (ghi vào DU_LIEU/CDLF.xlsx khi anh duyệt).
+
+## Bản 2 (16/11/2026) — QĐ 187: ĐÃ NHẬN BẢN CHÍNH
+Anh chọn "1.1 2.1 3.1". Thêm so với bản 1: trang cấu tạo – vật liệu CDLF 120, 150, 200 (hình cắt + 15 dòng vật liệu từ nguồn tr.10, bản CDLF: mục 2, 8 inox) và khối MODEL DESIGNATION CDLF 200 (nguồn tr.6: A/B = cánh nhỏ kiểu A/B; 2A/2B = hai cánh) — chèn sau trang cấu tạo cũ (REDPUMP tr.4, PEROTAC và AQUARIS tr.3). Từ mới dịch: 出水体 = Discharge body, 轴套 = Shaft sleeve; các từ khác dùng đúng từ của bảng CDLF 32, 42 đã duyệt.
+| Tệp | SHA256 bản chính | Trang |
+|---|---|---|
+| REDPUMP - Bơm trục đứng CDLF 2.pdf | 226e4be21956 | 24 |
+| PEROTAC - Bơm trục đứng CDLF 2.pdf | 744a9988ebaf | 23 |
+| AQUARIS - Bơm trục đứng CDLF 2.pdf | 4bf11d518f37 | 22 |
+- Nghiệm thu độc lập (AI khác, xem ảnh trang thật + so 37 ô/hàng với nguồn): số liệu ĐẠT 37/37, ba hãng giống hệt số, không sót chữ CDLF42, số trang đúng, đường cong ĐẠT, khác giao diện 3 hãng ĐẠT. CHƯA ĐẠT 2 chỗ → ĐÃ SỬA trong bản 2: hình lắp đặt dải 85–200 cắt mất nửa chữ "D2"; hình cắt cấu tạo cắt sát đáy đế. Góp ý không sửa (ghi lại): trang cấu tạo PEROTAC/AQUARIS còn trống 1/3 phải; chữ số trong hình lắp đặt nhỏ; trang 1 vẫn ghi "n ≈ 2900 /min" chung (ghi chú đã nêu 2900 hoặc 2950); nguồn có câu "bích PN25-40/DN100 theo yêu cầu" cho dải 65/85 chưa đưa vào.
+- Nhận bản chính bằng tools/nhan_ban_chinh.py: bản cũ sao lưu history/20261116T0456…Z_<HÃNG> - Bơm trục đứng CDLF/; DANH SACH.txt khớp 62/62; sổ TIEN DO có 3 dòng mới.
+- DU_LIEU/CDLF.xlsx: thêm 261 dòng MODEL (87 mã × 3 hãng) + 2.289 dòng QH; bản trước: history/DU_LIEU_CDLF_truoc_QD187_20261116.xlsx. Kích thước ghi trong cột thong_so_khac.
+- doc_lai.py trên bản 2: 87/87 mã × 3 hãng đúng; trang cũ chỉ khác số trang.

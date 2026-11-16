@@ -18,3 +18,4 @@ Lưu ý đã biết:
 - THONG_TIN so_cuc / toc_do_vg_ph nên là SỐ trơn (2, 2900); chữ giải thích để ở cột nguon. Nguồn không ghi cả hai thì điền "KHÔNG GHI" vào cả hai ô để khối điều kiện dưới biểu đồ bỏ cụm số cực – tốc độ (14/11/2026).
 - PEROTAC dùng tiền tố SS cho bơm giếng 2/2.5/3 inch (AQUARIS, REDPUMP dùng SA).
 - Cột cân nặng (nếu PDF có) chỉ để tham khảo — không đưa lên catalogue mới.
+- CDLF (16/11/2026, QĐ 186–187): thêm dải CDLF65, 85, 120, 150, 200 (87 mã mỗi hãng, chỉ 3 pha) từ catalogue CDL nhà cung cấp; tốc độ 2900 /min (65, 85) và 2950 /min (120–200) ghi ở cột thong_so_khac cùng bộ kích thước; THONG_TIN.toc_do_vg_ph vẫn là 2900 của các dải cũ.
